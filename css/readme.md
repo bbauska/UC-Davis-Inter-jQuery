@@ -1,0 +1,1 @@
+Styles written in CSS.
