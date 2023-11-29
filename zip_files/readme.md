@@ -1,1 +1,1 @@
-
+Attached is a zip file of the the things you need to begin this exercise. A zip file is defined as: a computer file whose contents include one or more files that are compressed for storage or transmission, often carrying the extension .ZIP. 
