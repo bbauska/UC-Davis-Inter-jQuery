@@ -39,9 +39,11 @@ be able to use it to build basic and more advanced image sliders.</p>
   3.	Introduction to jQuery Plugins
   4.	Using Plugins and Essential Steps
   5.	Gotchas and Rookie Mistakes
+
     •	Reading: 1.05.jQueryPlugins.pdf
     •	zip_files: 1.05.FlexSliderBasic-Start.zip
     •	zip_files: 1.05.FlexSliderPlugin.zip
+    
   7.	FlexSlider: A jQuery Plugin
   8.	About the Minified Version
   9.	Adding Markup & Hooking Up the Slider
@@ -50,6 +52,7 @@ be able to use it to build basic and more advanced image sliders.</p>
   12.	Advanced FlexSlider
   13.	Additional Styling
   14.	Styling the CTA
+
     •	Reading: 1.13.FlexSlider.pdf
 
 
