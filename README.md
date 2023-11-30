@@ -33,20 +33,25 @@ be able to use it to build basic and more advanced image sliders.</p>
 
 <h5>13 videos, 3 readings, 2 zip files</h5>
   •	Reading: A Note from UC Davis
-1.	Welcome to this Course!
-2.	Module Introduction
-3.	Introduction to jQuery Plugins
-4.	Using Plugins and Essential Steps
-5.	Gotchas and Rookie Mistakes
-  •	Reading: 1.05.jQueryPlugins.pdf
-  •	zip_files: 1.05.FlexSliderBasic-Start.zip
-  •	zip_files: 1.05.FlexSliderPlugin.zip
-7.	FlexSlider: A jQuery Plugin
-8.	About the Minified Version
-9.	Adding Markup & Hooking Up the Slider
-10.	FlexSlider Rules
-11.	Additional Controls
-12.	Advanced FlexSlider
-13.	Additional Styling
-14.	Styling the CTA
-  •	Reading: 1.13.FlexSlider.pdf
+
+  1.	Welcome to this Course!
+  2.	Module Introduction
+  3.	Introduction to jQuery Plugins
+  4.	Using Plugins and Essential Steps
+  5.	Gotchas and Rookie Mistakes
+    •	Reading: 1.05.jQueryPlugins.pdf
+    •	zip_files: 1.05.FlexSliderBasic-Start.zip
+    •	zip_files: 1.05.FlexSliderPlugin.zip
+  7.	FlexSlider: A jQuery Plugin
+  8.	About the Minified Version
+  9.	Adding Markup & Hooking Up the Slider
+  10.	FlexSlider Rules
+  11.	Additional Controls
+  12.	Advanced FlexSlider
+  13.	Additional Styling
+  14.	Styling the CTA
+    •	Reading: 1.13.FlexSlider.pdf
+
+
+
+
