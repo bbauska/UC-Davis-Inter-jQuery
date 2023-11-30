@@ -44,14 +44,14 @@ be able to use it to build basic and more advanced image sliders.</p>
   - zip_files: 1.05.FlexSliderBasic-Start.zip
   - zip_files: 1.05.FlexSliderPlugin.zip
     
-  7.	FlexSlider: A jQuery Plugin
-  8.	About the Minified Version
-  9.	Adding Markup & Hooking Up the Slider
-  10.	FlexSlider Rules
-  11.	Additional Controls
-  12.	Advanced FlexSlider
-  13.	Additional Styling
-  14.	Styling the CTA
+  6.	FlexSlider: A jQuery Plugin
+  7.	About the Minified Version
+  8.	Adding Markup & Hooking Up the Slider
+  9.	FlexSlider Rules
+  10.	Additional Controls
+  11.	Advanced FlexSlider
+  12.	Additional Styling
+  13.	Styling the CTA
 
   - Reading: 1.13.FlexSlider.pdf
 
