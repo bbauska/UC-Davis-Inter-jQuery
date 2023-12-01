@@ -8,154 +8,192 @@ page-type: JavaScript & jQuery
 <h1>v2 - Interactivity with JavaScript & jQuery</h1>
 <h6>taught by William Mead, Lecturer</h6>
 
-The &lt;head&gt; of an HTML document is the part that is not displayed in the web browser when the page is loaded. It contains information such 
-as the page <b>title</b>, links to glossary("CSS")
-(if you choose to style your HTML content with CSS), links to custom favicons, and other metadata (data about the HTML, such as the author, and 
-important keywords that describe the document). Web browsers use information contained in the {&lt;head&gt;  to render the HTML document correctly. 
-In this article we'll cover all of the above and more, in order to give you a good basis for working with markup.
+<p>The &lt;head&gt; of an HTML document is the part that is not displayed in the web browser when the page is loaded. 
+It contains information such as the page <b>title</b>, links to glossary("CSS") (if you choose to style your HTML
+content with CSS), links to custom favicons, and other metadata (data about the HTML, such as the author, and 
+important keywords that describe the document). Web browsers use information contained in the {&lt;head&gt;  
+to render the HTML document correctly.  In this article we'll cover all of the above and more, in order to give 
+you a good basis for working with markup.</p>
 
 <h3>About this Course</h3>
 
-This course is the third in our JavaScript for Beginners Specialization. The scripts will become more complex and introduce more complex jQuery 
-plugins. You will have several challenges to practice your skills throughout the course. The course objectives include how to identify objects 
-in JavaScript; create new objects and populate them with data; manipulate objects by adding, modifying and deleting data in objects; manipulate 
-the DOM based on the data in objects; identify and articulate how multiple functions work together to create a more complex program; and identify 
-processes for breaking larger programs into smaller, more manageable pieces.
+<p>This course is the third in our JavaScript for Beginners Specialization. The 
+scripts will become more complex and introduce more complex jQuery plugins. You 
+will have several challenges to practice your skills throughout the course.</p>
+<p>The course objectives include how to identify objects in JavaScript; create 
+new objects and populate them with data; manipulate objects by adding, modifying 
+and deleting data in objects; manipulate the DOM based on the data in objects; 
+identify and articulate how multiple functions work together to create a more complex 
+program; and identify processes for breaking larger programs into smaller, more 
+manageable pieces.</p>
 
 <h2>Syllabus</h2>
 
 <h3>Week One:</h3>
+
 <h4>Getting Started & jQuery Plugins and Capturing the Scroll Event</h4>
 
-<p>In this module, you will be introduced to jQuery plugins and be able to present the advantages and challenges associated with using jQuery plugins. 
-You will also be able to recognize common mistakes to avoid when using jQuery plugins. You will be introduced to the Flexslider jQuery plugin and 
-be able to use it to build basic and more advanced image sliders.</p>
+<p>In this module (1), you will be introduced to jQuery plugins and be able to 
+present the advantages and challenges associated with using jQuery plugins. 
+You will also be able to recognize common mistakes to avoid when using jQuery plugins. 
+You will be introduced to the Flexslider jQuery plugin and be able to use it to build 
+basic and more advanced image sliders.</p>
 
 <h5>13 videos, 3 readings, 2 zip files</h5>
-  - Reading: A Note from UC Davis
 
-  1.	Welcome to this Course!
-  2.	Module Introduction
-  3.	Introduction to jQuery Plugins
-  4.	Using Plugins and Essential Steps
-  5.	Gotchas and Rookie Mistakes
+    Reading: A Note from UC Davis
+
+  1. Welcome to this Course!
+  2. Module Introduction
+  3. Introduction to jQuery Plugins
+  4. Using Plugins and Essential Steps
+  5. Gotchas and Rookie Mistakes
 
   - Reading: 1.05.jQueryPlugins.pdf
   - zip_files: 1.05.FlexSliderBasic-Start.zip
   - zip_files: 1.05.FlexSliderPlugin.zip
     
-  6.	FlexSlider: A jQuery Plugin
-  7.	About the Minified Version
-  8.	Adding Markup & Hooking Up the Slider
-  9.	FlexSlider Rules
-  10.	Additional Controls
-  11.	Advanced FlexSlider
-  12.	Additional Styling
-  13.	Styling the CTA
+  6. FlexSlider: A jQuery Plugin
+  7. About the Minified Version
+  8. Adding Markup & Hooking Up the Slider
+  9. FlexSlider Rules
+  10. Additional Controls
+  11. Advanced FlexSlider
+  12. Additional Styling
+  13. Styling the CTA
 
   - Reading: 1.13.FlexSlider.pdf
 
-Module Two: 
-Combining Scripts and Skill Building Through Practice
-In this module, you will be able to use jQuery to create a smooth scroll effect for in-page navigation, as well as develop a script, using jQuery, that keeps track of scroll positions on the page. You will be able to compare and contrast the in-page smooth scroll script and the location tracking script created using jQuery with one created using plain JavaScript. You will be able to build a webpage using HTML and CSS that will combine some of the different scripts created in this course. You will be able to combine some of the different scripts and jQuery plugins explored in this course into the Scription webpage through a series of challenges.
+<h3>Week Two:</h3>
 
-39 videos, 5 readings, 7 zip files
-1.	Module 2 Introduction (:38)
-2.	Introduction to Smooth Scroll with jQuery (4:15)
-•	zip_files: 2.02.jQueryScrollEffects-START.zip
-3.	Creating a Click Handler (5:00)
-4.	Adding the Animation (6:56)
-5.	Add Some Easing and a Callback Function (4:05)
-6.	Highlighting Elements (5:22)
-•	Reading: 2.06.jQuerySmoothScroll.pdf
-7.	Introduction to Page Location Tracking (8:00)
-8.	The Crux of the Problem (6:09)
-9.	Strategy (8:27)
-10.	Adding PageTop and If Statements (5:39)
-11.	Writing the Else/If Statement - Part 1 (4:10)
-12.	Writing the Else/If Statement - Part 2 (5:43)
-13.	Edge Case Issues (5:07)
-14.	Resizing Your Windows (5:41)
-15.	Resetting the Counter (5:22)
-16.	resetPagePosition Function (8:33)
-17.	Reviewing the Whole Script (5:48)
-•	Reading: 2.17.jQueryPageLocationTracking.pdf (10 min’s)
-18.	Introduction to Scroll Effects with JS (6:04)
-•	zip_files: 2.18.ScrollEffects-START.zip
-19.	Getting the Target - Part 1 (4:50)
-20.	Getting the Target - Part 2 (5:15)
-21.	Smooth Scroll Polyfill (4:45)
-22.	Checking the Load (6:48)
-23.	Top Posts (5:35)
-24.	Add an Event Listener (5:42)
-25.	The Magic Conditionals (5:58)
-26.	Changing the Next Link (5:56)
-27.	Resizing Function (5:07)
-28.	Finalizing the Script (10:01)
-•	Reading: PDF of Presentation (10 min’s)
-•	Discussion Prompt: Module 2 Reflection (10 min’s optional)
-29.	Scription Site Introduction (5:54)
-•	zip_files: 
-o	2.29.Scription-Part1-Start.zip
-o	2.29.Scription-Part1-Snippets.zip
-o	2.29.Scription-Part2-Start.zip
-o	2.29.Scription-Part2-Snippets.zip
-o	2.29.Flexslider-files.zip
-30.	Header HTML (5:09)
-31.	Pricing HTML
-32.	Beginning Styling
-33.	Styling That Attaches to Whole Page
-34.	Slider Styling
-35.	Pricing Styles
-36.	Tablet Styles
-37.	Media Query for 1020 Pixels Wide
-38.	Media Query for 1200 Pixels Wide
-39.	Scription Site: Building Interactive Elements Challenges
-•	Reading: Scription Finished Version
-•	Reading: PDF of Presentations
-Module Three: 
-Introduction to Objects & Data in JavaScript
-In this module, you will be introduced to the object literal and be able to demonstrate some of the ways to manipulate data inside objects. You will be able to develop good habits and processes that help with thinking about how to solve a programming problem, including breaking a problem down into smaller pieces.
-11 videos, 4 readings
-1.	Module Introduction
-2.	Introduction to Objects and Data in JS
-•	Reading: Start Files: Working with Objects in JavaScript
-3.	Objects Can Contain Arrays and Other Objects
-4.	Functions Inside Objects Equals Methods
-5.	Putting Objects and Functions Together
-6.	Data Formats - XML
-7.	Example File
-•	Reading: PDF of Presentations
-8.	Introduction to Pig Dice Game
-•	Reading: Pig Dice Game Diagrams
-9.	Play the Game of Pig
-10.	Version One
-11.	Other Versions
-•	Reading: PDF of Presentations
-•	Discussion Prompt: Module 3 Reflection
+<h4>Combining Scripts and Skill Building Through Practice</h4>
+
+<p>In this module, you will be able to use jQuery to create a smooth scroll effect for in-page navigation, as well as develop a script, using jQuery, that keeps track of scroll positions on the page. You will be able to compare and contrast the in-page smooth scroll script and the location tracking script created using jQuery with one created using plain JavaScript. You will be able to build a webpage using HTML and CSS that will combine some of the different scripts created in this course. You will be able to combine some of the different scripts and jQuery plugins explored in this course into the Scription webpage through a series of challenges.
+
+<h4>39 videos, 5 readings, 7 zip files</h4>
+
+  1. Module 2 Introduction (:38)
+  2. Introduction to Smooth Scroll with jQuery (4:15)
+
+  - zip_files: 2.02.jQueryScrollEffects-START.zip
+
+  3. Creating a Click Handler (5:00)
+  4. Adding the Animation (6:56)
+  5. Add Some Easing and a Callback Function (4:05)
+  6. Highlighting Elements (5:22)
+  
+  - Reading: 2.06.jQuerySmoothScroll.pdf
+  
+  7. Introduction to Page Location Tracking (8:00)
+  8. The Crux of the Problem (6:09)
+  9. Strategy (8:27)
+  10. Adding PageTop and If Statements (5:39)
+  11. Writing the Else/If Statement - Part 1 (4:10)
+  12. Writing the Else/If Statement - Part 2 (5:43)
+  13. Edge Case Issues (5:07)
+  14. Resizing Your Windows (5:41)
+  15. Resetting the Counter (5:22)
+  16. resetPagePosition Function (8:33)
+  17. Reviewing the Whole Script (5:48)
+  
+  - Reading: 2.17.jQueryPageLocationTracking.pdf (10 min’s)
+  
+  18.    Introduction to Scroll Effects with JS (6:04)
+  
+  - zip_files: 2.18.ScrollEffects-START.zip
+  
+  19. Getting the Target - Part 1 (4:50)
+  20. Getting the Target - Part 2 (5:15)
+  21. Smooth Scroll Polyfill (4:45)
+  22. Checking the Load (6:48)
+  23. Top Posts (5:35)
+  24. Add an Event Listener (5:42)
+  25. The Magic Conditionals (5:58)
+  26. Changing the Next Link (5:56)
+  27. Resizing Function (5:07)
+  28. Finalizing the Script (10:01)
+
+  - Reading: PDF of Presentation (10 min’s)
+  
+  29. Scription Site Introduction (5:54)
+  
+  - zip_files: 
+    o 2.29.Scription-Part1-Start.zip
+    o 2.29.Scription-Part1-Snippets.zip
+    o 2.29.Scription-Part2-Start.zip
+    o 2.29.Scription-Part2-Snippets.zip
+    o 2.29.Flexslider-files.zip
+    
+  30. Header HTML (5:09)
+  31. Pricing HTML
+  32. Beginning Styling
+  33. Styling That Attaches to Whole Page
+  34. Slider Styling
+  35. Pricing Styles
+  36. Tablet Styles
+  37. Media Query for 1020 Pixels Wide
+  38. Media Query for 1200 Pixels Wide
+  39. Scription Site: Building Interactive Elements Challenges
+  
+  - Reading: Scription Finished Version
+  - Reading: PDF of Presentations
+
+<h3>Week Three:</h3>
+
+<h4>Introduction to Objects & Data in JavaScript</h4>
+
+<p>In this module, you will be introduced to the object literal and be able to 
+demonstrate some of the ways to manipulate data inside objects. You will be able 
+to develop good habits and processes that help with thinking about how to solve 
+a programming problem, including breaking a problem down into smaller pieces.</p>
+
+<h5>11 videos, 4 readings</h5>
+
+  1.  Module Introduction
+  2.  Introduction to Objects and Data in JS
+  
+  - Reading: Start Files: Working with Objects in JavaScript
+  
+  3.  Objects Can Contain Arrays and Other Objects
+  4.  Functions Inside Objects Equals Methods
+  5.  Putting Objects and Functions Together
+  6.  Data Formats - XML
+  7.  Example File
+
+  - Reading: PDF of Presentations
+  
+  8. Introduction to Pig Dice Game
+
+  - Reading: Pig Dice Game Diagrams
+  
+  9.  Play the Game of Pig
+  10. Version One
+  11. Other Versions
+•    Reading: PDF of Presentations
+•    Discussion Prompt: Module 3 Reflection
 Module Four: 
 Building a Simple Game in JavaScript
 By building this game within this module, you will be able to practice the JavaScript you have already learned while constructing a script with more functions and complexity. You will be able to then extend the script in many creative ways.
 15 videos, 2 readings
-1.	Module Introduction
-2.	Introduction to the Game of Pig
-•	Reading: Start Files: Game of Pig
-3.	Start the Game
-4.	Set Up the Turn
-5.	Throwing the Dice
-6.	Test Throwing the Dice
-7.	Add the Selection Statements
-8.	Snake Eyes!
-9.	A "1" Was Rolled
-10.	The Else Statement
-11.	Checking for a Win
-12.	Show the Current Score
-13.	Final Clean-Up
-14.	Extending the Game
-•	Reading: PDF of Presentation
-•	Discussion Prompt: Module 4 Reflection
-15.	Course Summary
-•	Discussion Prompt: Self-Reflection
+1.    Module Introduction
+2.    Introduction to the Game of Pig
+•    Reading: Start Files: Game of Pig
+3.    Start the Game
+4.    Set Up the Turn
+5.    Throwing the Dice
+6.    Test Throwing the Dice
+7.    Add the Selection Statements
+8.    Snake Eyes!
+9.    A "1" Was Rolled
+10.    The Else Statement
+11.    Checking for a Win
+12.    Show the Current Score
+13.    Final Clean-Up
+14.    Extending the Game
+•    Reading: PDF of Presentation
+•    Discussion Prompt: Module 4 Reflection
+15.    Course Summary
+•    Discussion Prompt: Self-Reflection
 A Note from UC Davis
 Welcome to this course!
 We are delighted to be a part of your continuing education. This course will provide you with a variety of tools and learning opportunities, to include lesson lectures, readings, assessments, peer reviews, and an opportunity to contribute to the Coursera learning community in the discussion forums.
@@ -169,15 +207,15 @@ Because of the self-paced nature of Coursera courses, this is an excellent oppor
 We look forward to having you in this course. Happy learning!
 UC Davis Coursera Team
 Additional Links:
-•	Coursera’s Learner Support/Help Center:
+•    Coursera’s Learner Support/Help Center:
 https://learner.coursera.help/hc/en-us
-•	Flagging a Lecture:
+•    Flagging a Lecture:
 https://learner.coursera.help/hc/en-us/articles/208280106-Report-a-problem-with-a-course
-•	Assignment Deadlines: 
+•    Assignment Deadlines: 
 https://learner.coursera.help/hc/en-us/articles/208279866-Assignment-deadlines
-•	Peer Reviewed Assignments:
+•    Peer Reviewed Assignments:
 https://learner.coursera.help/hc/en-us/sections/201895903-Peer-reviewed-assignments
-•	Coursera’s Honor Code:
+•    Coursera’s Honor Code:
 https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code
 Module 1.01. Course Introduction (0:40)
  
@@ -242,7 +280,7 @@ Attached is a zip file of the things you need to begin this exercise. A zip file
 1.05.FlexsliderBasic-Start.zip (ZIP File)
 1.05.FlexSliderPlugin.zip (ZIP File)
 Additional Resource:
-•	How to open a zip file for either Mac or PC
+•    How to open a zip file for either Mac or PC
 Module 1.06. FlexSlider: A jQuery Plugin 
  
 
@@ -434,9 +472,9 @@ Here is a PDF of the presentation slides used in the lessons for this section: j
 1.13.FlexSlider.pdf (PDF File)
 Week 1 Reflection
 Going through the lessons in Week 1:
-•	What concepts did you struggle with or need more time with?
-•	What concepts surprised you?
-•	How will these foundational concepts help you in the future?
+•    What concepts did you struggle with or need more time with?
+•    What concepts surprised you?
+•    How will these foundational concepts help you in the future?
 
 
 
