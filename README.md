@@ -8,6 +8,7 @@ output:
 ---
 
 <h1 align="center">Interactivity with JavaScript and jQuery</h1>
+
 <h6 align="center">(by William Mead, Lecturer - University of California @Davis)</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ readme.md of uc-davis-inter-jquery.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -54,7 +55,9 @@ basic and more advanced image sliders.</p>
 
 <h5>13 videos, 3 readings, 2 zip files</h5>
 
-  - Reading: A Note from UC Davis
+<ul>
+  <li>1.00.A Note from UC Davis</li>
+</ul>
 
    1. Welcome to this Course!
    2. Module Introduction
@@ -62,9 +65,11 @@ basic and more advanced image sliders.</p>
    4. Using Plugins and Essential Steps
    5. Gotchas and Rookie Mistakes
 
-  - Reading: 1.05.jQueryPlugins.pdf
-  - zip_files: 1.05.FlexSliderBasic-Start.zip
-  - zip_files: 1.05.FlexSliderPlugin.zip
+<ul>
+  <li>1.05.jQueryPlugins.pdf</li>
+  <li>1.05.FlexSliderBasic-Start.zip</li>
+  <li>1.05.FlexSliderPlugin.zip</li>
+</ul>
     
    6. FlexSlider: A jQuery Plugin
    7. About the Minified Version
@@ -75,7 +80,9 @@ basic and more advanced image sliders.</p>
   12. Additional Styling
   13. Styling the CTA
 
-  - Reading: 1.13.FlexSlider.pdf
+<ul>
+  <li>1.13.FlexSlider.pdf</li>
+</ul>
 
 <h3>Week Two:</h3>
 
@@ -88,14 +95,18 @@ basic and more advanced image sliders.</p>
    1. Module 2 Introduction (:38)
    2. Introduction to Smooth Scroll with jQuery (4:15)
 
-  - zip_files: 2.02.jQueryScrollEffects-START.zip
+<ul>
+  <li>2.02.jQueryScrollEffects-START.zip</li>
+</ul>
 
    3. Creating a Click Handler (5:00)
    4. Adding the Animation (6:56)
    5. Add Some Easing and a Callback Function (4:05)
    6. Highlighting Elements (5:22)
-  
-  - Reading: 2.06.jQuerySmoothScroll.pdf
+
+<ul>
+  <li>2.06.jQuerySmoothScroll.pdf</li>
+</ul>
   
    7. Introduction to Page Location Tracking (8:00)
    8. The Crux of the Problem (6:09)
@@ -108,12 +119,16 @@ basic and more advanced image sliders.</p>
   15. Resetting the Counter (5:22)
   16. resetPagePosition Function (8:33)
   17. Reviewing the Whole Script (5:48)
-  
-  - Reading: 2.17.jQueryPageLocationTracking.pdf (10 min’s)
+
+<ul>
+  <li>2.17.jQueryPageLocationTracking.pdf (10 min’s)</li>
+</ul>
   
   18. Introduction to Scroll Effects with JS (6:04)
-  
-  - zip_files: 2.18.ScrollEffects-START.zip
+
+<ul>
+  <li>2.18.ScrollEffects-START.zip</li>
+</ul>
   
   19. Getting the Target - Part 1 (4:50)
   20. Getting the Target - Part 2 (5:15)
@@ -126,17 +141,23 @@ basic and more advanced image sliders.</p>
   27. Resizing Function (5:07)
   28. Finalizing the Script (10:01)
 
-  - Reading: PDF of Presentation (10 min’s)
+<ul>
+  <li>2.28.PDF of Presentation (10 min’s)</li>
+</ul>
   
   29. Scription Site Introduction (5:54)
-  
-  - zip_files:
-  
-    o 2.29.Scription-Part1-Start.zip
-	o 2.29.Scription-Part1-Snippets.zip
-	o 2.29.Scription-Part2-Start.zip
-	o 2.29.Scription-Part2-Snippets.zip
-	o 2.29.Flexslider-files.zip
+
+<ul>
+  <li>zip_files:
+    <ul>
+	  <li>2.29.Scription-Part1-Start.zip</li>
+	  <li>2.29.Scription-Part1-Snippets.zip</li>
+	  <li>2.29.Scription-Part2-Start.zip</li>
+	  <li>2.29.Scription-Part2-Snippets.zip</li>
+	  <li>2.29.Flexslider-files.zip</li>
+      </li>
+	</ul>
+</ul>
     
   30. Header HTML (5:09)
   31. Pricing HTML
@@ -148,9 +169,11 @@ basic and more advanced image sliders.</p>
   37. Media Query for 1020 Pixels Wide
   38. Media Query for 1200 Pixels Wide
   39. Scription Site: Building Interactive Elements Challenges
-  
-  - Reading: Scription Finished Version
-  - Reading: PDF of Presentations
+
+<ul>
+  <li>2.39.Scription Finished Version</li>
+  <li>2.39.PDF of Presentations</li>
+</ul>
 
 <h3>Week Three:</h3>
 
@@ -165,8 +188,10 @@ a programming problem, including breaking a problem down into smaller pieces.</p
 
    1. Module Introduction
    2. Introduction to Objects and Data in JS
-  
-  - Reading: Start Files: Working with Objects in JavaScript
+
+<ul>
+  <li>3.02.Start Files: Working with Objects in JavaScript</li>
+</ul>
   
    3. Objects Can Contain Arrays and Other Objects
    4. Functions Inside Objects Equals Methods
@@ -174,17 +199,23 @@ a programming problem, including breaking a problem down into smaller pieces.</p
    6. Data Formats - XML
    7. Example File
 
-  - Reading: PDF of Presentations
+<ul>
+  <li>3.07.PDF of Presentations</li>
+</ul>
   
    8. Introduction to Pig Dice Game
 
-  - Reading: Pig Dice Game Diagrams
+<ul>
+  <li>3.08.Pig Dice Game Diagrams</li>
+</ul>
   
    9. Play the Game of Pig
   10. Version One
   11. Other Versions
-  
-  - Reading: PDF of Presentations
+
+<ul>
+  <li>3.11.PDF of Presentations</li>
+</ul>
   
 <h3>Week Four:</h3>
 
@@ -198,8 +229,10 @@ You will be able to then extend the script in many creative ways.</p>
 
    1. Module Introduction
    2. Introduction to the Game of Pig
-   
-  - Reading: Start Files: Game of Pig
+
+<ul>
+  <li>4.02.Start Files: Game of Pig</li>
+</ul>
   
    3. Start the Game
    4. Set Up the Turn
@@ -214,11 +247,14 @@ You will be able to then extend the script in many creative ways.</p>
   13. Final Clean-Up
   14. Extending the Game
 
-  - Reading: PDF of Presentation
+<ul>
+  <li>4.14.PDF of Presentation</li>
+</ul>
 
   15. Course Summary
 
-<h4 id="w1-00">A Note from UC Davis</h4>
+
+<h3 id="w1-00">A Note from UC Davis</h3>
 
 <p>Welcome to this course!</p>
 <p>We are delighted to be a part of your continuing education. This course will provide you with a variety of tools and learning opportunities, to include lesson lectures, readings, assessments, peer reviews, and an opportunity to contribute to the Coursera learning community in the discussion forums.</p>
@@ -234,7 +270,7 @@ You will be able to then extend the script in many creative ways.</p>
 <p>We look forward to having you in this course. Happy learning!</p>
 <p>UC Davis Coursera Team</p>
 
-<h5>Additional Links:</h5>
+<h4>Additional Links:</h4>
 
 <ul>
   <li><a href="https://learner.coursera.help/hc/en-us" 
