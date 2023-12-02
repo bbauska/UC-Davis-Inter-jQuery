@@ -254,7 +254,7 @@ You will be able to then extend the script in many creative ways.</p>
   15. Course Summary
 
 
-<h3 id="w1-00">A Note from UC Davis</h3>
+<h3 id="w1-00">1.00 A Note from UC Davis</h3>
 
 <p>Welcome to this course!</p>
 <p>We are delighted to be a part of your continuing education. This course will provide you with a variety of tools and learning opportunities, to include lesson lectures, readings, assessments, peer reviews, and an opportunity to contribute to the Coursera learning community in the discussion forums.</p>
@@ -290,7 +290,7 @@ You will be able to then extend the script in many creative ways.</p>
     Coursera’s Honor Code</a></li>
 </ul>
 
-<h3 id="w1-01">Module 1.01. Course Introduction (0:40)</h3>
+<h3 id="w1-01">1.01. Course Introduction (0:40)</h3>
  
 <p>Hello and welcome to our 3rd course in our four-core specialization on JavaScript. 
 My name is Bill Mead and I'm back again to do more JavaScript with you. Hopefully 
@@ -303,7 +303,7 @@ practice. You get even better with JavaScript and jQuery. We're going to do a lo
 in this course. Let's break out our code editors and our web browsers and get started 
 and learn even more about JavaScript.</p>
 
-<h3 id="w1-02">Module 1.02. Module Introduction</h3>
+<h3 id="w1-02">1.02. Module Introduction</h3>
  
 <p>Hello and welcome to our first module in our third course on JavaScript. In this 
 module, we're going to dive even deeper into jQuery, looking at some jQuery plugins. 
@@ -313,7 +313,7 @@ that to what you've done manually by creating your own sliders is really instruc
 and useful. Plus, you end up with a great tool for creating slider elements on web 
 pages and that's really pretty fun.</p>
 
-<h3 id="w1-03">Module 1.03. Introduction to jQuery Plugins (3:49)</h3>
+<h3 id="w1-03">1.03. Introduction to jQuery Plugins (3:49)</h3>
 
 <p>Just as a quick recap, we've learned a lot of JavaScript so far.</p>
  
@@ -503,7 +503,7 @@ Over here instead of load I'm going to use on, and in here, I'm going to put in 
 Okay, great. Now, while we're here, let me just do one other thing. Suppose I forgot something. This is the thing that is often forgotten here is what if I forgot to include this fonts folder in my files? I'm going to move that to the trash. Come back here and refresh this. Use these boxes instead of the arrows. 
 That's what that fonts thing is actually doing. It's just providing the fonts there. Could you do something other than those arrows? Yes, you can. You can customize the slider so it doesn't use those arrows. But for right now, let's just leave it at the default, which means I want to leave these arrows, that fonts folder back over there because the script is making use of that in order to put those arrows on the page. There they are, they're back again. Okay, great. We've got the basic slider working, now we can talk about what else we need to do with it and we'll do that in the next lesson.
 
-<h3 id="w1-09">Module 1.09. FlexSlider Rules</h3>
+<h3 id="w1-09">1.09. FlexSlider Rules</h3>
  
 In the last lesson (1.08), we got the Flexslider working, and it's working great. 
 It's functional. All the pieces are functioning, but it's got some weird issues 
@@ -521,7 +521,7 @@ I'm going to come over here, I'm going to add that rule in here. If I want a dif
  
 You can see my colors now overriding the color that was there before and I can go ahead and click on these things and they all work. That's great. You want to put styling on your own style sheet that will override styles on the Flexslider's CSS to customize it, to make it look the way you want it to look. Finding out what those styles are, or just a matter of using the inspector and hunting around to see what rules are being applied that you might want to change to get it to style and look the way you want it to look on your page.
 
-<h3 id="w1-10">Module 1.10. Additional Controls</h3>
+<h3 id="w1-10">1.10. Additional Controls</h3>
  
 Your slider should be looking good. We've gotten everything in place and it's working. 
   
@@ -544,7 +544,7 @@ We could do reverse true, so we'll go from top to bottom instead of from bottom 
 Then finally, another one we could do is pause on hover true. Which is in here, you can find it in here somewhere pause on hover. There it is. We had set this, this is a feature that we had tried to build into our own version, that we did build into our own version. That's true, and when you're hovering over the slides, they'll stop. 
 It's very nice interface on it, right? Now every two seconds, it's going to go unless I hover over the slides, in which case it's going to stop. It won't because I want to enjoy these kittens, I want to look at them for a while, two seconds isn't really long enough, so I can really enjoy them and look at them for as long as I want. Then, when I stop hovering on it, and I'll wait two seconds and it'll start going again. That functionality is built in as well. That's great. It gives us a lot of opportunity to build in a lot of extra functionality through these additional features that are here. There's a lot of them. Manual controls, controls container. You can do all kinds of things. There's arrows. You could swap those arrows out for something else, so that it doesn't look like every Website you go to has FlexSlider on it. It could look the same, because they all have the same arrows here, left and right arrows. We can get rid of those and do something else that would be kind of interesting and fun.
 
-<h3 id="w1-11">Module 1.11. Advanced FlexSlider</h3>
+<h3 id="w1-11">1.11. Advanced FlexSlider</h3>
  
 Now that you've created the basic FlexSlider, with some advanced options, we can really do some different things with this FlexSlider. 
   
@@ -560,7 +560,7 @@ I have a div, with an h2. The div has a class of slide 1, slide 2, slide 3, so o
   
 Then come back to your project and on your index file, in place of the slider down here, this FlexSlider, we're just going to paste this one in instead. Paste that in and it's still div class backsliders, still your old class slides. All that's changed is the list items in here. These divs have a class of slide1, slide 2, slide 3, slide 4 and slide 5. I dump slide 6 and 7 for now, probably five kittens is enough for this slider and that's great. That gets us started and on our way with creating our fancier version of our FlexSlider. In the next lesson, we'll start looking at what we need to do to adjust the styling for this.
 
-<h3 id="w1-12">Module 1.12. Additional Styling (5:47)</h3>
+<h3 id="w1-12">1.12. Additional Styling (5:47)</h3>
  
 In the last module (1.11), we updated the markup for our fancy version of the slider, and now we need to do some updating for the actual CSS for the display of the slides. 
   
@@ -578,7 +578,7 @@ Then down here I'm setting the H2 to position absolute top 20 pixels, left 20 pi
  
 The next thing we need is the styling for the actual call to action buttons that are going to show up on the slides. If I save this like this, you'll see if I come back and test it, it's fine, but the call-to-action buttons won't work very well here. So, there's my call-to-action button there and I need to fix that, but you can see that the background images have come in. These images are now in the background of my slide, rather than in the foreground. And the foreground is an H2 that's been absolutely positioned here. But now I need to style this call to action, and I'll do that in the next lesson.
 
-<h3 id="w1-13">Module 1.13. Styling the CTA ‘Call To Action’</h3>
+<h3 id="w1-13">1.13. Styling the CTA ‘Call To Action’</h3>
  
 <p>Now we're down to styling the call to action so that it displays properly on 
 the page, and I have a rule for the dot CTA anchor tags, there's a lot of stuff 
