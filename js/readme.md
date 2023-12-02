@@ -1,1 +1,0 @@
-Scripts written in JavaScript.
