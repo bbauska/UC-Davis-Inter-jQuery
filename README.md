@@ -29,7 +29,7 @@ manageable pieces.</p>
 
 <h2>Syllabus</h2>
 
-<h3>Week One:</h3>
+<h3>Module (Week) One:</h3>
 
 <h4>Getting Started & jQuery Plugins and Capturing the Scroll Event</h4>
 
@@ -41,22 +41,22 @@ basic and more advanced image sliders.</p>
 
 <h5>13 videos, 3 readings, 2 zip files</h5>
 
-    Reading: A Note from UC Davis
+  - Reading: A Note from UC Davis
 
-  1. Welcome to this Course!
-  2. Module Introduction
-  3. Introduction to jQuery Plugins
-  4. Using Plugins and Essential Steps
-  5. Gotchas and Rookie Mistakes
+   1. Welcome to this Course!
+   2. Module Introduction
+   3. Introduction to jQuery Plugins
+   4. Using Plugins and Essential Steps
+   5. Gotchas and Rookie Mistakes
 
   - Reading: 1.05.jQueryPlugins.pdf
   - zip_files: 1.05.FlexSliderBasic-Start.zip
   - zip_files: 1.05.FlexSliderPlugin.zip
     
-  6. FlexSlider: A jQuery Plugin
-  7. About the Minified Version
-  8. Adding Markup & Hooking Up the Slider
-  9. FlexSlider Rules
+   6. FlexSlider: A jQuery Plugin
+   7. About the Minified Version
+   8. Adding Markup & Hooking Up the Slider
+   9. FlexSlider Rules
   10. Additional Controls
   11. Advanced FlexSlider
   12. Additional Styling
@@ -70,23 +70,23 @@ basic and more advanced image sliders.</p>
 
 <p>In this module, you will be able to use jQuery to create a smooth scroll effect for in-page navigation, as well as develop a script, using jQuery, that keeps track of scroll positions on the page. You will be able to compare and contrast the in-page smooth scroll script and the location tracking script created using jQuery with one created using plain JavaScript. You will be able to build a webpage using HTML and CSS that will combine some of the different scripts created in this course. You will be able to combine some of the different scripts and jQuery plugins explored in this course into the Scription webpage through a series of challenges.
 
-<h4>39 videos, 5 readings, 7 zip files</h4>
+<h5>39 videos, 5 readings, 7 zip files</h5>
 
-  1. Module 2 Introduction (:38)
-  2. Introduction to Smooth Scroll with jQuery (4:15)
+   1. Module 2 Introduction (:38)
+   2. Introduction to Smooth Scroll with jQuery (4:15)
 
   - zip_files: 2.02.jQueryScrollEffects-START.zip
 
-  3. Creating a Click Handler (5:00)
-  4. Adding the Animation (6:56)
-  5. Add Some Easing and a Callback Function (4:05)
-  6. Highlighting Elements (5:22)
+   3. Creating a Click Handler (5:00)
+   4. Adding the Animation (6:56)
+   5. Add Some Easing and a Callback Function (4:05)
+   6. Highlighting Elements (5:22)
   
   - Reading: 2.06.jQuerySmoothScroll.pdf
   
-  7. Introduction to Page Location Tracking (8:00)
-  8. The Crux of the Problem (6:09)
-  9. Strategy (8:27)
+   7. Introduction to Page Location Tracking (8:00)
+   8. The Crux of the Problem (6:09)
+   9. Strategy (8:27)
   10. Adding PageTop and If Statements (5:39)
   11. Writing the Else/If Statement - Part 1 (4:10)
   12. Writing the Else/If Statement - Part 2 (5:43)
@@ -98,7 +98,7 @@ basic and more advanced image sliders.</p>
   
   - Reading: 2.17.jQueryPageLocationTracking.pdf (10 min’s)
   
-  18.    Introduction to Scroll Effects with JS (6:04)
+  18. Introduction to Scroll Effects with JS (6:04)
   
   - zip_files: 2.18.ScrollEffects-START.zip
   
@@ -149,82 +149,108 @@ a programming problem, including breaking a problem down into smaller pieces.</p
 
 <h5>11 videos, 4 readings</h5>
 
-  1.  Module Introduction
-  2.  Introduction to Objects and Data in JS
+   1. Module Introduction
+   2. Introduction to Objects and Data in JS
   
   - Reading: Start Files: Working with Objects in JavaScript
   
-  3.  Objects Can Contain Arrays and Other Objects
-  4.  Functions Inside Objects Equals Methods
-  5.  Putting Objects and Functions Together
-  6.  Data Formats - XML
-  7.  Example File
+   3. Objects Can Contain Arrays and Other Objects
+   4. Functions Inside Objects Equals Methods
+   5. Putting Objects and Functions Together
+   6. Data Formats - XML
+   7. Example File
 
   - Reading: PDF of Presentations
   
-  8. Introduction to Pig Dice Game
+   8. Introduction to Pig Dice Game
 
   - Reading: Pig Dice Game Diagrams
   
-  9.  Play the Game of Pig
+   9. Play the Game of Pig
   10. Version One
   11. Other Versions
-•    Reading: PDF of Presentations
-•    Discussion Prompt: Module 3 Reflection
-Module Four: 
-Building a Simple Game in JavaScript
-By building this game within this module, you will be able to practice the JavaScript you have already learned while constructing a script with more functions and complexity. You will be able to then extend the script in many creative ways.
-15 videos, 2 readings
-1.    Module Introduction
-2.    Introduction to the Game of Pig
-•    Reading: Start Files: Game of Pig
-3.    Start the Game
-4.    Set Up the Turn
-5.    Throwing the Dice
-6.    Test Throwing the Dice
-7.    Add the Selection Statements
-8.    Snake Eyes!
-9.    A "1" Was Rolled
-10.    The Else Statement
-11.    Checking for a Win
-12.    Show the Current Score
-13.    Final Clean-Up
-14.    Extending the Game
-•    Reading: PDF of Presentation
-•    Discussion Prompt: Module 4 Reflection
-15.    Course Summary
-•    Discussion Prompt: Self-Reflection
-A Note from UC Davis
-Welcome to this course!
-We are delighted to be a part of your continuing education. This course will provide you with a variety of tools and learning opportunities, to include lesson lectures, readings, assessments, peer reviews, and an opportunity to contribute to the Coursera learning community in the discussion forums.
-In each of the lesson sections, you’ll find learning objectives, lecture lessons, readings, activities, and an opportunity to test your knowledge in quiz format. In some of the module sections you’ll also work on assignments and grade the work of your peers. A peer-review assignment, is one where you and your fellow learners have an opportunity to review and grade each other’s work. We’ll dive more into peer reviews later on in this course.
-When navigating the course, you can find available course resources under each of the lecture lessons in a section labeled “Downloads” – here you can download the lecture video, view transcripts, PDFs of the lecture slides, and find additional readings or files. 
-If you run into any issues during this course, learner support is available to all Coursera students. The link for Coursera’s Learner support is included below. The Help Center/Learner Support includes topics such as account setup, payments, enrollment questions, and troubleshooting common problems. 
-If you find any content issues, be sure to let the course staff know by flagging the lecture, assignment, reading, or quiz and this will inform us of where these issues occur. Here is the link for more information on how to Flag an Issue - it is also listed below. 
-One of the great things about Coursera courses is that they are self-paced. The course dates are based on the average time it takes to complete a course. However, if you need additional time to complete a course you can reset your deadlines with no penalties. More information on resetting deadlines can be found here: Assignment Deadlines
-Need additional help during your course session? Be sure to utilize the discussion forums and interact with your fellow peers. In this area, you can ask questions or search for similar issues that have already been posted in the forums. Learner support is also a great place to find answers, but specific course content questions can typically be found and answered in the discussion forums. This is also a great place to post your assignment if additional peer reviews are needed. Here is a link with more information on the discussion forums: Discussion Forums
-Because of the self-paced nature of Coursera courses, this is an excellent opportunity to show your commitment to your work and the work of your peers through academic integrity. Be sure to read the Coursera guidelines and the Coursera Honor Code here: Coursera Honor Code 
-We look forward to having you in this course. Happy learning!
-UC Davis Coursera Team
-Additional Links:
-•    Coursera’s Learner Support/Help Center:
-https://learner.coursera.help/hc/en-us
-•    Flagging a Lecture:
-https://learner.coursera.help/hc/en-us/articles/208280106-Report-a-problem-with-a-course
-•    Assignment Deadlines: 
-https://learner.coursera.help/hc/en-us/articles/208279866-Assignment-deadlines
-•    Peer Reviewed Assignments:
-https://learner.coursera.help/hc/en-us/sections/201895903-Peer-reviewed-assignments
-•    Coursera’s Honor Code:
-https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code
-Module 1.01. Course Introduction (0:40)
+  
+  - Reading: PDF of Presentations
+  - Discussion Prompt: Module 3 Reflection
+  
+<h3>Week Four:</h3>
+
+<h4>Building a Simple Game in JavaScript</h4>
+
+<p>By building this game within this module, you will be able to practice the JavaScript 
+you have already learned while constructing a script with more functions and complexity. 
+You will be able to then extend the script in many creative ways.</p>
+
+<h5>15 videos, 2 readings</h5>
+
+   1. Module Introduction
+   2. Introduction to the Game of Pig
+   
+  - Reading: Start Files: Game of Pig
+  
+   3. Start the Game
+   4. Set Up the Turn
+   5. Throwing the Dice
+   6. Test Throwing the Dice
+   7. Add the Selection Statements
+   8. Snake Eyes!
+   9. A "1" Was Rolled
+  10. The Else Statement
+  11. Checking for a Win
+  12. Show the Current Score
+  13. Final Clean-Up
+  14. Extending the Game
+
+  - Reading: PDF of Presentation
+
+  15. Course Summary
+
+<h4 id="w1-00">A Note from UC Davis</h4>
+
+<p>Welcome to this course!</p>
+<p>We are delighted to be a part of your continuing education. This course will provide you with a variety of tools and learning opportunities, to include lesson lectures, readings, assessments, peer reviews, and an opportunity to contribute to the Coursera learning community in the discussion forums.</p>
+<p>In each of the lesson sections, you’ll find learning objectives, lecture lessons, readings, activities, and an opportunity to test your knowledge in quiz format. In some of the module sections you’ll also work on assignments and grade the work of your peers. A peer-review assignment, is one where you and your fellow learners have an opportunity to review and grade each other’s work. We’ll dive more into peer reviews later on in this course.</p>
+<p>When navigating the course, you can find available course resources under each of the lecture lessons in a section labeled “Downloads” – here you can download the lecture video, view transcripts, PDFs of the lecture slides, and find additional readings or files.</p>
+<p>If you run into any issues during this course, learner support is available to all Coursera students. The link for Coursera’s Learner support is included below. The Help Center/Learner Support includes topics such as account setup, payments, enrollment questions, and troubleshooting common problems.</p>
+<p>If you find any content issues, be sure to let the course staff know by flagging the lecture, assignment, reading, or quiz and this will inform us of where these issues occur. Here is the link for more information on how to Flag an Issue - it is also listed below.</p>
+<p>One of the great things about Coursera courses is that they are self-paced. The course dates are based on the average time it takes to complete a course. However, if you need additional time to complete a course you can reset your deadlines with no penalties.</p>
+<p>More information on resetting deadlines can be found here: Assignment Deadlines</p>
+<p>Because of the self-paced nature of Coursera courses, this is an excellent opportunity to show your commitment to your work and the work of your peers through academic integrity. Be sure to read the Coursera guidelines and the Coursera Honor Code here:</p>
+  <a href="">Coursera Honor Code</a>
+
+<p>We look forward to having you in this course. Happy learning!</p>
+<p>UC Davis Coursera Team</p>
+
+<h5>Additional Links:</h5>
+
+<ul>
+  <li><a href="https://learner.coursera.help/hc/en-us" 
+    rel="noopener noreferrer" target="_blank">
+    Coursera’s Learner Support/Help Center.</a></li>
+  <li><a href="https://learner.coursera.help/hc/en-us/articles/208280106-Report-a-problem-with-a-course"
+    rel="noopener noreferrer" target="_blank">
+	Flagging a Lecture.</a></li>
+  <li><a href="https://learner.coursera.help/hc/en-us/articles/208279866-Assignment-deadlines"
+    rel="noopener noreferrer" target="_blank">
+    Assignment Deadlines.</a></li>
+  <li><a href="https://learner.coursera.help/hc/en-us/sections/201895903-Peer-reviewed-assignments"
+    rel="noopener noreferrer" target="_blank">
+    Peer Reviewed Assignments.</a></li>
+  <li><a href="https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code"
+    rel="noopener noreferrer" target="_blank">
+    Coursera’s Honor Code.</a></li>
+</ul>
+
+<h3 id="w1-01">Module 1.01. Course Introduction (0:40)</h3>
  
 Hello and welcome to our 3rd course in our four-core specialization on JavaScript. My name is Bill Mead and I'm back again to do more JavaScript with you. Hopefully you've completed our first two courses on JavaScript and you've learned a lot about the syntax of JavaScript and how to solve problems with JavaScript. It takes a lot of practice to get good at this stuff. 
 I'm back again to do more with you to introduce some new concepts, to do some new projects and to do some more sophisticated projects and give you even more practice. You get even better with JavaScript and jQuery. We're going to do a lot in this course. Let's break out our code editors and our web browsers and get started and learn even more about JavaScript.
-Module 1.02. Introduction
+
+<h3 id="w1-02">Module 1.02. Introduction</h3>
  
 Hello and welcome to our first module in our third course on JavaScript. In this module, we're going to dive even deeper into jQuery, looking at some jQuery plugins. You've already made some sliders in a previous lesson. But in this lesson, we'll look at the flex slider plugin, which adds a lot of features, two sliders and comparing that to what you've done manually by creating your own sliders is really instructive and useful. Plus, you end up with a great tool for creating slider elements on web pages and that's really pretty fun.
-Module 1.03. Introduction to jQuery Plugins (3:49)
+
+<h3 id="w1-03">Module 1.03. Introduction to jQuery Plugins (3:49)</h3>
 
  
 Just as a quick recap, we've learned a lot of JavaScript so far. 
@@ -238,7 +264,8 @@ jQuery has this plugin architecture that's very powerful, that allows developers
  
 Again, plugins add additional functionality to jQuery, and we've already seen this with the easing plugin. But some plugins can have very complex functionality without us having to write a whole bunch of code. We have access to a whole bunch of additional functions and we'll see what that looks like. 
 You can create whole interfaces in a jQuery plugin, and then by providing that plugin, other people can have access to those interfaces. For example, we did the project where we made the tabbed interface. What if there was a jQuery plugin that made hooking up a tabbed interface super easy? There are plugins for those things and they might come with a lot of features and functionality. What if you want the tabs to run down the side of the tabbed interface rather than across the tab? You could do that thing.
-Module 1.04. Using Plugins and Essential Steps
+
+<h3 id="w1-04">Module 1.04. Using Plugins and Essential Steps</h3>
  
 Using plugins and essential steps, adding plugins to your project, configuring them, and learning how to use them still takes some work and effort. But not nearly as much work and effort as it takes to write the whole script yourself. 
 Many of the larger, more sophisticated plugins require five steps to get them to work. 
@@ -252,8 +279,8 @@ Then Step 5, is you need to initialize the setup of the plugin in your own scrip
 Documentation Mish-Mash
 Suppose you find a jQuery plugin you want to try on your website, how do you go about adding it to your page? How do you know what to do? Because these plugins are all made by different developers or groups of developers, there's no real standard in terms of the documentation. This is where having a solid foundation in JavaScript really helps, because you need to look at the documentation they provide, and be able to tease it out and go okay, I understand what they're asking me to do here. 
 On this page they're telling me to install the plugin like this and then add these configuration options, and so on and so forth. And unless you have some experience with JavaScript, it's going to look like a bunch of messy code and it's not going to make a lot of sense. So that's why it's really helpful to have a solid JavaScript foundation, before trying to mess around with this stuff. But now that you do, and you'll see once you work with a few plugins that many of them work pretty much the same way. The documentation may look a little bit different; the directions may be written a little bit different, but it's the same basic steps each time.
-Module 1.05. Gotchas and Rookie Mistakes
- 
+
+<h3 id="w1-05">Module 1.05. Gotchas and Rookie Mistakes</h3>
  
 Number 1 on this list is the biggest one, I see this all the time, especially with students who are new to working with JavaScript in jQuery, and that is ending up with multiple copies of the jQuery library linked to your page. 
 Only load the jQuery library once. You may have multiple plugins, but you should only load one copy of the jQuery library, which is used by all the plugins. What happens is you find a plugin that add some interesting functionality web page. You follow the directions and load the jQuery library and do all the directions to make that plugin work. Then you find another plugin that does something else that you want to use. You follow the directions and that page and it tells you to load the jQuery library and to load the plugins. You follow those directions and then in the end, you end up with the jQuery library loaded twice. Frequently, when you download these plugins, they'll include a copy of the jQuery library. You'll follow the directions, you'll link up one, then you'll think of another. 
@@ -281,8 +308,9 @@ Attached is a zip file of the things you need to begin this exercise. A zip file
 1.05.FlexSliderPlugin.zip (ZIP File)
 Additional Resource:
 •    How to open a zip file for either Mac or PC
-Module 1.06. FlexSlider: A jQuery Plugin 
- 
+
+
+<h3 id="w1-06">Module 1.06. FlexSlider: A jQuery Plugin</h3>
 
 FlexSlider jQuery Slider plugin. Now that we've talked about jQuery plug-ins a bit, let's take a look at one that we can use to add a significant amount of interface options to our page. 
  
@@ -311,7 +339,8 @@ Over here, these are the files that got downloaded. When I unzipped the FlexSlid
 Really the only things that we need in our folder are the actual plugin and we want the minified version, notice here, the non-minified version is 57KB, the minified version is less than half of that in size. We want people to have to download the smallest file possible. We need the CSS file and we're actually going to need this fonts folder. The fonts folder includes a font that as the next button in the previous button that will show up on the slider, so, we need that in order for this ‘next’ and ‘previous’ buttons to load properly. We will need that as well. 
    
 I'm going to grab the FlexSlider.css, the fonts, and the minified version of FlexSlider. Just those three files, the rest of it I don't need. I'm going to put them into my project folder over here so that I have them, and that gets us all the files that we need in order to get started for this project.
-Module 1.07. About the Minified Version
+
+<h3 id="w1-07">Module 1.07. About the Minified Version</h3>
  
 About the Minified Version
 And again, I'm just repeating myself here but it's really important that you understand this. 
@@ -340,7 +369,8 @@ So, I'm going to put that in here, script src equals quote, and I want this one,
 The other thing I want to do is I want to put the defer attribute on my script. Let's do that too. Because we want to make sure that it loads after the jQuery library. So, I want to put defer here, and defer down here. So, that they will load in this order, first this library, then the plug in, then my script. And they'll load after the rest of the page is loaded, just to be certain. So, we've got that, okay. 
  
 The next thing we need to do is to add the markup, and this is the markup this plug in expects. It expects a div with the class, flexslider, and a ul with the class slides, then list items with the images inside of it, and we'll do that in the next lesson.
-Module 1.08. Adding Markup & Hooking Up the Slider
+
+<h3 id="w1-08">Module 1.08. Adding Markup & Hooking Up the Slider</h3>
  
 In the last lesson, we got all of our files linked and everything hooked up so that it should all be ready to work. You want to make sure that your stylesheet loads after the FlexSlider style sheets, that you can modify changes there. We'll get to more on that later. 
  
@@ -372,7 +402,8 @@ Over here instead of load I'm going to use on, and in here, I'm going to put in 
   
 Okay, great. Now, while we're here, let me just do one other thing. Suppose I forgot something. This is the thing that is often forgotten here is what if I forgot to include this fonts folder in my files? I'm going to move that to the trash. Come back here and refresh this. Use these boxes instead of the arrows. 
 That's what that fonts thing is actually doing. It's just providing the fonts there. Could you do something other than those arrows? Yes, you can. You can customize the slider so it doesn't use those arrows. But for right now, let's just leave it at the default, which means I want to leave these arrows, that fonts folder back over there because the script is making use of that in order to put those arrows on the page. There they are, they're back again. Okay, great. We've got the basic slider working, now we can talk about what else we need to do with it and we'll do that in the next lesson.
-Module 1.09. FlexSlider Rules
+
+<h3 id="w1-09">Module 1.09. FlexSlider Rules</h3>
  
 In the last lesson (1.08), we got the Flexslider working, and it's working great. It's functional. All the pieces are functioning, but it's got some weird issues that we need to fix in terms of the layout in the styling. 
   
@@ -389,7 +420,8 @@ Down here, I still want to adjust these buttons a little bit. I mean, inspect ag
 I'm going to come over here, I'm going to add that rule in here. If I want a different color, what did I put on my slides over here? I put pound B40205, make it match that. What was it? Just color or is it background? Background: #B40205. There we go. That will give me a red background color. Save that and come back and test it. 
  
 You can see my colors now overriding the color that was there before and I can go ahead and click on these things and they all work. That's great. You want to put styling on your own style sheet that will override styles on the Flexslider's CSS to customize it, to make it look the way you want it to look. Finding out what those styles are, or just a matter of using the inspector and hunting around to see what rules are being applied that you might want to change to get it to style and look the way you want it to look on your page.
-Module 1.10. Additional Controls
+
+<h3 id="w1-10">Module 1.10. Additional Controls</h3>
  
 Your slider should be looking good. We've gotten everything in place and it's working. 
   
@@ -411,7 +443,8 @@ We could do reverse true, so we'll go from top to bottom instead of from bottom 
  
 Then finally, another one we could do is pause on hover true. Which is in here, you can find it in here somewhere pause on hover. There it is. We had set this, this is a feature that we had tried to build into our own version, that we did build into our own version. That's true, and when you're hovering over the slides, they'll stop. 
 It's very nice interface on it, right? Now every two seconds, it's going to go unless I hover over the slides, in which case it's going to stop. It won't because I want to enjoy these kittens, I want to look at them for a while, two seconds isn't really long enough, so I can really enjoy them and look at them for as long as I want. Then, when I stop hovering on it, and I'll wait two seconds and it'll start going again. That functionality is built in as well. That's great. It gives us a lot of opportunity to build in a lot of extra functionality through these additional features that are here. There's a lot of them. Manual controls, controls container. You can do all kinds of things. There's arrows. You could swap those arrows out for something else, so that it doesn't look like every Website you go to has FlexSlider on it. It could look the same, because they all have the same arrows here, left and right arrows. We can get rid of those and do something else that would be kind of interesting and fun.
-Module 1.11. Advanced FlexSlider
+
+<h3 id="w1-11">Module 1.11. Advanced FlexSlider</h3>
  
 Now that you've created the basic FlexSlider, with some advanced options, we can really do some different things with this FlexSlider. 
   
@@ -426,9 +459,10 @@ There are some snippets here and so I'm basically going to replace my slider wit
 I have a div, with an h2. The div has a class of slide 1, slide 2, slide 3, so on and so forth. Then I have the h1 and the h2 and I have an anchor tag with the class of CTA for ‘Call to Action’. A spin around the text, which I explain what that's going to do in a few minutes, that says these kittens are available now. This is going to be like a ‘Call to Action’ button that you can click on to access these kittens. It's not really going anywhere because the link is just set to a pound sign. But if this is a real website, that could be a link to a page where you could actually adopt this kitten or something like that, that will be fun. But rather than make you type all of this stuff out, which is tedious, you can actually come to the snippet page and just copy it.
   
 Then come back to your project and on your index file, in place of the slider down here, this FlexSlider, we're just going to paste this one in instead. Paste that in and it's still div class backsliders, still your old class slides. All that's changed is the list items in here. These divs have a class of slide1, slide 2, slide 3, slide 4 and slide 5. I dump slide 6 and 7 for now, probably five kittens is enough for this slider and that's great. That gets us started and on our way with creating our fancier version of our FlexSlider. In the next lesson, we'll start looking at what we need to do to adjust the styling for this.
-Module 1.12. Additional Styling (5:47)
+
+<h3 id="w1-12">Module 1.12. Additional Styling (5:47)</h3>
  
-In the last module, we updated the markup for our fancy version of the slider, and now we need to do some updating for the actual CSS for the display of the slides. 
+In the last module (1.11), we updated the markup for our fancy version of the slider, and now we need to do some updating for the actual CSS for the display of the slides. 
   
 So, I'm going to come back over here to my snippets and I'm just going to copy these three rules here. And I'm going to come over and paste them into my CSS file over here, styles.css. And I'm going to stick them just in my section with the flex slider stuff here. It doesn't really matter where they go, I'm going to put them here. 
  
@@ -443,15 +477,40 @@ What if you had images that had a different ratio? You want to make sure all you
 Then down here I'm setting the H2 to position absolute top 20 pixels, left 20 pixels, then I'm setting the color for that. So that's not too fancy. But that's an important thing to understand with the way that this is working. 
  
 The next thing we need is the styling for the actual call to action buttons that are going to show up on the slides. If I save this like this, you'll see if I come back and test it, it's fine, but the call-to-action buttons won't work very well here. So, there's my call-to-action button there and I need to fix that, but you can see that the background images have come in. These images are now in the background of my slide, rather than in the foreground. And the foreground is an H2 that's been absolutely positioned here. But now I need to style this call to action, and I'll do that in the next lesson.
-Module 1.13. Styling the CTA ‘Call To Action’
+
+<h3 id="w1-13">Module 1.13. Styling the CTA ‘Call To Action’</h3>
  
-Now we're down to styling the call to action so that it displays properly on the page, and I have a rule for the dot CTA anchor tags, there's a lot of stuff in here, but you'll see why as we move forward and do this, but let's go ahead and add this rule to our style sheet. 
- 
-  
-If you come over here, you can see that I have it here, it's a long one so, I made it, so you don't have to tighten it, you can just copy and paste it. I'll explain more about exactly why all these decorations are in here, but for right now, let's just added in over here. 
-A few things to look at, it's set to display flex for the call to action, and that's making this anchor tag display flex, so that this element class of the span in here can get positioned in the vertical center. By setting that to display flex and align-item center, that will allow me to put that text in the vertical center of these called actions, these called actions are going to be round buttons, and I want the text to be in the vertical and horizontal center, so that allows us to do that. I'm just setting the height and the width to 25vw, which is viewport width, 25 percent of the viewport width, so these buttons will scale up and down with the size of the window, and you'll see that this is actually too large for the desktop, we will put in a rule down in the media queries to fix that in a minute. 
-I'm also setting position absolute on these, because they're going to be absolute positioned from the right, and then bottom 100 percent means they're going to be positioned initially off the top of the screen. I'm setting bottom 100 percent that's going to push the bottoms of these up to 100 percent, the height of that parent element, and that's going to put them all the way off the top of the screen. 
-When we come to the slide, they're going to animate down into the screen, you'll see in a minute as we finish this up. I'm setting a background color, border radius 50 percent is what makes them round, I'm putting a border on them with the color, and then text-align center, puts the text in the horizontal center, some padding, text-decoration, none gets rid of the underlying setting, the font family, the font size, 4vw is four percent of the viewport width, so again, the font it's going to resize based on how wide the screen is, and then also the color for the text. That's a lot of stuff.
+<p>Now we're down to styling the call to action so that it displays properly on 
+the page, and I have a rule for the dot CTA anchor tags, there's a lot of stuff 
+in here, but you'll see why as we move forward and do this, but let's go ahead 
+and add this rule to our style sheet.</p>
+<p>If you come over here, you can see that I have it here, it's a long one so, 
+I made it, so you don't have to tighten it, you can just copy and paste it. I'll 
+explain more about exactly why all these decorations are in here, but for right 
+now, let's just added in over here.</p>
+<p>A few things to look at, it's set to display flex for the call to action, and that's 
+making this anchor tag display flex, so that this element class of the span in here 
+can get positioned in the vertical center. By setting that to display flex and 
+align-item center, that will allow me to put that text in the vertical center of 
+these called actions, these called actions are going to be round buttons, and I 
+want the text to be in the vertical and horizontal center, so that allows us to 
+do that. I'm just setting the height and the width to 25vw, which is viewport width, 
+25 percent of the viewport width, so these buttons will scale up and down with the 
+size of the window, and you'll see that this is actually too large for the desktop, 
+we will put in a rule down in the media queries to fix that in a minute.</p>
+<p>I'm also setting position absolute on these, because they're going to be absolute 
+positioned from the right, and then bottom 100 percent means they're going to be 
+positioned initially off the top of the screen. I'm setting bottom 100 percent 
+that's going to push the bottoms of these up to 100 percent, the height of that 
+parent element, and that's going to put them all the way off the top of the screen.</p>
+<p>When we come to the slide, they're going to animate down into the screen, you'll 
+see in a minute as we finish this up. I'm setting a background color, border radius 
+50 percent is what makes them round, I'm putting a border on them with the color, 
+and then text-align center, puts the text in the horizontal center, some padding, 
+text-decoration, none gets rid of the underlying setting, the font family, the 
+font size, 4vw is four percent of the viewport width, so again, the font it's going 
+to resize based on how wide the screen is, and then also the color for the text. 
+That's a lot of stuff.</p>
   
 We're going to do one more rule in here for dot light, and I'm setting a color in here, color, and I think I set it to, where did I set it to #ededed. The reason for that, it's a light gray, one of the slides is dark, so over here, I have a class of light on slide 4. 
  
@@ -467,14 +526,20 @@ Then, when we get to the full-screen size for desktop, I need this again, and I'
 That gets all of the styling in place for these, and if we go back and review the page, you'll see that the call to action isn't on the screen at all, it's going to be up here, I actually noticed down here at bottom 100 percent, so it is showing up. But this is the way they're going to look in end here, is round like this. 
  
 If you go to number 4, slide 4, that one should be picking up the light class, and I don't know why it's not now. You know what, I think I put it on the wrong one. Let's fix that. Over here. Cut it from there and stick it on this one. That seems like it should be the right one. It's so cute, it's that one. I think they're just #ededed, it should be right. It may need to be refreshed properly, but that's okay. Great, so you got that all in place. The last thing we need to do is get this animation to work.
-PDF of Presentation
-Here is a PDF of the presentation slides used in the lessons for this section: jQuery Plugins and FlexSlider.
-1.13.FlexSlider.pdf (PDF File)
-Week 1 Reflection
-Going through the lessons in Week 1:
-•    What concepts did you struggle with or need more time with?
-•    What concepts surprised you?
-•    How will these foundational concepts help you in the future?
+
+<h5>PDF of Presentation</h5>
+<p>Here is a PDF of the presentation slides used in the lessons for this section: jQuery Plugins and FlexSlider.</p>
+
+<h4>1.13.FlexSlider.pdf (PDF File)</h4>
+<h4>Week 1 Reflection</h4>
+
+<h5>Going through the lessons in Week 1:</h5>
+
+<ul>
+  <li>What concepts did you struggle with or need more time with?</li>
+  <li>What concepts surprised you?</li>
+  <li>How will these foundational concepts help you in the future?</li>
+</ul>
 
 
 
