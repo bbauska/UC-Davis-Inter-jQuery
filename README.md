@@ -4,7 +4,7 @@ author: "bbauska"
 date last editted: "12/01/2023 4+pm"
 output: 
   markdown:
-    with_style
+    with_some_style
 ---
 
 <h1 align="center">Interactivity with JavaScript and jQuery</h1>
