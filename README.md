@@ -13,17 +13,17 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ readme.md of uc-davis-inter-jquery.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01b. jquery logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. jquery logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image001b.png" 
+  <img src="./images/image001.png" 
   alt="jQuery logo."
   style="border: 2px solid #000000;" 
   width="400px;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. uc davis logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. uc davis logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image001.png" 
+  <img src="./images/image002.png" 
   alt="University of California @Davis logo."
   style="border: 2px solid #000000;" 
   width="200px;" />
@@ -88,7 +88,12 @@ basic and more advanced image sliders.</p>
 
 <h4>Combining Scripts and Skill Building Through Practice</h4>
 
-<p>In this module, you will be able to use jQuery to create a smooth scroll effect for in-page navigation, as well as develop a script, using jQuery, that keeps track of scroll positions on the page. You will be able to compare and contrast the in-page smooth scroll script and the location tracking script created using jQuery with one created using plain JavaScript. You will be able to build a webpage using HTML and CSS that will combine some of the different scripts created in this course. You will be able to combine some of the different scripts and jQuery plugins explored in this course into the Scription webpage through a series of challenges.
+<p>In this module, you will be able to use jQuery to create a smooth scroll effect for in-page navigation, as well 
+as develop a script, using jQuery, that keeps track of scroll positions on the page. You will be able to compare 
+and contrast the in-page smooth scroll script and the location tracking script created using jQuery with one 
+created using plain JavaScript. You will be able to build a webpage using HTML and CSS that will combine some 
+of the different scripts created in this course. You will be able to combine some of the different scripts and 
+jQuery plugins explored in this course into the Scription webpage through a series of challenges.</p>
 
 <h5>39 videos, 5 readings, 7 zip files</h5>
 
