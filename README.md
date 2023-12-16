@@ -775,10 +775,10 @@ because it&apos;s a responsive slider.
 
 <p align="center">
 <img src="./images/image019.png"
-  style="width:3in;"
+  style="width:40%;"
   alt="." />
 <img src="./images/image020.png"
-  style="width:3in;"
+  style="width:40%;"
   alt="." />
 </p>
 
