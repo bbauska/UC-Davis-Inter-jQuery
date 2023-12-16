@@ -670,7 +670,7 @@ using is really worthwhile.
 <p align="center">
   <img src="./images/image016.png"
   alt="Looking to the Future."
-  style="border: 2px solid black;"
+  style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
 <!-- {width="5.0in" height="2.8338681102362204in"} -->
