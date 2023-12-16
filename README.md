@@ -880,19 +880,32 @@ FlexSlider work in your project. This is a little bit confusing,
 especially if you&apos;re not that familiar with this thing. Let me go
 through it carefully, because you&apos;re likely to run into this with other
 plug-ins as well.
-
-![](./12-15-23-images/media/image29.png){width="3.5in"
-height="1.9033114610673665in"}![](./12-15-23-images/media/image30.png){width="3.5in"
-height="1.9033114610673665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 29/30. folder with website and images (26) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image029.png?raw=true"
+  style="width:45%"
+  alt="Folder with website." />
+<img src="./images/image030.png?raw=true"
+  style="width:45%"
+  alt="Folder with images." />
+</p>
 
 Here on the left, I have my folder with my website in it, that&apos;s my
 index page, I&apos;ve got a JavaScript file, I&apos;ve got slides which have
 different slides for the different pictures of the kittens, and I&apos;ve
 got my style-sheet, that&apos;s what&apos;s in my folder.
 
-![](./12-15-23-images/media/image31.png){width="3.5in"
-height="1.9033114610673665in"}![](./12-15-23-images/media/image32.png){width="3.5in"
-height="1.9033114610673665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31/32. unzipped download files (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image031.png?raw=true"
+  style="width:35%"
+  alt="Unzipped download files." />
+<img src="./images/image032.png?raw=true"
+  style="width:35%"
+  alt="Other unzipped download files." />
+</p>
 
 Over here, these are the files that got downloaded. When I unzipped the
 FlexSlider folder this is what I got. You might wonder what some of this
