@@ -540,8 +540,8 @@ it&apos;s the same basic steps each time.
 <p align="center">
   <img src="./images/image014.png" 
   alt="More Gotchas and Rookie Mistakes."
-  style="border: 2px solid #000000;" 
-  width="50%;" />
+  border="2px solid #000000" 
+  style="width:50%;" />
 </p>
 <!-- {width="5.0in" height="2.8338681102362204in"} -->
 
