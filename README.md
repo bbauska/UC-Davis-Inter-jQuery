@@ -686,7 +686,6 @@ using is really worthwhile.
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
-<!-- {width="5.0in" height="2.8338681102362204in"} -->
 
 Getting used to using other people&apos;s code now via jQuery plugins is a
 good preparation for the future. If you get deeper into JavaScript
@@ -749,7 +748,6 @@ carrying the extension .ZIP.
   style="border: 2px solid black;"
   width="40%;" />
 </p>
-<!-- {width="4.0in" height="2.2670942694663165in"} -->
 
 Now that we&apos;ve talked about jQuery plug-ins a bit, let&apos;s take a look
 at one that we can use to add a significant amount of interface options
@@ -762,7 +760,6 @@ to our page.
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
-<!-- {width="5.0in" height="2.719016841644794in"} -->
 
 The FlexSlider is a good one to look at. Partially because we&apos;ve been
 working on image sliders, so, we come to this with the context of having
@@ -772,31 +769,43 @@ the previous lessons. That&apos;s fun.
 
 The other thing that&apos;s nice about FlexSlider, it&apos;s called FlexSlider
 because it&apos;s a responsive slider.
-
-<p align="center">
-<img src="./images/image019.png"
-  style="width:40%;"
-  alt="." />
-<img src="./images/image020.png"
-  style="width:40%;"
-  alt="." />
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 19/20. responsive kittens for sale (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image019.png?raw=true"
+  style="width:40%"
+  alt="Responsive Kittens for Sale Web Page, #1." />
+<img src="./images/image020.png?raw=true"
+  style="width:40%"
+  alt="Responsive Kittens for Sale Web Page, #2." />
 </p>
 
 I&apos;ve opened up the page over here and you can see if I pull this off
 and resize it, the page is responsive and it squishes and stretches, and
 so, we can actually create a slider that will work for different screen
 sizes using FlexSlider. That&apos;s fun.
-
-![](./12-15-23-images/media/image21.png){width="5.0in"
-height="2.719016841644794in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. markup for web site (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image021.png" 
+  alt="Markup for Kittens for Sale Web Page."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 If you look at the markup, you&apos;ll notice that it&apos;s pretty basic. If
 you download the start files that come with this lesson, I have in here
 some basic markup.
-
-![](./12-15-23-images/media/image22.png){width="3.5in"
-height="1.9033114610673665in"}![](./12-15-23-images/media/image23.png){width="3.5in"
-height="1.9033114610673665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 22/23. responsive kittens for sale (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image022.png?raw=true"
+  style="width:35%"
+  alt="Responsive Kittens for Sale Web Page, #1." />
+<img src="./images/image023.png?raw=true"
+  style="width:35%"
+  alt="Responsive Kittens for Sale Web Page, #2." />
+</p>
 
 This is where the actual slider will go, and then I&apos;ve just got some
 columns and some articles, and then the styling is all in place on the
@@ -805,22 +814,37 @@ larger or smaller. The media queries, will handle the sizing of stuff on
 the page, and there&apos;s just a few rules in there just because this is
 pretty basic, but there we have it. We&apos;ll make a slider about kittens
 because, who doesn&apos;t love kittens? Kittens are awesome.
-
-![](./12-15-23-images/media/image24.png){width="5.0in"
-height="2.719016841644794in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. responsive media queries (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image024.png" 
+  alt="Responsive Media Queries."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 We looked at the media queries and they&apos;ll handle the screen if it&apos;s
 wider than 600 pixels. Up to 600 pixels you just get a very basic
 layout, and then once you get larger than that, it will give you a more
 of a layout on the page with the columns. Okay.
-
-![](./12-15-23-images/media/image25.png){width="5.0in"
-height="2.719016841644794in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. flexslider website (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image025.png" 
+  alt="FlexSlider Website."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Then the next thing is the FlexSlider Website and the FlexSlider Script.
-
-![](./12-15-23-images/media/image26.png){width="5.0in"
-height="2.719016841644794in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. flexslider website, #2 (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image026.png" 
+  alt="FlexSlider Website, #2."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 If you go to the FlexSlider Website, which is here, you can download
 FlexSlider or you can click on the Live Demo. It&apos;s posted by
@@ -830,15 +854,25 @@ to use FlexSlider right here on this page, and you can download the
 files to get started. However, I&apos;ve already provided the same files
 with this lesson, so, you don&apos;t have to go there and download them,
 they&apos;re also included with this lesson.
-
-![](./12-15-23-images/media/image27.png){width="5.0in"
-height="2.719016841644794in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. flexslider website, #3 (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image027.png" 
+  alt="FlexSlider Website, #3."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Get those files first by either clicking the Download button here or by
 downloading the FlexSlider files of this lesson.
-
-![](./12-15-23-images/media/image28.png){width="5.0in"
-height="2.719016841644794in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 28. files needed: flexslider website (25) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image028.png" 
+  alt="Files Needed for FlexSlider Website."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Now, when you get those files, the FlexSlider files, you&apos;re going to
 need to figure out what you need in order to actually make the
