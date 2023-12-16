@@ -800,10 +800,11 @@ some basic markup.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 22/23. responsive kittens for sale (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image022.png?raw=true"
-  style="width:35%"
+  style="width:45%"
   alt="Responsive Kittens for Sale Web Page, #1." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image023.png?raw=true"
-  style="width:35%"
+  style="width:45%"
   alt="Responsive Kittens for Sale Web Page, #2." />
 </p>
 
@@ -886,6 +887,7 @@ plug-ins as well.
 <img src="./images/image029.png?raw=true"
   style="width:45%"
   alt="Folder with website." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image030.png?raw=true"
   style="width:45%"
   alt="Folder with images." />
@@ -895,15 +897,15 @@ Here on the left, I have my folder with my website in it, that&apos;s my
 index page, I&apos;ve got a JavaScript file, I&apos;ve got slides which have
 different slides for the different pictures of the kittens, and I&apos;ve
 got my style-sheet, that&apos;s what&apos;s in my folder.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31/32. unzipped download files (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image031.png?raw=true"
-  style="width:35%"
+  style="width:45%"
   alt="Unzipped download files." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image032.png?raw=true"
-  style="width:35%"
+  style="width:45%"
   alt="Other unzipped download files." />
 </p>
 
@@ -930,10 +932,17 @@ folder includes a font that as the next button in the previous button
 that will show up on the slider, so, we need that in order for this
 'next' and 'previous' buttons to load properly. We will need that as
 well.
-
-![](./12-15-23-images/media/image33.png){width="3.5in"
-height="1.9033114610673665in"}![](./12-15-23-images/media/image34.png){width="3.5in"
-height="1.9033114610673665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33/34.  (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image033.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image034.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 I&apos;m going to grab the FlexSlider.css, the fonts, and the minified
 version of FlexSlider. Just those three files, the rest of it I don&apos;t
@@ -941,7 +950,7 @@ need. I&apos;m going to put them into my project folder over here so that I
 have them, and that gets us all the files that we need in order to get
 started for this project.
 
-# 1.07. About the Minified Version {#about-the-minified-version }
+<h2 id="ch1-07">1.07. About the Minified Version</h2>
 
 ![](./12-15-23-images/media/image35.png){width="4.0in"
 height="2.1752132545931757in"}
@@ -1000,9 +1009,17 @@ mean about how to do this.
 ![](./12-15-23-images/media/image41.png){width="5.0in"
 height="2.8044870953630796in"}
 
-![](./12-15-23-images/media/image42.png){width="3.5in"
-height="1.963140857392826in"}![](./12-15-23-images/media/image43.png){width="3.5in"
-height="1.963140857392826in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42/43.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image042.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image043.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 First, we can look at where these scripts go, and over here, notice this
 one is listing jQuery 1.6.2, that&apos;s a really old version of jQuery. And
@@ -6460,4 +6477,27 @@ going to learn even more JavaScript and you&apos;ll get even better at it
 and you&apos;ll get more practice. So I look forward to seeing you there.
 
 .the end...
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ ##.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- template single
+<p align="center">
+  <img src="./images/image###.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="40%;" />
+</p>
+-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ ##/##.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- template >= 2
+<p align="center" width="100%">
+<img src="./images/image###.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image###.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
+-->
 <h6>12/15/23 3:00pm</h6>
