@@ -295,7 +295,15 @@ You will be able to then extend the script in many creative ways.</p>
 </ul>
 
 <h2 id="ch1-01">1.01. Course Introduction (0:40)</h2>
- 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. course intro (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image003.png" 
+  alt="1.01. Course Introduction."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
+
 <p>Hello and welcome to our 3rd course in our four-core specialization on JavaScript. 
 My name is Bill Mead and I'm back again to do more JavaScript with you. Hopefully 
 you've completed our first two courses on JavaScript and you've learned a lot about 
@@ -308,6 +316,14 @@ in this course. Let's break out our code editors and our web browsers and get st
 and learn even more about JavaScript.</p>
 
 <h2 id="ch1-02">1.02. Module Introduction</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. module 1 intro (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image004.png" 
+  alt="1.02. Module 1 Introduction."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
  
 <p>Hello and welcome to our first module in our third course on JavaScript. In this 
 module, we're going to dive even deeper into jQuery, looking at some jQuery plugins. 
@@ -318,12 +334,11 @@ and useful. Plus, you end up with a great tool for creating slider elements on w
 pages and that's really pretty fun.</p>
 
 <h2 id="ch1-03">1.03. Introduction to jQuery Plugins (3:49)</h2>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. intro to jquery plugins (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. intro to jquery plugins (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image005.png" 
-  alt="Intro to jQuery Plugins."
+  alt="1.03. Intro to jQuery Plugins."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -332,10 +347,10 @@ pages and that's really pretty fun.</p>
 Just as a quick recap, we&apos;ve learned a lot of JavaScript so far.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. intro to jquery plugins (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. recap: javascript (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image006.png" 
-  alt="Intro to jQuery Plugins."
+  alt="Recap: JavaScript."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -352,10 +367,10 @@ basics, you can do quite a lot, but it might take you a long time to
 write the scripts that you want to do for your web page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. intro to jquery plugins (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. recap: jquery (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image007.png" 
-  alt="Intro to jQuery Plugins."
+  alt="Recap: jQuery."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -368,10 +383,10 @@ more compact, and a little bit easier. That helps and that makes things
 a little bit easier and a little bit better for all of us.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. intro to jquery plugins (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. introducing: plugins (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image008.png" 
-  alt="Intro to jQuery Plugins."
+  alt="Introducing: Plugins."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -396,19 +411,17 @@ your scripts yourself. You can look for scripts that other people have
 written and see if you can modify them and use them in your own projects
 through the use of a plugin, and that&apos;s really very powerful and really
 great.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 09. using plugins and essential steps (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. adding functionality (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image009.png" 
-  alt="Using Plugins and Essential Steps."
+  alt="Adding Functionality."
   style="border: 2px solid #000000;" 
   width="50%;" />
 </p>
-<!-- {width="5.0in" height="2.8338681102362204in"} -->
 
-Again, **plugins** add additional functionality to jQuery, and we&apos;ve
-already seen this with the **easing plugin.** But some plugins can have
+Again, <b>plugins</b> add additional functionality to jQuery, and we&apos;ve
+already seen this with the <b>easing plugin</b>. But some plugins can have
 very complex functionality without us having to write a whole bunch of
 code. We have access to a whole bunch of additional functions and we&apos;ll
 see what that looks like.
@@ -423,16 +436,14 @@ down the side of the tabbed interface rather than across the tab? You
 could do that thing.
 
 <h2 id="ch1-04">1.04. Using Plugins and Essential Steps</h2>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. using plugins, #2 (1.04) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 10. using plugins and essential steps (1.04) (13) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image010.png"
-  alt="Using jQuery Plugins, #2."
+  alt="1.04. Using Plugins and Essential Steps."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
-<!-- {width="4.0in" height="2.240598206474191in"} -->
 
 Using plugins and essential steps, adding plugins to your project,
 configuring them, and learning how to use them still takes some work and
@@ -442,22 +453,22 @@ whole script yourself.
 Many of the larger, more sophisticated plugins require five steps to get
 them to work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 11. using plugins and essential steps, #2 (13) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image011.png" 
-  alt="image011."
+  alt="Using Plugins and Essential Steps, #2."
   style="border: 2px solid #000000;" 
   width="50%;" />
 </p>
 <!-- {width="5.0in" height="2.8338681102362204in"} -->
 
-**[Step 1]** is, you have to use the markup indicated by the
+<b>Step 1</b> is, you have to use the markup indicated by the
 plugin documentation. Often, you&apos;ll have to use divs or our articles or
 other elements with particular classes that the plugin needs in order
 for it to actually work. Classes or IDs or other, structures that the
 plugin needs to work.
 
-**[Step 2],** you need to make sure jQuery is linked. The jQuery
+<b>Step 2</b>, you need to make sure jQuery is linked. The jQuery
 libraries linked because if you&apos;re using a jQuery plugin, then you need
 to have jQuery decide if you&apos;re going to put your scripts at the top of
 the page or at the bottom of the page. Sometimes you can put them
@@ -466,7 +477,7 @@ to put them in one place or the other. But frequently you can make your
 own decision on this and put it where you want it to go and architect
 your file the way you want it to be structured.
 
-**[Step 3],** is to link the plugin file and when you download a
+<b>Step 3</b>, is to link the plugin file and when you download a
 plugin, frequently it will come with a compressed version and an
 uncompressed version. The uncompressed version is there for you to look
 at so you could see how the plugin actually functions, it&apos;s readable
@@ -477,14 +488,14 @@ download faster. So, if they provide a compressed one, then you should
 use that, if they don&apos;t provide a compressed one, you can compress it
 yourself.
 
-**[Step 4],** link to the plug in CSS file, some of the fancier
+<b>Step 4</b>, link to the plug in CSS file, some of the fancier
 plugins will come with styling that will style the elements inside of
 the plugin. And, this is usually included so that everything looks and
 works the way it&apos;s supposed to work within the interface for that
 plugin, so you want to make sure you get that CSS file linked onto your
 page.
 
-[Then **Step 5**], is you need to initialize the setup of the
+Then <b>Step 5</b>, is you need to initialize the setup of the
 plugin in your own script tag, or on your own linked JavaScript file.
 Often, you can set additional options so that when the function is
 initialized, and so that you can pass in whichever options will get the
@@ -495,7 +506,7 @@ then the jQuery plugin, and then you will initialize the plugin on your
 own script. And then also make sure that if there&apos;s any CSS files,
 those are included as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. documentation mish-mash (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. documentation mish-mash (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image012.png"
   alt="Documentation Mish-Mash."
@@ -526,7 +537,7 @@ it&apos;s the same basic steps each time.
 
 <h2 id="ch1-05">1.05. Gotchas and Rookie Mistakes</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 13. gotchas and rookie mistakes (1.05) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 13. gotchas and rookie mistakes (1.05) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image013.png"
   alt="Gotchas and Rookie Mistakes."
@@ -536,15 +547,16 @@ it&apos;s the same basic steps each time.
 <!-- {width="4.0in" height="2.240598206474191in"} -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. gotchas and rookie mistakes, #2 (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. gotchas and rookie mistakes, #2 (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image014.png" 
   alt="Gotchas and Rookie Mistakes, #2."
-  border="2px solid #000000; width:50%" />
+  style="border: 2px solid #000000;"
+  width="50%;" />
 </p>
 <!-- {width="5.0in" height="2.8338681102362204in"} -->
 
-**[Number 1]** on this list is the biggest one, I see this all
+<b>Number 1</b> on this list is the biggest one, I see this all
 the time, especially with students who are new to working with
 JavaScript in jQuery, and that is ending up with multiple copies of the
 jQuery library linked to your page.
@@ -632,7 +644,7 @@ you ever update the plugin files, you&apos;ll lose that and you&apos;ll have to
 do it again. You want to make sure you put it on your CSS file.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. 5 items of beware the plugin (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. 5 items of beware the plugin (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <kbd>
   <img src="./images/image015.png" 
@@ -667,7 +679,7 @@ than actually writing the code yourself from scratch if it&apos;s an
 extensive plugin. It&apos;s worth it to make sure that the plugin you&apos;re
 using is really worthwhile.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. looking to the future (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. looking to the future (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image016.png"
   alt="Looking to the Future."
@@ -729,9 +741,8 @@ carrying the extension .ZIP.
 
 
 <h2 id="ch1-06">1.06. FlexSlider: A jQuery Plugin</h2>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. flexslider: a jquery plugin (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. flexslider: a jquery plugin (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image017.png" 
   alt="1.06. FlexSlider: A jQuery Plugin."
@@ -743,9 +754,8 @@ carrying the extension .ZIP.
 Now that we&apos;ve talked about jQuery plug-ins a bit, let&apos;s take a look
 at one that we can use to add a significant amount of interface options
 to our page.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. basic flexslider (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. basic flexslider (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image018.png" 
   alt="Basic FlexSlider."
