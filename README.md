@@ -635,10 +635,12 @@ do it again. You want to make sure you put it on your CSS file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. 5 items of beware the plugin (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
+<kbd>
   <img src="./images/image015.png" 
   alt="5 Items of Beware the Plugins."
   style="border: 2px solid #000000;" 
   width="50%;" />
+</kbd>
 </p>
 <!-- {width="5.0in" height="2.8338681102362204in"} -->
 
