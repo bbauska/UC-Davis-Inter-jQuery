@@ -743,8 +743,17 @@ Now that we&apos;ve talked about jQuery plug-ins a bit, let&apos;s take a look
 at one that we can use to add a significant amount of interface options
 to our page.
 
-![](./12-15-23-images/media/image18.png){width="5.0in"
-height="2.719016841644794in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. basic flexslider (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<kbd>
+<p align="center">
+  <img src="./images/image018.png" 
+  alt="Basic FlexSlider."
+  style="border: 2px solid #000000;" 
+  width="50%;" />
+</p>
+</kbd>
+<!-- {width="5.0in" height="2.719016841644794in"} -->
 
 The FlexSlider is a good one to look at. Partially because we&apos;ve been
 working on image sliders, so, we come to this with the context of having
