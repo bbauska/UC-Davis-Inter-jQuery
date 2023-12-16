@@ -773,10 +773,14 @@ the previous lessons. That&apos;s fun.
 The other thing that&apos;s nice about FlexSlider, it&apos;s called FlexSlider
 because it&apos;s a responsive slider.
 
-![](./12-15-23-images/media/image19.png){width="3.0in"
-height="1.6314107611548556in"}
-![](./12-15-23-images/media/image20.png){width="3.0in"
-height="1.6314107611548556in"}
+<p align="center">
+<img src="./images/image019.png"
+  style="width:3in;"
+  alt="." />
+<img src="./images/image020.png"
+  style="width:3in;"
+  alt="." />
+</p>
 
 I&apos;ve opened up the page over here and you can see if I pull this off
 and resize it, the page is responsive and it squishes and stretches, and
