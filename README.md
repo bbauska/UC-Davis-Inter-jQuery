@@ -951,17 +951,28 @@ have them, and that gets us all the files that we need in order to get
 started for this project.
 
 <h2 id="ch1-07">1.07. About the Minified Version</h2>
-
-![](./12-15-23-images/media/image35.png){width="4.0in"
-height="2.1752132545931757in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 35.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image035.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="40%;" />
+</p>
 
 About the Minified Version
 
 And again, I&apos;m just repeating myself here but it&apos;s really important
 that you understand this.
 
-![](./12-15-23-images/media/image36.png){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 36.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image036.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 The Minified version is the same file with all the same with all the
 white space removed and a few other things done to make the file smaller
@@ -971,16 +982,28 @@ want to see the actual JavaScript or maybe even edited, but you&apos;ll
 probably never want to do that. So, we&apos;ll always use the Minified
 version.
 
-![](./12-15-23-images/media/image37.png){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 37.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image037.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 And again, these are the files that we actually need for our project.
 So, we&apos;re going to copy them over and put them into our project folder
 just like you see here and just like we did just a minute ago in the
 previous lesson.
 
-![](./12-15-23-images/media/image38.png){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 38.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image038.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Next, it&apos;s about following the directions to make the flex slider work,
 and you can come back to the flex slider website and I recommend that
@@ -988,8 +1011,14 @@ you do this. Even though I&apos;m going to walk through doing it with you,
 it&apos;s good to sort of come in here and see how these directions are
 written and to understand what the steps are.
 
-![](./12-15-23-images/media/image39.png){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 39.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image039.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 First, link the files, then add the markup, then hook up your slider,
 and then tailor its units with special stuff down here. And if you&apos;re
@@ -1000,15 +1029,25 @@ works in order to get this stuff to work, right? Once you&apos;ve done it a
 few times for a few different plug ins, you&apos;ll see there&apos;s a lot of
 similarities.
 
-![](./12-15-23-images/media/image40.png){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 40.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image040.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 All right, so let&apos;s go through this together. So, you can see what I
 mean about how to do this.
-
-![](./12-15-23-images/media/image41.png){width="5.0in"
-height="2.8044870953630796in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 41.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image041.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42/43.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1034,8 +1073,14 @@ flexslider.css\". Don&apos;t forget rel =\"stylesheet\", and make sure you
 spell style sheet right. Okay, so that will link that up. You can see
 I&apos;ve got jquery 2.2.4 loaded here, as opposed to the 1.6.
 
-![](./12-15-23-images/media/image44.png){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 44.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image044.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 But I&apos;m actually going to load the most recent version of jQuery. So,
 I&apos;m going to come back here and I&apos;m going to go and look for jquery
@@ -1044,16 +1089,28 @@ And here is the latest version of jquery. You&apos;ll notice it&apos;s been
 updated recently to 3.6, okay. So, I&apos;m going to replace this version of
 jquery with that one.
 
-![](./12-15-23-images/media/image45.png){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 45.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image045.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 But notice I need to go back and add the **defer**, I want to put
 **defer** back in here because really, I want this script to load at the
 bottom of the screen. Okay, now I want to load the jQuery Flexslider
 script.
 
-![](./12-15-23-images/media/image46.png){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 46.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image046.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 So, I&apos;m going to put that in here, script src equals quote, and I want
 this one, that&apos;s the plug in. I&apos;m going to load that one next, and
@@ -1063,8 +1120,14 @@ myscript.js. There we go, I&apos;ve got the files loaded. So, what&apos;s the
 next thing that we need to do? If we come back to the directions, it
 says place somewhere in the head of your document.
 
-![](./12-15-23-images/media/image47.png){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 47.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image047.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 The other thing I want to do is I want to put the defer attribute on my
 script. Let&apos;s do that too. Because we want to make sure that it loads
@@ -1073,26 +1136,43 @@ here. So, that they will load in this order, first this library, then
 the plug in, then my script. And they&apos;ll load after the rest of the
 page is loaded, just to be certain. So, we&apos;ve got that, okay.
 
-![](./12-15-23-images/media/image48.png){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 48.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image048.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 The next thing we need to do is to add the markup, and this is the
 markup this plug in expects. It expects a **div** with the class,
 **flexslider**, and a **ul** with the class slides, then list items with
 the images inside of it, and we&apos;ll do that in the next lesson.
 
-# 1.08. Adding Markup & Hooking Up the Slider {#adding-markup-hooking-up-the-slider }
+<h2 id="ch1-08">1.08. Adding Markup & Hooking Up the Slider</h2>
 
-![](./12-15-23-images/media/image49.png){width="4.0in"
-height="2.1752132545931757in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 49.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image049.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="40%;" />
+</p>
 
 In the last lesson, we got all of our files linked and everything hooked
 up so that it should all be ready to work. You want to make sure that
 your stylesheet loads after the FlexSlider style sheets, that you can
 modify changes there. We&apos;ll get to more on that later.
-
-![](./12-15-23-images/media/image50.png){width="5.0in"
-height="2.7735050306211724in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 50.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image050.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Now, we&apos;re ready to actually come down here and make our markup work
 the way it&apos;s supposed to work. If we come back to our slides and our
@@ -1102,8 +1182,14 @@ div with the class of FlexSlider and unordered list of the class of
 slides, and then we can actually put our images inside each list item
 for that unordered list.
 
-![](./12-15-23-images/media/image51.png){width="5.0in"
-height="2.7735039370078742in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 51.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image051.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Let&apos;s go over here and set this up the same way. We need a div, we need
 a class, equals FlexSlider on here. This needs a class equals slides.
@@ -1113,32 +1199,52 @@ the folder, I have slides and I have seven of them. I have seven kittens
 here. Let&apos;s go ahead and add the six more times. 1,2,3,4,5,6, and then
 just change these numbers, 2, 3, 4, 5, 6, and 7. That will give us seven
 slides with seven kittens, one on each side. That&apos;s great.
-
-![](./12-15-23-images/media/image52.png){width="5.0in"
-height="2.7735050306211724in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 52.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image052.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Now we&apos;ve got our markup looking the way that it needs to look for our
 project. What&apos;s the next thing that we need to do? We did the markup,
 we got that all in, so that&apos;s great.
-
-![](./12-15-23-images/media/image53.png){width="5.0in"
-height="2.7735039370078742in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 53.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image053.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Step 3, directions. Hook up the **FlexSlider**. This thing says to use
 the **window.load** function. Now, I happen to know that the
 **window.load** function does not work with the latest version of
 jQuery, but that&apos;s okay. This is what it says down here.
-
-![](./12-15-23-images/media/image54.png){width="5.0in"
-height="2.7735050306211724in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 54.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image054.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 We could just copy this, **window.load** function here. This place after
 these links, script type JavaScript. But we&apos;re going to put this not
 inside script tags, but we already have a separate file called
 **MyScript** that&apos;s linked up here. That&apos;s this one here.
-
-![](./12-15-23-images/media/image55.png){width="5.0in"
-height="2.7735050306211724in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 55.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image055.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 I&apos;m going to put it on there, **MyScript**. Take **FlexSlider** and
 make it run. This says jQuery, go get this **FlexSlider** element, dot
@@ -1151,10 +1257,17 @@ before we can actually start making the slider run. So, we want to make
 that happen first. But I happen to know that this isn&apos;t going to work
 because the **window.load** function is deprecated and they want us to
 use **window.on** instead. But let&apos;s just test it anyway.
-
-![](./12-15-23-images/media/image56.png){width="3.5in"
-height="1.9780982064741908in"}![](./12-15-23-images/media/image57.png){width="3.5in"
-height="1.9780982064741908in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 56/57.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image056.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image057.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 If I come over here and refresh this page, you&apos;ll notice the FlexSlider
 is not here. If I do inspect and then come over to the console, index
@@ -1163,46 +1276,80 @@ is actually in the jQuery library, **jquery.min.js:2**, function load,
 this is a really good indicator that something&apos;s wrong with jQuery
 itself. It&apos;s not anything we did. It&apos;s actually jQuery. What&apos;s wrong
 here is that the latest version of jQuery does not support this file.
-
-![](./12-15-23-images/media/image58.png){width="5.0in"
-height="2.8258552055993in"}
-
-![](./12-15-23-images/media/image59.png){width="5.0in"
-height="2.8258552055993in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 58.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image058.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 59.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image059.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Now, if I were to go back to my hosted libraries and take this one
 instead, and come back here and replace it, you&apos;ll see that it&apos;ll work
 if I put this up here instead of the newest version. When I put that in
 there, put my defer back in, and now if I go test the page, you&apos;ll see
 that it works. Close this, refresh.
-
-![](./12-15-23-images/media/image60.png){width="5.0in"
-height="2.8258562992125986in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 60.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image060.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Look at that, we have a kitten slider, and it&apos;s working, I get my
 errors, I get these buttons down here, so I&apos;ve got this additional
 functionality, and it&apos;s working. It&apos;s doing everything it&apos;s supposed
 to do.
-
-![](./12-15-23-images/media/image61.png){width="3.5in"
-height="1.9780982064741908in"}![](./12-15-23-images/media/image62.png){width="3.5in"
-height="1.9780982064741908in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 61/62.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image061.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image062.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 But what if I really want to have the latest version of jQuery? Well,
 this is where knowing a little bit of JavaScript and a little bit of
 jQuery really helps, because I know that this load method here has been
 replaced. It&apos;s been deprecated. You could go look that up on the jQuery
 website if you wanted to.
-
-![](./12-15-23-images/media/image63.png){width="3.5in"
-height="1.9780982064741908in"}![](./12-15-23-images/media/image64.png){width="3.5in"
-height="1.9780982064741908in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 63/64.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image063.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image064.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 But I&apos;m going to come back here and I&apos;m going to command Z and put
 this back to the version 3.6 and save that.
-
-![](./12-15-23-images/media/image65.png){width="5.0in"
-height="2.8258562992125986in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 65.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image065.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Over here instead of load I&apos;m going to use on, and in here, I&apos;m going
 to put in load as an event and then run the function and watch this.
@@ -1210,9 +1357,17 @@ That should work. Make sure both files are saved, come back and refresh
 and look at that, it works fine using the on method, the more up-to-date
 method.
 
-![](./12-15-23-images/media/image66.png){width="3.5in"
-height="1.9780982064741908in"}![](./12-15-23-images/media/image67.png){width="3.5in"
-height="1.9780982064741908in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 66/67.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image066.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image067.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 Okay, great. Now, while we&apos;re here, let me just do one other thing.
 Suppose I forgot something. This is the thing that is often forgotten
@@ -1230,27 +1385,53 @@ page. There they are, they&apos;re back again. Okay, great. We&apos;ve got the
 basic slider working, now we can talk about what else we need to do with
 it and we&apos;ll do that in the next lesson.
 
-# 1.09. FlexSlider Rules {#flexslider-rules }
-
-![](./12-15-23-images/media/image68.png){width="4.0in"
-height="2.1752132545931757in"}
+<h2 id="ch1-09">1.09. FlexSlider Rules</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 68.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image068.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 In the last lesson (1.08), we got the Flexslider working, and it&apos;s
 working great. It&apos;s functional. All the pieces are functioning, but
 it&apos;s got some weird issues that we need to fix in terms of the layout
 in the styling.
-
-![](./12-15-23-images/media/image69.png){width="3.5in"
-height="1.8681616360454942in"}![](./12-15-23-images/media/image70.png){width="3.5in"
-height="1.8681627296587926in"}
-
-![](./12-15-23-images/media/image71.png){width="3.5in"
-height="1.8681627296587926in"}![](./12-15-23-images/media/image72.png){width="3.5in"
-height="1.8681627296587926in"}
-
-![](./12-15-23-images/media/image73.png){width="3.5in"
-height="1.8681627296587926in"}![](./12-15-23-images/media/image74.png){width="3.5in"
-height="1.8681627296587926in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 69/70.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image069.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image070.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 71/72.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image071.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image072.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 73/74.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image073.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image074.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 For example, why is my Flexslider sticking out on the edge over here?
 What&apos;s up with this gap? What if I wanted to change the color of these
@@ -1277,10 +1458,17 @@ border none, border radius zero. That will clear out some of those
 styles and clean-up the styling of the actual Flexslider. Let&apos;s add
 that to ours. How do I know that? Just by poking around in their CSS
 file. I want to make sure I&apos;m on my CSS file.
-
-![](./12-15-23-images/media/image75.png){width="3.5in"
-height="1.8681627296587926in"}![](./12-15-23-images/media/image76.png){width="3.5in"
-height="1.8681627296587926in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 75/76.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image076.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 Then somewhere in here you can put it wherever you want, it doesn&apos;t
 really matter. Make sure it goes above the media queries. I&apos;m going to
@@ -1291,9 +1479,14 @@ all and border radius zero to give it square edges. Just with that one
 rule in place here, if I come back and check my page, you&apos;ll notice the
 Flexslider looks better here. It&apos;s fitting into the space well, and
 I&apos;ve got rid of that gap and all that stuff.
-
-![](./12-15-23-images/media/image76.png){width="5.0in"
-height="2.6688035870516185in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 76.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image076.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Down here, I still want to adjust these buttons a little bit. I mean,
 inspect again. Maybe move my inspector to the side and it&apos;s this thing
@@ -1301,17 +1494,28 @@ here, dot flex-control-paging li a.flex-active. That&apos;s the class
 that&apos;s changing the colors on these buttons here. That&apos;s the one that
 I want to actually attach to.
 
-![](./12-15-23-images/media/image77.png){width="5.0in"
-height="2.6688035870516185in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 77.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image077.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 I&apos;m going to come over here, I&apos;m going to add that rule in here. If I
 want a different color, what did I put on my slides over here? I put
 pound B40205, make it match that. What was it? Just color or is it
 background? Background: #B40205. There we go. That will give me a red
 background color. Save that and come back and test it.
-
-![](./12-15-23-images/media/image78.png){width="5.0in"
-height="2.6688035870516185in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 78.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image078.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 You can see my colors now overriding the color that was there before and
 I can go ahead and click on these things and they all work. That&apos;s
@@ -1322,17 +1526,29 @@ just a matter of using the inspector and hunting around to see what
 rules are being applied that you might want to change to get it to style
 and look the way you want it to look on your page.
 
-# 1.10. Additional Controls {#additional-controls }
-
-![](./12-15-23-images/media/image79.png){width="4.0in"
-height="2.1752132545931757in"}
+<h2 id="ch1-10">1.10. Additional Controls</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 79.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image079.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="40%;" />
+</p>
 
 Your slider should be looking good. We&apos;ve gotten everything in place
 and it&apos;s working.
-
-![](./12-15-23-images/media/image80.png){width="3.5019728783902013in"
-height="1.990819116360455in"}![](./12-15-23-images/media/image81.png){width="3.5037095363079613in"
-height="2.0132130358705163in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 80/81.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image080.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image081.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 It&apos;s functional and it looks good and we&apos;ve adjusted the CSS and all
 that kind of fun stuff. That&apos;s really great. It&apos;s a lot easier to do
@@ -1342,19 +1558,31 @@ slider. We didn&apos;t include this functionality for being able to have
 these buttons down here, being able to go to slides that way. We could
 have done that manually on our own, but with this plug in, it provides
 it for us automatically and that&apos;s great.
-
-![](./12-15-23-images/media/image82.png){width="3.5in"
-height="1.9388353018372704in"}![](./12-15-23-images/media/image83.png){width="3.5in"
-height="1.9388353018372704in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 82/83.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image082.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image083.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 Now, what about all these additional options that show up down here at
 the bottom of the screen? There&apos;s all this stuff down here, and we can
 use this to further customize the functionality of our FlexSlider.
 That&apos;s really cool, but how do you do it? It&apos;s not really clear by
 looking at this exactly what you need to do.
-
-![](./12-15-23-images/media/image84.png){width="5.0in"
-height="2.7697648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 84.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image084.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 But basically, what we need to do is we need to pass options in to this
 FlexSlider method here, this FlexSlider method here. We pass them in in
@@ -1365,8 +1593,14 @@ but if you know some JavaScript and you&apos;re familiar with having done
 this kind of thing before, you&apos;ll figure it out pretty quickly. What
 can we do? Let&apos;s take a look at it.
 
-![](./12-15-23-images/media/image85.png){width="5.0in"
-height="2.7697648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 85.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image085.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Just like we did with the custom enemy method in jQuery, where we can
 pass in an object, curly brace, curly brace, and then we can pass in
@@ -1375,10 +1609,17 @@ Let&apos;s give that a try. I know we haven&apos;t really talked a lot about
 objects yet, and we will get into that in more depth in a lesson coming
 up. For right now, we&apos;ll just kind of go with it and get used to the
 syntax because we&apos;ll see it a lot, especially with the plugins.
-
-![](./12-15-23-images/media/image86.png){width="3.5in"
-height="1.9388353018372704in"}![](./12-15-23-images/media/image87.png){width="3.5in"
-height="1.9388353018372704in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 86/87.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image086.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image087.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 Let&apos;s come over here and inside our script file here, inside our
 parentheses here, we&apos;re going to add a set of curly braces. Then inside
@@ -1397,10 +1638,17 @@ around. You don&apos;t have to do any special programming for that, it&apos;s
 all built right into the plug in. You remember what a trouble that was
 for us to figure out how to do manually. Well, here it&apos;s built in, so
 we don&apos;t have to really even worry about that.
-
-![](./12-15-23-images/media/image88.png){width="3.5in"
-height="1.9388353018372704in"}![](./12-15-23-images/media/image89.png){width="3.5in"
-height="1.9388353018372704in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 88/89.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image088.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image089.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 What else can we do? Over here, I had slide, you can set the speed,
 slideshow speed. That&apos;s in here. Slideshows speed. Slide, comma, for
@@ -1410,10 +1658,17 @@ be really long. I&apos;m going to set it to two seconds. That will tell us
 how quickly it&apos;s going to slide from slide to slide automatically. One
 two, one two, there we go. Now it&apos;s going rather quickly, that&apos;s
 great.
-
-![](./12-15-23-images/media/image90.png){width="3.5in"
-height="1.9388353018372704in"}![](./12-15-23-images/media/image91.png){width="3.5in"
-height="1.9388353018372704in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 90/91.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image090.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image091.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 What else can we do? We could do direction vertical, if you wanted to
 just slide up and down instead, we could do that. Comma, direction,
@@ -1422,15 +1677,27 @@ doesn&apos;t know, but it knows that one there. It knows what 2,000 is. All
 right, now if you do this, after two seconds, it&apos;s going to go
 vertical.
 
-![](./12-15-23-images/media/image92.png){width="5.0in"
-height="2.7697648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 92.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image092.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 We could do reverse true, so we&apos;ll go from top to bottom instead of
 from bottom to top. Reverse true. True is a word that JavaScript knows.
 Now it&apos;s going from the top to the bottom.
 
-![](./12-15-23-images/media/image93.png){width="5.0in"
-height="2.7697648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 93.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image093.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Then finally, another one we could do is pause on hover true. Which is
 in here, you can find it in here somewhere pause on hover. There it is.
@@ -1454,17 +1721,29 @@ could look the same, because they all have the same arrows here, left
 and right arrows. We can get rid of those and do something else that
 would be kind of interesting and fun.
 
-# 1.11. Advanced FlexSlider {#advanced-flexslider }
-
-![](./12-15-23-images/media/image94.png){width="4.0in"
-height="2.1752132545931757in"}
+<h2 id="ch1-11">1.11. Advanced FlexSlider</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 94.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image094.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="40%;" />
+</p>
 
 Now that you&apos;ve created the basic FlexSlider, with some advanced
 options, we can really do some different things with this FlexSlider.
-
-![](./12-15-23-images/media/image95.png){width="3.5in"
-height="1.9388353018372704in"}![](./12-15-23-images/media/image96.png){width="3.5in"
-height="1.9388353018372704in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 95/96.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image095.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image096.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 To do that, it&apos;s nice to keep the basic version working the way it is
 working, so that you have a version of that if you want to refer back to
@@ -1477,10 +1756,17 @@ exactly the same as that set of files. But I&apos;ve made a copy so that I
 have this version if I want to refer back to it, but I&apos;m essentially
 done with it. Now I&apos;m only going to work on the advancedSlider version
 here. I have that version; these files open in my code editor.
-
-![](./12-15-23-images/media/image97.png){width="3.5in"
-height="1.9388353018372704in"}![](./12-15-23-images/media/image98.png){width="3.5in"
-height="1.9388353018372704in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 97/98.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image097.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image098.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 I&apos;ve also switched this over here so that it&apos;s pointing to my
 advancedSlider folder here (see top of image), so that I know that I&apos;m
@@ -1489,8 +1775,14 @@ right set of files in your browser. Make sure you&apos;ve got the right set
 of files in your code editor. Over here you can see it says
 advancedSlider there, so this is my advanced slider files.
 
-![](./12-15-23-images/media/image99.png){width="5.0in"
-height="2.7697648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 99.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image099.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="40%;" />
+</p>
 
 Great. Now that I&apos;ve got that into place and I&apos;m ready to really do
 some different things with this FlexSlider, the first thing I want to do
