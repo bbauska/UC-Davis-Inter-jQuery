@@ -670,7 +670,7 @@ using is really worthwhile.
 <p align="center">
   <img src="./images/image016.png"
   alt="Looking to the Future."
-  style="border: 2px solid #000000;" 
+  style="border: 2px solid black;"
   width="50%;" />
 </p>
 <!-- {width="5.0in" height="2.8338681102362204in"} -->
@@ -734,7 +734,7 @@ carrying the extension .ZIP.
 <p align="center">
   <img src="./images/image017.png" 
   alt="1.06. FlexSlider: A jQuery Plugin."
-  style="border: 2px solid;" 
+  style="border: 2px solid black;"
   width="40%;" />
 </p>
 <!-- {width="4.0in" height="2.2670942694663165in"} -->
@@ -745,14 +745,12 @@ to our page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. basic flexslider (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-|
 <p align="center">
   <img src="./images/image018.png" 
   alt="Basic FlexSlider."
-  style="border: 2px solid #000000;" 
+  style="border: 2px solid gray;"
   width="50%;" />
 </p>
-|-
 <!-- {width="5.0in" height="2.719016841644794in"} -->
 
 The FlexSlider is a good one to look at. Partially because we&apos;ve been
