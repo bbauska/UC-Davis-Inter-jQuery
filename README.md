@@ -536,12 +536,11 @@ it&apos;s the same basic steps each time.
 <!-- {width="4.0in" height="2.240598206474191in"} -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. more gotchas and rookie mistakes (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. gotchas and rookie mistakes, #2 (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image014.png" 
-  alt="More Gotchas and Rookie Mistakes."
-  border="2px solid #000000" 
-  style="width:50%;" />
+  alt="Gotchas and Rookie Mistakes, #2."
+  border="2px solid #000000; width:50%" />
 </p>
 <!-- {width="5.0in" height="2.8338681102362204in"} -->
 
