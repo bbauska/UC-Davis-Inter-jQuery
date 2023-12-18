@@ -1,10 +1,10 @@
 ---
 title: "University of California @Davis Interactivity with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "12/15/2023 3+pm"
+date last editted: "12/18/2023 11+am"
 output: 
   markdown:
-    with_some_style
+    with some style
 ---
 
 <h1 align="center">Interactivity with JavaScript and jQuery</h1>
@@ -1796,15 +1796,27 @@ adopt one of these kittens on this lovely Kitten page. I need to update
 the markup to go along with this, for my FlexSlider. I will provide some
 snippets with this lesson that you can open and they look like this.
 
-![](./12-15-23-images/media/image100.png){width="5.0in"
-height="2.7697648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 100.   (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image100.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 There are some snippets here and so I&apos;m basically going to replace my
 slider with this content here. You can type it all out if you wanted to,
 instead of just putting the pictures in.
 
-![](./12-15-23-images/media/image101.png){width="5.0in"
-height="2.7697648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 101.   (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image101.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 I have a div, with an h2. The div has a class of slide 1, slide 2, slide
 3, so on and so forth. Then I have the h1 and the h2 and I have an
@@ -1818,9 +1830,17 @@ could actually adopt this kitten or something like that, that will be
 fun. But rather than make you type all of this stuff out, which is
 tedious, you can actually come to the snippet page and just copy it.
 
-![](./12-15-23-images/media/image102.png){width="3.5in"
-height="1.9388353018372704in"}![](./12-15-23-images/media/image103.png){width="3.5in"
-height="1.9388353018372704in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 102/103.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image102.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image103.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 Then come back to your project and on your index file, in place of the
 slider down here, this FlexSlider, we&apos;re just going to paste this one
@@ -1833,18 +1853,31 @@ creating our fancier version of our FlexSlider. In the next lesson,
 we&apos;ll start looking at what we need to do to adjust the styling for
 this.
 
-# 1.12. Additional Styling (5:47) {#additional-styling-547 }
-
-![](./12-15-23-images/media/image104.png){width="4.0in"
-height="2.1752132545931757in"}
+<h2 id="ch1-12">1.12. Additional Styling (5:47)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 104.   (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image104.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 In the last module, we updated the markup for our fancy version of the
 slider, and now we need to do some updating for the actual CSS for the
 display of the slides.
 
-![](./12-15-23-images/media/image105.png){width="3.5in"
-height="1.9784722222222222in"}![](./12-15-23-images/media/image106.png){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 105/106.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image105.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image106.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 So, I&apos;m going to come back over here to my snippets and I&apos;m just going
 to copy these three rules here. And I&apos;m going to come over and paste
@@ -1872,9 +1905,14 @@ proportionally. And keeping track of proportions is a little bit tricky
 in CSS currently, there&apos;s some features coming to CSS that will make it
 easier in the long run, but for right now it&apos;s a little clunky and
 unfortunate.
-
-![](./12-15-23-images/media/image108.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 108. set position  (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image108.png"
+  alt="The position CSS property sets how an element is positioned in a document."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 But basically, what I&apos;ve done here is I&apos;ve said the div that&apos;s inside
 these list items, I&apos;m going to make it a width 100% position relative
@@ -1888,9 +1926,14 @@ that&apos;s why the padding is bottom 50%. In this case the padding is
 relative to the width. So as wide as these things are, they will always
 be 50% as high. And these images are twice as wide as they are tall. So
 that actually works for these particular images.
-
-![](./12-15-23-images/media/image109.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 109. kitten01.jpg image dimensions (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image110.png"
+  alt="Image Dimensions for kitten01.jpg."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 If I come back to the finder and look at these images, if I do CMD+I,
 you can see here that the dimensions of this image is 960 by 480, it&apos;s
@@ -1914,17 +1957,27 @@ ratio. So that&apos;s a good place to find out what that ratio is. So that
 you would set the ratio By Photoshop. And you can set the width to
 whatever the height is in relation to the width. And then I&apos;ve got
 background size cover.
-
-![](./12-15-23-images/media/image110.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 110. styling the cta 'call to action' (61) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image110.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Then down here I&apos;m setting the H2 to position absolute top 20 pixels,
 left 20 pixels, then I&apos;m setting the color for that. So that&apos;s not too
 fancy. But that&apos;s an important thing to understand with the way that
 this is working.
-
-![](./12-15-23-images/media/image111.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 111. styling the cta 'call to action' (61) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image111.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 The next thing we need is the styling for the actual call to action
 buttons that are going to show up on the slides. If I save this like
@@ -1936,22 +1989,38 @@ background of my slide, rather than in the foreground. And the
 foreground is an H2 that&apos;s been absolutely positioned here. But now I
 need to style this call to action, and I&apos;ll do that in the next lesson.
 
-# 1.13. Styling the CTA 'Call To Action' {#styling-the-cta-call-to-action }
-
-![](./12-15-23-images/media/image112.png){width="4.0in"
-height="2.1752132545931757in"}
+<h2 id="ch1-13">1.13. Styling the CTA 'Call To Action'</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 112. styling the cta 'call to action' (61) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image112.png"
+  alt="1.13. Styling the CTA 'Call to Action'."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 Now we&apos;re down to styling the call to action so that it displays
 properly on the page, and I have a rule for the dot CTA anchor tags,
 there&apos;s a lot of stuff in here, but you&apos;ll see why as we move forward
 and do this, but let&apos;s go ahead and add this rule to our style sheet.
-
-![](./12-15-23-images/media/image113.png){width="5.0in"
-height="2.826388888888889in"}
-
-![](./12-15-23-images/media/image114.png){width="3.5in"
-height="1.9784722222222222in"}![](./12-15-23-images/media/image115.png){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. styling the call to action (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image113.png"
+  alt="Styling the Call to Action."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 114/115. styling the call to action (62) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./assets/images/image114.png"
+  style="width:35%;"
+  alt="Call to Action Styling." />
+<img src="./assets/images/image115.png"
+  style="width:35%;"
+  alt="Styles.css for Call to Action." />
+</p>
 
 If you come over here, you can see that I have it here, it&apos;s a long one
 so, I made it, so you don&apos;t have to tighten it, you can just copy and
@@ -1988,17 +2057,30 @@ family, the font size, 4vw is four percent of the viewport width, so
 again, the font it&apos;s going to resize based on how wide the screen is,
 and then also the color for the text. That&apos;s a lot of stuff.
 
-![](./12-15-23-images/media/image116.png){width="3.5in"
-height="1.9784722222222222in"}![](./12-15-23-images/media/image117.png){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 116/117.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./assets/images/image116.png"
+  style="width:35%;"
+  alt=" ." />
+<img src="./assets/images/image117.png"
+  style="width:35%;"
+  alt=" ." />
+</p>
 
 We&apos;re going to do one more rule in here for dot light (.light), and
 I&apos;m setting a color in here, color, and I think I set it to, where did
 I set it to #ededed. The reason for that, it&apos;s a light gray, one of the
 slides is dark, so over here, I have a class of light on slide 4.
 
-![](./12-15-23-images/media/image118.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 118.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image118.png"
+  alt=" ."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 You may have also wondered why on one of the slides I went up here, I
 went kitten 2 to kitten 6, and then four, and then five. Kitten 3, the
@@ -2009,18 +2091,30 @@ But for number 4 here, I wanted to make this text light, so, I put a
 different color in there and a different class for that one, that&apos;s all
 we need there for that, so that&apos;s really good and should make sense in
 our work.
-
-![](./12-15-23-images/media/image119.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 119.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image119.png"
+  alt=" ."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 We need a couple more rules that are going to resize these elements for
 desktop and for mobile, so we need to add these rules into the media
 queries at the bottom of the style sheet (styles.css), and we&apos;re just
 setting height, width, and font size.
 
-![](./12-15-23-images/media/image120.png){width="3.5in"
-height="1.9784722222222222in"}![](./12-15-23-images/media/image121.png){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 120/121.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./assets/images/image120.png"
+  style="width:35%;"
+  alt="." />
+<img src="./assets/images/image121.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 For the tablet-sized versions of the site, which is, screens that are
 600 pixels and wider, I&apos;m just going to set dot CTA with 20vw instead
@@ -2030,10 +2124,16 @@ larger, so I&apos;m going to just shrink it down just a little bit there,
 and then I&apos;m setting the font size to a little bit smaller, I think is
 not what it was, yes, 3vw instead of 4vw, it&apos;s 3vw, and so bringing the
 font size down a little bit, 3vw.
-
-![](./12-15-23-images/media/image122.png){width="3.5in"
-height="1.9784722222222222in"}![](./12-15-23-images/media/image123.png){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 122/123.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./assets/images/image122.png"
+  style="width:35%;"
+  alt="." />
+<img src="./assets/images/image123.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 Then, when we get to the full-screen size for desktop, I need this
 again, and I&apos;m just going to set it to a maximum size, because at this
@@ -2041,9 +2141,14 @@ point the screen isn't going to be flexible anymore, so I want these to
 be set to a specific size, 150px, so it&apos;s not going to be flexible
 anymore, because if, this size or wider, it&apos;s always going to be this
 size, 150px. Font-size to 24 pixels.
-
-![](./12-15-23-images/media/image124.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 124.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image124.png"
+  alt=" ."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 That gets all of the styling in place for these, and if we go back and
 review the page, you&apos;ll see that the call to action isn&apos;t on the
@@ -2051,8 +2156,14 @@ screen at all, it&apos;s going to be up here, I actually noticed down here
 at bottom 100 percent, so it is showing up. But this is the way they&apos;re
 going to look in end here, is round like this.
 
-![](./12-15-23-images/media/image125.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 125.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image125.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 If you go to number 4, slide 4, that one should be picking up the light
 class, and I don&apos;t know why it&apos;s not now. You know what, I think I put
@@ -2075,10 +2186,15 @@ section: **jQuery Plugins and FlexSlider**.
 \<a href="
 https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.13.FlexSlider.pdf"\>1.13.FlexSlider.pdf\</a\>
 
-# 2.01 Module 2 Intro (0:38) {#module-2-intro-038 }
-
-![](./12-15-23-images/media/image126.png){width="4.0in"
-height="2.261111111111111in"}
+<h2 id="ch2-01">2.01 Module 2 Intro (0:38)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 126. module 2 intro - scroll effects (67) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image127.png"
+  alt="2.01. Module 2 Intro - Scroll Effects."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 Hello and welcome to our second module. In this lesson, we will look at
 scroll effects. Scroll effects are very popular these days and you see
@@ -2089,7 +2205,15 @@ to test your skills, and see how you&apos;re doing with this. Let&apos;s dive
 in, break out our code editors and our web browsers, and get started on
 this module.
 
-# 2.02. Introduction to Smooth Scroll with jQuery (4:15) {#introduction-to-smooth-scroll-with-jquery-415 }
+<h2 id="ch2-02">2.02. Introduction to Smooth Scroll with jQuery (4:15)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 127. intro to smooth scroll with jquery (67) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image127.png"
+  alt="Intro to Smooth Scroll with jQuery."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 ![](./12-15-23-images/media/image127.png){width="4.0in"
 height="2.1752132545931757in"}
@@ -2183,7 +2307,7 @@ carrying the extension .ZIP.
 -   [How to open a zip file for either Mac or
     PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
 
-# 2.03. Creating a Click Handler (5:00) {#creating-a-click-handler-500 }
+<h2 id="ch2-03">2.03. Creating a Click Handler (5:00)</h2>
 
 ##  {#section }
 
@@ -2495,7 +2619,7 @@ We&apos;re going to deal with that in the next lesson.
 
 ## PDF of Presentation: 2.06.jQuerySmoothScroll.pdf
 
-# 2.07 Introduction to Page Location Tracking {#introduction-to-page-location-tracking }
+<h2 id="ch2-07">2.07 Introduction to Page Location Tracking</h2>
 
 # ![](./12-15-23-images/media/image161.png){width="4.0in" height="2.261111111111111in"} {#section-4 }
 
