@@ -1088,7 +1088,6 @@ cdn in google, Google Hosted Libraries. I&apos;m going to go find jquery.
 And here is the latest version of jquery. You&apos;ll notice it&apos;s been
 updated recently to 3.6, okay. So, I&apos;m going to replace this version of
 jquery with that one.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 45.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1885,8 +1884,14 @@ them into my CSS file over here, styles.css. And I&apos;m going to stick
 them just in my section with the flex slider stuff here. It doesn&apos;t
 really matter where they go, I&apos;m going to put them here.
 
-![](./12-15-23-images/media/image107.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 107.   (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image107.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Now, this is really important, the slides the .slide1, .slide2, .slide3,
 that corresponds to these divs, div class slide3, slide4. They&apos;re going
@@ -2174,7 +2179,7 @@ right. It may need to be refreshed properly, but that&apos;s okay. Great, so
 you got that all in place. The last thing we need to do is get this
 animation to work.
 
-## PDF of Presentation {#pdf-of-presentation-1 }
+## PDF of Presentation
 
 Here is a PDF of the presentation slides used in the lessons for this
 section: **jQuery Plugins and FlexSlider**.
@@ -2190,7 +2195,7 @@ https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.13.FlexSlider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 126. module 2 intro - scroll effects (67) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image127.png"
+  <img src="./images/image126.png"
   alt="2.01. Module 2 Intro - Scroll Effects."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
@@ -2214,17 +2219,22 @@ this module.
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
-
-![](./12-15-23-images/media/image127.png){width="4.0in"
-height="2.1752132545931757in"}
+<!-- {width="4.0in" height="2.1752132545931757in"} -->
 
 In the first part of this lesson, we&apos;re going to use jQuery to make a
 smooth scroll script so that when you click a link at the top of the
 page, it does a smooth scrolling action further down the page.
 
-![](./12-15-23-images/media/image128.png){width="3.5in"
-height="1.9784722222222222in"}![](./12-15-23-images/media/image129.png){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 128/129.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./assets/images/image128.png"
+  style="width:35%;"
+  alt="." />
+<img src="./assets/images/image129.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 And I have an example page that you can download with example files and
 I have them open here and you&apos;ll notice if I click section one, it puts
@@ -2235,9 +2245,16 @@ here. And this is just basic html. If I click section two it just put
 section two at the top of the page, you can see here the URL has pounds
 second in here.
 
-![](./12-15-23-images/media/image130.png){width="3.5in"
-height="1.9784722222222222in"}![](./12-15-23-images/media/image131.png){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 130/131.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./assets/images/image130.png"
+  style="width:35%;"
+  alt="." />
+<img src="./assets/images/image131.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 If I go into my files and look at this, you can see that my links are
 just linked to these IDs pound first links to section ID first and pound
@@ -2273,10 +2290,16 @@ pinned to the top left position of the view port here. And it&apos;s set to
 width 100% so it will stretch across the entire window. Now you can see
 because it&apos;s slightly transparent that the images and every all the
 content is passing beneath this header.
-
-![](./12-15-23-images/media/image135.png){width="3.5in"
-height="1.9784722222222222in"}![](./12-15-23-images/media/image136.png){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 135/136.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./assets/images/image135.png"
+  style="width:35%;"
+  alt="." />
+<img src="./assets/images/image136.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 But you also notice that it&apos;s covering up part of section one. So, we
 need to go back to our style sheet here and uncomment out this line
@@ -2292,7 +2315,7 @@ document. Okay, so with some basic CSS and some basic HTML out of the
 way, we can start working on our script and getting the interactivity to
 work properly.
 
-## Start Files: Smooth Scroll with JavaScript {#start-files-smooth-scroll-with-javascript }
+## Start Files: Smooth Scroll with JavaScript
 
 Attached is a zip file of the things you need to begin this exercise. A
 **zip file** is defined as: a computer file whose contents include one
@@ -2302,18 +2325,25 @@ carrying the extension .ZIP.
 -   [2.02.jQueryScrollEffects-START.zip (ZIP
     File)](https://d3c33hcgiwev3.cloudfront.net/TWch2Fo9RPunIdhaPQT7mg_20a45687745d416696ea6b9617ac6ff1_WEB1092_FlexSliderPlugin.zip?Expires=1700352000&Signature=NMzGqDqh7ukjS3t3QDStmyO63TfJKJODbNBiGheFKRKgduARGm~12s2u9yv2TVnTO0XHYiNSSUtV-ltfPKm5Y98d9WkeqttASMh4~z1OqZM7AsGldhYMl3UI2sbmakAnmXGRMbQvoZaBd5FpL~ExZZrwraKp4Y687myEMvyE8K0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 
-## **Additional Resource:** {#additional-resource-1 }
+## **Additional Resource:**
 
 -   [How to open a zip file for either Mac or
     PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
 
 <h2 id="ch2-03">2.03. Creating a Click Handler (5:00)</h2>
 
-##  {#section }
+##
 
-![](./12-15-23-images/media/image137.png){width="3.5in"
-height="1.9784722222222222in"}![](./12-15-23-images/media/image138.png){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 137/138.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./assets/images/image137.png"
+  style="width:35%;"
+  alt="." />
+<img src="./assets/images/image138.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 We have set up our files, and we&apos;re ready to start working on our
 script, and you&apos;ll notice down here at the bottom of the page, I have
@@ -2325,10 +2355,16 @@ forgotten, you can go back to the previous lessons and review the easing
 plug-in and how that works. Then I have linked here a file called
 **smoothscroll.js,** which is our JavaScript file, and this is where
 we&apos;re going to write our jQuery code.
-
-![](./12-15-23-images/media/image139.png){width="3.5in"
-height="1.9784722222222222in"}![](./12-15-23-images/media/image140.png){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 139/140.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./assets/images/image139.png"
+  style="width:35%;"
+  alt="." />
+<img src="./assets/images/image140.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 I&apos;m going to remove that comment, and add here a click handler, so I&apos;m
 going to use my jQuery object to come in and grab my **nav ul li a**,
@@ -2348,9 +2384,14 @@ const as well if you preferred, but I&apos;m just going to make var
 thisSection, and assign it this.attr(href). What that&apos;ll do is it&apos;ll
 get the href of the link that was clicked. Let&apos;s alert that out. You
 can see what it actually does.
-
-![](./12-15-23-images/media/image141.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 141.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image141.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 If I come back to my HTML, I&apos;ve put a click handler on all of these
 anchor tags here, but you can only click on one at a time. I should be
@@ -2361,9 +2402,14 @@ I come back over here, and refresh the page and click one of these
 links, I should get pound 1st, pound 2nd, pound 3rd, pound 4th, and
 pound 5th. You&apos;ll notice it is actually moving the page there as well
 as it does that, but I want to make sure I&apos;m getting those links.
-
-![](./12-15-23-images/media/image142.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 142.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image142.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Let&apos;s go back to our script. Now, we don&apos;t need this alert here at
 all. That&apos;s not going to help anything, but it just shows us what&apos;s
@@ -2381,9 +2427,18 @@ going to actually animate our HTML, and in here, we&apos;ll use our
 **thisSection** thing to tell us where we&apos;re going to animate to, and
 we&apos;ll do that in the next lesson so you see how it all comes together.
 
-# 2.04. Adding the Animation {#adding-the-animation }
+# 2.04. Adding the Animation
 
-# ![](./12-15-23-images/media/image143.png){width="3.5in" height="1.9784722222222222in"}![](./12-15-23-images/media/image144.png){width="3.5in" height="1.9784722222222222in"} {#section-1 }
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 143/144.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./assets/images/image143.png"
+  style="width:35%;"
+  alt="." />
+<img src="./assets/images/image144.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 In the previous module we created a click handler for all the anchor
 tags and then we got the ID of the particular anchor tag that gets
@@ -2393,8 +2448,14 @@ points to the idea of the section down below that we&apos;re going to. It&apos;s
 going to be pound (#) 1st or pound 2nd or pound 3rd or pound 4th or
 pound 5^th^ (#1st-#5th). We&apos;ve already seen that.
 
-![](./12-15-23-images/media/image144.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 144.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image144.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Then we&apos;re going to animate the html. And I&apos;ll show you in a minute
 what this stop thing does, but we&apos;re going to animate and in here we
@@ -2411,9 +2472,14 @@ going to do it with the offset method. The offset method and we want to
 offset top. We&apos;ll set it to offset top. So, dollar sign in parentheses,
 this section and set its offset, to the top over 800 milliseconds. And
 that will actually animate the page to the top of the window.
-
-![](./12-15-23-images/media/image145.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 145.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image145.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 If we test this out and if you&apos;re wondering what offset is, you can go
 look it up on the jQuery documentation and see what offset does and how
@@ -2423,10 +2489,16 @@ moving it to the top. Let&apos;s see what happens if I&apos;m going to get rid
 of the pound second from up here and refresh the page. And then if I
 click 2nd, you can see that it does a smooth scroll right to with that
 section going right up to the top of the window.
-
-![](./12-15-23-images/media/image146.png){width="3.5in"
-height="1.9784722222222222in"}![](./12-15-23-images/media/image147.png){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 146/147.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./assets/images/image146.png"
+  style="width:35%;"
+  alt="." />
+<img src="./assets/images/image147.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 We don't want it to go all the way to the top of the window, we want it
 to stop here and we&apos;ll fix that in a minute. But before we do, what
@@ -2452,10 +2524,16 @@ section. I want it to go there right away without having to wait for it
 to go all the way down to the 5th section. So that&apos;s what this stop
 method is doing for us. Don&apos;t stop. So it will stop the animation
 that&apos;s running and then animate the thing that we&apos;ve clicked on next.
-
-![](./12-15-23-images/media/image148.png){width="3.5in"
-height="1.9784722222222222in"}![](./12-15-23-images/media/image149.png){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 148/149.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./assets/images/image148.png"
+  style="width:35%;"
+  alt="." />
+<img src="./assets/images/image149.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 Okay, now the next thing is this there are two minor things we need to
 fix. First of all, I really want it to move to top minus 200 like so.
@@ -2467,8 +2545,14 @@ remember, we put 200 pixels padding up there. So that&apos;s now putting it
 in the correct place, so that helps. So that&apos;s one thing, I&apos;m going to
 put this back to 800 because the animation is so slow now.
 
-![](./12-15-23-images/media/image150.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 150.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image150.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Okay, the other thing is I&apos;m going to put a comment here and add body.
 Now, pretty much these days all the browsers will animate the HTML
@@ -2481,26 +2565,44 @@ just in case somebody is using an older browser. I&apos;m not sure when they
 actually fixed up, so we won&apos;t see a difference because of that now,
 but it&apos;s just something to be aware of, Going forward.
 
-# 2.05 Add Some Easing and a Callback Function {#add-some-easing-and-a-callback-function }
+# 2.05 Add Some Easing and a Callback Function
 
-# ![](./12-15-23-images/media/image151.png){width="4.0in" height="2.261111111111111in"} {#section-2 }
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 151.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image151.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 The smooth scroll script is working and that&apos;s great, but because we
 have the easing plugin plugged in, we can give the script a little bit
 more personality by adding some easing.
-
-![](./12-15-23-images/media/image152.png){width="3.5in"
-height="1.9784722222222222in"}![](./12-15-23-images/media/image153.png){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 152/153.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./assets/images/image152.png"
+  style="width:35%;"
+  alt="." />
+<img src="./assets/images/image153.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 Let&apos;s go ahead and do that. Over here, just to verify on our index file
 here down at the bottom of the page, you can see I have the jQuery
 library loaded and then I have the easing plugin loaded and then my
 script comes after that. Always, your script has to come after the
 jQuery library and any plugins that you&apos;re using.
-
-![](./12-15-23-images/media/image154.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 154.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image154.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Over here, after my 800, I can add a comma and add an easing and I used
 **easeOutCirc** as my easing here, which gives us a pretty dramatic set
@@ -2510,8 +2612,14 @@ move that down like so, there we go, **easeOutCirc**. I think that looks
 a little bit better, a little bit easier to read. We animate this over
 800 milliseconds when we are using **easeOutCirc**.
 
-![](./12-15-23-images/media/image155.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 155.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image155.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Let&apos;s go take a look and see how it looks. Now it&apos;s got a nice,
 slightly snappier feel going to the sections, and if it&apos;s still going
@@ -2523,8 +2631,14 @@ does it still give you the sense that you&apos;re traveling to that part of
 the page? Yeah, it does, so that&apos;s nice. Maybe I&apos;ll leave it like
 that.
 
-![](./12-15-23-images/media/image156.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 156.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image156.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 This is all working and I could leave the script like this. It&apos;s
 certainly functioning, but I want to do a little bit more with it. What
@@ -2543,16 +2657,28 @@ have done that right. Here we go. Let&apos;s see if I did that right. I
 think I did. I come back here, refresh the page, click second and I did
 something wrong there.
 
-# 2.06 Highlighting Elements {#highlighting-elements }
+# 2.06 Highlighting Elements
 
-# ![](./12-15-23-images/media/image157.png){width="4.0in" height="2.261111111111111in"} {#section-3 }
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 157.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image157.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 On the style sheet is a rule, selected, and I might have it commented
 out. Let&apos;s go over and see because if we do, we need to uncomment it
 out.
-
-![](./12-15-23-images/media/image158.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 158.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image158.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 We go to Styles, go down here and it&apos;s not commented out, good. I&apos;ve
 got Selected here and it&apos;s set to a color, and it&apos;s got a one second
@@ -2584,10 +2710,16 @@ I&apos;ve clicked so they don&apos;t just all turn pink. Although you could have
 an interface that shows which ones if you clicked on and it would work
 for that, but I really wanted to just highlight the one that I&apos;ve
 actually clicked on.
-
-![](./12-15-23-images/media/image159.png){width="3.5in"
-height="1.9784722222222222in"}![](./12-15-23-images/media/image160.png){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 159/160.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./assets/images/image159.png"
+  style="width:35%;"
+  alt="." />
+<img src="./assets/images/image160.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 I&apos;m going to go back to my script, and I&apos;m just going to modify just a
 little bit here by saying, use my jQuery object to go in here and get
@@ -2620,16 +2752,27 @@ We&apos;re going to deal with that in the next lesson.
 ## PDF of Presentation: 2.06.jQuerySmoothScroll.pdf
 
 <h2 id="ch2-07">2.07 Introduction to Page Location Tracking</h2>
-
-# ![](./12-15-23-images/media/image161.png){width="4.0in" height="2.261111111111111in"} {#section-4 }
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 161.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image161.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 In this lesson, we&apos;re going to take the files that we already started
 here, and this script is working so that if I click on the section it
 goes to the correct section and it highlights the correct menu item up
 here.
-
-![](./12-15-23-images/media/image162.png){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 162.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image162.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 But what it does not do is if I scroll down the page, it doesn&apos;t change
 the highlighting to demonstrate the section that I&apos;m looking at here.
@@ -2647,13 +2790,27 @@ the page based on where we are, scroll down the page. If you think about
 that for a second and go look at some of the interesting websites that
 are out there. https://callbruno.com/en
 
-![](./12-15-23-images/media/image163.png){width="3.5in"
-height="1.9866983814523185in"}![](./12-15-23-images/media/image164.png){width="3.5in"
-height="1.9866983814523185in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 163/164.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./assets/images/image163.png"
+  style="width:35%;"
+  alt="." />
+<img src="./assets/images/image164.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
-![](./12-15-23-images/media/image165.png){width="3.5in"
-height="1.9866983814523185in"}![](./12-15-23-images/media/image166.png){width="3.5in"
-height="1.9866983814523185in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 165/166.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./assets/images/image165.png"
+  style="width:35%;"
+  alt="." />
+<img src="./assets/images/image166.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 For example, I have one pulled up here, this website here, and as I
 scroll down, different things are happening based on whether I&apos;m
@@ -2859,7 +3016,7 @@ pieces that make capturing scroll events tricky, the fact that you
 can&apos;t be sure which pixel you going to hit and you have to watch out
 for performance.
 
-# 2.09 Strategy {#strategy }
+# 2.09 Strategy
 
 ![](./12-15-23-images/media/image182.png){width="4.0in"
 height="2.4508552055993in"}
@@ -2987,7 +3144,7 @@ it down. If I save that and then come back and refresh again, now I&apos;m
 just getting whole numbers 200, 700, 1525, 21.4, and 2683 and that&apos;s
 good. Great. We&apos;ll pick it up in the next lesson.
 
-# 2.10 Adding PageTop and If Statements {#adding-pagetop-and-if-statements }
+# 2.10 Adding PageTop and If Statements
 
 ![](./12-15-23-images/media/image194.png){width="4.0in"
 height="2.4508552055993in"}
@@ -3066,7 +3223,7 @@ of the gotchas with working with scroll events, which is that you have
 to be careful not to do something every time you scroll a tiny little
 bit because you can overload your CPU.
 
-# 2.11 Writing the Else/If Statement - Part 1 {#writing-the-elseif-statement---part-1 }
+# 2.11 Writing the Else/If Statement - Part 1
 
 ![](./12-15-23-images/media/image202.png){width="4.0in"
 height="2.4508552055993in"}
@@ -3126,7 +3283,7 @@ sections are on the page, based on the height of that section, that
 we&apos;re calculating when the page loads, including all the images,
 because they have an effect on the height of these elements.
 
-# 2.12 Writing the Else/If Statement -- Part 2 {#writing-the-elseif-statement-part-2 }
+# 2.12 Writing the Else/If Statement -- Part 2
 
 ![](./12-15-23-images/media/image208.png){width="4.0in"
 height="2.4508552055993in"}
@@ -3218,7 +3375,7 @@ anything based on whether when you&apos;re scrolling or where your scrolling
 to. This script gives you a lot of power over that thing, and that&apos;s
 really cool.
 
-# 2.13 Edge Case Issues {#edge-case-issues }
+# 2.13 Edge Case Issues
 
 ![](./12-15-23-images/media/image214.png){width="4.0in"
 height="2.4508552055993in"}
@@ -3310,7 +3467,7 @@ resizing the window. Because at that point, that&apos;s when I want to
 calculate, how tall are my sections and fix my script up so that it will
 run right at that particular size. We&apos;ll do that in the next lesson.
 
-# 2.14 Resizing Your Windows {#resizing-your-windows }
+# 2.14 Resizing Your Windows
 
 ![](./12-15-23-images/media/image224.png){width="4.0in"
 height="2.4508552055993in"}
@@ -3404,7 +3561,7 @@ If I make it slightly wider, I&apos;ll get a different set of numbers. But
 you&apos;ll notice this only re-evaluates after I&apos;m done resizing my
 window. That&apos;s really cool, that&apos;s working really well.
 
-# 2.15 Resetting the Counter {#resetting-the-counter }
+# 2.15 Resetting the Counter
 
 ![](./12-15-23-images/media/image235.png){width="4.0in"
 height="2.4508552055993in"}
@@ -3480,7 +3637,7 @@ this stuff twice, so we&apos;re going to actually take some of this stuff
 out of here and put it into its own function. We&apos;ll do that in the next
 lesson.
 
-# 2.16 resetPagePosition Function {#resetpageposition-function }
+# 2.16 resetPagePosition Function
 
 ![](./12-15-23-images/media/image240.png){width="4.0in"
 height="2.4508552055993in"}
@@ -3597,7 +3754,7 @@ showed you. But it&apos;s really pretty exciting. We&apos;re going to do one
 last lesson on this where we just look at the different pieces and
 review what we&apos;ve done.
 
-# 2.17 Reviewing the Whole Script {#reviewing-the-whole-script }
+# 2.17 Reviewing the Whole Script
 
 ![](./12-15-23-images/media/image251.png){width="4.0in"
 height="2.4508552055993in"}
@@ -3710,7 +3867,7 @@ the same script, and play JavaScript.
 
 ## PDF of Presentation: 2.17.jQueryPage-Location-Tracking.pdf (28 pgs)
 
-# 2.18 Introduction to Scroll Effects with JS {#introduction-to-scroll-effects-with-js }
+# 2.18 Introduction to Scroll Effects with JS
 
 ![](./12-15-23-images/media/image263.png){width="4.0in"
 height="2.4508552055993in"}
@@ -3792,7 +3949,7 @@ pointer debt to this function down here, and let it run that way.
 Start Files: Smooth Scroll with JavaScript --
 **2.18.Scroll-Effects-START.zip**
 
-# 2.19 Getting the Target -- Part 1 (4:50) {#getting-the-target-part-1-450 }
+# 2.19 Getting the Target -- Part 1 (4:50)
 
 ![](./12-15-23-images/media/image266.png){width="4.0in"
 height="2.4508552055993in"}
@@ -3846,7 +4003,7 @@ next lesson and assign this value to a variable that we can actually use
 rather than just have it spit out in the console. Well, we&apos;ll do that
 in the next lesson.
 
-# 2.20 Getting the Target -- Part 2 (5:15) {#getting-the-target-part-2-515 }
+# 2.20 Getting the Target -- Part 2 (5:15)
 
 ![](./12-15-23-images/media/image267.png){width="4.0in"
 height="2.2491447944006997in"}
