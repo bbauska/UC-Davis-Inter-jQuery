@@ -1,7 +1,7 @@
 ---
 title: "University of California @Davis Interactivity with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "12/26/2023 9+pm"
+date last editted: "12/18/2023 11+am"
 output: 
   markdown:
     with some style
@@ -513,7 +513,6 @@ those are included as well.
   style="border: 2px solid #000000;" 
   width="50%;" />
 </p>
-<!-- {width="5.0in" height="2.8338681102362204in"} -->
 
 Suppose you find a jQuery plugin you want to try on your website, how do
 you go about adding it to your page? How do you know what to do? Because
@@ -544,7 +543,6 @@ it&apos;s the same basic steps each time.
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
-<!-- {width="4.0in" height="2.240598206474191in"} -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. gotchas and rookie mistakes, #2 (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -554,7 +552,6 @@ it&apos;s the same basic steps each time.
   style="border: 2px solid #000000;"
   width="50%;" />
 </p>
-<!-- {width="5.0in" height="2.8338681102362204in"} -->
 
 <b>Number 1</b> on this list is the biggest one, I see this all
 the time, especially with students who are new to working with
@@ -653,7 +650,6 @@ do it again. You want to make sure you put it on your CSS file.
   width="50%;" />
 </kbd>
 </p>
-<!-- {width="5.0in" height="2.8338681102362204in"} -->
 
 One last topic that I have to talk about before we&apos;re done with this
 lecture and plugins is just to beware of the plug in. Plugins can add
@@ -964,7 +960,6 @@ About the Minified Version
 
 And again, I&apos;m just repeating myself here but it&apos;s really important
 that you understand this.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 36.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -981,7 +976,6 @@ in that you want to use. The non-modified version is available if you
 want to see the actual JavaScript or maybe even edited, but you&apos;ll
 probably never want to do that. So, we&apos;ll always use the Minified
 version.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 37.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -995,7 +989,6 @@ And again, these are the files that we actually need for our project.
 So, we&apos;re going to copy them over and put them into our project folder
 just like you see here and just like we did just a minute ago in the
 previous lesson.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 38.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1010,7 +1003,6 @@ and you can come back to the flex slider website and I recommend that
 you do this. Even though I&apos;m going to walk through doing it with you,
 it&apos;s good to sort of come in here and see how these directions are
 written and to understand what the steps are.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 39.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1028,7 +1020,6 @@ plug ins. It&apos;s important to know a little bit about how JavaScript
 works in order to get this stuff to work, right? Once you&apos;ve done it a
 few times for a few different plug ins, you&apos;ll see there&apos;s a lot of
 similarities.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 40.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1072,7 +1063,6 @@ CSS. So, I&apos;m just going to add a link here, link href = \"
 flexslider.css\". Don&apos;t forget rel =\"stylesheet\", and make sure you
 spell style sheet right. Okay, so that will link that up. You can see
 I&apos;ve got jquery 2.2.4 loaded here, as opposed to the 1.6.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 44.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1101,7 +1091,6 @@ But notice I need to go back and add the **defer**, I want to put
 **defer** back in here because really, I want this script to load at the
 bottom of the screen. Okay, now I want to load the jQuery Flexslider
 script.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 46.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1118,7 +1107,6 @@ to load that file last, script as we are seeing, equals quote
 myscript.js. There we go, I&apos;ve got the files loaded. So, what&apos;s the
 next thing that we need to do? If we come back to the directions, it
 says place somewhere in the head of your document.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 47.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1134,7 +1122,6 @@ after the jQuery library. So, I want to put defer here, and defer down
 here. So, that they will load in this order, first this library, then
 the plug in, then my script. And they&apos;ll load after the rest of the
 page is loaded, just to be certain. So, we&apos;ve got that, okay.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 48.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1150,7 +1137,6 @@ markup this plug in expects. It expects a **div** with the class,
 the images inside of it, and we&apos;ll do that in the next lesson.
 
 <h2 id="ch1-08">1.08. Adding Markup & Hooking Up the Slider</h2>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 49.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1180,7 +1166,6 @@ need to do. This is what this particular script requires. It requires a
 div with the class of FlexSlider and unordered list of the class of
 slides, and then we can actually put our images inside each list item
 for that unordered list.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 51.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2010,10 +1995,10 @@ and do this, but let&apos;s go ahead and add this rule to our style sheet.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 114/115. styling the call to action (62) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image114.png"
+<img src="./images/image114.png"
   style="width:35%;"
   alt="Call to Action Styling." />
-<img src="./assets/images/image115.png"
+<img src="./images/image115.png"
   style="width:35%;"
   alt="Styles.css for Call to Action." />
 </p>
@@ -2055,10 +2040,10 @@ and then also the color for the text. That&apos;s a lot of stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 116/117.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image116.png"
+<img src="./images/image116.png"
   style="width:35%;"
   alt=" ." />
-<img src="./assets/images/image117.png"
+<img src="./images/image117.png"
   style="width:35%;"
   alt=" ." />
 </p>
@@ -2101,10 +2086,10 @@ setting height, width, and font size.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 120/121.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image120.png"
+<img src="./images/image120.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image121.png"
+<img src="./images/image121.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -2120,10 +2105,10 @@ font size down a little bit, 3vw.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 122/123.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image122.png"
+<img src="./images/image122.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image123.png"
+<img src="./images/image123.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -2214,10 +2199,10 @@ page, it does a smooth scrolling action further down the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 128/129.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image128.png"
+<img src="./images/image128.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image129.png"
+<img src="./images/image129.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -2233,10 +2218,10 @@ second in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 130/131.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image130.png"
+<img src="./images/image130.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image131.png"
+<img src="./images/image131.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -2256,13 +2241,13 @@ user experience. So, we&apos;re going to do that using jQuery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 132/133/134.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image132.png"
+<img src="./images/image132.png"
   style="width:25%;"
   alt="." />
-<img src="./assets/images/image133.png"
+<img src="./images/image133.png"
   style="width:25%;"
   alt="." />
-<img src="./assets/images/image134.png"
+<img src="./images/image134.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -2291,10 +2276,10 @@ content is passing beneath this header.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 135/136.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image135.png"
+<img src="./images/image135.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image136.png"
+<img src="./images/image136.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -2332,10 +2317,10 @@ carrying the extension .ZIP.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 137/138.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image137.png"
+<img src="./images/image137.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image138.png"
+<img src="./images/image138.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -2353,10 +2338,10 @@ we&apos;re going to write our jQuery code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 139/140.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image139.png"
+<img src="./images/image139.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image140.png"
+<img src="./images/image140.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -2426,10 +2411,10 @@ we&apos;ll do that in the next lesson so you see how it all comes together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 143/144.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image143.png"
+<img src="./images/image143.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image144.png"
+<img src="./images/image144.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -2485,10 +2470,10 @@ section going right up to the top of the window.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 146/147.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image146.png"
+<img src="./images/image146.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image147.png"
+<img src="./images/image147.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -2520,10 +2505,10 @@ that&apos;s running and then animate the thing that we&apos;ve clicked on next.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 148/149.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image148.png"
+<img src="./images/image148.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image149.png"
+<img src="./images/image149.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -2573,10 +2558,10 @@ more personality by adding some easing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 152/153.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image152.png"
+<img src="./images/image152.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image153.png"
+<img src="./images/image153.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -2701,10 +2686,10 @@ actually clicked on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 159/160.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image159.png"
+<img src="./images/image159.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image160.png"
+<img src="./images/image160.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -2781,20 +2766,20 @@ are out there. https://callbruno.com/en
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 163/164.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image163.png"
+<img src="./images/image163.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image164.png"
+<img src="./images/image164.png"
   style="width:35%;"
   alt="." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 165/166.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image165.png"
+<img src="./images/image165.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image166.png"
+<img src="./images/image166.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -2809,10 +2794,10 @@ It&apos;s affected by the scroll.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 167/168.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image167.png"
+<img src="./images/image167.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image168.png"
+<img src="./images/image168.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -2944,7 +2929,7 @@ overloading your processor, if you want to move stuff around on the
 screen, it&apos;s easy to overload it by firing this event so many times and
 trying to do too many things at once.
 
-# 2.08 The Crux of the Problem {#the-crux-of-the-problem }
+<h2 id="ch2-08">2.08 The Crux of the Problem</h2>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 175.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3047,10 +3032,10 @@ port.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 180/181.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image180.png"
+<img src="./images/image180.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image181.png"
+<img src="./images/image181.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -3194,10 +3179,10 @@ I&apos;ll take math for it now because that kind of confuses things.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 187/188.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image187.png"
+<img src="./images/image187.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image188.png"
+<img src="./images/image188.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -3217,10 +3202,10 @@ looks great to me.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 189/190.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image189.png"
+<img src="./images/image189.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image190.png"
+<img src="./images/image190.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -3245,10 +3230,10 @@ all the decimal points, so that&apos;s why I put the math floor in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 192/193.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image192.png"
+<img src="./images/image192.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image193.png"
+<img src="./images/image193.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -3275,10 +3260,10 @@ I&apos;ve put the window scroll event back in with my IF statements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 195/196.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image195.png"
+<img src="./images/image195.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image196.png"
+<img src="./images/image196.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -3313,10 +3298,10 @@ the top of the page if that number is greater than that number.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 198/199.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image198.png"
+<img src="./images/image198.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image199.png"
+<img src="./images/image199.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -3332,10 +3317,10 @@ and commented out so it doesn&apos;t cause a problem.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 200/201.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image200.png"
+<img src="./images/image200.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image201.png"
+<img src="./images/image201.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -3383,10 +3368,10 @@ we&apos;re scrolling up the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 203/204.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image203.png"
+<img src="./images/image203.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image204.png"
+<img src="./images/image204.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -3423,10 +3408,10 @@ does. I think that hopefully I did that right? I think I did.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 206/207.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image206.png"
+<img src="./images/image206.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image207.png"
+<img src="./images/image207.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -3589,10 +3574,10 @@ and looking at.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 215/216.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image215.png"
+<img src="./images/image215.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image216.png"
+<img src="./images/image216.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -3606,10 +3591,10 @@ sections are and it&apos;ll be fine.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 217/218.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./assets/images/image217.png"
+<img src="./images/image217.png"
   style="width:35%;"
   alt="." />
-<img src="./assets/images/image218.png"
+<img src="./images/image218.png"
   style="width:35%;"
   alt="." />
 </p>
@@ -3657,16 +3642,14 @@ sign **window.on**, we&apos;re going to use the on method again, but instead
 of looking for load we&apos;re going to look for resize. Then we&apos;re going
 to run a function. In here, I&apos;m just going to console log. Resizing.
 
-![](.images/image222.png){width="5.0in"
-height="3.0635684601924758in"}
+![](.images/image222.png){width="5.0in" height="3.0635684601924758in"}
 
 Now, this event listener will fire while we&apos;re resizing the window and
 up here, I&apos;m going to get rid of some of these other console logs
 comment that went out. I&apos;m going to comment that I don&apos;t need that one
 just so I don&apos;t have those cluttering up my script over here. Great.
 
-![](.images/image223.png){width="5.0in"
-height="3.0635684601924758in"}
+![](.images/image223.png){width="5.0in" height="3.0635684601924758in"}
 
 I&apos;m going to come over here to my page and I&apos;m going to refresh and
 I&apos;m going to resize the window and you can see that while I&apos;m resizing
@@ -3683,15 +3666,13 @@ run right at that particular size. We&apos;ll do that in the next lesson.
 
 <h2 id="ch2-14">2.14 Resizing Your Windows</h2>
 
-![](.images/image224.png){width="4.0in"
-height="2.4508552055993in"}
+![](.images/image224.png){width="4.0in" height="2.4508552055993in"}
 
 Great, now I want to make it so that when we&apos;re done resizing, we know
 we&apos;re in a place where we can actually change the heights of our
 element to do all that stuff.
 
-![](.images/image225.png){width="5.0in"
-height="3.0635673665791776in"}
+![](.images/image225.png){width="5.0in" height="3.0635673665791776in"}
 
 To do that, I&apos;m going to come back up here at the top of the page and
 then add one more variable var doneResizing.
@@ -3739,8 +3720,7 @@ when I doneResizing my window, number 2, doneResizing that event fires,
 and now that I&apos;m doneResizing, I can actually figure out, well, how
 tall are my sections and reset my page and do all of that.
 
-![](.images/image230.png){width="5.0in"
-height="3.0635684601924758in"}
+![](.images/image230.png){width="5.0in" height="3.0635684601924758in"}
 
 Now, that I&apos;ve set it so that I can capture when I&apos;m doneResizing the
 window, what do I actually want to do in here? What I want to do is I
@@ -3748,8 +3728,7 @@ want to come up here and I want to get these two things because this is
 what setting my postTops. When I get these two things, I&apos;m just going
 to copy them from there and paste them in here.
 
-![](.images/image231.png){width="5.0in"
-height="3.0635684601924758in"}
+![](.images/image231.png){width="5.0in" height="3.0635684601924758in"}
 
 After I&apos;m doneResizing, I&apos;m going to reset this variable post tops and
 I&apos;m going to put each of the posts in here and down here, let&apos;s
@@ -3758,8 +3737,7 @@ page where I have postTops console log out here, I&apos;m going to uncomment
 that out and save that, and now we should be able to test this and see
 if it&apos;s working.
 
-![](.images/image232.png){width="5.0in"
-height="3.0635684601924758in"}
+![](.images/image232.png){width="5.0in" height="3.0635684601924758in"}
 
 Over here, when I refresh the page, it should tell me where it thinks
 the postTops are based on the height of those elements. When I&apos;m done
@@ -3777,8 +3755,7 @@ window. That&apos;s really cool, that&apos;s working really well.
 
 <h2 id="ch2-15">2.15 Resetting the Counter</h2>
 
-![](.images/image235.png){width="4.0in"
-height="2.4508552055993in"}
+![](.images/image235.png){width="4.0in" height="2.4508552055993in"}
 
 We&apos;ve solved the first part of our problem with what happens if
 somebody resizes the window. But we haven&apos;t solved the second part of
@@ -3853,8 +3830,7 @@ lesson.
 
 <h2 id="ch2-16">2.16 resetPagePosition Function</h2>
 
-![](.images/image240.png){width="4.0in"
-height="2.4508552055993in"}
+![](.images/image240.png){width="4.0in" height="2.4508552055993in"}
 
 Our script is getting pretty long, and we&apos;re repeating ourselves in a
 few places.
@@ -3883,8 +3859,7 @@ with post tops and everything, all of that, I&apos;m just going to cut and
 stick it inside this function instead. You might have to select it and
 shift to get it to line up for it.
 
-![](.images/image245.png){width="5.0in"
-height="3.0422003499562553in"}
+![](.images/image245.png){width="5.0in" height="3.0422003499562553in"}
 
 Now I have a function called resetPageposition, and I&apos;m going to run
 that function here, resetPagePosition. When my time out function runs,
@@ -3892,8 +3867,7 @@ it&apos;s going to run resetPagePosition, this function here, which is all
 the stuff that we had in there. When we&apos;re done resizing, we&apos;re going
 to do all this stuff that we just wrote. That&apos;s cool.
 
-![](.images/image246.png){width="5.0in"
-height="3.0422003499562553in"}
+![](.images/image246.png){width="5.0in" height="3.0422003499562553in"}
 
 But I&apos;m also going to run it up at the top of the page here,
 resetPagePosition, and then I can get rid of this thing. You comment
@@ -3903,8 +3877,7 @@ when the page loads. This function is going to run twice. It&apos;s going to
 run when the page loads and it&apos;s going to run any time you resize the
 screen.
 
-![](.images/image247.png){width="5.0in"
-height="3.0422003499562553in"}
+![](.images/image247.png){width="5.0in" height="3.0422003499562553in"}
 
 When the page loads we want to do all of these things. We want to get
 it. We want to make sure postTops is emptied out, put the tops of all of
@@ -3948,8 +3921,7 @@ you go down to the correct section. You can see that it&apos;s slightly
 refreshing that, and the reason I think it&apos;s doing that is that it
 could be in some cases, actually reloading the page.
 
-![](.images/image250.png){width="5.0in"
-height="3.0422003499562553in"}
+![](.images/image250.png){width="5.0in" height="3.0422003499562553in"}
 
 One way to keep that from happening is in our script up here at the top.
 The script here. I mean down here at the end, return false, and I&apos;ll
@@ -3970,14 +3942,12 @@ review what we&apos;ve done.
 
 <h2 id="ch2-17">2.17 Reviewing the Whole Script</h2>
 
-![](.images/image251.png){width="4.0in"
-height="2.4508552055993in"}
+![](.images/image251.png){width="4.0in" height="2.4508552055993in"}
 
 This is quite an extensive script. We&apos;ve done a lot here. I just want
 to go through it once quickly, to review what we&apos;ve done.
 
-![](.images/image252.png){width="5.0in"
-height="3.0422003499562553in"}
+![](.images/image252.png){width="5.0in" height="3.0422003499562553in"}
 
 We started with the smooth scroll script, which handles what happens
 when you click on one of those things, and it gets the 'href' of that
@@ -3992,8 +3962,7 @@ possibly because now we have the other part that&apos;s handling this.
 That&apos;s something to consider. But that&apos;s what that first part of that
 script does.
 
-![](.images/image253.png){width="5.0in"
-height="3.0422003499562553in"}
+![](.images/image253.png){width="5.0in" height="3.0422003499562553in"}
 
 The second part of the script, is handling when the page loads in all
 the images and everything loads. We&apos;re creating some variables, getting
@@ -4007,8 +3976,7 @@ scrolled, and so on and so forth. Also, it will handle the situation for
 when it&apos;ll recalculate those things when we resize the screen but that
 happens later, so we set all that page position stuff.
 
-![](.images/image254.png){width="5.0in"
-height="3.0422003499562553in"}
+![](.images/image254.png){width="5.0in" height="3.0422003499562553in"}
 
 The magic of the script is actually happening here. When you scroll the
 page we&apos;re capturing that scroll event, and as we scroll the page,
@@ -4022,15 +3990,13 @@ Then we set previews counter to counter, and we&apos;re ready for the next
 change. This script is the heart of the whole thing in terms of figuring
 out everything that should happen there on the page.
 
-![](.images/image255.png){width="5.0in"
-height="3.0422003499562553in"}
+![](.images/image255.png){width="5.0in" height="3.0422003499562553in"}
 
 Then finally, we have the 'window on resize', and we&apos;re using
 clearTimeout to keep the setTime out from happening until we&apos;re
 actually done resizing.
 
-![](.images/image256.png){width="5.0in"
-height="3.0422003499562553in"}
+![](.images/image256.png){width="5.0in" height="3.0422003499562553in"}
 
 It&apos;s clearing done resizing while we&apos;re resizing, and then as soon as
 we&apos;re done, it waits half a second, and runs this reset page position
@@ -4083,18 +4049,15 @@ the same script, and play JavaScript.
 
 <h2 id="ch2-18">2.18 Introduction to Scroll Effects with JS</h2>
 
-![](.images/image263.png){width="4.0in"
-height="2.4508552055993in"}
+![](.images/image263.png){width="4.0in" height="2.4508552055993in"}
 
 Scroll effects with Javascript in this lesson. We are going to do the
 same thing, that we just did with the previous lesson on school effects
 using jQuery.
 
-![](.images/image264.png){width="4.0in"
-height="2.4337609361329835in"}
+![](.images/image264.png){width="4.0in" height="2.4337609361329835in"}
 
-![](.images/image265.png){width="5.0in"
-height="3.0422003499562553in"}
+![](.images/image265.png){width="5.0in" height="3.0422003499562553in"}
 
 Only this one, we are going to use plain javascript instead. And that
 will allow you to compare the syntax between jQuery and javascript and
@@ -4165,8 +4128,7 @@ Start Files: Smooth Scroll with JavaScript --
 
 <h2 id="ch2-19">2.19 Getting the Target -- Part 1 (4:50)</h2>
 
-![](.images/image266.png){width="4.0in"
-height="2.4508552055993in"}
+![](.images/image266.png){width="4.0in" height="2.4508552055993in"}
 
 Next, we want to get the href of the link that we clicked, the one that
 we clicked on, and we could use the this keyword, but in some cases,
@@ -4219,8 +4181,7 @@ in the next lesson.
 
 <h2 id="ch2-20">2.20 Getting the Target -- Part 2 (5:15)</h2>
 
-![](.images/image267.png){width="4.0in"
-height="2.2491447944006997in"}
+![](.images/image267.png){width="4.0in" height="2.2491447944006997in"}
 
 This statement is generating the tops of each section when I click on
 them, so I want sign that to variable. So instead of console.log here,
@@ -4275,8 +4236,7 @@ problem, and we&apos;ll talk about it more in the next lesson.
 
 <h2 id="ch2-21">2.21 Smooth Scroll Polyfill (4:45)</h2>
 
-![](.images/image268.png){width="4.0in"
-height="2.2491447944006997in"}
+![](.images/image268.png){width="4.0in" height="2.2491447944006997in"}
 
 In the last lesson (2.20), we noticed that the Smooth Scroll was working
 fine here in Chrome, but it&apos;s not working properly in Safari. What can
@@ -4328,8 +4288,7 @@ and capturing the scrolling.
 
 <h2 id="ch2-22">2.22 Checking the Load (6:48)</h2>
 
-![](.images/image269.png){width="4.0in"
-height="2.2491447944006997in"}
+![](.images/image269.png){width="4.0in" height="2.2491447944006997in"}
 
 We have the script that does the smooth scroll, and now we&apos;re going to
 do the second part of the script, which again is going to take place
@@ -4401,8 +4360,7 @@ next lesson.
 
 <h2 id="ch2-23">2.23 Top Posts (5:35)</h2>
 
-![](.images/image270.png){width="4.0in"
-height="2.261111111111111in"}
+![](.images/image270.png){width="4.0in" height="2.261111111111111in"}
 
 In the last lesson, we saw that we could use the
 **getBoundingClientRect().top** to get the top of any particular element
@@ -4456,8 +4414,7 @@ just the syntax, that&apos;s a little bit different.
 
 <h2 id="ch2-24">2.24 Add an Event Listener</h2>
 
-![](.images/image271.png){width="4.0in"
-height="2.261111111111111in"}
+![](.images/image271.png){width="4.0in" height="2.261111111111111in"}
 
 In the last module, we put all the tops of our posts or our sections
 really into post tops, and we can alert our council logged that out so
@@ -4520,8 +4477,7 @@ scroll effect.
 
 <h2 id="ch2-25">2.25 The Magic Conditionals (5:58)</h2>
 
-![](.images/image272.png){width="4.0in"
-height="2.261111111111111in"}
+![](.images/image272.png){width="4.0in" height="2.261111111111111in"}
 
 To handle those two situations of scrolling up and scrolling down, I
 need an if and an else if, just as I did in the Jquery version and I&apos;m
@@ -4585,8 +4541,7 @@ there before we go.
 
 <h2 id="ch2-26">2.26 Changing the Next Link (5:56)</h2>
 
-![](.images/image273.png){width="4.0in"
-height="2.261111111111111in"}
+![](.images/image273.png){width="4.0in" height="2.261111111111111in"}
 
 We took the class attribute off of all the links, now we need to add it
 to the correct link. So I&apos;m going to add a variable, const, This link,
@@ -4648,8 +4603,7 @@ plain Vanilla JavaScript.
 
 <h2 id="ch2-27">2.27 Resizing Function (5:07)</h2>
 
-![](.images/image274.png){width="4.0in"
-height="2.261111111111111in"}
+![](.images/image274.png){width="4.0in" height="2.261111111111111in"}
 
 Just as we did before, I want to add an event listener that captures
 when I&apos;m resizing my Window. So over here I&apos;m going to get rid of a
@@ -4696,8 +4650,7 @@ exactly the same as what we did in the for the jQuery version.
 
 <h2 id="ch2-28">2.28 Finalizing the Scripts</h2>
 
-![](.images/image275.png){width="4.0in"
-height="2.261111111111111in"}
+![](.images/image275.png){width="4.0in" height="2.261111111111111in"}
 
 We&apos;re down to the end of this lesson and we just need to fill out this
 resetPagePosition, their function here. And we&apos;re going to start by
@@ -4797,16 +4750,13 @@ up to you.
 
 <h3>PDF of Presentation: 2.28.JavaScript-Scroll-Effects.pdf</h3>
 
-<h2 id="ch2-29">2.29 Scription Site: HTML & CSS {#scription-site-html-css }</h2>
+<h2 id="ch2-29">2.29 Scription Site: HTML & CSS</h2>
 
-![](.images/image276.png){width="4.0in"
-height="2.261111111111111in"}
+![](.images/image276.png){width="4.0in" height="2.261111111111111in"}
 
-![](.images/image277.png){width="4.0in"
-height="2.4508552055993in"}
+![](.images/image277.png){width="4.0in" height="2.4508552055993in"}
 
-![](.images/image278.png){width="5.0in"
-height="3.0635684601924758in"}
+![](.images/image278.png){width="5.0in" height="3.0635684601924758in"}
 
 Scription site, part 1, building the HTML and CSS in this lesson we&apos;re
 going to look at building a web page that looks like this and it&apos;s a
@@ -4890,9 +4840,9 @@ think it&apos;s helpful to go through it anyway.
 
 ## Flex Files: 2.29.Flexslider-files.zip
 
-# 2.30 Header HTML {#header-html }
+<h2 id="ch2-30">2.30 Header HTML</h2>
 
-# ![](.images/image279.png){width="5.0in" height="3.0635684601924758in"} {#section-5 }
+# ![](.images/image279.png){width="5.0in" height="3.0635684601924758in"}
 
 Inside the header, you&apos;re going to have a div with the logo in it and
 the H 1 for the page. It&apos;s important for pages to have a main heading
@@ -7286,4 +7236,4 @@ and you&apos;ll get more practice. So I look forward to seeing you there.
   alt="." />
 </p>
 -->
-<h6>12/26/23 9:00pm</h6>
+<h6>12/15/23 3:00pm</h6>
