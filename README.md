@@ -1,7 +1,7 @@
 ---
 title: "University of California @Davis Interactivity with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "12/18/2023 11+am"
+date last editted: "12/26/2023 9+pm"
 output: 
   markdown:
     with some style
@@ -7286,4 +7286,4 @@ and you&apos;ll get more practice. So I look forward to seeing you there.
   alt="." />
 </p>
 -->
-<h6>12/15/23 3:00pm</h6>
+<h6>12/26/23 9:00pm</h6>
