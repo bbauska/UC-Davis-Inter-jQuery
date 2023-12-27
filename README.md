@@ -2151,7 +2151,7 @@ right. It may need to be refreshed properly, but that&apos;s okay. Great, so
 you got that all in place. The last thing we need to do is get this
 animation to work.
 
-## PDF of Presentation
+<h3>PDF of Presentation</h3>
 
 Here is a PDF of the presentation slides used in the lessons for this
 section: **jQuery Plugins and FlexSlider**.
