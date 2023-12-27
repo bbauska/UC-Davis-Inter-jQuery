@@ -3757,16 +3757,28 @@ the console log, but as soon as I stop, doneResizing. Now, I know that
 when I doneResizing my window, number 2, doneResizing that event fires,
 and now that I&apos;m doneResizing, I can actually figure out, well, how
 tall are my sections and reset my page and do all of that.
-
-![](.images/image230.png){width="5.0in" height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 230.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image230.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Now, that I&apos;ve set it so that I can capture when I&apos;m doneResizing the
 window, what do I actually want to do in here? What I want to do is I
 want to come up here and I want to get these two things because this is
 what setting my postTops. When I get these two things, I&apos;m just going
 to copy them from there and paste them in here.
-
-![](.images/image231.png){width="5.0in" height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 231.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image231.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 After I&apos;m doneResizing, I&apos;m going to reset this variable post tops and
 I&apos;m going to put each of the posts in here and down here, let&apos;s
@@ -3774,8 +3786,14 @@ actually console log out, postTops here. Then also up at the top of the
 page where I have postTops console log out here, I&apos;m going to uncomment
 that out and save that, and now we should be able to test this and see
 if it&apos;s working.
-
-![](.images/image232.png){width="5.0in" height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 232.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image232.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Over here, when I refresh the page, it should tell me where it thinks
 the postTops are based on the height of those elements. When I&apos;m done
@@ -3798,14 +3816,19 @@ you&apos;ll notice this only re-evaluates after I&apos;m done resizing my
 window. That&apos;s really cool, that&apos;s working really well.
 
 <h2 id="ch2-15">2.15 Resetting the Counter</h2>
-
-![](.images/image235.png){width="4.0in" height="2.4508552055993in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 235.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image235.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 We&apos;ve solved the first part of our problem with what happens if
 somebody resizes the window. But we haven&apos;t solved the second part of
 what happens if somebody refreshes the page while they&apos;re further down
 the page.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 236/237.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3856,7 +3879,6 @@ to be three. I want it to be two. Then I decrement the counter. Finally,
 all I need to do is remove the class from all links and then put the
 appropriate class in the appropriate link. That&apos;s really cool and that
 should work.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 238/239.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3887,12 +3909,17 @@ out of here and put it into its own function. We&apos;ll do that in the next
 lesson.
 
 <h2 id="ch2-16">2.16 resetPagePosition Function</h2>
-
-![](.images/image240.png){width="4.0in" height="2.4508552055993in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 240.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image240.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 Our script is getting pretty long, and we&apos;re repeating ourselves in a
 few places.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 241/242.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3911,7 +3938,6 @@ here. But I&apos;m going to put it after the window resize on resize
 function, so I&apos;m going to put it after here, in fact, I&apos;m going to get
 rid of a little bit of space there, and there we go. I&apos;m going to add
 in here a function resetPagePosition.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 243/244.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3930,16 +3956,28 @@ out function is going to end here, but all of the guts inside of there
 with post tops and everything, all of that, I&apos;m just going to cut and
 stick it inside this function instead. You might have to select it and
 shift to get it to line up for it.
-
-![](.images/image245.png){width="5.0in" height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 245.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image245.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Now I have a function called resetPageposition, and I&apos;m going to run
 that function here, resetPagePosition. When my time out function runs,
 it&apos;s going to run resetPagePosition, this function here, which is all
 the stuff that we had in there. When we&apos;re done resizing, we&apos;re going
 to do all this stuff that we just wrote. That&apos;s cool.
-
-![](.images/image246.png){width="5.0in" height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 246.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image246.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 But I&apos;m also going to run it up at the top of the page here,
 resetPagePosition, and then I can get rid of this thing. You comment
@@ -3948,8 +3986,14 @@ postTops, but then inside here I&apos;m going to adjust my postTops based on
 when the page loads. This function is going to run twice. It&apos;s going to
 run when the page loads and it&apos;s going to run any time you resize the
 screen.
-
-![](.images/image247.png){width="5.0in" height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 247.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image247.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 When the page loads we want to do all of these things. We want to get
 it. We want to make sure postTops is emptied out, put the tops of all of
@@ -3977,10 +4021,16 @@ exactly right. If I resize my screen, it should, when I&apos;m done
 resizing, choose the correct section. Separate sections on the screen.
 It does seem to be mostly working. Section, refresh the page, that
 section got highlighted, so that&apos;s correct.
-
-![](.images/image248.png){width="3.5in"
-height="2.129540682414698in"}![](.images/image249.png){width="3.5in"
-height="2.129540682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 248/249.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image248.png"
+  style="width:35%;"
+  alt="." />
+<img src="./images/image249.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 The last thing we could do here is on our Index page. Since it&apos;s being
 added programmatically, we don&apos;t need class selected here at all
@@ -3992,8 +4042,14 @@ My other script should work to where if I click on the next section that
 you go down to the correct section. You can see that it&apos;s slightly
 refreshing that, and the reason I think it&apos;s doing that is that it
 could be in some cases, actually reloading the page.
-
-![](.images/image250.png){width="5.0in" height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 250.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image250.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 One way to keep that from happening is in our script up here at the top.
 The script here. I mean down here at the end, return false, and I&apos;ll
@@ -4013,13 +4069,25 @@ last lesson on this where we just look at the different pieces and
 review what we&apos;ve done.
 
 <h2 id="ch2-17">2.17 Reviewing the Whole Script</h2>
-
-![](.images/image251.png){width="4.0in" height="2.4508552055993in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 251.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image251.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 This is quite an extensive script. We&apos;ve done a lot here. I just want
 to go through it once quickly, to review what we&apos;ve done.
-
-![](.images/image252.png){width="5.0in" height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 252.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image252.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 We started with the smooth scroll script, which handles what happens
 when you click on one of those things, and it gets the 'href' of that
@@ -4033,8 +4101,14 @@ Maybe we should actually even remove this part of the script, I think
 possibly because now we have the other part that&apos;s handling this.
 That&apos;s something to consider. But that&apos;s what that first part of that
 script does.
-
-![](.images/image253.png){width="5.0in" height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 253.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image253.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 The second part of the script, is handling when the page loads in all
 the images and everything loads. We&apos;re creating some variables, getting
@@ -4047,8 +4121,14 @@ into an array and then figures out how far down the page we&apos;re actually
 scrolled, and so on and so forth. Also, it will handle the situation for
 when it&apos;ll recalculate those things when we resize the screen but that
 happens later, so we set all that page position stuff.
-
-![](.images/image254.png){width="5.0in" height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 254.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image254.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 The magic of the script is actually happening here. When you scroll the
 page we&apos;re capturing that scroll event, and as we scroll the page,
@@ -4061,34 +4141,58 @@ counter, then we can do something on the page, and that&apos;s pretty cool.
 Then we set previews counter to counter, and we&apos;re ready for the next
 change. This script is the heart of the whole thing in terms of figuring
 out everything that should happen there on the page.
-
-![](.images/image255.png){width="5.0in" height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 255.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image255.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Then finally, we have the 'window on resize', and we&apos;re using
 clearTimeout to keep the setTime out from happening until we&apos;re
 actually done resizing.
-
-![](.images/image256.png){width="5.0in" height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 256.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image256.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 It&apos;s clearing done resizing while we&apos;re resizing, and then as soon as
 we&apos;re done, it waits half a second, and runs this reset page position
 again, which we already talked about, which sets the tops of all of our
 pages, of all of our sections and figures out how far down the page we
 are and sets the styling for the links appropriately.
-
-![](.images/image257.png){width="3.5in"
-height="2.129540682414698in"}![](.images/image258.png){width="3.5in"
-height="2.129540682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 257/258.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image257.png"
+  style="width:35%;"
+  alt="." />
+<img src="./images/image258.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 The only thing I can think to do is maybe to remove these two pieces
 here. I&apos;m going to take those out just for a minute to see, if that
 makes our script function just slightly better. Now when we get to this
 function, then we could get rid of this callback function entirely if
 this works.
-
-![](.images/image259.png){width="3.5in"
-height="2.129540682414698in"}![](.images/image260.png){width="3.5in"
-height="2.129540682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 259/260.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image259.png"
+  style="width:35%;"
+  alt="." />
+<img src="./images/image260.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 But let&apos;s see if this does what we wanted to do here, and then come
 back here to the top of the page, refresh the page, and now when I click
@@ -4098,10 +4202,16 @@ correct script. The other script is actually handling the changing of
 the highlighting here, and I actually don&apos;t need that in the other
 script. I think the two are affecting each other a little bit, so now
 both scripts are working.
-
-![](.images/image261.png){width="3.5in"
-height="2.129540682414698in"}![](.images/image262.png){width="3.5in"
-height="2.129540682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 261/262.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image261.png"
+  style="width:35%;"
+  alt="." />
+<img src="./images/image262.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 You could come back here, and take out this callback function entirely
 all the way down to there, and have a slightly shorter script, assuming
@@ -4120,16 +4230,30 @@ the same script, and play JavaScript.
 <h3>PDF of Presentation: 2.17.jQueryPage-Location-Tracking.pdf (28 pgs)</h3>
 
 <h2 id="ch2-18">2.18 Introduction to Scroll Effects with JS</h2>
-
-![](.images/image263.png){width="4.0in" height="2.4508552055993in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 263.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image263.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 Scroll effects with Javascript in this lesson. We are going to do the
 same thing, that we just did with the previous lesson on school effects
 using jQuery.
-
-![](.images/image264.png){width="4.0in" height="2.4337609361329835in"}
-
-![](.images/image265.png){width="5.0in" height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 264/265.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image264.png"
+  style="width:35%;"
+  alt="." />
+<img src="./images/image265.png"
+  style="width:35%;"
+  alt="." />
+</p>
+<!-- ![](.images/image264.png){width="4.0in" height="2.4337609361329835in"} -->
+<!-- ![](.images/image265.png){width="5.0in" height="3.0422003499562553in"} -->
 
 Only this one, we are going to use plain javascript instead. And that
 will allow you to compare the syntax between jQuery and javascript and
@@ -4199,8 +4323,14 @@ Start Files: Smooth Scroll with JavaScript --
 **2.18.Scroll-Effects-START.zip**
 
 <h2 id="ch2-19">2.19 Getting the Target -- Part 1 (4:50)</h2>
-
-![](.images/image266.png){width="4.0in" height="2.4508552055993in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 266.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image266.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 Next, we want to get the href of the link that we clicked, the one that
 we clicked on, and we could use the this keyword, but in some cases,
@@ -4252,8 +4382,14 @@ rather than just have it spit out in the console. Well, we&apos;ll do that
 in the next lesson.
 
 <h2 id="ch2-20">2.20 Getting the Target -- Part 2 (5:15)</h2>
-
-![](.images/image267.png){width="4.0in" height="2.2491447944006997in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 267.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image267.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 This statement is generating the tops of each section when I click on
 them, so I want sign that to variable. So instead of console.log here,
@@ -4307,8 +4443,14 @@ window, but the behavior &apos;smooth&apos; is not working. That&apos;s a bit of
 problem, and we&apos;ll talk about it more in the next lesson.
 
 <h2 id="ch2-21">2.21 Smooth Scroll Polyfill (4:45)</h2>
-
-![](.images/image268.png){width="4.0in" height="2.2491447944006997in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 268.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image268.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 In the last lesson (2.20), we noticed that the Smooth Scroll was working
 fine here in Chrome, but it&apos;s not working properly in Safari. What can
@@ -4359,8 +4501,14 @@ highlighting in the navigations. We&apos;ll again be working with scrolling
 and capturing the scrolling.
 
 <h2 id="ch2-22">2.22 Checking the Load (6:48)</h2>
-
-![](.images/image269.png){width="4.0in" height="2.2491447944006997in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 269.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image269.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 We have the script that does the smooth scroll, and now we&apos;re going to
 do the second part of the script, which again is going to take place
