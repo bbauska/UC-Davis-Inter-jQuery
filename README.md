@@ -2762,7 +2762,6 @@ that if we could get these things to highlight, we could do anything on
 the page based on where we are, scroll down the page. If you think about
 that for a second and go look at some of the interesting websites that
 are out there. https://callbruno.com/en
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 163/164.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2825,7 +2824,6 @@ just keep in mind that when we&apos;re done with this script, we will have a
 script that you could use on lots of Web pages to track where you are in
 the page and do lots of different animations or cool effects or other
 things based on where you are on the page. That&apos;s pretty exciting.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 170.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2842,7 +2840,6 @@ to come to. I think I&apos;ve pointed out in previous lessons, if you want
 to see some interesting interactions that people have created on the
 Web, they often get posted here. This is a good place to come to get
 inspiration about different things that you can do.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 171.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2907,7 +2904,6 @@ scrolls, and that&apos;s where we&apos;re going to put our script is inside here
 as the page scrolls, and I could just for right now, I could just do
 alert, I could do console.log. You don&apos;t want to do alert because
 you&apos;ll get a ton of alerts scrolling, and save that.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 174.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2930,7 +2926,6 @@ screen, it&apos;s easy to overload it by firing this event so many times and
 trying to do too many things at once.
 
 <h2 id="ch2-08">2.08 The Crux of the Problem</h2>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 175.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2943,7 +2938,6 @@ trying to do too many things at once.
 Now, we&apos;re going to get to the crux of the problem. What we&apos;re going
 to do is we&apos;re going to look at a couple of variables and watch what
 happens as we scroll on the page.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 176.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3060,8 +3054,7 @@ pieces that make capturing scroll events tricky, the fact that you
 can&apos;t be sure which pixel you going to hit and you have to watch out
 for performance.
 
-# 2.09 Strategy
-
+<h2 id="ch2-09">2.09 Strategy</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 182.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3073,7 +3066,6 @@ for performance.
 
 Now, the next thing we need to watch out for are what could the user
 possibly be doing on the page when it comes to scrolling?
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 183.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3096,7 +3088,6 @@ bottom, I can&apos;t scroll down anymore. But that&apos;s all I can do, so
 there&apos;s that. We need to pay attention to this because these are the
 two scenarios that we need to watch out for, and we need to write our
 script to handle these two scenarios.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 184.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3112,7 +3103,6 @@ scenario of what happens if we&apos;re scrolling down the page. The Else If
 is going to handle what happens if we&apos;re further down the page and
 scrolling up into a previous section. Let&apos;s go ahead and add this to
 our script over here.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 185.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3623,16 +3613,28 @@ That&apos;s what we&apos;re going to do in the last part of the script is to
 handle these two situations for this and while we&apos;re at it, we&apos;re
 going to find a trick that&apos;s actually going to be really useful for
 other scripts, for handling the same things that could happen.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 219.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image219.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
-![](.images/image219.png){width="5.0in"
-height="3.0635684601924758in"}
 
 In order to do this, I want to capture an event that fires when somebody
 resizes the window.
-
-![](.images/image220.png){width="3.5in"
-height="2.144498031496063in"}![](.images/image221.png){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 220/221.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image220.png"
+  style="width:35%;"
+  alt="." />
+<img src="./images/image221.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 Down here after my windows scroll event handler, which is this one here
 (left) and it&apos;s down here, but before the closing of my window load.
@@ -3641,15 +3643,27 @@ handler down here (right image). It&apos;s going to look like this dollar
 sign **window.on**, we&apos;re going to use the on method again, but instead
 of looking for load we&apos;re going to look for resize. Then we&apos;re going
 to run a function. In here, I&apos;m just going to console log. Resizing.
-
-![](.images/image222.png){width="5.0in" height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 222.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image222.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Now, this event listener will fire while we&apos;re resizing the window and
 up here, I&apos;m going to get rid of some of these other console logs
 comment that went out. I&apos;m going to comment that I don&apos;t need that one
 just so I don&apos;t have those cluttering up my script over here. Great.
-
-![](.images/image223.png){width="5.0in" height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 223.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image223.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 I&apos;m going to come over here to my page and I&apos;m going to refresh and
 I&apos;m going to resize the window and you can see that while I&apos;m resizing
@@ -3665,21 +3679,39 @@ calculate, how tall are my sections and fix my script up so that it will
 run right at that particular size. We&apos;ll do that in the next lesson.
 
 <h2 id="ch2-14">2.14 Resizing Your Windows</h2>
-
-![](.images/image224.png){width="4.0in" height="2.4508552055993in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 224.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image224.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 Great, now I want to make it so that when we&apos;re done resizing, we know
 we&apos;re in a place where we can actually change the heights of our
 element to do all that stuff.
-
-![](.images/image225.png){width="5.0in" height="3.0635673665791776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 225.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image225.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 To do that, I&apos;m going to come back up here at the top of the page and
 then add one more variable var doneResizing.
-
-![](.images/image226.png){width="3.5in"
-height="2.144498031496063in"}![](.images/image227.png){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 226/227.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image226.png"
+  style="width:35%;"
+  alt="." />
+<img src="./images/image227.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 I&apos;m just going to set out a variable and it&apos;s going to be undefined at
 the moment, but down here, I&apos;m going to insert my resize function here.
@@ -3709,10 +3741,16 @@ the window. But as soon as I&apos;m done, then the set time me out will run
 in a week, 500 milliseconds console log after it&apos;s done resizing, I
 hope. Let&apos;s see if that works if I did it right. If we come back over
 here and refresh my screen here.
-
-![](.images/image228.png){width="3.5in"
-height="2.144498031496063in"}![](.images/image229.png){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 228/229.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image228.png"
+  style="width:35%;"
+  alt="." />
+<img src="./images/image229.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 Now while I&apos;m resizing the screen, nothing&apos;s happening over there in
 the console log, but as soon as I stop, doneResizing. Now, I know that
@@ -3744,10 +3782,16 @@ the postTops are based on the height of those elements. When I&apos;m done
 resizing, I get new postTops. The first one still at 200, that&apos;s fine.
 That makes sense, but the next one is a much higher number, and so on
 and so forth.
-
-![](.images/image233.png){width="3.5in"
-height="2.144498031496063in"}![](.images/image234.png){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 233/234.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image233.png"
+  style="width:35%;"
+  alt="." />
+<img src="./images/image234.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 If I make it slightly wider, I&apos;ll get a different set of numbers. But
 you&apos;ll notice this only re-evaluates after I&apos;m done resizing my
@@ -3762,9 +3806,16 @@ somebody resizes the window. But we haven&apos;t solved the second part of
 what happens if somebody refreshes the page while they&apos;re further down
 the page.
 
-![](.images/image236.png){width="3.5in"
-height="2.129540682414698in"}![](.images/image237.png){width="3.5in"
-height="2.129540682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 236/237.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image236.png"
+  style="width:35%;"
+  alt="." />
+<img src="./images/image237.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 What I want to do for this is I&apos;m going to come down here into my
 script down here. I&apos;m going to piece something in. You&apos;re going to
@@ -3806,9 +3857,16 @@ all I need to do is remove the class from all links and then put the
 appropriate class in the appropriate link. That&apos;s really cool and that
 should work.
 
-![](.images/image238.png){width="3.5in"
-height="2.129540682414698in"}![](.images/image239.png){width="3.5in"
-height="2.129540682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 238/239.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image238.png"
+  style="width:35%;"
+  alt="." />
+<img src="./images/image239.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 Now, if I see this and notice, I do have this inside the resize
 function, which is not great, and we&apos;ll fix that in a minute. But
@@ -3835,9 +3893,16 @@ lesson.
 Our script is getting pretty long, and we&apos;re repeating ourselves in a
 few places.
 
-![](.images/image241.png){width="3.5in"
-height="2.129540682414698in"}![](.images/image242.png){width="3.5in"
-height="2.129540682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 241/242.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image241.png"
+  style="width:35%;"
+  alt="." />
+<img src="./images/image242.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 What I&apos;m going to do here is make a new function. I&apos;m going to leave
 it inside the window on load function that we have up here at the top.
@@ -3847,9 +3912,16 @@ function, so I&apos;m going to put it after here, in fact, I&apos;m going to get
 rid of a little bit of space there, and there we go. I&apos;m going to add
 in here a function resetPagePosition.
 
-![](.images/image243.png){width="3.5in"
-height="2.129540682414698in"}![](.images/image244.png){width="3.5in"
-height="2.129540682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 243/244.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image243.png"
+  style="width:35%;"
+  alt="." />
+<img src="./images/image244.png"
+  style="width:35%;"
+  alt="." />
+</p>
 
 I&apos;m going to put all of this stuff that comes inside this set time out
 here. The post tops, we&apos;ve done resizing and this function here, but
