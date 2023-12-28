@@ -1831,10 +1831,10 @@ this.
 
 <h2 id="ch1-12">1.12. Additional Styling (5:47)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 104.   (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 104. additional styling (1.12) (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image104.png"
-  alt="."
+  alt="1.12. Additional Styling for FlexSlider."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
@@ -1842,17 +1842,16 @@ this.
 In the last module, we updated the markup for our fancy version of the
 slider, and now we need to do some updating for the actual CSS for the
 display of the slides.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 105/106.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 105/106. styling for flexslider (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image105.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Rules for flexslider." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image106.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Update styles.css with new rules." />
 </p>
 
 So, I&apos;m going to come back over here to my snippets and I&apos;m just going
@@ -1861,10 +1860,10 @@ them into my CSS file over here, styles.css. And I&apos;m going to stick
 them just in my section with the flex slider stuff here. It doesn&apos;t
 really matter where they go, I&apos;m going to put them here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 107.   (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 107. styles.css: slide1-slide5 background (57) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image107.png"
-  alt="."
+  alt="Define background for slide1 thru slide5 in styles.css."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -1887,7 +1886,7 @@ in CSS currently, there&apos;s some features coming to CSS that will make it
 easier in the long run, but for right now it&apos;s a little clunky and
 unfortunate.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 108. set position  (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. set position of slides (58) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image108.png"
   alt="The position CSS property sets how an element is positioned in a document."
@@ -1939,7 +1938,7 @@ you would set the ratio By Photoshop. And you can set the width to
 whatever the height is in relation to the width. And then I&apos;ve got
 background size cover.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 110. styling the cta 'call to action' (61) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 110. styling the cta 'call to action' (60) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image110.png"
   alt="."
@@ -1952,7 +1951,7 @@ left 20 pixels, then I&apos;m setting the color for that. So that&apos;s not too
 fancy. But that&apos;s an important thing to understand with the way that
 this is working.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 111. styling the cta 'call to action' (61) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 111. styling the cta 'call to action' (60) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image111.png"
   alt="."
@@ -2038,14 +2037,14 @@ family, the font size, 4vw is four percent of the viewport width, so
 again, the font it&apos;s going to resize based on how wide the screen is,
 and then also the color for the text. That&apos;s a lot of stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 116/117.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116/117. define class: light (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image116.png"
   style="width:35%;"
-  alt=" ." />
+  alt="Styles.css: Define new class .light." />
 <img src="./images/image117.png"
   style="width:35%;"
-  alt=" ." />
+  alt="Utilize class: light in index." />
 </p>
 
 We&apos;re going to do one more rule in here for dot light (.light), and
@@ -2053,10 +2052,10 @@ I&apos;m setting a color in here, color, and I think I set it to, where did
 I set it to #ededed. The reason for that, it&apos;s a light gray, one of the
 slides is dark, so over here, I have a class of light on slide 4.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 118.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 118. styles.css: background slide (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image118.png"
-  alt=" ."
+  alt="Define different background colors for slides."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -2071,10 +2070,10 @@ different color in there and a different class for that one, that&apos;s all
 we need there for that, so that&apos;s really good and should make sense in
 our work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 119.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 119. resize call to action button (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image119.png"
-  alt=" ."
+  alt="Resize the CTA (call to action) button for tablet-sized browser windows."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -2084,14 +2083,14 @@ desktop and for mobile, so we need to add these rules into the media
 queries at the bottom of the style sheet (styles.css), and we&apos;re just
 setting height, width, and font size.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 120/121.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 120/121. tablet-sized min-width: 600px (64) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image120.png"
   style="width:35%;"
-  alt="." />
+  alt="styles.css: min-width: 600px." />
 <img src="./images/image121.png"
   style="width:35%;"
-  alt="." />
+  alt="CTA: Call To Action anchor tag." />
 </p>
 
 For the tablet-sized versions of the site, which is, screens that are
@@ -2103,14 +2102,14 @@ and then I&apos;m setting the font size to a little bit smaller, I think is
 not what it was, yes, 3vw instead of 4vw, it&apos;s 3vw, and so bringing the
 font size down a little bit, 3vw.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 122/123.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 122/123. desktop with min-width: 1000px (65) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image122.png"
   style="width:35%;"
-  alt="." />
+  alt="styles.css: min-width: 1000px." />
 <img src="./images/image123.png"
   style="width:35%;"
-  alt="." />
+  alt="styles.css: new ID cta with width/height of 150px." />
 </p>
 
 Then, when we get to the full-screen size for desktop, I need this
@@ -2120,10 +2119,10 @@ be set to a specific size, 150px, so it&apos;s not going to be flexible
 anymore, because if, this size or wider, it&apos;s always going to be this
 size, 150px. Font-size to 24 pixels.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 124.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 124. kittens for sale example (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image124.png"
-  alt=" ."
+  alt="Kittens for Sale example."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -2134,10 +2133,10 @@ screen at all, it&apos;s going to be up here, I actually noticed down here
 at bottom 100 percent, so it is showing up. But this is the way they&apos;re
 going to look in end here, is round like this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 125.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 125. example: kittens for sale! (66) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image125.png"
-  alt="."
+  alt="Kittens for Sale example, #2."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -2187,24 +2186,23 @@ this module.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 127. intro to smooth scroll with jquery (67) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image127.png"
-  alt="Intro to Smooth Scroll with jQuery."
+  alt="2.02. Intro to Smooth Scroll with jQuery."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
-<!-- {width="4.0in" height="2.1752132545931757in"} -->
 
 In the first part of this lesson, we&apos;re going to use jQuery to make a
 smooth scroll script so that when you click a link at the top of the
 page, it does a smooth scrolling action further down the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 128/129.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 128/129. section one and two example (68) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image128.png"
   style="width:35%;"
-  alt="." />
+  alt="Example section one." />
 <img src="./images/image129.png"
   style="width:35%;"
-  alt="." />
+  alt="Example section two." />
 </p>
 
 And I have an example page that you can download with example files and
@@ -2216,14 +2214,14 @@ here. And this is just basic html. If I click section two it just put
 section two at the top of the page, you can see here the URL has pounds
 second in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 130/131.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 130/131. section links defined (68) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image130.png"
   style="width:35%;"
-  alt="." />
+  alt="href sections defined #first thru #fifth." />
 <img src="./images/image131.png"
   style="width:35%;"
-  alt="." />
+  alt="Example sections 1st thru 5th." />
 </p>
 
 If I go into my files and look at this, you can see that my links are
@@ -2239,23 +2237,21 @@ from one place to another place on a web page. And if it happens
 smoothly and quickly without a lot of interference, then it adds to the
 user experience. So, we&apos;re going to do that using jQuery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 132/133/134.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 132/133. adjust the header rule styles.css (69) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image132.png"
-  style="width:25%;"
-  alt="." />
+  style="width:40%;"
+  alt="Adjust the header rule CSS." />
 <img src="./images/image133.png"
-  style="width:25%;"
-  alt="." />
+  style="width:40%;"
+  alt="Updates to styles.css - header and body." />
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 134. smooth scroller set heading (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+p align="center">
 <img src="./images/image134.png"
-  style="width:35%;"
-  alt="." />
-</p>
-<!-- 
-{width="3.5in" height="1.9784722222222222in"} 
-{width="3.5in" height="1.9784722222222222in"} 
-{width="5.0in" height="2.826388888888889in"}
--->
+  alt="Smooth Scroller example with set heading."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
 
 The first thing we need to do is set the header so its position fixed.
 And if you go back to the files, you&apos;ll notice in the style sheet up
@@ -2274,14 +2270,14 @@ width 100% so it will stretch across the entire window. Now you can see
 because it&apos;s slightly transparent that the images and every all the
 content is passing beneath this header.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 135/136.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 135/136. padding-top: 200 (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image135.png"
   style="width:35%;"
-  alt="." />
+  alt="Add padding-top: 200 to body of style.css." />
 <img src="./images/image136.png"
   style="width:35%;"
-  alt="." />
+  alt="Smooth Scroller example of padding-top: 200." />
 </p>
 
 But you also notice that it&apos;s covering up part of section one. So, we
@@ -2290,7 +2286,8 @@ here, remove that comment to set the padding on the body to top 200
 pixels. And that will push that first section down and we need to do
 that because the header is no longer part of the normal flow of the
 document. So, we need to push that first section down, hopes to get
-saved. When you refresh it doesn&apos;t necessarily put the page at the top
+saved. 
+When you refresh it doesn&apos;t necessarily put the page at the top
 of the window. But now you can see when I load the page fresh, it is
 loading it with 200 pixels padding, which allows this element here to be
 sitting below the header. But the headers out of the normal flow of the
@@ -2315,14 +2312,14 @@ carrying the extension .ZIP.
 
 <h2 id="ch2-03">2.03. Creating a Click Handler (5:00)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 137/138.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 137/138. creating a click handler (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image137.png"
   style="width:35%;"
-  alt="." />
+  alt="Creating a Click Handler." />
 <img src="./images/image138.png"
   style="width:35%;"
-  alt="." />
+  alt="Add Easing and Click Handler scripts to end of index." />
 </p>
 
 We have set up our files, and we&apos;re ready to start working on our
@@ -2336,14 +2333,14 @@ plug-in and how that works. Then I have linked here a file called
 **smoothscroll.js,** which is our JavaScript file, and this is where
 we&apos;re going to write our jQuery code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 139/140.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 139/140. add click handler to index (71) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image139.png"
   style="width:35%;"
-  alt="." />
+  alt="If clicked, run this function." />
 <img src="./images/image140.png"
   style="width:35%;"
-  alt="." />
+  alt="smoothscroll.js - click handler function." />
 </p>
 
 I&apos;m going to remove that comment, and add here a click handler, so I&apos;m
