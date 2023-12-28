@@ -1,7 +1,7 @@
 ---
 title: "University of California @Davis Interactivity with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "12/18/2023 11+am"
+date last editted: "12/27/2023 6+pm"
 output: 
   markdown:
     with some style
@@ -3236,26 +3236,25 @@ just getting whole numbers 200, 700, 1525, 21.4, and 2683 and that&apos;s
 good. Great. We&apos;ll pick it up in the next lesson.
 
 <h2 id="ch2-10">2.10 Adding PageTop and If Statements</h2>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 194.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 194. adding pagetop and if statements (102) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image194.png"
-  alt="."
+  alt="2.10. Adding PageTop and If Statements."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
 
 I&apos;ve put the window scroll event back in with my IF statements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 195/196.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 195/196. smoothscroll.js - scroll up/down (102) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image195.png"
   style="width:35%;"
-  alt="." />
+  alt="Lines 29-46 of smoothscroll.js." />
 <img src="./images/image196.png"
   style="width:35%;"
-  alt="." />
+  alt="Lines 24-42 of smoothscroll.js (after update)." />
 </p>
 
 We&apos;re going to work on these a little bit now. But before we do, we
@@ -3265,10 +3264,10 @@ before and we just set it to window scroll top. Here I&apos;m going to set
 it to window scrollTop plus 210. That&apos;s because we know our page over
 here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 197.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 197. 24-43 of smoothscroll.js (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image197.png"
-  alt="."
+  alt="Lines 24-43 of smoothscroll.js."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
@@ -3286,14 +3285,14 @@ thing that&apos;s saying how far we&apos;re scrolling down the page is greater
 than 700, then this second section must be up here, must be up towards
 the top of the page if that number is greater than that number.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 198/199.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 198/199. 24-43 of smoothscroll.js & after, 32-50 of smoothscroll.js (103) ~~~~~~~~~-->
 <p align="center">
 <img src="./images/image198.png"
   style="width:35%;"
-  alt="." />
+  alt="24-43 of smoothscroll.js." />
 <img src="./images/image199.png"
   style="width:35%;"
-  alt="." />
+  alt="32-50 of smoothscroll.js." />
 </p>
 
 What I want to do here is, okay, when I get into that place and want to
@@ -3305,14 +3304,14 @@ cool I think. We can&apos;t do anything with this yet. I&apos;m going to take
 this out and just comment the else if for the moment. Like that to there
 and commented out so it doesn&apos;t cause a problem.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 200/201.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 200/201. log of smoothscroll.js scrolling down (104) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image200.png"
-  style="width:35%;"
-  alt="." />
+  style="width:45%;"
+  alt="Log of smoothscroll.js as scrolling down." />
 <img src="./images/image201.png"
-  style="width:35%;"
-  alt="." />
+  style="width:45%;"
+  alt="Log of 2nd section of smooth scroller." />
 </p>
 
 But now while we&apos;re scrolling down, the counters should get incremented
@@ -3345,25 +3344,25 @@ bit because you can overload your CPU.
 
 <h2 id="ch2-11">2.11 Writing the Else/If Statement - Part 1</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 202.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 202. writing the else/if statement in smoothscroll.js (105) ~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image202.png"
-  alt="."
+  alt="32-50 of smoothscroll.js (before)."
   style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  width="50%;" />
 </p>
 
 Now we&apos;ll handle the 'else if' and we&apos;ll take care of what happens if
 we&apos;re scrolling up the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 203/204.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 203/204. before and after else/if statement insmoothscroll.js (105) ~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image203.png"
   style="width:35%;"
-  alt="." />
+  alt="32-50 of smoothscroll.js (before)." />
 <img src="./images/image204.png"
   style="width:35%;"
-  alt="." />
+  alt="32-50 of smoothscroll.js (after)." />
 </p>
 
 It&apos;s not uncommon that out. I&apos;m first going to check to see if counter
@@ -5513,7 +5512,9 @@ taken off on splash. Great, we&apos;ve got the 760 media query done, let&apos;s
 go ahead next and work on the next media query for the full desktop
 size.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-37">2.37 Media Query for 1020 Pixels Wide</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ![](.images/image287.png){width="4.0in"
 height="2.261111111111111in"}
@@ -7456,4 +7457,4 @@ and you&apos;ll get more practice. So I look forward to seeing you there.
   alt="." />
 </p>
 -->
-<h6>12/15/23 3:00pm</h6>
+<h6>Last Updated: 12/27/23 6:24pm</h6>
