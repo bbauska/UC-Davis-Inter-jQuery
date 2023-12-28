@@ -703,8 +703,9 @@ section:
 
 <h4><b>jQuery Plugins</b></h4>
 
--   [1.05.jQueryPlugins.pdf (PDF
-    File)](https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.05.jQuery-Plugins.pdf)
+<ul>
+  <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.05.jQuery-Plugins.pdf"  target="_blank" rel="noreferrer noopener">1.05.jQueryPlugins.pdf (PDF File)</a></li>
+</ul>
 
 > \<a
 > href="<https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.05.jQuery-Plugins.pdf>"\>1.05.jQueryPlugins.pdf\</a\>
@@ -719,21 +720,27 @@ carrying the extension .ZIP.
 
 <h4><b>Start Files: jQuery Plugins & FexSlider</b></h4>
 
--   [1.05.FlexsliderBasic-Start.zip (ZIP
-    File)](https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/zip_files/1.05.FlexSliderBasic-Start.zip)
+<ul>
+  <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/zip_files/1.05.FlexSliderBasic-Start.zip" 
+    target="_blank" rel="noopener noreferrer">1.05.FlexsliderBasic-Start.zip (ZIP File)</a></li>
+</ul>
 
 > <https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/zip_files/1.05.FlexSliderBasic-Start.zip>
 
--   [1.05.FlexSliderPlugin.zip (ZIP
-    File)](https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/zip_files/1.05.FlexSliderPlugin.zip)
+<ul>
+  <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/zip_files/1.05.FlexSliderPlugin.zip"
+    target="_blank" rel="noopener noreferrer">1.05.FlexSliderPlugin.zip (ZIP
+   File)</a></li>
+</ul>
 
 > <https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/zip_files/1.05.FlexSliderPlugin.zip>
 
 <h4><b>Additional Resource:</b></h4>
 
--   [How to open a zip file for either Mac or
-    PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
-
+<ul>
+  <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/"
+    target="_blank" rel="noopener noreferrer">How to open a zip file for either Mac or PC</a></li>
+</ul>
 
 <h2 id="ch1-06">1.06. FlexSlider: A jQuery Plugin</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -929,15 +936,15 @@ that will show up on the slider, so, we need that in order for this
 'next' and 'previous' buttons to load properly. We will need that as
 well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33/34.  (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 33/34. flexslider.css, fonts & minified flexslider (27) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image033.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="flexslider.css, fonts and jquery.flexslider-min.js." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image034.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="flexslider.css, fonts and jquery.flexslider-min.js." />
 </p>
 
 I&apos;m going to grab the FlexSlider.css, the fonts, and the minified
@@ -948,23 +955,21 @@ started for this project.
 
 <h2 id="ch1-07">1.07. About the Minified Version</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 35.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 35. about the minified version (1.07) (27) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image035.png"
-  alt="."
+  alt="1.07. About the Minified Version."
   style="border: 2px solid gray;"
   width="40%;" />
 </p>
 
-About the Minified Version
-
 And again, I&apos;m just repeating myself here but it&apos;s really important
 that you understand this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 36.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. minified vs non-minified (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image036.png"
-  alt="."
+  alt="Minified vs. Non-Minified jQuery FlexSlider.js."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -977,10 +982,10 @@ want to see the actual JavaScript or maybe even edited, but you&apos;ll
 probably never want to do that. So, we&apos;ll always use the Minified
 version.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 37.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 37. add javascript flexslider files (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image037.png"
-  alt="."
+  alt="Add 3 files to project: flexslider.css, jquery.flexslider-min.js and fonts."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -990,10 +995,10 @@ So, we&apos;re going to copy them over and put them into our project folder
 just like you see here and just like we did just a minute ago in the
 previous lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 38.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. add 3 files to head of index (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image038.png"
-  alt="."
+  alt="Add stylesheet and 2 javascript files to head of index."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1004,10 +1009,10 @@ you do this. Even though I&apos;m going to walk through doing it with you,
 it&apos;s good to sort of come in here and see how these directions are
 written and to understand what the steps are.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 39.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 39. link to 3 files and add markup (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image039.png"
-  alt="."
+  alt="Link files and add markup."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1021,10 +1026,10 @@ works in order to get this stuff to work, right? Once you&apos;ve done it a
 few times for a few different plug ins, you&apos;ll see there&apos;s a lot of
 similarities.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 40.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. following directions (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image040.png"
-  alt="."
+  alt="Following Directions."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1032,7 +1037,7 @@ similarities.
 All right, so let&apos;s go through this together. So, you can see what I
 mean about how to do this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 41.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. styles.css and load jquery (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image041.png"
   alt="."
@@ -1040,7 +1045,7 @@ mean about how to do this.
   width="50%;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42/43.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 42/43. where to put scripts, css & js (31) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image042.png?raw=true"
   style="width:45%"
@@ -1064,10 +1069,10 @@ flexslider.css\". Don&apos;t forget rel =\"stylesheet\", and make sure you
 spell style sheet right. Okay, so that will link that up. You can see
 I&apos;ve got jquery 2.2.4 loaded here, as opposed to the 1.6.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 44.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. jquery version to load (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image044.png"
-  alt="."
+  alt="jQuery version to load."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1079,10 +1084,10 @@ And here is the latest version of jquery. You&apos;ll notice it&apos;s been
 updated recently to 3.6, okay. So, I&apos;m going to replace this version of
 jquery with that one.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 45.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 45. load jquery at bottom of screen (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image045.png"
-  alt="."
+  alt="Load jQuery at bottom of screen."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1092,10 +1097,10 @@ But notice I need to go back and add the **defer**, I want to put
 bottom of the screen. Okay, now I want to load the jQuery Flexslider
 script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 46.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. add scripts to index.html (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image046.png"
-  alt="."
+  alt="Where to add scripts to index.html."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1108,7 +1113,7 @@ myscript.js. There we go, I&apos;ve got the files loaded. So, what&apos;s the
 next thing that we need to do? If we come back to the directions, it
 says place somewhere in the head of your document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 47.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 47.  (33) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image047.png"
   alt="."
@@ -2155,12 +2160,12 @@ animation to work.
 Here is a PDF of the presentation slides used in the lessons for this
 section: **jQuery Plugins and FlexSlider**.
 
--   1.13.FlexSlider.pdf
+<ul>
+  <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.13.FlexSlider.pdf" 
+    target="_blank" rel="noopener noreferrer">1.13.FlexSlider.pdf</a></li>
+</ul>
 
 <https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.13.FlexSlider.pdf>
-
-\<a href="
-https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.13.FlexSlider.pdf"\>1.13.FlexSlider.pdf\</a\>
 
 <h2 id="ch2-01">2.01 Module 2 Intro (0:38)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
