@@ -40,7 +40,125 @@ and deleting data in objects; manipulate the DOM based on the data in objects;
 identify and articulate how multiple functions work together to create a more complex 
 program; and identify processes for breaking larger programs into smaller, more 
 manageable pieces.</p>
+<!-- table of contents -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!-- <div style="background-color:black;color:white;padding:30px">Scroll Down</div> -->
+<!-- <div style="background-color:lightgrey;padding:30px 30px 750px"></div> -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<script>
+// Get the button
+var mybutton = document.getElementById("myBtn");
 
+// When the user scrolls down 10px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document. 0,0 - 2120
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~ Hoverable Dropdown Menu ~~-->
+<p>Move the mouse over the button to open the dropdown menu.</p>
+<div class="dropdown">
+  <button class="dropbtn">Green Button</button>
+  <div class="dropdown-content">
+    <a href="#ch1">Module 1. jQuery Plugins and Capturing the Scroll Event</a>
+    <a href="#ch1-01">  1.01 Welcome!</a>
+    <a href="#ch1-02">  1.02 Module 1 Introduction</a>
+	<a href="#ch1-03">  1.03 Intro to jQuery Plugins</a>
+    <a href="#ch1-04">  1.04 Using Plugins and Essential Steps</a>
+    <a href="#ch1-05">  1.05 Gotchas and Rookie Mistakes</a>
+    <a href="#ch1-06">  1.06 FlexSlider: A jQuery Plugin</a>
+    <a href="#ch1-07">  1.07 About the Minified Version</a>
+    <a href="#ch1-08">  1.08 Adding Markup &amp; Hooking Up the Slider</a>
+    <a href="#ch1-09">  1.09 FlexSlider Rules</a>
+    <a href="#ch1-10">  1.10 Additional Controls</a>
+    <a href="#ch1-11">  1.11 Advanced FlexSlider</a>
+    <a href="#ch1-12">  1.12 Additional Styling</a>
+    <a href="#ch1-13">  1.13 Styling the CTA</a>
+	<a href="#ch2">Module 2. Combining Scripts and Skill Building Through Practice</a>
+    <a href="#ch2-01">  2.01 Introduction to HTML</a>
+    <a href="#ch2-02">  2.02 Intro to Smooth Scroll with jQuery</a>
+    <a href="#ch2-03">  2.03 Creating a Click Handler</a>
+    <a href="#ch2-04">  2.04 Adding the Animation</a>
+    <a href="#ch2-05">  2.05 Add Some Easing and a Callback Function</a>
+    <a href="#ch2-06">  2.06 Highlighting Elements</a>
+    <a href="#ch2-07">  2.07 Intro to Page Location Tracking</a>
+    <a href="#ch2-08">  2.08 The Crux of the Problem</a>
+    <a href="#ch2-09">  2.09 Strategy</a>
+    <a href="#ch2-10">  2.10 Adding PageTop and If Statements</a>
+    <a href="#ch2-11">  2.11 Writing the Else/If Statement - Part 1</a>
+    <a href="#ch2-12">  2.12 Writing the Else/If Statement - Part 2</a>
+    <a href="#ch2-13">  2.13 Edge Case Issues</a>
+    <a href="#ch2-14">  2.14 Resizing the Counter</a>
+    <a href="#ch2-15">  2.15 Resetting the Counter</a>
+    <a href="#ch2-16">  2.16 resetPagePosition Function</a>
+    <a href="#ch2-17">  2.17 Reviewing the Whole Script</a>
+    <a href="#ch2-18">  2.18 Intro to Scroll Effects with JS</a>
+    <a href="#ch2-19">  2.19 Getting the Target - Part 1</a>
+    <a href="#ch2-20">  2.20 Getting the Target - Part 2</a>
+    <a href="#ch2-21">  2.21 Smooth Scroll Polyfill</a>
+    <a href="#ch2-22">  2.22 Checking the Load</a>
+    <a href="#ch2-23">  2.23 Top Posts</a>
+    <a href="#ch2-24">  2.24 Add an Event Listener</a>
+    <a href="#ch2-25">  2.25 The Magic Conditionals</a>
+    <a href="#ch2-26">  2.26 Changing the Next Link</a>
+    <a href="#ch2-27">  2.27 Resizing Function</a>
+    <a href="#ch2-28">  2.28 Finalzing the Script</a>
+    <a href="#ch2-29">  2.29 Scription Site Introduction</a>
+    <a href="#ch2-30">  2.30 Header HTML</a>
+    <a href="#ch2-31">  2.31 Pricing Styling</a>
+    <a href="#ch2-32">  2.32 Beginning Styling</a>
+    <a href="#ch2-33">  2.33 Styling That Attaches to Whole Page</a>
+    <a href="#ch2-34">  2.34 Slider Styles</a>
+    <a href="#ch2-35">  2.35 Pricing Styles</a>
+    <a href="#ch2-36">  2.36 Tables Styles</a>
+    <a href="#ch2-37">  2.37 Media Query for 1020 Pixels Wide</a>
+    <a href="#ch2-38">  2.38 Media Query for 1200 Pixels Wide</a>
+    <a href="#ch2-39">  2.39 Scription Site: Building Interactive Elements Challenges</a>
+   <a href="#ch3">Module 3. Intro to Objects and Data in JavaScript</a>
+      <a href="#ch3-01">  3.01 Module 3 Introduction</a>
+      <a href="#ch3-02">  3.02 Intro to Objects and Data in JS</a>
+      <a href="#ch3-03">  3.03 Objects Can Contain Arrays and Other Objects</a>
+      <a href="#ch3-04">  3.04 Functions Inside Objects Equals Methods</a>
+      <a href="#ch3-05">  3.05 Putting Objects and Functions Together</a>
+      <a href="#ch3-06">  3.06 Data Formats - XML</a>
+      <a href="#ch3-07">  3.07 Example File</a>
+      <a href="#ch3-08">  3.08 Intro to Pig Dice Game</a>
+      <a href="#ch3-09">  3.09 Play the Game of Pig</a>
+      <a href="#ch3-10">  3.10 Version One</a>
+      <a href="#ch3-11">  3.11 Other Versions</a>
+   <a href="#ch4">Module 4. Building a Simple Game in JavaScript</a>
+      <a href="#ch4-01">  4.01 Module 4 Introduction</a>
+      <a href="#ch4-02">  4.02 Intro to the Game of Pig</a>
+      <a href="#ch4-03">  4.03 Start the Game</a>
+      <a href="#ch4-04">  4.04 Set Up the Turn</a>
+      <a href="#ch4-05">  4.05 Throwing the Dice</a>
+      <a href="#ch4-06">  4.06 Test Throwing the Dice</a>
+      <a href="#ch4-07">  4.07 Add the Selection Statements</a>
+      <a href="#ch4-08">  4.08 Snake Eyes</a>
+      <a href="#ch4-09">  4.09 A "1" Was Rolled</a>
+      <a href="#ch4-10">  4.10 The Else Statement</a>
+      <a href="#ch4-11">  4.11 Checking for a Win</a>
+      <a href="#ch4-12">  4.12 Show the Current Score</a>
+      <a href="#ch4-13">  4.13 Final Clean-Up</a>
+      <a href="#ch4-14">  4.14 Extending the Game</a>
+      <a href="#ch4-15">  4.15 Course Summary</a>
+  </div>
+</div>
+<!-- end of toc -->
 <h2>Syllabus</h2>
 
 <h3>Module (Week) One:</h3>
@@ -704,7 +822,8 @@ section:
 <h4><b>jQuery Plugins</b></h4>
 
 <ul>
-  <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.05.jQuery-Plugins.pdf"  target="_blank" rel="noreferrer noopener">1.05.jQueryPlugins.pdf (PDF File)</a></li>
+  <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.05.jQuery-Plugins.pdf" 
+    target="_blank" rel="noreferrer noopener">1.05.jQueryPlugins.pdf (PDF File)</a></li>
 </ul>
 
 > \<a
@@ -2307,13 +2426,17 @@ Attached is a zip file of the things you need to begin this exercise. A
 or more files that are compressed for storage or transmission, often
 carrying the extension .ZIP.
 
--   [2.02.jQueryScrollEffects-START.zip (ZIP
-    File)](https://d3c33hcgiwev3.cloudfront.net/TWch2Fo9RPunIdhaPQT7mg_20a45687745d416696ea6b9617ac6ff1_WEB1092_FlexSliderPlugin.zip?Expires=1700352000&Signature=NMzGqDqh7ukjS3t3QDStmyO63TfJKJODbNBiGheFKRKgduARGm~12s2u9yv2TVnTO0XHYiNSSUtV-ltfPKm5Y98d9WkeqttASMh4~z1OqZM7AsGldhYMl3UI2sbmakAnmXGRMbQvoZaBd5FpL~ExZZrwraKp4Y687myEMvyE8K0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+<ul>
+  <li><a href="https://d3c33hcgiwev3.cloudfront.net/TWch2Fo9RPunIdhaPQT7mg_20a45687745d416696ea6b9617ac6ff1_WEB1092_FlexSliderPlugin.zip?Expires=1700352000&Signature=NMzGqDqh7ukjS3t3QDStmyO63TfJKJODbNBiGheFKRKgduARGm~12s2u9yv2TVnTO0XHYiNSSUtV-ltfPKm5Y98d9WkeqttASMh4~z1OqZM7AsGldhYMl3UI2sbmakAnmXGRMbQvoZaBd5FpL~ExZZrwraKp4Y687myEMvyE8K0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A" target="_blank" rel="noopener noreferrer">
+    2.02.jQueryScrollEffects-START.zip (ZIP File)</a></li>
+</ul>
 
 <h3>Additional Resource:</h3>
 
--   [How to open a zip file for either Mac or
-    PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
+<ul>
+  <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/" 
+    target="_blank" rel="noopener noreferrer">How to open a zip file for either Mac or PC</a></li>
+</ul>
 
 <h2 id="ch2-03">2.03. Creating a Click Handler (5:00)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5773,7 +5896,7 @@ working on this project. Hopefully, it&apos;s a lot of fun.
 
 <h3>Scription Finished Version</h3>
 
-Here is a [link](https://cpe-web-assignments.ucdavis.edu/scription/)
+Here is a <a href="https://cpe-web-assignments.ucdavis.edu/scription/">link</a>.
 
 to the finished version of the Scription Site Honor&apos;s Assignment.
 
