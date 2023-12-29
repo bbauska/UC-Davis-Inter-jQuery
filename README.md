@@ -443,6 +443,9 @@ and learn even more about JavaScript.</p>
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
  
 <p>Hello and welcome to our first module in our third course on JavaScript. In this 
 module, we're going to dive even deeper into jQuery, looking at some jQuery plugins. 
@@ -451,10 +454,6 @@ look at the flex slider plugin, which adds a lot of features, two sliders and co
 that to what you've done manually by creating your own sliders is really instructive 
 and useful. Plus, you end up with a great tool for creating slider elements on web 
 pages and that's really pretty fun.</p>
-
-<div align="right">
-  <b><a href="#table-of-contents">↥ Back To Top</a></b>
-</div>
 
 <h2 id="ch1-03">1.03. Introduction to jQuery Plugins (3:49)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
