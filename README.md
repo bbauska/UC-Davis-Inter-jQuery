@@ -412,7 +412,7 @@ You will be able to then extend the script in many creative ways.</p>
     rel="noopener noreferrer" target="_blank">
     Coursera’s Honor Code</a></li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-01">1.01. Welcome! Course Introduction (0:40)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. course intro (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2308,7 +2308,7 @@ we&apos;ve created so far, all together in one page. And that&apos;s a great way
 to test your skills, and see how you&apos;re doing with this. Let&apos;s dive
 in, break out our code editors and our web browsers, and get started on
 this module.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-02">2.02. Introduction to Smooth Scroll with jQuery (4:15)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 127. intro to smooth scroll with jquery (67) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2342,7 +2342,7 @@ here. And this is just basic html. If I click section two it just put
 section two at the top of the page, you can see here the URL has pounds
 second in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 130/131. section links defined (68) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130/131. section links defined (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image130.png"
   style="width:35%;"
@@ -2441,14 +2441,14 @@ carrying the extension .ZIP.
   <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/" 
     target="_blank" rel="noopener noreferrer">How to open a zip file for either Mac or PC</a></li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-03">2.03. Creating a Click Handler (5:00)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 137/138. creating a click handler (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image137.png"
   style="width:35%;"
-  alt="Creating a Click Handler." />
+  alt="2.03. Creating a Click Handler." />
 <img src="./images/image138.png"
   style="width:35%;"
   alt="Add Easing and Click Handler scripts to end of index." />
@@ -2494,10 +2494,10 @@ thisSection, and assign it this.attr(href). What that&apos;ll do is it&apos;ll
 get the href of the link that was clicked. Let&apos;s alert that out. You
 can see what it actually does.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 141.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 141. example: alert, click handler (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image141.png"
-  alt="."
+  alt="Example: alert click handler function."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -2512,10 +2512,10 @@ links, I should get pound 1st, pound 2nd, pound 3rd, pound 4th, and
 pound 5th. You&apos;ll notice it is actually moving the page there as well
 as it does that, but I want to make sure I&apos;m getting those links.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 142.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 142. html stop animate (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image142.png"
-  alt="."
+  alt="HTML stop animate."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -2538,14 +2538,14 @@ we&apos;ll do that in the next lesson so you see how it all comes together.
 
 <h2 name="ch2-04">2.04. Adding the Animation</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 143/144.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 143/144. adding the animation (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image143.png"
   style="width:35%;"
-  alt="." />
+  alt="2.04. Adding the Animation." />
 <img src="./images/image144.png"
   style="width:35%;"
-  alt="." />
+  alt="Adding the animation to smoothscroll.js." />
 </p>
 
 In the previous module we created a click handler for all the anchor
@@ -2556,10 +2556,10 @@ points to the idea of the section down below that we&apos;re going to. It&apos;s
 going to be pound (#) 1st or pound 2nd or pound 3rd or pound 4th or
 pound 5^th^ (#1st-#5th). We&apos;ve already seen that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 144.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. animate scroll top (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image144.png"
-  alt="."
+  alt="Animate in 8 tens of a second property of scrollTop."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -2580,10 +2580,10 @@ offset top. We&apos;ll set it to offset top. So, dollar sign in parentheses,
 this section and set its offset, to the top over 800 milliseconds. And
 that will actually animate the page to the top of the window.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 145.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 145. example: offset scrolltop (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image145.png"
-  alt="."
+  alt="Example: offset scrollTop."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -2597,13 +2597,13 @@ of the pound second from up here and refresh the page. And then if I
 click 2nd, you can see that it does a smooth scroll right to with that
 section going right up to the top of the window.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 146/147.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 146/147.  (76) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image146.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 <img src="./images/image147.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 </p>
 
