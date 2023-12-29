@@ -7534,7 +7534,7 @@ the big game.
 
 <a href="">4.14.Game-of-Pig.pdf</a>
 
-<h2 id="course-summary">Course Summary (0:57)</h2>
+<h2 id="ch4-15">Course Summary (0:57)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 316. course summary: interactivity with javascript and jquery (xxx) ~~~~~~~~~~~~-->
 <p align="center">
