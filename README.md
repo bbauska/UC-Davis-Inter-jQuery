@@ -830,8 +830,7 @@ section:
     target="_blank" rel="noreferrer noopener">1.05.jQueryPlugins.pdf (PDF File)</a></li>
 </ul>
 
-> \<a
-> href="<https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.05.jQuery-Plugins.pdf>"\>1.05.jQueryPlugins.pdf\</a\>
+> &lt;a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.05.jQuery-Plugins.pdf"&gt;1.05.jQueryPlugins.pdf&lt;/a&gt;
 
 
 <h4>Zip Program Start Files</h4>
@@ -2554,7 +2553,7 @@ clicked on because you can only click one at a time. What is the idea
 associated with that or what&apos;s the href associated with that? Which
 points to the idea of the section down below that we&apos;re going to. It&apos;s
 going to be pound (#) 1st or pound 2nd or pound 3rd or pound 4th or
-pound 5^th^ (#1st-#5th). We&apos;ve already seen that.
+pound 5th (#1st-#5th). We&apos;ve already seen that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. animate scroll top (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2604,7 +2603,7 @@ section going right up to the top of the window.
   alt="Stop method." />
 <img src="./images/image147.png"
   style="width:45%;"
-  alt="Example with stop method." />
+  alt="Example, scroll stop method." />
 </p>
 
 We don't want it to go all the way to the top of the window, we want it
@@ -2771,7 +2770,7 @@ something wrong there.
   width="40%;" />
 </p>
 
-On the style sheet is a rule, selected, and I might have it commented
+On the stylesheet is a rule, selected, and I might have it commented
 out. Let&apos;s go over and see because if we do, we need to uncomment it
 out.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2852,7 +2851,8 @@ that, we really need to manage this scroll event so that we can handle
 what happens as we scroll the page and move from one section to another.
 We&apos;re going to deal with that in the next lesson.
 
-<h3>PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</h3>
+<h3><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/2.06.jQuery-Smooth-Scroll.pdf">PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</a></h3>
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-07">2.07 Introduction to Page Location Tracking</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
