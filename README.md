@@ -2597,14 +2597,14 @@ of the pound second from up here and refresh the page. And then if I
 click 2nd, you can see that it does a smooth scroll right to with that
 section going right up to the top of the window.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 146/147.  (76) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 146/147. stop method with example (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image146.png"
   style="width:45%;"
-  alt="." />
+  alt="Stop method." />
 <img src="./images/image147.png"
   style="width:45%;"
-  alt="." />
+  alt="Example with stop method." />
 </p>
 
 We don't want it to go all the way to the top of the window, we want it
@@ -2618,8 +2618,9 @@ and before it goes there, if I press section two it&apos;ll stop that
 animation and continue on. It will continue on to the next one that
 I&apos;ve started. So I press section five, it starts, but if I do four
 it&apos;ll actually not finish that first animation and go to the fourth
-section instead. And that&apos;s what this stop method is doing here. If I
-take stop out, you&apos;ll notice that the animation start to stack. So now,
+section instead. And that&apos;s what this stop method is doing here. 
+
+If I take stop out, you&apos;ll notice that the animation start to stack. So now,
 if I come back here and go back up to the top of the page and click
 refresh. If I press 3rd while if I press 4^th^ section and then 2nd
 section and then 4th section, then second section you&apos;ll notice that
@@ -2632,30 +2633,30 @@ to go all the way down to the 5th section. So that&apos;s what this stop
 method is doing for us. Don&apos;t stop. So it will stop the animation
 that&apos;s running and then animate the thing that we&apos;ve clicked on next.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 148/149.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 148/149. top scroll minus 200 (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image148.png"
   style="width:35%;"
-  alt="." />
+  alt="Scroll to top minus 200 pixels." />
 <img src="./images/image149.png"
   style="width:35%;"
-  alt="." />
+  alt="Example: scroll to top minus 200px." />
 </p>
 
 Okay, now the next thing is this there are two minor things we need to
 fix. First of all, I really want it to move to top minus 200 like so.
 Because I really don&apos;t want to go all the way to the top of the page.
-So that&apos;s one. So now if I come back here and test this. Now if I click
+So that&apos;s one. Now if I come back here and test this. Now if I click
 section two instead of going all the way up to the top of the page, it
 goes to 200 pixels down from the top of the page. Which you&apos;ll
 remember, we put 200 pixels padding up there. So that&apos;s now putting it
 in the correct place, so that helps. So that&apos;s one thing, I&apos;m going to
 put this back to 800 because the animation is so slow now.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 150.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 150. move animation tag to body (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image150.png"
-  alt="."
+  alt="Move animation tag to body."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -2673,10 +2674,10 @@ but it&apos;s just something to be aware of, Going forward.
 
 <h2 name="ch2-05">2.05 Add Some Easing and a Callback Function</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 151.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 151. add some easing and a callback function (2.05) (78) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image151.png"
-  alt="."
+  alt="2.05. Add Some Easing and a Callback Function."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
@@ -2685,14 +2686,14 @@ The smooth scroll script is working and that&apos;s great, but because we
 have the easing plugin plugged in, we can give the script a little bit
 more personality by adding some easing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 152/153.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 152/153. script must follow jquery library load (78) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image152.png"
   style="width:35%;"
-  alt="." />
+  alt="Add easing script only AFTER jQuery library load." />
 <img src="./images/image153.png"
   style="width:35%;"
-  alt="." />
+  alt="index.html scripts." />
 </p>
 
 Let&apos;s go ahead and do that. Over here, just to verify on our index file
@@ -2701,10 +2702,10 @@ library loaded and then I have the easing plugin loaded and then my
 script comes after that. Always, your script has to come after the
 jQuery library and any plugins that you&apos;re using.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 154.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 154. easing animation scroll (79) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image154.png"
-  alt="."
+  alt="Easing animation scroll to top."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -2717,10 +2718,10 @@ move that down like so, there we go, **easeOutCirc**. I think that looks
 a little bit better, a little bit easier to read. We animate this over
 800 milliseconds when we are using **easeOutCirc**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 155.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 155. example of easing animation scroll (79) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image155.png"
-  alt="."
+  alt="Example, easing animation scroll."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -2735,10 +2736,10 @@ does it still give you the sense that you&apos;re traveling to that part of
 the page? Yeah, it does, so that&apos;s nice. Maybe I&apos;ll leave it like
 that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 156.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 156. example, test easing animation scroll (80) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image156.png"
-  alt="."
+  alt="Example, test easing animation scroll effect."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -2762,10 +2763,10 @@ something wrong there.
 
 <h2 name="ch2-06">2.06 Highlighting Elements</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 157.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 157. highlighting elements (2.06) (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image157.png"
-  alt="."
+  alt="2.06. Highlighting Elements (Section)."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
@@ -2774,10 +2775,10 @@ On the style sheet is a rule, selected, and I might have it commented
 out. Let&apos;s go over and see because if we do, we need to uncomment it
 out.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 158.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 158. highlight the clicked link (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image158.png"
-  alt="."
+  alt="Highlight the clicked link."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -2813,14 +2814,14 @@ an interface that shows which ones if you clicked on and it would work
 for that, but I really wanted to just highlight the one that I&apos;ve
 actually clicked on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 159/160.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 159/160. get anchor tags: nav ul li a (82) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image159.png"
   style="width:35%;"
-  alt="." />
+  alt="Get anchor tags, navigation line item anchor." />
 <img src="./images/image160.png"
   style="width:35%;"
-  alt="." />
+  alt="Example getting anchor tags." />
 </p>
 
 I&apos;m going to go back to my script, and I&apos;m just going to modify just a
@@ -2852,13 +2853,13 @@ what happens as we scroll the page and move from one section to another.
 We&apos;re going to deal with that in the next lesson.
 
 <h3>PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-07">2.07 Introduction to Page Location Tracking</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 161.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 161. intro to page location tracking (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image161.png"
-  alt="."
+  alt="2.07. Intro to Page Location Tracking."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
@@ -2868,10 +2869,10 @@ here, and this script is working so that if I click on the section it
 goes to the correct section and it highlights the correct menu item up
 here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 162.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 162. example, smooth scroll (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image162.png"
-  alt="."
+  alt="Example, smooth scroll."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -2892,24 +2893,24 @@ the page based on where we are, scroll down the page. If you think about
 that for a second and go look at some of the interesting websites that
 are out there. https://callbruno.com/en
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 163/164.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 163/164. example scroll callbruno.com (85) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image163.png"
   style="width:35%;"
-  alt="." />
+  alt="Example callbruno.com, #1." />
 <img src="./images/image164.png"
   style="width:35%;"
-  alt="." />
+  alt="Example callbruno.com, #2." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 165/166.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 165/166. example callbruno, #3/#4 (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image165.png"
   style="width:35%;"
-  alt="." />
+  alt="Example callbruno.com, #3." />
 <img src="./images/image166.png"
   style="width:35%;"
-  alt="." />
+  alt="Example callbruno.com, #4." />
 </p>
 
 For example, I have one pulled up here, this website here, and as I
@@ -2920,14 +2921,14 @@ whether or not I&apos;m scrolling. So, I scroll down the page here that
 animation plays differently while I&apos;m scrolling up or scrolling down.
 It&apos;s affected by the scroll.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 167/168.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 167/168. example callbruno.com, #5/#6 (85) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image167.png"
   style="width:35%;"
-  alt="." />
+  alt="Example callbruno.com, #5." />
 <img src="./images/image168.png"
   style="width:35%;"
-  alt="." />
+  alt="Example callbruno.com, #6." />
 </p>
 
 Down here there&apos;s another one such as switch to white, which switched
@@ -2939,10 +2940,10 @@ need to be able to do things with that scroll event when you capture it,
 and that can be a little bit challenging and we&apos;ll get into why in just
 a minute here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 169.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 169. example, scroll event, highlight link (86) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image169.png"
-  alt="."
+  alt="Example, scroll event, highlight link."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -2954,10 +2955,10 @@ script that you could use on lots of Web pages to track where you are in
 the page and do lots of different animations or cool effects or other
 things based on where you are on the page. That&apos;s pretty exciting.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 170.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170. awwwards.com (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image170.png"
-  alt="."
+  alt="awwwards.com."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -2970,10 +2971,10 @@ to see some interesting interactions that people have created on the
 Web, they often get posted here. This is a good place to come to get
 inspiration about different things that you can do.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 171.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 171. window load and scroll listener (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image171.png"
-  alt="."
+  alt="Window Load and Scroll listener."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -2988,18 +2989,18 @@ else. Then we&apos;re going to capture the actual scroll with an event
 handler for capturing scroll using jQuery. Let&apos;s go ahead and add these
 to our script here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 172.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 172. console.log, scrolling (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image172.png"
-  alt="."
+  alt="Tag console.log as scrolling to section."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
 
-Over here on my Spitzkoppe page here, I&apos;m just going to go down here.
+Over here on my smoothscroll.js page here, I&apos;m just going to go down here.
 We&apos;ve got this script is handling this scroll, and I&apos;m going to click
 after that and I&apos;m going to add a jQuery object for window, the window
-object on,load, we&apos;re going to run a function. Again, this dysfunction
+object onload, we&apos;re going to run a function. Again, this function
 runs when all of the content of the page is loaded, and in this case,
 that&apos;s important because one of the things we need to keep track of is
 how tall each of these sections are. Well, how tall this section is has
@@ -3007,10 +3008,10 @@ something to do with how large this picture is. If this picture was in
 here, the section would take up less space because it would end here. It
 wouldn&apos;t be that tall.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 173.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 173. on load, scroll function (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image173.png"
-  alt="."
+  alt="On load, scroll function."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -3034,10 +3035,10 @@ as the page scrolls, and I could just for right now, I could just do
 alert, I could do console.log. You don&apos;t want to do alert because
 you&apos;ll get a ton of alerts scrolling, and save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 174.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 174. test, scrolling (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image174.png"
-  alt="."
+  alt="Example, test scrolling."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -3056,10 +3057,10 @@ trying to do too many things at once.
 
 <h2 name="ch2-08">2.08 The Crux of the Problem</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 175.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 175. the crux of the problem (2.08) (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image175.png"
-  alt="."
+  alt="2.08. The Crux of the Problem."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -3068,10 +3069,10 @@ Now, we&apos;re going to get to the crux of the problem. What we&apos;re going
 to do is we&apos;re going to look at a couple of variables and watch what
 happens as we scroll on the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 176.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 176. window scroll event listener code (91) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image176.png"
-  alt="."
+  alt="Window scroll event listener code."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -3092,10 +3093,10 @@ here, we need to set the values of these. I&apos;m just going to piece them
 in here. I&apos;m going to remove this console log; we don&apos;t need that one
 anymore and put this in instead.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 177.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 177. window scroll event listener code (92) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image177.png"
-  alt="."
+  alt="Window scroll event listener code, #1."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -3107,10 +3108,10 @@ things out, so we can see what they are. Save that and then come over to
 your page and with your console log showing over here, refresh the page
 and I&apos;m going to close this down here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 178.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 178. window scroll event listener code, #2 (93) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image178.png"
-  alt="."
+  alt="Window scroll event listener code, #2."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -3119,10 +3120,10 @@ I&apos;ve got something wrong over here. Offset is not a function. Is it
 offset with s? It&apos;s offset with lower-case s. Make sure you do this
 right offset. There we go. Try that again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 179.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 179. example, window scroll listener (93) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image179.png"
-  alt="."
+  alt="Example, window scroll listener."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
