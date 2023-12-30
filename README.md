@@ -826,11 +826,11 @@ section:
 <h4><b>jQuery Plugins</b></h4>
 
 <ul>
-  <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.05.jQuery-Plugins.pdf" 
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/W04DM/pdf-of-presentation" 
     target="_blank" rel="noreferrer noopener">1.05.jQueryPlugins.pdf (PDF File)</a></li>
 </ul>
 
-> <a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.05.jQuery-Plugins.pdf">1.05.jQueryPlugins.pdf</a>
+> <a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/W04DM/pdf-of-presentation">1.05.jQueryPlugins.pdf</a>
 
 
 <h4>Zip Program Start Files</h4>
@@ -843,19 +843,18 @@ carrying the extension .ZIP.
 <h4><b>Start Files: jQuery Plugins & FexSlider</b></h4>
 
 <ul>
-  <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/zip_files/1.05.FlexSliderBasic-Start.zip" 
-    target="_blank" rel="noopener noreferrer">1.05.FlexsliderBasic-Start.zip (ZIP File)</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider" 
+    target="_blank" rel="noopener noreferrer">1.05.FlexSliderBasic-START.zip (ZIP File)</a></li>
 </ul>
 
-> <https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/zip_files/1.05.FlexSliderBasic-Start.zip>
+> <a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider">1.05.FlexSliderBasic-START.zip (ZIP file)</a>
 
 <ul>
-  <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/zip_files/1.05.FlexSliderPlugin.zip"
-    target="_blank" rel="noopener noreferrer">1.05.FlexSliderPlugin.zip (ZIP
-   File)</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider"
+    target="_blank" rel="noopener noreferrer">1.05.FlexSliderPlugin.zip (ZIP File)</a></li>
 </ul>
 
-> <https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/zip_files/1.05.FlexSliderPlugin.zip>
+> <a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider">1.05.FlexSliderPlugin.zip (ZIP file)</a>
 
 <h4><b>Additional Resource:</b></h4>
 
