@@ -1691,7 +1691,7 @@ use this to further customize the functionality of our FlexSlider.
 That&apos;s really cool, but how do you do it? It&apos;s not really clear by
 looking at this exactly what you need to do.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 84.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 84.  (47) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image084.png"
   alt="."
@@ -1708,10 +1708,10 @@ but if you know some JavaScript and you&apos;re familiar with having done
 this kind of thing before, you&apos;ll figure it out pretty quickly. What
 can we do? Let&apos;s take a look at it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 85.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85. flexslider with options (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image085.png"
-  alt="."
+  alt="FlexSlider with Options."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1724,15 +1724,15 @@ objects yet, and we will get into that in more depth in a lesson coming
 up. For right now, we&apos;ll just kind of go with it and get used to the
 syntax because we&apos;ll see it a lot, especially with the plugins.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 86/87.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 86/87. update flexslider options (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image086.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="myscript.js flexslider options." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image087.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Example, using FlexSlider." />
 </p>
 
 Let&apos;s come over here and inside our script file here, inside our
@@ -1753,15 +1753,15 @@ all built right into the plug in. You remember what a trouble that was
 for us to figure out how to do manually. Well, here it&apos;s built in, so
 we don&apos;t have to really even worry about that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 88/89.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 88/89. other flexslider options (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image088.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="FlexSlider with Options." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image089.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="myscript.js. Set animation: 'slide' and slideshowSpeed: 2000." />
 </p>
 
 What else can we do? Over here, I had slide, you can set the speed,
@@ -1773,15 +1773,15 @@ how quickly it&apos;s going to slide from slide to slide automatically. One
 two, one two, there we go. Now it&apos;s going rather quickly, that&apos;s
 great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 90/91.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 90/91. scroll direction: 'vertical' (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image090.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Set scroll direction vertical." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image091.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Example, verify scroll direction vertical." />
 </p>
 
 What else can we do? We could do direction vertical, if you wanted to
@@ -1791,10 +1791,10 @@ doesn&apos;t know, but it knows that one there. It knows what 2,000 is. All
 right, now if you do this, after two seconds, it&apos;s going to go
 vertical.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 92.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. example, test vertical scroll (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image092.png"
-  alt="."
+  alt="Example, test vertical scroll."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1803,10 +1803,10 @@ We could do reverse true, so we&apos;ll go from top to bottom instead of
 from bottom to top. Reverse true. True is a word that JavaScript knows.
 Now it&apos;s going from the top to the bottom.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 93.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. set pauseonhover = true (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image093.png"
-  alt="."
+  alt="pauseonHover: true."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1835,10 +1835,10 @@ would be kind of interesting and fun.
 
 <h2 name="ch1-11">1.11. Advanced FlexSlider</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 94.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. advanced flexslider (1.11) (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image094.png"
-  alt="."
+  alt="1.11. Advanced FlexSlider."
   style="border: 2px solid gray;"
   width="40%;" />
 </p>
@@ -1846,15 +1846,15 @@ would be kind of interesting and fun.
 Now that you&apos;ve created the basic FlexSlider, with some advanced
 options, we can really do some different things with this FlexSlider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 95/96.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 95/96. copy flexslider/rename to kittensadvanced (52) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image095.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Copy and rename advancedFlexSlider to KittensAdvanced." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image096.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Copy, rename and verify new folder for FlexSlider changes." />
 </p>
 
 To do that, it&apos;s nice to keep the basic version working the way it is
@@ -1869,15 +1869,15 @@ have this version if I want to refer back to it, but I&apos;m essentially
 done with it. Now I&apos;m only going to work on the advancedSlider version
 here. I have that version; these files open in my code editor.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 97/98.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 97/98. verify right set of files (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image097.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Use advancedSlider." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image098.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Verify your working with the right set of files." />
 </p>
 
 I&apos;ve also switched this over here so that it&apos;s pointing to my
@@ -1887,10 +1887,10 @@ right set of files in your browser. Make sure you&apos;ve got the right set
 of files in your code editor. Over here you can see it says
 advancedSlider there, so this is my advanced slider files.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 99.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. update the markup (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image099.png"
-  alt="."
+  alt="Update the Markup."
   style="border: 2px solid gray;"
   width="40%;" />
 </p>
@@ -1907,10 +1907,10 @@ adopt one of these kittens on this lovely Kitten page. I need to update
 the markup to go along with this, for my FlexSlider. I will provide some
 snippets with this lesson that you can open and they look like this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 100.   (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 100. flexslider jquery plugin (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image100.png"
-  alt="."
+  alt="FlexSlider jQuery Plugin."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -1919,10 +1919,10 @@ There are some snippets here and so I&apos;m basically going to replace my
 slider with this content here. You can type it all out if you wanted to,
 instead of just putting the pictures in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 101.   (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 101. updated markup adding anchor tags (54) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image101.png"
-  alt="."
+  alt="Add anchor tags with class to markup."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -1939,15 +1939,15 @@ could actually adopt this kitten or something like that, that will be
 fun. But rather than make you type all of this stuff out, which is
 tedious, you can actually come to the snippet page and just copy it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 102/103.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 102/103. flexslider, slides, class (55) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image102.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Update index.html with FlexSlider, slides and new class (cta)." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image103.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Update index.html with FlexSlider, slides and new class (cta)." />
 </p>
 
 Then come back to your project and on your index file, in place of the
@@ -3163,14 +3163,14 @@ continue to get what we&apos;re going for here, because I need to know when
 a particular section is in a particular place on my screen or in my view
 port.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 180/181.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 180/181. example, highlight section (94) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image180.png"
   style="width:35%;"
-  alt="." />
+  alt="Example, highlight section, #1." />
 <img src="./images/image181.png"
   style="width:35%;"
-  alt="." />
+  alt="Example, highlight section, #2." />
 </p>
 
 The next thing to pay attention to, let me just go up to the top of the
@@ -3195,10 +3195,10 @@ for performance.
 
 <h2 name="ch2-09">2.09 Strategy</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 182.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182. strategy (2.09) (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image182.png"
-  alt="."
+  alt="2.09. Strategy."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
@@ -3206,12 +3206,12 @@ for performance.
 Now, the next thing we need to watch out for are what could the user
 possibly be doing on the page when it comes to scrolling?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 183.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 183. scroll down or up (if not at top) (96) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image183.png"
-  alt="."
+  alt="Scroll down or scroll up (if other than top of page)."
   style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  width="50%;" />
 </p>
 
 There&apos;s really just two scenarios that we have to pay attention to,
@@ -3228,12 +3228,12 @@ there&apos;s that. We need to pay attention to this because these are the
 two scenarios that we need to watch out for, and we need to write our
 script to handle these two scenarios.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 184.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 184. setting up if/else statement (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image184.png"
-  alt="."
+  alt="Set up if/else statement for scroll event."
   style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  width="50%;" />
 </p>
 
 We&apos;re going to use a variable called counter, and then we&apos;re going to
@@ -3243,18 +3243,17 @@ is going to handle what happens if we&apos;re further down the page and
 scrolling up into a previous section. Let&apos;s go ahead and add this to
 our script over here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 185.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 185. add if/else code for scroll (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image185.png"
-  alt="."
+  alt="Add if/else code for scroll."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
 
 I&apos;m going to add a new variable here called Counter for your counter. I
-will set it to zero. Then down here inside my script, I can get rid of
-these things, for now, I don&apos;t really need them. Instead, what I want
-to put here is an If statement if and Else If like so. This one&apos;s going
+will set it to zero. Then down here inside my script, what I want
+to put here is an If statement if and Else If. This one&apos;s going
 to handle the situation of, am I scrolling down? I&apos;m going to select
 that and comment it, and we&apos;re scrolling down and this one&apos;s going to
 handle the case of, am I scrolling up. These are the two scenarios that
@@ -3263,10 +3262,10 @@ going to happen to handle these two situations of what happens while
 we&apos;re scrolling down and what happens when we&apos;re scrolling up.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 186.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 186. what is size of each section element (98) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image186.png"
-  alt="."
+  alt="Identify size of each section element."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -3292,28 +3291,33 @@ into this array. I&apos;m going to paste this in. You&apos;re going to have to
 type it, but I&apos;m going to post it in here, paste and posts. I&apos;m going
 to use the each method.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 186.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 186. section size, rounded math.floor (99) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image186.png"
-  alt="."
+  alt="Section size, rounded using math.floor."
   style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  width="50%;" />
 </p>
 
-In plain JavaScript, we have for each but in Jacoway, we have in each
+In plain JavaScript, we have for each but in jQuery, we have in each
 method that we can pass in a function. I&apos;m going to push the tops and I
-have a math flaw and you&apos;ll let me take that out just for a minute.
+have a math floor and you&apos;ll let me take that out just for a minute.
 I&apos;ll take math for it now because that kind of confuses things.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 187/188.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187. section size, no rounding (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image187.png"
-  style="width:35%;"
-  alt="." />
-<img src="./images/image188.png"
-  style="width:35%;"
-  alt="." />
+  alt="Section size, no rounding."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 188. console log, posttops (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image187.png"
+  alt="console.log, postTops."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
 </p>
 
 Put this in here for a moment, posts each function, post up push. This
@@ -3329,14 +3333,14 @@ then come back to my page and just click refresh. Unexpected token when
 I took out. The math thing, I screwed it up tonight. Push this set too,
 looks great to me.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 189/190.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 189/190. remove if, post option (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image189.png"
   style="width:35%;"
-  alt="." />
+  alt="Remove if statement to test postTops." />
 <img src="./images/image190.png"
   style="width:35%;"
-  alt="." />
+  alt="Remove if statement to test PostTops." />
 </p>
 
 I see, it&apos;s unhappy because we have an unfinished if statement here
@@ -3344,10 +3348,10 @@ with this stuff and you&apos;re so unhappy about that. I&apos;m just going to
 take this thing and cut it for the moment. Take that out and let&apos;s look
 at just the post option.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 191.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 191. example, posttops section sizes (101) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image186.png"
-  alt="."
+  alt="Example, postTops section sizes in pixels."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
