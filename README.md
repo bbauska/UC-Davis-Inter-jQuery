@@ -220,8 +220,10 @@ jQuery plugins explored in this course into the Scription webpage through a seri
    2. Introduction to Smooth Scroll with jQuery (4:15)
 
 <ul>
-  <li>2.02.jQueryScrollEffects-START.zip</li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery" target="_blank" rel="noopener noreferrer">
+    2.02.jQueryScrollEffects-START.zip (ZIP File)</a></li>
 </ul>
+
 
    3. Creating a Click Handler (5:00)
    4. Adding the Animation (6:56)
@@ -229,7 +231,7 @@ jQuery plugins explored in this course into the Scription webpage through a seri
    6. Highlighting Elements (5:22)
 
 <ul>
-  <li>2.06.jQuerySmoothScroll.pdf</li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation">PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</a></li>
 </ul>
   
    7. Introduction to Page Location Tracking (8:00)
@@ -514,9 +516,9 @@ a little bit easier and a little bit better for all of us.
 </p>
 <!-- {width="5.0in" height="2.8338681102362204in"} -->
 
-Now we need to introduce plugins. We&apos;ve already used the **easing**
+Now we need to introduce plugins. We&apos;ve already used the <b>easing</b>
 plugin, which is a very simple plugin that adds additional function to
-jQuery, so that you can use different types of **easing,** which is
+jQuery, so that you can use different types of <b>easing,</b> which is
 different speeds and ways in which things can animate on your screen,
 and by plugging in that particular plugin, you get access to all of
 those different features that aren&apos;t built into jQuery.
@@ -704,7 +706,7 @@ follow the directions and they wind up with multiple copies, different
 versions of the jQuery library plugged in. That&apos;s the number 1 Gotcha.
 It happens a lot.
 
-The **[second]** thing is file management. When you download a
+The <b>[second]</b> thing is file management. When you download a
 plugin, sometimes plugins require other files, whether it&apos;s CSS files
 or maybe an images folder, fonts or something else. You want to make
 sure that when you put those files in your folder, everything is going
@@ -712,11 +714,11 @@ into the correct spot and is linked properly. Because for the web,
 remember, everything is linked. All the files are linked to each other.
 If those links become broken, then your project won&apos;t work and it
 won&apos;t work properly. Make sure you have all the correct files and all
-the correct places for the plugin to work. That&apos;s **number 2**, those
+the correct places for the plugin to work. That&apos;s <b>number 2</b>, those
 two issues comprise 90 percent of the problems that people have with
 plugins, it&apos;s probably those two problems.
 
-The next thing (**[number 3]**) is top of the page versus bottom
+The next thing (<b>[number 3]</b>) is top of the page versus bottom
 of the page. Make sure you&apos;re placing your plugins scripts in the
 correct place. Some of them may require you to load jQuery up at the top
 of the page. Usually, you can put them where you want as long as you run
@@ -729,23 +731,23 @@ to scripts up in the top of the page and maybe use the defer attribute
 to make sure they don&apos;t load into the whole page is loaded. Keep that
 in mind.
 
-Now, jQuery has a document ready method (**[number 4]**) that
+Now, jQuery has a document ready method (<b>[number 4]</b>) that
 will check to see that the DOM is flooded before anything inside the
-**document_ready** function runs. That&apos;s just checking to make sure
+<b>document_ready</b> function runs. That&apos;s just checking to make sure
 your HTML is loaded. Sometimes people will provide plugins and tell you
 to use the document ready function. You&apos;ll need that if you&apos;re up at
 the top of the page and you&apos;re not using the deferred attribute. But if
 you put it at the bottom of the page, you may not need it. There&apos;s also
 a window load method, and that&apos;s in older versions of jQuery version 2
-and lower. It&apos;s now been replaced with **window.on** and the load and
+and lower. It&apos;s now been replaced with <b>window.on</b> and the load and
 you pass in load as the event that we&apos;re looking for and then run an
 anonymous function, which is what we used in the previous lesson with
 the sliders. Be aware about these different functions, what they do,
 which versions of jQuery they work with and that stuff, because if
 you&apos;re reading the documentation for a plugin, it could be older
 documentation. If their documentation is telling you to use
-**window.load,** but you&apos;re using the most recent version of the jQuery
-library, you&apos;ll have to switch it to the **window.on** method and use
+<b>window.load,</b> but you&apos;re using the most recent version of the jQuery
+library, you&apos;ll have to switch it to the <b>window.on</b> method and use
 that one instead. You want to make sure that you&apos;re using these
 functions properly. Really where you&apos;re going to use these is just
 where you&apos;re initializing your script. Has nothing to do with loading
@@ -753,7 +755,7 @@ the actual script file or the plugin file. This is where you initialize
 your script on your page where you&apos;re tying the plugin to run. You&apos;ll
 need to make sure you use these functions properly.
 
-Then **[number 5]** is overriding CSS on your stylesheet. If you
+Then <b>[number 5]</b> is overriding CSS on your stylesheet. If you
 want to customize the look of the plugin and you should put your rules
 that override the styles they&apos;ve set on their specified CSS file, on
 your CSS file and then make sure your CSS file loads last. That way,
@@ -818,45 +820,49 @@ that. It&apos;s a really great way of thinking and working with JavaScript
 in jQuery in general and getting used to that here will help prepare you
 for a future as a JavaScript developer.
 
-<h3>PDF of Presentation</h3>
+<h3>PDF, FlexSlider Basic START ZIP &amp; FlexSlider Plugin ZIP</h3>
 
-Here is a PDF of the presentation slides used in the lessons for this
-section:
+Here is the PDF of the presentation slides along with the ZIP files for 
+FlexSlider START and FlexSlider Plugins source code:
 
-<h4><b>jQuery Plugins</b></h4>
+<h4>jQuery Plugins PDF</h4>
 
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/W04DM/pdf-of-presentation" 
     target="_blank" rel="noreferrer noopener">1.05.jQueryPlugins.pdf (PDF File)</a></li>
 </ul>
-
+<!--
 > <a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/W04DM/pdf-of-presentation">1.05.jQueryPlugins.pdf</a>
+-->
 
-
-<h4>Zip Program Start Files</h4>
+<h4>Zip START and jQuery Plugin Files</h4>
 
 Attached is a zip file of the things you need to begin this exercise. A
-**zip file** is defined as: a computer file whose contents include one
+<b>zip file</b> is defined as: a computer file whose contents include one
 or more files that are compressed for storage or transmission, often
 carrying the extension .ZIP.
 
-<h4><b>Start Files: jQuery Plugins & FexSlider</b></h4>
+<h4>START Files: FlexSlider &amp; jQuery Plugins</h4>
 
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider" 
     target="_blank" rel="noopener noreferrer">1.05.FlexSliderBasic-START.zip (ZIP File)</a></li>
 </ul>
 
+<!--
 > <a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider">1.05.FlexSliderBasic-START.zip (ZIP file)</a>
+-->
 
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider"
     target="_blank" rel="noopener noreferrer">1.05.FlexSliderPlugin.zip (ZIP File)</a></li>
 </ul>
 
+<!--
 > <a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider">1.05.FlexSliderPlugin.zip (ZIP file)</a>
+-->
 
-<h4><b>Additional Resource:</b></h4>
+<h4>Additional Resource:</h4>
 
 <ul>
   <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/"
@@ -1035,7 +1041,7 @@ got my style-sheet, that&apos;s what&apos;s in my folder.
 
 Over here, these are the files that got downloaded. When I unzipped the
 FlexSlider folder this is what I got. You might wonder what some of this
-stuff is, bower-components and **bower.json**. Bower is a build tool
+stuff is, bower-components and <b>bower.json</b>. Bower is a build tool
 that&apos;s used to combine stuff together, so, we can ignore those. The
 change-log will show different versions of the program, composer is a
 different build tool, contributing is another file that talks about it.
@@ -1213,8 +1219,8 @@ jquery with that one.
   width="50%;" />
 </p>
 
-But notice I need to go back and add the **defer**, I want to put
-**defer** back in here because really, I want this script to load at the
+But notice I need to go back and add the <b>defer</b>, I want to put
+<b>defer</b> back in here because really, I want this script to load at the
 bottom of the screen. Okay, now I want to load the jQuery Flexslider
 script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1258,8 +1264,8 @@ page is loaded, just to be certain. So, we&apos;ve got that, okay.
 </p>
 
 The next thing we need to do is to add the markup, and this is the
-markup this plug in expects. It expects a **div** with the class,
-**flexslider**, and a **ul** with the class slides, then list items with
+markup this plug in expects. It expects a <b>div</b> with the class,
+<b>flexslider</b>, and a <b>ul</b> with the class slides, then list items with
 the images inside of it, and we&apos;ll do that in the next lesson.
 
 <h2 name="ch1-08">1.08. Adding Markup & Hooking Up the Slider</h2>
@@ -1330,9 +1336,9 @@ we got that all in, so that&apos;s great.
   width="50%;" />
 </p>
 
-Step 3, directions. Hook up the **FlexSlider**. This thing says to use
-the **window.load** function. Now, I happen to know that the
-**window.load** function does not work with the latest version of
+Step 3, directions. Hook up the <b>FlexSlider</b>. This thing says to use
+the <b>window.load</b> function. Now, I happen to know that the
+<b>window.load</b> function does not work with the latest version of
 jQuery, but that&apos;s okay. This is what it says down here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 54.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1343,10 +1349,10 @@ jQuery, but that&apos;s okay. This is what it says down here.
   width="50%;" />
 </p>
 
-We could just copy this, **window.load** function here. This place after
+We could just copy this, <b>window.load</b> function here. This place after
 these links, script type JavaScript. But we&apos;re going to put this not
 inside script tags, but we already have a separate file called
-**MyScript** that&apos;s linked up here. That&apos;s this one here.
+<b>MyScript</b> that&apos;s linked up here. That&apos;s this one here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 55.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1356,17 +1362,17 @@ inside script tags, but we already have a separate file called
   width="50%;" />
 </p>
 
-I&apos;m going to put it on there, **MyScript**. Take **FlexSlider** and
-make it run. This says jQuery, go get this **FlexSlider** element, dot
-**FlexSlider**. Remember, we put that class on the **FlexSlider** and
-run the **FlexSlider** function here. Now, this function exists because
+I&apos;m going to put it on there, <b>MyScript</b>. Take <b>FlexSlider</b> and
+make it run. This says jQuery, go get this <b>FlexSlider</b> element, dot
+<b>FlexSlider</b>. Remember, we put that class on the <b>FlexSlider</b> and
+run the <b>FlexSlider</b> function here. Now, this function exists because
 we have the plug-in. The plug-in is defining this function. This is in
 addition to jQuery and it wouldn&apos;t exist otherwise. We&apos;re putting it
 inside window load because we want to make sure all the images offloaded
 before we can actually start making the slider run. So, we want to make
 that happen first. But I happen to know that this isn&apos;t going to work
-because the **window.load** function is deprecated and they want us to
-use **window.on** instead. But let&apos;s just test it anyway.
+because the <b>window.load</b> function is deprecated and they want us to
+use <b>window.on</b> instead. But let&apos;s just test it anyway.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 56/57.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1382,7 +1388,7 @@ use **window.on** instead. But let&apos;s just test it anyway.
 If I come over here and refresh this page, you&apos;ll notice the FlexSlider
 is not here. If I do inspect and then come over to the console, index
 self is not a function. If you&apos;re seeing this stuff where the problem
-is actually in the jQuery library, **jquery.min.js:2**, function load,
+is actually in the jQuery library, <b>jquery.min.js:2</b>, function load,
 this is a really good indicator that something&apos;s wrong with jQuery
 itself. It&apos;s not anything we did. It&apos;s actually jQuery. What&apos;s wrong
 here is that the latest version of jQuery does not support this file.
@@ -1584,7 +1590,7 @@ Then somewhere in here you can put it wherever you want, it doesn&apos;t
 really matter. Make sure it goes above the media queries. I&apos;m going to
 make a comment here that says, \"Flexslider styles\" and in here I can
 make a real dot Flexslider. Margin I want it zero in the top and bottom
-and 20 pixels in left and right, I want **border;none**. No border at
+and 20 pixels in left and right, I want <b>border;none</b>. No border at
 all and border radius zero to give it square edges. Just with that one
 rule in place here, if I come back and check my page, you&apos;ll notice the
 Flexslider looks better here. It&apos;s fitting into the space well, and
@@ -2279,14 +2285,16 @@ animation to work.
 <h3>PDF of Presentation</h3>
 
 Here is a PDF of the presentation slides used in the lessons for this
-section: **jQuery Plugins and FlexSlider**.
+section: <b>jQuery Plugins and FlexSlider</b>.
 
 <ul>
   <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.13.FlexSlider.pdf" 
     target="_blank" rel="noopener noreferrer">1.13.FlexSlider.pdf</a></li>
 </ul>
 
+<!--
 <https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.13.FlexSlider.pdf>
+-->
 
 <h2 name="ch2-01">2.01 Module 2 Intro (0:38)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2424,7 +2432,7 @@ work properly.
 <h3>Start Files: Smooth Scroll with JavaScript</h3>
 
 Attached is a zip file of the things you need to begin this exercise. A
-**zip file** is defined as: a computer file whose contents include one
+<b>zip file</b> is defined as: a computer file whose contents include one
 or more files that are compressed for storage or transmission, often
 carrying the extension .ZIP.
 
@@ -2456,11 +2464,11 @@ We have set up our files, and we&apos;re ready to start working on our
 script, and you&apos;ll notice down here at the bottom of the page, I have
 jQuery linked to a slightly older version of the library. You could hook
 up the 3.6 version here instead if you wanted to, and I have the
-**easing** plugged in because we&apos;re going to make use of that as well.
+<b>easing</b> plugged in because we&apos;re going to make use of that as well.
 You&apos;re already familiar with that from a previous lesson. If you&apos;ve
 forgotten, you can go back to the previous lessons and review the easing
 plug-in and how that works. Then I have linked here a file called
-**smoothscroll.js,** which is our JavaScript file, and this is where
+<b>smoothscroll.js,</b> which is our JavaScript file, and this is where
 we&apos;re going to write our jQuery code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 139/140. add click handler to index (71) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2474,9 +2482,9 @@ we&apos;re going to write our jQuery code.
 </p>
 
 I&apos;m going to remove that comment, and add here a click handler, so I&apos;m
-going to use my jQuery object to come in and grab my **nav ul li a**,
+going to use my jQuery object to come in and grab my <b>nav ul li a</b>,
 the anchor tags in the navigation over here at these anchor tags that I
-want to get from up here at the top of the page, **nav, ul, li, a**. If
+want to get from up here at the top of the page, <b>nav, ul, li, a</b>. If
 you had another nav element on the page, you might give this an ID, so
 that you would target this very specifically with an ID to get to these
 anchor tags, but this page just has one nav element, so this is specific
@@ -2531,7 +2539,7 @@ that, and we&apos;ll see, how long is it going to run? We&apos;re going to do it
 over 800 milliseconds. That gives us a sense of what&apos;s going on here
 when we&apos;re going to do that, and we&apos;ll test this in a minute. This is
 going to actually animate our HTML, and in here, we&apos;ll use our
-**thisSection** thing to tell us where we&apos;re going to animate to, and
+<b>thisSection</b> thing to tell us where we&apos;re going to animate to, and
 we&apos;ll do that in the next lesson so you see how it all comes together.
 
 <h2 name="ch2-04">2.04. Adding the Animation</h2>
@@ -2566,7 +2574,7 @@ Then we&apos;re going to animate the html. And I&apos;ll show you in a minute
 what this stop thing does, but we&apos;re going to animate and in here we
 pass in a key value pair that we&apos;re going to actually animate. What is
 that key value pair? We&apos;re going to animate over 800 milliseconds here.
-The property that we&apos;re going to animate is **scrollTop**. Now, what is
+The property that we&apos;re going to animate is <b>scrollTop</b>. Now, what is
 scroll top? Scroll top is an HTML property that you may not be aware of
 and it returns or sets the position that an element is going to be from
 the top of the window.
@@ -2709,12 +2717,12 @@ jQuery library and any plugins that you&apos;re using.
 </p>
 
 Over here, after my 800, I can add a comma and add an easing and I used
-**easeOutCirc** as my easing here, which gives us a pretty dramatic set
+<b>easeOutCirc</b> as my easing here, which gives us a pretty dramatic set
 of easing. If I set that and then while I&apos;m here, I&apos;m just going to
 put a return in here. That opens and then that closes there. I want to
-move that down like so, there we go, **easeOutCirc**. I think that looks
+move that down like so, there we go, <b>easeOutCirc</b>. I think that looks
 a little bit better, a little bit easier to read. We animate this over
-800 milliseconds when we are using **easeOutCirc**.
+800 milliseconds when we are using <b>easeOutCirc</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 155. example of easing animation scroll (79) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2850,7 +2858,9 @@ that, we really need to manage this scroll event so that we can handle
 what happens as we scroll the page and move from one section to another.
 We&apos;re going to deal with that in the next lesson.
 
-<h3><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation">PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</a></h3>
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation">PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</a></li>
+</ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-07">2.07 Introduction to Page Location Tracking</h2>
@@ -3387,7 +3397,7 @@ I&apos;ve put the window scroll event back in with my IF statements.
 </p>
 
 We&apos;re going to work on these a little bit now. But before we do, we
-need to add this statement here, page top (**pagetop**), which is this
+need to add this statement here, page top (<b>pagetop</b>), which is this
 variable up here that we created but have not assigned. We looked at it
 before and we just set it to window scroll top. Here I&apos;m going to set
 it to window scrollTop plus 210. That&apos;s because we know our page over
@@ -3599,7 +3609,7 @@ over here, I&apos;ve got a navigation appears just now, &apos;nav ul li a&apos;.
 just want to put those anchor tags: &apos;nav ul li a&apos;, into a variable
 called 'alllinks' because I&apos;m going to use that to affect this. Then
 down here I&apos;m going to make another variable called &apos;var
-**prevCounter**&apos;, and set that to zero. You&apos;ll see why in a minute for
+<b>prevCounter</b>&apos;, and set that to zero. You&apos;ll see why in a minute for
 the previous counter, you&apos;ll see why we need that as we go forward
 here. Add these two variables, one that&apos;s just going to gather all the
 links just for a short cut, we don&apos;t have to take this out every time,
@@ -3768,7 +3778,7 @@ Down here after my windows scroll event handler, which is this one here
 (left) and it&apos;s down here, but before the closing of my window load.
 Before this closing thing here, I&apos;m just going to add a new event
 handler down here (right image). It&apos;s going to look like this dollar
-sign **window.on**, we&apos;re going to use the on method again, but instead
+sign <b>window.on</b>, we&apos;re going to use the on method again, but instead
 of looking for load we&apos;re going to look for resize. Then we&apos;re going
 to run a function. In here, I&apos;m just going to console log. Resizing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3848,8 +3858,8 @@ I&apos;m just going to leave it there for a moment because we&apos;re going to
 use the console log anyway.
 
 But in here, I&apos;m going to do a set time out in here for this. I&apos;m
-going to a set time and it&apos;s **doneResizing** and assign it the
-**setTimeout** function. SetTimeout method here, and remember,
+going to a set time and it&apos;s <b>doneResizing</b> and assign it the
+<b>setTimeout</b> function. SetTimeout method here, and remember,
 setTimeout takes a function, like that, and then a comma and then an
 amount of time. Then I said it&apos;s a really short amount of time, like
 half a second, 500 that&apos;s fine. We move that down there and then up
@@ -4448,7 +4458,7 @@ right away, and not even wait for the click. So, we want to just put the
 pointer debt to this function down here, and let it run that way.
 
 Start Files: Smooth Scroll with JavaScript --
-**2.18.Scroll-Effects-START.zip**
+<b>2.18.Scroll-Effects-START.zip</b>
 
 <h2 name="ch2-19">2.19 Getting the Target -- Part 1 (4:50)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4583,18 +4593,18 @@ problem, and we&apos;ll talk about it more in the next lesson.
 In the last lesson (2.20), we noticed that the Smooth Scroll was working
 fine here in Chrome, but it&apos;s not working properly in Safari. What can
 we do about that? What we can do is we can use what&apos;s called a
-**Polyfill**. A **polyfill** is a term that was created by a developer
-named Remy Sharp. If you go just google &apos;who invented **polyfill**?&apos;
+<b>Polyfill</b>. A <b>polyfill</b> is a term that was created by a developer
+named Remy Sharp. If you go just google &apos;who invented <b>polyfill</b>?&apos;
 or &apos;where did the Polyfill name come from?&apos;, Remy Sharp has written on
 his blog, in 2010, an article about how he came up with the name
-**polyfill**. That&apos;s where it came from. But really, what a
-**polyfill** is, it&apos;s a shim or some piece of script that&apos;s made to
+<b>polyfill</b>. That&apos;s where it came from. But really, what a
+<b>polyfill</b> is, it&apos;s a shim or some piece of script that&apos;s made to
 help browsers that are not compliant yet with standards work and those
 browsers will use that extra script to make it work. These days, most of
 the browsers are pretty up to date in standards and there&apos;s very little
-need for **polyfills**, but it&apos;s a worthwhile concept to know about and
+need for <b>polyfills</b>, but it&apos;s a worthwhile concept to know about and
 it&apos;s worth figuring out how to use them. As it turns out, somebody
-wrote a **polyfill** for this particular thing, and it&apos;s over here on
+wrote a <b>polyfill</b> for this particular thing, and it&apos;s over here on
 GitHub. It&apos;s this &apos;iamdustan&apos; character, and GitHub wrote this smooth
 scroll polyfill. You could download this file here by clicking the
 download zip, here. I also have the same file already in the folder over
@@ -4711,41 +4721,41 @@ next lesson.
 ![](.images/image270.png){width="4.0in" height="2.261111111111111in"}
 
 In the last lesson, we saw that we could use the
-**getBoundingClientRect().top** to get the top of any particular element
+<b>getBoundingClientRect().top</b> to get the top of any particular element
 on the page. In this case, the first element, the first section, we&apos;re
 getting here posts, zero. But we don&apos;t want where it is anywhere on the
 page. We want to get the distance. It is from the top of the window,
 from when the page loads and have that be consistent. We can do that by
-adding to it **window.pageYOffset**. That&apos;s the amount of pixels the
+adding to it <b>window.pageYOffset</b>. That&apos;s the amount of pixels the
 window has scrolled past the viewport, and by adding that back on there,
 we will always get 200 pixels. Let&apos;s go ahead and give that a try. At
 the end here, we need to add plus window.pageYOffset. This one, not X
-but Y. It should be a plus window **pageYOffset**. Now, let&apos;s save that
+but Y. It should be a plus window <b>pageYOffset</b>. Now, let&apos;s save that
 and then come over here. I&apos;m going to make sure I&apos;m scrolled up to the
 top of the window. Click, \"Refresh\" and you can see I get 200 there.
 If I scroll the page down and refresh again, you can see that I get 200
 there. I always get 200 for that first post. Great. Now, that we&apos;ve got
 that, the next thing we need to do is round it down using our
-**math.floor**, because some of these will generate a whole bunch of
+<b>math.floor</b>, because some of these will generate a whole bunch of
 partial points past decimal point that we don&apos;t need. We can just round
 it down to the nearest pixel, and then put all of those into an array,
 just like we did in the previous script. We already have our postTops
 array created here. It&apos;s empty. But we can push into it our posts, and
-we can do that with the **forEach** method. Again, we can do
-**posts.forEach**. I really like this method because it&apos;s nice and
+we can do that with the <b>forEach</b> method. Again, we can do
+<b>posts.forEach</b>. I really like this method because it&apos;s nice and
 clean and simple to read. It&apos;s a little bit shorter. You could use a
 for-loop, certainly. That would be fine to use a standard for-loop. But
 I like this method, so I&apos;m going to use it. I&apos;m going to pass in a
 function. Then remember, this function is going to pass in a variable
 post. Because this is a variable, you can call it whatever you want. I
 think post makes sense. Then in here, I&apos;m going to say, I&apos;m going to
-push **postTops.push**. What am I going to push here? I&apos;m going to push
+push <b>postTops.push</b>. What am I going to push here? I&apos;m going to push
 this whole thing, so I can copy and paste that in here. But not post
 zero. I just want my variable post, this variable here. Because it&apos;s
 going to go through each of these posts, and do each post. It&apos;s going
 to push the first post in, the second post in and so on. I&apos;ve made a
 little extra room here because I also need to put in here,
-**math.floor()**, and the second parentheses will close here like so.
+<b>math.floor()</b>, and the second parentheses will close here like so.
 Math.floor will take this, round it down and then it gets pushed into
 postTops. Then, of course, we want to cancel log out postTops just to
 see what the heck is going on. We don&apos;t need this one anymore. In fact,
@@ -4778,7 +4788,7 @@ ready to start working with our scroll event. We need to add an event
 listener for capturing scroll effects. I&apos;m just going to comment that
 out for now. But we can add that list of recapturing scroll of effects.
 Again, I&apos;m going to attach it to the window,
-**window.addEventListener**, and we&apos;re listening for scroll event, then
+<b>window.addEventListener</b>, and we&apos;re listening for scroll event, then
 we&apos;re going to run a function, and all of our stuff will go inside of
 here. Now, this looks very similar to the jQuery version of the scroll
 event. In jQuery, we did it like this. We used the jQuery objects to
@@ -4790,7 +4800,7 @@ plain JavaScript syntax is not that much longer and you don&apos;t have to
 download the entire jQuery library to use it, or force your users to
 download the entire jQuery library to use it. That&apos;s nice. Then we&apos;re
 going to put into this variable pagetop. Pagetop it&apos;s going to equal
-this thing, **window.pageYOffset**. Again, what that does is it,
+this thing, <b>window.pageYOffset</b>. Again, what that does is it,
 window.pageYOffset tracks how far off the top of the window or page is
 scrolled. I can, console.log, put pagetop and we should be seeing those
 pixels change as we scroll down the page. Let&apos;s test that and see. I
@@ -5909,9 +5919,9 @@ to the finished version of the Scription Site Honor&apos;s Assignment.
 Here is a PDF of the presentation slides used in the videos for this
 section:
 
--   **2.39.ScriptionSite-Part1-HTML&CSS.pdf**
+-   <b>2.39.ScriptionSite-Part1-HTML&CSS.pdf</b>
 
--   **2.39.ScriptionSite-Part2-InteractionChallenges.pdf**
+-   <b>2.39.ScriptionSite-Part2-InteractionChallenges.pdf</b>
 
 <h2 name="ch3-01">3.01 Module 3 Intro (0:37)</h2>
 
@@ -6003,11 +6013,11 @@ this way as well.
 <h3>Start Files: Working with Objects in JavaScript</h3>
 
 Attached is a zip file of the the things you need to begin this
-exercise. A **zip file** is defined as: a computer file whose contents
+exercise. A <b>zip file</b> is defined as: a computer file whose contents
 include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
--   **3.02.jsonExample.html.zip**
+-   <b>3.02.jsonExample.html.zip</b>
 
 <h3>Additional Resource:</h3>
 
@@ -6318,11 +6328,11 @@ this course. But I want least introduce you to the topics.
 <h3>PDF of Presentations</h3>
 
 Here is a PDF of the presentation slides used in the videos for this
-section: **Objects and Data in JavaScript**.
+section: <b>Objects and Data in JavaScript</b>.
 
--   **3.07.Objects-&-Data-in-JS.pdf**
+-   <b>3.07.Objects-&-Data-in-JS.pdf</b>
 
--   **3.07.JavaScript-Object-Challenges.pdf**
+-   <b>3.07.JavaScript-Object-Challenges.pdf</b>
 
 <h2 name="ch3-08">3.08 Intro to Pig Dice Game (5:44)</h2>
 
@@ -6399,7 +6409,7 @@ that, take a few minutes to really try to map out what you think this
 game consists of without actually seeing the game just based on the
 rules.
 
--   **3.08. Intro to Pig Dice Game Diagrams**
+-   <b>3.08. Intro to Pig Dice Game Diagrams</b>
 
 Here are the diagrams for the pig game to help you.
 
@@ -6613,7 +6623,7 @@ functionality you need for each piece.
 
 <h3>PDF of Presentions</h3>
 
--   **3.11.Intro-to-Pig-Dice-Games.pdf**
+-   <b>3.11.Intro-to-Pig-Dice-Games.pdf</b>
 
 <h2 name="ch4-01">4.01. Module Introduction (0:43)</h2>
 
@@ -6714,7 +6724,7 @@ notice the comma at the end, but no comma there, comma at the end here,
 and make sure everything is right, and labeled properly. We&apos;re on our
 way to creating the pig game.
 
--   Start Files: Game of Pig **4.02.Pig-START.zip**
+-   Start Files: Game of Pig <b>4.02.Pig-START.zip</b>
 
 <h2 name="ch4-03">4.03 Start the Game (7:50)</h2>
 
