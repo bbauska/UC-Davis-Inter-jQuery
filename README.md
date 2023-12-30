@@ -3260,7 +3260,6 @@ handle the case of, am I scrolling up. These are the two scenarios that
 we need to watch out for. We&apos;ve got our basic structure of what&apos;s
 going to happen to handle these two situations of what happens while
 we&apos;re scrolling down and what happens when we&apos;re scrolling up.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 186. what is size of each section element (98) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3336,10 +3335,10 @@ looks great to me.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 189/190. remove if, post option (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image189.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Remove if statement to test postTops." />
 <img src="./images/image190.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Remove if statement to test PostTops." />
 </p>
 
@@ -3361,14 +3360,14 @@ an array with five elements in it for each of my five sections, 200,
 700, 1500.6875, and then 21 no 4.56- and 2683.4875. I don&apos;t really need
 all the decimal points, so that&apos;s why I put the math floor in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 192/193.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 192/193. calculate each section size (101) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image192.png"
-  style="width:35%;"
-  alt="." />
+  style="width:45%;"
+  alt="Count section size in pixels and store." />
 <img src="./images/image193.png"
-  style="width:35%;"
-  alt="." />
+  style="width:45%;"
+  alt="Size of each section is identified." />
 </p>
 
 Let&apos;s add the math floor back real quick here, I&apos;m going to put
