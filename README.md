@@ -379,8 +379,9 @@ You will be able to then extend the script in many creative ways.</p>
 
   15. Course Summary
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-00">1.00 A Note from UC Davis</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Welcome to this course!</p>
 <p>We are delighted to be a part of your continuing education. This course will provide you with a variety of tools and learning opportunities, to include lesson lectures, readings, assessments, peer reviews, and an opportunity to contribute to the Coursera learning community in the discussion forums.</p>
 <p>In each of the lesson sections, you’ll find learning objectives, lecture lessons, readings, activities, and an opportunity to test your knowledge in quiz format. In some of the module sections you’ll also work on assignments and grade the work of your peers. A peer-review assignment, is one where you and your fellow learners have an opportunity to review and grade each other’s work. We’ll dive more into peer reviews later on in this course.</p>
@@ -435,7 +436,7 @@ new projects and to do some more sophisticated projects and give you even more
 practice. You get even better with JavaScript and jQuery. We're going to do a lot 
 in this course. Let's break out our code editors and our web browsers and get started 
 and learn even more about JavaScript.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-02">1.02. Module Introduction</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. module 1 intro (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -456,7 +457,7 @@ look at the flex slider plugin, which adds a lot of features, two sliders and co
 that to what you've done manually by creating your own sliders is really instructive 
 and useful. Plus, you end up with a great tool for creating slider elements on web 
 pages and that's really pretty fun.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-03">1.03. Introduction to jQuery Plugins (3:49)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. intro to jquery plugins (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -466,7 +467,6 @@ pages and that's really pretty fun.</p>
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
-<!-- {width="4.0in" height="2.240598206474191in"} -->
 
 Just as a quick recap, we&apos;ve learned a lot of JavaScript so far.
 
@@ -478,7 +478,6 @@ Just as a quick recap, we&apos;ve learned a lot of JavaScript so far.
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
-<!-- {width="5.0in" height="2.8338681102362204in"} -->
 
 We started with the JavaScript basics, which included working with
 variables, flow control structures like if statements and else
@@ -498,7 +497,6 @@ write the scripts that you want to do for your web page.
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
-<!-- {width="5.0in" height="2.8338681102362204in"} -->
 
 Then we had jQuery and your world became a little bit larger. With
 jQuery, we&apos;ve learned that there are a lot of helper functions built
@@ -514,7 +512,6 @@ a little bit easier and a little bit better for all of us.
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
-<!-- {width="5.0in" height="2.8338681102362204in"} -->
 
 Now we need to introduce plugins. We&apos;ve already used the <b>easing</b>
 plugin, which is a very simple plugin that adds additional function to
@@ -584,7 +581,6 @@ them to work.
   style="border: 2px solid #000000;" 
   width="50%;" />
 </p>
-<!-- {width="5.0in" height="2.8338681102362204in"} -->
 
 <b>Step 1</b> is, you have to use the markup indicated by the
 plugin documentation. Often, you&apos;ll have to use divs or our articles or
@@ -657,7 +653,7 @@ you&apos;ll see once you work with a few plugins that many of them work
 pretty much the same way. The documentation may look a little bit
 different; the directions may be written a little bit different, but
 it&apos;s the same basic steps each time.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-05">1.05. Gotchas and Rookie Mistakes</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 13. gotchas and rookie mistakes (1.05) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -868,7 +864,7 @@ carrying the extension .ZIP.
   <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/"
     target="_blank" rel="noopener noreferrer">How to open a zip file for either Mac or PC</a></li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-06">1.06. FlexSlider: A jQuery Plugin</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. flexslider: a jquery plugin (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1079,7 +1075,7 @@ version of FlexSlider. Just those three files, the rest of it I don&apos;t
 need. I&apos;m going to put them into my project folder over here so that I
 have them, and that gets us all the files that we need in order to get
 started for this project.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-07">1.07. About the Minified Version</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 35. about the minified version (1.07) (27) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1267,7 +1263,7 @@ The next thing we need to do is to add the markup, and this is the
 markup this plug in expects. It expects a <b>div</b> with the class,
 <b>flexslider</b>, and a <b>ul</b> with the class slides, then list items with
 the images inside of it, and we&apos;ll do that in the next lesson.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-08">1.08. Adding Markup & Hooking Up the Slider</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 49.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1500,7 +1496,7 @@ the script is making use of that in order to put those arrows on the
 page. There they are, they&apos;re back again. Okay, great. We&apos;ve got the
 basic slider working, now we can talk about what else we need to do with
 it and we&apos;ll do that in the next lesson.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-09">1.09. FlexSlider Rules</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 68.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1640,7 +1636,7 @@ look the way you want it to look. Finding out what those styles are, or
 just a matter of using the inspector and hunting around to see what
 rules are being applied that you might want to change to get it to style
 and look the way you want it to look on your page.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-10">1.10. Additional Controls</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 79.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1832,7 +1828,7 @@ doesn&apos;t look like every Website you go to has FlexSlider on it. It
 could look the same, because they all have the same arrows here, left
 and right arrows. We can get rid of those and do something else that
 would be kind of interesting and fun.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-11">1.11. Advanced FlexSlider</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. advanced flexslider (1.11) (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1960,7 +1956,7 @@ this slider and that&apos;s great. That gets us started and on our way with
 creating our fancier version of our FlexSlider. In the next lesson,
 we&apos;ll start looking at what we need to do to adjust the styling for
 this.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-12">1.12. Additional Styling (5:47)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 104. additional styling (1.12) (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2100,7 +2096,7 @@ the background images have come in. These images are now in the
 background of my slide, rather than in the foreground. And the
 foreground is an H2 that&apos;s been absolutely positioned here. But now I
 need to style this call to action, and I&apos;ll do that in the next lesson.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-13">1.13. Styling the CTA 'Call To Action'</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 112. styling the cta 'call to action' (61) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2127,10 +2123,10 @@ and do this, but let&apos;s go ahead and add this rule to our style sheet.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 114/115. styling the call to action (62) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image114.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Call to Action Styling." />
 <img src="./images/image115.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Styles.css for Call to Action." />
 </p>
 
@@ -2172,10 +2168,10 @@ and then also the color for the text. That&apos;s a lot of stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116/117. define class: light (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image116.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Styles.css: Define new class .light." />
 <img src="./images/image117.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Utilize class: light in index." />
 </p>
 
@@ -2218,10 +2214,10 @@ setting height, width, and font size.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 120/121. tablet-sized min-width: 600px (64) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image120.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="styles.css: min-width: 600px." />
 <img src="./images/image121.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="CTA: Call To Action anchor tag." />
 </p>
 
@@ -2237,10 +2233,10 @@ font size down a little bit, 3vw.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 122/123. desktop with min-width: 1000px (65) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image122.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="styles.css: min-width: 1000px." />
 <img src="./images/image123.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="styles.css: new ID cta with width/height of 150px." />
 </p>
 
@@ -2296,6 +2292,7 @@ section: <b>jQuery Plugins and FlexSlider</b>.
 <https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.13.FlexSlider.pdf>
 -->
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-01">2.01 Module 2 Intro (0:38)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 126. module 2 intro - scroll effects (67) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2332,10 +2329,10 @@ page, it does a smooth scrolling action further down the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 128/129. section one and two example (68) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image128.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Example section one." />
 <img src="./images/image129.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Example section two." />
 </p>
 
@@ -2351,10 +2348,10 @@ second in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130/131. section links defined (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image130.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="href sections defined #first thru #fifth." />
 <img src="./images/image131.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Example sections 1st thru 5th." />
 </p>
 
@@ -2407,10 +2404,10 @@ content is passing beneath this header.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 135/136. padding-top: 200 (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image135.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Add padding-top: 200 to body of style.css." />
 <img src="./images/image136.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Smooth Scroller example of padding-top: 200." />
 </p>
 
@@ -2453,10 +2450,10 @@ carrying the extension .ZIP.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 137/138. creating a click handler (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image137.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="2.03. Creating a Click Handler." />
 <img src="./images/image138.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Add Easing and Click Handler scripts to end of index." />
 </p>
 
@@ -2474,10 +2471,10 @@ we&apos;re going to write our jQuery code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 139/140. add click handler to index (71) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image139.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="If clicked, run this function." />
 <img src="./images/image140.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="smoothscroll.js - click handler function." />
 </p>
 
@@ -2541,16 +2538,16 @@ when we&apos;re going to do that, and we&apos;ll test this in a minute. This is
 going to actually animate our HTML, and in here, we&apos;ll use our
 <b>thisSection</b> thing to tell us where we&apos;re going to animate to, and
 we&apos;ll do that in the next lesson so you see how it all comes together.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-04">2.04. Adding the Animation</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 143/144. adding the animation (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image143.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="2.04. Adding the Animation." />
 <img src="./images/image144.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Adding the animation to smoothscroll.js." />
 </p>
 
@@ -2642,10 +2639,10 @@ that&apos;s running and then animate the thing that we&apos;ve clicked on next.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 148/149. top scroll minus 200 (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image148.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Scroll to top minus 200 pixels." />
 <img src="./images/image149.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Example: scroll to top minus 200px." />
 </p>
 
@@ -2677,7 +2674,7 @@ all handle the HTML just fine. But this is kind of just to fall back
 just in case somebody is using an older browser. I&apos;m not sure when they
 actually fixed up, so we won&apos;t see a difference because of that now,
 but it&apos;s just something to be aware of, Going forward.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-05">2.05 Add Some Easing and a Callback Function</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 151. add some easing and a callback function (2.05) (78) ~~~~~~~~~~~~~~~~~~-->
@@ -2695,10 +2692,10 @@ more personality by adding some easing.
 <!--~~~~~~~~~~~~~~~~~~ 152/153. script must follow jquery library load (78) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image152.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Add easing script only AFTER jQuery library load." />
 <img src="./images/image153.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="index.html scripts." />
 </p>
 
@@ -2766,7 +2763,7 @@ see what it offset, is it offset? I think it&apos;s like that offset. We
 have done that right. Here we go. Let&apos;s see if I did that right. I
 think I did. I come back here, refresh the page, click second and I did
 something wrong there.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-06">2.06 Highlighting Elements</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 157. highlighting elements (2.06) (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2823,10 +2820,10 @@ actually clicked on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 159/160. get anchor tags: nav ul li a (82) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image159.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Get anchor tags, navigation line item anchor." />
 <img src="./images/image160.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Example getting anchor tags." />
 </p>
 
@@ -2861,7 +2858,6 @@ We&apos;re going to deal with that in the next lesson.
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation">PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</a></li>
 </ul>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-07">2.07 Introduction to Page Location Tracking</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2905,20 +2901,20 @@ are out there. https://callbruno.com/en
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 163/164. example scroll callbruno.com (85) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image163.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Example callbruno.com, #1." />
 <img src="./images/image164.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Example callbruno.com, #2." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 165/166. example callbruno, #3/#4 (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image165.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Example callbruno.com, #3." />
 <img src="./images/image166.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Example callbruno.com, #4." />
 </p>
 
@@ -2933,10 +2929,10 @@ It&apos;s affected by the scroll.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 167/168. example callbruno.com, #5/#6 (85) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image167.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Example callbruno.com, #5." />
 <img src="./images/image168.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Example callbruno.com, #6." />
 </p>
 
@@ -3063,7 +3059,7 @@ doing big things on your page, then you have to be careful about
 overloading your processor, if you want to move stuff around on the
 screen, it&apos;s easy to overload it by firing this event so many times and
 trying to do too many things at once.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-08">2.08 The Crux of the Problem</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 175. the crux of the problem (2.08) (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3166,10 +3162,10 @@ port.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 180/181. example, highlight section (94) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image180.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Example, highlight section, #1." />
 <img src="./images/image181.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Example, highlight section, #2." />
 </p>
 
@@ -3192,7 +3188,7 @@ event is firing every time I scroll a tiny little bit. Those are the two
 pieces that make capturing scroll events tricky, the fact that you
 can&apos;t be sure which pixel you going to hit and you have to watch out
 for performance.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-09">2.09 Strategy</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182. strategy (2.09) (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3376,7 +3372,7 @@ This offset top here and put it into the floor method so that it rounds
 it down. If I save that and then come back and refresh again, now I&apos;m
 just getting whole numbers 200, 700, 1525, 21.4, and 2683 and that&apos;s
 good. Great. We&apos;ll pick it up in the next lesson.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-10">2.10 Adding PageTop and If Statements</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 194. adding pagetop and if statements (102) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3392,10 +3388,10 @@ I&apos;ve put the window scroll event back in with my IF statements.
 <!--~~~~~~~~~~~~~~~~~~~~~ 195/196. smoothscroll.js - scroll up/down (102) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image195.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Lines 29-46 of smoothscroll.js." />
 <img src="./images/image196.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="Lines 24-42 of smoothscroll.js (after update)." />
 </p>
 
@@ -3430,10 +3426,10 @@ the top of the page if that number is greater than that number.
 <!--~~~~~~~~ 198/199. 24-43 of smoothscroll.js & after, 32-50 of smoothscroll.js (103) ~~~~~~~~~-->
 <p align="center">
 <img src="./images/image198.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="24-43 of smoothscroll.js." />
 <img src="./images/image199.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="32-50 of smoothscroll.js." />
 </p>
 
@@ -3483,7 +3479,7 @@ makes this script very efficient and very useful and helps address one
 of the gotchas with working with scroll events, which is that you have
 to be careful not to do something every time you scroll a tiny little
 bit because you can overload your CPU.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-11">2.11 Writing the Else/If Statement - Part 1</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 202. writing the else/if statement in smoothscroll.js (105) ~~~~~~~~~~~~~~~~-->
@@ -3500,10 +3496,10 @@ we&apos;re scrolling up the page.
 <!--~~~~~~~~~~~ 203/204. before and after else/if statement insmoothscroll.js (105) ~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image203.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="32-50 of smoothscroll.js (before)." />
 <img src="./images/image204.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="32-50 of smoothscroll.js (after)." />
 </p>
 
@@ -3540,10 +3536,10 @@ does. I think that hopefully I did that right? I think I did.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 206/207.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image206.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 <img src="./images/image207.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 </p>
 
@@ -3565,7 +3561,7 @@ can keep track of not only when we&apos;re scrolling, but when certain
 sections are on the page, based on the height of that section, that
 we&apos;re calculating when the page loads, including all the images,
 because they have an effect on the height of these elements.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-12">2.12 Writing the Else/If Statement -- Part 2</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 208.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3687,7 +3683,7 @@ they come onto the screen or something like that. You could do really
 anything based on whether when you&apos;re scrolling or where your scrolling
 to. This script gives you a lot of power over that thing, and that&apos;s
 really cool.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-13">2.13 Edge Case Issues</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 214.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3706,10 +3702,10 @@ and looking at.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 215/216.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image215.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 <img src="./images/image216.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 </p>
 
@@ -3723,10 +3719,10 @@ sections are and it&apos;ll be fine.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 217/218.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image217.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 <img src="./images/image218.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 </p>
 
@@ -3760,7 +3756,7 @@ other scripts, for handling the same things that could happen.
   <img src="./images/image219.png"
   alt="."
   style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="width50%;" />
 </p>
 
 
@@ -3770,10 +3766,10 @@ resizes the window.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 220/221.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image220.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 <img src="./images/image221.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 </p>
 
@@ -3788,9 +3784,8 @@ to run a function. In here, I&apos;m just going to console log. Resizing.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 222.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image222.png"
-  alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  alt="image222.png."
+  style="border: 2px solid black; border-radius:15px; width:50%" />
 </p>
 
 Now, this event listener will fire while we&apos;re resizing the window and
@@ -3818,7 +3813,7 @@ will look at what we can do to capture the event for when we&apos;ve stopped
 resizing the window. Because at that point, that&apos;s when I want to
 calculate, how tall are my sections and fix my script up so that it will
 run right at that particular size. We&apos;ll do that in the next lesson.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-14">2.14 Resizing Your Windows</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 224.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3847,10 +3842,10 @@ then add one more variable var doneResizing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 226/227.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image226.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 <img src="./images/image227.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 </p>
 
@@ -3886,10 +3881,10 @@ here and refresh my screen here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 228/229.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image228.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 <img src="./images/image229.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 </p>
 
@@ -3945,17 +3940,17 @@ and so forth.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 233/234.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image233.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 <img src="./images/image234.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 </p>
 
 If I make it slightly wider, I&apos;ll get a different set of numbers. But
 you&apos;ll notice this only re-evaluates after I&apos;m done resizing my
 window. That&apos;s really cool, that&apos;s working really well.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-15">2.15 Resetting the Counter</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 235.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3974,10 +3969,10 @@ the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 236/237.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image236.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 <img src="./images/image237.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 </p>
 
@@ -4024,10 +4019,10 @@ should work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 238/239.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image238.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 <img src="./images/image239.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 </p>
 
@@ -4048,7 +4043,7 @@ than that, the rest of it is copy and paste. Now, we&apos;re doing a lot of
 this stuff twice, so we&apos;re going to actually take some of this stuff
 out of here and put it into its own function. We&apos;ll do that in the next
 lesson.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-16">2.16 resetPagePosition Function</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 240. resetpageposition function (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4065,10 +4060,10 @@ few places.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 241/242. smoothscroll.js: load, resize (125) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image241.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="smoothscroll.js: On load function." />
 <img src="./images/image242.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="smoothscroll.js: On resize function." />
 </p>
 
@@ -4083,10 +4078,10 @@ in here a function resetPagePosition.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 243/244.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image243.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 <img src="./images/image244.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 </p>
 
@@ -4166,10 +4161,10 @@ section got highlighted, so that&apos;s correct.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 248/249.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image248.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 <img src="./images/image249.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 </p>
 
@@ -4208,7 +4203,7 @@ and it might need a little bit of refining on that last bit that I
 showed you. But it&apos;s really pretty exciting. We&apos;re going to do one
 last lesson on this where we just look at the different pieces and
 review what we&apos;ve done.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-17">2.17 Reviewing the Whole Script</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 251.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4312,10 +4307,10 @@ are and sets the styling for the links appropriately.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 257/258.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image257.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 <img src="./images/image258.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 </p>
 
@@ -4328,10 +4323,10 @@ this works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 259/260.  (134) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image259.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 <img src="./images/image260.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 </p>
 
@@ -4347,10 +4342,10 @@ both scripts are working.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 261/262.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image261.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 <img src="./images/image262.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 </p>
 
@@ -4369,7 +4364,7 @@ interactions as you scroll down the page, all done in JQuery. We&apos;ll do
 the same script, and play JavaScript.
 
 <h3>PDF of Presentation: 2.17.jQueryPage-Location-Tracking.pdf (28 pgs)</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-18">2.18 Introduction to Scroll Effects with JS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 263.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4387,10 +4382,10 @@ using jQuery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 264/265.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image264.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 <img src="./images/image265.png"
-  style="width:35%;"
+  style="width:45%;"
   alt="." />
 </p>
 <!-- ![](.images/image264.png){width="4.0in" height="2.4337609361329835in"} -->
@@ -4462,7 +4457,7 @@ pointer debt to this function down here, and let it run that way.
 
 Start Files: Smooth Scroll with JavaScript --
 <b>2.18.Scroll-Effects-START.zip</b>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-19">2.19 Getting the Target -- Part 1 (4:50)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 266.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4521,7 +4516,7 @@ decimal point, we can just round this down. So we&apos;ll do that in the
 next lesson and assign this value to a variable that we can actually use
 rather than just have it spit out in the console. Well, we&apos;ll do that
 in the next lesson.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-20">2.20 Getting the Target -- Part 2 (5:15)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 267.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4582,7 +4577,7 @@ on &apos;Third Section&apos;, it just pops to the 3rd Section, it&apos;s going t
 the right location. It&apos;s not going all the way up to the top of the
 window, but the behavior &apos;smooth&apos; is not working. That&apos;s a bit of a
 problem, and we&apos;ll talk about it more in the next lesson.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-21">2.21 Smooth Scroll Polyfill (4:45)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 268.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
