@@ -1,7 +1,7 @@
 ---
 title: "University of California @Davis Interactivity with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "12/29/2023 2+pm"
+date last editted: "12/29/2023 5+pm"
 output: 
   markdown:
     with some style
@@ -830,7 +830,7 @@ section:
     target="_blank" rel="noreferrer noopener">1.05.jQueryPlugins.pdf (PDF File)</a></li>
 </ul>
 
-> &lt;a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.05.jQuery-Plugins.pdf"&gt;1.05.jQueryPlugins.pdf&lt;/a&gt;
+> <a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.05.jQuery-Plugins.pdf">1.05.jQueryPlugins.pdf</a>
 
 
 <h4>Zip Program Start Files</h4>
@@ -2430,7 +2430,7 @@ or more files that are compressed for storage or transmission, often
 carrying the extension .ZIP.
 
 <ul>
-  <li><a href="https://d3c33hcgiwev3.cloudfront.net/TWch2Fo9RPunIdhaPQT7mg_20a45687745d416696ea6b9617ac6ff1_WEB1092_FlexSliderPlugin.zip?Expires=1700352000&Signature=NMzGqDqh7ukjS3t3QDStmyO63TfJKJODbNBiGheFKRKgduARGm~12s2u9yv2TVnTO0XHYiNSSUtV-ltfPKm5Y98d9WkeqttASMh4~z1OqZM7AsGldhYMl3UI2sbmakAnmXGRMbQvoZaBd5FpL~ExZZrwraKp4Y687myEMvyE8K0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A" target="_blank" rel="noopener noreferrer">
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery" target="_blank" rel="noopener noreferrer">
     2.02.jQueryScrollEffects-START.zip (ZIP File)</a></li>
 </ul>
 
@@ -2851,7 +2851,7 @@ that, we really need to manage this scroll event so that we can handle
 what happens as we scroll the page and move from one section to another.
 We&apos;re going to deal with that in the next lesson.
 
-<h3><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/2.06.jQuery-Smooth-Scroll.pdf">PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</a></h3>
+<h3><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation">PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</a></h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-07">2.07 Introduction to Page Location Tracking</h2>
@@ -7586,4 +7586,4 @@ and you&apos;ll get more practice. So I look forward to seeing you there.
   alt="." />
 </p>
 -->
-<h6>Last Updated: 12/29/23 2:33pm</h6>
+<h6>Last Updated: 12/29/23 5:20pm</h6>
