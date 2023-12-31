@@ -1187,8 +1187,8 @@ version of jQuery.
 
 Let&apos;s go over to our files over here. And on our index page, up at the
 top of the page, this is where we want to put a link to the flex slider
-CSS. So, I&apos;m just going to add a link here, link href = \"
-flexslider.css\". Don&apos;t forget rel =\"stylesheet\", and make sure you
+CSS. So, I&apos;m just going to add a link here, link href = &quot;
+flexslider.css&quot;. Don&apos;t forget rel =&quot;stylesheet&quot;, and make sure you
 spell style sheet right. Okay, so that will link that up. You can see
 I&apos;ve got jquery 2.2.4 loaded here, as opposed to the 1.6.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1547,9 +1547,9 @@ in the styling.
 For example, why is my Flexslider sticking out on the edge over here?
 What&apos;s up with this gap? What if I wanted to change the color of these
 dots down here? These are things that I can adjust if I start poking
-around in the CSS. If I right click on this and choose \"Inspect\",
+around in the CSS. If I right click on this and choose &quot;Inspect&quot;,
 I&apos;ll get my inspector up over here and I can actually see if I come in
-here to \"My Class\" Flexslider here that it&apos;s got some margin on it
+here to &quot;My Class&quot; Flexslider here that it&apos;s got some margin on it
 here. Let&apos;s see what else does it have here? If we want to adjust the
 border, we can make a rule on our own style sheet that attaches to dot
 Flexslider. We don&apos;t want to adjust their style sheet. If I wanted to
@@ -1583,7 +1583,7 @@ file. I want to make sure I&apos;m on my CSS file.
 
 Then somewhere in here you can put it wherever you want, it doesn&apos;t
 really matter. Make sure it goes above the media queries. I&apos;m going to
-make a comment here that says, \"Flexslider styles\" and in here I can
+make a comment here that says, &quot;Flexslider styles&quot; and in here I can
 make a real dot Flexslider. Margin I want it zero in the top and bottom
 and 20 pixels in left and right, I want <b>border;none</b>. No border at
 all and border radius zero to give it square edges. Just with that one
@@ -3023,8 +3023,8 @@ wouldn&apos;t be that tall.
 If I want to track which section is on the screen, I need to know how
 big the section is. For me to know how big the section is all of the
 content has to be loaded, including images, provide videos or other
-content. It all has to be loaded before I say, \"Well, how tall are
-you?\" I need to know how tall you are so I can know whether the
+content. It all has to be loaded before I say, &quot;Well, how tall are
+you?&quot; I need to know how tall you are so I can know whether the
 sections on the page or not. So that&apos;s why I need to make sure I put
 everything inside this window on load call back here to make sure that
 I&apos;m capturing when the window loads, so that everything I do is inside
@@ -4073,14 +4073,14 @@ function, so I&apos;m going to put it after here, in fact, I&apos;m going to get
 rid of a little bit of space there, and there we go. I&apos;m going to add
 in here a function resetPagePosition.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 243/244.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 243/244. doneresizing and resetpageposition (125) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image243.png"
   style="width:45%;"
-  alt="." />
+  alt="doneResizeing (sp?), postTops, and pagePosition." />
 <img src="./images/image244.png"
   style="width:45%;"
-  alt="." />
+  alt="doneResizeing (sp?), postTops, and pagePosition." />
 </p>
 
 I&apos;m going to put all of this stuff that comes inside this set time out
@@ -4091,10 +4091,10 @@ with post tops and everything, all of that, I&apos;m just going to cut and
 stick it inside this function instead. You might have to select it and
 shift to get it to line up for it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 245.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 245. resetpageposition (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image245.png"
-  alt="."
+  alt="resetPagePosition."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -4105,10 +4105,10 @@ it&apos;s going to run resetPagePosition, this function here, which is all
 the stuff that we had in there. When we&apos;re done resizing, we&apos;re going
 to do all this stuff that we just wrote. That&apos;s cool.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 246.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 246. posttops and resetpageposition (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image246.png"
-  alt="."
+  alt="postTops and resetPagePosition."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -4121,10 +4121,10 @@ when the page loads. This function is going to run twice. It&apos;s going to
 run when the page loads and it&apos;s going to run any time you resize the
 screen.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 247.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 247. reset array posttops (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image247.png"
-  alt="."
+  alt="Reset array postTops."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -4138,15 +4138,15 @@ Then I want to put all of these things in here and then I want to set my
 page position to wherever I am on the page, set my calendar year, and
 figure out where I am on the page and the color that links the correct
 thing. That should all work. Now, if I go over here and test this after
-saving that. Hopefully, I did it right. \"Refresh. \" Notice second
+saving that. Hopefully, I did it right. &quot;Refresh. &quot; Notice second
 section, it should have maybe first section, second section, third
 section. We&apos;re searching. Now, if I refresh the page while I&apos;m down
 the page, No, it didn&apos;t work right there. Third section, second
 section, seems to be a little bit off. I don&apos;t know. Yeah, it seems to
-be working. I&apos;m up here at the top of the page if I click \"Refresh.\"
+be working. I&apos;m up here at the top of the page if I click &quot;Refresh.&quot;
 I&apos;m at the top of the page. If I go down to the second option and click
-\"Refresh,\" the second section becomes highlighted. We go down to the
-third section and click \"Refresh.\"
+&quot;Refresh,&quot; the second section becomes highlighted. We go down to the
+third section and click &quot;Refresh.&quot;
 
 Now into the second section. It&apos;s on the cusp there, maybe that&apos;s why.
 Now, I&apos;m not sure why it&apos;s a little bit off. But it&apos;s pretty close.
@@ -4156,20 +4156,20 @@ resizing, choose the correct section. Separate sections on the screen.
 It does seem to be mostly working. Section, refresh the page, that
 section got highlighted, so that&apos;s correct.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 248/249.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 248/249. reload index.html (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image248.png"
   style="width:45%;"
-  alt="." />
+  alt="Reload index.html." />
 <img src="./images/image249.png"
   style="width:45%;"
-  alt="." />
+  alt="Reload index.html, again." />
 </p>
 
 The last thing we could do here is on our Index page. Since it&apos;s being
 added programmatically, we don&apos;t need class selected here at all
 because that should get added automatically when the page loads. If I go
-back up here to the top and click \"Refresh,\" it&apos;s automatically
+back up here to the top and click &quot;Refresh,&quot; it&apos;s automatically
 adding that.
 
 My other script should work to where if I click on the next section that
@@ -4177,7 +4177,7 @@ you go down to the correct section. You can see that it&apos;s slightly
 refreshing that, and the reason I think it&apos;s doing that is that it
 could be in some cases, actually reloading the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 250.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 250.  (129) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image250.png"
   alt="."
@@ -4191,7 +4191,7 @@ make it so that it clicking these links. It&apos;ll perform the same thing
 as event prevent default, return false, or keep the registration of the
 click of these links and keep those hashtags from showing up in the
 address bar. If I do that and then come back here, if I remove this hash
-second, scroll up to the top of the page, click \"Enter,\" and then now
+second, scroll up to the top of the page, click &quot;Enter,&quot; and then now
 if I click these, it should go to the correct thing. We&apos;re not getting
 the house up there. If I scroll down manually, it&apos;s highlighting the
 correct section. That&apos;s really great.
@@ -4204,10 +4204,10 @@ review what we&apos;ve done.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-17">2.17 Reviewing the Whole Script</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 251.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 251. reviewing the whole script (2.17) (130) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image251.png"
-  alt="."
+  alt="2.17. Reviewing the Whole Script."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
@@ -4215,7 +4215,7 @@ review what we&apos;ve done.
 This is quite an extensive script. We&apos;ve done a lot here. I just want
 to go through it once quickly, to review what we&apos;ve done.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 252.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 252.  (130) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image252.png"
   alt="."
@@ -4236,7 +4236,7 @@ possibly because now we have the other part that&apos;s handling this.
 That&apos;s something to consider. But that&apos;s what that first part of that
 script does.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 253.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 253.  (131) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image253.png"
   alt="."
@@ -4256,7 +4256,7 @@ scrolled, and so on and so forth. Also, it will handle the situation for
 when it&apos;ll recalculate those things when we resize the screen but that
 happens later, so we set all that page position stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 254.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 254.  (132) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image254.png"
   alt="."
@@ -4276,7 +4276,7 @@ Then we set previews counter to counter, and we&apos;re ready for the next
 change. This script is the heart of the whole thing in terms of figuring
 out everything that should happen there on the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 255.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 255.  (133) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image255.png"
   alt="."
@@ -4288,7 +4288,7 @@ Then finally, we have the 'window on resize', and we&apos;re using
 clearTimeout to keep the setTime out from happening until we&apos;re
 actually done resizing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 256.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 256.  (133) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image256.png"
   alt="."
@@ -4302,7 +4302,7 @@ again, which we already talked about, which sets the tops of all of our
 pages, of all of our sections and figures out how far down the page we
 are and sets the styling for the links appropriately.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 257/258.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 257/258.  (134) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image257.png"
   style="width:45%;"
@@ -4337,7 +4337,7 @@ the highlighting here, and I actually don&apos;t need that in the other
 script. I think the two are affecting each other a little bit, so now
 both scripts are working.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 261/262.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 261/262.  (135) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image261.png"
   style="width:45%;"
@@ -4365,10 +4365,10 @@ the same script, and play JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-18">2.18 Introduction to Scroll Effects with JS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 263.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 263. intro to scroll effects with js (2.18) (136) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image263.png"
-  alt="."
+  alt="2.18. Intro to Scroll Effects with JavaScript."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
@@ -4377,17 +4377,15 @@ Scroll effects with Javascript in this lesson. We are going to do the
 same thing, that we just did with the previous lesson on school effects
 using jQuery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 264/265.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 264/265. scroll effects with plain js (136) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image264.png"
   style="width:45%;"
-  alt="." />
+  alt="Scroll Effects with JavaScript." />
 <img src="./images/image265.png"
   style="width:45%;"
-  alt="." />
+  alt="Example scroll effects with javascript." />
 </p>
-<!-- ![](.images/image264.png){width="4.0in" height="2.4337609361329835in"} -->
-<!-- ![](.images/image265.png){width="5.0in" height="3.0422003499562553in"} -->
 
 Only this one, we are going to use plain javascript instead. And that
 will allow you to compare the syntax between jQuery and javascript and
@@ -4396,6 +4394,16 @@ complicated script. It is a little hard to wrap your head around. So,
 doing it twice will actually help you, and I think you will see that
 there&apos;s a lot of similarities between the javascript version, and the
 jQuery version.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 266/267. index.html and style.css (137) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image266.png"
+  style="width:45%;"
+  alt="Scroll Effects with JavaScript." />
+<img src="./images/image267.png"
+  style="width:45%;"
+  alt="Example scroll effects with javascript." />
+</p>
 
 The second thing I want you to notice is that, or to remember is that
 this header is fixed at the top of the page and the CSS. So, the content
@@ -4409,8 +4417,16 @@ down here for the far Section one. So, that is important to remember.
 Okay, great, so with those basic pieces in mind we are ready to get
 started with our javascript, and the first thing we want to do is gather
 all of these links in our navigation.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 268. script.js (137) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image263.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
-Come over to our script. Js file, ignore this smooth scroll Js for a
+Come over to our script.js file, ignore this smooth scroll Js for a
 moment. We will get to that in a while but come on over here, and then,
 we just need a variable constant. Now, have links is assigned documents,
 query selector all, and what do I want to get? I am going to get these
@@ -4607,7 +4623,7 @@ download zip, here. I also have the same file already in the folder over
 here, so if you were to download that, it would be here. It&apos;s the same
 file here. I have this file in my folder, here. All we need to do is
 link to it. Here, on the page, at the bottom of the page, here, I want
-to link to that file, script src=\"smoothscroll.js\" that one there.
+to link to that file, script src=&quot;smoothscroll.js&quot; that one there.
 There we go. I want to put it before my script, so it loads first. Just
 by plugging that in, it&apos;ll now work in Safari. If I go back and test
 Safari again, refresh this page, refresh button&apos;s over here in Safari,
@@ -4655,8 +4671,8 @@ everything&apos;s loaded before we actually start calculating things like
 the height of each section. This is exactly the same as what we did in
 the jQuery version, except the syntax just a little bit different.
 Because instead of using the jQuery object, we&apos;re going to put an event
-listener on the window at event listener and we&apos;re going to say,\"
-load.\" You&apos;re going to run a function like so. It doesn&apos;t look that
+listener on the window at event listener and we&apos;re going to say,&quot;
+load.&quot; You&apos;re going to run a function like so. It doesn&apos;t look that
 different from jQuery at this point. It&apos;s fairly similar. Remember, in
 jQuery we would use the jQuery object to get the window and we&apos;d use
 the on method and we would check for load and then run function. A
@@ -4728,7 +4744,7 @@ we will always get 200 pixels. Let&apos;s go ahead and give that a try. At
 the end here, we need to add plus window.pageYOffset. This one, not X
 but Y. It should be a plus window <b>pageYOffset</b>. Now, let&apos;s save that
 and then come over here. I&apos;m going to make sure I&apos;m scrolled up to the
-top of the window. Click, \"Refresh\" and you can see I get 200 there.
+top of the window. Click, &quot;Refresh&quot; and you can see I get 200 there.
 If I scroll the page down and refresh again, you can see that I get 200
 there. I always get 200 for that first post. Great. Now, that we&apos;ve got
 that, the next thing we need to do is round it down using our
@@ -4854,7 +4870,7 @@ pagetop is less than postTops counter minus one. If it&apos;s less than
 that, then we must be scrolling up if both of these are true, in which
 case will decrement the counter. Let&apos;s give this a try. This should be
 showing us in our console over here. You come back. Let&apos;s go up to the
-top of the page, click \"Refresh\" and then scroll down the page. When I
+top of the page, click &quot;Refresh&quot; and then scroll down the page. When I
 get to that second section, and that second section it&apos;s 250 pixels
 from the top of the screen. The down says scrolling down too. It&apos;s into
 the 250 pixels that did it. Should be doing it. There, I see what I did
@@ -6218,7 +6234,7 @@ for the data, that is easily understood. However, XML has largely been
 eclipsed by another data format called JSON, which stands for JavaScript
 Object Notation. Over here, we have a level graph here, about the
 popularity of these. You can see JSON&apos;s going off the chart here. This
-comes from this article over here, \"The Rise of JSON.\" This is
+comes from this article over here, &quot;The Rise of JSON.&quot; This is
 interesting, about how JSON has become very popular. You&apos;ll also notice
 this name, Douglas Crockford, was involved with the invention of this
 data format JSON. We&apos;ve talked about him before. XML is a valuable
@@ -6837,8 +6853,8 @@ players, game data.index, and then I&apos;ll get that player. Then we have
 action area.innerHTML, and this one can just be a straight up stream.
 I&apos;m just going to use the single quotes here and put in a button with
 an idea set to roll, and I&apos;m going to say sometimes it&apos;s helpful to
-close that right away button like so and then it&apos;s going to say, \"Roll
-the dice.\" There we go. We&apos;ve got a button that gets added into to
+close that right away button like so and then it&apos;s going to say, &quot;Roll
+the dice.&quot; There we go. We&apos;ve got a button that gets added into to
 inner team up for the action area. We&apos;ve got a button in the action and
 now we need to have a click handler for that. I&apos;m going to have
 document.getelementbyID. Roll.outeventlistener, click. When we click
@@ -6853,7 +6869,7 @@ that&apos;s going to work. But we&apos;re going to run set up the term there so
 that we can get ready to roll the dice and see how that works. Let&apos;s
 test it. If we come over here and refresh the page, randomly picked the
 first player, roll the dice for player two, I get a button, when I click
-it says, \"Roll the dice.\" If I click, do I want to quit, it will go
+it says, &quot;Roll the dice.&quot; If I click, do I want to quit, it will go
 back and I could start again. At this point, just rolling the dice will
 just keep giving me more of these, but that&apos;s working perfectly. We&apos;re
 rolling the dice, we&apos;ve set up our turn and we&apos;re ready to roll the
@@ -6876,7 +6892,7 @@ those two dice. Then we&apos;ll also sum up the total of those two dice and
 put that into the rollSum property in the gameData object. Let&apos;s go
 ahead and get this started because this is an important one to do. I&apos;m
 going to add a function, function throwDice(){}, and then in here, first
-thing I&apos;m going to do is set the \"actionArea.innerHTML\" equals. Then
+thing I&apos;m going to do is set the &quot;actionArea.innerHTML&quot; equals. Then
 clear out that actionArea. Then I need to set my values for my dice up
 here, roll 1 and roll 2. GameData.roll1 is going to be equal to, and
 again, I&apos;m going to do Math.random. That will generate a random number
@@ -6932,7 +6948,7 @@ here. I need to subtract one there, gameData.roll1 minus 1. I think
 that&apos;s right. I prefer to have double quotes here I think. Quote there,
 double quotes, add an extra one for me. There we go. That will put in
 our source and really be good to have an attribute as well for good HTML
-equals \"die\". You could even do this thing again if you wanted to,
+equals &quot;die&quot;. You could even do this thing again if you wanted to,
 I&apos;m just going to leave it like that, that&apos;s fine. We&apos;ve added that
 image and that&apos;s the image for our first roll. We need an image for our
 second roll, which is going to look exactly like this, except, that this
@@ -6958,7 +6974,7 @@ here. Instead of this console log, roll the dice, it goes here. Make
 sure you put it in the right place, don&apos;t make my mistake. In the
 setup, the turn functioning, we throw the dice, so that one starts set
 up the turn, set up the turn, throws the dice once the turn has been set
-up, and you click the \"roll\" the button thing there. Let&apos;s see what
+up, and you click the &quot;roll&quot; the button thing there. Let&apos;s see what
 that gives us. Let&apos;s save this and come over here and test it. Now, if
 I refresh and randomly pick a player that can roll the dice, oops,
 error, file not found, 6die.jpgalt. I can see right here that I forgot
@@ -6973,8 +6989,8 @@ you&apos;re typing stuff, you&apos;re going to make mistakes. I make them all
 the time don&apos;t feel bad about it. Of course, I was trying to be fancy
 there by adding the alt attribute and really all attributes should be on
 there. Roll the dice. Now, I&apos;ve got two dice and it showed up and I can
-say, \"Do you want to quit?\" and start again, Roll the dice and make it
-two different dice. You have to refresh the page or click, \"do you want
+say, &quot;Do you want to quit?&quot; and start again, Roll the dice and make it
+two different dice. You have to refresh the page or click, &quot;do you want
 to quit? each time to get this to work. If you wanted to go even
 further, you could come in and add a console log, and see what
 gameData.rollSum some has in it or would any other variable in there has
@@ -7180,10 +7196,10 @@ buttons, one for rolling again or for passing. So, let&apos;s go ahead and
 do that and that&apos;s just simple HTML they were letting javascript
 generate there. So actionArea.innerHTML = open and close, quote there
 and I&apos;m going to have a button close button. Well, color, roll again,
-And it&apos;s going to have an id = \"rollagain\", something like that. So
+And it&apos;s going to have an id = &quot;rollagain&quot;, something like that. So
 there&apos;s that, Or we&apos;re going to do another button, open and close it,
 And in there put Pass and that what&apos;s going to have an id, id =
-\"pass\". So, you notice how I do that from the inside out for even
+&quot;pass&quot;. So, you notice how I do that from the inside out for even
 typing this stuff because that will keep me from making mistakes. That
 will help me from making mistakes, I might still make mistakes, but
 that&apos;ll help, okay? So we&apos;re going to set that and then we need two
@@ -7259,9 +7275,9 @@ I close inside the age too. That&apos;s great. What else do we need to do?
 I&apos;m going to clear out the action area and then we make a, get element
 by Id quit. I mean that button that&apos;s up at the top of the page, I&apos;m
 going to set its innerHTML to start a new game. So let&apos;s just do that.
-ActionArea = \" \". We&apos;re just clearing it out, that&apos;s all we&apos;re
+ActionArea = &quot; &quot;. We&apos;re just clearing it out, that&apos;s all we&apos;re
 doing there. And then we&apos;re going to say document.getElementById(
-\"quit\") that button there. I mean I&apos;d say it&apos;s innerHTML. It&apos;s
+&quot;quit&quot;) that button there. I mean I&apos;d say it&apos;s innerHTML. It&apos;s
 going to be start a New Game, something like that. So that once we&apos;ve
 won, we can start a new game. Cool, so that&apos;s the if statement that
 we&apos;ll check to see. If the game has won, we will start a new game. And
@@ -7441,7 +7457,7 @@ data changes, but the actual function, the actual variable doesn&apos;t
 change. So that can be constant as well, and then down here, do we have
 any other ones? I think that might be all of them. That&apos;s all I think
 that should work. So we saved that, and then we come over here, and we
-move this up, and we&apos;re going to link to src=\"script.js, whoops,
+move this up, and we&apos;re going to link to src=&quot;script.js, whoops,
 script that js. There we go. And you could move this up to the top of
 the page with the differ attribute on there as well. Let&apos;s just test
 this to make sure I didn&apos;t screw anything up. It looks like
