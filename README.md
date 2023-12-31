@@ -1236,10 +1236,10 @@ myscript.js. There we go, I&apos;ve got the files loaded. So, what&apos;s the
 next thing that we need to do? If we come back to the directions, it
 says place somewhere in the head of your document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 47.  (33) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 47. defer scripts loading; jquery, plugin, my script (33) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image047.png"
-  alt="."
+  alt="Defer script load; jQuery libary, then plugins, then my script."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1251,10 +1251,10 @@ here. So, that they will load in this order, first this library, then
 the plug in, then my script. And they&apos;ll load after the rest of the
 page is loaded, just to be certain. So, we&apos;ve got that, okay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 48.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 48. add markup with div, flexslider, ul and li images (33) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image048.png"
-  alt="."
+  alt="Add Markup container with div, FlexSlider, ul and li images."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1266,10 +1266,10 @@ the images inside of it, and we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-08">1.08. Adding Markup & Hooking Up the Slider</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 49.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 49. adding markup and hooking up the slider (34) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image049.png"
-  alt="."
+  alt="1.08. Adding Markup and Hooking Up the Slider."
   style="border: 2px solid gray;"
   width="40%;" />
 </p>
@@ -1279,10 +1279,10 @@ up so that it should all be ready to work. You want to make sure that
 your stylesheet loads after the FlexSlider style sheets, that you can
 modify changes there. We&apos;ll get to more on that later.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 50.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 50. step 2, add markup div, ul and li images (34) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image050.png"
-  alt="."
+  alt="Step 2 FlexSlider, add markup, div, ul and li images."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1295,10 +1295,10 @@ div with the class of FlexSlider and unordered list of the class of
 slides, and then we can actually put our images inside each list item
 for that unordered list.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 51.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 51. index.html, div class='flexslider' (35) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image051.png"
-  alt="."
+  alt="Add flexslider class to div and slides class to ul."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1312,10 +1312,10 @@ here. Let&apos;s go ahead and add the six more times. 1,2,3,4,5,6, and then
 just change these numbers, 2, 3, 4, 5, 6, and 7. That will give us seven
 slides with seven kittens, one on each side. That&apos;s great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 52.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. verify classes on div and ul (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image052.png"
-  alt="."
+  alt="Add class to div and ul in index.html."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1324,7 +1324,7 @@ Now we&apos;ve got our markup looking the way that it needs to look for our
 project. What&apos;s the next thing that we need to do? We did the markup,
 we got that all in, so that&apos;s great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 53.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 53. step 3, add to head of index.html (36) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image053.png"
   alt="."
@@ -1337,10 +1337,10 @@ the <b>window.load</b> function. Now, I happen to know that the
 <b>window.load</b> function does not work with the latest version of
 jQuery, but that&apos;s okay. This is what it says down here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 54.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. update myscript.js (37) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image054.png"
-  alt="."
+  alt="Add functions to MyScript.js."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1350,10 +1350,10 @@ these links, script type JavaScript. But we&apos;re going to put this not
 inside script tags, but we already have a separate file called
 <b>MyScript</b> that&apos;s linked up here. That&apos;s this one here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 55.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 55. on load, run flexslider function (37) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image055.png"
-  alt="."
+  alt="MyScript.js: Add flexslider function."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1370,15 +1370,15 @@ that happen first. But I happen to know that this isn&apos;t going to work
 because the <b>window.load</b> function is deprecated and they want us to
 use <b>window.on</b> instead. But let&apos;s just test it anyway.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 56/57.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 56/57. example test, verify jquery version # (38) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image056.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Example test, verify correct jquery.min.js is loaded." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image057.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Inspect jQuery and FlexSlider code." />
 </p>
 
 If I come over here and refresh this page, you&apos;ll notice the FlexSlider
@@ -1389,18 +1389,18 @@ this is a really good indicator that something&apos;s wrong with jQuery
 itself. It&apos;s not anything we did. It&apos;s actually jQuery. What&apos;s wrong
 here is that the latest version of jQuery does not support this file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 58.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58. jquery snippet (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image058.png"
-  alt="."
+  alt="jQuery snippet."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 59.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 59. load defer jquery in index.html (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image059.png"
-  alt="."
+  alt="Load correct version of jQuery defer in index.html."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1411,10 +1411,10 @@ if I put this up here instead of the newest version. When I put that in
 there, put my defer back in, and now if I go test the page, you&apos;ll see
 that it works. Close this, refresh.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 60.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 60. example, test kittens for sale (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image060.png"
-  alt="."
+  alt="Example, test Kittens For Sale."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1424,15 +1424,15 @@ errors, I get these buttons down here, so I&apos;ve got this additional
 functionality, and it&apos;s working. It&apos;s doing everything it&apos;s supposed
 to do.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 61/62.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 61/62. again, validate jquery version (40) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image061.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="index.html load jquery with correct version." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image062.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Run flexslider from myscript.js." />
 </p>
 
 But what if I really want to have the latest version of jQuery? Well,
@@ -1441,24 +1441,24 @@ jQuery really helps, because I know that this load method here has been
 replaced. It&apos;s been deprecated. You could go look that up on the jQuery
 website if you wanted to.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 63/64.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63/64. again, validate jquery (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image063.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Load jQuery version." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image064.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Test example flexslider." />
 </p>
 
 But I&apos;m going to come back here and I&apos;m going to command Z and put
 this back to the version 3.6 and save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 65.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. test example scroll (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image065.png"
-  alt="."
+  alt="Test example scroll."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1468,17 +1468,16 @@ to put in load as an event and then run the function and watch this.
 That should work. Make sure both files are saved, come back and refresh
 and look at that, it works fine using the on method, the more up-to-date
 method.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 66/67.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 66/67. fonts load and example tests (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image066.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Verify fonts reside in correct folder." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image067.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Example test fonts and FlexSlider." />
 </p>
 
 Okay, great. Now, while we&apos;re here, let me just do one other thing.
@@ -1499,10 +1498,10 @@ it and we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-09">1.09. FlexSlider Rules</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 68.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. flexslider rules (1.09) (42) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image068.png"
-  alt="."
+  alt="1.09. FlexSlider Rules."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1512,37 +1511,37 @@ working great. It&apos;s functional. All the pieces are functioning, but
 it&apos;s got some weird issues that we need to fix in terms of the layout
 in the styling.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 69/70.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 69/70. test example kittens for sale (42) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image069.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Inspect flexslider element style for each image." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image070.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="FlexSliderBasic-Start index.html." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 71/72.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 71/72. flexslider rules in styles.css (43) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image071.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="FlexSlider Rules." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image072.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Update styles for flexslider class." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 73/74.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 73/74. it should be working, test (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image073.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="It Should Be Working.  If not, fine tune it." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image074.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Test, example scroll left and right." />
 </p>
 
 For example, why is my Flexslider sticking out on the edge over here?
@@ -1571,15 +1570,15 @@ styles and clean-up the styling of the actual Flexslider. Let&apos;s add
 that to ours. How do I know that? Just by poking around in their CSS
 file. I want to make sure I&apos;m on my CSS file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 75/76.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 75/76. media queries, flexslider styles (44) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image075.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Verify media queries." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image076.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Test, example styles." />
 </p>
 
 Then somewhere in here you can put it wherever you want, it doesn&apos;t
@@ -1592,10 +1591,10 @@ rule in place here, if I come back and check my page, you&apos;ll notice the
 Flexslider looks better here. It&apos;s fitting into the space well, and
 I&apos;ve got rid of that gap and all that stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 76.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. inspect example site (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image076.png"
-  alt="."
+  alt="Inspect example site: Kittens For Sale."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1606,10 +1605,10 @@ here, dot flex-control-paging li a.flex-active. That&apos;s the class
 that&apos;s changing the colors on these buttons here. That&apos;s the one that
 I want to actually attach to.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 77.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 77. border, margin, radius, background-color (45) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image077.png"
-  alt="."
+  alt="styles.css: border, margin, background-color."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1620,10 +1619,10 @@ pound B40205, make it match that. What was it? Just color or is it
 background? Background: #B40205. There we go. That will give me a red
 background color. Save that and come back and test it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 78.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 78. inspect styles, font and color  (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image078.png"
-  alt="."
+  alt="Inspect to fine tune style, font and colors."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
@@ -1639,10 +1638,10 @@ and look the way you want it to look on your page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-10">1.10. Additional Controls</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 79.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. additional controls (1.10) (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image079.png"
-  alt="."
+  alt="1.10. Additional Controls."
   style="border: 2px solid gray;"
   width="40%;" />
 </p>
@@ -1650,15 +1649,15 @@ and look the way you want it to look on your page.
 Your slider should be looking good. We&apos;ve gotten everything in place
 and it&apos;s working.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 80/81.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 80/81. flexslider website options (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image080.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="FlexSlider website options." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image081.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Test, example website." />
 </p>
 
 It&apos;s functional and it looks good and we&apos;ve adjusted the CSS and all
@@ -1670,15 +1669,15 @@ these buttons down here, being able to go to slides that way. We could
 have done that manually on our own, but with this plug in, it provides
 it for us automatically and that&apos;s great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 82/83.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 82/83. options and default values for flexslider (47) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image082.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="List of FlexSlider Options and their default values." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image083.png?raw=true"
   style="width:45%"
-  alt="." />
+  alt="Additional options and default values." />
 </p>
 
 Now, what about all these additional options that show up down here at
@@ -1687,10 +1686,10 @@ use this to further customize the functionality of our FlexSlider.
 That&apos;s really cool, but how do you do it? It&apos;s not really clear by
 looking at this exactly what you need to do.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 84.  (47) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 84. flexslider options, default values (47) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image084.png"
-  alt="."
+  alt="FlexSlider Options, default values."
   style="border: 2px solid gray;"
   width="50%;" />
 </p>
