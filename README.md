@@ -2292,7 +2292,7 @@ section: <b>jQuery Plugins and FlexSlider</b>.
 -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-01">2.01 Module 2 Intro (0:38)</h2>
+<h2 name="ch2-01">2.01. Module 2 Intro (0:38)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 126. module 2 intro - scroll effects (67) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2674,7 +2674,7 @@ just in case somebody is using an older browser. I&apos;m not sure when they
 actually fixed up, so we won&apos;t see a difference because of that now,
 but it&apos;s just something to be aware of, Going forward.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-05">2.05 Add Some Easing and a Callback Function</h2>
+<h2 name="ch2-05">2.05. Add Some Easing and a Callback Function</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 151. add some easing and a callback function (2.05) (78) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2763,7 +2763,7 @@ have done that right. Here we go. Let&apos;s see if I did that right. I
 think I did. I come back here, refresh the page, click second and I did
 something wrong there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-06">2.06 Highlighting Elements</h2>
+<h2 name="ch2-06">2.06. Highlighting Elements</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 157. highlighting elements (2.06) (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2858,7 +2858,7 @@ We&apos;re going to deal with that in the next lesson.
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation">PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-07">2.07 Introduction to Page Location Tracking</h2>
+<h2 name="ch2-07">2.07. Introduction to Page Location Tracking</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 161. intro to page location tracking (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3059,7 +3059,7 @@ overloading your processor, if you want to move stuff around on the
 screen, it&apos;s easy to overload it by firing this event so many times and
 trying to do too many things at once.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-08">2.08 The Crux of the Problem</h2>
+<h2 name="ch2-08">2.08. The Crux of the Problem</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 175. the crux of the problem (2.08) (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3188,7 +3188,7 @@ pieces that make capturing scroll events tricky, the fact that you
 can&apos;t be sure which pixel you going to hit and you have to watch out
 for performance.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-09">2.09 Strategy</h2>
+<h2 name="ch2-09">2.09. Strategy</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182. strategy (2.09) (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3372,7 +3372,7 @@ it down. If I save that and then come back and refresh again, now I&apos;m
 just getting whole numbers 200, 700, 1525, 21.4, and 2683 and that&apos;s
 good. Great. We&apos;ll pick it up in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-10">2.10 Adding PageTop and If Statements</h2>
+<h2 name="ch2-10">2.10. Adding PageTop and If Statements</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 194. adding pagetop and if statements (102) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3479,12 +3479,12 @@ of the gotchas with working with scroll events, which is that you have
 to be careful not to do something every time you scroll a tiny little
 bit because you can overload your CPU.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-11">2.11 Writing the Else/If Statement - Part 1</h2>
+<h2 name="ch2-11">2.11. Writing the Else/If Statement - Part 1</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 202. writing the else/if statement in smoothscroll.js (105) ~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image202.png"
-  alt="32-50 of smoothscroll.js (before)."
+  alt="2.11. Writing the Else/If Statement - Part 1."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -3561,12 +3561,12 @@ sections are on the page, based on the height of that section, that
 we&apos;re calculating when the page loads, including all the images,
 because they have an effect on the height of these elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-12">2.12 Writing the Else/If Statement -- Part 2</h2>
+<h2 name="ch2-12">2.12. Writing the Else/If Statement -- Part 2</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 208.  (108) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 208. writing the else/if statement - part 2 (108) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image208.png"
-  alt="."
+  alt="2.12. Writing the Else/If Statement - Part 2."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
@@ -3683,12 +3683,12 @@ anything based on whether when you&apos;re scrolling or where your scrolling
 to. This script gives you a lot of power over that thing, and that&apos;s
 really cool.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-13">2.13 Edge Case Issues</h2>
+<h2 name="ch2-13">2.13. Edge Case Issues</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 214.  (113) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 214. edge case issues (2.13) (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image214.png"
-  alt="."
+  alt="2.13. Edge Case Issues."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
@@ -3812,12 +3812,12 @@ resizing the window. Because at that point, that&apos;s when I want to
 calculate, how tall are my sections and fix my script up so that it will
 run right at that particular size. We&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-14">2.14 Resizing Your Windows</h2>
+<h2 name="ch2-14">2.14. Resizing Your Windows</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 224.  (117) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 224. resizing your windows (2.14) (117) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image224.png"
-  alt="."
+  alt="2.14. Resizing Your Windows."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
@@ -3949,12 +3949,12 @@ If I make it slightly wider, I&apos;ll get a different set of numbers. But
 you&apos;ll notice this only re-evaluates after I&apos;m done resizing my
 window. That&apos;s really cool, that&apos;s working really well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-15">2.15 Resetting the Counter</h2>
+<h2 name="ch2-15">2.15. Resetting the Counter</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 235.  (122) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 235. resetting the counter (2.15) (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image235.png"
-  alt="."
+  alt="2.15. Resetting the Counter."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
@@ -4042,12 +4042,12 @@ this stuff twice, so we&apos;re going to actually take some of this stuff
 out of here and put it into its own function. We&apos;ll do that in the next
 lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-16">2.16 resetPagePosition Function</h2>
+<h2 name="ch2-16">2.16. resetPagePosition Function</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 240. resetpageposition function (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image240.png"
-  alt="resetPagePosition function of smoothscroll.js."
+  alt="2.16 resetPagePosition Function."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
@@ -4202,7 +4202,7 @@ showed you. But it&apos;s really pretty exciting. We&apos;re going to do one
 last lesson on this where we just look at the different pieces and
 review what we&apos;ve done.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-17">2.17 Reviewing the Whole Script</h2>
+<h2 name="ch2-17">2.17. Reviewing the Whole Script</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 251. reviewing the whole script (2.17) (130) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -4363,7 +4363,7 @@ the same script, and play JavaScript.
 
 <h3>PDF of Presentation: 2.17.jQueryPage-Location-Tracking.pdf (28 pgs)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-18">2.18 Introduction to Scroll Effects with JS</h2>
+<h2 name="ch2-18">2.18. Introduction to Scroll Effects with JS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 263. intro to scroll effects with js (2.18) (136) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -4472,12 +4472,12 @@ pointer debt to this function down here, and let it run that way.
 Start Files: Smooth Scroll with JavaScript --
 <b>2.18.Scroll-Effects-START.zip</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-19">2.19 Getting the Target -- Part 1 (4:50)</h2>
+<h2 name="ch2-19">2.19. Getting the Target -- Part 1 (4:50)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 266.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 266. getting the target - part 1 (2.19) (138) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image266.png"
-  alt="."
+  alt="2.19. Getting the Target - Part 1."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
@@ -4531,12 +4531,12 @@ next lesson and assign this value to a variable that we can actually use
 rather than just have it spit out in the console. Well, we&apos;ll do that
 in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-20">2.20 Getting the Target -- Part 2 (5:15)</h2>
+<h2 name="ch2-20">2.20. Getting the Target -- Part 2 (5:15)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 267.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 267. getting the target - part 2 (2.20) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image267.png"
-  alt="."
+  alt="2.20. Getting the Target - Part 2."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
@@ -4592,12 +4592,12 @@ the right location. It&apos;s not going all the way up to the top of the
 window, but the behavior &apos;smooth&apos; is not working. That&apos;s a bit of a
 problem, and we&apos;ll talk about it more in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-21">2.21 Smooth Scroll Polyfill (4:45)</h2>
+<h2 name="ch2-21">2.21. Smooth Scroll Polyfill (4:45)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 268.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 268. smooth scroll polyfill (2.21) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image268.png"
-  alt="."
+  alt="2.21. Smooth Scroll Polyfill."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
@@ -7607,4 +7607,4 @@ and you&apos;ll get more practice. So I look forward to seeing you there.
   alt="." />
 </p>
 -->
-<h6>Last Updated: 12/29/23 5:20pm</h6>
+<h6>Last Updated: 12/31/23 10:39pm</h6>
