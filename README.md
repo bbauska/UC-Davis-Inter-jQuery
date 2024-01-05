@@ -107,7 +107,7 @@ function topFunction() {
 >### [**2.15 Resetting the Counter**](#ch2-15)
 >### [**2.16 resetPagePosition Function**](#ch2-16)
 >### [**2.17 Reviewing the Whole Script**](#ch2-17)
->### [**2.18 Intro to Scroll Effects with JS**](#ch2-18)
+>### [** Intro to Scroll Effects with JS**](#ch2-18)
 >### [**2.19 Getting the Target - Part 1**](#ch2-19)
 >### [**2.20 Getting the Target - Part 2**](#ch2-20)
 >### [**2.21 Smooth Scroll Polyfill**](#ch2-21)
@@ -4420,7 +4420,7 @@ all of these links in our navigation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 268. script.js (137) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image263.png"
+  <img src="./images/image268.png"
   alt="."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
@@ -4474,9 +4474,9 @@ Start Files: Smooth Scroll with JavaScript --
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-19">2.19. Getting the Target -- Part 1 (4:50)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 266. getting the target - part 1 (2.19) (138) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 269. getting the target - part 1 (2.19) (138) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image266.png"
+  <img src="./images/image269.png"
   alt="2.19. Getting the Target - Part 1."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
@@ -4533,9 +4533,9 @@ in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-20">2.20. Getting the Target -- Part 2 (5:15)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 267. getting the target - part 2 (2.20) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 270. getting the target - part 2 (2.20) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image267.png"
+  <img src="./images/image270.png"
   alt="2.20. Getting the Target - Part 2."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
@@ -4594,9 +4594,9 @@ problem, and we&apos;ll talk about it more in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-21">2.21. Smooth Scroll Polyfill (4:45)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 268. smooth scroll polyfill (2.21) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 271. smooth scroll polyfill (2.21) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image268.png"
+  <img src="./images/image271.png"
   alt="2.21. Smooth Scroll Polyfill."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
