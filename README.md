@@ -4652,10 +4652,10 @@ and capturing the scrolling.
 
 <h2 name="ch2-22">2.22 Checking the Load (6:48)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 269.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 269. checking the load (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image269.png"
-  alt="."
+  alt="2.22. Checking the Load."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
