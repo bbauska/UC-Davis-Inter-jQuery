@@ -2377,7 +2377,7 @@ user experience. So, we&apos;re going to do that using jQuery.
   alt="Updates to styles.css - header and body." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 134. smooth scroller set heading (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-p align="center">
+<p align="center">
 <img src="./images/image134.png"
   alt="Smooth Scroller example with set heading."
   style="border: 2px solid black; border-radius:15px"
