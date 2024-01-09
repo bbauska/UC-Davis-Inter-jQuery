@@ -3755,7 +3755,7 @@ other scripts, for handling the same things that could happen.
   <img src="./images/image219.png"
   alt="."
   style="border: 2px solid black; border-radius:15px"
-  style="width50%;" />
+  width="50%;" />
 </p>
 
 In order to do this, I want to capture an event that fires when somebody
