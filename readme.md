@@ -3766,17 +3766,29 @@ natural. It&apos;s not easy to wrap your head around. However, the hard part
 of the script is over. The rest is fairly easy to do, but the hard part
 of this script is now been finished, that&apos;s nice to know.
 
-![](./images/webp/image209.webp){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 209.  (108) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image209.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
+
 
 This is where the magic happens, is in the &apos;if &apos; and in the
 &apos;elusive&apos; where we&apos;re tracking whether we&apos;re scrolling down or
 scrolling up, and where we are in the page in relation to our various
 sections of the page.
 
-![](./images/webp/image210.webp){width="5.0in"
-height="3.0635684601924758in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 210.  (109) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image210.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 The next thing we need to do is to take advantage of the script to
 change the highlighting of these actual pieces based on which section
 where. That&apos;s the last part of the script that we need to do, and that
@@ -3795,8 +3807,14 @@ here. Add these two variables, one that&apos;s just going to gather all the
 links just for a short cut, we don&apos;t have to take this out every time,
 and then one for previous counter that set to zero.
 
-![](./images/webp/image211.webp){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 211.  (110) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image211.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Now to make use of that I&apos;m going to come down here, I&apos;m going to add
 an an extra if statement and I&apos;m going to paste it in here to see that
@@ -3808,8 +3826,14 @@ selected from all of those anchor tags up there. Then we want to take
 the link with **eq**. **eq** is a function in jQuery that&apos;s like
 equals.
 
-![](./images/webp/image212.webp){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 212.  (111) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image212.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 I&apos;m going to get the a tag that equals counter. For the first section
 counter would be zero, for the second one or for the first anchor tag,
@@ -3834,8 +3858,14 @@ it&apos;s changed, these two things are set to be equal, and it won&apos;t fire
 again until you go into another section. That should actually work.
 Let&apos;s see if that works.
 
-![](./images/webp/image213.webp){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 213.  (112) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image213.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Come over here, I&apos;m going to just scroll up to the top here, refresh
 the page, and then now as I scroll down into my second section, you can
@@ -8829,15 +8859,26 @@ So that&apos;s all working. That&apos;s good. We&apos;ve done all of the cleanup
 stuff. We have one last thing to talk about, but I&apos;m going to do that
 in the next lesson, and you&apos;ve got a working game here.
 
-# 4.14 Extending the Game (6:21) {#extending-the-game-621 .unnumbered}
-
-![](./images/webp/image688.webp){width="4.0in"
-height="2.262820428696413in"}
+<h2 name="ch4-14">4.14 Extending the Game (6:21)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 688. extending the game (module 4.14) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image688.webp"
+  alt="Extending the Game."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
 Extending the game.
 
-![](./images/webp/image689.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 689. extending the game  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image689.webp"
+  alt="Extending the Game."
+  style="border: 2px solid #000000;" 
+  width="50%;" />
+</p>
 
 Now you have a pig day scheme that works and functions and it&apos;s pretty
 basic and that&apos;s great because we were able to plan and strategize a
@@ -8851,8 +8892,14 @@ it and do some interesting things with it. I&apos;ve given you some ideas
 for some things you could do that are not too hard and some that are
 more challenging if you really want to try to do them.
 
-![](./images/images/webp/image690.webp){width="5.0in"
-height="2.922007874015748in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 690. extending the game (module 4.14) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image690.webp"
+  alt="Extending the Game."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
 The first is when you roll a one, it zeros out the cumulative score for
 that turn. If you think about this game the way it is now over here,
@@ -8928,14 +8975,19 @@ more interesting better game. I look forward to seeing what people post
 on the discussion board. I&apos;ll check in from time to time and see what
 excellent versions people have made of the big game.
 
-## 4.14.Game-of-Pig.pdf
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/QxK0k/pdf-of-presentation">4.14.Game-of-Pig.pdf</a></li>
+</ul>
 
-## <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/QxK0k/pdf-of-presentation> {#httpswww.coursera.orglearninteractivity-javascript-jquerysupplementqxk0kpdf-of-presentation .unnumbered}
-
-# Course Summary (0:57) {#course-summary-057 .unnumbered}
-
-![](./images2/images/webp/image691.webp){width="4.0in"
-height="2.262820428696413in"}
+<h2 name="ch4-15">Course Summary (0:57)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 691. course summary: interactivity with javascript and jquery (xxx) ~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image691.webp"
+  alt="Course Summary: Interactivity with JavaScript and jQuery."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
 Congratulations for making it to the end of our third course on
 JavaScript and therefore, of course, specialization. We&apos;ve done a lot.
@@ -8953,4 +9005,5 @@ course, we&apos;ll get even more complex scripts, and I promise you&apos;re
 going to learn even more JavaScript and you&apos;ll get even better at it
 and you&apos;ll get more practice. So I look forward to seeing you there.
 
-.the end...
+<p>.the end...</p>
+<h6>Last Updated 1/11/2024 7:11pm</h6>
