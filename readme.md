@@ -4714,7 +4714,6 @@ pointer debt to this function down here, and let it run that way.
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript">2.18.Scroll-Effects-START.zip</a></li>
 <ul>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-19">2.19. Getting the Target -- Part 1 (4:50)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4741,10 +4740,10 @@ event.target is a little bit more direct and explicit.
 So event.target get attribute href, we&apos;ll find out which link we
 clicked. And if we go back to our code over here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 271.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 271. match link with href # link (140) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/webp/image271.webp"
-  alt="."
+  alt="Match link with href pound link (#first - #fifth)."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -4768,9 +4767,6 @@ targetSection.
   style="width:45%;"
   alt="Example scroll effects with javascript." />
 </p>
-![](./images/webp/image272.webp){width="3.5in"
-height="1.9799682852143483in"}![](./images/webp/image273.webp){width="3.5in"
-height="1.9799682852143483in"}
 
 TargetSection and it&apos;s going to go get that targetID. When you click on
 one of those, the event.target can only click on one link at a time,
@@ -4778,9 +4774,14 @@ even though we put the event listener in all of them, you can only click
 one link at a time. Which one did you click get the href that goes with
 that one, put it in targetID and then we can go get that section and
 that&apos;s our targetSection there.
-
-![](./images/webp/image274.webp){width="5.0in"
-height="2.828525809273841in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 274.  (141) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image274.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 To test this out let&apos;s run a console log here, console.log and pass
 into the console log as a statement that looks like this. So we&apos;re
@@ -4790,8 +4791,14 @@ is in and .top will tell me what the top edges, .bottom would give me
 the bottom edge. We can get the left and we can get the right, but that
 will get me that kind of thing.
 
-![](./images/webp/image275.webp){width="5.0in"
-height="2.828525809273841in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 275. test, inspect smooth scroller (141) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image275.webp"
+  alt="Test, inspect smooth scroller."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Let&apos;s actually save this and see if I&apos;m doing my job well over here by
 coming over here and inspect this. And when I click one of these
@@ -4810,20 +4817,36 @@ decimal points. All these places be on the decimal point, we can just
 round this down. So we&apos;ll do that in the next lesson and assign this
 value to a variable that we can actually use rather than just have it
 spit out in the console. Well, we&apos;ll do that in the next lesson.
-
-# 2.20 Getting the Target -- Part 2 (5:15) {#getting-the-target-part-2-515 .unnumbered}
-
-![](./images/webp/image276.webp){width="4.0in"
-height="2.2491447944006997in"}
-
-![](./images/webp/image277.webp){width="5.0in"
-height="2.828525809273841in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-20">2.20 Getting the Target - Part 2 (5:15)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 276. getting the target - part 2 (2.20) (142) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image276.webp"
+  alt="2.20. Getting the Target -- Part 2."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 277.  (143) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image277.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 This statement is generating the tops of each section when I click on
 them, so I want sign that to variable.
 
-![](./images/webp/image278.webp){width="5.0in"
-height="2.828525809273841in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 278.  (143) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image278.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 So instead of console.log here, I&apos;m going to take that out, check out
 the path to see at the end and instead I&apos;m going to create a variable
@@ -4837,9 +4860,14 @@ remember, that&apos;s my First Section, starts with 200 pixels down the
 page, so we really want our, when we see scroll, we want it to smooth
 scroll to this position, 200 pixels down, not all the way up at the top
 of the window, because that wouldn&apos;t really help us.
-
-![](./images/webp/image279.webp){width="5.0in"
-height="2.828525809273841in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 279.  (144) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image279.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Now, that we have this variable value in this variable here, we can use
 it using the window &apos;Scroll by&apos; method. This is the method that&apos;s
@@ -4860,7 +4888,7 @@ just going to &apos;console.log&apos;, &apos;originalTop&apos;, just so you can 
 what&apos;s in that variable, each time we click, one of these links should
 be what we saw before.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 280/281.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 280/281.  (145) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image280.webp"
   style="width:45%;"
@@ -4891,11 +4919,16 @@ and I click on &apos;Third Section&apos;, it just pops to the 3rd Section, it&ap
 going to the right location. It&apos;s not going all the way up to the top
 of the window, but the behavior &apos;smooth&apos; is not working. That&apos;s a bit
 of a problem, and we&apos;ll talk about it more in the next lesson.
-
-# 2.21 Smooth Scroll Polyfill (4:45) {#smooth-scroll-polyfill-445 .unnumbered}
-
-![](./images/webp/image282.webp){width="4.0in"
-height="2.2491447944006997in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-21">2.21 Smooth Scroll Polyfill (4:45)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 282. smooth scroll polyfill (2.21) (146) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image282.webp"
+  alt="2.21. Smooth Scroll Polyfill."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 In the last lesson (2.20), we noticed that the Smooth Scroll was working
 fine here in Chrome, but it&apos;s not working properly in Safari. What can
@@ -4924,7 +4957,6 @@ script to make it work. These days, most of the browsers are pretty up
 to date in standards and there&apos;s very little need for **polyfills**,
 but it&apos;s a worthwhile concept to know about and it&apos;s worth figuring
 out how to use them.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 285/286.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -4945,9 +4977,14 @@ download that, it would be here. It&apos;s the same file here. I have this
 file in my folder, here. All we need to do is link to it. Here, on the
 page, at the bottom of the page, here, I want to link to that file,
 script src=&quot;smoothscroll.js&quot; that one there.
-
-![](./images/webp/image287.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 287.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image287.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 There we go. I want to put it before my script, so it loads first. Just
 by plugging that in, it&apos;ll now work in Safari. If I go back and test
@@ -4965,9 +5002,14 @@ get fixed when we do the next script and we make them highlight based on
 where down the page we are. We don&apos;t need to make them highlight when
 we&apos;re actually clicking on them because it&apos;ll do it automatically with
 the second part of the script.
-
-![](./images/webp/image288.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 288.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image288.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 This is a really great little script. You can see that it&apos;s fairly
 short. It doesn&apos;t have all the features that the other one had and that
@@ -4980,11 +5022,16 @@ that on your own. For now, we&apos;re going to go forward and do the second
 part of this script, which is the part where when we scroll down the
 page manually, it changes the highlighting in the navigations. We&apos;ll
 again be working with scrolling and capturing the scrolling.
-
-# 2.22 Checking the Load (6:48) {#checking-the-load-648 .unnumbered}
-
-![](./images/webp/image289.webp){width="4.0in"
-height="2.2491447944006997in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-22">2.22 Checking the Load (6:48)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 289.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image289.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 We have the script that does the smooth scroll, and now we&apos;re going to
 do the second part of the script, which again is going to take place
@@ -4995,9 +5042,14 @@ is going to depend on the images in that section. So if the images
 haven&apos;t loaded then the height will be different. We want to make sure
 everything&apos;s loaded before we actually start calculating things like
 the height of each section.
-
-![](./images/webp/image290.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 290.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image290.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 This is exactly the same as what we did in the jQuery version, except
 the syntax just a little bit different. Because instead of using the
@@ -5011,8 +5063,14 @@ compact, but not really all that different. We&apos;re going to use this one
 down here with clean JavaScript window out of industry. Look. What are
 we going to put in there?
 
-![](./images/webp/image291.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 291.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image291.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 We&apos;re going to put some variables. First, I&apos;m just going to paste
 these in, you&apos;re going to have to type up. I have a variable called
@@ -5028,8 +5086,14 @@ we&apos;ve got the counter in the previous counter and we&apos;ll use done
 resizing later for our script that deals with what happens if people are
 resizing their window. So we&apos;ll do that again as well.
 
-![](./images/webp/image292.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 292.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image292.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Now, one thing you might notice here, is that the counter is being set
 to one, and the previous count is being set to one instead of zero.
@@ -5065,8 +5129,14 @@ parentheses. Really what I want to do, is I want to get posts. I want to
 get the first posts, so I&apos;m going to do posts square brackets, zero.get
 pounding Plan Recto. Let&apos;s come to log that out.
 
-![](./images/webp/image295.webp){width="5.0in"
-height="2.9519225721784776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 295.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image295.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 If I go over here to my page and I turn on my inspector, you&apos;re going
 to switch it over and looking at my cancel, make sure you scroll up here
@@ -5096,19 +5166,29 @@ that, because I want to know when the page loads how far down is the top
 of each of these sections. I don&apos;t want it to change. I&apos;m going to
 need to do something to adjust that number and fix that, and we&apos;ll take
 care of that in the next lesson.
-
-# 2.23 Top Posts (5:35)
-
-![](./images/webp/image298.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-23">2.23 Top Posts (5:35)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 298.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image298.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 In the last lesson, we saw that we could use the
 **getBoundingClientRect().top** to get the top of any particular element
 on the page. In this case, the first element, the first section, we&apos;re
 getting here posts, zero.
-
-![](./images/webp/image299.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 299.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image299.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 But we don&apos;t want where it is anywhere on the page. We want to get the
 distance. It is from the top of the window, from when the page loads and
@@ -5116,7 +5196,6 @@ have that be consistent. We can do that by adding to it
 **window.pageYOffset**. That&apos;s the amount of pixels the window has
 scrolled past the viewport, and by adding that back on there, we will
 always get 200 pixels. Let&apos;s go ahead and give that a try.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 300/301.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -5134,9 +5213,14 @@ and then come over here. I&apos;m going to make sure I&apos;m scrolled up to the
 top of the window. Click, &quot;Refresh&quot; and you can see I get 200 there.
 If I scroll the page down and refresh again, you can see that I get 200
 there. I always get 200 for that first post.
-
-![](./images/webp/image302.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 302.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image302.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Great. Now, that we&apos;ve got that, the next thing we need to do is round
 it down using our **Math.floor**, because some of these will generate a
@@ -5163,8 +5247,14 @@ extra room here because I also need to put in here, **Math.floor()**,
 and the second parentheses will close here like so. **Math.floor** will
 take this, round it down and then it gets pushed into postTops.
 
-![](./images/webp/image303.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 303.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image303.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Then, of course, we want to cancel log out postTops just to see what the
 heck is going on. We don&apos;t need this one anymore. In fact, I&apos;m just
@@ -5172,8 +5262,14 @@ going to cut that from there. Stick it down here and change this to
 postTops. Now, we should be able to see when we go back to our page over
 here.
 
-![](./images/webp/image304.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 304.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image304.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 If I refresh, I&apos;m getting the same numbers that I got before in the
 jQuery version. This is the exact same thing I&apos;m getting of the top of
@@ -5183,18 +5279,29 @@ scroll of it is confusing. It helps to do it a couple of times. Here
 we&apos;re doing it with plain JavaScript instead. But really, all the steps
 are the same, and it&apos;s the same process. It&apos;s just the syntax, that&apos;s
 a little bit different.
-
-# 2.24 Add an Event Listener (5:42)
-
-![](./images/webp/image305.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-24">2.24 Add an Event Listener (5:42)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 305.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image305.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 In the last module, we put all the tops of our posts or our sections
 really into post tops, and we can alert our council logged that out so
 we know where they all are.
 
-![](./images/webp/image306.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 306.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image306.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Again, we&apos;re putting all of this inside the window load event because
 we want to make sure that the page loads so that we get the correct
@@ -5205,8 +5312,14 @@ going to affect how tall each section is and where the top of the next
 section starts. That&apos;s why we&apos;re putting everything inside of the
 window function.
 
-![](./images/webp/image307.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 307.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image307.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Now we&apos;re at the point where we&apos;re ready to start working with our
 scroll event. We need to add an event listener for capturing scroll
@@ -5217,8 +5330,14 @@ scroll event, then we&apos;re going to run a function, and all of our stuff
 will go inside of here. Now, this looks very similar to the jQuery
 version of the scroll event.
 
-![](./images/webp/image308.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 308.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image308.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 In jQuery, we did it like this. We used the jQuery objects to grab our
 window and then we use the on method to capture scroll, and then run a
@@ -5229,8 +5348,14 @@ syntax is not that much longer and you don&apos;t have to download the
 entire jQuery library to use it, or force your users to download the
 entire jQuery library to use it. That&apos;s nice.
 
-![](./images/webp/image309.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 309.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image309.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Then we&apos;re going to put into this variable pagetop. Pagetop it&apos;s going
 to equal this thing, **window.pageYOffset**. Again, what that does is
