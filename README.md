@@ -1,7 +1,7 @@
 ---
 title: "University of California @Davis Interactivity with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "12/29/2023 5+pm"
+date last editted: "1/11/2024 7+pm"
 output: 
   markdown:
     with some style
@@ -7583,28 +7583,5 @@ that course, we&apos;ll get even more complex scripts, and I promise you&apos;re
 going to learn even more JavaScript and you&apos;ll get even better at it
 and you&apos;ll get more practice. So I look forward to seeing you there.
 
-.the end...
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ ##.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- template single
-<p align="center">
-  <img src="./images/image###.png"
-  alt="."
-  style="border: 2px solid gray;"
-  width="40%;" />
-</p>
--->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ ##/##.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- template >= 2
-<p align="center" width="100%">
-<img src="./images/image###.png?raw=true"
-  style="width:45%"
-  alt="." />
-&nbsp;&nbsp;&nbsp;
-<img src="./images/image###.png?raw=true"
-  style="width:45%"
-  alt="." />
-</p>
--->
-<h6>Last Updated: 12/31/23 10:39pm</h6>
+<p>.the end...</p>
+<h6>Last Updated 1/11/2024 7:11pm</h6>
