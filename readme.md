@@ -4597,9 +4597,9 @@ you have a script that you could use to create all interesting
 interactions as you scroll down the page, all done in JQuery. We&apos;ll do
 the same script, and play JavaScript.
 
-## <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation> 
-
-<h3>PDF of Presentation: 2.17.jQueryPage-Location-Tracking.pdf (28 pgs)</h3>
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation">2.17.jQueryPage-Location-Tracking.pdf (28 pgs).</a></li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-18">2.18. Introduction to Scroll Effects with JS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4611,10 +4611,9 @@ the same script, and play JavaScript.
   width="40%;" />
 </p>
 
-Scroll effects with Javascript in this lesson. We are going to do the
+<p>Scroll effects with Javascript in this lesson. We are going to do the
 same thing, that we just did with the previous lesson on school effects
-using jQuery.
-
+using jQuery.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 264/265. scroll effects with plain js (136) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -4634,7 +4633,7 @@ doing it twice will actually help you, and I think you will see that
 there&apos;s a lot of similarities between the JavaScript version, and the
 jQuery version.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 266/267. index.html and style.css (137) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 266/267. index.html and style.css (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image266.webp"
   style="width:45%;"
@@ -4658,17 +4657,17 @@ with our JavaScript, and the first thing we want to do is gather all of
 these links in our navigation.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 268. script.js (137) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 268. script.js navlinks add event listener (137) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/webp/image268.webp"
-  alt="."
+  alt="script.js navLinks, addEventListener."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
 </p>
 
-Come over to our script.Js file, ignore this smooth scroll Js for a
+Come over to our script.js file, ignore this smooth scroll function for a
 moment. We will get to that in a while but come on over here, and then,
-we just need a variable constant. Now, have links is assigned documents,
+we just need a variable constant. Now, navLinks is assigned documents,
 query selector all, and what do I want to get? I am going to get these
 links over here, nav ul l I a I want to get all of those anchor tags
 that are in there in the un ordered list, and side list items there. So,
@@ -4682,8 +4681,8 @@ And we could use a traditional for loop. We could do that, that would be
 fine, we could do that, I kind of like that for each method in
 JavaScript that we can use with arrays because nah Vilnyx is now an
 array of elements in array of anchor tags, so, I kind of like that
-better. So, I am going to just do knave links, Mhm. .forEach like so,
-and, as always we want to type from the outside in or the inside out,
+better. So, I am going to just do knave links, .forEach like so,
+and, as always we want to type from the inside out,
 and so, that we understand exactly what we are doing here for each takes
 a function that is going to run each time that we for each one of these
 links. So, up here inside here, you need to pass in a variable, whoops,
@@ -4697,8 +4696,9 @@ do instead is I want to make a separate function function, smooth
 scroll, do, smooth scrolling, and the year I am going to pass in the
 event object and you event not prevent default, so you do not register
 the clicks on the links and this could be the word of and, or it could
-just be E or E V T a lot of times people will do that, E V T. Thank you,
-so I am going to leave an event just because I think it is helpful, and
+just be E or E V T a lot of times people will do that, E V T. 
+
+Thank you, so I am going to leave an event just because I think it is helpful, and
 that is a little bit more letters but it is just a variable. And then,
 up here instead of running this function, I am going to run smooth
 scroll here as a named function, and notice it does not get the
@@ -4709,13 +4709,16 @@ and when you click it, if we put the parentheses there, then it will run
 right away, and not even wait for the click. So, we want to just put the
 pointer debt to this function down here, and let it run that way.
 
-Start Files: Smooth Scroll with JavaScript --
+<h3>Start Files: Smooth Scroll with JavaScript --</h3>
 
-<b>2.18.Scroll-Effects-START.zip</b>
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript">2.18.Scroll-Effects-START.zip</a></li>
+<ul>
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-19">2.19. Getting the Target -- Part 1 (4:50)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 269. getting the target - part 1 (2.19) (138) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 269. getting the target - part 1 (2.19) (139) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/webp/image269.webp"
   alt="2.19. Getting the Target - Part 1."
@@ -4727,7 +4730,7 @@ Next, we want to get the href of the link that we clicked, the one that
 we clicked on, and we could use the this keyword, but in some cases,
 event.target is a little bit more direct and explicit.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 270.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 270. getting the target smoothscroll (139) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/webp/image270.webp"
   alt="."
@@ -4738,7 +4741,7 @@ event.target is a little bit more direct and explicit.
 So event.target get attribute href, we&apos;ll find out which link we
 clicked. And if we go back to our code over here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 271.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 271.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/webp/image271.webp"
   alt="."
@@ -4748,16 +4751,15 @@ clicked. And if we go back to our code over here.
 
 When you click on one of these links, first, second, third or fourth,
 you&apos;re getting this href pound first or pound second or pound third,
-pound forth and fifth. Which again match the IDs down here (botttom of
+pound forth and fifth. Which again match the IDs down here (bottom of
 code above) for our sections. So the idea is that if we can get this,
 then we can find out, okay, which section
 document.querySelector(targetID). So this is going to hold either pound
 first, pound, second, pound third, pound fourth or pound fifth. So in
 targetAnchor, I&apos;m going to get my targetID. Here I call the variable
 targetSection.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 272/273.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 272/273.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image272.webp"
   style="width:45%;"
@@ -4857,10 +4859,16 @@ If I see that and test it, I believe it will work before I try it, I&apos;m
 just going to &apos;console.log&apos;, &apos;originalTop&apos;, just so you can see
 what&apos;s in that variable, each time we click, one of these links should
 be what we saw before.
-
-![](./images/webp/image280.webp){width="3.5in"
-height="1.9799682852143483in"}![](./images/webp/image281.webp){width="3.5in"
-height="1.9799682852143483in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 280/281.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image280.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image281.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let&apos;s go ahead and test this. If I refresh my page, starting up stride
 up here at the top of the page, &apos;refresh&apos; and I click &apos;Second
@@ -4895,9 +4903,16 @@ we do about that? What we can do is we can use what&apos;s called a
 **Polyfill**. A **polyfill** is a term that was created by a developer
 named Remy Sharp.
 
-![](./images/webp/image283.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image284.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 283/284.  (1) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image283.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image281.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 If you go just google &apos;who invented **polyfill**?&apos; or &apos;where did the
 Polyfill name come from?&apos;, Remy Sharp has written on his blog, in 2010,
@@ -4910,9 +4925,16 @@ to date in standards and there&apos;s very little need for **polyfills**,
 but it&apos;s a worthwhile concept to know about and it&apos;s worth figuring
 out how to use them.
 
-![](./images/webp/image285.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image286.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 285/286.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image285.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image286.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 As it turns out, somebody wrote a **polyfill** for this particular
 thing, and it&apos;s over here on GitHub. It&apos;s this &apos;iamdustan&apos;
@@ -5024,9 +5046,16 @@ easier. You don&apos;t have to deal with the zero indexing and the cognitive
 work that provides. But we&apos;ve got this here and we&apos;re ready to go
 forward with the next part.
 
-![](./images/webp/image293.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image294.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 293/294.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image293.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image294.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Now, we use this method in the previous script, getBoundingClientRect at
 top. We use that to find the top of the particular element in the
@@ -5046,9 +5075,16 @@ I think because it should be a 200. Cancel log posts zero. John and Joe
 cut out that last bit of going to the page and having it not work and
 pick it up from here.
 
-![](./images/webp/image296.webp){width="3.5in"
-height="2.0663462379702535in"}![](./images/webp/image297.webp){width="3.5in"
-height="2.0663462379702535in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 296/297.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image296.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image297.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 When I go back to the Web page and refresh, you&apos;ll notice that I get a
 200 here, because I know that this first post starts 200 pixels down the
@@ -5081,9 +5117,16 @@ have that be consistent. We can do that by adding to it
 scrolled past the viewport, and by adding that back on there, we will
 always get 200 pixels. Let&apos;s go ahead and give that a try.
 
-![](./images/webp/image300.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image301.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 300/301.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image300.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image301.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 At the end here, we need to add plus window.pageYOffset. This one, not X
 but Y. It should be a plus window **pageYOffset**. Now, let&apos;s save that
@@ -5200,9 +5243,16 @@ height="3.091346237970254in"}
 I can, **console.log**, put **pageTop** and we should be seeing those
 pixels change as we scroll down the page. Let&apos;s test that and see.
 
-![](./images/webp/image311.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image312.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 311/312.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image311.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image312.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 I come back here and refresh my page. Now as I scroll down the page, you
 can see those pixels are going up. Again as before, with the jQuery
@@ -5291,9 +5341,16 @@ Over here. I put the plus 250 in the wrong place. Should be here. Plus
 go. Now when I get to section two, scrolling down too, when that is 250
 pixels from the top of the page, it hits it and says okay.
 
-![](./images/webp/image318.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image319.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 318/319.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image318.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image319.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 We must be looking in section two, and this will get to 250, we&apos;ve got
 three, four, five, and then when we go up, we get four, three, two, one.
@@ -5469,9 +5526,16 @@ just adding an event listener to the Window and resizing it for when we
 resize. So it&apos;s not that different it&apos;s a little bit different and the
 JQuery is a little bit shorter but that&apos;s okay.
 
-![](./images/webp/image334.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image335.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 334/335.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image334.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image335.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Once we&apos;re in here, what we&apos;re going to do is we&apos;re going to use this
 variable that we left up here doneResizing and we&apos;re going to say done
@@ -5518,9 +5582,16 @@ height="2.261111111111111in"}
 We&apos;re down to the end of this lesson and we just need to fill out this
 resetPagePosition function.
 
-![](./images/webp/image339.webp){width="3.5in"
-height="1.9246259842519684in"}![](./images/webp/image340.webp){width="3.5in"
-height="1.9246259842519684in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 339/340.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image339.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image340.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 We&apos;re going to start by coming here and copy this (left image). And
 stick it in here (right image). I also want to make sure postTops gets
@@ -5591,9 +5662,16 @@ you&apos;re saying exactly what does what, but that kind of shortens it up a
 little bit, makes it a little bit more compact. Maybe be helpful with
 some comments, I don&apos;t know.
 
-![](./images/webp/image342.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image343.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 342/343.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image342.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image343.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 All right great. So now that we&apos;ve got this, the last thing we need to
 do, we&apos;re already running it, we&apos;re already running this function
@@ -5602,10 +5680,16 @@ it instead of this stuff, we can get rid of this all together because
 we&apos;re because this is going to include doing that, so we don&apos;t need to
 do that again, we can just run it here. And that should work. Let&apos;s go
 over and test it out really quickly.
-
-![](./images/webp/image344.webp){width="3.5in"
-height="2.062607174103237in"}![](./images/webp/image345.webp){width="3.5in"
-height="2.062607174103237in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 344/345.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image344.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image345.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Come back to my page over here and I&apos;m going to make sure I&apos;m scrolled
 up to the very top. I&apos;m going to refresh and then I&apos;m going to resize
@@ -5695,19 +5779,32 @@ comes together. And then you can take on the challenge of adding the
 interactive elements because you&apos;ll understand how the HTML and CSS
 come together.
 
-![](./images/webp/image353.webp){width="3.5in"
-height="1.9840813648293962in"}![](./images/webp/image354.webp){width="3.5in"
-height="1.9840813648293962in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 353/354.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image353.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image354.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 We&apos;ll be copying and pasting from snippets and I have some snippets
 over here so you can see that will be sort of copying and pasting these
 to build up our html. I&apos;ve got more snippets for the CSS so you&apos;ll see
 how that all comes together. Okay so we&apos;ve got that and that&apos;s really
 cool.
-
-![](./images/webp/image355.webp){width="3.5in"
-height="1.9840813648293962in"}![](./images/webp/image356.webp){width="3.5in"
-height="1.9840813648293962in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 355/356.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image355.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image356.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 There are a few things to pay attention to before we really start. There
 are some start files with description. Start files include the basic
@@ -5728,16 +5825,28 @@ sizes.
 The site will be constructed with this mobile first approach where
 we&apos;ll be adding layout for the larger screens in the media queries. The
 page will be responsive but it&apos;s not RESPONSIVE.
-
-![](./images/webp/image358.webp){width="3.5in"
-height="1.9840813648293962in"}![](./images/webp/image359.webp){width="3.5in"
-height="1.9840813648293962in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 358/359.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image358.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image359.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 You can see here is the link for the normal script and the google fonts.
-
-![](./images/webp/image360.webp){width="3.5in"
-height="1.9840813648293962in"}![](./images/webp/image361.webp){width="3.5in"
-height="1.9840813648293962in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 360/361.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image360.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image361.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Our stylesheet, we&apos;ve got links for jQuery easing and on the style
 sheet we have some sections that we can put our different pieces in. So
@@ -5760,9 +5869,16 @@ page. We&apos;ve got a header and then we&apos;ve got a dip for the slider and
 then we&apos;ve got a section for each part of the page as you scroll down
 the page.
 
-![](./images/webp/image364.webp){width="3.5in"
-height="1.9788462379702536in"}![](./images/webp/image365.webp){width="3.5in"
-height="1.9788462379702536in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 364/365.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image364.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image365.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 So going back to our design here, if we look at this, you&apos;ll see up
 here, this is going to be the header with the navigation. And we&apos;ve got
@@ -5770,10 +5886,16 @@ this will be for the flex slider here and then that&apos;s a section,
 that&apos;s a section, that&apos;s a section, that&apos;s a section and that&apos;s a
 section, so we&apos;ll be put and then the footer. So we&apos;ve got all of
 those pieces in there.
-
-![](./images/webp/image366.webp){width="3.5in"
-height="1.9788462379702536in"}![](./images/webp/image367.webp){width="3.5in"
-height="2.141505905511811in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 366/367.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image366.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image367.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 So to get that going, we&apos;re going to start adding this HTML to our page
 over here so we can go ahead and add that into our body here. Yeah,
@@ -5806,10 +5928,16 @@ this. But I think it&apos;s helpful to go through it anyway.
 Inside the header, you&apos;re going to have a div with the logo in it and
 the H 1 for the page. It&apos;s important for pages to have a main heading
 because google pays a lot of attention to that.
-
-![](./images/webp/image369.webp){width="3.5in"
-height="2.141505905511811in"}![](./images/webp/image370.webp){width="3.5in"
-height="2.141505905511811in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 369/370.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image369.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image370.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 And then we&apos;ve got our navigation and again, this is on the snippet, so
 you don&apos;t have to type it, it&apos;s all here, you just come in here and
@@ -5817,10 +5945,16 @@ copy this and paste it. So we&apos;re going to come over here and it&apos;s
 going to go inside the header there like that. So it&apos;s all displayed
 properly there. Great. So that the HTML for the header is done, we can
 save that and let&apos;s see what we need to do next.
-
-![](./images/webp/image371.webp){width="3.5in"
-height="2.141505905511811in"}![](./images/webp/image372.webp){width="3.5in"
-height="2.141505905511811in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 371/372.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image371.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image372.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 ![](./images/webp/image373.webp){width="5.0in"
 height="3.0592946194225723in"}
@@ -5837,10 +5971,16 @@ So let&apos;s go ahead and take a look at how to put that in there over
 here. It&apos;s on the snippets, we can just copy this piece here and then
 come over to our layout, our page here and stick that stuff inside the
 slider Div. There we go. Easy enough.
-
-![](./images/webp/image374.webp){width="3.5in"
-height="2.141505905511811in"}![](./images/webp/image375.webp){width="3.5in"
-height="2.141505905511811in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 374/375.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image374.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image375.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 And then we&apos;ve got the overview section. And there&apos;s a lot more HTML
 that can be shown here on this slide. But it&apos;s all in the snippets and
@@ -5850,10 +5990,16 @@ is something like this, come over here and scroll up on this thing. So
 we&apos;ve got an article with some paragraphs in it. And then we&apos;ve got a
 section with some articles in it. So this section is going to come over
 here and take care of that, okay?
-
-![](./images/webp/image376.webp){width="3.5in"
-height="2.141505905511811in"}![](./images/webp/image377.webp){width="3.5in"
-height="2.141505905511811in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 376/377.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image376.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image377.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 So let&apos;s go ahead and put that in. Its on the snippets. This whole big
 chunk here, and you click in your to command A and command C. And then
@@ -5867,9 +6013,16 @@ recognize when you&apos;re making mark up for things that you&apos;re looking
 at, your design and trying to figure out. Okay, how do I need to break
 this down into smaller sub pieces.
 
-![](./images/webp/image378.webp){width="3.5in"
-height="2.141505905511811in"}![](./images/webp/image379.webp){width="3.5in"
-height="2.141505905511811in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 378/379.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image378.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image379.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Next comes the download section. And again, there&apos;s more actual markup
 than fits in the picture here in the right. But we&apos;ve got an article
@@ -5924,9 +6077,16 @@ But for right now we just need to get the actual HTML in place which I
 have here. I have it in pieces here. So first we&apos;ll just add the
 structure for the tabs.
 
-![](./images/webp/image385.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image386.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 385/386.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image385.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image386.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 So I&apos;m going to put this in over here. And it goes down here inside the
 pricing section, Here, and each one of these tabs is going to get
