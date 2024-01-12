@@ -2122,8 +2122,14 @@ does it still give you the sense that you\'re traveling to that part of
 the page? Yeah, it does, so that\'s nice. Maybe I\'ll leave it like
 that.
 
-![](./images/webp/image156.webp){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 156. example, test easing animation scroll (80) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image156.png"
+  alt="Example, test easing animation scroll effect."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 This is all working and I could leave the script like this. It\'s
 certainly functioning, but I want to do a little bit more with it. What
@@ -2143,16 +2149,29 @@ like that offset. We have done that right. Here we go. Let\'s see if I
 did that right. I think I did. I come back here, refresh the page, click
 second and I did something wrong there.
 
-# 2.06 Highlighting Elements (5:22) {#highlighting-elements-522 .unnumbered}
-
-# ![](./images/webp/image157.webp){width="4.0in" height="2.261111111111111in"} {#section-3 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-06">2.06. Highlighting Elements</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 157. highlighting elements (2.06) (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image157.png"
+  alt="2.06. Highlighting Elements (Section)."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 On the style sheet is a rule, selected, and I might have it commented
 out. Let\'s go over and see because if we do, we need to uncomment it
 out.
 
-![](./images/webp/image158.webp){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 158. highlight the clicked link (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image158.png"
+  alt="Highlight the clicked link."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 We go to Styles, go down here and it\'s not commented out, good. I\'ve
 got Selected here and it\'s set to a color, and it\'s got a one second
@@ -2188,9 +2207,16 @@ Although you could have an interface that shows which ones if you
 clicked on and it would work for that, but I really wanted to just
 highlight the one that I\'ve actually clicked on.
 
-![](./images/webp/image159.webp){width="3.5in"
-height="1.9784722222222222in"}![](./images/webp/image160.webp){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 159/160. get anchor tags: nav ul li a (82) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image159.png"
+  style="width:45%;"
+  alt="Get anchor tags, navigation line item anchor." />
+<img src="./images/webp/image160.png"
+  style="width:45%;"
+  alt="Example getting anchor tags." />
+</p>
 
 I\'m going to go back to my script, and I\'m just going to modify just a
 little bit here by saying, use my jQuery object to go in here and get
@@ -2221,21 +2247,33 @@ and to do that, we really need to manage this scroll event so that we
 can handle what happens as we scroll the page and move from one section
 to another. We\'re going to deal with that in the next lesson.
 
-## PDF of Presentation: 2.06.jQuerySmoothScroll.pdf
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation">PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</a></li>
+</ul>
 
-## <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation> {#httpswww.coursera.orglearninteractivity-javascript-jquerysupplementervcipdf-of-presentation .unnumbered}
-
-# 2.07 Introduction to Page Location Tracking (8:00) {#introduction-to-page-location-tracking-800 .unnumbered}
-
-# ![](./images/webp/image161.webp){width="4.0in" height="2.261111111111111in"} {#section-4 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-07">2.07. Introduction to Page Location Tracking</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 161. intro to page location tracking (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image161.png"
+  alt="2.07. Intro to Page Location Tracking."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 In this lesson, we\'re going to take the files that we already started
 here, and this script is working so that if I click on the section it
 goes to the correct section and it highlights the correct menu item up
 here.
-
-![](./images/webp/image162.webp){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 162. example, smooth scroll (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image162.png"
+  alt="Example, smooth scroll."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 But what it does not do is if I scroll down the page, it doesn\'t change
 the highlighting to demonstrate the section that I\'m looking at here.
@@ -2253,13 +2291,26 @@ the page based on where we are, scroll down the page. If you think about
 that for a second and go look at some of the interesting websites that
 are out there. https://callbruno.com/en
 
-![](./images/webp/image163.webp){width="3.5in"
-height="1.9866983814523185in"}![](./images/webp/image164.webp){width="3.5in"
-height="1.9866983814523185in"}
-
-![](./images/webp/image165.webp){width="3.5in"
-height="1.9866983814523185in"}![](./images/webp/image166.webp){width="3.5in"
-height="1.9866983814523185in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 163/164. example scroll callbruno.com (85) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image163.png"
+  style="width:45%;"
+  alt="Example callbruno.com, #1." />
+<img src="./images/webp/image164.png"
+  style="width:45%;"
+  alt="Example callbruno.com, #2." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 165/166. example callbruno, #3/#4 (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image165.png"
+  style="width:45%;"
+  alt="Example callbruno.com, #3." />
+<img src="./images/webp/image166.png"
+  style="width:45%;"
+  alt="Example callbruno.com, #4." />
+</p>
 
 For example, I have one pulled up here, this website here, and as I
 scroll down, different things are happening based on whether I\'m
@@ -2269,9 +2320,16 @@ whether or not I\'m scrolling. So, I scroll down the page here that
 animation plays differently while I\'m scrolling up or scrolling down.
 It\'s affected by the scroll.
 
-![](./images/webp/image167.webp){width="3.5in"
-height="1.9866983814523185in"}![](./images/webp/image168.webp){width="3.5in"
-height="1.9866983814523185in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 167/168. example callbruno.com, #5/#6 (85) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image167.png"
+  style="width:45%;"
+  alt="Example callbruno.com, #5." />
+<img src="./images/webp/image168.png"
+  style="width:45%;"
+  alt="Example callbruno.com, #6." />
+</p>
 
 Down here there\'s another one such as switch to white, which switched
 based on when and where I was scrolling my scroll up will switch to
@@ -2282,8 +2340,14 @@ need to be able to do things with that scroll event when you capture it,
 and that can be a little bit challenging and we\'ll get into why in just
 a minute here.
 
-![](./images/webp/image169.webp){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 169. example, scroll event, highlight link (86) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image169.png"
+  alt="Example, scroll event, highlight link."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 But for right now, for this script, all we\'re going to do is change the
 highlighting on these links, which seems like a very minor thing. But
@@ -2292,8 +2356,14 @@ script that you could use on lots of Web pages to track where you are in
 the page and do lots of different animations or cool effects or other
 things based on where you are on the page. That\'s pretty exciting.
 
-![](./images/webp/image170.webp){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170. awwwards.com (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image170.png"
+  alt="awwwards.com."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 By the way, I should add that I don\'t know anything about this Web site
 or this company, I just went to the awards website (awwwards.com) and
@@ -2306,7 +2376,7 @@ inspiration about different things that you can do.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 171. window load and scroll listener (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image171.png"
+  <img src="./images/webp/image171.png"
   alt="Window Load and Scroll listener."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2325,7 +2395,7 @@ to our script here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 172. console.log, scrolling (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image172.png"
+  <img src="./images/webp/image172.png"
   alt="Tag console.log as scrolling to section."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2345,7 +2415,7 @@ here. It wouldn\'t be that tall.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 173. on load, scroll function (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image173.png"
+  <img src="./images/webp/image173.png"
   alt="On load, scroll function."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2373,7 +2443,7 @@ you\'ll get a ton of alerts scrolling, and save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 174. test, scrolling (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image174.png"
+  <img src="./images/webp/image174.png"
   alt="Example, test scrolling."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2396,7 +2466,7 @@ trying to do too many things at once.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 175. the crux of the problem (2.08) (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image175.png"
+  <img src="./images/webp/image175.png"
   alt="2.08. The Crux of the Problem."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2409,7 +2479,7 @@ happens as we scroll on the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 176. window scroll event listener code (91) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image176.png"
+  <img src="./images/webp/image176.png"
   alt="Window scroll event listener code."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2434,7 +2504,7 @@ anymore and put this in instead.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 177. window scroll event listener code (92) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image177.png"
+  <img src="./images/webp/image177.png"
   alt="Window scroll event listener code, #1."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2450,7 +2520,7 @@ and I\'m going to close this down here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 178. window scroll event listener code, #2 (93) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image178.png"
+  <img src="./images/webp/image178.png"
   alt="Window scroll event listener code, #2."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2463,7 +2533,7 @@ right offset. There we go. Try that again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 179. example, window scroll listener (93) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image179.png"
+  <img src="./images/webp/image179.png"
   alt="Example, window scroll listener."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2498,10 +2568,10 @@ port.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 180/181. example, highlight section (94) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image180.png"
+<img src="./images/webp/image180.png"
   style="width:45%;"
   alt="Example, highlight section, #1." />
-<img src="./images/image181.png"
+<img src="./images/webp/image181.png"
   style="width:45%;"
   alt="Example, highlight section, #2." />
 </p>
@@ -2531,7 +2601,7 @@ for performance.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182. strategy (2.09) (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image182.png"
+  <img src="./images/webp/image182.png"
   alt="2.09. Strategy."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
@@ -2543,7 +2613,7 @@ possibly be doing on the page when it comes to scrolling?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 183. scroll down or up (if not at top) (96) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image183.png"
+  <img src="./images/webp/image183.png"
   alt="Scroll down or scroll up (if other than top of page)."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2559,7 +2629,7 @@ scroll down, and they can only scroll up if they\'re not at the top.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 184. setting up if/else statement (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image184.png"
+  <img src="./images/webp/image184.png"
   alt="Set up if/else statement for scroll event."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2575,7 +2645,7 @@ our script over here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 185. add if/else code for scroll (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image185.png"
+  <img src="./images/webp/image185.png"
   alt="Add if/else code for scroll."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2595,7 +2665,7 @@ we\'re scrolling down and what happens when we\'re scrolling up.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 186. what is size of each section element (98) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image186.png"
+  <img src="./images/webp/image186.png"
   alt="Identify size of each section element."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2625,7 +2695,7 @@ to use the each method.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 186. section size, rounded math.floor (99) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image186.png"
+  <img src="./images/webp/image186.png"
   alt="Section size, rounded using math.floor."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2639,7 +2709,7 @@ minute. I\'ll take math for it now because that kind of confuses things.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187. section size, no rounding (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image187.png"
+<img src="./images/webp/image187.png"
   alt="Section size, no rounding."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2647,7 +2717,7 @@ minute. I\'ll take math for it now because that kind of confuses things.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 188. console log, posttops (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image187.png"
+<img src="./images/webp/image187.png"
   alt="console.log, postTops."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2668,10 +2738,10 @@ looks great to me.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 189/190. remove if, post option (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image189.png"
+<img src="./images/webp/image189.png"
   style="width:45%;"
   alt="Remove if statement to test postTops." />
-<img src="./images/image190.png"
+<img src="./images/webp/image190.png"
   style="width:45%;"
   alt="Remove if statement to test PostTops." />
 </p>
@@ -2684,7 +2754,7 @@ at just the post option.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 191. example, posttops section sizes (101) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image186.png"
+  <img src="./images/webp/image186.png"
   alt="Example, postTops section sizes in pixels."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2698,10 +2768,10 @@ there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 192/193. calculate each section size (101) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image192.png"
+<img src="./images/webp/image192.png"
   style="width:45%;"
   alt="Count section size in pixels and store." />
-<img src="./images/image193.png"
+<img src="./images/webp/image193.png"
   style="width:45%;"
   alt="Size of each section is identified." />
 </p>
@@ -2718,7 +2788,7 @@ good. Great. We\'ll pick it up in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 194. adding pagetop and if statements (102) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image194.png"
+  <img src="./images/webp/image194.png"
   alt="2.10. Adding PageTop and If Statements."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
@@ -2729,10 +2799,10 @@ I\'ve put the window scroll event back in with my IF statements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 195/196. smoothscroll.js - scroll up/down (102) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image195.png"
+<img src="./images/webp/image195.png"
   style="width:45%;"
   alt="Lines 29-46 of smoothscroll.js." />
-<img src="./images/image196.png"
+<img src="./images/webp/image196.png"
   style="width:45%;"
   alt="Lines 24-42 of smoothscroll.js (after update)." />
 </p>
@@ -2747,7 +2817,7 @@ here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 197. 24-43 of smoothscroll.js (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image197.png"
+  <img src="./images/webp/image197.png"
   alt="Lines 24-43 of smoothscroll.js."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
@@ -2769,10 +2839,10 @@ top of the page if that number is greater than that number.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 198/199. 24-43 of smoothscroll.js & after, 32-50 of smoothscroll.js (103) ~~~~~~~~~-->
 <p align="center">
-<img src="./images/image198.png"
+<img src="./images/webp/image198.png"
   style="width:45%;"
   alt="24-43 of smoothscroll.js." />
-<img src="./images/image199.png"
+<img src="./images/webp/image199.png"
   style="width:45%;"
   alt="32-50 of smoothscroll.js." />
 </p>
@@ -2789,10 +2859,10 @@ and commented out so it doesn\'t cause a problem.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 200/201. log of smoothscroll.js scrolling down (104) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image200.png"
+<img src="./images/webp/image200.png"
   style="width:45%;"
   alt="Log of smoothscroll.js as scrolling down." />
-<img src="./images/image201.png"
+<img src="./images/webp/image201.png"
   style="width:45%;"
   alt="Log of 2nd section of smooth scroller." />
 </p>
@@ -2830,7 +2900,7 @@ overload your CPU.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 202. writing the else/if statement in smoothscroll.js (105) ~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image202.png"
+  <img src="./images/webp/image202.png"
   alt="2.11. Writing the Else/If Statement - Part 1."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2841,10 +2911,10 @@ we\'re scrolling up the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 203/204. before and after else/if statement in smoothscroll.js (105) ~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image203.png"
+<img src="./images/webp/image203.png"
   style="width:45%;"
   alt="32-50 of smoothscroll.js (before)." />
-<img src="./images/image204.png"
+<img src="./images/webp/image204.png"
   style="width:45%;"
   alt="32-50 of smoothscroll.js (after)." />
 </p>
@@ -2864,7 +2934,7 @@ every little bit if it\'s less than the PostTops counter.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 205. scroll down, increment, scroll up, decrement (106) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image205.png"
+  <img src="./images/webp/image205.png"
   alt="Scroll down, increment counter, scroll up, decrement counter."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2884,10 +2954,10 @@ does. I think that hopefully I did that right? I think I did.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 206/207. example, scroll up/down (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image206.png"
+<img src="./images/webp/image206.png"
   style="width:45%;"
   alt="Example, scroll up/down." />
-<img src="./images/image207.png"
+<img src="./images/webp/image207.png"
   style="width:45%;"
   alt="Example, scroll up/down." />
 </p>
@@ -2917,7 +2987,7 @@ these elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 208. writing the else/if statement - part 2 (108) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image208.png"
+  <img src="./images/webp/image208.png"
   alt="2.12. Writing the Else/If Statement - Part 2."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
