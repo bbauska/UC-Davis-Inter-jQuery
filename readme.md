@@ -473,7 +473,7 @@ You will be able to then extend the script in many creative ways.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. course intro (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image003.png" 
+  <img src="./images/webp/image003.webp" 
   alt="1.01. Course Introduction."
   style="border: 2px solid #000000;" 
   width="40%;" />
@@ -498,7 +498,7 @@ JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. module 1 intro (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image004.png" 
+  <img src="./images/webp/image004.webp" 
   alt="1.02. Module 1 Introduction."
   style="border: 2px solid #000000;" 
   width="40%;" />
@@ -520,7 +520,7 @@ elements on web pages and that&apos;s really pretty fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. intro to jquery plugins (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image005.png" 
+  <img src="./images/webp/image005.webp" 
   alt="1.03. Intro to jQuery Plugins."
   style="border: 2px solid #000000;" 
   width="40%;" />
@@ -532,7 +532,7 @@ Just as a quick recap, we&apos;ve learned a lot of JavaScript so far.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. recap: javascript (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image006.png" 
+  <img src="./images/webp/image006.webp" 
   alt="Recap: JavaScript."
   style="border: 2px solid #000000;" 
   width="40%;" />
@@ -552,7 +552,7 @@ write the scripts that you want to do for your web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. recap: jquery (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image007.png" 
+  <img src="./images/webp/image007.webp" 
   alt="Recap: jQuery."
   style="border: 2px solid #000000;" 
   width="40%;" />
@@ -568,7 +568,7 @@ a little bit easier and a little bit better for all of us.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. introducing: plugins (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image008.png" 
+  <img src="./images/webp/image008.webp" 
   alt="Introducing: Plugins."
   style="border: 2px solid #000000;" 
   width="40%;" />
@@ -597,7 +597,7 @@ great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. adding functionality (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image009.png" 
+  <img src="./images/webp/image009.webp" 
   alt="Adding Functionality."
   style="border: 2px solid #000000;" 
   width="50%;" />
@@ -623,7 +623,7 @@ could do that thing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 10. using plugins and essential steps (1.04) (13) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image010.png"
+  <img src="./images/webp/image010.webp"
   alt="1.04. Using Plugins and Essential Steps."
   style="border: 2px solid #000000;" 
   width="40%;" />
@@ -641,7 +641,7 @@ them to work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 11. using plugins and essential steps, #2 (13) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image011.png" 
+  <img src="./images/webp/image011.webp" 
   alt="Using Plugins and Essential Steps, #2."
   style="border: 2px solid #000000;" 
   width="50%;" />
@@ -695,7 +695,7 @@ those are included as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. documentation mish-mash (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image012.png"
+  <img src="./images/webp/image012.webp"
   alt="Documentation Mish-Mash."
   style="border: 2px solid #000000;" 
   width="50%;" />
@@ -727,7 +727,7 @@ it&apos;s the same basic steps each time.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 13. gotchas and rookie mistakes (1.05) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image013.png"
+  <img src="./images/webp/image013.webp"
   alt="Gotchas and Rookie Mistakes."
   style="border: 2px solid #000000;" 
   width="40%;" />
@@ -736,7 +736,7 @@ it&apos;s the same basic steps each time.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. gotchas and rookie mistakes, #2 (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image014.png" 
+  <img src="./images/webp/image014.webp" 
   alt="Gotchas and Rookie Mistakes, #2."
   style="border: 2px solid #000000;"
   width="50%;" />
@@ -833,7 +833,7 @@ on your CSS file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. 5 items of beware the plugin (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <kbd>
-  <img src="./images/webp/image015.png" 
+  <img src="./images/webp/image015.webp" 
   alt="5 Items of Beware the Plugins."
   style="border: 2px solid #000000;" 
   width="50%;" />
@@ -867,7 +867,7 @@ using is really worthwhile.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. looking to the future (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image016.png"
+  <img src="./images/webp/image016.webp"
   alt="Looking to the Future."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -928,7 +928,7 @@ carrying the extension .ZIP.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. flexslider: a jquery plugin (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image017.png" 
+  <img src="./images/webp/image017.webp" 
   alt="1.06. FlexSlider: A jQuery Plugin."
   style="border: 2px solid black;"
   width="40%;" />
@@ -941,7 +941,7 @@ to our page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. basic flexslider (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image018.png" 
+  <img src="./images/webp/image018.webp" 
   alt="Basic FlexSlider."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -959,10 +959,10 @@ because it&apos;s a responsive slider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 19/20. responsive kittens for sale (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image019.png?raw=true"
+<img src="./images/webp/image019.webp?raw=true"
   style="width:40%"
   alt="Responsive Kittens for Sale Web Page, #1." />
-<img src="./images/webp/image020.png?raw=true"
+<img src="./images/webp/image020.webp?raw=true"
   style="width:40%"
   alt="Responsive Kittens for Sale Web Page, #2." />
 </p>
@@ -975,7 +975,7 @@ sizes using FlexSlider. That&apos;s fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. markup for web site (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image021.png" 
+  <img src="./images/webp/image021.webp" 
   alt="Markup for Kittens for Sale Web Page."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -988,11 +988,11 @@ some basic markup.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 22/23. responsive kittens for sale (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image022.png?raw=true"
+<img src="./images/webp/image022.webp?raw=true"
   style="width:45%"
   alt="Responsive Kittens for Sale Web Page, #1." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image023.png?raw=true"
+<img src="./images/webp/image023.webp?raw=true"
   style="width:45%"
   alt="Responsive Kittens for Sale Web Page, #2." />
 </p>
@@ -1008,7 +1008,7 @@ because, who doesn&apos;t love kittens? Kittens are awesome.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. responsive media queries (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image024.png" 
+  <img src="./images/webp/image024.webp" 
   alt="Responsive Media Queries."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1022,7 +1022,7 @@ of a layout on the page with the columns. Okay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. flexslider website (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image025.png" 
+  <img src="./images/webp/image025.webp" 
   alt="FlexSlider Website."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1033,7 +1033,7 @@ Then the next thing is the FlexSlider Website and the FlexSlider Script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. flexslider website, #2 (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image026.png" 
+  <img src="./images/webp/image026.webp" 
   alt="FlexSlider Website, #2."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1050,7 +1050,7 @@ they&apos;re also included with this lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. flexslider website, #3 (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image027.png" 
+  <img src="./images/webp/image027.webp" 
   alt="FlexSlider Website, #3."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1062,7 +1062,7 @@ downloading the FlexSlider files of this lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 28. files needed: flexslider website (25) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image028.png" 
+  <img src="./images/webp/image028.webp" 
   alt="Files Needed for FlexSlider Website."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1078,11 +1078,11 @@ plug-ins as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 29/30. folder with website and images (26) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image029.png?raw=true"
+<img src="./images/webp/image029.webp?raw=true"
   style="width:45%"
   alt="Folder with website." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image030.png?raw=true"
+<img src="./images/webp/image030.webp?raw=true"
   style="width:45%"
   alt="Folder with images." />
 </p>
@@ -1095,11 +1095,11 @@ got my style-sheet, that&apos;s what&apos;s in my folder.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31/32. unzipped download files (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image031.png?raw=true"
+<img src="./images/webp/image031.webp?raw=true"
   style="width:45%"
   alt="Unzipped download files." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image032.png?raw=true"
+<img src="./images/webp/image032.webp?raw=true"
   style="width:45%"
   alt="Other unzipped download files." />
 </p>
@@ -1131,11 +1131,11 @@ well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 33/34. flexslider.css, fonts & minified flexslider (27) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image033.png?raw=true"
+<img src="./images/webp/image033.webp?raw=true"
   style="width:45%"
   alt="flexslider.css, fonts and jquery.flexslider-min.js." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image034.png?raw=true"
+<img src="./images/webp/image034.webp?raw=true"
   style="width:45%"
   alt="flexslider.css, fonts and jquery.flexslider-min.js." />
 </p>
@@ -1151,7 +1151,7 @@ started for this project.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 35. about the minified version (1.07) (27) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image035.png"
+  <img src="./images/webp/image035.webp"
   alt="1.07. About the Minified Version."
   style="border: 2px solid gray;"
   width="40%;" />
@@ -1163,7 +1163,7 @@ that you understand this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. minified vs non-minified (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image036.png"
+  <img src="./images/webp/image036.webp"
   alt="Minified vs. Non-Minified jQuery FlexSlider.js."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1180,7 +1180,7 @@ version.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 37. add javascript flexslider files (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image037.png"
+  <img src="./images/webp/image037.webp"
   alt="Add 3 files to project: flexslider.css, jquery.flexslider-min.js and fonts."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1194,7 +1194,7 @@ previous lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. add 3 files to head of index (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image038.png"
+  <img src="./images/webp/image038.webp"
   alt="Add stylesheet and 2 javascript files to head of index."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1209,7 +1209,7 @@ written and to understand what the steps are.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 39. link to 3 files and add markup (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image039.png"
+  <img src="./images/webp/image039.webp"
   alt="Link files and add markup."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1227,7 +1227,7 @@ similarities.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. following directions (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image040.png"
+  <img src="./images/webp/image040.webp"
   alt="Following Directions."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1239,7 +1239,7 @@ mean about how to do this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. styles.css and load jquery (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image041.png"
+  <img src="./images/webp/image041.webp"
   alt="."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1247,11 +1247,11 @@ mean about how to do this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 42/43. where to put scripts, css & js (31) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image042.png?raw=true"
+<img src="./images/webp/image042.webp?raw=true"
   style="width:45%"
   alt="." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image043.png?raw=true"
+<img src="./images/webp/image043.webp?raw=true"
   style="width:45%"
   alt="." />
 </p>
@@ -1272,7 +1272,7 @@ I&apos;ve got jquery 2.2.4 loaded here, as opposed to the 1.6.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. jquery version to load (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image044.png"
+  <img src="./images/webp/image044.webp"
   alt="jQuery version to load."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1288,7 +1288,7 @@ jquery with that one.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 45. load jquery at bottom of screen (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image045.png"
+  <img src="./images/webp/image045.webp"
   alt="Load jQuery at bottom of screen."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1302,7 +1302,7 @@ script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. add scripts to index.html (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image046.png"
+  <img src="./images/webp/image046.webp"
   alt="Where to add scripts to index.html."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1319,7 +1319,7 @@ says place somewhere in the head of your document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 47. defer scripts loading; jquery, plugin, my script (33) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image047.png"
+  <img src="./images/webp/image047.webp"
   alt="Defer script load; jQuery libary, then plugins, then my script."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1335,7 +1335,7 @@ page is loaded, just to be certain. So, we&apos;ve got that, okay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 48. add markup with div, flexslider, ul and li images (33) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image048.png"
+  <img src="./images/webp/image048.webp"
   alt="Add Markup container with div, FlexSlider, ul and li images."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1351,7 +1351,7 @@ the images inside of it, and we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 49. adding markup and hooking up the slider (34) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image049.png"
+  <img src="./images/webp/image049.webp"
   alt="1.08. Adding Markup and Hooking Up the Slider."
   style="border: 2px solid gray;"
   width="40%;" />
@@ -1365,7 +1365,7 @@ modify changes there. We&apos;ll get to more on that later.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 50. step 2, add markup div, ul and li images (34) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image050.png"
+  <img src="./images/webp/image050.webp"
   alt="Step 2 FlexSlider, add markup, div, ul and li images."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1382,7 +1382,7 @@ for that unordered list.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 51. index.html, div class='flexslider' (35) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image051.png"
+  <img src="./images/webp/image051.webp"
   alt="Add flexslider class to div and slides class to ul."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1400,7 +1400,7 @@ slides with seven kittens, one on each side. That&apos;s great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. verify classes on div and ul (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image052.png"
+  <img src="./images/webp/image052.webp"
   alt="Add class to div and ul in index.html."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1413,7 +1413,7 @@ we got that all in, so that&apos;s great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 53. step 3, add to head of index.html (36) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image053.png"
+  <img src="./images/webp/image053.webp"
   alt="."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1426,7 +1426,7 @@ jQuery, but that&apos;s okay. This is what it says down here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. update myscript.js (37) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image054.png"
+  <img src="./images/webp/image054.webp"
   alt="Add functions to MyScript.js."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1441,7 +1441,7 @@ inside script tags, but we already have a separate file called
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 55. on load, run flexslider function (37) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image055.png"
+  <img src="./images/webp/image055.webp"
   alt="MyScript.js: Add flexslider function."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1462,11 +1462,11 @@ use <b>window.on</b> instead. But let&apos;s just test it anyway.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 56/57. example test, verify jquery version # (38) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image056.png?raw=true"
+<img src="./images/webp/image056.webp?raw=true"
   style="width:45%"
   alt="Example test, verify correct jquery.min.js is loaded." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image057.png?raw=true"
+<img src="./images/webp/image057.webp?raw=true"
   style="width:45%"
   alt="Inspect jQuery and FlexSlider code." />
 </p>
@@ -1482,7 +1482,7 @@ here is that the latest version of jQuery does not support this file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58. jquery snippet (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image058.png"
+  <img src="./images/webp/image058.webp"
   alt="jQuery snippet."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1490,7 +1490,7 @@ here is that the latest version of jQuery does not support this file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 59. load defer jquery in index.html (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image059.png"
+  <img src="./images/webp/image059.webp"
   alt="Load correct version of jQuery defer in index.html."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1505,7 +1505,7 @@ that it works. Close this, refresh.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 60. example, test kittens for sale (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image060.png"
+  <img src="./images/webp/image060.webp"
   alt="Example, test Kittens For Sale."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1518,11 +1518,11 @@ to do.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 61/62. again, validate jquery version (40) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image061.png?raw=true"
+<img src="./images/webp/image061.webp?raw=true"
   style="width:45%"
   alt="index.html load jquery with correct version." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image062.png?raw=true"
+<img src="./images/webp/image062.webp?raw=true"
   style="width:45%"
   alt="Run flexslider from myscript.js." />
 </p>
@@ -1536,11 +1536,11 @@ website if you wanted to.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63/64. again, validate jquery (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image063.png?raw=true"
+<img src="./images/webp/image063.webp?raw=true"
   style="width:45%"
   alt="Load jQuery version." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image064.png?raw=true"
+<img src="./images/webp/image064.webp?raw=true"
   style="width:45%"
   alt="Test example flexslider." />
 </p>
@@ -1551,7 +1551,7 @@ this back to the version 3.6 and save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. test example scroll (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image065.png"
+  <img src="./images/webp/image065.webp"
   alt="Test example scroll."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1566,11 +1566,11 @@ method.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 66/67. fonts load and example tests (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image066.png?raw=true"
+<img src="./images/webp/image066.webp?raw=true"
   style="width:45%"
   alt="Verify fonts reside in correct folder." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image067.png?raw=true"
+<img src="./images/webp/image067.webp?raw=true"
   style="width:45%"
   alt="Example test fonts and FlexSlider." />
 </p>
@@ -1596,7 +1596,7 @@ it and we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. flexslider rules (1.09) (42) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image068.png"
+  <img src="./images/webp/image068.webp"
   alt="1.09. FlexSlider Rules."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1610,33 +1610,33 @@ in the styling.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 69/70. test example kittens for sale (42) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image069.png?raw=true"
+<img src="./images/webp/image069.webp?raw=true"
   style="width:45%"
   alt="Inspect flexslider element style for each image." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image070.png?raw=true"
+<img src="./images/webp/image070.webp?raw=true"
   style="width:45%"
   alt="FlexSliderBasic-Start index.html." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 71/72. flexslider rules in styles.css (43) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image071.png?raw=true"
+<img src="./images/webp/image071.webp?raw=true"
   style="width:45%"
   alt="FlexSlider Rules." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image072.png?raw=true"
+<img src="./images/webp/image072.webp?raw=true"
   style="width:45%"
   alt="Update styles for flexslider class." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 73/74. it should be working, test (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image073.png?raw=true"
+<img src="./images/webp/image073.webp?raw=true"
   style="width:45%"
   alt="It Should Be Working.  If not, fine tune it." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image074.png?raw=true"
+<img src="./images/webp/image074.webp?raw=true"
   style="width:45%"
   alt="Test, example scroll left and right." />
 </p>
@@ -1671,11 +1671,11 @@ file. I want to make sure I&apos;m on my CSS file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 75/76. media queries, flexslider styles (44) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image075.png?raw=true"
+<img src="./images/webp/image075.webp?raw=true"
   style="width:45%"
   alt="Verify media queries." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image076.png?raw=true"
+<img src="./images/webp/image076.webp?raw=true"
   style="width:45%"
   alt="Test, example styles." />
 </p>
@@ -1693,7 +1693,7 @@ I&apos;ve got rid of that gap and all that stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. inspect example site (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image076.png"
+  <img src="./images/webp/image076.webp"
   alt="Inspect example site: Kittens For Sale."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1708,7 +1708,7 @@ I want to actually attach to.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 77. border, margin, radius, background-color (45) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image077.png"
+  <img src="./images/webp/image077.webp"
   alt="styles.css: border, margin, background-color."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1723,7 +1723,7 @@ background color. Save that and come back and test it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 78. inspect styles, font and color  (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image078.png"
+  <img src="./images/webp/image078.webp"
   alt="Inspect to fine tune style, font and colors."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1743,7 +1743,7 @@ and look the way you want it to look on your page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. additional controls (1.10) (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image079.png"
+  <img src="./images/webp/image079.webp"
   alt="1.10. Additional Controls."
   style="border: 2px solid gray;"
   width="40%;" />
@@ -1755,11 +1755,11 @@ and it&apos;s working.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 80/81. flexslider website options (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image080.png?raw=true"
+<img src="./images/webp/image080.webp?raw=true"
   style="width:45%"
   alt="FlexSlider website options." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image081.png?raw=true"
+<img src="./images/webp/image081.webp?raw=true"
   style="width:45%"
   alt="Test, example website." />
 </p>
@@ -1776,11 +1776,11 @@ it for us automatically and that&apos;s great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 82/83. options and default values for flexslider (47) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image082.png?raw=true"
+<img src="./images/webp/image082.webp?raw=true"
   style="width:45%"
   alt="List of FlexSlider Options and their default values." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image083.png?raw=true"
+<img src="./images/webp/image083.webp?raw=true"
   style="width:45%"
   alt="Additional options and default values." />
 </p>
@@ -1793,7 +1793,7 @@ looking at this exactly what you need to do.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 84. flexslider options, default values (47) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image084.png"
+  <img src="./images/webp/image084.webp"
   alt="FlexSlider Options, default values."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1811,7 +1811,7 @@ can we do? Let&apos;s take a look at it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85. flexslider with options (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image085.png"
+  <img src="./images/webp/image085.webp"
   alt="FlexSlider with Options."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1828,11 +1828,11 @@ syntax because we&apos;ll see it a lot, especially with the plugins.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 86/87. update flexslider options (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image086.png?raw=true"
+<img src="./images/webp/image086.webp?raw=true"
   style="width:45%"
   alt="myscript.js flexslider options." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image087.png?raw=true"
+<img src="./images/webp/image087.webp?raw=true"
   style="width:45%"
   alt="Example, using FlexSlider." />
 </p>
@@ -1860,11 +1860,11 @@ worry about that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 88/89. other flexslider options (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image088.png?raw=true"
+<img src="./images/webp/image088.webp?raw=true"
   style="width:45%"
   alt="FlexSlider with Options." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image089.png?raw=true"
+<img src="./images/webp/image089.webp?raw=true"
   style="width:45%"
   alt="myscript.js. Set animation: 'slide' and slideshowSpeed: 2000." />
 </p>
@@ -1882,11 +1882,11 @@ great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 90/91. scroll direction: 'vertical' (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image090.png?raw=true"
+<img src="./images/webp/image090.webp?raw=true"
   style="width:45%"
   alt="Set scroll direction vertical." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image091.png?raw=true"
+<img src="./images/webp/image091.webp?raw=true"
   style="width:45%"
   alt="Example, verify scroll direction vertical." />
 </p>
@@ -1901,7 +1901,7 @@ vertical.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. example, test vertical scroll (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image092.png"
+  <img src="./images/webp/image092.webp"
   alt="Example, test vertical scroll."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1914,7 +1914,7 @@ Now it&apos;s going from the top to the bottom.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. set pauseonhover = true (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image093.png"
+  <img src="./images/webp/image093.webp"
   alt="pauseonHover: true."
   style="border: 2px solid gray;"
   width="50%;" />
@@ -1948,7 +1948,7 @@ something else that would be kind of interesting and fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. advanced flexslider (1.11) (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image094.png"
+  <img src="./images/webp/image094.webp"
   alt="1.11. Advanced FlexSlider."
   style="border: 2px solid gray;"
   width="40%;" />
@@ -1960,11 +1960,11 @@ options, we can really do some different things with this FlexSlider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 95/96. copy flexslider/rename to kittensadvanced (52) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image095.png?raw=true"
+<img src="./images/webp/image095.webp?raw=true"
   style="width:45%"
   alt="Copy and rename advancedFlexSlider to KittensAdvanced." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image096.png?raw=true"
+<img src="./images/webp/image096.webp?raw=true"
   style="width:45%"
   alt="Copy, rename and verify new folder for FlexSlider changes." />
 </p>
@@ -1986,11 +1986,11 @@ files open in my code editor.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 97/98. verify right set of files (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image097.png?raw=true"
+<img src="./images/webp/image097.webp?raw=true"
   style="width:45%"
   alt="Use advancedSlider." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image098.png?raw=true"
+<img src="./images/webp/image098.webp?raw=true"
   style="width:45%"
   alt="Verify your working with the right set of files." />
 </p>
@@ -2005,7 +2005,7 @@ advancedSlider there, so this is my advanced slider files.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. update the markup (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image099.png"
+  <img src="./images/webp/image099.webp"
   alt="Update the Markup."
   style="border: 2px solid gray;"
   width="40%;" />
@@ -2026,7 +2026,7 @@ snippets with this lesson that you can open and they look like this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 100. flexslider jquery plugin (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image100.png"
+  <img src="./images/webp/image100.webp"
   alt="FlexSlider jQuery Plugin."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2039,7 +2039,7 @@ instead of just putting the pictures in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 101. updated markup adding anchor tags (54) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image101.png"
+  <img src="./images/webp/image101.webp"
   alt="Add anchor tags with class to markup."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2060,11 +2060,11 @@ tedious, you can actually come to the snippet page and just copy it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 102/103. flexslider, slides, class (55) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image102.png?raw=true"
+<img src="./images/webp/image102.webp?raw=true"
   style="width:45%"
   alt="Update index.html with FlexSlider, slides and new class (cta)." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image103.png?raw=true"
+<img src="./images/webp/image103.webp?raw=true"
   style="width:45%"
   alt="Update index.html with FlexSlider, slides and new class (cta)." />
 </p>
@@ -2085,7 +2085,7 @@ this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 104. additional styling (1.12) (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image104.png"
+  <img src="./images/webp/image104.webp"
   alt="1.12. Additional Styling for FlexSlider."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
@@ -2098,11 +2098,11 @@ display of the slides.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 105/106. styling for flexslider (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/webp/image105.png?raw=true"
+<img src="./images/webp/image105.webp?raw=true"
   style="width:45%"
   alt="Rules for flexslider." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/webp/image106.png?raw=true"
+<img src="./images/webp/image106.webp?raw=true"
   style="width:45%"
   alt="Update styles.css with new rules." />
 </p>
@@ -2116,7 +2116,7 @@ really matter where they go, I&apos;m going to put them here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 107. styles.css: slide1-slide5 background (57) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image107.png"
+  <img src="./images/webp/image107.webp"
   alt="Define background for slide1 thru slide5 in styles.css."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2143,7 +2143,7 @@ unfortunate.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. set position of slides (58) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image108.png"
+  <img src="./images/webp/image108.webp"
   alt="The position CSS property sets how an element is positioned in a document."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2166,7 +2166,7 @@ works for these particular images.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 109. kitten01.jpg image dimensions (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image110.png"
+  <img src="./images/webp/image110.webp"
   alt="Image Dimensions for kitten01.jpg."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2198,7 +2198,7 @@ width. And then I&apos;ve got background size cover.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 110. styling the cta 'call to action' (60) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image110.png"
+  <img src="./images/webp/image110.webp"
   alt="."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2211,7 +2211,7 @@ this is working.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 111. styling the cta 'call to action' (60) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image111.png"
+  <img src="./images/webp/image111.webp"
   alt="."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2232,7 +2232,7 @@ need to style this call to action, and I&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 112. styling the cta 'call to action' (61) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image112.png"
+  <img src="./images/webp/image112.webp"
   alt="1.13. Styling the CTA 'Call to Action'."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
@@ -2246,7 +2246,7 @@ and do this, but let&apos;s go ahead and add this rule to our style sheet.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. styling the call to action (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image113.png"
+  <img src="./images/webp/image113.webp"
   alt="Styling the Call to Action."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2255,10 +2255,10 @@ and do this, but let&apos;s go ahead and add this rule to our style sheet.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 114/115. styling the call to action (62) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/webp/image114.png"
+<img src="./images/webp/image114.webp"
   style="width:45%;"
   alt="Call to Action Styling." />
-<img src="./images/webp/image115.png"
+<img src="./images/webp/image115.webp"
   style="width:45%;"
   alt="Styles.css for Call to Action." />
 </p>
@@ -2301,10 +2301,10 @@ and then also the color for the text. That&apos;s a lot of stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116/117. define class: light (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/webp/image116.png"
+<img src="./images/webp/image116.webp"
   style="width:45%;"
   alt="Styles.css: Define new class .light." />
-<img src="./images/webp/image117.png"
+<img src="./images/webp/image117.webp"
   style="width:45%;"
   alt="Utilize class: light in index." />
 </p>
@@ -2316,7 +2316,7 @@ slides is dark, so over here, I have a class of light on slide 4.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 118. styles.css: background slide (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image118.png"
+  <img src="./images/webp/image118.webp"
   alt="Define different background colors for slides."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2335,7 +2335,7 @@ our work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 119. resize call to action button (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image119.png"
+  <img src="./images/webp/image119.webp"
   alt="Resize the CTA (call to action) button for tablet-sized browser windows."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2348,10 +2348,10 @@ setting height, width, and font size.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 120/121. tablet-sized min-width: 600px (64) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/webp/image120.png"
+<img src="./images/webp/image120.webp"
   style="width:45%;"
   alt="styles.css: min-width: 600px." />
-<img src="./images/webp/image121.png"
+<img src="./images/webp/image121.webp"
   style="width:45%;"
   alt="CTA: Call To Action anchor tag." />
 </p>
@@ -2368,10 +2368,10 @@ font size down a little bit, 3vw.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 122/123. desktop with min-width: 1000px (65) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/webp/image122.png"
+<img src="./images/webp/image122.webp"
   style="width:45%;"
   alt="styles.css: min-width: 1000px." />
-<img src="./images/webp/image123.png"
+<img src="./images/webp/image123.webp"
   style="width:45%;"
   alt="styles.css: new ID cta with width/height of 150px." />
 </p>
@@ -2387,7 +2387,7 @@ size, 150px. Font-size to 24 pixels.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 124. kittens for sale example (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image124.png"
+  <img src="./images/webp/image124.webp"
   alt="Kittens for Sale example."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2401,7 +2401,7 @@ going to look in end here, is round like this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 125. example: kittens for sale! (66) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image125.png"
+  <img src="./images/webp/image125.webp"
   alt="Kittens for Sale example, #2."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2432,7 +2432,7 @@ section: <b>jQuery Plugins and FlexSlider</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 126. module 2 intro - scroll effects (67) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image126.png"
+  <img src="./images/webp/image126.webp"
   alt="2.01. Module 2 Intro - Scroll Effects."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
@@ -2453,7 +2453,7 @@ started on this module.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 127. intro to smooth scroll with jquery (67) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image127.png"
+  <img src="./images/webp/image127.webp"
   alt="2.02. Intro to Smooth Scroll with jQuery."
   style="border: 2px solid black; border-radius:15px"
   width="40%;" />
@@ -2466,10 +2466,10 @@ page, it does a smooth scrolling action further down the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 128/129. section one and two example (68) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/webp/image128.png"
+<img src="./images/webp/image128.webp"
   style="width:45%;"
   alt="Example section one." />
-<img src="./images/webp/image129.png"
+<img src="./images/webp/image129.webp"
   style="width:45%;"
   alt="Example section two." />
 </p>
@@ -2486,10 +2486,10 @@ second in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130/131. section links defined (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/webp/image130.png"
+<img src="./images/webp/image130.webp"
   style="width:45%;"
   alt="href sections defined #first thru #fifth." />
-<img src="./images/webp/image131.png"
+<img src="./images/webp/image131.webp"
   style="width:45%;"
   alt="Example sections 1st thru 5th." />
 </p>
@@ -2510,16 +2510,16 @@ user experience. So, we&apos;re going to do that using jQuery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 132/133. adjust the header rule styles.css (69) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/webp/image132.png"
+<img src="./images/webp/image132.webp"
   style="width:40%;"
   alt="Adjust the header rule CSS." />
-<img src="./images/webp/image133.png"
+<img src="./images/webp/image133.webp"
   style="width:40%;"
   alt="Updates to styles.css - header and body." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 134. smooth scroller set heading (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/webp/image134.png"
+<img src="./images/webp/image134.webp"
   alt="Smooth Scroller example with set heading."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2544,10 +2544,10 @@ content is passing beneath this header.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 135/136. padding-top: 200 (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/webp/image135.png"
+<img src="./images/webp/image135.webp"
   style="width:45%;"
   alt="Add padding-top: 200 to body of style.css." />
-<img src="./images/webp/image136.png"
+<img src="./images/webp/image136.webp"
   style="width:45%;"
   alt="Smooth Scroller example of padding-top: 200." />
 </p>
@@ -2589,10 +2589,10 @@ carrying the extension .ZIP.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 137/138. creating a click handler (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/webp/image137.png"
+<img src="./images/webp/image137.webp"
   style="width:45%;"
   alt="2.03. Creating a Click Handler." />
-<img src="./images/webp/image138.png"
+<img src="./images/webp/image138.webp"
   style="width:45%;"
   alt="Add Easing and Click Handler scripts to end of index." />
 </p>
@@ -2611,10 +2611,10 @@ we&apos;re going to write our jQuery code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 139/140. add click handler to index (71) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/webp/image139.png"
+<img src="./images/webp/image139.webp"
   style="width:45%;"
   alt="If clicked, run this function." />
-<img src="./images/webp/image140.png"
+<img src="./images/webp/image140.webp"
   style="width:45%;"
   alt="smoothscroll.js - click handler function." />
 </p>
@@ -2639,7 +2639,7 @@ You can see what it actually does.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 141. example: alert, click handler (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image141.png"
+  <img src="./images/webp/image141.webp"
   alt="Example: alert click handler function."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2657,7 +2657,7 @@ that, but I want to make sure I&apos;m getting those links.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 142. html stop animate (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image142.png"
+  <img src="./images/webp/image142.webp"
   alt="HTML stop animate."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2684,10 +2684,10 @@ we&apos;ll do that in the next lesson so you see how it all comes together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 143/144. adding the animation (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/webp/image143.png"
+<img src="./images/webp/image143.webp"
   style="width:45%;"
   alt="2.04. Adding the Animation." />
-<img src="./images/webp/image144.png"
+<img src="./images/webp/image144.webp"
   style="width:45%;"
   alt="Adding the animation to smoothscroll.js." />
 </p>
@@ -2704,7 +2704,7 @@ pound 5^th^ (#1st-#5th). We&apos;ve already seen that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. animate scroll top (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image144.png"
+  <img src="./images/webp/image144.webp"
   alt="Animate in 8 tens of a second property of scrollTop."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2728,7 +2728,7 @@ that will actually animate the page to the top of the window.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 145. example: offset scrolltop (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image145.png"
+  <img src="./images/webp/image145.webp"
   alt="Example: offset scrollTop."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -2747,10 +2747,10 @@ section going right up to the top of the window.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 146/147. stop method with example (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/webp/image146.png"
+<img src="./images/webp/image146.webp"
   style="width:45%;"
   alt="Stop method." />
-<img src="./images/webp/image147.png"
+<img src="./images/webp/image147.webp"
   style="width:45%;"
   alt="Example, scroll stop method." />
 </p>
@@ -2784,10 +2784,10 @@ that&apos;s running and then animate the thing that we&apos;ve clicked on next.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 148/149. top scroll minus 200 (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/webp/image148.png"
+<img src="./images/webp/image148.webp"
   style="width:45%;"
   alt="Scroll to top minus 200 pixels." />
-<img src="./images/webp/image149.png"
+<img src="./images/webp/image149.webp"
   style="width:45%;"
   alt="Example: scroll to top minus 200px." />
 </p>
@@ -2805,7 +2805,7 @@ put this back to 800 because the animation is so slow now.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 150. move animation tag to body (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image150.png"
+  <img src="./images/webp/image150.webp"
   alt="Move animation tag to body."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
@@ -3767,31 +3767,31 @@ of the script is over. The rest is fairly easy to do, but the hard part
 of this script is now been finished, that&apos;s nice to know.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 209.  (108) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 209. scroll up/down & position to section (108) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image209.png"
-  alt="."
+  <img src="./images/webp/image209.webp"
+  alt="Are you scrolling up or down and identify where in relation to section you are."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
 
 
 This is where the magic happens, is in the &apos;if &apos; and in the
-&apos;elusive&apos; where we&apos;re tracking whether we&apos;re scrolling down or
+&apos;elseif&apos; where we&apos;re tracking whether we&apos;re scrolling down or
 scrolling up, and where we are in the page in relation to our various
 sections of the page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 210.  (109) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 210. get posttop for location of section (109) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image210.png"
-  alt="."
+  <img src="./images/webp/image210.webp"
+  alt="Get postTop for location of section on scrolling page."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
 The next thing we need to do is to take advantage of the script to
 change the highlighting of these actual pieces based on which section
-where. That&apos;s the last part of the script that we need to do, and that
+we&apost;re at. That&apos;s the last part of the script that we need to do, and that
 part is not very difficult at this point. What I&apos;m going to do up here
 at the top is I&apos;m just going to make another variable **'var
 allLinks'** and that can hold dollar sign, parenthesis, and then what is
@@ -3808,10 +3808,10 @@ links just for a short cut, we don&apos;t have to take this out every time,
 and then one for previous counter that set to zero.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 211.  (110) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 211. highlight section you are in (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image211.png"
-  alt="."
+  <img src="./images/webp/image211.webp"
+  alt="Highlight the section you are in."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -3827,10 +3827,10 @@ the link with **eq**. **eq** is a function in jQuery that&apos;s like
 equals.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 212.  (111) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 212. update class attribute of section (111) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image212.png"
-  alt="."
+  <img src="./images/webp/image212.webp"
+  alt="Update class attribute of section."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -3859,10 +3859,10 @@ again until you go into another section. That should actually work.
 Let&apos;s see if that works.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 213.  (112) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 213. highlight necessary section on scroll (112) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/webp/image213.png"
-  alt="."
+  <img src="./images/webp/image213.webp"
+  alt="Highlight necessary section on scroll."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -3881,19 +3881,33 @@ anything based on whether when you&apos;re scrolling or where your scrolling
 to. This script gives you a lot of power over that thing, and that&apos;s
 really cool.
 
-# 2.13 Edge Case Issues (5:07) {#edge-case-issues-507 .unnumbered}
-
-![](./images/webp/image214.webp){width="4.0in"
-height="2.4508552055993in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-13">2.13. Edge Case Issues</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 214. edge case issues (2.13) (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image214.webp"
+  alt="2.13. Edge Case Issues."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 This script is working and we can leave it the way it is, but there are
 a couple edge case scenarios that are worth mentioning and worth fixing,
 and it complicates the script a little bit, but it&apos;s worth addressing
 and looking at.
 
-![](./images/webp/image215.webp){width="3.5in"
-height="2.144498031496063in"}![](./images/webp/image216.webp){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 215/216. calculate height of each image (113) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image215.webp"
+  style="width:45%;"
+  alt="Calculate height of each image." />
+<img src="./images/webp/image216.webp"
+  style="width:45%;"
+  alt="Locate section using image height." />
+</p>
+
 
 What I&apos;m going to do here, is I&apos;m going to click this button here,
 which toggles the device toolbar thing here. What I want to point out is
@@ -3902,9 +3916,17 @@ top of my page here and refresh, when the page loads, no matter how wide
 my browser window is, it&apos;s going to calculate how tall each of these
 sections are and it&apos;ll be fine.
 
-![](./images/webp/image217.webp){width="3.5in"
-height="2.144498031496063in"}![](./images/webp/image218.webp){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 217/218. test scroll position up/down (114) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image217.webp"
+  style="width:45%;"
+  alt="Test scroll section position, #1." />
+<img src="./images/webp/image218.webp"
+  style="width:45%;"
+  alt="Test scroll section position, #2." />
+</p>
+
 
 If I&apos;ve got a narrow browser on a phone or a small tablet or something
 like that, or a wide browser and a screen with a big window, big screen
@@ -3931,15 +3953,28 @@ handle these two situations for this and while we&apos;re at it, we&apos;re
 going to find a trick that&apos;s actually going to be really useful for
 other scripts, for handling the same things that could happen.
 
-![](./images/webp/image219.webp){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 219.  (115) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image219.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 In order to do this, I want to capture an event that fires when somebody
 resizes the window.
 
-![](./images/webp/image220.webp){width="3.5in"
-height="2.144498031496063in"}![](./images/webp/image221.webp){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 220/221.  (115) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image220.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image221.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Down here after my windows scroll event handler, which is this one here
 (left) and it&apos;s down here, but before the closing of my window load.
@@ -3949,17 +3984,27 @@ sign **window.on**, we&apos;re going to use the on method again, but instead
 of looking for load we&apos;re going to look for resize. Then we&apos;re going
 to run a function. In here, I&apos;m just going to console log. Resizing.
 
-![](./images/webp/image222.webp){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 222.  (116) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image222.webp"
+  alt="image222.webp."
+  style="border: 2px solid black; border-radius:15px; width:50%" />
+</p>
 
 Now, this event listener will fire while we&apos;re resizing the window and
 up here, I&apos;m going to get rid of some of these other console logs
 comment that went out. I&apos;m going to comment that I don&apos;t need that one
 just so I don&apos;t have those cluttering up my script over here. Great.
 
-![](./images/webp/image223.webp){width="5.0in"
-height="3.0635684601924758in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 223.  (116) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image223.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 I&apos;m going to come over here to my page and I&apos;m going to refresh and
 I&apos;m going to resize the window and you can see that while I&apos;m resizing
 the window, that event is firing 138 times there. As I resize the
@@ -3973,24 +4018,44 @@ resizing the window. Because at that point, that&apos;s when I want to
 calculate, how tall are my sections and fix my script up so that it will
 run right at that particular size. We&apos;ll do that in the next lesson.
 
-# 2.14 Resizing Your Windows (5:41) {#resizing-your-windows-541 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-14">2.14. Resizing Your Windows</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 224. resizing your windows (2.14) (117) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image224.webp"
+  alt="2.14. Resizing Your Windows."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
-![](./images/webp/image224.webp){width="4.0in"
-height="2.4508552055993in"}
 
 Great, now I want to make it so that when we&apos;re done resizing, we know
 we&apos;re in a place where we can actually change the heights of our
 element to do all that stuff.
 
-![](./images/webp/image225.webp){width="5.0in"
-height="3.0635673665791776in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 225.  (118) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image225.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 To do that, I&apos;m going to come back up here at the top of the page and
 then add one more variable var doneResizing.
 
-![](./images/webp/image226.webp){width="3.5in"
-height="2.144498031496063in"}![](./images/webp/image227.webp){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 226/227.  (118) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image226.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image227.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 I&apos;m just going to set out a variable and it&apos;s going to be undefined at
 the moment, but down here, I&apos;m going to insert my resize function here.
@@ -4021,9 +4086,16 @@ in a week, 500 milliseconds console log after it&apos;s done resizing, I
 hope. Let&apos;s see if that works if I did it right. If we come back over
 here and refresh my screen here.
 
-![](./images/webp/image228.webp){width="3.5in"
-height="2.144498031496063in"}![](./images/webp/image229.webp){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 228/229.  (119) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image228.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image229.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Now while I&apos;m resizing the screen, nothing&apos;s happening over there in
 the console log, but as soon as I stop, doneResizing. Now, I know that
@@ -4031,8 +4103,14 @@ when I doneResizing my window, number 2, doneResizing that event fires,
 and now that I&apos;m doneResizing, I can actually figure out, well, how
 tall are my sections and reset my page and do all of that.
 
-![](./images/webp/image230.webp){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 230.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image230.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Now, that I&apos;ve set it so that I can capture when I&apos;m doneResizing the
 window, what do I actually want to do in here? What I want to do is I
@@ -4040,8 +4118,15 @@ want to come up here and I want to get these two things because this is
 what setting my postTops. When I get these two things, I&apos;m just going
 to copy them from there and paste them in here.
 
-![](./images/webp/image231.webp){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 231.  (120) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image231.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
+
 
 After I&apos;m doneResizing, I&apos;m going to reset this variable post tops and
 I&apos;m going to put each of the posts in here and down here, let&apos;s
@@ -4050,8 +4135,14 @@ page where I have postTops console log out here, I&apos;m going to uncomment
 that out and save that, and now we should be able to test this and see
 if it&apos;s working.
 
-![](./images/webp/image232.webp){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 232.  (121) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image232.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Over here, when I refresh the page, it should tell me where it thinks
 the postTops are based on the height of those elements. When I&apos;m done
@@ -4059,27 +4150,48 @@ resizing, I get new postTops. The first one still at 200, that&apos;s fine.
 That makes sense, but the next one is a much higher number, and so on
 and so forth.
 
-![](./images/webp/image233.webp){width="3.5in"
-height="2.144498031496063in"}![](./images/webp/image234.webp){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 233/234.  (121) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image233.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image234.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 If I make it slightly wider, I&apos;ll get a different set of numbers. But
 you&apos;ll notice this only re-evaluates after I&apos;m done resizing my
 window. That&apos;s really cool, that&apos;s working really well.
 
-# 2.15 Resetting the Counter (5:22) {#resetting-the-counter-522 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-15">2.15. Resetting the Counter</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 235. resetting the counter (2.15) (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image235.webp"
+  alt="2.15. Resetting the Counter."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
-![](./images/webp/image235.webp){width="4.0in"
-height="2.4508552055993in"}
 
 We&apos;ve solved the first part of our problem with what happens if
 somebody resizes the window. But we haven&apos;t solved the second part of
 what happens if somebody refreshes the page while they&apos;re further down
 the page.
 
-![](./images/webp/image236.webp){width="3.5in"
-height="2.129540682414698in"}![](./images/webp/image237.webp){width="3.5in"
-height="2.129540682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 236/237.  (122) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image236.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image237.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 What I want to do for this is I&apos;m going to come down here into my
 script down here. I&apos;m going to piece something in. You&apos;re going to
@@ -4121,9 +4233,16 @@ all I need to do is remove the class from all links and then put the
 appropriate class in the appropriate link. That&apos;s really cool and that
 should work.
 
-![](./images/webp/image238.webp){width="3.5in"
-height="2.129540682414698in"}![](./images/webp/image239.webp){width="3.5in"
-height="2.129540682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 238/239.  (123) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image238.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image239.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Now, if I see this and notice, I do have this inside the resize
 function, which is not great, and we&apos;ll fix that in a minute. But
@@ -4143,17 +4262,30 @@ this stuff twice, so we&apos;re going to actually take some of this stuff
 out of here and put it into its own function. We&apos;ll do that in the next
 lesson.
 
-# 2.16 resetPagePosition Function (8:33) {#resetpageposition-function-833 .unnumbered}
-
-![](./images/webp/image240.webp){width="4.0in"
-height="2.4508552055993in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-16">2.16. resetPagePosition Function</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 240. resetpageposition function (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image240.webp"
+  alt="2.16 resetPagePosition Function."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 Our script is getting pretty long, and we&apos;re repeating ourselves in a
 few places.
 
-![](./images/webp/image241.webp){width="3.5in"
-height="2.129540682414698in"}![](./images/webp/image242.webp){width="3.5in"
-height="2.129540682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 241/242. smoothscroll.js: load, resize (125) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image241.webp"
+  style="width:45%;"
+  alt="smoothscroll.js: On load function." />
+<img src="./images/webp/image242.webp"
+  style="width:45%;"
+  alt="smoothscroll.js: On resize function." />
+</p>
 
 What I&apos;m going to do here is make a new function. I&apos;m going to leave
 it inside the window on load function that we have up here at the top.
@@ -4163,10 +4295,16 @@ function, so I&apos;m going to put it after here, in fact, I&apos;m going to get
 rid of a little bit of space there, and there we go. I&apos;m going to add
 in here a function resetPagePosition.
 
-![](./images/webp/image243.webp){width="3.5in"
-height="2.129540682414698in"}![](./images/webp/image244.webp){width="3.5in"
-height="2.129540682414698in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 243/244. doneresizing and resetpageposition (125) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image243.webp"
+  style="width:45%;"
+  alt="doneResizeing (sp?), postTops, and pagePosition." />
+<img src="./images/webp/image244.webp"
+  style="width:45%;"
+  alt="doneResizeing (sp?), postTops, and pagePosition." />
+</p>
 I&apos;m going to put all of this stuff that comes inside this set time out
 here. The post tops, we&apos;ve done resizing and this function here, but
 post tops all the way down to this and selected thing here. The set time
@@ -4174,9 +4312,14 @@ out function is going to end here, but all of the guts inside of there
 with post tops and everything, all of that, I&apos;m just going to cut and
 stick it inside this function instead. You might have to select it and
 shift to get it to line up for it.
-
-![](./images/webp/image245.webp){width="5.0in"
-height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 245. resetpageposition (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image245.webp"
+  alt="resetPagePosition."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Now I have a function called **resetPageposition**, and I&apos;m going to
 run that function here, **resetPagePosition**. When my time out function
@@ -4184,8 +4327,14 @@ runs, it&apos;s going to run **resetPagePosition**, this function here,
 which is all the stuff that we had in there. When we&apos;re done resizing,
 we&apos;re going to do all this stuff that we just wrote. That&apos;s cool.
 
-![](./images/webp/image246.webp){width="5.0in"
-height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 246. posttops and resetpageposition (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image246.webp"
+  alt="postTops and resetPagePosition."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 But I&apos;m also going to run it up at the top of the page here,
 **resetPagePosition**, and then I can get rid of this thing. You comment
@@ -4195,8 +4344,14 @@ variable **postTops**, but then inside here I&apos;m going to adjust my
 twice. It&apos;s going to run when the page loads and it&apos;s going to run any
 time you resize the screen.
 
-![](./images/webp/image247.webp){width="5.0in"
-height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 247. reset array posttops (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image247.webp"
+  alt="Reset array postTops."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 When the page loads we want to do all of these things. We want to get
 it. We want to make sure postTops is emptied out, put the tops of all of
@@ -4225,9 +4380,16 @@ resizing, choose the correct section. Separate sections on the screen.
 It does seem to be mostly working. Section, refresh the page, that
 section got highlighted, so that&apos;s correct.
 
-![](./images/webp/image248.webp){width="3.5in"
-height="2.129540682414698in"}![](./images/webp/image249.webp){width="3.5in"
-height="2.129540682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 248/249. reload index.html (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image248.webp"
+  style="width:45%;"
+  alt="Reload index.html." />
+<img src="./images/webp/image249.webp"
+  style="width:45%;"
+  alt="Reload index.html, again." />
+</p>
 
 The last thing we could do here is on our Index page. Since it&apos;s being
 added programmatically, we don&apos;t need class selected here at all
@@ -4240,8 +4402,14 @@ you go down to the correct section. You can see that it&apos;s slightly
 refreshing that, and the reason I think it&apos;s doing that is that it
 could be in some cases, actually reloading the page.
 
-![](./images/webp/image250.webp){width="5.0in"
-height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 250.  (129) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image250.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 One way to keep that from happening is in our script up here at the top.
 The script here. I mean down here at the end, return false, and I&apos;ll
@@ -4260,16 +4428,29 @@ showed you. But it&apos;s really pretty exciting. We&apos;re going to do one
 last lesson on this where we just look at the different pieces and
 review what we&apos;ve done.
 
-# 2.17 Reviewing the Whole Script (5:48) {#reviewing-the-whole-script-548 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-17">2.17. Reviewing the Whole Script</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 251. reviewing the whole script (2.17) (130) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image251.webp"
+  alt="2.17. Reviewing the Whole Script."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
-![](./images/webp/image251.webp){width="4.0in"
-height="2.4508552055993in"}
 
 This is quite an extensive script. We&apos;ve done a lot here. I just want
 to go through it once quickly, to review what we&apos;ve done.
 
-![](./images/webp/image252.webp){width="5.0in"
-height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 252.  (130) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image252.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 We started with the smooth scroll script, which handles what happens
 when you click on one of the section tabs, and it gets the 'href' of
@@ -4284,8 +4465,14 @@ possibly because now we have the other part that&apos;s handling this.
 That&apos;s something to consider. But that&apos;s what that first part of that
 script does.
 
-![](./images/webp/image253.webp){width="5.0in"
-height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 253.  (131) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image253.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 The second part of the script, is handling when the page loads in all
 the images and everything loads. We&apos;re creating some variables, getting
@@ -4299,8 +4486,14 @@ scrolled, and so on and so forth. Also, it will handle the situation for
 when it&apos;ll recalculate those things when we resize the screen but that
 happens later, so we set all that page position stuff.
 
-![](./images/webp/image254.webp){width="5.0in"
-height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 254.  (132) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image254.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 The magic of the script is actually happening here. When you scroll the
 page we&apos;re capturing that scroll event, and as we scroll the page,
@@ -4314,15 +4507,27 @@ Then we set previews counter to counter, and we&apos;re ready for the next
 change. This script is the heart of the whole thing in terms of figuring
 out everything that should happen there on the page.
 
-![](./images/webp/image255.webp){width="5.0in"
-height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 255.  (133) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image255.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Then finally, we have the 'window on resize', and we&apos;re using
 clearTimeout to keep the setTime out from happening until we&apos;re
 actually done resizing.
 
-![](./images/webp/image256.webp){width="5.0in"
-height="3.0422003499562553in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 256.  (133) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image256.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 It&apos;s clearing done resizing while we&apos;re resizing, and then as soon as
 we&apos;re done, it waits half a second, and runs this reset page position
@@ -4330,9 +4535,16 @@ again, which we already talked about, which sets the tops of all of our
 pages, of all of our sections and figures out how far down the page we
 are and sets the styling for the links appropriately.
 
-![](./images/webp/image257.webp){width="3.5in"
-height="2.129540682414698in"}![](./images/webp/image258.webp){width="3.5in"
-height="2.129540682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 257/258.  (134) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image257.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image258.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 The only thing I can think to do is maybe to remove these two pieces
 here. I&apos;m going to take those out just for a minute to see, if that
@@ -4340,9 +4552,16 @@ makes our script function just slightly better. Now when we get to this
 function, then we could get rid of this callback function entirely if
 this works.
 
-![](./images/webp/image259.webp){width="3.5in"
-height="2.129540682414698in"}![](./images/webp/image260.webp){width="3.5in"
-height="2.129540682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 259/260.  (134) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image259.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image260.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 But let&apos;s see if this does what we wanted to do here, and then come
 back here to the top of the page, refresh the page, and now when I click
@@ -4353,9 +4572,16 @@ the highlighting here, and I actually don&apos;t need that in the other
 script. I think the two are affecting each other a little bit, so now
 both scripts are working.
 
-![](./images/webp/image261.webp){width="3.5in"
-height="2.129540682414698in"}![](./images/webp/image262.webp){width="3.5in"
-height="2.129540682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 261/262.  (135) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image261.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image262.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 You could come back here, and take out this callback function entirely
 all the way down to there, and have a slightly shorter script, assuming
@@ -4371,22 +4597,34 @@ you have a script that you could use to create all interesting
 interactions as you scroll down the page, all done in JQuery. We&apos;ll do
 the same script, and play JavaScript.
 
-## PDF of Presentation: 2.17.jQueryPage-Location-Tracking.pdf (28 pgs)
+## <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation> 
 
-## <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation> {#httpswww.coursera.orglearninteractivity-javascript-jquerysupplementyrvxepdf-of-presentation .unnumbered}
-
-# 2.18 Introduction to Scroll Effects with JS (6:04) {#introduction-to-scroll-effects-with-js-604 .unnumbered}
-
-![](./images/webp/image263.webp){width="4.0in"
-height="2.4508552055993in"}
+<h3>PDF of Presentation: 2.17.jQueryPage-Location-Tracking.pdf (28 pgs)</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-18">2.18. Introduction to Scroll Effects with JS</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 263. intro to scroll effects with js (2.18) (136) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image263.webp"
+  alt="2.18. Intro to Scroll Effects with JavaScript."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 Scroll effects with Javascript in this lesson. We are going to do the
 same thing, that we just did with the previous lesson on school effects
 using jQuery.
 
-![](./images/webp/image264.webp){width="3.5in"
-height="2.129540682414698in"}![](./images/webp/image265.webp){width="3.5in"
-height="2.129540682414698in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 264/265. scroll effects with plain js (136) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image264.webp"
+  style="width:45%;"
+  alt="Scroll Effects with JavaScript." />
+<img src="./images/webp/image265.webp"
+  style="width:45%;"
+  alt="Example scroll effects with javascript." />
+</p>
 
 Only this one, we are going to use plain JavaScript instead. And that
 will allow you to compare the syntax between jQuery and JavaScript and
@@ -4395,10 +4633,16 @@ complicated script. It is a little hard to wrap your head around. So,
 doing it twice will actually help you, and I think you will see that
 there&apos;s a lot of similarities between the JavaScript version, and the
 jQuery version.
-
-![](./images/webp/image266.webp){width="3.5in"
-height="1.9799682852143483in"}![](./images/webp/image267.webp){width="3.5in"
-height="1.9799682852143483in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 266/267. index.html and style.css (137) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image266.webp"
+  style="width:45%;"
+  alt="Scroll Effects with JavaScript." />
+<img src="./images/webp/image267.webp"
+  style="width:45%;"
+  alt="Example scroll effects with javascript." />
+</p>
 
 The second thing I want you to notice is that, or to remember is that
 this header is fixed at the top of the page and the CSS. So, the content
@@ -4413,8 +4657,14 @@ great, so with those basic pieces in mind we are ready to get started
 with our JavaScript, and the first thing we want to do is gather all of
 these links in our navigation.
 
-![](./images/webp/image268.webp){width="5.0in"
-height="2.828525809273841in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 268. script.js (137) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image268.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 Come over to our script.Js file, ignore this smooth scroll Js for a
 moment. We will get to that in a while but come on over here, and then,
@@ -4460,27 +4710,41 @@ right away, and not even wait for the click. So, we want to just put the
 pointer debt to this function down here, and let it run that way.
 
 Start Files: Smooth Scroll with JavaScript --
-**2.18.Scroll-Effects-START.zip**
 
-[https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript](https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-javascript)
-
-# 2.19 Getting the Target -- Part 1 (4:50) {#getting-the-target-part-1-450 .unnumbered}
-
-![](./images/webp/image269.webp){width="4.0in"
-height="2.4508552055993in"}
+<b>2.18.Scroll-Effects-START.zip</b>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-19">2.19. Getting the Target -- Part 1 (4:50)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 269. getting the target - part 1 (2.19) (138) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image269.webp"
+  alt="2.19. Getting the Target - Part 1."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 Next, we want to get the href of the link that we clicked, the one that
 we clicked on, and we could use the this keyword, but in some cases,
 event.target is a little bit more direct and explicit.
-
-![](./images/webp/image270.webp){width="5.0in"
-height="2.828525809273841in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 270.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image270.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 So event.target get attribute href, we&apos;ll find out which link we
 clicked. And if we go back to our code over here.
-
-![](./images/webp/image271.webp){width="5.0in"
-height="2.828525809273841in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 271.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image271.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 When you click on one of these links, first, second, third or fourth,
 you&apos;re getting this href pound first or pound second or pound third,
@@ -4492,6 +4756,16 @@ first, pound, second, pound third, pound fourth or pound fifth. So in
 targetAnchor, I&apos;m going to get my targetID. Here I call the variable
 targetSection.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 272/273.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image272.webp"
+  style="width:45%;"
+  alt="Scroll Effects with JavaScript." />
+<img src="./images/webp/image273.webp"
+  style="width:45%;"
+  alt="Example scroll effects with javascript." />
+</p>
 ![](./images/webp/image272.webp){width="3.5in"
 height="1.9799682852143483in"}![](./images/webp/image273.webp){width="3.5in"
 height="1.9799682852143483in"}
