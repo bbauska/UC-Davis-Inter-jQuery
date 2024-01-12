@@ -1,49 +1,85 @@
-![](./images2/media/image1.png){width="3.0in"
-height="0.6788462379702537in"}
+---
+title: "University of California @Davis Interactivity with JavaScript and jQuery"
+author: "bbauska"
+date last editted: "1/11/2024 7+pm"
+output: 
+  markdown:
+    with some style
+---
 
-![](./images2/media/image2.png){width="1.7916666666666667in"
-height="1.5104166666666667in"}
+<h1 align="center">Interactivity with JavaScript and jQuery</h1>
 
-## About this Course {#about-this-course .unnumbered}
+<h6 align="center">(by William Mead, Lecturer - University of California @Davis)</h6>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ readme.md of uc-davis-inter-jquery.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. jquery logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image001.webp" 
+  alt="jQuery logo."
+  style="border: 2px solid #000000;" 
+  width="400px;" />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. uc davis logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image002.webp" 
+  alt="University of California @Davis logo."
+  style="border: 2px solid #000000;" 
+  width="200px;" />
+</p>
 
-This course is the third in our JavaScript for Beginners Specialization.
-The scripts will become more complex and introduce more complex jQuery
-plugins. You will have several challenges to practice your skills
-throughout the course. The course objectives include how to identify
-objects in JavaScript; create new objects and populate them with data;
-manipulate objects by adding, modifying and deleting data in objects;
-manipulate the DOM based on the data in objects; identify and articulate
-how multiple functions work together to create a more complex program;
-and identify processes for breaking larger programs into smaller, more
-manageable pieces.
+<h3>About this Course</h3>
 
-# Syllabus {#syllabus .unnumbered}
+<p>This course is the third in our JavaScript for Beginners Specialization. The 
+scripts will become more complex and introduce more complex jQuery plugins. You 
+will have several challenges to practice your skills throughout the course.</p>
+<p>The course objectives include how to identify objects in JavaScript; create 
+new objects and populate them with data; manipulate objects by adding, modifying 
+and deleting data in objects; manipulate the DOM based on the data in objects; 
+identify and articulate how multiple functions work together to create a more complex 
+program; and identify processes for breaking larger programs into smaller, more 
+manageable pieces.</p>
+<!-- table of contents -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
 
-# Module One:  {#module-one .unnumbered}
+<!-- <div style="background-color:black;color:white;padding:30px">Scroll Down</div> -->
+<!-- <div style="background-color:lightgrey;padding:30px 30px 750px"></div> -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- <script>
+// Get the button
+var mybutton = document.getElementById("myBtn");
 
-## Getting Started & jQuery Plugins and Capturing the Scroll Event {#getting-started-jquery-plugins-and-capturing-the-scroll-event .unnumbered}
+// When the user scrolls down 10px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
 
-In this module, you will be introduced to jQuery plugins and be able to
-present the advantages and challenges associated with using jQuery
-plugins. You will also be able to recognize common mistakes to avoid
-when using jQuery plugins. You will be introduced to the **Flexslider
-jQuery** plugin and be able to use it to build basic and more advanced
-image sliders.
+function scrollFunction() {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
 
-### 13 videos, 3 readings, 2 zip files {#videos-3-readings-2-zip-files .unnumbered}
+// When the user clicks on the button, scroll to the top of the document. 0,0 - 2120
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~ Hoverable Dropdown Menu ~~-->
+<h2><a href="#table-of-contents">Table of Contents</a></h2>
 
--   **1.00-A-Note-from-UC-Davis.pdf**
-
-1.  [Welcome to this
-    Course!](https://www.coursera.org/lecture/interactivity-javascript-jquery/welcome-to-this-course-K8n2i)
-
-2.  Module 1 Introduction
-
-3.  Introduction to jQuery Plugins
-
-4.  Using Plugins and Essential Steps
-
-5.  Gotchas and Rookie Mistakes
+## [**Week 1: jQuery Plugins and Capturing the Scroll Event**](#ch1)
+>### [**1.01 Welcome!**](#ch1-01)
+>### [**1.02 Module 1 Introduction**](#ch1-02)
+>### [**1.03 Intro to jQuery Plugins**](#ch1-03)
+>### [**1.04 Using Plugins and Essential Steps**](#ch1-04)
+>### [**1.05 Gotchas and Rookie Mistakes**](#ch1-05)
 
 -   **1.05.jQueryPlugins.pdf**
 
@@ -51,116 +87,61 @@ image sliders.
 
 -   **1.05.FlexSliderPlugin.zip**
 
-6.  FlexSlider: A jQuery Plugin
-
-7.  About the Minified Version
-
-8.  Adding Markup & Hooking Up the Slider
-
-9.  FlexSlider Rules
-
-10. Additional Controls
-
-11. Advanced FlexSlider
-
-12. Additional Styling
-
-13. Styling the CTA
-
+>### [**1.06 FlexSlider: A jQuery Plugin**](#ch1-06)
+>### [**1.07 About the Minified Version**](#ch1-07)
+>### [**1.08 Adding Markup &amp; Hooking Up the Slider**](#ch1-08)
+>### [**1.09 FlexSlider Rules**](#ch1-09)
+>### [**1.10 Additional Controls**](#ch1-10)
+>### [**1.11 Advanced FlexSlider**](#ch1-11)
+>### [**1.12 Additional Styling**](#ch1-12)
+>### [**1.13 Styling the CTA**](#ch1-13)
 -   **1.13.FlexSlider.pdf**
 
-# Module Two:  {#module-two .unnumbered}
-
-## Combining Scripts and Skill Building Through Practice {#combining-scripts-and-skill-building-through-practice .unnumbered}
-
-In this module, you will be able to use jQuery to create a smooth scroll
-effect for in-page navigation, as well as develop a script, using
-jQuery, that keeps track of scroll positions on the page. You will be
-able to compare and contrast the in-page smooth scroll script and the
-location tracking script created using jQuery with one created using
-plain JavaScript. You will be able to build a webpage using HTML and CSS
-that will combine some of the different scripts created in this course.
-You will be able to combine some of the different scripts and jQuery
-plugins explored in this course into the Scription webpage through a
-series of challenges.
-
-### 39 videos, 5 readings, 7 zip files {#videos-5-readings-7-zip-files .unnumbered}
-
-1.  [Module 2
-    Introduction](https://www.coursera.org/lecture/interactivity-javascript-jquery/module-introduction-ZlMzi)
-    (:38)
-
-2.  Introduction to Smooth Scroll with jQuery (4:15)
+## [**Week 2: Combining Scripts and Skill Building Through Practice**](#ch2)
+>### [**2.01 Module 2 Introduction**](#ch2-01)
+>### [**2.02 Intro to Smooth Scroll with jQuery**](#ch2-02)
 
 -   **2.02.jQueryScrollEffects-START.zip**
 
-3.  Creating a Click Handler (5:00)
-
-4.  Adding the Animation (6:56)
-
-5.  Add Some Easing and a Callback Function (4:05)
-
-6.  Highlighting Elements (5:22)
-
--   **2.06.jQuerySmoothScroll.pdf**
-
-7.  Introduction to Page Location Tracking (8:00)
-
-8.  The Crux of the Problem (6:09)
-
-9.  Strategy (8:27)
-
-10. Adding PageTop and If Statements (5:39)
-
-11. Writing the Else/If Statement - Part 1 (4:10)
-
-12. Writing the Else/If Statement - Part 2 (5:43)
-
-13. Edge Case Issues (5:07)
-
-14. Resizing Your Windows (5:41)
-
-15. Resetting the Counter (5:22)
-
-16. **resetPagePosition** Function (8:33)
-
-17. Reviewing the Whole Script (5:48)
+>### [**2.03 Creating a Click Handler**](#ch2-03)
+>### [**2.04 Adding the Animation**](#ch2-04)
+>### [**2.05 Add Some Easing and a Callback Function**](#ch2-05)
+>### [**2.06 Highlighting Elements**](#ch2-06)
+>### [**2.07 Intro to Page Location Tracking**](#ch2-07)
+>### [**2.08 The Crux of the Problem**](#ch2-08)
+>### [**2.09 Strategy**](#ch2-09)
+>### [**2.10 Adding PageTop and If Statements**](#ch2-11)
+>### [**2.11 Writing the Else/If Statement - Part 1**](#ch2-11)
+>### [**2.12 Writing the Else/If Statement - Part 2**](#ch2-12)
+>### [**2.13 Edge Case Issues**](#ch2-13)
+>### [**2.14 Resizing the Counter**](#ch2-14)
+>### [**2.15 Resetting the Counter**](#ch2-15)
+>### [**2.16 resetPagePosition Function**](#ch2-16)
+>### [**2.17 Reviewing the Whole Script**](#ch2-17)
 
 -   **2.17.jQueryPageLocationTracking.pdf**
 
-18. Introduction to Scroll Effects with JS (6:04)
+>### [**2.18 Intro to Scroll Effects with JS**](#ch2-18)
 
 -   **2.18.ScrollEffects-START.zip**
 
-19. Getting the Target - Part 1 (4:50)
-
-20. Getting the Target - Part 2 (5:15)
-
-21. Smooth Scroll **Polyfill** (4:45)
-
-22. Checking the Load (6:48)
-
-23. Top Posts (5:35)
-
-24. Add an Event Listener (5:42)
-
-25. The Magic Conditionals (5:58)
-
-26. Changing the Next Link (5:56)
-
-27. Resizing Function (5:07)
-
-28. Finalizing the Script (10:01)
+>### [**2.19 Getting the Target - Part 1**](#ch2-19)
+>### [**2.20 Getting the Target - Part 2**](#ch2-20)
+>### [**2.21 Smooth Scroll Polyfill**](#ch2-21)
+>### [**2.22 Checking the Load**](#ch2-22)
+>### [**2.23 Top Posts**](#ch2-23)
+>### [**2.24 Add an Event Listener**](#ch2-24)
+>### [**2.25 The Magic Conditionals**](#ch2-25)
+>### [**2.26 Changing the Next Link**](#ch2-26)
+>### [**2.27 Resizing Function**](#ch2-27)
+>### [**2.28 Finalzing the Script**](#ch2-28)
 
 -   **2.28.PDF-of-Presentation.pdf**
 
-29. Scription Site Introduction (5:54)
+>### [**2.29 Scription Site Introduction**](#ch2-29)
 
 -   **2.29.Scription-Part1-Start.zip**
 
-```{=html}
-<!-- -->
-```
 -   **2.29.Scription-Part1-Snippets.zip**
 
 -   **2.29.Scription-Part2-Start.zip**
@@ -169,209 +150,327 @@ series of challenges.
 
 -   **2.29.Flexslider-files.zip**
 
-30. Header HTML (5:09)
-
-31. Pricing HTML
-
-32. Beginning Styling
-
-33. Styling That Attaches to Whole Page
-
-34. Slider Styling
-
-35. Pricing Styles
-
-36. Tablet Styles
-
-37. Media Query for 1020 Pixels Wide
-
-38. Media Query for 1200 Pixels Wide
-
-39. Scription Site: Building Interactive Elements Challenges
+>### [**2.30 Header HTML**](#ch2-30)
+>### [**2.31 Pricing Styling**](#ch2-31)
+>### [**2.32 Beginning Styling**](#ch2-32)
+>### [**2.33 Styling That Attaches to Whole Page**](#ch2-33)
+>### [**2.34 Slider Styles**](#ch2-34)
+>### [**2.35 Pricing Styles**](#ch2-35)
+>### [**2.36 Tables Styles**](#ch2-36)
+>### [**2.37 Media Query for 1020 Pixels Wide**](#ch2-37)
+>### [**2.38 Media Query for 1200 Pixels Wide**](#ch2-38)
+>### [**2.39 Scription Site: Building Interactive Elements Challenges**](#ch2-39)
 
 -   **2.39.Scription-Finished-Version.pdf**
 
 -   **2.39.PDF-of-Presentations.pdf**
 
-# Module Three:  {#module-three .unnumbered}
-
-## Introduction to Objects & Data in JavaScript {#introduction-to-objects-data-in-javascript .unnumbered}
-
-In this module, you will be introduced to the object literal and be able
-to demonstrate some of the ways to manipulate data inside objects. You
-will be able to develop good habits and processes that help with
-thinking about how to solve a programming problem, including breaking a
-problem down into smaller pieces.
-
-### 11 videos, 4 readings {#videos-4-readings .unnumbered}
-
-1.  [Module 3
-    Introduction](https://www.coursera.org/lecture/interactivity-javascript-jquery/module-introduction-WzeAM)
-
-2.  Introduction to Objects and Data in JS
+## [**Week 3. Intro to Objects and Data in JavaScript**](ch3)
+>### [**3.01 Module 3 Introduction**](#ch3-01)
+>### [**3.02 Intro to Objects and Data in JS**](#ch3-02)
 
 -   **3.02-Start Files-Working-with-Objects-in-JavaScript.pdf**
 
-3.  Objects Can Contain Arrays and Other Objects
-
-4.  Functions Inside Objects Equals Methods
-
-5.  Putting Objects and Functions Together
-
-6.  Data Formats - XML
-
-7.  Example File
+>### [**3.03 Objects Can Contain Arrays and Other Objects**](#ch3-03)
+>### [**3.04 Functions Inside Objects Equals Methods**](#ch3-04)
+>### [**3.05 Putting Objects and Functions Together**](#ch3-05)
+>### [**3.06 Data Formats - XML**](#ch3-06)
+>### [**3.07 Example File**](#ch3-07)
 
 -   **3.07-PDF-of-Presentations.pdf**
 
-8.  Introduction to Pig Dice Game
+>### [**3.08 Intro to Pig Dice Game**](#ch3-08)
 
 -   **3.08-Pig-Dice-Game-Diagrams.pdf**
 
-9.  Play the Game of Pig
-
-10. Version One
-
-11. Other Versions
+>### [**3.09 Play the Game of Pig**](#ch3-09)
+>### [**3.10 Version One**](#ch3-10)
+>### [**3.11 Other Versions**](#ch3-11)
 
 -   **3.11-PDF-of-Presentations.pdf**
 
-# Module Four:  {#module-four .unnumbered}
-
-## Building a Simple Game in JavaScript {#building-a-simple-game-in-javascript .unnumbered}
-
-By building this game within this module, you will be able to practice
-the JavaScript you have already learned while constructing a script with
-more functions and complexity. You will be able to then extend the
-script in many creative ways.
-
-### 15 videos, 2 readings {#videos-2-readings .unnumbered}
-
-1.  [Module 4
-    Introduction](https://www.coursera.org/lecture/interactivity-javascript-jquery/module-introduction-DzDSD)
-
-2.  Introduction to the Game of Pig
+## [**Week 4. Building a Simple Game in JavaScript**](ch4)
+>### [**4.01 Module 4 Introduction**](#ch4-01)
+>### [**4.02 Intro to the Game of Pig**](#ch4-02)
 
 -   **4.02.Start-Files-Game-of-Pig.pdf**
 
-3.  Start the Game
-
-4.  Set Up the Turn
-
-5.  Throwing the Dice
-
-6.  Test Throwing the Dice
-
-7.  Add the Selection Statements
-
-8.  Snake Eyes!
-
-9.  A \"1\" Was Rolled
-
-10. The Else Statement
-
-11. Checking for a Win
-
-12. Show the Current Score
-
-13. Final Clean-Up
-
-14. Extending the Game
+>### [**4.03 Start the Game**](#ch4-03)
+>### [**4.04 Set Up the Turn**](#ch4-04)
+>### [**4.05 Throwing the Dice**](#ch4-02)
+>### [**4.06 Test Throwing the Dice**](#ch4-06)
+>### [**4.07 Add the Selection Statements**](#ch4-07)
+>### [**4.08 Snake Eyes**](#ch4-08)
+>### [**4.09 A "1" Was Rolled**](#ch4-09)
+>### [**4.10 The Else Statement**](#ch4-10)
+>### [**4.11 Checking for a Win**](#ch4-11)
+>### [**4.12 Show the Current Score**](#ch4-12)
+>### [**4.13 Final Clean-Up**](#ch4-13)
+>### [**4.14 Extending the Game**](#ch4-14)
 
 -   **4.14.PDF-of-Presentation.pdf**
 
-15. Course Summary
+>### [**4.15 Course Summary**](#ch4-15)
 
-## A Note from UC Davis {#a-note-from-uc-davis .unnumbered}
+<h2>Syllabus</h2>
 
-Welcome to this course!
+<h3>Module (Week) One:</h3>
 
-We are delighted to be a part of your continuing education. This course
-will provide you with a variety of tools and learning opportunities, to
-include lesson lectures, readings, assessments, peer reviews, and an
-opportunity to contribute to the Coursera learning community in the
-discussion forums.
+<h4>Getting Started & jQuery Plugins and Capturing the Scroll Event</h4>
 
-In each of the lesson sections, you'll find learning objectives, lecture
-lessons, readings, activities, and an opportunity to test your knowledge
-in quiz format. In some of the module sections you'll also work on
-assignments and grade the work of your peers. A peer-review assignment,
-is one where you and your fellow learners have an opportunity to review
-and grade each other's work. We'll dive more into peer reviews later on
-in this course.
+<p>In this module (1), you will be introduced to jQuery plugins and be able to 
+present the advantages and challenges associated with using jQuery plugins. 
+You will also be able to recognize common mistakes to avoid when using jQuery plugins. 
+You will be introduced to the Flexslider jQuery plugin and be able to use it to build 
+basic and more advanced image sliders.</p>
 
-When navigating the course, you can find available **course resources**
-under each of the lecture lessons in a section labeled
-"[Downloads]{.underline}" -- here you can download the lecture video,
-view transcripts, PDFs of the lecture slides, and **find additional
-readings or files**.
+<h5>13 videos, 3 readings, 2 zip files</h5>
 
-If you run into any issues during this course, **learner support** is
-available to all Coursera students. The link for Coursera's Learner
-support is included below. The [Help Center/Learner
-Support](https://learner.coursera.help/hc/en-us) includes topics such as
-account setup, payments, enrollment questions, and troubleshooting
-common problems.
+<ul>
+  <li>1.00.A Note from UC Davis</li>
+</ul>
 
-If you find any content issues, be sure to let the course staff know by
-**flagging the lecture**, assignment, reading, or quiz and this will
-inform us of where these issues occur. Here is the link for more
-information on how to [Flag an
-Issue](https://learner.coursera.help/hc/en-us/articles/208280106-Report-a-problem-with-a-course) -
-it is also listed below.
+   1. Welcome to this Course!
+   2. Module Introduction
+   3. Introduction to jQuery Plugins
+   4. Using Plugins and Essential Steps
+   5. Gotchas and Rookie Mistakes
 
-One of the great things about Coursera courses is that they are
-self-paced. The course dates are based on the average time it takes to
-complete a course. However, if you need additional time to complete a
-course you can **reset your deadlines** with no penalties. More
-information on resetting deadlines can be found here: [Assignment
-Deadlines](https://learner.coursera.help/hc/en-us/articles/208279866-Assignment-deadlines)
+<ul>
+  <li>1.05.jQueryPlugins.pdf</li>
+  <li>1.05.FlexSliderBasic-Start.zip</li>
+  <li>1.05.FlexSliderPlugin.zip</li>
+</ul>
+    
+   6. FlexSlider: A jQuery Plugin
+   7. About the Minified Version
+   8. Adding Markup & Hooking Up the Slider
+   9. FlexSlider Rules
+  10. Additional Controls
+  11. Advanced FlexSlider
+  12. Additional Styling
+  13. Styling the CTA
 
-Need additional help during your course session? Be sure to utilize the
-**discussion forums** and interact with your fellow peers. In this area,
-you can ask questions or search for similar issues that have already
-been posted in the forums. Learner support is also a great place to find
-answers, but specific course content questions can typically be found
-and answered in the discussion forums. This is also a great place to
-post your assignment if additional peer reviews are needed. Here is a
-link with more information on the discussion forums: [Discussion
-Forums](https://learner.coursera.help/hc/en-us/articles/208279996-Get-help-with-course-content-in-the-discussion-forums)
+<ul>
+  <li>1.13.FlexSlider.pdf</li>
+</ul>
 
-Because of the self-paced nature of Coursera courses, this is an
-excellent opportunity to show your commitment to your work and the work
-of your peers through academic integrity. Be sure to read the Coursera
-guidelines and the **Coursera Honor Code** here: [Coursera Honor
-Code](https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code)
+<h3>Week Two:</h3>
 
-We look forward to having you in this course. Happy learning!
+<h4>Combining Scripts and Skill Building Through Practice</h4>
 
-***UC Davis Coursera Team***
+<p>In this module, you will be able to use jQuery to create a smooth scroll effect for in-page navigation, as well 
+as develop a script, using jQuery, that keeps track of scroll positions on the page. You will be able to compare 
+and contrast the in-page smooth scroll script and the location tracking script created using jQuery with one 
+created using plain JavaScript. You will be able to build a webpage using HTML and CSS that will combine some 
+of the different scripts created in this course. You will be able to combine some of the different scripts and 
+jQuery plugins explored in this course into the Scription webpage through a series of challenges.</p>
 
-## **Additional Links**: {#additional-links .unnumbered}
+<h5>39 videos, 5 readings, 7 zip files</h5>
 
--   Coursera's Learner Support/Help Center:
+   1. Module 2 Introduction (:38)
+   2. Introduction to Smooth Scroll with jQuery (4:15)
 
-<https://learner.coursera.help/hc/en-us>
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery" target="_blank" rel="noopener noreferrer">
+    2.02.jQueryScrollEffects-START.zip (ZIP File)</a></li>
+</ul>
 
--   Flagging a Lecture:
 
-<https://learner.coursera.help/hc/en-us/articles/208280106-Report-a-problem-with-a-course>
+   3. Creating a Click Handler (5:00)
+   4. Adding the Animation (6:56)
+   5. Add Some Easing and a Callback Function (4:05)
+   6. Highlighting Elements (5:22)
 
--   Assignment Deadlines:
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation">PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</a></li>
+</ul>
+  
+   7. Introduction to Page Location Tracking (8:00)
+   8. The Crux of the Problem (6:09)
+   9. Strategy (8:27)
+  10. Adding PageTop and If Statements (5:39)
+  11. Writing the Else/If Statement - Part 1 (4:10)
+  12. Writing the Else/If Statement - Part 2 (5:43)
+  13. Edge Case Issues (5:07)
+  14. Resizing Your Windows (5:41)
+  15. Resetting the Counter (5:22)
+  16. resetPagePosition Function (8:33)
+  17. Reviewing the Whole Script (5:48)
 
-<https://learner.coursera.help/hc/en-us/articles/208279866-Assignment-deadlines>
+<ul>
+  <li>2.17.jQueryPageLocationTracking.pdf (10 min’s)</li>
+</ul>
+  
+  18. Introduction to Scroll Effects with JS (6:04)
 
--   Peer Reviewed Assignments:
+<ul>
+  <li>2.18.ScrollEffects-START.zip</li>
+</ul>
+  
+  19. Getting the Target - Part 1 (4:50)
+  20. Getting the Target - Part 2 (5:15)
+  21. Smooth Scroll Polyfill (4:45)
+  22. Checking the Load (6:48)
+  23. Top Posts (5:35)
+  24. Add an Event Listener (5:42)
+  25. The Magic Conditionals (5:58)
+  26. Changing the Next Link (5:56)
+  27. Resizing Function (5:07)
+  28. Finalizing the Script (10:01)
 
-<https://learner.coursera.help/hc/en-us/sections/201895903-Peer-reviewed-assignments>
+<ul>
+  <li>2.28.PDF of Presentation (10 min’s)</li>
+</ul>
+  
+  29. Scription Site Introduction (5:54)
 
--   Coursera's Honor Code:
+<ul>
+  <li>zip_files:
+    <ul>
+	  <li>2.29.Scription-Part1-Start.zip</li>
+	  <li>2.29.Scription-Part1-Snippets.zip</li>
+	  <li>2.29.Scription-Part2-Start.zip</li>
+	  <li>2.29.Scription-Part2-Snippets.zip</li>
+	  <li>2.29.Flexslider-files.zip</li>
+      </li>
+	</ul>
+</ul>
+    
+  30. Header HTML (5:09)
+  31. Pricing HTML
+  32. Beginning Styling
+  33. Styling That Attaches to Whole Page
+  34. Slider Styling
+  35. Pricing Styles
+  36. Tablet Styles
+  37. Media Query for 1020 Pixels Wide
+  38. Media Query for 1200 Pixels Wide
+  39. Scription Site: Building Interactive Elements Challenges
 
-<https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code>
+<ul>
+  <li>2.39.Scription Finished Version</li>
+  <li>2.39.PDF of Presentations</li>
+</ul>
+
+<h3>Week Three:</h3>
+
+<h4>Introduction to Objects & Data in JavaScript</h4>
+
+<p>In this module, you will be introduced to the object literal and be able to 
+demonstrate some of the ways to manipulate data inside objects. You will be able 
+to develop good habits and processes that help with thinking about how to solve 
+a programming problem, including breaking a problem down into smaller pieces.</p>
+
+<h5>11 videos, 4 readings</h5>
+
+   1. Module Introduction
+   2. Introduction to Objects and Data in JS
+
+<ul>
+  <li>3.02.Start Files: Working with Objects in JavaScript</li>
+</ul>
+  
+   3. Objects Can Contain Arrays and Other Objects
+   4. Functions Inside Objects Equals Methods
+   5. Putting Objects and Functions Together
+   6. Data Formats - XML
+   7. Example File
+
+<ul>
+  <li>3.07.PDF of Presentations</li>
+</ul>
+  
+   8. Introduction to Pig Dice Game
+
+<ul>
+  <li>3.08.Pig Dice Game Diagrams</li>
+</ul>
+  
+   9. Play the Game of Pig
+  10. Version One
+  11. Other Versions
+
+<ul>
+  <li>3.11.PDF of Presentations</li>
+</ul>
+  
+<h3>Week Four:</h3>
+
+<h4>Building a Simple Game in JavaScript</h4>
+
+<p>By building this game within this module, you will be able to practice the JavaScript 
+you have already learned while constructing a script with more functions and complexity. 
+You will be able to then extend the script in many creative ways.</p>
+
+<h5>15 videos, 2 readings</h5>
+
+   1. Module Introduction
+   2. Introduction to the Game of Pig
+
+<ul>
+  <li>4.02.Start Files: Game of Pig</li>
+</ul>
+  
+   3. Start the Game
+   4. Set Up the Turn
+   5. Throwing the Dice
+   6. Test Throwing the Dice
+   7. Add the Selection Statements
+   8. Snake Eyes!
+   9. A "1" Was Rolled
+  10. The Else Statement
+  11. Checking for a Win
+  12. Show the Current Score
+  13. Final Clean-Up
+  14. Extending the Game
+
+<ul>
+  <li>4.14.PDF of Presentation</li>
+</ul>
+
+  15. Course Summary
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch1-00">1.00 A Note from UC Davis</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Welcome to this course!</p>
+<p>We are delighted to be a part of your continuing education. This course will provide you with a variety of tools and learning opportunities, to include lesson lectures, readings, assessments, peer reviews, and an opportunity to contribute to the Coursera learning community in the discussion forums.</p>
+<p>In each of the lesson sections, you’ll find learning objectives, lecture lessons, readings, activities, and an opportunity to test your knowledge in quiz format. In some of the module sections you’ll also work on assignments and grade the work of your peers. A peer-review assignment, is one where you and your fellow learners have an opportunity to review and grade each other’s work. We’ll dive more into peer reviews later on in this course.</p>
+<p>When navigating the course, you can find available course resources under each of the lecture lessons in a section labeled “Downloads” – here you can download the lecture video, view transcripts, PDFs of the lecture slides, and find additional readings or files.</p>
+<p>If you run into any issues during this course, learner support is available to all Coursera students. The link for Coursera’s Learner support is included below. The Help Center/Learner Support includes topics such as account setup, payments, enrollment questions, and troubleshooting common problems.</p>
+<p>If you find any content issues, be sure to let the course staff know by flagging the lecture, assignment, reading, or quiz and this will inform us of where these issues occur. Here is the link for more information on how to Flag an Issue - it is also listed below.</p>
+<p>One of the great things about Coursera courses is that they are self-paced. The course dates are based on the average time it takes to complete a course. However, if you need additional time to complete a course you can reset your deadlines with no penalties.</p>
+<p>More information on resetting deadlines can be found here: Assignment Deadlines</p>
+<p>Because of the self-paced nature of Coursera courses, this is an excellent opportunity to show your commitment to your work and the work of your peers through academic integrity. Be sure to read the Coursera guidelines and the Coursera Honor Code here:</p>
+  <a href="">Coursera Honor Code</a>
+
+<p>We look forward to having you in this course. Happy learning!</p>
+<p>UC Davis Coursera Team</p>
+
+<h4>Additional Links:</h4>
+
+<ul>
+  <li><a href="https://learner.coursera.help/hc/en-us" 
+    rel="noopener noreferrer" target="_blank">
+    Coursera’s Learner Support/Help Center</a></li>
+  <li><a href="https://learner.coursera.help/hc/en-us/articles/208280106-Report-a-problem-with-a-course"
+    rel="noopener noreferrer" target="_blank">
+	Flagging a Lecture</a></li>
+  <li><a href="https://learner.coursera.help/hc/en-us/articles/208279866-Assignment-deadlines"
+    rel="noopener noreferrer" target="_blank">
+    Assignment Deadlines</a></li>
+  <li><a href="https://learner.coursera.help/hc/en-us/sections/201895903-Peer-reviewed-assignments"
+    rel="noopener noreferrer" target="_blank">
+    Peer Reviewed Assignments</a></li>
+  <li><a href="https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code"
+    rel="noopener noreferrer" target="_blank">
+    Coursera’s Honor Code</a></li>
+</ul>
 
 # 1.01. Course Introduction (0:40) {#course-introduction-040 .unnumbered}
 
-![](./images2/media/image3.png){width="4.0in"
+![](./images/webp/image003.webp){width="4.0in"
 height="2.240598206474191in"}
 
 Hello and welcome to our 3rd course in our four-core specialization on
@@ -390,7 +489,7 @@ JavaScript.
 
 # 1.02. Module 1 Introduction {#module-1-introduction .unnumbered}
 
-![](./images2/media/image4.png){width="4.0in"
+![](./images/webp/image004.webp){width="4.0in"
 height="2.240598206474191in"}
 
 Hello and welcome to our first module in our third course on JavaScript.
@@ -404,12 +503,12 @@ elements on web pages and that\'s really pretty fun.
 
 # 1.03. Introduction to jQuery Plugins (3:49) {#introduction-to-jquery-plugins-349 .unnumbered}
 
-![](./images2/media/image5.png){width="4.0in"
+![](./images/webp/image005.webp){width="4.0in"
 height="2.240598206474191in"}
 
 Just as a quick recap, we\'ve learned a lot of JavaScript so far.
 
-![](./images2/media/image6.png){width="5.0in"
+![](./images/webp/image006.webp){width="5.0in"
 height="2.8338681102362204in"}
 
 We started with the JavaScript basics, which included working with
@@ -422,7 +521,7 @@ can capture those events and then do things with them. With these
 basics, you can do quite a lot, but it might take you a long time to
 write the scripts that you want to do for your web page.
 
-![](./images2/media/image7.png){width="5.0in"
+![](./images/webp/image007.webp){width="5.0in"
 height="2.8338681102362204in"}
 
 Then we had jQuery and your world became a little bit larger. With
@@ -431,7 +530,7 @@ into this library that make writing scripts shorter and a little bit
 more compact, and a little bit easier. That helps and that makes things
 a little bit easier and a little bit better for all of us.
 
-![](./images2/media/image8.png){width="5.0in"
+![](./images/webp/image008.webp){width="5.0in"
 height="2.8338681102362204in"}
 
 Now we need to introduce plugins. We\'ve already used the **easing**
@@ -454,7 +553,7 @@ written and see if you can modify them and use them in your own projects
 through the use of a plugin, and that\'s really very powerful and really
 great.
 
-![](./images2/media/image9.png){width="5.0in"
+![](./images/webp/image009.webp){width="5.0in"
 height="2.8338681102362204in"}
 
 Again, **plugins** add additional functionality to jQuery, and we\'ve
@@ -474,7 +573,7 @@ could do that thing.
 
 # 1.04. Using Plugins and Essential Steps (4:22) {#using-plugins-and-essential-steps-422 .unnumbered}
 
-![](./images2/media/image10.png){width="4.0in"
+![](./images/webp/image010.webp){width="4.0in"
 height="2.240598206474191in"}
 
 Using plugins and essential steps, adding plugins to your project,
@@ -485,7 +584,7 @@ whole script yourself.
 Many of the larger, more sophisticated plugins require five steps to get
 them to work.
 
-![](./images2/media/image11.png){width="5.0in"
+![](./images/webp/image011.webp){width="5.0in"
 height="2.8338681102362204in"}
 
 **[Step 1]{.mark}** is, you have to use the markup indicated by the
@@ -532,7 +631,7 @@ then the jQuery plugin, and then you will initialize the plugin on your
 own script. And then also make sure that if there\'s any CSS files,
 those are included as well.
 
-![](./images2/media/image12.png){width="5.0in"
+![](./images/webp/image012.webp){width="5.0in"
 height="2.8338681102362204in"}
 
 Suppose you find a jQuery plugin you want to try on your website, how do
@@ -557,10 +656,10 @@ it\'s the same basic steps each time.
 
 # 1.05. Gotchas and Rookie Mistakes (8:52) {#gotchas-and-rookie-mistakes-852 .unnumbered}
 
-![](./images2/media/image13.png){width="4.0in"
+![](./images/webp/image013.webp){width="4.0in"
 height="2.240598206474191in"}
 
-![](./images2/media/image14.png){width="5.0in"
+![](./images/webp/image014.webp){width="5.0in"
 height="2.8338681102362204in"}
 
 **[Number 1]{.mark}** on this list is the biggest one, I see this all
@@ -651,7 +750,7 @@ access file because if you ever update the plugin files, you\'ll lose
 that and you\'ll have to do it again. You want to make sure you put it
 on your CSS file.
 
-![](./images2/media/image15.png){width="5.0in"
+![](./images/webp/image015.webp){width="5.0in"
 height="2.8338681102362204in"}
 
 One last topic that I have to talk about before we\'re done with this
@@ -678,7 +777,7 @@ than actually writing the code yourself from scratch if it\'s an
 extensive plugin. It\'s worth it to make sure that the plugin you\'re
 using is really worthwhile.
 
-![](./images2/media/image16.png){width="5.0in"
+![](./images/webp/image016.webp){width="5.0in"
 height="2.8338681102362204in"}
 
 Getting used to using other people\'s code now via jQuery plugins is a
@@ -732,14 +831,14 @@ https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/
 
 # 1.06. FlexSlider: A jQuery Plugin (6:38) {#flexslider-a-jquery-plugin-638 .unnumbered}
 
-![](./images2/media/image17.png){width="4.0in"
+![](./images/webp/image017.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Now that we\'ve talked about jQuery plug-ins a bit, let\'s take a look
 at one that we can use to add a significant amount of interface options
 to our page.
 
-![](./images2/media/image18.png){width="5.0in"
+![](./images/webp/image018.webp){width="5.0in"
 height="2.719016841644794in"}
 
 The FlexSlider is a good one to look at. Partially because we\'ve been
@@ -751,8 +850,8 @@ the previous lessons. That\'s fun.
 The other thing that\'s nice about FlexSlider, it\'s called FlexSlider
 because it\'s a responsive slider.
 
-![](./images2/media/image19.png){width="3.0in"
-height="1.6314107611548556in"}![](./images2/media/image20.png){width="3.0in"
+![](./images/webp/image019.webp){width="3.0in"
+height="1.6314107611548556in"}![](./images/webp/image020.webp){width="3.0in"
 height="1.6314107611548556in"}
 
 I\'ve opened up the page over here and you can see if I pull this off
@@ -760,15 +859,15 @@ and resize it, the page is responsive and it squishes and stretches, and
 so, we can actually create a slider that will work for different screen
 sizes using FlexSlider. That\'s fun.
 
-![](./images2/media/image21.png){width="5.0in"
+![](./images/webp/image021.webp){width="5.0in"
 height="2.719016841644794in"}
 
 If you look at the markup, you\'ll notice that it\'s pretty basic. If
 you download the start files that come with this lesson, I have in here
 some basic markup.
 
-![](./images2/media/image22.png){width="3.5in"
-height="1.9033114610673665in"}![](./images2/media/image23.png){width="3.5in"
+![](./images/webp/image022.webp){width="3.5in"
+height="1.9033114610673665in"}![](./images/webp/image023.webp){width="3.5in"
 height="1.9033114610673665in"}
 
 This is where the actual slider will go, and then I\'ve just got some
@@ -779,7 +878,7 @@ the page, and there\'s just a few rules in there just because this is
 pretty basic, but there we have it. We\'ll make a slider about kittens
 because, who doesn\'t love kittens? Kittens are awesome.
 
-![](./images2/media/image24.png){width="5.0in"
+![](./images/webp/image024.webp){width="5.0in"
 height="2.719016841644794in"}
 
 We looked at the media queries and they\'ll handle the screen if it\'s
@@ -787,12 +886,12 @@ wider than 600 pixels. Up to 600 pixels you just get a very basic
 layout, and then once you get larger than that, it will give you a more
 of a layout on the page with the columns. Okay.
 
-![](./images2/media/image25.png){width="5.0in"
+![](./images/webp/image025.webp){width="5.0in"
 height="2.719016841644794in"}
 
 Then the next thing is the FlexSlider Website and the FlexSlider Script.
 
-![](./images2/media/image26.png){width="5.0in"
+![](./images/webp/image026.webp){width="5.0in"
 height="2.719016841644794in"}
 
 If you go to the FlexSlider Website, which is here, you can download
@@ -804,13 +903,13 @@ files to get started. However, I\'ve already provided the same files
 with this lesson, so, you don\'t have to go there and download them,
 they\'re also included with this lesson.
 
-![](./images2/media/image27.png){width="5.0in"
+![](./images/webp/image027.webp){width="5.0in"
 height="2.719016841644794in"}
 
 Get those files first by either clicking the Download button here or by
 downloading the FlexSlider files of this lesson.
 
-![](./images2/media/image28.png){width="5.0in"
+![](./images/webp/image028.webp){width="5.0in"
 height="2.719016841644794in"}
 
 Now, when you get those files, the FlexSlider files, you\'re going to
@@ -820,8 +919,8 @@ especially if you\'re not that familiar with this thing. Let me go
 through it carefully, because you\'re likely to run into this with other
 plug-ins as well.
 
-![](./images2/media/image29.png){width="3.5in"
-height="1.9033114610673665in"}![](./images2/media/image30.png){width="3.5in"
+![](./images/webp/image029.webp){width="3.5in"
+height="1.9033114610673665in"}![](./images/webp/image030.webp){width="3.5in"
 height="1.9033114610673665in"}
 
 Here on the left, I have my folder with my website in it, that\'s my
@@ -829,8 +928,8 @@ index page, I\'ve got a JavaScript file, I\'ve got slides which have
 different slides for the different pictures of the kittens, and I\'ve
 got my style-sheet, that\'s what\'s in my folder.
 
-![](./images2/media/image31.png){width="3.5in"
-height="1.9033114610673665in"}![](./images2/media/image32.png){width="3.5in"
+![](./images/webp/image031.webp){width="3.5in"
+height="1.9033114610673665in"}![](./images/webp/image032.webp){width="3.5in"
 height="1.9033114610673665in"}
 
 Over here, these are the files that got downloaded. When I unzipped the
@@ -857,8 +956,8 @@ that will show up on the slider, so, we need that in order for this
 'next' and 'previous' buttons to load properly. We will need that as
 well.
 
-![](./images2/media/image33.png){width="3.5in"
-height="1.9033114610673665in"}![](./images2/media/image34.png){width="3.5in"
+![](./images/webp/image033.webp){width="3.5in"
+height="1.9033114610673665in"}![](./images/webp/image034.webp){width="3.5in"
 height="1.9033114610673665in"}
 
 I\'m going to grab the FlexSlider.css, the fonts, and the minified
@@ -869,13 +968,13 @@ started for this project.
 
 # 1.07. About the Minified Version (5:55) {#about-the-minified-version-555 .unnumbered}
 
-![](./images2/media/image35.png){width="4.0in"
+![](./images/webp/image035.webp){width="4.0in"
 height="2.1752132545931757in"}
 
 And again, I\'m just repeating myself here but it\'s really important
 that you understand this.
 
-![](./images2/media/image36.png){width="5.0in"
+![](./images/webp/image036.webp){width="5.0in"
 height="2.8044870953630796in"}
 
 The Minified version is the same file with all the same with all the
@@ -886,7 +985,7 @@ want to see the actual JavaScript or maybe even edited, but you\'ll
 probably never want to do that. So, we\'ll always use the Minified
 version.
 
-![](./images2/media/image37.png){width="5.0in"
+![](./images/webp/image037.webp){width="5.0in"
 height="2.8044870953630796in"}
 
 And again, these are the files that we actually need for our project.
@@ -894,7 +993,7 @@ So, we\'re going to copy them over and put them into our project folder
 just like you see here and just like we did just a minute ago in the
 previous lesson.
 
-![](./images2/media/image38.png){width="5.0in"
+![](./images/webp/image038.webp){width="5.0in"
 height="2.8044870953630796in"}
 
 Next, it\'s about following the directions to make the flex slider work,
@@ -903,7 +1002,7 @@ you do this. Even though I\'m going to walk through doing it with you,
 it\'s good to sort of come in here and see how these directions are
 written and to understand what the steps are.
 
-![](./images2/media/image39.png){width="5.0in"
+![](./images/webp/image039.webp){width="5.0in"
 height="2.8044870953630796in"}
 
 First, link the files, then add the markup, then hook up your slider,
@@ -915,17 +1014,17 @@ works in order to get this stuff to work, right? Once you\'ve done it a
 few times for a few different plug ins, you\'ll see there\'s a lot of
 similarities.
 
-![](./images2/media/image40.png){width="5.0in"
+![](./images/webp/image040.webp){width="5.0in"
 height="2.8044870953630796in"}
 
 All right, so let\'s go through this together. So, you can see what I
 mean about how to do this.
 
-![](./images2/media/image41.png){width="5.0in"
+![](./images/webp/image041.webp){width="5.0in"
 height="2.8044870953630796in"}
 
-![](./images2/media/image42.png){width="3.5in"
-height="1.963140857392826in"}![](./images2/media/image43.png){width="3.5in"
+![](./images/webp/image042.webp){width="3.5in"
+height="1.963140857392826in"}![](./images/webp/image043.webp){width="3.5in"
 height="1.963140857392826in"}
 
 First, we can look at where these scripts go, and over here, notice this
@@ -941,7 +1040,7 @@ flexslider.css\". Don\'t forget rel =\"stylesheet\", and make sure you
 spell style sheet right. Okay, so that will link that up. You can see
 I\'ve got jquery 2.2.4 loaded here, as opposed to the 1.6.
 
-![](./images2/media/image44.png){width="5.0in"
+![](./images/webp/image044.webp){width="5.0in"
 height="2.8044870953630796in"}
 
 But I\'m actually going to load the most recent version of jQuery. So,
@@ -951,7 +1050,7 @@ And here is the latest version of jquery. You\'ll notice it\'s been
 updated recently to 3.6, okay. So, I\'m going to replace this version of
 jquery with that one.
 
-![](./images2/media/image45.png){width="5.0in"
+![](./images/webp/image045.webp){width="5.0in"
 height="2.8044870953630796in"}
 
 But notice I need to go back and add the **defer**, I want to put
@@ -959,7 +1058,7 @@ But notice I need to go back and add the **defer**, I want to put
 bottom of the screen. Okay, now I want to load the jQuery Flexslider
 script.
 
-![](./images2/media/image46.png){width="5.0in"
+![](./images/webp/image046.webp){width="5.0in"
 height="2.8044870953630796in"}
 
 So, I\'m going to put that in here, script src equals quote, and I want
@@ -970,7 +1069,7 @@ myscript.js. There we go, I\'ve got the files loaded. So, what\'s the
 next thing that we need to do? If we come back to the directions, it
 says place somewhere in the head of your document.
 
-![](./images2/media/image47.png){width="5.0in"
+![](./images/webp/image047.webp){width="5.0in"
 height="2.8044870953630796in"}
 
 The other thing I want to do is I want to put the defer attribute on my
@@ -980,7 +1079,7 @@ here. So, that they will load in this order, first this library, then
 the plug in, then my script. And they\'ll load after the rest of the
 page is loaded, just to be certain. So, we\'ve got that, okay.
 
-![](./images2/media/image48.png){width="5.0in"
+![](./images/webp/image048.webp){width="5.0in"
 height="2.8044870953630796in"}
 
 The next thing we need to do is to add the markup, and this is the
@@ -990,7 +1089,7 @@ the images inside of it, and we\'ll do that in the next lesson.
 
 # 1.08. Adding Markup & Hooking Up the Slider (7:33) {#adding-markup-hooking-up-the-slider-733 .unnumbered}
 
-![](./images2/media/image49.png){width="4.0in"
+![](./images/webp/image049.webp){width="4.0in"
 height="2.1752132545931757in"}
 
 In the last lesson, we got all of our files linked and everything hooked
@@ -998,7 +1097,7 @@ up so that it should all be ready to work. You want to make sure that
 your stylesheet loads after the FlexSlider style sheets, that you can
 modify changes there. We\'ll get to more on that later.
 
-![](./images2/media/image50.png){width="5.0in"
+![](./images/webp/image050.webp){width="5.0in"
 height="2.7735050306211724in"}
 
 Now, we\'re ready to actually come down here and make our markup work
@@ -1009,7 +1108,7 @@ div with the class of FlexSlider and unordered list of the class of
 slides, and then we can actually put our images inside each list item
 for that unordered list.
 
-![](./images2/media/image51.png){width="5.0in"
+![](./images/webp/image051.webp){width="5.0in"
 height="2.7735039370078742in"}
 
 Let\'s go over here and set this up the same way. We need a div, we need
@@ -1021,14 +1120,14 @@ here. Let\'s go ahead and add the six more times. 1,2,3,4,5,6, and then
 just change these numbers, 2, 3, 4, 5, 6, and 7. That will give us seven
 slides with seven kittens, one on each side. That\'s great.
 
-![](./images2/media/image52.png){width="5.0in"
+![](./images/webp/image052.webp){width="5.0in"
 height="2.7735050306211724in"}
 
 Now we\'ve got our markup looking the way that it needs to look for our
 project. What\'s the next thing that we need to do? We did the markup,
 we got that all in, so that\'s great.
 
-![](./images2/media/image53.png){width="5.0in"
+![](./images/webp/image053.webp){width="5.0in"
 height="2.7735039370078742in"}
 
 Step 3, directions. Hook up the **FlexSlider**. This thing says to use
@@ -1036,7 +1135,7 @@ the **window.load** function. Now, I happen to know that the
 **window.load** function does not work with the latest version of
 jQuery, but that\'s okay. This is what it says down here.
 
-![](./images2/media/image54.png){width="5.0in"
+![](./images/webp/image054.webp){width="5.0in"
 height="2.7735050306211724in"}
 
 We could just copy this, **window.load** function here. This place after
@@ -1044,7 +1143,7 @@ these links, script type JavaScript. But we\'re going to put this not
 inside script tags, but we already have a separate file called
 **MyScript** that\'s linked up here. That\'s this one here.
 
-![](./images2/media/image55.png){width="5.0in"
+![](./images/webp/image055.webp){width="5.0in"
 height="2.7735050306211724in"}
 
 I\'m going to put it on there, **MyScript**. Take **FlexSlider** and
@@ -1059,8 +1158,8 @@ that happen first. But I happen to know that this isn\'t going to work
 because the **window.load** function is deprecated and they want us to
 use **window.on** instead. But let\'s just test it anyway.
 
-![](./images2/media/image56.png){width="3.5in"
-height="1.9780982064741908in"}![](./images2/media/image57.png){width="3.5in"
+![](./images/webp/image056.webp){width="3.5in"
+height="1.9780982064741908in"}![](./images/webp/image057.webp){width="3.5in"
 height="1.9780982064741908in"}
 
 If I come over here and refresh this page, you\'ll notice the FlexSlider
@@ -1071,10 +1170,10 @@ this is a really good indicator that something\'s wrong with jQuery
 itself. It\'s not anything we did. It\'s actually jQuery. What\'s wrong
 here is that the latest version of jQuery does not support this file.
 
-![](./images2/media/image58.png){width="5.0in"
+![](./images/webp/image058.webp){width="5.0in"
 height="2.8258552055993in"}
 
-![](./images2/media/image59.png){width="5.0in"
+![](./images/webp/image059.webp){width="5.0in"
 height="2.8258552055993in"}
 
 Now, if I were to go back to my hosted libraries and take this one
@@ -1083,7 +1182,7 @@ if I put this up here instead of the newest version. When I put that in
 there, put my defer back in, and now if I go test the page, you\'ll see
 that it works. Close this, refresh.
 
-![](./images2/media/image60.png){width="5.0in"
+![](./images/webp/image060.webp){width="5.0in"
 height="2.8258562992125986in"}
 
 Look at that, we have a kitten slider, and it\'s working, I get my
@@ -1091,8 +1190,8 @@ errors, I get these buttons down here, so I\'ve got this additional
 functionality, and it\'s working. It\'s doing everything it\'s supposed
 to do.
 
-![](./images2/media/image61.png){width="3.5in"
-height="1.9780982064741908in"}![](./images2/media/image62.png){width="3.5in"
+![](./images/webp/image061.webp){width="3.5in"
+height="1.9780982064741908in"}![](./images/webp/image062.webp){width="3.5in"
 height="1.9780982064741908in"}
 
 But what if I really want to have the latest version of jQuery? Well,
@@ -1101,14 +1200,14 @@ jQuery really helps, because I know that this load method here has been
 replaced. It\'s been deprecated. You could go look that up on the jQuery
 website if you wanted to.
 
-![](./images2/media/image63.png){width="3.5in"
-height="1.9780982064741908in"}![](./images2/media/image64.png){width="3.5in"
+![](./images/webp/image063.webp){width="3.5in"
+height="1.9780982064741908in"}![](./images/webp/image064.webp){width="3.5in"
 height="1.9780982064741908in"}
 
 But I\'m going to come back here and I\'m going to command Z and put
 this back to the version 3.6 and save that.
 
-![](./images2/media/image65.png){width="5.0in"
+![](./images/webp/image065.webp){width="5.0in"
 height="2.8258562992125986in"}
 
 Over here instead of load I\'m going to use on, and in here, I\'m going
@@ -1117,8 +1216,8 @@ That should work. Make sure both files are saved, come back and refresh
 and look at that, it works fine using the on method, the more up-to-date
 method.
 
-![](./images2/media/image66.png){width="3.5in"
-height="1.9780982064741908in"}![](./images2/media/image67.png){width="3.5in"
+![](./images/webp/image066.webp){width="3.5in"
+height="1.9780982064741908in"}![](./images/webp/image067.webp){width="3.5in"
 height="1.9780982064741908in"}
 
 Okay, great. Now, while we\'re here, let me just do one other thing.
@@ -1139,7 +1238,7 @@ it and we\'ll do that in the next lesson.
 
 # 1.09. FlexSlider Rules (6:31) {#flexslider-rules-631 .unnumbered}
 
-![](./images2/media/image68.png){width="4.0in"
+![](./images/webp/image068.webp){width="4.0in"
 height="2.1752132545931757in"}
 
 In the last lesson (1.08), we got the Flexslider working, and it\'s
@@ -1147,16 +1246,16 @@ working great. It\'s functional. All the pieces are functioning, but
 it\'s got some weird issues that we need to fix in terms of the layout
 in the styling.
 
-![](./images2/media/image69.png){width="3.5in"
-height="1.8681616360454942in"}![](./images2/media/image70.png){width="3.5in"
+![](./images/webp/image069.webp){width="3.5in"
+height="1.8681616360454942in"}![](./images/webp/image070.webp){width="3.5in"
 height="1.8681627296587926in"}
 
-![](./images2/media/image71.png){width="3.5in"
-height="1.8681627296587926in"}![](./images2/media/image72.png){width="3.5in"
+![](./images/webp/image071.webp){width="3.5in"
+height="1.8681627296587926in"}![](./images/webp/image072.webp){width="3.5in"
 height="1.8681627296587926in"}
 
-![](./images2/media/image73.png){width="3.5in"
-height="1.8681627296587926in"}![](./images2/media/image74.png){width="3.5in"
+![](./images/webp/image073.webp){width="3.5in"
+height="1.8681627296587926in"}![](./images/webp/image074.webp){width="3.5in"
 height="1.8681627296587926in"}
 
 For example, why is my Flexslider sticking out on the edge over here?
@@ -1186,8 +1285,8 @@ styles and clean-up the styling of the actual Flexslider. Let\'s add
 that to ours. How do I know that? Just by poking around in their CSS
 file. I want to make sure I\'m on my CSS file.
 
-![](./images2/media/image75.png){width="3.5in"
-height="1.8681627296587926in"}![](./images2/media/image76.png){width="3.5in"
+![](./images/webp/image075.webp){width="3.5in"
+height="1.8681627296587926in"}![](./images/webp/image076.webp){width="3.5in"
 height="1.8681627296587926in"}
 
 Then somewhere in here you can put it wherever you want, it doesn\'t
@@ -1200,7 +1299,7 @@ rule in place here, if I come back and check my page, you\'ll notice the
 Flexslider looks better here. It\'s fitting into the space well, and
 I\'ve got rid of that gap and all that stuff.
 
-![](./images2/media/image76.png){width="5.0in"
+![](./images/webp/image076.webp){width="5.0in"
 height="2.6688035870516185in"}
 
 Down here, I still want to adjust these buttons a little bit. I mean,
@@ -1209,7 +1308,7 @@ here, dot flex-control-paging li a.flex-active. That\'s the class
 that\'s changing the colors on these buttons here. That\'s the one that
 I want to actually attach to.
 
-![](./images2/media/image77.png){width="5.0in"
+![](./images/webp/image077.webp){width="5.0in"
 height="2.6688035870516185in"}
 
 I\'m going to come over here, I\'m going to add that rule in here. If I
@@ -1218,7 +1317,7 @@ pound B40205, make it match that. What was it? Just color or is it
 background? Background: #B40205. There we go. That will give me a red
 background color. Save that and come back and test it.
 
-![](./images2/media/image78.png){width="5.0in"
+![](./images/webp/image078.webp){width="5.0in"
 height="2.6688035870516185in"}
 
 You can see my colors now overriding the color that was there before and
@@ -1232,14 +1331,14 @@ and look the way you want it to look on your page.
 
 # 1.10. Additional Controls (7:30) {#additional-controls-730 .unnumbered}
 
-![](./images2/media/image79.png){width="4.0in"
+![](./images/webp/image079.webp){width="4.0in"
 height="2.1752132545931757in"}
 
 Your slider should be looking good. We\'ve gotten everything in place
 and it\'s working.
 
-![](./images2/media/image80.png){width="3.5019728783902013in"
-height="1.990819116360455in"}![](./images2/media/image81.png){width="3.5037095363079613in"
+![](./images/webp/image080.webp){width="3.5019728783902013in"
+height="1.990819116360455in"}![](./images/webp/image081.webp){width="3.5037095363079613in"
 height="2.0132130358705163in"}
 
 It\'s functional and it looks good and we\'ve adjusted the CSS and all
@@ -1251,8 +1350,8 @@ these buttons down here, being able to go to slides that way. We could
 have done that manually on our own, but with this plug in, it provides
 it for us automatically and that\'s great.
 
-![](./images2/media/image82.png){width="3.5in"
-height="1.9388353018372704in"}![](./images2/media/image83.png){width="3.5in"
+![](./images/webp/image082.webp){width="3.5in"
+height="1.9388353018372704in"}![](./images/webp/image083.webp){width="3.5in"
 height="1.9388353018372704in"}
 
 Now, what about all these additional options that show up down here at
@@ -1261,7 +1360,7 @@ use this to further customize the functionality of our FlexSlider.
 That\'s really cool, but how do you do it? It\'s not really clear by
 looking at this exactly what you need to do.
 
-![](./images2/media/image84.png){width="5.0in"
+![](./images/webp/image084.webp){width="5.0in"
 height="2.7697648731408573in"}
 
 But basically, what we need to do is we need to pass options in to this
@@ -1273,7 +1372,7 @@ but if you know some JavaScript and you\'re familiar with having done
 this kind of thing before, you\'ll figure it out pretty quickly. What
 can we do? Let\'s take a look at it.
 
-![](./images2/media/image85.png){width="5.0in"
+![](./images/webp/image085.webp){width="5.0in"
 height="2.7697648731408573in"}
 
 Just like we did with the custom enemy method in jQuery, where we can
@@ -1284,8 +1383,8 @@ objects yet, and we will get into that in more depth in a lesson coming
 up. For right now, we\'ll just kind of go with it and get used to the
 syntax because we\'ll see it a lot, especially with the plugins.
 
-![](./images2/media/image86.png){width="3.5in"
-height="1.9388353018372704in"}![](./images2/media/image87.png){width="3.5in"
+![](./images/webp/image086.webp){width="3.5in"
+height="1.9388353018372704in"}![](./images/webp/image087.webp){width="3.5in"
 height="1.9388353018372704in"}
 
 Let\'s come over here and inside our script file here, inside our
@@ -1308,8 +1407,8 @@ You remember what a trouble that was for us to figure out how to do
 manually. Well, here it\'s built in, so we don\'t have to really even
 worry about that.
 
-![](./images2/media/image88.png){width="3.5in"
-height="1.9388353018372704in"}![](./images2/media/image89.png){width="3.5in"
+![](./images/webp/image088.webp){width="3.5in"
+height="1.9388353018372704in"}![](./images/webp/image089.webp){width="3.5in"
 height="1.9388353018372704in"}
 
 What else can we do? Over here, I had slide, you can set the speed,
@@ -1321,8 +1420,8 @@ how quickly it\'s going to slide from slide to slide automatically. One
 two, one two, there we go. Now it\'s going rather quickly, that\'s
 great.
 
-![](./images2/media/image90.png){width="3.5in"
-height="1.9388353018372704in"}![](./images2/media/image91.png){width="3.5in"
+![](./images/webp/image090.webp){width="3.5in"
+height="1.9388353018372704in"}![](./images/webp/image091.webp){width="3.5in"
 height="1.9388353018372704in"}
 
 What else can we do? We could do direction vertical, if you wanted to
@@ -1332,14 +1431,14 @@ doesn\'t know, but it knows that one there. It knows what 2,000 is. All
 right, now if you do this, after two seconds, it\'s going to go
 vertical.
 
-![](./images2/media/image92.png){width="5.0in"
+![](./images/webp/image092.webp){width="5.0in"
 height="2.7697648731408573in"}
 
 We could do reverse true, so we\'ll go from top to bottom instead of
 from bottom to top. Reverse true. True is a word that JavaScript knows.
 Now it\'s going from the top to the bottom.
 
-![](./images2/media/image93.png){width="5.0in"
+![](./images/webp/image093.webp){width="5.0in"
 height="2.7697648731408573in"}
 
 Then finally, another one we could do is pause on hover true. Which is
@@ -1367,14 +1466,14 @@ something else that would be kind of interesting and fun.
 
 # 1.11. Advanced FlexSlider (4:20) {#advanced-flexslider-420 .unnumbered}
 
-![](./images2/media/image94.png){width="4.0in"
+![](./images/webp/image094.webp){width="4.0in"
 height="2.1752132545931757in"}
 
 Now that you\'ve created the basic FlexSlider, with some advanced
 options, we can really do some different things with this FlexSlider.
 
-![](./images2/media/image95.png){width="3.5in"
-height="1.9388353018372704in"}![](./images2/media/image96.png){width="3.5in"
+![](./images/webp/image095.webp){width="3.5in"
+height="1.9388353018372704in"}![](./images/webp/image096.webp){width="3.5in"
 height="1.9388353018372704in"}
 
 To do that, it\'s nice to keep the basic version working the way it is
@@ -1391,8 +1490,8 @@ back to it, but I\'m essentially done with it. Now I\'m only going to
 work on the advancedSlider version here. I have that version; these
 files open in my code editor.
 
-![](./images2/media/image97.png){width="3.5in"
-height="1.9388353018372704in"}![](./images2/media/image98.png){width="3.5in"
+![](./images/webp/image097.webp){width="3.5in"
+height="1.9388353018372704in"}![](./images/webp/image098.webp){width="3.5in"
 height="1.9388353018372704in"}
 
 I\'ve also switched this over here so that it\'s pointing to my
@@ -1402,7 +1501,7 @@ right set of files in your browser. Make sure you\'ve got the right set
 of files in your code editor. Over here you can see it says
 advancedSlider there, so this is my advanced slider files.
 
-![](./images2/media/image99.png){width="5.0in"
+![](./images/webp/image099.webp){width="5.0in"
 height="2.7697648731408573in"}
 
 Great. Now that I\'ve got that into place and I\'m ready to really do
@@ -1417,14 +1516,14 @@ adopt one of these kittens on this lovely Kitten page. I need to update
 the markup to go along with this, for my FlexSlider. I will provide some
 snippets with this lesson that you can open and they look like this.
 
-![](./images2/media/image100.png){width="5.0in"
+![](./images/webp/image100.webp){width="5.0in"
 height="2.7697648731408573in"}
 
 There are some snippets here and so I\'m basically going to replace my
 slider with this content here. You can type it all out if you wanted to,
 instead of just putting the pictures in.
 
-![](./images2/media/image101.png){width="5.0in"
+![](./images/webp/image101.webp){width="5.0in"
 height="2.7697648731408573in"}
 
 I have a div, with an h2. The div has a class of slide 1, slide 2, slide
@@ -1439,8 +1538,8 @@ could actually adopt this kitten or something like that, that will be
 fun. But rather than make you type all of this stuff out, which is
 tedious, you can actually come to the snippet page and just copy it.
 
-![](./images2/media/image102.png){width="3.5in"
-height="1.9388353018372704in"}![](./images2/media/image103.png){width="3.5in"
+![](./images/webp/image102.webp){width="3.5in"
+height="1.9388353018372704in"}![](./images/webp/image103.webp){width="3.5in"
 height="1.9388353018372704in"}
 
 Then come back to your project and on your index file, in place of the
@@ -1457,15 +1556,15 @@ this.
 
 # 1.12. Additional Styling (5:47) {#additional-styling-547 .unnumbered}
 
-![](./images2/media/image104.png){width="4.0in"
+![](./images/webp/image104.webp){width="4.0in"
 height="2.1752132545931757in"}
 
 In the last module, we updated the markup for our fancy version of the
 slider, and now we need to do some updating for the actual CSS for the
 display of the slides.
 
-![](./images2/media/image105.png){width="3.5in"
-height="1.9784722222222222in"}![](./images2/media/image106.png){width="3.5in"
+![](./images/webp/image105.webp){width="3.5in"
+height="1.9784722222222222in"}![](./images/webp/image106.webp){width="3.5in"
 height="1.9784722222222222in"}
 
 So, I\'m going to come back over here to my snippets and I\'m just going
@@ -1474,7 +1573,7 @@ them into my CSS file over here, styles.css. And I\'m going to stick
 them just in my section with the flex slider stuff here. It doesn\'t
 really matter where they go, I\'m going to put them here.
 
-![](./images2/media/image107.png){width="5.0in"
+![](./images/webp/image107.webp){width="5.0in"
 height="2.826388888888889in"}
 
 Now, this is really important, the slides the .slide1, .slide2, .slide3,
@@ -1495,7 +1594,7 @@ in CSS currently, there\'s some features coming to CSS that will make it
 easier in the long run, but for right now it\'s a little clunky and
 unfortunate.
 
-![](./images2/media/image108.png){width="5.0in"
+![](./images/webp/image108.webp){width="5.0in"
 height="2.826388888888889in"}
 
 But basically, what I\'ve done here is I\'ve said the div that\'s inside
@@ -1512,7 +1611,7 @@ width. So as wide as these things are, they will always be 50% as high.
 And these images are twice as wide as they are tall. So that actually
 works for these particular images.
 
-![](./images2/media/image109.png){width="5.0in"
+![](./images/webp/image109.webp){width="5.0in"
 height="2.826388888888889in"}
 
 If I come back to the finder and look at these images, if I do CMD+I,
@@ -1539,7 +1638,7 @@ out what that ratio is. So that you would set the ratio By Photoshop.
 And you can set the width to whatever the height is in relation to the
 width. And then I\'ve got background size cover.
 
-![](./images2/media/image110.png){width="5.0in"
+![](./images/webp/image110.webp){width="5.0in"
 height="2.826388888888889in"}
 
 Then down here I\'m setting the H2 to position absolute top 20 pixels,
@@ -1547,7 +1646,7 @@ left 20 pixels, then I\'m setting the color for that. So that\'s not too
 fancy. But that\'s an important thing to understand with the way that
 this is working.
 
-![](./images2/media/image111.png){width="5.0in"
+![](./images/webp/image111.webp){width="5.0in"
 height="2.826388888888889in"}
 
 The next thing we need is the styling for the actual call to action
@@ -1562,7 +1661,7 @@ need to style this call to action, and I\'ll do that in the next lesson.
 
 # 1.13. Styling the CTA 'Call To Action' (8:01) {#styling-the-cta-call-to-action-801 .unnumbered}
 
-![](./images2/media/image112.png){width="4.0in"
+![](./images/webp/image112.webp){width="4.0in"
 height="2.1752132545931757in"}
 
 Now we\'re down to styling the call to action so that it displays
@@ -1570,11 +1669,11 @@ properly on the page, and I have a rule for the dot CTA anchor tags,
 there\'s a lot of stuff in here, but you\'ll see why as we move forward
 and do this, but let\'s go ahead and add this rule to our style sheet.
 
-![](./images2/media/image113.png){width="5.0in"
+![](./images/webp/image113.webp){width="5.0in"
 height="2.826388888888889in"}
 
-![](./images2/media/image114.png){width="3.5in"
-height="1.9784722222222222in"}![](./images2/media/image115.png){width="3.5in"
+![](./images/webp/image114.webp){width="3.5in"
+height="1.9784722222222222in"}![](./images/webp/image115.webp){width="3.5in"
 height="1.9784722222222222in"}
 
 If you come over here, you can see that I have it here, it\'s a long one
@@ -1612,8 +1711,8 @@ family, the font size, 4vw is four percent of the viewport width, so
 again, the font it\'s going to resize based on how wide the screen is,
 and then also the color for the text. That\'s a lot of stuff.
 
-![](./images2/media/image116.png){width="3.5in"
-height="1.9784722222222222in"}![](./images2/media/image117.png){width="3.5in"
+![](./images/webp/image116.webp){width="3.5in"
+height="1.9784722222222222in"}![](./images/webp/image117.webp){width="3.5in"
 height="1.9784722222222222in"}
 
 We\'re going to do one more rule in here for dot light (.light), and
@@ -1621,7 +1720,7 @@ I\'m setting a color in here, color, and I think I set it to, where did
 I set it to #ededed. The reason for that, it\'s a light gray, one of the
 slides is dark, so over here, I have a class of light on slide 4.
 
-![](./images2/media/image118.png){width="5.0in"
+![](./images/webp/image118.webp){width="5.0in"
 height="2.826388888888889in"}
 
 You may have also wondered why on one of the slides I went up here, I
@@ -1634,7 +1733,7 @@ different color in there and a different class for that one, that\'s all
 we need there for that, so that\'s really good and should make sense in
 our work.
 
-![](./images2/media/image119.png){width="5.0in"
+![](./images/webp/image119.webp){width="5.0in"
 height="2.826388888888889in"}
 
 We need a couple more rules that are going to resize these elements for
@@ -1642,8 +1741,8 @@ desktop and for mobile, so we need to add these rules into the media
 queries at the bottom of the style sheet (styles.css), and we\'re just
 setting height, width, and font size.
 
-![](./images2/media/image120.png){width="3.5in"
-height="1.9784722222222222in"}![](./images2/media/image121.png){width="3.5in"
+![](./images/webp/image120.webp){width="3.5in"
+height="1.9784722222222222in"}![](./images/webp/image121.webp){width="3.5in"
 height="1.9784722222222222in"}
 
 For the tablet-sized versions of the site, which is, screens that are
@@ -1655,8 +1754,8 @@ and then I\'m setting the font size to a little bit smaller, I think is
 not what it was, yes, 3vw instead of 4vw, it\'s 3vw, and so bringing the
 font size down a little bit, 3vw.
 
-![](./images2/media/image122.png){width="3.5in"
-height="1.9784722222222222in"}![](./images2/media/image123.png){width="3.5in"
+![](./images/webp/image122.webp){width="3.5in"
+height="1.9784722222222222in"}![](./images/webp/image123.webp){width="3.5in"
 height="1.9784722222222222in"}
 
 Then, when we get to the full-screen size for desktop, I need this
@@ -1666,7 +1765,7 @@ be set to a specific size, 150px, so it\'s not going to be flexible
 anymore, because if, this size or wider, it\'s always going to be this
 size, 150px. Font-size to 24 pixels.
 
-![](./images2/media/image124.png){width="5.0in"
+![](./images/webp/image124.webp){width="5.0in"
 height="2.826388888888889in"}
 
 That gets all of the styling in place for these, and if we go back and
@@ -1675,7 +1774,7 @@ screen at all, it\'s going to be up here, I actually noticed down here
 at bottom 100 percent, so it is showing up. But this is the way they\'re
 going to look in end here, is round like this.
 
-![](./images2/media/image125.png){width="5.0in"
+![](./images/webp/image125.webp){width="5.0in"
 height="2.826388888888889in"}
 
 If you go to number 4, slide 4, that one should be picking up the light
@@ -1698,7 +1797,7 @@ https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Hv9Tf/
 
 # 2.01 Module 2 Intro (0:38) {#module-2-intro-038 .unnumbered}
 
-![](./images2/media/image126.png){width="4.0in"
+![](./images/webp/image126.webp){width="4.0in"
 height="2.261111111111111in"}
 
 Hello and welcome to our second module. In this lesson, we will look at
@@ -1713,15 +1812,15 @@ started on this module.
 
 # 2.02. Introduction to Smooth Scroll with jQuery (4:15) {#introduction-to-smooth-scroll-with-jquery-415 .unnumbered}
 
-![](./images2/media/image127.png){width="4.0in"
+![](./images/webp/image127.webp){width="4.0in"
 height="2.1752132545931757in"}
 
 In the first part of this lesson, we\'re going to use jQuery to make a
 smooth scroll script so that when you click a link at the top of the
 page, it does a smooth scrolling action further down the page.
 
-![](./images2/media/image128.png){width="3.5in"
-height="1.9784722222222222in"}![](./images2/media/image129.png){width="3.5in"
+![](./images/webp/image128.webp){width="3.5in"
+height="1.9784722222222222in"}![](./images/webp/image129.webp){width="3.5in"
 height="1.9784722222222222in"}
 
 And I have an example page that you can download with example files and
@@ -1733,8 +1832,8 @@ here. And this is just basic html. If I click section two it just put
 section two at the top of the page, you can see here the URL has pounds
 second in here.
 
-![](./images2/media/image130.png){width="3.5in"
-height="1.9784722222222222in"}![](./images2/media/image131.png){width="3.5in"
+![](./images/webp/image130.webp){width="3.5in"
+height="1.9784722222222222in"}![](./images/webp/image131.webp){width="3.5in"
 height="1.9784722222222222in"}
 
 If I go into my files and look at this, you can see that my links are
@@ -1750,9 +1849,9 @@ from one place to another place on a web page. And if it happens
 smoothly and quickly without a lot of interference, then it adds to the
 user experience. So, we\'re going to do that using jQuery.
 
-![](./images2/media/image132.png){width="3.5in"
-height="1.9784722222222222in"}![](./images2/media/image133.png){width="3.5in"
-height="1.9784722222222222in"}![](./images2/media/image134.png){width="5.0in"
+![](./images/webp/image132.webp){width="3.5in"
+height="1.9784722222222222in"}![](./images/webp/image133.webp){width="3.5in"
+height="1.9784722222222222in"}![](./images/webp/image134.webp){width="5.0in"
 height="2.826388888888889in"}
 
 The first thing we need to do is set the header so its position fixed.
@@ -1772,8 +1871,8 @@ width 100% so it will stretch across the entire window. Now you can see
 because it\'s slightly transparent that the images and every all the
 content is passing beneath this header.
 
-![](./images2/media/image135.png){width="3.5in"
-height="1.9784722222222222in"}![](./images2/media/image136.png){width="3.5in"
+![](./images/webp/image135.webp){width="3.5in"
+height="1.9784722222222222in"}![](./images/webp/image136.webp){width="3.5in"
 height="1.9784722222222222in"}
 
 But you also notice that it\'s covering up part of section one. So, we
@@ -1811,8 +1910,8 @@ carrying the extension .ZIP.
 
 ##  {#section .unnumbered}
 
-![](./images2/media/image137.png){width="3.5in"
-height="1.9784722222222222in"}![](./images2/media/image138.png){width="3.5in"
+![](./images/webp/image137.webp){width="3.5in"
+height="1.9784722222222222in"}![](./images/webp/image138.webp){width="3.5in"
 height="1.9784722222222222in"}
 
 We have set up our files, and we\'re ready to start working on our
@@ -1826,8 +1925,8 @@ plug-in and how that works. Then I have linked here a file called
 **smoothscroll.js,** which is our JavaScript file, and this is where
 we\'re going to write our jQuery code.
 
-![](./images2/media/image139.png){width="3.5in"
-height="1.9784722222222222in"}![](./images2/media/image140.png){width="3.5in"
+![](./images/webp/image139.webp){width="3.5in"
+height="1.9784722222222222in"}![](./images/webp/image140.webp){width="3.5in"
 height="1.9784722222222222in"}
 
 I\'m going to remove that comment, and add here a click handler, so I\'m
@@ -1848,7 +1947,7 @@ make var thisSection, and assign it this.attr(href). What that\'ll do is
 it\'ll get the href of the link that was clicked. Let\'s alert that out.
 You can see what it actually does.
 
-![](./images2/media/image141.png){width="5.0in"
+![](./images/webp/image141.webp){width="5.0in"
 height="2.826388888888889in"}
 
 If I come back to my HTML, I\'ve put a click handler on all of these
@@ -1861,7 +1960,7 @@ should get pound 1st, pound 2nd, pound 3rd, pound 4th, and pound 5th.
 You\'ll notice it is actually moving the page there as well as it does
 that, but I want to make sure I\'m getting those links.
 
-![](./images2/media/image142.png){width="5.0in"
+![](./images/webp/image142.webp){width="5.0in"
 height="2.826388888888889in"}
 
 Let\'s go back to our script. Now, we don\'t need this alert here at
@@ -1882,7 +1981,7 @@ we\'ll do that in the next lesson so you see how it all comes together.
 
 # 2.04. Adding the Animation (6:56) {#adding-the-animation-656 .unnumbered}
 
-# ![](./images2/media/image143.png){width="3.5in" height="1.9784722222222222in"}![](./images2/media/image144.png){width="3.5in" height="1.9784722222222222in"} {#section-1 .unnumbered}
+# ![](./images/webp/image143.webp){width="3.5in" height="1.9784722222222222in"}![](./images/webp/image144.webp){width="3.5in" height="1.9784722222222222in"} {#section-1 .unnumbered}
 
 In the previous module we created a click handler for all the anchor
 tags and then we got the ID of the particular anchor tag that gets
@@ -1892,7 +1991,7 @@ points to the idea of the section down below that we\'re going to. It\'s
 going to be pound (#) 1st or pound 2nd or pound 3rd or pound 4th or
 pound 5^th^ (#1st-#5th). We\'ve already seen that.
 
-![](./images2/media/image144.png){width="5.0in"
+![](./images/webp/image144.webp){width="5.0in"
 height="2.826388888888889in"}
 
 Then we\'re going to animate the html. And I\'ll show you in a minute
@@ -1911,7 +2010,7 @@ offset top. We\'ll set it to offset top. So, dollar sign in parentheses,
 this section and set its offset, to the top over 800 milliseconds. And
 that will actually animate the page to the top of the window.
 
-![](./images2/media/image145.png){width="5.0in"
+![](./images/webp/image145.webp){width="5.0in"
 height="2.826388888888889in"}
 
 If we test this out and if you\'re wondering what offset is, you can go
@@ -1923,8 +2022,8 @@ of the pound second from up here and refresh the page. And then if I
 click 2nd, you can see that it does a smooth scroll right to with that
 section going right up to the top of the window.
 
-![](./images2/media/image146.png){width="3.5in"
-height="1.9784722222222222in"}![](./images2/media/image147.png){width="3.5in"
+![](./images/webp/image146.webp){width="3.5in"
+height="1.9784722222222222in"}![](./images/webp/image147.webp){width="3.5in"
 height="1.9784722222222222in"}
 
 We don't want it to go all the way to the top of the window, we want it
@@ -1953,8 +2052,8 @@ to go all the way down to the 5th section. So that\'s what this stop
 method is doing for us. Don\'t stop. So it will stop the animation
 that\'s running and then animate the thing that we\'ve clicked on next.
 
-![](./images2/media/image148.png){width="3.5in"
-height="1.9784722222222222in"}![](./images2/media/image149.png){width="3.5in"
+![](./images/webp/image148.webp){width="3.5in"
+height="1.9784722222222222in"}![](./images/webp/image149.webp){width="3.5in"
 height="1.9784722222222222in"}
 
 Okay, now the next thing is this there are two minor things we need to
@@ -1967,7 +2066,7 @@ remember, we put 200 pixels padding up there. So that\'s now putting it
 in the correct place, so that helps. So that\'s one thing, I\'m going to
 put this back to 800 because the animation is so slow now.
 
-![](./images2/media/image150.png){width="5.0in"
+![](./images/webp/image150.webp){width="5.0in"
 height="2.826388888888889in"}
 
 Okay, the other thing is I\'m going to put a comment here and add body.
@@ -1983,14 +2082,14 @@ but it\'s just something to be aware of, Going forward.
 
 # 2.05 Add Some Easing and a Callback Function (4:05) {#add-some-easing-and-a-callback-function-405 .unnumbered}
 
-# ![](./images2/media/image151.png){width="4.0in" height="2.261111111111111in"} {#section-2 .unnumbered}
+# ![](./images/webp/image151.webp){width="4.0in" height="2.261111111111111in"} {#section-2 .unnumbered}
 
 The smooth scroll script is working and that\'s great, but because we
 have the easing plugin plugged in, we can give the script a little bit
 more personality by adding some easing.
 
-![](./images2/media/image152.png){width="3.5in"
-height="1.9784722222222222in"}![](./images2/media/image153.png){width="3.5in"
+![](./images/webp/image152.webp){width="3.5in"
+height="1.9784722222222222in"}![](./images/webp/image153.webp){width="3.5in"
 height="1.9784722222222222in"}
 
 Let\'s go ahead and do that. Over here, just to verify on our index file
@@ -1999,7 +2098,7 @@ library loaded and then I have the easing plugin loaded and then my
 script comes after that. Always, your script has to come after the
 jQuery library and any plugins that you\'re using.
 
-![](./images2/media/image154.png){width="5.0in"
+![](./images/webp/image154.webp){width="5.0in"
 height="2.826388888888889in"}
 
 Over here, after my 800, I can add a comma and add an easing and I used
@@ -2010,7 +2109,7 @@ move that down like so, there we go, **easeOutCirc**. I think that looks
 a little bit better, a little bit easier to read. We animate this over
 800 milliseconds when we are using **easeOutCirc**.
 
-![](./images2/media/image155.png){width="5.0in"
+![](./images/webp/image155.webp){width="5.0in"
 height="2.826388888888889in"}
 
 Let\'s go take a look and see how it looks. Now it\'s got a nice,
@@ -2023,7 +2122,7 @@ does it still give you the sense that you\'re traveling to that part of
 the page? Yeah, it does, so that\'s nice. Maybe I\'ll leave it like
 that.
 
-![](./images2/media/image156.png){width="5.0in"
+![](./images/webp/image156.webp){width="5.0in"
 height="2.826388888888889in"}
 
 This is all working and I could leave the script like this. It\'s
@@ -2046,13 +2145,13 @@ second and I did something wrong there.
 
 # 2.06 Highlighting Elements (5:22) {#highlighting-elements-522 .unnumbered}
 
-# ![](./images2/media/image157.png){width="4.0in" height="2.261111111111111in"} {#section-3 .unnumbered}
+# ![](./images/webp/image157.webp){width="4.0in" height="2.261111111111111in"} {#section-3 .unnumbered}
 
 On the style sheet is a rule, selected, and I might have it commented
 out. Let\'s go over and see because if we do, we need to uncomment it
 out.
 
-![](./images2/media/image158.png){width="5.0in"
+![](./images/webp/image158.webp){width="5.0in"
 height="2.826388888888889in"}
 
 We go to Styles, go down here and it\'s not commented out, good. I\'ve
@@ -2089,8 +2188,8 @@ Although you could have an interface that shows which ones if you
 clicked on and it would work for that, but I really wanted to just
 highlight the one that I\'ve actually clicked on.
 
-![](./images2/media/image159.png){width="3.5in"
-height="1.9784722222222222in"}![](./images2/media/image160.png){width="3.5in"
+![](./images/webp/image159.webp){width="3.5in"
+height="1.9784722222222222in"}![](./images/webp/image160.webp){width="3.5in"
 height="1.9784722222222222in"}
 
 I\'m going to go back to my script, and I\'m just going to modify just a
@@ -2128,14 +2227,14 @@ to another. We\'re going to deal with that in the next lesson.
 
 # 2.07 Introduction to Page Location Tracking (8:00) {#introduction-to-page-location-tracking-800 .unnumbered}
 
-# ![](./images2/media/image161.png){width="4.0in" height="2.261111111111111in"} {#section-4 .unnumbered}
+# ![](./images/webp/image161.webp){width="4.0in" height="2.261111111111111in"} {#section-4 .unnumbered}
 
 In this lesson, we\'re going to take the files that we already started
 here, and this script is working so that if I click on the section it
 goes to the correct section and it highlights the correct menu item up
 here.
 
-![](./images2/media/image162.png){width="5.0in"
+![](./images/webp/image162.webp){width="5.0in"
 height="2.826388888888889in"}
 
 But what it does not do is if I scroll down the page, it doesn\'t change
@@ -2154,12 +2253,12 @@ the page based on where we are, scroll down the page. If you think about
 that for a second and go look at some of the interesting websites that
 are out there. https://callbruno.com/en
 
-![](./images2/media/image163.png){width="3.5in"
-height="1.9866983814523185in"}![](./images2/media/image164.png){width="3.5in"
+![](./images/webp/image163.webp){width="3.5in"
+height="1.9866983814523185in"}![](./images/webp/image164.webp){width="3.5in"
 height="1.9866983814523185in"}
 
-![](./images2/media/image165.png){width="3.5in"
-height="1.9866983814523185in"}![](./images2/media/image166.png){width="3.5in"
+![](./images/webp/image165.webp){width="3.5in"
+height="1.9866983814523185in"}![](./images/webp/image166.webp){width="3.5in"
 height="1.9866983814523185in"}
 
 For example, I have one pulled up here, this website here, and as I
@@ -2170,8 +2269,8 @@ whether or not I\'m scrolling. So, I scroll down the page here that
 animation plays differently while I\'m scrolling up or scrolling down.
 It\'s affected by the scroll.
 
-![](./images2/media/image167.png){width="3.5in"
-height="1.9866983814523185in"}![](./images2/media/image168.png){width="3.5in"
+![](./images/webp/image167.webp){width="3.5in"
+height="1.9866983814523185in"}![](./images/webp/image168.webp){width="3.5in"
 height="1.9866983814523185in"}
 
 Down here there\'s another one such as switch to white, which switched
@@ -2183,7 +2282,7 @@ need to be able to do things with that scroll event when you capture it,
 and that can be a little bit challenging and we\'ll get into why in just
 a minute here.
 
-![](./images2/media/image169.png){width="5.0in"
+![](./images/webp/image169.webp){width="5.0in"
 height="3.0635684601924758in"}
 
 But for right now, for this script, all we\'re going to do is change the
@@ -2193,7 +2292,7 @@ script that you could use on lots of Web pages to track where you are in
 the page and do lots of different animations or cool effects or other
 things based on where you are on the page. That\'s pretty exciting.
 
-![](./images2/media/image170.png){width="5.0in"
+![](./images/webp/image170.webp){width="5.0in"
 height="3.0635684601924758in"}
 
 By the way, I should add that I don\'t know anything about this Web site
@@ -2204,8 +2303,14 @@ to see some interesting interactions that people have created on the
 Web, they often get posted here. This is a good place to come to get
 inspiration about different things that you can do.
 
-![](./images2/media/image171.png){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 171. window load and scroll listener (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image171.png"
+  alt="Window Load and Scroll listener."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Let\'s get started with our script and we\'re going to work with the
 same files that we just completed, you don\'t need to change anything on
@@ -2217,8 +2322,14 @@ else. Then we\'re going to capture the actual scroll with an event
 handler for capturing scroll using jQuery. Let\'s go ahead and add these
 to our script here.
 
-![](./images2/media/image172.png){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 172. console.log, scrolling (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image172.png"
+  alt="Tag console.log as scrolling to section."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Over here on my **smoothscroll** page here, I\'m just going to go down
 here. We\'ve got this script is handling this scroll, and I\'m going to
@@ -2231,8 +2342,14 @@ is has something to do with how large this picture is. If this picture
 was in here, the section would take up less space because it would end
 here. It wouldn\'t be that tall.
 
-![](./images2/media/image173.png){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 173. on load, scroll function (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image173.png"
+  alt="On load, scroll function."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 If I want to track which section is on the screen, I need to know how
 big the section is. For me to know how big the section is all of the
@@ -2253,8 +2370,14 @@ as the page scrolls, and I could just for right now, I could just do
 alert, I could do console.log. You don\'t want to do alert because
 you\'ll get a ton of alerts scrolling, and save that.
 
-![](./images2/media/image174.png){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 174. test, scrolling (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image174.png"
+  alt="Example, test scrolling."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 If I come back to my page now and choose my inspector over your turn on
 my console, keep that a little bit narrower and to refresh the page. As
@@ -2268,17 +2391,29 @@ overloading your processor, if you want to move stuff around on the
 screen, it\'s easy to overload it by firing this event so many times and
 trying to do too many things at once.
 
-# 2.08 The Crux of the Problem (6:09) {#the-crux-of-the-problem-609 .unnumbered}
-
-![](./images2/media/image175.png){width="4.0in"
-height="2.4508552055993in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-08">2.08. The Crux of the Problem</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 175. the crux of the problem (2.08) (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image175.png"
+  alt="2.08. The Crux of the Problem."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Now, we\'re going to get to the crux of the problem. What we\'re going
 to do is we\'re going to look at a couple of variables and watch what
 happens as we scroll on the page.
 
-![](./images2/media/image176.png){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 176. window scroll event listener code (91) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image176.png"
+  alt="Window scroll event listener code."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 On your page, you want to add some variables here. You want to add these
 three variables, and then we\'re going to set the value of inside the
@@ -2296,8 +2431,15 @@ here, we need to set the values of these. I\'m just going to piece them
 in here. I\'m going to remove this console log; we don\'t need that one
 anymore and put this in instead.
 
-![](./images2/media/image177.png){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 177. window scroll event listener code (92) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image177.png"
+  alt="Window scroll event listener code, #1."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
+
 
 PostPosition is going to go find post zero, the first section on the
 page and get its offset top and then page top is going to go get window
@@ -2305,16 +2447,27 @@ scrollTop. Then we\'re going to console log the two values of these
 things out, so we can see what they are. Save that and then come over to
 your page and with your console log showing over here, refresh the page
 and I\'m going to close this down here.
-
-![](./images2/media/image178.png){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 178. window scroll event listener code, #2 (93) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image178.png"
+  alt="Window scroll event listener code, #2."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 I\'ve got something wrong over here. Offset is not a function. Is it
 offset with s? It\'s offset with lower-case s. Make sure you do this
 right offset. There we go. Try that again.
 
-![](./images2/media/image179.png){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 179. example, window scroll listener (93) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image179.png"
+  alt="Example, window scroll listener."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 There we go. I got zero, for the first one and 200 for the second one.
 Remember, the first one is pageTop. That\'s where my Window is. It\'s at
@@ -2342,9 +2495,16 @@ continue to get what we\'re going for here, because I need to know when
 a particular section is in a particular place on my screen or in my view
 port.
 
-![](./images2/media/image180.png){width="3.5in"
-height="2.144498031496063in"}![](./images2/media/image181.png){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 180/181. example, highlight section (94) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image180.png"
+  style="width:45%;"
+  alt="Example, highlight section, #1." />
+<img src="./images/image181.png"
+  style="width:45%;"
+  alt="Example, highlight section, #2." />
+</p>
 
 The next thing to pay attention to, let me just go up to the top of the
 page and refresh the page, is notice when I scroll the page, if I scroll
@@ -2366,16 +2526,28 @@ pieces that make capturing scroll events tricky, the fact that you
 can\'t be sure which pixel you going to hit and you have to watch out
 for performance.
 
-# 2.09 Strategy (8:27) {#strategy-827 .unnumbered}
-
-![](./images2/media/image182.png){width="4.0in"
-height="2.4508552055993in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-09">2.09. Strategy</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182. strategy (2.09) (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image182.png"
+  alt="2.09. Strategy."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 Now, the next thing we need to watch out for are what could the user
 possibly be doing on the page when it comes to scrolling?
 
-![](./images2/media/image183.png){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 183. scroll down or up (if not at top) (96) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image183.png"
+  alt="Scroll down or scroll up (if other than top of page)."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 There\'s really just two scenarios that we have to pay attention to,
 either the users at the top of the page and scrolling down or somewhere
@@ -2384,8 +2556,14 @@ page, and they\'re scrolling back up towards the top of the page. It\'s
 only one of those two things. They can only scroll up, and they can only
 scroll down, and they can only scroll up if they\'re not at the top.
 
-![](./images2/media/image184.png){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 184. setting up if/else statement (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image184.png"
+  alt="Set up if/else statement for scroll event."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 We\'re going to use a variable called counter, and then we\'re going to
 have an If statement, and the If statement is going to handle the first
@@ -2394,8 +2572,14 @@ is going to handle what happens if we\'re further down the page and
 scrolling up into a previous section. Let\'s go ahead and add this to
 our script over here.
 
-![](./images2/media/image185.png){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 185. add if/else code for scroll (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image185.png"
+  alt="Add if/else code for scroll."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 I\'m going to add a new variable here called Counter for your counter. I
 will set it to zero. Then down here inside my script, I can get rid of
@@ -2408,8 +2592,14 @@ we need to watch out for. We\'ve got our basic structure of what\'s
 going to happen to handle these two situations of what happens while
 we\'re scrolling down and what happens when we\'re scrolling up.
 
-![](./images2/media/image186.png){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 186. what is size of each section element (98) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image186.png"
+  alt="Identify size of each section element."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 The next thing that we need is we need to know how many pixels down are
 all of the post tops of this for each post. We\'ve got all of these
@@ -2432,19 +2622,36 @@ into this array. I\'m going to paste this in. You\'re going to have to
 type it, but I\'m going to post it in here, paste and posts. I\'m going
 to use the each method.
 
-![](./images2/media/image186.png){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 186. section size, rounded math.floor (99) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image186.png"
+  alt="Section size, rounded using math.floor."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 In plain JavaScript, we have for each but in jQuery, we have in each
 method that we can pass in a function. I\'m going to push the tops and I
 have a **Math.floor** and you\'ll let me take that out just for a
 minute. I\'ll take math for it now because that kind of confuses things.
 
-![](./images2/media/image187.png){width="5.0in"
-height="3.0635684601924758in"}
-
-![](./images2/media/image188.png){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187. section size, no rounding (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image187.png"
+  alt="Section size, no rounding."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 188. console log, posttops (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image187.png"
+  alt="console.log, postTops."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Put this in here for a moment, posts each function, post up push. This
 offset top, this refers to the post that\'s getting pushed in. This is
@@ -2458,28 +2665,46 @@ going to need this for the rest of our script here. But if I do that and
 then come back to my page and just click refresh. Unexpected token when
 I took out. The math thing, I screwed it up tonight. Push this set too,
 looks great to me.
-
-![](./images2/media/image189.png){width="3.5in"
-height="2.144498031496063in"}![](./images2/media/image190.png){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 189/190. remove if, post option (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image189.png"
+  style="width:45%;"
+  alt="Remove if statement to test postTops." />
+<img src="./images/image190.png"
+  style="width:45%;"
+  alt="Remove if statement to test PostTops." />
+</p>
 
 I see, it\'s unhappy because we have an unfinished if statement here
 with this stuff and you\'re so unhappy about that. I\'m just going to
 take this thing and cut it for the moment. Take that out and let\'s look
 at just the post option.
 
-![](./images2/media/image191.png){width="5.0in"
-height="3.0635684601924758in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 191. example, posttops section sizes (101) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image186.png"
+  alt="Example, postTops section sizes in pixels."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 If I come back to the page and refresh the page, you\'ll see here I get
 an array with five elements in it for each of my five sections, 200,
 700, 1500.6875, and then 21 no 4.56- and 2683.4875. I don\'t really need
 all the decimal points, so that\'s why I put the **Math.floor** in
 there.
 
-![](./images2/media/image192.png){width="3.5in"
-height="2.144498031496063in"}![](./images2/media/image193.png){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 192/193. calculate each section size (101) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image192.png"
+  style="width:45%;"
+  alt="Count section size in pixels and store." />
+<img src="./images/image193.png"
+  style="width:45%;"
+  alt="Size of each section is identified." />
+</p>
 
 Let\'s add the **Math.floor** back real quick here, I\'m going to put
 **Math.floor()** at the end over here, so it\'ll take this whole thing.
@@ -2488,16 +2713,30 @@ it down. If I save that and then come back and refresh again, now I\'m
 just getting whole numbers 200, 700, 1525, 2104, and 2683 and that\'s
 good. Great. We\'ll pick it up in the next lesson.
 
-# 2.10 Adding PageTop and If Statements (5:39) {#adding-pagetop-and-if-statements-539 .unnumbered}
-
-![](./images2/media/image194.png){width="4.0in"
-height="2.4508552055993in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-10">2.10. Adding PageTop and If Statements</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 194. adding pagetop and if statements (102) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image194.png"
+  alt="2.10. Adding PageTop and If Statements."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 I\'ve put the window scroll event back in with my IF statements.
 
-![](./images2/media/image195.png){width="3.5in"
-height="2.144498031496063in"}![](./images2/media/image196.png){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 195/196. smoothscroll.js - scroll up/down (102) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image195.png"
+  style="width:45%;"
+  alt="Lines 29-46 of smoothscroll.js." />
+<img src="./images/image196.png"
+  style="width:45%;"
+  alt="Lines 24-42 of smoothscroll.js (after update)." />
+</p>
+
 
 We\'re going to work on these a little bit now. But before we do, we
 need to add this statement here, page top (**pagetop**), which is this
@@ -2505,9 +2744,14 @@ variable up here that we created but have not assigned. We looked at it
 before and we just set it to window scroll top. Here I\'m going to set
 it to window scrollTop plus 210. That\'s because we know our page over
 here.
-
-![](./images2/media/image197.png){width="5.0in"
-height="3.0635684601924758in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 197. 24-43 of smoothscroll.js (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image197.png"
+  alt="Lines 24-43 of smoothscroll.js."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 The first section starts 200 pixels down. I\'m going to mark it 200
 pixels down, plus a tiny bit more, an extra 10 pixels about there. That
@@ -2522,9 +2766,16 @@ that\'s saying how far we\'re scrolling down the page is greater than
 700, then this second section must be up here, must be up towards the
 top of the page if that number is greater than that number.
 
-![](./images2/media/image198.png){width="3.5in"
-height="2.144498031496063in"}![](./images2/media/image199.png){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 198/199. 24-43 of smoothscroll.js & after, 32-50 of smoothscroll.js (103) ~~~~~~~~~-->
+<p align="center">
+<img src="./images/image198.png"
+  style="width:45%;"
+  alt="24-43 of smoothscroll.js." />
+<img src="./images/image199.png"
+  style="width:45%;"
+  alt="32-50 of smoothscroll.js." />
+</p>
 
 What I want to do here is, okay, when I get into that place and want to
 increment the counter, counter plus plus then I may just console log
@@ -2535,9 +2786,16 @@ cool I think. We can\'t do anything with this yet. I\'m going to take
 this out and just comment the else if for the moment. Like that to there
 and commented out so it doesn\'t cause a problem.
 
-![](./images2/media/image200.png){width="3.5in"
-height="2.144498031496063in"}![](./images2/media/image201.png){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 200/201. log of smoothscroll.js scrolling down (104) ~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image200.png"
+  style="width:45%;"
+  alt="Log of smoothscroll.js as scrolling down." />
+<img src="./images/image201.png"
+  style="width:45%;"
+  alt="Log of 2nd section of smooth scroller." />
+</p>
 
 But now while we\'re scrolling down, the counters should get incremented
 when we go into the next section. Also, you want to either comment this
@@ -2567,17 +2825,29 @@ working with scroll events, which is that you have to be careful not to
 do something every time you scroll a tiny little bit because you can
 overload your CPU.
 
-# 2.11 Writing the Else/If Statement - Part 1 (4:10) {#writing-the-elseif-statement---part-1-410 .unnumbered}
-
-![](./images2/media/image202.png){width="4.0in"
-height="2.4508552055993in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-11">2.11. Writing the Else/If Statement - Part 1</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 202. writing the else/if statement in smoothscroll.js (105) ~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image202.png"
+  alt="2.11. Writing the Else/If Statement - Part 1."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Now we\'ll handle the 'else if' and we\'ll take care of what happens if
 we\'re scrolling up the page.
-
-![](./images2/media/image203.png){width="3.5in"
-height="2.144498031496063in"}![](./images2/media/image204.png){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 203/204. before and after else/if statement in smoothscroll.js (105) ~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image203.png"
+  style="width:45%;"
+  alt="32-50 of smoothscroll.js (before)." />
+<img src="./images/image204.png"
+  style="width:45%;"
+  alt="32-50 of smoothscroll.js (after)." />
+</p>
 
 It\'s not uncommon that out. I\'m first going to check to see if counter
 is greater than zero because I would want this else if to take place and
@@ -2591,8 +2861,15 @@ PostTops, PageTops is less than PostTops, square bracket counter this
 value, PageTop, this value here, which changes as you scroll the page
 every little bit if it\'s less than the PostTops counter.
 
-![](./images2/media/image205.png){width="5.0in"
-height="3.0635695538057743in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 205. scroll down, increment, scroll up, decrement (106) ~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image205.png"
+  alt="Scroll down, increment counter, scroll up, decrement counter."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
+
 
 So like suppose we were down at the bottom of the page and counter was
 set to four for the last section number five. So that would go into the
@@ -2604,9 +2881,16 @@ then I\'m going to do a console log scrolling up and then the counter
 we\'ll see what the counter is. All right, let\'s go and see what this
 does. I think that hopefully I did that right? I think I did.
 
-![](./images2/media/image206.png){width="3.5in"
-height="2.144498031496063in"}![](./images2/media/image207.png){width="3.5in"
-height="2.144498031496063in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 206/207. example, scroll up/down (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image206.png"
+  style="width:45%;"
+  alt="Example, scroll up/down." />
+<img src="./images/image207.png"
+  style="width:45%;"
+  alt="Example, scroll up/down." />
+</p>
 
 So now if I come back and refresh this page we\'re at the top of the
 page if I scroll down into section two you can see scroll down, this
@@ -2628,18 +2912,23 @@ scrolling, but when certain sections are on the page, based on the
 height of that section, that we\'re calculating when the page loads,
 including all the images, because they have an effect on the height of
 these elements.
-
-# 2.12 Writing the Else/If Statement -- Part 2 (5:43) {#writing-the-elseif-statement-part-2-543 .unnumbered}
-
-![](./images2/media/image208.png){width="4.0in"
-height="2.4508552055993in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-12">2.12. Writing the Else/If Statement -- Part 2 (5:43)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 208. writing the else/if statement - part 2 (108) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image208.png"
+  alt="2.12. Writing the Else/If Statement - Part 2."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 If this seems a bit cumbersome and confusing, that\'s okay, that\'s
 natural. It\'s not easy to wrap your head around. However, the hard part
 of the script is over. The rest is fairly easy to do, but the hard part
 of this script is now been finished, that\'s nice to know.
 
-![](./images2/media/image209.png){width="5.0in"
+![](./images/webp/image209.webp){width="5.0in"
 height="3.0635684601924758in"}
 
 This is where the magic happens, is in the \'if \' and in the
@@ -2647,7 +2936,7 @@ This is where the magic happens, is in the \'if \' and in the
 scrolling up, and where we are in the page in relation to our various
 sections of the page.
 
-![](./images2/media/image210.png){width="5.0in"
+![](./images/webp/image210.webp){width="5.0in"
 height="3.0635684601924758in"}
 
 The next thing we need to do is to take advantage of the script to
@@ -2668,7 +2957,7 @@ here. Add these two variables, one that\'s just going to gather all the
 links just for a short cut, we don\'t have to take this out every time,
 and then one for previous counter that set to zero.
 
-![](./images2/media/image211.png){width="5.0in"
+![](./images/webp/image211.webp){width="5.0in"
 height="3.0635684601924758in"}
 
 Now to make use of that I\'m going to come down here, I\'m going to add
@@ -2681,7 +2970,7 @@ selected from all of those anchor tags up there. Then we want to take
 the link with **eq**. **eq** is a function in jQuery that\'s like
 equals.
 
-![](./images2/media/image212.png){width="5.0in"
+![](./images/webp/image212.webp){width="5.0in"
 height="3.0635684601924758in"}
 
 I\'m going to get the a tag that equals counter. For the first section
@@ -2707,7 +2996,7 @@ it\'s changed, these two things are set to be equal, and it won\'t fire
 again until you go into another section. That should actually work.
 Let\'s see if that works.
 
-![](./images2/media/image213.png){width="5.0in"
+![](./images/webp/image213.webp){width="5.0in"
 height="3.0635684601924758in"}
 
 Come over here, I\'m going to just scroll up to the top here, refresh
@@ -2726,7 +3015,7 @@ really cool.
 
 # 2.13 Edge Case Issues (5:07) {#edge-case-issues-507 .unnumbered}
 
-![](./images2/media/image214.png){width="4.0in"
+![](./images/webp/image214.webp){width="4.0in"
 height="2.4508552055993in"}
 
 This script is working and we can leave it the way it is, but there are
@@ -2734,8 +3023,8 @@ a couple edge case scenarios that are worth mentioning and worth fixing,
 and it complicates the script a little bit, but it\'s worth addressing
 and looking at.
 
-![](./images2/media/image215.png){width="3.5in"
-height="2.144498031496063in"}![](./images2/media/image216.png){width="3.5in"
+![](./images/webp/image215.webp){width="3.5in"
+height="2.144498031496063in"}![](./images/webp/image216.webp){width="3.5in"
 height="2.144498031496063in"}
 
 What I\'m going to do here, is I\'m going to click this button here,
@@ -2745,8 +3034,8 @@ top of my page here and refresh, when the page loads, no matter how wide
 my browser window is, it\'s going to calculate how tall each of these
 sections are and it\'ll be fine.
 
-![](./images2/media/image217.png){width="3.5in"
-height="2.144498031496063in"}![](./images2/media/image218.png){width="3.5in"
+![](./images/webp/image217.webp){width="3.5in"
+height="2.144498031496063in"}![](./images/webp/image218.webp){width="3.5in"
 height="2.144498031496063in"}
 
 If I\'ve got a narrow browser on a phone or a small tablet or something
@@ -2774,14 +3063,14 @@ handle these two situations for this and while we\'re at it, we\'re
 going to find a trick that\'s actually going to be really useful for
 other scripts, for handling the same things that could happen.
 
-![](./images2/media/image219.png){width="5.0in"
+![](./images/webp/image219.webp){width="5.0in"
 height="3.0635684601924758in"}
 
 In order to do this, I want to capture an event that fires when somebody
 resizes the window.
 
-![](./images2/media/image220.png){width="3.5in"
-height="2.144498031496063in"}![](./images2/media/image221.png){width="3.5in"
+![](./images/webp/image220.webp){width="3.5in"
+height="2.144498031496063in"}![](./images/webp/image221.webp){width="3.5in"
 height="2.144498031496063in"}
 
 Down here after my windows scroll event handler, which is this one here
@@ -2792,7 +3081,7 @@ sign **window.on**, we\'re going to use the on method again, but instead
 of looking for load we\'re going to look for resize. Then we\'re going
 to run a function. In here, I\'m just going to console log. Resizing.
 
-![](./images2/media/image222.png){width="5.0in"
+![](./images/webp/image222.webp){width="5.0in"
 height="3.0635684601924758in"}
 
 Now, this event listener will fire while we\'re resizing the window and
@@ -2800,7 +3089,7 @@ up here, I\'m going to get rid of some of these other console logs
 comment that went out. I\'m going to comment that I don\'t need that one
 just so I don\'t have those cluttering up my script over here. Great.
 
-![](./images2/media/image223.png){width="5.0in"
+![](./images/webp/image223.webp){width="5.0in"
 height="3.0635684601924758in"}
 
 I\'m going to come over here to my page and I\'m going to refresh and
@@ -2818,21 +3107,21 @@ run right at that particular size. We\'ll do that in the next lesson.
 
 # 2.14 Resizing Your Windows (5:41) {#resizing-your-windows-541 .unnumbered}
 
-![](./images2/media/image224.png){width="4.0in"
+![](./images/webp/image224.webp){width="4.0in"
 height="2.4508552055993in"}
 
 Great, now I want to make it so that when we\'re done resizing, we know
 we\'re in a place where we can actually change the heights of our
 element to do all that stuff.
 
-![](./images2/media/image225.png){width="5.0in"
+![](./images/webp/image225.webp){width="5.0in"
 height="3.0635673665791776in"}
 
 To do that, I\'m going to come back up here at the top of the page and
 then add one more variable var doneResizing.
 
-![](./images2/media/image226.png){width="3.5in"
-height="2.144498031496063in"}![](./images2/media/image227.png){width="3.5in"
+![](./images/webp/image226.webp){width="3.5in"
+height="2.144498031496063in"}![](./images/webp/image227.webp){width="3.5in"
 height="2.144498031496063in"}
 
 I\'m just going to set out a variable and it\'s going to be undefined at
@@ -2864,8 +3153,8 @@ in a week, 500 milliseconds console log after it\'s done resizing, I
 hope. Let\'s see if that works if I did it right. If we come back over
 here and refresh my screen here.
 
-![](./images2/media/image228.png){width="3.5in"
-height="2.144498031496063in"}![](./images2/media/image229.png){width="3.5in"
+![](./images/webp/image228.webp){width="3.5in"
+height="2.144498031496063in"}![](./images/webp/image229.webp){width="3.5in"
 height="2.144498031496063in"}
 
 Now while I\'m resizing the screen, nothing\'s happening over there in
@@ -2874,7 +3163,7 @@ when I doneResizing my window, number 2, doneResizing that event fires,
 and now that I\'m doneResizing, I can actually figure out, well, how
 tall are my sections and reset my page and do all of that.
 
-![](./images2/media/image230.png){width="5.0in"
+![](./images/webp/image230.webp){width="5.0in"
 height="3.0635684601924758in"}
 
 Now, that I\'ve set it so that I can capture when I\'m doneResizing the
@@ -2883,7 +3172,7 @@ want to come up here and I want to get these two things because this is
 what setting my postTops. When I get these two things, I\'m just going
 to copy them from there and paste them in here.
 
-![](./images2/media/image231.png){width="5.0in"
+![](./images/webp/image231.webp){width="5.0in"
 height="3.0635684601924758in"}
 
 After I\'m doneResizing, I\'m going to reset this variable post tops and
@@ -2893,7 +3182,7 @@ page where I have postTops console log out here, I\'m going to uncomment
 that out and save that, and now we should be able to test this and see
 if it\'s working.
 
-![](./images2/media/image232.png){width="5.0in"
+![](./images/webp/image232.webp){width="5.0in"
 height="3.0635684601924758in"}
 
 Over here, when I refresh the page, it should tell me where it thinks
@@ -2902,8 +3191,8 @@ resizing, I get new postTops. The first one still at 200, that\'s fine.
 That makes sense, but the next one is a much higher number, and so on
 and so forth.
 
-![](./images2/media/image233.png){width="3.5in"
-height="2.144498031496063in"}![](./images2/media/image234.png){width="3.5in"
+![](./images/webp/image233.webp){width="3.5in"
+height="2.144498031496063in"}![](./images/webp/image234.webp){width="3.5in"
 height="2.144498031496063in"}
 
 If I make it slightly wider, I\'ll get a different set of numbers. But
@@ -2912,7 +3201,7 @@ window. That\'s really cool, that\'s working really well.
 
 # 2.15 Resetting the Counter (5:22) {#resetting-the-counter-522 .unnumbered}
 
-![](./images2/media/image235.png){width="4.0in"
+![](./images/webp/image235.webp){width="4.0in"
 height="2.4508552055993in"}
 
 We\'ve solved the first part of our problem with what happens if
@@ -2920,8 +3209,8 @@ somebody resizes the window. But we haven\'t solved the second part of
 what happens if somebody refreshes the page while they\'re further down
 the page.
 
-![](./images2/media/image236.png){width="3.5in"
-height="2.129540682414698in"}![](./images2/media/image237.png){width="3.5in"
+![](./images/webp/image236.webp){width="3.5in"
+height="2.129540682414698in"}![](./images/webp/image237.webp){width="3.5in"
 height="2.129540682414698in"}
 
 What I want to do for this is I\'m going to come down here into my
@@ -2964,8 +3253,8 @@ all I need to do is remove the class from all links and then put the
 appropriate class in the appropriate link. That\'s really cool and that
 should work.
 
-![](./images2/media/image238.png){width="3.5in"
-height="2.129540682414698in"}![](./images2/media/image239.png){width="3.5in"
+![](./images/webp/image238.webp){width="3.5in"
+height="2.129540682414698in"}![](./images/webp/image239.webp){width="3.5in"
 height="2.129540682414698in"}
 
 Now, if I see this and notice, I do have this inside the resize
@@ -2988,14 +3277,14 @@ lesson.
 
 # 2.16 resetPagePosition Function (8:33) {#resetpageposition-function-833 .unnumbered}
 
-![](./images2/media/image240.png){width="4.0in"
+![](./images/webp/image240.webp){width="4.0in"
 height="2.4508552055993in"}
 
 Our script is getting pretty long, and we\'re repeating ourselves in a
 few places.
 
-![](./images2/media/image241.png){width="3.5in"
-height="2.129540682414698in"}![](./images2/media/image242.png){width="3.5in"
+![](./images/webp/image241.webp){width="3.5in"
+height="2.129540682414698in"}![](./images/webp/image242.webp){width="3.5in"
 height="2.129540682414698in"}
 
 What I\'m going to do here is make a new function. I\'m going to leave
@@ -3006,8 +3295,8 @@ function, so I\'m going to put it after here, in fact, I\'m going to get
 rid of a little bit of space there, and there we go. I\'m going to add
 in here a function resetPagePosition.
 
-![](./images2/media/image243.png){width="3.5in"
-height="2.129540682414698in"}![](./images2/media/image244.png){width="3.5in"
+![](./images/webp/image243.webp){width="3.5in"
+height="2.129540682414698in"}![](./images/webp/image244.webp){width="3.5in"
 height="2.129540682414698in"}
 
 I\'m going to put all of this stuff that comes inside this set time out
@@ -3018,7 +3307,7 @@ with post tops and everything, all of that, I\'m just going to cut and
 stick it inside this function instead. You might have to select it and
 shift to get it to line up for it.
 
-![](./images2/media/image245.png){width="5.0in"
+![](./images/webp/image245.webp){width="5.0in"
 height="3.0422003499562553in"}
 
 Now I have a function called **resetPageposition**, and I\'m going to
@@ -3027,7 +3316,7 @@ runs, it\'s going to run **resetPagePosition**, this function here,
 which is all the stuff that we had in there. When we\'re done resizing,
 we\'re going to do all this stuff that we just wrote. That\'s cool.
 
-![](./images2/media/image246.png){width="5.0in"
+![](./images/webp/image246.webp){width="5.0in"
 height="3.0422003499562553in"}
 
 But I\'m also going to run it up at the top of the page here,
@@ -3038,7 +3327,7 @@ variable **postTops**, but then inside here I\'m going to adjust my
 twice. It\'s going to run when the page loads and it\'s going to run any
 time you resize the screen.
 
-![](./images2/media/image247.png){width="5.0in"
+![](./images/webp/image247.webp){width="5.0in"
 height="3.0422003499562553in"}
 
 When the page loads we want to do all of these things. We want to get
@@ -3068,8 +3357,8 @@ resizing, choose the correct section. Separate sections on the screen.
 It does seem to be mostly working. Section, refresh the page, that
 section got highlighted, so that\'s correct.
 
-![](./images2/media/image248.png){width="3.5in"
-height="2.129540682414698in"}![](./images2/media/image249.png){width="3.5in"
+![](./images/webp/image248.webp){width="3.5in"
+height="2.129540682414698in"}![](./images/webp/image249.webp){width="3.5in"
 height="2.129540682414698in"}
 
 The last thing we could do here is on our Index page. Since it\'s being
@@ -3083,7 +3372,7 @@ you go down to the correct section. You can see that it\'s slightly
 refreshing that, and the reason I think it\'s doing that is that it
 could be in some cases, actually reloading the page.
 
-![](./images2/media/image250.png){width="5.0in"
+![](./images/webp/image250.webp){width="5.0in"
 height="3.0422003499562553in"}
 
 One way to keep that from happening is in our script up here at the top.
@@ -3105,13 +3394,13 @@ review what we\'ve done.
 
 # 2.17 Reviewing the Whole Script (5:48) {#reviewing-the-whole-script-548 .unnumbered}
 
-![](./images2/media/image251.png){width="4.0in"
+![](./images/webp/image251.webp){width="4.0in"
 height="2.4508552055993in"}
 
 This is quite an extensive script. We\'ve done a lot here. I just want
 to go through it once quickly, to review what we\'ve done.
 
-![](./images2/media/image252.png){width="5.0in"
+![](./images/webp/image252.webp){width="5.0in"
 height="3.0422003499562553in"}
 
 We started with the smooth scroll script, which handles what happens
@@ -3127,7 +3416,7 @@ possibly because now we have the other part that\'s handling this.
 That\'s something to consider. But that\'s what that first part of that
 script does.
 
-![](./images2/media/image253.png){width="5.0in"
+![](./images/webp/image253.webp){width="5.0in"
 height="3.0422003499562553in"}
 
 The second part of the script, is handling when the page loads in all
@@ -3142,7 +3431,7 @@ scrolled, and so on and so forth. Also, it will handle the situation for
 when it\'ll recalculate those things when we resize the screen but that
 happens later, so we set all that page position stuff.
 
-![](./images2/media/image254.png){width="5.0in"
+![](./images/webp/image254.webp){width="5.0in"
 height="3.0422003499562553in"}
 
 The magic of the script is actually happening here. When you scroll the
@@ -3157,14 +3446,14 @@ Then we set previews counter to counter, and we\'re ready for the next
 change. This script is the heart of the whole thing in terms of figuring
 out everything that should happen there on the page.
 
-![](./images2/media/image255.png){width="5.0in"
+![](./images/webp/image255.webp){width="5.0in"
 height="3.0422003499562553in"}
 
 Then finally, we have the 'window on resize', and we\'re using
 clearTimeout to keep the setTime out from happening until we\'re
 actually done resizing.
 
-![](./images2/media/image256.png){width="5.0in"
+![](./images/webp/image256.webp){width="5.0in"
 height="3.0422003499562553in"}
 
 It\'s clearing done resizing while we\'re resizing, and then as soon as
@@ -3173,8 +3462,8 @@ again, which we already talked about, which sets the tops of all of our
 pages, of all of our sections and figures out how far down the page we
 are and sets the styling for the links appropriately.
 
-![](./images2/media/image257.png){width="3.5in"
-height="2.129540682414698in"}![](./images2/media/image258.png){width="3.5in"
+![](./images/webp/image257.webp){width="3.5in"
+height="2.129540682414698in"}![](./images/webp/image258.webp){width="3.5in"
 height="2.129540682414698in"}
 
 The only thing I can think to do is maybe to remove these two pieces
@@ -3183,8 +3472,8 @@ makes our script function just slightly better. Now when we get to this
 function, then we could get rid of this callback function entirely if
 this works.
 
-![](./images2/media/image259.png){width="3.5in"
-height="2.129540682414698in"}![](./images2/media/image260.png){width="3.5in"
+![](./images/webp/image259.webp){width="3.5in"
+height="2.129540682414698in"}![](./images/webp/image260.webp){width="3.5in"
 height="2.129540682414698in"}
 
 But let\'s see if this does what we wanted to do here, and then come
@@ -3196,8 +3485,8 @@ the highlighting here, and I actually don\'t need that in the other
 script. I think the two are affecting each other a little bit, so now
 both scripts are working.
 
-![](./images2/media/image261.png){width="3.5in"
-height="2.129540682414698in"}![](./images2/media/image262.png){width="3.5in"
+![](./images/webp/image261.webp){width="3.5in"
+height="2.129540682414698in"}![](./images/webp/image262.webp){width="3.5in"
 height="2.129540682414698in"}
 
 You could come back here, and take out this callback function entirely
@@ -3220,15 +3509,15 @@ the same script, and play JavaScript.
 
 # 2.18 Introduction to Scroll Effects with JS (6:04) {#introduction-to-scroll-effects-with-js-604 .unnumbered}
 
-![](./images2/media/image263.png){width="4.0in"
+![](./images/webp/image263.webp){width="4.0in"
 height="2.4508552055993in"}
 
 Scroll effects with Javascript in this lesson. We are going to do the
 same thing, that we just did with the previous lesson on school effects
 using jQuery.
 
-![](./images2/media/image264.png){width="3.5in"
-height="2.129540682414698in"}![](./images2/media/image265.png){width="3.5in"
+![](./images/webp/image264.webp){width="3.5in"
+height="2.129540682414698in"}![](./images/webp/image265.webp){width="3.5in"
 height="2.129540682414698in"}
 
 Only this one, we are going to use plain JavaScript instead. And that
@@ -3239,8 +3528,8 @@ doing it twice will actually help you, and I think you will see that
 there\'s a lot of similarities between the JavaScript version, and the
 jQuery version.
 
-![](./images2/media/image266.png){width="3.5in"
-height="1.9799682852143483in"}![](./images2/media/image267.png){width="3.5in"
+![](./images/webp/image266.webp){width="3.5in"
+height="1.9799682852143483in"}![](./images/webp/image267.webp){width="3.5in"
 height="1.9799682852143483in"}
 
 The second thing I want you to notice is that, or to remember is that
@@ -3256,7 +3545,7 @@ great, so with those basic pieces in mind we are ready to get started
 with our JavaScript, and the first thing we want to do is gather all of
 these links in our navigation.
 
-![](./images2/media/image268.png){width="5.0in"
+![](./images/webp/image268.webp){width="5.0in"
 height="2.828525809273841in"}
 
 Come over to our script.Js file, ignore this smooth scroll Js for a
@@ -3309,20 +3598,20 @@ Start Files: Smooth Scroll with JavaScript --
 
 # 2.19 Getting the Target -- Part 1 (4:50) {#getting-the-target-part-1-450 .unnumbered}
 
-![](./images2/media/image269.png){width="4.0in"
+![](./images/webp/image269.webp){width="4.0in"
 height="2.4508552055993in"}
 
 Next, we want to get the href of the link that we clicked, the one that
 we clicked on, and we could use the this keyword, but in some cases,
 event.target is a little bit more direct and explicit.
 
-![](./images2/media/image270.png){width="5.0in"
+![](./images/webp/image270.webp){width="5.0in"
 height="2.828525809273841in"}
 
 So event.target get attribute href, we\'ll find out which link we
 clicked. And if we go back to our code over here.
 
-![](./images2/media/image271.png){width="5.0in"
+![](./images/webp/image271.webp){width="5.0in"
 height="2.828525809273841in"}
 
 When you click on one of these links, first, second, third or fourth,
@@ -3335,8 +3624,8 @@ first, pound, second, pound third, pound fourth or pound fifth. So in
 targetAnchor, I\'m going to get my targetID. Here I call the variable
 targetSection.
 
-![](./images2/media/image272.png){width="3.5in"
-height="1.9799682852143483in"}![](./images2/media/image273.png){width="3.5in"
+![](./images/webp/image272.webp){width="3.5in"
+height="1.9799682852143483in"}![](./images/webp/image273.webp){width="3.5in"
 height="1.9799682852143483in"}
 
 TargetSection and it\'s going to go get that targetID. When you click on
@@ -3346,7 +3635,7 @@ one link at a time. Which one did you click get the href that goes with
 that one, put it in targetID and then we can go get that section and
 that\'s our targetSection there.
 
-![](./images2/media/image274.png){width="5.0in"
+![](./images/webp/image274.webp){width="5.0in"
 height="2.828525809273841in"}
 
 To test this out let\'s run a console log here, console.log and pass
@@ -3357,7 +3646,7 @@ is in and .top will tell me what the top edges, .bottom would give me
 the bottom edge. We can get the left and we can get the right, but that
 will get me that kind of thing.
 
-![](./images2/media/image275.png){width="5.0in"
+![](./images/webp/image275.webp){width="5.0in"
 height="2.828525809273841in"}
 
 Let\'s actually save this and see if I\'m doing my job well over here by
@@ -3380,16 +3669,16 @@ spit out in the console. Well, we\'ll do that in the next lesson.
 
 # 2.20 Getting the Target -- Part 2 (5:15) {#getting-the-target-part-2-515 .unnumbered}
 
-![](./images2/media/image276.png){width="4.0in"
+![](./images/webp/image276.webp){width="4.0in"
 height="2.2491447944006997in"}
 
-![](./images2/media/image277.png){width="5.0in"
+![](./images/webp/image277.webp){width="5.0in"
 height="2.828525809273841in"}
 
 This statement is generating the tops of each section when I click on
 them, so I want sign that to variable.
 
-![](./images2/media/image278.png){width="5.0in"
+![](./images/webp/image278.webp){width="5.0in"
 height="2.828525809273841in"}
 
 So instead of console.log here, I\'m going to take that out, check out
@@ -3405,7 +3694,7 @@ page, so we really want our, when we see scroll, we want it to smooth
 scroll to this position, 200 pixels down, not all the way up at the top
 of the window, because that wouldn\'t really help us.
 
-![](./images2/media/image279.png){width="5.0in"
+![](./images/webp/image279.webp){width="5.0in"
 height="2.828525809273841in"}
 
 Now, that we have this variable value in this variable here, we can use
@@ -3427,8 +3716,8 @@ just going to \'console.log\', \'originalTop\', just so you can see
 what\'s in that variable, each time we click, one of these links should
 be what we saw before.
 
-![](./images2/media/image280.png){width="3.5in"
-height="1.9799682852143483in"}![](./images2/media/image281.png){width="3.5in"
+![](./images/webp/image280.webp){width="3.5in"
+height="1.9799682852143483in"}![](./images/webp/image281.webp){width="3.5in"
 height="1.9799682852143483in"}
 
 Let\'s go ahead and test this. If I refresh my page, starting up stride
@@ -3455,7 +3744,7 @@ of a problem, and we\'ll talk about it more in the next lesson.
 
 # 2.21 Smooth Scroll Polyfill (4:45) {#smooth-scroll-polyfill-445 .unnumbered}
 
-![](./images2/media/image282.png){width="4.0in"
+![](./images/webp/image282.webp){width="4.0in"
 height="2.2491447944006997in"}
 
 In the last lesson (2.20), we noticed that the Smooth Scroll was working
@@ -3464,8 +3753,8 @@ we do about that? What we can do is we can use what\'s called a
 **Polyfill**. A **polyfill** is a term that was created by a developer
 named Remy Sharp.
 
-![](./images2/media/image283.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image284.png){width="3.5in"
+![](./images/webp/image283.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image284.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 If you go just google \'who invented **polyfill**?\' or \'where did the
@@ -3479,8 +3768,8 @@ to date in standards and there\'s very little need for **polyfills**,
 but it\'s a worthwhile concept to know about and it\'s worth figuring
 out how to use them.
 
-![](./images2/media/image285.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image286.png){width="3.5in"
+![](./images/webp/image285.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image286.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 As it turns out, somebody wrote a **polyfill** for this particular
@@ -3493,7 +3782,7 @@ file in my folder, here. All we need to do is link to it. Here, on the
 page, at the bottom of the page, here, I want to link to that file,
 script src=\"smoothscroll.js\" that one there.
 
-![](./images2/media/image287.png){width="5.0in"
+![](./images/webp/image287.webp){width="5.0in"
 height="3.091346237970254in"}
 
 There we go. I want to put it before my script, so it loads first. Just
@@ -3513,7 +3802,7 @@ where down the page we are. We don\'t need to make them highlight when
 we\'re actually clicking on them because it\'ll do it automatically with
 the second part of the script.
 
-![](./images2/media/image288.png){width="5.0in"
+![](./images/webp/image288.webp){width="5.0in"
 height="3.091346237970254in"}
 
 This is a really great little script. You can see that it\'s fairly
@@ -3530,7 +3819,7 @@ again be working with scrolling and capturing the scrolling.
 
 # 2.22 Checking the Load (6:48) {#checking-the-load-648 .unnumbered}
 
-![](./images2/media/image289.png){width="4.0in"
+![](./images/webp/image289.webp){width="4.0in"
 height="2.2491447944006997in"}
 
 We have the script that does the smooth scroll, and now we\'re going to
@@ -3543,7 +3832,7 @@ haven\'t loaded then the height will be different. We want to make sure
 everything\'s loaded before we actually start calculating things like
 the height of each section.
 
-![](./images2/media/image290.png){width="5.0in"
+![](./images/webp/image290.webp){width="5.0in"
 height="3.091346237970254in"}
 
 This is exactly the same as what we did in the jQuery version, except
@@ -3558,7 +3847,7 @@ compact, but not really all that different. We\'re going to use this one
 down here with clean JavaScript window out of industry. Look. What are
 we going to put in there?
 
-![](./images2/media/image291.png){width="5.0in"
+![](./images/webp/image291.webp){width="5.0in"
 height="3.091346237970254in"}
 
 We\'re going to put some variables. First, I\'m just going to paste
@@ -3575,7 +3864,7 @@ we\'ve got the counter in the previous counter and we\'ll use done
 resizing later for our script that deals with what happens if people are
 resizing their window. So we\'ll do that again as well.
 
-![](./images2/media/image292.png){width="5.0in"
+![](./images/webp/image292.webp){width="5.0in"
 height="3.091346237970254in"}
 
 Now, one thing you might notice here, is that the counter is being set
@@ -3593,8 +3882,8 @@ easier. You don\'t have to deal with the zero indexing and the cognitive
 work that provides. But we\'ve got this here and we\'re ready to go
 forward with the next part.
 
-![](./images2/media/image293.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image294.png){width="3.5in"
+![](./images/webp/image293.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image294.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 Now, we use this method in the previous script, getBoundingClientRect at
@@ -3605,7 +3894,7 @@ parentheses. Really what I want to do, is I want to get posts. I want to
 get the first posts, so I\'m going to do posts square brackets, zero.get
 pounding Plan Recto. Let\'s come to log that out.
 
-![](./images2/media/image295.png){width="5.0in"
+![](./images/webp/image295.webp){width="5.0in"
 height="2.9519225721784776in"}
 
 If I go over here to my page and I turn on my inspector, you\'re going
@@ -3615,8 +3904,8 @@ I think because it should be a 200. Cancel log posts zero. John and Joe
 cut out that last bit of going to the page and having it not work and
 pick it up from here.
 
-![](./images2/media/image296.png){width="3.5in"
-height="2.0663462379702535in"}![](./images2/media/image297.png){width="3.5in"
+![](./images/webp/image296.webp){width="3.5in"
+height="2.0663462379702535in"}![](./images/webp/image297.webp){width="3.5in"
 height="2.0663462379702535in"}
 
 When I go back to the Web page and refresh, you\'ll notice that I get a
@@ -3632,7 +3921,7 @@ care of that in the next lesson.
 
 # 2.23 Top Posts (5:35) {#top-posts-535 .unnumbered}
 
-![](./images2/media/image298.png){width="4.0in"
+![](./images/webp/image298.webp){width="4.0in"
 height="2.261111111111111in"}
 
 In the last lesson, we saw that we could use the
@@ -3640,7 +3929,7 @@ In the last lesson, we saw that we could use the
 on the page. In this case, the first element, the first section, we\'re
 getting here posts, zero.
 
-![](./images2/media/image299.png){width="5.0in"
+![](./images/webp/image299.webp){width="5.0in"
 height="3.091346237970254in"}
 
 But we don\'t want where it is anywhere on the page. We want to get the
@@ -3650,8 +3939,8 @@ have that be consistent. We can do that by adding to it
 scrolled past the viewport, and by adding that back on there, we will
 always get 200 pixels. Let\'s go ahead and give that a try.
 
-![](./images2/media/image300.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image301.png){width="3.5in"
+![](./images/webp/image300.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image301.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 At the end here, we need to add plus window.pageYOffset. This one, not X
@@ -3661,7 +3950,7 @@ top of the window. Click, \"Refresh\" and you can see I get 200 there.
 If I scroll the page down and refresh again, you can see that I get 200
 there. I always get 200 for that first post.
 
-![](./images2/media/image302.png){width="5.0in"
+![](./images/webp/image302.webp){width="5.0in"
 height="3.091346237970254in"}
 
 Great. Now, that we\'ve got that, the next thing we need to do is round
@@ -3689,7 +3978,7 @@ extra room here because I also need to put in here, **Math.floor()**,
 and the second parentheses will close here like so. **Math.floor** will
 take this, round it down and then it gets pushed into postTops.
 
-![](./images2/media/image303.png){width="5.0in"
+![](./images/webp/image303.webp){width="5.0in"
 height="3.091346237970254in"}
 
 Then, of course, we want to cancel log out postTops just to see what the
@@ -3698,7 +3987,7 @@ going to cut that from there. Stick it down here and change this to
 postTops. Now, we should be able to see when we go back to our page over
 here.
 
-![](./images2/media/image304.png){width="5.0in"
+![](./images/webp/image304.webp){width="5.0in"
 height="3.091346237970254in"}
 
 If I refresh, I\'m getting the same numbers that I got before in the
@@ -3712,14 +4001,14 @@ a little bit different.
 
 # 2.24 Add an Event Listener (5:42) {#add-an-event-listener-542 .unnumbered}
 
-![](./images2/media/image305.png){width="4.0in"
+![](./images/webp/image305.webp){width="4.0in"
 height="2.261111111111111in"}
 
 In the last module, we put all the tops of our posts or our sections
 really into post tops, and we can alert our council logged that out so
 we know where they all are.
 
-![](./images2/media/image306.png){width="5.0in"
+![](./images/webp/image306.webp){width="5.0in"
 height="3.091346237970254in"}
 
 Again, we\'re putting all of this inside the window load event because
@@ -3731,7 +4020,7 @@ going to affect how tall each section is and where the top of the next
 section starts. That\'s why we\'re putting everything inside of the
 window function.
 
-![](./images2/media/image307.png){width="5.0in"
+![](./images/webp/image307.webp){width="5.0in"
 height="3.091346237970254in"}
 
 Now we\'re at the point where we\'re ready to start working with our
@@ -3743,7 +4032,7 @@ scroll event, then we\'re going to run a function, and all of our stuff
 will go inside of here. Now, this looks very similar to the jQuery
 version of the scroll event.
 
-![](./images2/media/image308.png){width="5.0in"
+![](./images/webp/image308.webp){width="5.0in"
 height="3.091346237970254in"}
 
 In jQuery, we did it like this. We used the jQuery objects to grab our
@@ -3755,7 +4044,7 @@ syntax is not that much longer and you don\'t have to download the
 entire jQuery library to use it, or force your users to download the
 entire jQuery library to use it. That\'s nice.
 
-![](./images2/media/image309.png){width="5.0in"
+![](./images/webp/image309.webp){width="5.0in"
 height="3.091346237970254in"}
 
 Then we\'re going to put into this variable pagetop. Pagetop it\'s going
@@ -3763,14 +4052,14 @@ to equal this thing, **window.pageYOffset**. Again, what that does is
 it, **window.pageYOffset** tracks how far off the top of the window or
 page is scrolled.
 
-![](./images2/media/image310.png){width="5.0in"
+![](./images/webp/image310.webp){width="5.0in"
 height="3.091346237970254in"}
 
 I can, **console.log**, put **pageTop** and we should be seeing those
 pixels change as we scroll down the page. Let\'s test that and see.
 
-![](./images2/media/image311.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image312.png){width="3.5in"
+![](./images/webp/image311.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image312.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 I come back here and refresh my page. Now as I scroll down the page, you
@@ -3783,7 +4072,7 @@ get up to the top of the page, we should be getting a zero. When we get
 down to the bottom of the page, we should be getting a number that
 represents the full height of the entire window.
 
-![](./images2/media/image313.png){width="5.0in"
+![](./images/webp/image313.webp){width="5.0in"
 height="3.091346237970254in"}
 
 That\'s working great, and really what I want to do is I want to track
@@ -3801,7 +4090,7 @@ section on the screen, and if it\'s greater than the number for the top
 of the third section, then we must be viewing that section on the
 screen, and so on. That strategy is exactly the same.
 
-![](./images2/media/image314.png){width="5.0in"
+![](./images/webp/image314.webp){width="5.0in"
 height="3.091346237970254in"}
 
 As before, you can either be scrolling down the page, starting at the
@@ -3812,14 +4101,14 @@ we need to watch out for, while we\'re handling our scroll effect.
 
 # 2.25 The Magic Conditionals (5:58) {#the-magic-conditionals-558 .unnumbered}
 
-![](./images2/media/image315.png){width="4.0in"
+![](./images/webp/image315.webp){width="4.0in"
 height="2.261111111111111in"}
 
 To handle those two situations of scrolling up and scrolling down, I
 need an if and an else if, just as I did in the jQuery version and I\'m
 going to piece this in here.
 
-![](./images2/media/image316.png){width="5.0in"
+![](./images/webp/image316.webp){width="5.0in"
 height="3.091346237970254in"}
 
 You\'re going to have to type it, but I\'m going to paste it in here,
@@ -3852,7 +4141,7 @@ section, and that second section it\'s 250 pixels from the top of the
 screen. The down says scrolling down too. It\'s into the 250 pixels that
 did it. Should be doing it. There, I see what I did wrong.
 
-![](./images2/media/image317.png){width="5.0in"
+![](./images/webp/image317.webp){width="5.0in"
 height="3.091346237970254in"}
 
 Over here. I put the plus 250 in the wrong place. Should be here. Plus
@@ -3860,8 +4149,8 @@ Over here. I put the plus 250 in the wrong place. Should be here. Plus
 go. Now when I get to section two, scrolling down too, when that is 250
 pixels from the top of the page, it hits it and says okay.
 
-![](./images2/media/image318.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image319.png){width="3.5in"
+![](./images/webp/image318.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image319.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 We must be looking in section two, and this will get to 250, we\'ve got
@@ -3875,7 +4164,7 @@ what makes the script very powerful, because only when those things
 happen, we\'re going to make other things happen on the page. Not for
 every single pixel that we scroll.
 
-![](./images2/media/image320.png){width="5.0in"
+![](./images/webp/image320.webp){width="5.0in"
 height="3.091346237970254in"}
 
 Just as before, we want to see if the **counter** is not the same as the
@@ -3886,7 +4175,7 @@ that should be on one of them. But we want to make sure it isn\'t done
 any of them will remove that class attribute from everything, just to be
 clear that everything has no class on it up there.
 
-![](./images2/media/image321.png){width="5.0in"
+![](./images/webp/image321.webp){width="5.0in"
 height="3.091346237970254in"}
 
 Let\'s go ahead and add this if statement over here. Down here I\'m
@@ -3908,13 +4197,13 @@ there before we go.
 
 # 2.26 Changing the Next Link (5:56) {#changing-the-next-link-556 .unnumbered}
 
-![](./images2/media/image322.png){width="4.0in"
+![](./images/webp/image322.webp){width="4.0in"
 height="2.261111111111111in"}
 
 We took the class attribute off of all the links, now we need to add it
 to the correct link.
 
-![](./images2/media/image323.png){width="5.0in"
+![](./images/webp/image323.webp){width="5.0in"
 height="3.091346237970254in"}
 
 So I\'m going to add a variable, **const thisLink**, I want to add it to
@@ -3923,7 +4212,7 @@ using a query selector, so I\'m going to say **document.querySelector**,
 QuerySelector. And, this is a little tricky this querySelector, what
 we\'re going to use is **nav ul, li a**.
 
-![](./images2/media/image324.png){width="5.0in"
+![](./images/webp/image324.webp){width="5.0in"
 height="3.091346237970254in"}
 
 But we want **li:nth-child()** because over here, in our HTML remember,
@@ -3947,7 +4236,7 @@ the same now that I think about it. And that would be another way
 because remember in jQuery there\'s about 100 ways of getting to each
 element on the page, so we could have done it this way as well there.
 
-![](./images2/media/image325.png){width="5.0in"
+![](./images/webp/image325.webp){width="5.0in"
 height="3.091346237970254in"}
 
 But what I want to do is I want to change this so I\'m using not my up
@@ -3955,7 +4244,7 @@ and down quotes, oops. Yeah yeah I know it\'s a problem. I want to use
 my tick marks, so that in here I can pass in **\${counter}**, and that
 will get me the correct link there.
 
-![](./images2/media/image326.png){width="5.0in"
+![](./images/webp/image326.webp){width="5.0in"
 height="3.091346237970254in"}
 
 From there it\'s simple, now I can use **thisLink.className =
@@ -3963,8 +4252,8 @@ From there it\'s simple, now I can use **thisLink.className =
 want to say **prevCounter**, is now assigned the same value as counter,
 because now we\'re ready to go into the next section.
 
-![](./images2/media/image327.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image328.png){width="3.5in"
+![](./images/webp/image327.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image328.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 So if I save that and test it, assuming I did it all right, it should
@@ -3983,7 +4272,7 @@ scrolling down and these numbers must be coming in, when I\'m clicking
 on one of these links, I must have left a console log open in that
 script as well.
 
-![](./images2/media/image329.png){width="5.0in"
+![](./images/webp/image329.webp){width="5.0in"
 height="3.091346237970254in"}
 
 We could go over and clear out these console logs, we don\'t really need
@@ -4002,7 +4291,7 @@ jQuery, and one that works with plain Vanilla JavaScript.
 
 # 2.27 Resizing Function (5:07) {#resizing-function-507 .unnumbered}
 
-![](./images2/media/image330.png){width="4.0in"
+![](./images/webp/image330.webp){width="4.0in"
 height="2.261111111111111in"}
 
 Just as we did before, I want to add an event listener that captures
@@ -4010,7 +4299,7 @@ when I\'m resizing my Window. So over here I\'m going to get rid of a
 little bit of spacing in here just because, I want to be able to see
 everything here.
 
-![](./images2/media/image331.png){width="5.0in"
+![](./images/webp/image331.webp){width="5.0in"
 height="3.073183508311461in"}
 
 All right, so I want to add this event listener after the event listener
@@ -4023,14 +4312,14 @@ And here I\'m just a Window.outevent listener and I\'m going to look for
 a resize event. Eminent type functioning, that\'s going to run when the
 Window resize is semi code and we will put stuff in here.
 
-![](./images2/media/image332.png){width="5.0in"
+![](./images/webp/image332.webp){width="5.0in"
 height="3.073183508311461in"}
 
 Now remember when we were doing JQuery, we used our JQuery object to get
 the Window and we use the on method to then capture the resize event and
 run a function. That\'s how we did it with JQuery.
 
-![](./images2/media/image333.png){width="5.0in"
+![](./images/webp/image333.webp){width="5.0in"
 height="3.073183508311461in"}
 
 So here the syntax is slightly different but not that different. We\'re
@@ -4038,8 +4327,8 @@ just adding an event listener to the Window and resizing it for when we
 resize. So it\'s not that different it\'s a little bit different and the
 JQuery is a little bit shorter but that\'s okay.
 
-![](./images2/media/image334.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image335.png){width="3.5in"
+![](./images/webp/image334.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image335.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 Once we\'re in here, what we\'re going to do is we\'re going to use this
@@ -4048,7 +4337,7 @@ resizing=, yeah, I\'m doing this wrong. I need to do, a clear time out.
 Clear time out, done resizing. And then I need my done resizing=set
 timeout.
 
-![](./images2/media/image336.png){width="5.0in"
+![](./images/webp/image336.webp){width="5.0in"
 height="3.073183508311461in"}
 
 That\'s what we\'re set time out and set time out runs a function, after
@@ -4060,7 +4349,7 @@ we only want to capture this when we\'re done actually resizing the
 Window console.log time resizing. Which will happen 500 half a second
 after we\'re done actually resizing the Window.
 
-![](./images2/media/image337.png){width="5.0in"
+![](./images/webp/image337.webp){width="5.0in"
 height="3.073183508311461in"}
 
 So let\'s just test that really quickly over here. I\'m going to refresh
@@ -4081,14 +4370,14 @@ we did in the for the jQuery version.
 
 # 2.28 Finalizing the Script (10:01) {#finalizing-the-script-1001 .unnumbered}
 
-![](./images2/media/image338.png){width="4.0in"
+![](./images/webp/image338.webp){width="4.0in"
 height="2.261111111111111in"}
 
 We\'re down to the end of this lesson and we just need to fill out this
 resetPagePosition function.
 
-![](./images2/media/image339.png){width="3.5in"
-height="1.9246259842519684in"}![](./images2/media/image340.png){width="3.5in"
+![](./images/webp/image339.webp){width="3.5in"
+height="1.9246259842519684in"}![](./images/webp/image340.webp){width="3.5in"
 height="1.9246259842519684in"}
 
 We\'re going to start by coming here and copy this (left image). And
@@ -4096,7 +4385,7 @@ stick it in here (right image). I also want to make sure postTops gets
 reassigned an empty array. Just to be absolutely certain postTops is
 empty.
 
-![](./images2/media/image341.png){width="5.0in"
+![](./images/webp/image341.webp){width="5.0in"
 height="2.749466316710411in"}
 
 And then, I\'m going to go through each of my posts and push into there,
@@ -4112,7 +4401,7 @@ window.pageYOffset=250). Then, I\'m going to set the counter to zero
 to write here. I want to go through the postTops array for each. And
 having to run a function here.
 
-![](./images2/media/image341.png){width="5.0in"
+![](./images/webp/image341.webp){width="5.0in"
 height="2.749466316710411in"}
 
 For each of the posts that are in there, for each post in postTops, and
@@ -4160,8 +4449,8 @@ you\'re saying exactly what does what, but that kind of shortens it up a
 little bit, makes it a little bit more compact. Maybe be helpful with
 some comments, I don\'t know.
 
-![](./images2/media/image342.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image343.png){width="3.5in"
+![](./images/webp/image342.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image343.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 All right great. So now that we\'ve got this, the last thing we need to
@@ -4172,8 +4461,8 @@ we\'re because this is going to include doing that, so we don\'t need to
 do that again, we can just run it here. And that should work. Let\'s go
 over and test it out really quickly.
 
-![](./images2/media/image344.png){width="3.5in"
-height="2.062607174103237in"}![](./images2/media/image345.png){width="3.5in"
+![](./images/webp/image344.webp){width="3.5in"
+height="2.062607174103237in"}![](./images/webp/image345.webp){width="3.5in"
 height="2.062607174103237in"}
 
 Come back to my page over here and I\'m going to make sure I\'m scrolled
@@ -4195,7 +4484,7 @@ lot. This is a script you could use to do all kinds of really cool
 effects based on where you\'re scrolling on the page and we have it both
 in jQuery and in vanilla JavaScript.
 
-![](./images2/media/image346.png){width="3.5in"
+![](./images/webp/image346.webp){width="3.5in"
 height="1.9246259842519684in"}
 
 It should be pointed out that frequently people will use plugins to do
@@ -4218,13 +4507,13 @@ that\'s up to you.
 
 # 2.29 Scription Site Introduction (5:54) {#scription-site-introduction-554 .unnumbered}
 
-![](./images2/media/image347.png){width="4.0in"
+![](./images/webp/image347.webp){width="4.0in"
 height="2.261111111111111in"}
 
-![](./images2/media/image348.png){width="4.0in"
+![](./images/webp/image348.webp){width="4.0in"
 height="2.4508552055993in"}
 
-![](./images2/media/image349.png){width="5.0in"
+![](./images/webp/image349.webp){width="5.0in"
 height="3.0635684601924758in"}
 
 Scription site, part 1, building the HTML and CSS. In this lesson we\'re
@@ -4233,12 +4522,12 @@ long scrolling page. This page is going to have a number of interactive
 elements in it. And you\'ll be able to use a lot of the skills you\'ve
 gained so far in this course by creating these interactive elements.
 
-![](./images2/media/image350.png){width="4.75in"
+![](./images/webp/image350.webp){width="4.75in"
 height="1.9166666666666667in"}
 
 This will be a slider using flex slider up here.
 
-![](./images2/media/image351.png){width="4.75in"
+![](./images/webp/image351.webp){width="4.75in"
 height="1.9166666666666667in"}
 
 Further down the page we will have tabbed interface, content rotator, so
@@ -4246,7 +4535,7 @@ you\'ll get to use some of these different scripts, including the smooth
 scroll script and some of these other scripts that we\'ve created on
 this page.
 
-![](./images2/media/image352.png){width="5.0in"
+![](./images/webp/image352.webp){width="5.0in"
 height="2.8344017935258092in"}
 
 For this first lesson for building the HTML and CSS. It\'s not required
@@ -4264,8 +4553,8 @@ comes together. And then you can take on the challenge of adding the
 interactive elements because you\'ll understand how the HTML and CSS
 come together.
 
-![](./images2/media/image353.png){width="3.5in"
-height="1.9840813648293962in"}![](./images2/media/image354.png){width="3.5in"
+![](./images/webp/image353.webp){width="3.5in"
+height="1.9840813648293962in"}![](./images/webp/image354.webp){width="3.5in"
 height="1.9840813648293962in"}
 
 We\'ll be copying and pasting from snippets and I have some snippets
@@ -4274,8 +4563,8 @@ to build up our html. I\'ve got more snippets for the CSS so you\'ll see
 how that all comes together. Okay so we\'ve got that and that\'s really
 cool.
 
-![](./images2/media/image355.png){width="3.5in"
-height="1.9840813648293962in"}![](./images2/media/image356.png){width="3.5in"
+![](./images/webp/image355.webp){width="3.5in"
+height="1.9840813648293962in"}![](./images/webp/image356.webp){width="3.5in"
 height="1.9840813648293962in"}
 
 There are a few things to pay attention to before we really start. There
@@ -4285,7 +4574,7 @@ html file. There are links to normalize CSS script and what that does is
 it ensures that styling is the same or very similar between browsers,
 normalizes the differences between different browsers.
 
-![](./images2/media/image357.png){width="4.0in"
+![](./images/webp/image357.webp){width="4.0in"
 height="2.261538713910761in"}
 
 Then you\'ll see that there are links to the google fonts that we\'re
@@ -4298,14 +4587,14 @@ The site will be constructed with this mobile first approach where
 we\'ll be adding layout for the larger screens in the media queries. The
 page will be responsive but it\'s not RESPONSIVE.
 
-![](./images2/media/image358.png){width="3.5in"
-height="1.9840813648293962in"}![](./images2/media/image359.png){width="3.5in"
+![](./images/webp/image358.webp){width="3.5in"
+height="1.9840813648293962in"}![](./images/webp/image359.webp){width="3.5in"
 height="1.9840813648293962in"}
 
 You can see here is the link for the normal script and the google fonts.
 
-![](./images2/media/image360.png){width="3.5in"
-height="1.9840813648293962in"}![](./images2/media/image361.png){width="3.5in"
+![](./images/webp/image360.webp){width="3.5in"
+height="1.9840813648293962in"}![](./images/webp/image361.webp){width="3.5in"
 height="1.9840813648293962in"}
 
 Our stylesheet, we\'ve got links for jQuery easing and on the style
@@ -4313,14 +4602,14 @@ sheet we have some sections that we can put our different pieces in. So
 those are all in place and ready to go along with some media queries for
 the bottoms of the page and getting it all into place that way.
 
-![](./images2/media/image362.png){width="4.0in"
+![](./images/webp/image362.webp){width="4.0in"
 height="2.261538713910761in"}
 
 And then on the JavaScript we have a script file with some comments for
 where you\'re going to put your scripts but you\'ll be adding that in a
 later lesson for here, you\'re just going to build up this html and CSS.
 
-![](./images2/media/image363.png){width="3.5in"
+![](./images/webp/image363.webp){width="3.5in"
 height="1.9788462379702536in"}
 
 Now we\'re ready to get started and the first thing we need to do is put
@@ -4329,8 +4618,8 @@ page. We\'ve got a header and then we\'ve got a dip for the slider and
 then we\'ve got a section for each part of the page as you scroll down
 the page.
 
-![](./images2/media/image364.png){width="3.5in"
-height="1.9788462379702536in"}![](./images2/media/image365.png){width="3.5in"
+![](./images/webp/image364.webp){width="3.5in"
+height="1.9788462379702536in"}![](./images/webp/image365.webp){width="3.5in"
 height="1.9788462379702536in"}
 
 So going back to our design here, if we look at this, you\'ll see up
@@ -4340,8 +4629,8 @@ that\'s a section, that\'s a section, that\'s a section and that\'s a
 section, so we\'ll be put and then the footer. So we\'ve got all of
 those pieces in there.
 
-![](./images2/media/image366.png){width="3.5in"
-height="1.9788462379702536in"}![](./images2/media/image367.png){width="3.5in"
+![](./images/webp/image366.webp){width="3.5in"
+height="1.9788462379702536in"}![](./images/webp/image367.webp){width="3.5in"
 height="2.141505905511811in"}
 
 So to get that going, we\'re going to start adding this HTML to our page
@@ -4370,14 +4659,14 @@ this. But I think it\'s helpful to go through it anyway.
 
 # 2.30 Header HTML (5:09) {#header-html-509 .unnumbered}
 
-# ![](./images2/media/image368.png){width="5.0in" height="3.0635684601924758in"} {#section-5 .unnumbered}
+# ![](./images/webp/image368.webp){width="5.0in" height="3.0635684601924758in"} {#section-5 .unnumbered}
 
 Inside the header, you\'re going to have a div with the logo in it and
 the H 1 for the page. It\'s important for pages to have a main heading
 because google pays a lot of attention to that.
 
-![](./images2/media/image369.png){width="3.5in"
-height="2.141505905511811in"}![](./images2/media/image370.png){width="3.5in"
+![](./images/webp/image369.webp){width="3.5in"
+height="2.141505905511811in"}![](./images/webp/image370.webp){width="3.5in"
 height="2.141505905511811in"}
 
 And then we\'ve got our navigation and again, this is on the snippet, so
@@ -4387,11 +4676,11 @@ going to go inside the header there like that. So it\'s all displayed
 properly there. Great. So that the HTML for the header is done, we can
 save that and let\'s see what we need to do next.
 
-![](./images2/media/image371.png){width="3.5in"
-height="2.141505905511811in"}![](./images2/media/image372.png){width="3.5in"
+![](./images/webp/image371.webp){width="3.5in"
+height="2.141505905511811in"}![](./images/webp/image372.webp){width="3.5in"
 height="2.141505905511811in"}
 
-![](./images2/media/image373.png){width="5.0in"
+![](./images/webp/image373.webp){width="5.0in"
 height="3.0592946194225723in"}
 
 The HTML for the slider is set up ready for us to use flex slider. And
@@ -4407,8 +4696,8 @@ here. It\'s on the snippets, we can just copy this piece here and then
 come over to our layout, our page here and stick that stuff inside the
 slider Div. There we go. Easy enough.
 
-![](./images2/media/image374.png){width="3.5in"
-height="2.141505905511811in"}![](./images2/media/image375.png){width="3.5in"
+![](./images/webp/image374.webp){width="3.5in"
+height="2.141505905511811in"}![](./images/webp/image375.webp){width="3.5in"
 height="2.141505905511811in"}
 
 And then we\'ve got the overview section. And there\'s a lot more HTML
@@ -4420,8 +4709,8 @@ we\'ve got an article with some paragraphs in it. And then we\'ve got a
 section with some articles in it. So this section is going to come over
 here and take care of that, okay?
 
-![](./images2/media/image376.png){width="3.5in"
-height="2.141505905511811in"}![](./images2/media/image377.png){width="3.5in"
+![](./images/webp/image376.webp){width="3.5in"
+height="2.141505905511811in"}![](./images/webp/image377.webp){width="3.5in"
 height="2.141505905511811in"}
 
 So let\'s go ahead and put that in. Its on the snippets. This whole big
@@ -4436,8 +4725,8 @@ recognize when you\'re making mark up for things that you\'re looking
 at, your design and trying to figure out. Okay, how do I need to break
 this down into smaller sub pieces.
 
-![](./images2/media/image378.png){width="3.5in"
-height="2.141505905511811in"}![](./images2/media/image379.png){width="3.5in"
+![](./images/webp/image378.webp){width="3.5in"
+height="2.141505905511811in"}![](./images/webp/image379.webp){width="3.5in"
 height="2.141505905511811in"}
 
 Next comes the download section. And again, there\'s more actual markup
@@ -4450,7 +4739,7 @@ annoy ordered lists, that it works in place and I\'ll show you the
 finished version later and how it\'s supposed to look. But for right
 now, we can just get the markup going in place over here.
 
-![](./images2/media/image380.png){width="5.0in"
+![](./images/webp/image380.webp){width="5.0in"
 height="3.0592946194225723in"}
 
 I\'m going to come over here and come down and just put it all this
@@ -4465,16 +4754,16 @@ lesson.
 
 # 2.31 Pricing HTML (6:16) {#pricing-html-616 .unnumbered}
 
-![](./images2/media/image381.png){width="4.0in"
+![](./images/webp/image381.webp){width="4.0in"
 height="2.261111111111111in"}
 
-![](./images2/media/image382.png){width="5.0in"
+![](./images/webp/image382.webp){width="5.0in"
 height="2.826388888888889in"}
 
 We will continue placing HTML into our index file and if you thought the
 other sections had a lot of content, this one has even more.
 
-![](./images2/media/image383.png){width="5.0in"
+![](./images/webp/image383.webp){width="5.0in"
 height="3.073183508311461in"}
 
 This one is going to represent the tabs that show up in this tab section
@@ -4486,15 +4775,15 @@ load of your user because you\'re not giving them all of the information
 at once. And they can click on the correct tab that applies to them, and
 you\'ll be adding that script later as part of your challenge.
 
-![](./images2/media/image384.png){width="5.0in"
+![](./images/webp/image384.webp){width="5.0in"
 height="3.073183508311461in"}
 
 But for right now we just need to get the actual HTML in place which I
 have here. I have it in pieces here. So first we\'ll just add the
 structure for the tabs.
 
-![](./images2/media/image385.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image386.png){width="3.5in"
+![](./images/webp/image385.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image386.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 So I\'m going to put this in over here. And it goes down here inside the
@@ -4502,8 +4791,8 @@ pricing section, Here, and each one of these tabs is going to get
 content in here, so I\'ve got tab 1, tab 2, and tab 3, and each one of
 those is going to get a pile of content.
 
-![](./images2/media/image387.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image388.png){width="3.5in"
+![](./images/webp/image387.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image388.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 So if we come back here you can see this is all of the content just for
@@ -4512,16 +4801,16 @@ have to be really careful to put it in the right place. So here, this is
 all going inside of this container for tab 1 here, so make sure you\'re
 in the right place and paste it in there.
 
-![](./images2/media/image389.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image390.png){width="3.5in"
+![](./images/webp/image389.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image390.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 And then, scroll down and the next one is going to go here inside tab 2,
 let\'s put that in tab 2 content, copy all of that, that\'s a lot of
 content.
 
-![](./images2/media/image391.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image392.png){width="3.5in"
+![](./images/webp/image391.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image392.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 And then, tap 3 content, same thing, tab that in and then come over here
@@ -4530,7 +4819,7 @@ of content. And tabs are really efficient at making sure you\'re not
 showing too much content at once when they\'re used properly. So there
 we go.
 
-![](./images2/media/image393.png){width="5.0in"
+![](./images/webp/image393.webp){width="5.0in"
 height="3.073183508311461in"}
 
 So we\'ve got all of this stuff in here, we\'re already up to over 300
@@ -4538,7 +4827,7 @@ lines of code under HTML file. Okay great. So we\'ve got all of our tabs
 in place and then the next section we need to do, we need to work on is
 the, I have their pricing section content here.
 
-![](./images2/media/image394.png){width="5.0in"
+![](./images/webp/image394.webp){width="5.0in"
 height="3.073183508311461in"}
 
 And then, the listen section and this is going to get a rotator, and you
@@ -4546,8 +4835,8 @@ can see ID rotator. We\'re going to rotate block quotes. For right now,
 we\'ve just got one block quote in, but later when you make that work
 you can add some more block quotes.
 
-![](./images2/media/image395.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image396.png){width="3.5in"
+![](./images/webp/image395.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image396.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 So let\'s come over to our snippets and here\'s our listen section. Yeah
@@ -4556,27 +4845,27 @@ That\'s this section down here, it\'s going to have this piece and this
 piece of continue which will use our rotator content rotator to actually
 rotate that around.
 
-![](./images2/media/image397.png){width="5.0in"
+![](./images/webp/image397.webp){width="5.0in"
 height="3.073183508311461in"}
 
 So you\'ll get lots of practice putting this together, so that\'s going
 to go inside this listen section here.
 
-![](./images2/media/image398.png){width="5.0in"
+![](./images/webp/image398.webp){width="5.0in"
 height="3.073183508311461in"}
 
 And then finally after that, we have our team which isn\'t too long,
 that\'s going to be next.
 
-![](./images2/media/image399.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image400.png){width="3.5in"
+![](./images/webp/image399.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image400.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 Not quite the last thing but we\'ll get that next and put that in our
 team.
 
-![](./images2/media/image401.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image402.png){width="3.5in"
+![](./images/webp/image401.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image402.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 And then we\'ll go and get the footer content and copy that and put it
@@ -4595,7 +4884,7 @@ information to make your page findable. So it\'s really important to
 make sure that you\'re using semantic markup properly, and with that we
 have all of our HTML in place.
 
-![](./images2/media/image403.png){width="5.0in"
+![](./images/webp/image403.webp){width="5.0in"
 height="3.073183508311461in"}
 
 If you were to come over and load up the page over here, you would see
@@ -4608,14 +4897,14 @@ still accessible.
 
 # 2.32 Beginning Styling (6:37) {#beginning-styling-637 .unnumbered}
 
-![](./images2/media/image404.png){width="4.0in"
+![](./images/webp/image404.webp){width="4.0in"
 height="2.261111111111111in"}
 
 In the last lesson (2.31), we finished with the html, and now we are
 going to start styling, and getting the styling in place.
 
-![](./images2/media/image405.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image406.png){width="3.5in"
+![](./images/webp/image405.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image406.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 And, I have a new set of snippets, so, you make sure you open this
@@ -4624,7 +4913,7 @@ it goes fairly quickly. But hopefully you have got all of this in place.
 And, what I recommend you do is we are going to do a mobile first
 approach.
 
-![](./images2/media/image407.png){width="5.0in"
+![](./images/webp/image407.webp){width="5.0in"
 height="3.073183508311461in"}
 
 What I recommend you do is right-click on the page and choose, inspect
@@ -4638,7 +4927,7 @@ got the yes, if you port things set there. Okay, good, so we should be
 all set with that and from here we can go over, and start working on
 some styling for the page here.
 
-![](./images2/media/image408.png){width="5.0in"
+![](./images/webp/image408.webp){width="5.0in"
 height="3.073183508311461in"}
 
 Now, I have some initial basic resets. The normalized CSS helps smooth
@@ -4669,7 +4958,7 @@ using some variables for the colors of the page. So, if you wanted to
 change the colors of the page, you could just change them here once and
 it will change it throughout the, throughout the whole page.
 
-![](./images2/media/image409.png){width="5.0in"
+![](./images/webp/image409.webp){width="5.0in"
 height="3.073183508311461in"}
 
 If we come over and look at the design here, you can see if I move up
@@ -4679,8 +4968,8 @@ actually working with to create all of my colors on the page. And, it is
 helpful when you are designing to start with the color scheme, you may
 not stick with it exactly, but it is helpful to do that.
 
-![](./images2/media/image410.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image411.png){width="3.5in"
+![](./images/webp/image410.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image411.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 All right, so you can come over to our snippets here, and copy this
@@ -4694,7 +4983,7 @@ shorthand styling for things, which drives me nuts, but I have yet to
 figure out how to get it to not do this. So, I really prefer it not to,
 but that is okay.
 
-![](./images2/media/image412.png){width="5.0in"
+![](./images/webp/image412.webp){width="5.0in"
 height="3.073183508311461in"}
 
 It is fine, it will space everything out a little bit further and, it is
@@ -4706,11 +4995,11 @@ are taking styling out, you are resetting it to a basic, and then you
 are going to add more styling back to make it look better. All right,
 there we are with the resets.
 
-![](./images2/media/image413.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image414.png){width="3.5in"
+![](./images/webp/image413.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image414.webp){width="3.5in"
 height="2.1512281277340333in"}
 
-![](./images2/media/image415.png){width="5.0in"
+![](./images/webp/image415.webp){width="5.0in"
 height="3.073183508311461in"}
 
 That is great, next, we can add some basic typography. Again, I am using
@@ -4728,7 +5017,7 @@ basic settings for the page basic resets typography and maybe some,
 basic page section stuff. That is going to get inherited across the
 entire page.
 
-![](./images2/media/image416.png){width="5.0in"
+![](./images/webp/image416.webp){width="5.0in"
 height="3.073183508311461in"}
 
 Let us go take a look at what that looks like, those rules applied.
@@ -4738,20 +5027,20 @@ great. All right, we will continue with the styling in the next lesson.
 
 # 2.33 Styling That Attaches to Whole Page (5:03) {#styling-that-attaches-to-whole-page-503 .unnumbered}
 
-![](./images2/media/image417.png){width="4.0in"
+![](./images/webp/image417.webp){width="4.0in"
 height="2.261111111111111in"}
 
 Next, we\'ll apply some styling that will attach to the whole page and
 there\'s just a few rules here, but they\'ll actually make quite a big
 difference.
 
-![](./images2/media/image418.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image419.png){width="3.5in"
+![](./images/webp/image418.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image419.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 So let\'s go over and grab these three rules.
 
-![](./images2/media/image420.png){width="5.0in"
+![](./images/webp/image420.webp){width="5.0in"
 height="3.073183508311461in"}
 
 Paste them on our style sheet here inside the basic sections section.
@@ -4761,7 +5050,7 @@ everything\'s running right up against the edge, it\'s kind of a mess.
 It doesn\'t look that great yet, but I\'m going to scroll up to the top
 here.
 
-![](./images2/media/image421.png){width="5.0in"
+![](./images/webp/image421.webp){width="5.0in"
 height="3.073183508311461in"}
 
 And if I refresh, you\'ll see immediately we\'re starting to get some
@@ -4771,9 +5060,9 @@ work down the page, starting with these basic sections and stuff further
 down the page is inherits, then you need fewer and fewer rules as you go
 down the page. You\'ll see as it sort of works out that way.
 
-![](./images2/media/image422.png){width="3.5in"
+![](./images/webp/image422.webp){width="3.5in"
 height="2.1512281277340333in"}
-![](./images2/media/image423.png){width="3.5in"
+![](./images/webp/image423.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 Headers are always a pain in the neck. They always have a lot of styling
@@ -4781,8 +5070,8 @@ in them to kind of get things to look right. And sort of copy all of
 this stuff and I\'m going to go ahead and paste that in the header and
 they had her section year.
 
-![](./images2/media/image424.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image425.png){width="3.5in"
+![](./images/webp/image424.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image425.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 There\'s a lot to look at in these header styles so it\'s worth spending
@@ -4809,7 +5098,7 @@ you\'ll put in later when you\'re completing the interactive challenges
 part of this lesson. But you can see basically everything\'s kind of
 coming into place here.
 
-![](./images2/media/image426.png){width="5.0in"
+![](./images/webp/image426.webp){width="5.0in"
 height="3.073183508311461in"}
 
 I\'ve got the the rules for the navigation in here we\'re displaying. It
@@ -4820,7 +5109,7 @@ anchor tags by default, in line elements and usually in navigation you
 want them to be block elements and then I\'m setting my colors and my
 font size and that kind of fun stuff.
 
-![](./images2/media/image427.png){width="5.0in"
+![](./images/webp/image427.webp){width="5.0in"
 height="3.073183508311461in"}
 
 So with all that in place, we should go over and take a look and see
@@ -4839,21 +5128,21 @@ we\'re ready to see what we need to do for the next section.
 
 # 2.34 Slider Styling (5:04) {#slider-styling-504 .unnumbered}
 
-![](./images2/media/image428.png){width="4.0in"
+![](./images/webp/image428.webp){width="4.0in"
 height="2.261111111111111in"}
 
 Continuing with our styling, we\'ll add some styling for the slider.
 
-![](./images2/media/image429.png){width="3.5in"
+![](./images/webp/image429.webp){width="3.5in"
 height="2.1512281277340333in"}
-![](./images2/media/image430.png){width="3.5in"
+![](./images/webp/image430.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 These styles, again, are only snippets. It puts the image for the slider
 in the background of this element.
 
-![](./images2/media/image431.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image432.png){width="3.5in"
+![](./images/webp/image431.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image432.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 Let\'s go ahead, come down here, and add this. I\'m just going to copy
@@ -4871,9 +5160,9 @@ can just delete it, and then paste it back in again from the snippets.
 Don\'t worry about messing it up. With that in place, let\'s go see if
 our slider is displaying properly.
 
-![](./images2/media/image433.png){width="3.5in"
+![](./images/webp/image433.webp){width="3.5in"
 height="2.1512281277340333in"}
-![](./images2/media/image434.png){width="3.5in"
+![](./images/webp/image434.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 There we have it. For the mobile version, we\'re going to have this
@@ -4886,7 +5175,7 @@ left off this thing, I\'ve actually decided to put that in. But it\'s
 going to look like this with our called action here instead. We\'ve got
 that in place and we\'re ready to go on to the next part.
 
-![](./images2/media/image435.png){width="5.0in"
+![](./images/webp/image435.webp){width="5.0in"
 height="3.073183508311461in"}
 
 We don\'t need to do much for the overviews settings because a lot of it
@@ -4896,15 +5185,15 @@ a lot of things get inherited. We just need a few rules to sort out some
 of these things, and set the the overview section to display the grid,
 so that it looks right there.
 
-![](./images2/media/image436.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image437.png){width="3.5in"
+![](./images/webp/image436.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image437.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 Let\'s go ahead and add these rules for the overview section. Just a few
 of them here. We just need to stick in over here inside the overview.
 I\'m going to save that.
 
-![](./images2/media/image438.png){width="5.0in"
+![](./images/webp/image438.webp){width="5.0in"
 height="3.073183508311461in"}
 
 Then when we come back and refresh the page. We\'ve got our description
@@ -4914,8 +5203,8 @@ phone, it should look pretty nice. Again, we\'re doing the mobile first,
 because we\'ll be adding the desktop view in later. Then next, we\'ve
 got to look at the desktop, the download section.
 
-![](./images2/media/image439.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image440.png){width="3.5in"
+![](./images/webp/image439.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image440.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 Download styles, let\'s add those. There are a lot of rules for the
@@ -4928,13 +5217,13 @@ just grab it all. Again, the best thing to do is to mess with it, and
 see what happens if you mess around with it. If you screwed up, just
 paste it back in again, it\'s not a big deal.
 
-![](./images2/media/image441.png){width="5.0in"
+![](./images/webp/image441.webp){width="5.0in"
 height="3.073183508311461in"}
 
 We put that in. I\'m not going to go through and describe all of these,
 but they\'re all in here.
 
-![](./images2/media/image442.png){width="5.0in"
+![](./images/webp/image442.webp){width="5.0in"
 height="3.073183508311461in"}
 
 Let\'s go take a look and see what that did to our page. Download
@@ -4946,14 +5235,14 @@ your own in a future lesson here. Great, we\'re coming along.
 
 # 2.35 Pricing Styles (4:00) {#pricing-styles-400 .unnumbered}
 
-![](./images2/media/image443.png){width="4.0in"
+![](./images/webp/image443.webp){width="4.0in"
 height="2.261111111111111in"}
 
 We\'re going to continue adding styling to our page and the next section
 is the pricing styles.
 
-![](./images2/media/image444.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image445.png){width="3.5in"
+![](./images/webp/image444.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image445.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 And that\'s going to set us up to get our tabs working the way we need
@@ -4970,8 +5259,8 @@ page, take something out, see what happens, change the values mess
 around with it. It doesn\'t matter if you screwed up, it\'s totally
 fine.
 
-![](./images2/media/image446.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image447.png){width="3.5in"
+![](./images/webp/image446.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image447.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 I\'m going to go ahead and add those here under the pricing style
@@ -4986,8 +5275,8 @@ But we\'ll get that to work later, that would be great if we get that to
 work. But we\'ve got all of that content designed and looking pretty
 good. Now, we just need to go on to the next section.
 
-![](./images2/media/image448.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image449.png){width="3.5in"
+![](./images/webp/image448.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image449.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 Let\'s get these styles for the listen section. It\'s not that many
@@ -4997,23 +5286,23 @@ we\'ll add a few more, but we\'ll get those into place and then let\'s
 come back over here. And put these in just to kind of get that to
 display properly, save that.
 
-![](./images2/media/image450.png){width="5.0in"
+![](./images/webp/image450.webp){width="5.0in"
 height="3.073183508311461in"}
 
 And then let\'s take a look and see how that is actually coming through.
 Refresh this scroll down and here\'s our listen section, looks nice for
 mobile.
 
-![](./images2/media/image451.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image452.png){width="3.5in"
+![](./images/webp/image451.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image452.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 Next, we\'ve got the our team section, let\'s go ahead and add that.
 There isn\'t going to be any interactive elements for the rest of the
 page.
 
-![](./images2/media/image453.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image454.png){width="3.5in"
+![](./images/webp/image453.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image454.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 So these styles will just stay the way they are and we\'re not going to
@@ -5023,8 +5312,8 @@ doing or recommend playing around with them, take some time with it to
 see what they actually do, save that. Let\'s come back and see how the
 rest of our page shapes up.
 
-![](./images2/media/image455.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image456.png){width="3.5in"
+![](./images/webp/image455.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image456.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 There\'s the our team section for mobile and the footer and now we\'ve
@@ -5034,14 +5323,14 @@ gets larger, so we\'ll do that next.
 
 # 2.36 Tablet Styles (6:46) {#tablet-styles-646 .unnumbered}
 
-![](./images2/media/image457.png){width="4.0in"
+![](./images/webp/image457.webp){width="4.0in"
 height="2.261111111111111in"}
 
 You\'ve finished the styling for the mobile version, and now it\'s time
 to get the styling in place for the tablet version.
 
-![](./images2/media/image458.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image459.png){width="3.5in"
+![](./images/webp/image458.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image459.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 So to get ready for that, come over here to your view, switch this to be
@@ -5052,8 +5341,8 @@ in 61, sure, that\'s fine. But at this point, we\'re getting to a point
 where our layout just doesn\'t look quite as good at this size, we could
 do a better job.
 
-![](./images2/media/image460.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image461.png){width="3.5in"
+![](./images/webp/image460.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image461.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 We can add a media query, adjust our layout a little bit based on the
@@ -5068,7 +5357,7 @@ not going to cooperate with me in that, but that\'s okay.
 So I\'m going to add 760 media query styling for the slider and for the
 overview to make those two areas look a little bit better.
 
-![](./images2/media/image462.png){width="5.0in"
+![](./images/webp/image462.webp){width="5.0in"
 height="3.073183508311461in"}
 
 I\'m going to copy that. Come over here and scroll down and you can see
@@ -5077,7 +5366,7 @@ between these two curly braces in here. I\'m going to paste those in,
 and even tap them in a little bit there. When I click save, it\'s going
 to expand more, which drives me nuts, but that\'s right.
 
-![](./images2/media/image463.png){width="5.0in"
+![](./images/webp/image463.webp){width="5.0in"
 height="3.073183508311461in"}
 
 But if I come back and look at that, if I come back here and refresh up
@@ -5095,9 +5384,9 @@ mobile first, is that we can easily just add layer by just tying this
 section to the split flex and just add a few rules to add some layout as
 the screen gets wider.
 
-![](./images2/media/image464.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image465.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image466.png){width="5.0in"
+![](./images/webp/image464.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image465.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image466.webp){width="5.0in"
 height="3.073183508311461in"}
 
 Okay, great. we\'ve got that into place. I have a few more rules for the
@@ -5108,7 +5397,7 @@ to do it here. All of these are actually just providing a little bit of
 layout using the flex parts model here, flex parts layout model. Again,
 these are going to go into the 760 media query.
 
-![](./images2/media/image467.png){width="5.0in"
+![](./images/webp/image467.webp){width="5.0in"
 height="3.073183508311461in"}
 
 So just after these rules here, but this is the closing of the media
@@ -5118,8 +5407,8 @@ piles them all up. In fact, I\'m going to leave those like that and not
 save it until we and get the next set, which is for the lesson and our
 team.
 
-![](./images2/media/image468.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image469.png){width="3.5in"
+![](./images/webp/image468.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image469.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 Then we\'ll do a few minor changes for the footer as well. So it\'s
@@ -5127,8 +5416,8 @@ great to put all of these in. Again, if you\'re not sure what these do,
 I really recommend coming in and messing around with them, see what they
 do when you take them out, see what happens.
 
-![](./images2/media/image470.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image471.png){width="3.5in"
+![](./images/webp/image470.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image471.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 We got that and then we\'ve got the ones for the footer as well.
@@ -5141,22 +5430,22 @@ if it doesn\'t feel like it seems like it\'s doing that and that\'s
 fine, you could skip to the end. I will provide this file before you\'re
 finished when we\'re done.
 
-![](./images2/media/image472.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image473.png){width="3.5in"
+![](./images/webp/image472.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image473.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 You can see I\'ve added a little bit of layout here. Down here, I have
 added a little bit lay. Pricing is over here and my tabs are on this
 side instead of one on top of the other.
 
-![](./images2/media/image474.png){width="5.0in"
+![](./images/webp/image474.webp){width="5.0in"
 height="3.073183508311461in"}
 
 This is now on the left instead of on top, and then we\'ve got a quote
 here which will use content rotator for.
 
-![](./images2/media/image475.png){width="3.5in"
-height="2.1512281277340333in"}![](./images2/media/image476.png){width="3.5in"
+![](./images/webp/image475.webp){width="3.5in"
+height="2.1512281277340333in"}![](./images/webp/image476.webp){width="3.5in"
 height="2.1512281277340333in"}
 
 Your team has been reconfigured to make that look a little bit better,
@@ -5168,13 +5457,13 @@ desktop size.
 
 # 2.37 Media Query for 1020 Pixels Wide (4:56) {#media-query-for-1020-pixels-wide-456 .unnumbered}
 
-![](./images2/media/image477.png){width="4.0in"
+![](./images/webp/image477.webp){width="4.0in"
 height="2.261111111111111in"}
 
 The next breakpoint for my media query is 1020 pixels.
 
-![](./images2/media/image478.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image479.png){width="3.5in"
+![](./images/webp/image478.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image479.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 When I get my screen that wide, I want to make further adjustments to
@@ -5196,8 +5485,8 @@ elements layout and the space available for them to make them look a
 little bit better. And this is all just part of what you do as a
 designer.
 
-![](./images2/media/image480.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image481.png){width="3.5in"
+![](./images/webp/image480.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image481.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 I\'m going to come in here, I\'m going to grab these rules here for the
@@ -5212,15 +5501,15 @@ with layout with 33% padding 30. It\'s all having things to do with
 layout in here that I\'m applying to these elements. And again, if you
 want to mess around with it, feel free.
 
-![](./images2/media/image482.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image483.png){width="3.5in"
+![](./images/webp/image482.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image483.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 Well, these ones for the pricing Tableaus in I mean add that\'s the
 pricing and the downloads.
 
-![](./images2/media/image484.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image485.png){width="3.5in"
+![](./images/webp/image484.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image485.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 This one is the listen and teams. You don\'t need to do anything for the
@@ -5230,8 +5519,8 @@ reading it that way for the media queries. I like them all in one line.
 I find it there\'s usually just one or two declarations. Not that much
 going on. This one had more, but I prefer to put them on one line.
 
-![](./images2/media/image486.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image487.png){width="3.5in"
+![](./images/webp/image486.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image487.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 Let\'s go take a look and see what all that did for our 1020 version of
@@ -5252,7 +5541,7 @@ I\'m going to look at the next one in the next lesson.
 
 # 2.38 Media Query for 1200 Pixels Wide {#media-query-for-1200-pixels-wide .unnumbered}
 
-![](./images2/media/image488.png){width="4.0in"
+![](./images/webp/image488.webp){width="4.0in"
 height="2.261111111111111in"}
 
 The media query for 1200 pixels wide is for when somebody is viewing
@@ -5260,13 +5549,13 @@ this website on a nice large desktop in their browsers, nice and wide,
 and they\'ve got lots of screen real estate, in which case we can really
 kind of optimize our layout for that look.
 
-![](./images2/media/image489.png){width="5.0in"
+![](./images/webp/image489.webp){width="5.0in"
 height="3.091346237970254in"}
 
 So let\'s go ahead and add these rules in over there and you need to set
 your width here for me to do it.
 
-![](./images2/media/image490.png){width="5.0in"
+![](./images/webp/image490.webp){width="5.0in"
 height="3.091346237970254in"}
 
 I\'m going to need to move this thing down to the bottom here and I\'m
@@ -5280,9 +5569,9 @@ kind of make the stuff look a little bit better on the wider screen. So
 let\'s go over and add those rules that we have on our snippets and
 they\'re here.
 
-![](./images2/media/image491.png){width="3.5in"
+![](./images/webp/image491.webp){width="3.5in"
 height="2.1639424759405075in"}
-![](./images2/media/image492.png){width="3.5in"
+![](./images/webp/image492.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 I want to cut this set first. I\'m giving sections 50 pixels padding, so
@@ -5293,8 +5582,8 @@ designer, spacing is really important because it really helps
 communicate. So you want to get that kind of stuff just right as much as
 possible.
 
-![](./images2/media/image493.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image494.png){width="3.5in"
+![](./images/webp/image493.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image494.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 And then we\'ve got a few more here for the overview, download and
@@ -5304,16 +5593,16 @@ descendant of the overview section. So it won\'t apply to an article
 inside of an article, it will only apply to those parent level ones, and
 that\'s kind of helpful to be aware of.
 
-![](./images2/media/image495.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image496.png){width="3.5in"
+![](./images/webp/image495.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image496.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 Okay, continue on here and get the last piece for this one. And finally,
 put that in here. The footer gets some new styling at 1200 pixels to
 adjust for that.
 
-![](./images2/media/image497.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image498.png){width="3.5in"
+![](./images/webp/image497.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image498.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 And then finally, we\'ve got one little rule that goes in the 1500 or
@@ -5325,8 +5614,8 @@ but you\'ll have to trust me that it works. Or try it out or if you\'ve
 got a nice big monitor you\'ll see the difference. Take it out and see
 what it looks like without it and then put it back in.
 
-![](./images2/media/image499.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image500.png){width="3.5in"
+![](./images/webp/image499.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image500.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 So now I\'ve got that all sort of sorted out. And in there, I can come
@@ -5337,8 +5626,8 @@ nice to have some room. And so since I\'ve got some room, I might as
 well use it to give myself some white space, make the page a little bit
 easier to read, make it a little bit nicer.
 
-![](./images2/media/image501.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image502.png){width="3.5in"
+![](./images/webp/image501.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image502.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 Down here, again, adding some room, 50 pixels padding around these
@@ -5349,8 +5638,8 @@ Same thing down here. Now I\'ve got some extra padding in here. Give it
 a little bit of breathing room, extra padding here to give it a little
 bit of breathing room.
 
-![](./images2/media/image503.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image504.png){width="3.5in"
+![](./images/webp/image503.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image504.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 I bumped up the sizing of this quote a lot. I mean, really make it stand
@@ -5370,7 +5659,7 @@ with it. It\'s always fun to do that.
 
 # 2.39 Scription Site: Building Interactive Elements Challenges {#scription-site-building-interactive-elements-challenges .unnumbered}
 
-![](./images2/media/image505.png){width="4.0in"
+![](./images/webp/image505.webp){width="4.0in"
 height="2.261111111111111in"}
 
 In the previous lesson, we did the HTML and CSS to create this fictional
@@ -5382,14 +5671,14 @@ opportunity to show all the great things you\'ve learned in our
 JavaScript specialization and to do some challenges to build some
 interactive elements in here.
 
-![](./images2/media/image506.png){width="3.5in"
+![](./images/webp/image506.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 Let\'s take a look at what some of these different interactive elements
 are. If I come over to this tab here and I will provide this page for
 you, so that you can see what you\'re supposed to be doing.
 
-![](./images2/media/image507.png){width="5.0in"
+![](./images/webp/image507.webp){width="5.0in"
 height="3.091346237970254in"}
 
 Here I have the scription web site with all of the interactive elements
@@ -5398,16 +5687,16 @@ and doing its thing and it\'s functional, and you can click on the
 different links here, different pieces here. It\'s stuff set that up, so
 that\'s all working.
 
-![](./images2/media/image508.png){width="5.0in"
+![](./images/webp/image508.webp){width="5.0in"
 height="3.091346237970254in"}
 
 You\'ll notice that I\'ve got a nice, smooth scroll script working here
 and it moves down to each section as we go down here, when we get down
 to the download section.
 
-![](./images2/media/image509.png){width="3.5in"
+![](./images/webp/image509.webp){width="3.5in"
 height="2.1639424759405075in"}
-![](./images2/media/image510.png){width="3.5in"
+![](./images/webp/image510.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 Of all of the challenges, this is the toughest one, because this is the
@@ -5418,8 +5707,8 @@ you a sense of all the features this piece of software has to offer over
 here, this would be a lesson, but it\'s really just a picture of a
 lesson. No big deal.
 
-![](./images2/media/image511.png){width="3.5in"
-height="2.1639424759405075in"}![](./images2/media/image512.png){width="3.5in"
+![](./images/webp/image511.webp){width="3.5in"
+height="2.1639424759405075in"}![](./images/webp/image512.webp){width="3.5in"
 height="2.1639424759405075in"}
 
 We go into pricing, and sure enough, you have tabs, you know how to make
@@ -5435,7 +5724,7 @@ interactive on it and the footer doesn\'t, but we can go all the way
 back up to the top of the page by clicking the logo. These are all of
 the pieces for you to build in, and it should be pretty fun.
 
-![](./images2/media/image513.png){width="5.0in"
+![](./images/webp/image513.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 Let\'s take a quick look at the challenges as they\'re laid out here.
@@ -5445,7 +5734,7 @@ variables in the global scope, so each script needs to be in IIFE
 closure or some other function that will keep the variable from creeping
 into the global scope.
 
-![](./images2/media/image514.png){width="5.0in"
+![](./images/webp/image514.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 The first challenge is the smooth scroll. Again, when the user clicks
@@ -5458,7 +5747,7 @@ script where it\'s scrolling down to the correct part of the page,
 we\'re not doing any of the page tracking stuff that was much harder. So
 that\'s challenge one.
 
-![](./images2/media/image515.png){width="5.0in"
+![](./images/webp/image515.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 Some hints for this, see if you can modify the JQuery smooth scroll
@@ -5478,7 +5767,7 @@ to change in the course of writing the script, and the way to do that is
 just to set everything to const and then if it breaks, find which one is
 breaking and change that one to let. Usually it\'s const.
 
-![](./images2/media/image516.png){width="5.0in"
+![](./images/webp/image516.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 Challenge 2, add the Flexslider. For this challenge, turn the image at
@@ -5488,7 +5777,7 @@ link to the Flexslider the CSS to the index file at the markup for the
 additional slides, the index file. By the way, I\'ve provided some
 additional snippets so that adding this markup will be easier.
 
-![](./images2/media/image517.png){width="5.0in"
+![](./images/webp/image517.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 Here are all the list items that you need for the Flexslider and I will
@@ -5504,7 +5793,7 @@ Adjust the styling in the CSS file and add appropriate script to the JS
 file to initialize the slider. I did modify the slider a little bit with
 some of the features that we saw in the other slider.
 
-![](./images2/media/image518.png){width="5.0in"
+![](./images/webp/image518.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 Notice that I also got rid of the arrows that point left and right.
@@ -5515,7 +5804,7 @@ really look terrible on the mobile version. I decided I didn\'t want
 them anymore. I didn\'t really need that particular item in there. I did
 that as well.
 
-![](./images2/media/image519.png){width="5.0in"
+![](./images/webp/image519.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 Once you get the Flexslider done, you can go on to, Challenge 3, add the
@@ -5533,7 +5822,7 @@ style-sheet to make that version work and you can go back and look at
 that version of that script to see what styles you would need to add.
 That\'s Challenge 3, to get that to work.
 
-![](./images2/media/image520.png){width="5.0in"
+![](./images/webp/image520.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 Challenge 4, is the content rotator. Add the content rotator for the
@@ -5551,7 +5840,7 @@ ahead and work on the content rotator. You can pause this lesson here,
 we\'ll come back to it to see exactly what you need to do in order to
 get that to work.
 
-![](./images2/media/image521.png){width="5.0in"
+![](./images/webp/image521.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 Challenge 5, this is really the toughest challenge because you have not
@@ -5594,7 +5883,7 @@ section:
 
 # 3.01 Module 3 Intro (0:37) {#module-3-intro-037 .unnumbered}
 
-![](./images2/media/image522.png){width="4.0in"
+![](./images/webp/image522.webp){width="4.0in"
 height="2.261111111111111in"}
 
 Hello, welcome to the third module and our third course on JavaScript.
@@ -5608,13 +5897,13 @@ look forward to doing it with you. Let\'s get started.
 
 # 3.02 Introduction to Objects and Data in JS (5:52) {#introduction-to-objects-and-data-in-js-552 .unnumbered}
 
-![](./images2/media/image523.png){width="4.0in"
+![](./images/webp/image523.webp){width="4.0in"
 height="2.261111111111111in"}
 
 Let\'s talk about a few of the familiar pieces we have with the
 JavaScript language.
 
-![](./images2/media/image524.png){width="5.0in"
+![](./images/webp/image524.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 You\'re already familiar with variables. That\'s a data structure that
@@ -5636,7 +5925,7 @@ key which is **lastname**, which has the value Smith in there. Well we
 can do the same thing with JavaScript but not with the arrays. Instead
 we\'ll use **objects**.
 
-![](./images2/media/image525.png){width="5.0in"
+![](./images/webp/image525.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 This is the object literal in JavaScript. Here I have a variable person
@@ -5658,7 +5947,7 @@ and but John does. And this is how you will frequently see **objects**
 listed in JavaScript is in this sort of format, because it\'s easier to
 read.
 
-![](./images2/media/image526.png){width="5.0in"
+![](./images/webp/image526.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 Now notice here again, I\'m going to point this out because this is
@@ -5670,7 +5959,7 @@ except for the last one. And that\'s really kind of important as well.
 So you\'ll have key value pairs and one on each line, one key value pair
 in each line followed with a comma.
 
-![](./images2/media/image527.png){width="5.0in"
+![](./images/webp/image527.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 Now it\'s really important to get in the habit of actually typing this.
@@ -5688,14 +5977,14 @@ then we have a comma there and then age 25 or whatever you want to put
 in for an age. And remember that one does not get a comma, we just close
 the object and that object has been defined.
 
-![](./images2/media/image528.png){width="5.0in"
+![](./images/webp/image528.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 And now I could access person.firstname and you can see it even fills it
 out for me, I can press tab and it\'ll return Jose. You want to practice
 this as much as you can, and get used to using these data structures.
 
-![](./images2/media/image529.png){width="5.0in"
+![](./images/webp/image529.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 One more thing about objects before we close out this lesson is that you
@@ -5727,13 +6016,13 @@ transmission, often carrying the extension .ZIP.
 
 # 3.03 Objects Can Contain Arrays and Other Objects (5:04) {#objects-can-contain-arrays-and-other-objects-504 .unnumbered}
 
-![](./images2/media/image530.png){width="4.0in"
+![](./images/webp/image530.webp){width="4.0in"
 height="2.261111111111111in"}
 
 The object data format in JavaScript is very flexible because objects
 can contain arrays and other objects.
 
-![](./images2/media/image531.png){width="5.0in"
+![](./images/webp/image531.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 Here you can see we have an object called person and we\'ve expanded it
@@ -5744,7 +6033,7 @@ it\'s an object inside of an object and inside phone number it has its
 own key value pairs. And then we can access these different values
 through similar methods that we used before down here.
 
-![](./images2/media/image532.png){width="5.0in"
+![](./images/webp/image532.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 I recommend typing this out and seeing if you can get it to work exactly
@@ -5758,7 +6047,7 @@ a chicken, **person.pets\[2\]**. It gets me the chicken or I could do a
 (**person.phonenumber.work**) and that will get me the work phone
 number. We can access all the data inside of this object.
 
-![](./images2/media/image533.png){width="5.0in"
+![](./images/webp/image533.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 You can even update data very easily with this and we\'ll talk more
@@ -5772,7 +6061,7 @@ can have a raise. All kinds of fun stuff can go in there and that\'s a
 really important thing to understand about objects as a data structure.
 They\'re very flexible and very useful for working with in this way.
 
-![](./images2/media/image534.png){width="5.0in"
+![](./images/webp/image534.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 Another thing that\'s interesting about objects is that they can contain
@@ -5790,7 +6079,7 @@ parentheses after greeting after that property. And it will run that
 function that\'s in that assigned to that greeting key there. So let\'s
 do this really quickly because this is kind of interesting.
 
-![](./images2/media/image535.png){width="5.0in"
+![](./images/webp/image535.webp){width="5.0in"
 height="2.922008967629046in"}
 
 If you come back over here to your tab, we can clear out the **console**
@@ -5808,12 +6097,12 @@ feature of JavaScript in **objects**.
 
 # 3.04 Functions Inside Objects Equals Methods (6:14) {#functions-inside-objects-equals-methods-614 .unnumbered}
 
-![](./images2/media/image536.png){width="4.0in"
+![](./images/webp/image536.webp){width="4.0in"
 height="2.261111111111111in"}
 
 Let\'s take this idea a little bit further.
 
-![](./images2/media/image537.png){width="5.0in"
+![](./images/webp/image537.webp){width="5.0in"
 height="3.1180555555555554in"}
 
 We can put **functions** inside **objects**, which again are called
@@ -5832,7 +6121,7 @@ out of this. And, the "**this**" keyword can be somewhat confusing in
 javascript, but it refers to this **object**, this **person**, that\'s
 the context in which this makes sense here.
 
-![](./images2/media/image538.png){width="5.0in"
+![](./images/webp/image538.webp){width="5.0in"
 height="2.922008967629046in"}
 
 So, let\'s give this a try over here. And it will say hello John Smith.
@@ -5840,7 +6129,7 @@ This is referring to this **firstname** and this **lastname**. And
 remember that this is a key word here in javascript, so that\'s
 important.
 
-![](./images2/media/image539.png){width="5.0in"
+![](./images/webp/image539.webp){width="5.0in"
 height="2.922008967629046in"}
 
 The next thing to talk about is the **object constructor**. This will
@@ -5849,7 +6138,7 @@ what an **object constructor** does, is it creates a **use function** to
 create an **object** that could be like a reusable template that you
 could use over and over again.
 
-![](./images2/media/image540.png){width="5.0in"
+![](./images/webp/image540.webp){width="5.0in"
 height="2.922008967629046in"}
 
 So here, if you look at this, what we have here on this screen, we have
@@ -5871,7 +6160,7 @@ to have seen a number of different ways of using objects now and if
 you\'re not typing them, you\'re not going to get comfortable with them
 or remember them.
 
-![](./images2/media/image541.png){width="5.0in"
+![](./images/webp/image541.webp){width="5.0in"
 height="2.922008967629046in"}
 
 I\'m going to go over here to my tab here, and I\'m just going to paste
@@ -5886,7 +6175,7 @@ going to put in, **firstName** \'\'Mary\'\', **lastName** "Mead",
 **myMother** dot **firstName**. It\'s that 2nd one there. Now we had
 **firstName** with the capital in there.
 
-![](./images2/media/image542.png){width="5.0in"
+![](./images/webp/image542.webp){width="5.0in"
 height="2.922008967629046in"}
 
 So there we go, we can actually access these values for this **object**
@@ -5903,7 +6192,7 @@ more complex javascript programming.
 
 # 3.05 Putting Objects and Functions Together (5:18) {#putting-objects-and-functions-together-518 .unnumbered}
 
-![](./images2/media/image543.png){width="4.0in"
+![](./images/webp/image543.webp){width="4.0in"
 height="2.261111111111111in"}
 
 Putting objects and functions together, this is a really powerful
@@ -5915,7 +6204,7 @@ But I want to show it to you as we\'re talking about **objects**, so you
 can start to think about ways in which you can use **objects** and
 **functions** together that are very powerful.
 
-![](./images2/media/image544.png){width="5.0in"
+![](./images/webp/image544.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Here on the left, you can see that we have a **function** called
@@ -5940,14 +6229,14 @@ actually assign **variables** that hold **printableMessage**, and we can
 do different things with them without actually affecting what\'s inside
 this **closure**.
 
-![](./images2/media/image545.png){width="5.0in"
+![](./images/webp/image545.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Let\'s see how this works, and again, I strongly recommend that you
 actually type this out into an HTML file or else in script tags. You can
 see that it gets defined here. That will get to find, **printMessage.**
 
-![](./images2/media/image546.png){width="5.0in"
+![](./images/webp/image546.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Now I can make a **variable var** **awesome1**, equals printable
@@ -5974,14 +6263,14 @@ a a key thing in any programming language is to be able to do that.
 
 # 3.06 Data Formats - XML (3:47) {#data-formats---xml-347 .unnumbered}
 
-![](./images2/media/image547.png){width="4.0in"
+![](./images/webp/image547.webp){width="4.0in"
 height="2.261111111111111in"}
 
 The next thing to talk about in our journey with Objects, is to talk
 about data formats and to talk about data. Here, we\'re seeing a data
 format called XML.
 
-![](./images2/media/image548.png){width="5.0in"
+![](./images/webp/image548.webp){width="5.0in"
 height="2.922008967629046in"}
 
 If you look at it, it should look fairly familiar in the sense that we
@@ -6001,7 +6290,7 @@ data format called JSON, which stands for JavaScript Object Notation.
 Over here, we have a level graph here, about the popularity of these.
 You can see JSON\'s going off the chart here.
 
-![](./images2/media/image549.png){width="5.0in"
+![](./images/webp/image549.webp){width="5.0in"
 height="2.922008967629046in"}
 
 This comes from this article over here, \"The Rise of JSON.\" This is
@@ -6010,7 +6299,7 @@ this name, Douglas Crockford, was involved with the invention of this
 data format JSON. We\'ve talked about him before. XML is a valuable
 format for data, but it\'s being largely replaced by JSON.
 
-![](./images2/media/image550.png){width="5.0in"
+![](./images/webp/image550.webp){width="5.0in"
 height="2.922008967629046in"}
 
 If we look at JSON and Objects now, on the left you\'ll see something
@@ -6037,7 +6326,7 @@ object that you can manipulate and use within your JavaScript program.
 
 # 3.07 Example File (7:17) {#example-file-717 .unnumbered}
 
-![](./images2/media/image551.png){width="4.0in"
+![](./images/webp/image551.webp){width="4.0in"
 height="2.261111111111111in"}
 
 With this lesson, there is a example file, so I recommend you open up
@@ -6045,13 +6334,13 @@ that example file in Visual Studio Code or whichever code editor you\'re
 using and work with that to see what you can do with that file, with
 some JSON data.
 
-![](./images2/media/image552.png){width="5.0in"
+![](./images/webp/image552.webp){width="5.0in"
 height="2.922008967629046in"}
 
 I have that file open over here. In it is just a variable called JSON
 with a string of JSON data.
 
-![](./images2/media/image553.png){width="5.0in"
+![](./images/webp/image553.webp){width="5.0in"
 height="2.922008967629046in"}
 
 We can do something with this, we could say **var user** equals
@@ -6059,8 +6348,8 @@ JSON.parse(json). Now let\'s see what happens. I\'m going to
 console.log. I\'m just going to console.log the json variable up there,
 and that should just give me my string of data.
 
-![](./images2/media/image554.png){width="3.5in"
-height="2.0454057305336835in"}![](./images2/media/image555.png){width="3.5in"
+![](./images/webp/image554.webp){width="3.5in"
+height="2.0454057305336835in"}![](./images/webp/image555.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 Let\'s see what happens if I do that. If I go over to here, and then to
@@ -6071,8 +6360,8 @@ from some external source, maybe from a database or from some 3rd party
 API. We\'ll be talking about those later in this course. But for right
 now, I\'ve just built a little bit of JSON in here.
 
-![](./images2/media/image556.png){width="3.5in"
-height="2.0454057305336835in"}![](./images2/media/image557.png){width="3.5in"
+![](./images/webp/image556.webp){width="3.5in"
+height="2.0454057305336835in"}![](./images/webp/image557.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 Next, I\'m going to come to logout user and you\'ll see I\'m going to
@@ -6085,7 +6374,7 @@ parse method here takes that JSON and JSON.parse will take that JSON and
 parse it and stick it into user. Now, it\'s an object that I can
 actually do some things with.
 
-![](./images2/media/image558.png){width="5.0in"
+![](./images/webp/image558.webp){width="5.0in"
 height="2.922008967629046in"}
 
 What can I do with it? I can do a number of things with it. I can access
@@ -6104,8 +6393,8 @@ that\'s a new social media place that want to add to my object, and
 you\'ll see that each of these things works and runs in there. I
 recommend trying some of these things out.
 
-![](./images2/media/image559.png){width="3.5in"
-height="2.0454057305336835in"}![](./images2/media/image560.png){width="3.5in"
+![](./images/webp/image559.webp){width="3.5in"
+height="2.0454057305336835in"}![](./images/webp/image560.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 If you go over here, and just add some calls to the console log, you can
@@ -6123,7 +6412,7 @@ enough time on objects. I\'ll tell you to do this stuff. But if you
 don\'t do it, you won\'t get used to it and you won\'t get good at
 working with JavaScript and objects.
 
-![](./images2/media/image561.png){width="5.0in"
+![](./images/webp/image561.webp){width="5.0in"
 height="2.922008967629046in"}
 
 The last thing here is occasionally you need to take an object and
@@ -6160,13 +6449,13 @@ section:
 
 # 3.08 Intro to Pig Dice Game (5:44) {#intro-to-pig-dice-game-544 .unnumbered}
 
-![](./images2/media/image562.png){width="4.0in"
+![](./images/webp/image562.webp){width="4.0in"
 height="2.261111111111111in"}
 
 This is a game of luck created that we can create in JavaScript and I
 didn\'t invent this game.
 
-![](./images2/media/image563.png){width="4.0in"
+![](./images/webp/image563.webp){width="4.0in"
 height="2.2658114610673667in"}
 
 You can look it up in the Internet and see other all variations of this
@@ -6183,7 +6472,7 @@ thinking about creating more sophisticated applications or scripts are
 going to become longer. We really need to think about how we\'re going
 to go about building them more carefully.
 
-![](./images2/media/image564.png){width="5.0in"
+![](./images/webp/image564.webp){width="5.0in"
 height="2.8322648731408573in"}
 
 Let\'s start with this game of Pig. In the first place to start is with
@@ -6229,7 +6518,7 @@ here. I strongly recommend that you do these steps in that you think
 about this as thoroughly as you can before going into the lesson where
 we actually build the game.
 
-![](./images2/media/image565.png){width="5.0in"
+![](./images/webp/image565.webp){width="5.0in"
 height="2.8322648731408573in"}
 
 With that said, do this with nothing more than those rules, that set of
@@ -6244,7 +6533,7 @@ with nothing other than the rules. Sit down and take a few minutes to
 think about this and to see what you can get, I\'ll go back to the
 rules.
 
-![](./images2/media/image564.png){width="4.0in"
+![](./images/webp/image564.webp){width="4.0in"
 height="2.2658114610673667in"}
 
 Here\'s the rules here. I mean, in the lesson here, and you should go do
@@ -6256,12 +6545,12 @@ rules.
 
 Here are the diagrams for the pig game to help you.
 
-![](./images2/media/image566.png){width="6.5in"
+![](./images/webp/image566.webp){width="6.5in"
 height="1.5729166666666667in"}
 
 # 3.09 Play the Game of Pig (5:04) {#play-the-game-of-pig-504 .unnumbered}
 
-![](./images2/media/image567.png){width="4.0in"
+![](./images/webp/image567.webp){width="4.0in"
 height="2.261111111111111in"}
 
 Okay, now hopefully you\'ve taken a few minutes and jotted down some
@@ -6269,7 +6558,7 @@ notes just based on the rules. If you are creating a game from scratch
 and you didn\'t have an example to go from of that game, that\'s all you
 would have. You would have to start with that.
 
-![](./images2/media/image568.png){width="4.0in"
+![](./images/webp/image568.webp){width="4.0in"
 height="2.2658114610673667in"}
 
 Now, here we\'re a little bit lucky in that this game already exists. So
@@ -6277,7 +6566,7 @@ we can actually reverse engineer it a little bit. We can actually go
 play the game and take further notes based on what we observe while
 playing the game. So I will provide a URL for this game.
 
-![](./images2/media/image569.png){width="4.0in"
+![](./images/webp/image569.webp){width="4.0in"
 height="2.2658114610673667in"}
 
 It\'s the cpe-web-assignments.ucdavis.edu/pig-js. So you can actually go
@@ -6285,7 +6574,7 @@ to this website and play this game following the rules that I have. And
 I recommend that you do this a few times. Play the game, pick the player
 see what happens when you click the different buttons.
 
-![](./images2/media/image570.png){width="4.0in"
+![](./images/webp/image570.webp){width="4.0in"
 height="2.2658114610673667in"}
 
 What happens if you click Quit? What happens if you click Roll the dice?
@@ -6324,7 +6613,7 @@ you thought? Are there things that you\'re noticing that you didn\'t
 notice before, since you have the advantage of having a existing version
 to deconstruct? What do you notice there?
 
-![](./images2/media/image571.png){width="5.0in"
+![](./images/webp/image571.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Pause the lesson and do this before going on to the next part of the
@@ -6350,7 +6639,7 @@ lesson.
 
 # 3.10 Version One (4:05) {#version-one-405 .unnumbered}
 
-![](./images2/media/image572.png){width="4.0in"
+![](./images/webp/image572.webp){width="4.0in"
 height="2.261111111111111in"}
 
 In this next part of this lesson, I\'m going to talk about my thought
@@ -6374,7 +6663,7 @@ I think about it, and you can create your own diagrams and you can just
 draw them on pieces of paper. It\'s a good idea to do that, to help you
 sort of think out the steps that you would need in order to do this.
 
-![](./images2/media/image573.png){width="5.0in"
+![](./images/webp/image573.webp){width="5.0in"
 height="2.922008967629046in"}
 
 The first diagram demonstrates what I think of as the core of this game.
@@ -6412,7 +6701,7 @@ of this game.
 
 # 3.11 Version Two (2), Three (3), & Four (4) (6:51) {#version-two-2-three-3-four-4-651 .unnumbered}
 
-![](./images2/media/image574.png){width="4.0in"
+![](./images/webp/image574.webp){width="4.0in"
 height="2.262820428696413in"}
 
 Having done the first version of my diagram, I start to think, well,
@@ -6420,7 +6709,7 @@ wait a minute here, I need to keep track of the score. And somebody has
 won because the game is going to end, it\'s not just about the throws at
 a certain point, you\'re going to stop throwing dice or switching turns.
 
-![](./images2/media/image575.png){width="5.0in"
+![](./images/webp/image575.webp){width="5.0in"
 height="2.8322648731408573in"}
 
 And when that happens, you\'re going to check to see if some sort of
@@ -6435,7 +6724,7 @@ is going to totally be over. If no, I can decide whether or not we going
 to roll again and if yes, I can roll again and no, then my turn is over,
 but the game is not over.
 
-![](./images2/media/image576.png){width="5.0in"
+![](./images/webp/image576.webp){width="5.0in"
 height="2.8322648731408573in"}
 
 That brings me to version 3 of my diagram here. And here in version 3
@@ -6464,7 +6753,7 @@ helper function there that\'s going to set up a turn. And I\'ve started
 splitting this out into some different versions, into some different
 pieces here.
 
-![](./images2/media/image577.png){width="5.0in"
+![](./images/webp/image577.webp){width="5.0in"
 height="2.8322648731408573in"}
 
 Version 3 is still feeling a little bit complex to me so I decided I
@@ -6490,7 +6779,7 @@ action area and add a button for starting a new game. If no, you can set
 the score area with the current score and then you\'re all set for the
 next turn. That\'s what the winning condition would look like.
 
-![](./images2/media/image578.png){width="5.0in"
+![](./images/webp/image578.webp){width="5.0in"
 height="2.8322648731408573in"}
 
 Now we\'ve got three functions that are working together. One that
@@ -6500,7 +6789,7 @@ setting up that next turn, getting that next turn ready, getting our
 board ready. And one for checking the winning condition. And these three
 functions are going to work together to create this game.
 
-![](./images2/media/image579.png){width="5.0in"
+![](./images/webp/image579.webp){width="5.0in"
 height="2.8322648731408573in"}
 
 In summary, one approach to thinking about a game, or about creating a
@@ -6528,7 +6817,7 @@ functionality you need for each piece.
 
 # 4.01. Module 4 Introduction (0:43) {#module-4-introduction-043 .unnumbered}
 
-![](./images2/media/image580.png){width="4.0in"
+![](./images/webp/image580.webp){width="4.0in"
 height="2.262820428696413in"}
 
 Hello and congratulations to making it to the fourth module and our
@@ -6543,14 +6832,14 @@ think you\'ll get a lot out of it. Let\'s get to it.
 
 # 4.02 Intro to the Game of Pig (6:30) {#intro-to-the-game-of-pig-630 .unnumbered}
 
-![](./images2/media/image581.png){width="4.0in"
+![](./images/webp/image581.webp){width="4.0in"
 height="2.262820428696413in"}
 
 Game of pig built in JavaScript.
 
-![](./images2/media/image582.png){width="3.5in"
+![](./images/webp/image582.webp){width="3.5in"
 height="1.9825863954505687in"}
-![](./images2/media/image583.png){width="3.5in"
+![](./images/webp/image583.webp){width="3.5in"
 height="1.9825853018372703in"}
 
 This is just a very basic version of the game with very little styling,
@@ -6572,14 +6861,14 @@ otherwise it would be really confusing. But it\'s important to realize
 that it\'s not developed that way, and that people don\'t necessarily
 think in this very linear way.
 
-![](./images2/media/image584.png){width="5.0in"
+![](./images/webp/image584.webp){width="5.0in"
 height="2.8322648731408573in"}
 
 I have my file open here in visual studio code. This is the index file
 here with all of the basic pieces of the HTML that are needed here to
 make the game work.
 
-![](./images2/media/image585.png){width="5.0in"
+![](./images/webp/image585.webp){width="5.0in"
 height="2.8322648731408573in"}
 
 We\'ve got an empty script tacked down here. This is where we\'re going
@@ -6587,14 +6876,14 @@ to be working. This is in this part of the page. Then also we have the
 images of the dice that will be pulling up. This could go into a folder,
 but at this point, I just have them in the main folder and that\'s fine.
 
-![](./images2/media/image586.png){width="5.0in"
+![](./images/webp/image586.webp){width="5.0in"
 height="2.8322648731408573in"}
 
 Then over here, I have the page loaded up so we can actually test the
 page here, and see how things are working as we go along, and work on
 the page here.
 
-![](./images2/media/image587.png){width="5.0in"
+![](./images/webp/image587.webp){width="5.0in"
 height="2.8322648731408573in"}
 
 The first thing we need to do in our code editor, is create some
@@ -6603,7 +6892,7 @@ page, so it\'s really these variables here. I\'m going to have
 **startGame**, is going to be **document.getElementById** on it by the
 **startgame**.
 
-![](./images2/media/image588.png){width="5.0in"
+![](./images/webp/image588.webp){width="5.0in"
 height="2.8322648731408573in"}
 
 It\'s this button right here. Then I have **gameControl**, which is this
@@ -6620,7 +6909,7 @@ id\'s for each of these elements. Make sure you get this code in here
 first, because these are the different parts of the board that we\'re
 going to need for our script.
 
-![](./images2/media/image589.png){width="5.0in"
+![](./images/webp/image589.webp){width="5.0in"
 height="2.8322648731408573in"}
 
 The next thing that you\'re going to need is an **object** to keep track
@@ -6658,7 +6947,7 @@ that you can play the game really fairly quickly, and see how it works.
 Or later you could bump that up to 100 or something like that, to a
 score that\'s maybe a little bit more reasonable for the game.
 
-![](./images2/media/image590.png){width="5.0in"
+![](./images/webp/image590.webp){width="5.0in"
 height="2.8322648731408573in"}
 
 But let\'s go ahead and get this into our script file. I\'m not pasted
@@ -6676,7 +6965,7 @@ and labeled properly. We\'re on our way to creating the pig game.
 
 # 4.03 Start the Game (7:50) {#start-the-game-750 .unnumbered}
 
-![](./images2/media/image591.png){width="4.0in"
+![](./images/webp/image591.webp){width="4.0in"
 height="2.262820428696413in"}
 
 Next we\'re going to start the game. And again when I was developing
@@ -6684,20 +6973,20 @@ this, I started with what happens when somebody throws the dice? But, I
 think for the purposes of building our game from start to finish, it
 helps to just start at the top and start at the beginning.
 
-![](./images2/media/image592.png){width="4.0in"
+![](./images/webp/image592.webp){width="4.0in"
 height="2.337607174103237in"}
 
 So, when somebody clicks this button here, we want to start the game. I
 need to add a click handler for this button. I\'m going to add an event
 handler for clicking to the start game button.
 
-![](./images2/media/image593.png){width="5.0in"
+![](./images/webp/image593.webp){width="5.0in"
 height="2.922008967629046in"}
 
 So let\'s do that first, we have our start game button defined here,
 which goes in and gets this button here.
 
-![](./images2/media/image594.png){width="5.0in"
+![](./images/webp/image594.webp){width="5.0in"
 height="2.922008967629046in"}
 
 So, we\'re going to add in our script start game out event listener, and
@@ -6708,7 +6997,7 @@ here now. Change index, or randomly select index whatever we want to put
 in there, just we\'re going to have to handle that. But before I do
 that, I want to first just sort of get the correct html on the page.
 
-![](./images2/media/image595.png){width="5.0in"
+![](./images/webp/image595.webp){width="5.0in"
 height="2.922008967629046in"}
 
 So, up here at the top of my page in this section called game control
@@ -6731,7 +7020,7 @@ quotes here and then double quotes there. Alternatively, you could use
 the tick marks on either end as well. Make sure you get your html right,
 okay. So we\'re going to add that in there, that\'s great.
 
-![](./images2/media/image596.png){width="6.5in"
+![](./images/webp/image596.webp){width="6.5in"
 height="3.798611111111111in"}
 
 And now I just need an event listener for when somebody clicks the quick
@@ -6742,8 +7031,8 @@ just going to do location.reload. And that refreshes the page, and then
 you go back to the way the page was before. Okay, great, so when you
 click the button, these things will happen and we\'ll get that working.
 
-![](./images2/media/image597.png){width="3.5in"
-height="2.0454057305336835in"}![](./images2/media/image598.png){width="3.5in"
+![](./images/webp/image597.webp){width="3.5in"
+height="2.0454057305336835in"}![](./images/webp/image598.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 Let\'s just test this much and see if it works. If I come over here,
@@ -6752,7 +7041,7 @@ click do you want to quit? It just refreshes the page, and puts it back
 so that\'s working just fine the way it is. When the test is frequently
 as we can there.
 
-![](./images2/media/image599.png){width="5.0in"
+![](./images/webp/image599.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Now, the last bit is I also want to set that game index, the game data
@@ -6769,8 +7058,8 @@ same line here, by putting **Math.round**, and then surrounding that. So
 log so that we can really see what that\'s doing console.log
 gameData.index, what is the value there and we\'ll test that and see.
 
-![](./images2/media/image600.png){width="3.5in"
-height="2.0454057305336835in"}![](./images2/media/image601.png){width="3.5in"
+![](./images/webp/image600.webp){width="3.5in"
+height="2.0454057305336835in"}![](./images/webp/image601.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 So let\'s come over here and I\'m going to refresh the page to turn on
@@ -6786,12 +7075,12 @@ going in the next lesson.
 
 # 4.04 Set Up the Turn (6:39) {#set-up-the-turn-639 .unnumbered}
 
-![](./images2/media/image602.png){width="4.0in"
+![](./images/webp/image602.webp){width="4.0in"
 height="2.262820428696413in"}
 
 The next thing we need to do is set up the turn.
 
-![](./images2/media/image603.png){width="5.0in"
+![](./images/webp/image603.webp){width="5.0in"
 height="2.922008967629046in"}
 
 We\'re going to create a **function** for that and remember, we\'re
@@ -6801,8 +7090,8 @@ we\'ll have one for checking the winning condition. It\'s really the way
 these three functions work together that are going to determine how this
 game works.
 
-![](./images2/media/image604.png){width="3.5in"
-height="2.0454057305336835in"}![](./images2/media/image605.png){width="3.5in"
+![](./images/webp/image604.webp){width="3.5in"
+height="2.0454057305336835in"}![](./images/webp/image605.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 The first thing we\'re going to do really is the **setUpTurn** function,
@@ -6856,7 +7145,7 @@ the term here, and we can leave this in here for now just for a moment
 to see if that\'s going to work. But we\'re going to run set up the term
 there so that we can get ready to roll the dice and see how that works.
 
-![](./images2/media/image606.png){width="5.0in"
+![](./images/webp/image606.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Let\'s test it. If we come over here and refresh the page, randomly
@@ -6869,14 +7158,14 @@ ready to roll the dice.
 
 # 4.05 Throwing the Dice (9:57) {#throwing-the-dice-957 .unnumbered}
 
-![](./images2/media/image607.png){width="4.0in"
+![](./images/webp/image607.webp){width="4.0in"
 height="2.262820428696413in"}
 
 Throwing the dice. This is the core function in this program, and it\'s
 the big function, it\'s going to take us some time to get this function
 all working properly.
 
-![](./images2/media/image608.png){width="5.0in"
+![](./images/webp/image608.webp){width="5.0in"
 height="2.922008967629046in"}
 
 But we\'re going to get it started here. At this point, what we\'re
@@ -6888,7 +7177,7 @@ that\'s going to go to the player about what was rolled, and also show
 those two dice. Then we\'ll also sum up the total of those two dice and
 put that into the **rollSum** property in the **gameData object**.
 
-![](./images2/media/image609.png){width="5.0in"
+![](./images/webp/image609.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Let\'s go ahead and get this started because this is an important one to
@@ -6919,7 +7208,7 @@ get a 0, 1, 2, 3, 4, 5, or 6 if you were to follow that methodology. We
 don\'t want a zero, we want it always to be a 1, 2, 3, 4, 5, or 6 to
 match our numbers up there for our dice.
 
-![](./images2/media/image610.png){width="5.0in"
+![](./images/webp/image610.webp){width="5.0in"
 height="2.922008967629046in"}
 
 That\'s our roll 1. Roll 2 is exactly the same thing, we\'re going to
@@ -6940,7 +7229,7 @@ Which variable is it going to be? Dollar sign, curly braces. It\'s
 really just going to be this one again. This will be player 1, or player
 2 here, that gets put in there.
 
-![](./images2/media/image611.png){width="5.0in"
+![](./images/webp/image611.webp){width="5.0in"
 height="2.922008967629046in"}
 
 The next thing we need are the actual pictures of the dice. That\'s
@@ -6960,7 +7249,7 @@ here. I need to subtract one there, gameData.roll1 minus 1. I think
 that\'s right. I prefer to have double quotes here I think. Quote there,
 double quotes, add an extra one for me.
 
-![](./images2/media/image612.png){width="5.0in"
+![](./images/webp/image612.webp){width="5.0in"
 height="2.922008967629046in"}
 
 There we go. That will put in our source and really be good to have an
@@ -6977,20 +7266,20 @@ lesson.
 
 # 4.06 Test Throwing the Dice (5:22) {#test-throwing-the-dice-522 .unnumbered}
 
-![](./images2/media/image613.png){width="4.0in"
+![](./images/webp/image613.webp){width="4.0in"
 height="2.262820428696413in"}
 
 You\'ve started your dice throwing function, so let\'s test it and see
 if it works.
 
-![](./images2/media/image614.png){width="5.0in"
+![](./images/webp/image614.webp){width="5.0in"
 height="2.922008967629046in"}
 
 All we really need to do to test it, is replace the console log in the
 set up the turn function, and replace it with the throw the dice
 function. Let\'s take a look and see how that works.
 
-![](./images2/media/image615.png){width="5.0in"
+![](./images/webp/image615.webp){width="5.0in"
 height="2.922008967629046in"}
 
 All I need is to take this function here and copy it, and put it up
@@ -7003,7 +7292,7 @@ dice once the turn has been set up, and you click the \"roll\" the
 button thing there. Let\'s see what that gives us. Let\'s save this and
 come over here and test it.
 
-![](./images2/media/image616.png){width="5.0in"
+![](./images/webp/image616.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Now, if I refresh and randomly pick a player that can roll the dice,
@@ -7011,7 +7300,7 @@ oops, error, file not found, 6die.jpgalt. I can see right here that I
 forgot to close mine. This is very easy to have that happen when you\'re
 working with HTML inside of the string.
 
-![](./images2/media/image617.png){width="5.0in"
+![](./images/webp/image617.webp){width="5.0in"
 height="2.922008967629046in"}
 
 I can see right here what\'s gone wrong. I can see that I forgot to
@@ -7020,8 +7309,8 @@ which is incorrect. Let\'s go back over here. It\'s in here I forgot to
 put a quote here. It\'s in one double quote, and I\'ll add two, but you
 have to delete one of them there. There we go, save that.
 
-![](./images2/media/image618.png){width="3.5in"
-height="2.0454057305336835in"}![](./images2/media/image619.png){width="3.5in"
+![](./images/webp/image618.webp){width="3.5in"
+height="2.0454057305336835in"}![](./images/webp/image619.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 Roll the dice. Now, I\'ve got two dice and it showed up and I can say,
@@ -7032,7 +7321,7 @@ you could come in and add a console log, and see what gameData.rollSum
 some has in it or would any other variable in there has if you\'re just
 curious to see what\'s in there, you can save that.
 
-![](./images2/media/image620.png){width="5.0in"
+![](./images/webp/image620.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Up here, maybe I don\'t need this one anymore. The one that\'s giving me
@@ -7044,7 +7333,7 @@ sixes again, that\'s something and got 12. Unfortunately, to do it again
 at this point, you have to click the button or just click refresh. In
 here I got 5, 1 plus 4 is 5.
 
-![](./images2/media/image621.png){width="5.0in"
+![](./images/webp/image621.webp){width="5.0in"
 height="2.922008967629046in"}
 
 I\'m going to move this inspector to the side and it\'s going to be
@@ -7053,7 +7342,7 @@ working really nicely. Now we have a dice game where we can throw the
 dice, and two dice are roll and randomly we generate those two images
 and display them on the page, and that\'s fine.
 
-![](./images2/media/image622.png){width="5.0in"
+![](./images/webp/image622.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Now, the next thing to do is to figure out, what do we do from here? We
@@ -7065,12 +7354,12 @@ something else, we need to swap. \[inaudible\].
 
 # 4.07 Add the Selection Statements (3:37) {#add-the-selection-statements-337 .unnumbered}
 
-![](./images2/media/image623.png){width="4.0in"
+![](./images/webp/image623.webp){width="4.0in"
 height="2.262820428696413in"}
 
 We\'re going to add if statements into our throw dysfunction here.
 
-![](./images2/media/image624.png){width="5.0in"
+![](./images/webp/image624.webp){width="5.0in"
 height="2.922008967629046in"}
 
 So if, And the first one is if game data don\'t roll some is the same as
@@ -7079,7 +7368,7 @@ to once, if it\'s exactly the same as a two, then we\'re going to say
 something like console log, snake eyes. We\'ll fill this out later with
 more specific instructions.
 
-![](./images2/media/image625.png){width="5.0in"
+![](./images/webp/image625.webp){width="5.0in"
 height="2.922008967629046in"}
 
 But for right now I just want to know, I just want to capture that
@@ -7087,7 +7376,7 @@ situation and then we\'ve got an else if. Yeah and we want to check two
 values. We want to check the value of roll one and the value of roll two
 and if either one of them comes up a one, we want to do.
 
-![](./images2/media/image626.png){width="5.0in"
+![](./images/webp/image626.webp){width="5.0in"
 height="2.922008967629046in"}
 
 So that will come back true if either one of them is a one. So the way
@@ -7098,11 +7387,11 @@ is over and then we\'ve got the else. And for that, we can just copy
 this, paste it and saying the game continues, Roll again or pass and
 we\'ll deal with that separately.
 
-![](./images2/media/image627.png){width="3.35in"
-height="1.957746062992126in"}![](./images2/media/image628.png){width="3.5in"
+![](./images/webp/image627.webp){width="3.35in"
+height="1.957746062992126in"}![](./images/webp/image628.webp){width="3.5in"
 height="2.0454057305336835in"}
 
-![](./images2/media/image629.png){width="3.5in"
+![](./images/webp/image629.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 So now we\'ve got three situations to deal with here. Let\'s just make
@@ -7116,18 +7405,18 @@ until you\'ve gotten all of those things checked.
 
 # 4.08 Snake Eyes! (7:11) {#snake-eyes-711 .unnumbered}
 
-![](./images2/media/image630.png){width="4.0in"
+![](./images/webp/image630.webp){width="4.0in"
 height="2.262820428696413in"}
 
 Let\'s handle Snake Eyes first.
 
-![](./images2/media/image631.png){width="5.0in"
+![](./images/webp/image631.webp){width="5.0in"
 height="2.922008967629046in"}
 
 We\'ll fill out each of these if statements, but we\'ll do Snake Eyes
 first. If we get a 2, let\'s deal with that.
 
-![](./images2/media/image632.png){width="5.0in"
+![](./images/webp/image632.webp){width="5.0in"
 height="2.922008967629046in"}
 
 First thing we\'re going to do is add to the innerHTML of the game, and
@@ -7147,7 +7436,7 @@ to 0. So, we\'re setting it to 0 there because we\'re zeroing out their
 score because that\'s what happens if you roll to ones as you lose all
 the points you\'ve gotten so far.
 
-![](./images2/media/image633.png){width="5.0in"
+![](./images/webp/image633.webp){width="5.0in"
 height="2.922007874015748in"}
 
 Then we need to switch players and we could do this with an if
@@ -7157,7 +7446,7 @@ of doing that. And that\'s using what\'s called the **ternary
 operator**. We see it over here, so I\'m going to set
 **gameData.index**.
 
-![](./images2/media/image634.png){width="5.0in"
+![](./images/webp/image634.webp){width="5.0in"
 height="2.922008967629046in"}
 
 So, what happens here in **ternary operator** is we evaluate whether or
@@ -7187,7 +7476,7 @@ player. So, let\'s go ahead and add that setTimeout there.
 SetTimeout(setUpTurn, after two seconds, 2000 milliseconds) and that
 should work.
 
-![](./images2/media/image635.png){width="5.0in"
+![](./images/webp/image635.webp){width="5.0in"
 height="2.922007874015748in"}
 
 Now, if we wanted to test this before we go forward, it might be a good
@@ -7199,14 +7488,14 @@ That way, we don\'t have to sort of keep playing and rolling until we
 try to get two 1s to pop up randomly in order to test this. So let\'s
 throw that in there and see what happens here.
 
-![](./images2/media/image636.png){width="5.0in"
+![](./images/webp/image636.webp){width="5.0in"
 height="2.922008967629046in"}
 
 If I come over here and test this, I can run my first player, roll the
 dice, it comes up with 11. But then it waits 2 seconds and it says roll
 the dice for player 2, let\'s try that again.
 
-![](./images2/media/image637.png){width="5.0in"
+![](./images/webp/image637.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Roll the dice for player 2, I roll the dice, I actually got to 1 that
@@ -7218,12 +7507,12 @@ testing the switch players function.
 
 # 4.09 A "1" Was Rolled (5:19) {#a-1-was-rolled-519 .unnumbered}
 
-![](./images2/media/image638.png){width="4.0in"
+![](./images/webp/image638.webp){width="4.0in"
 height="2.262820428696413in"}
 
 The next thing we\'re going to look at is if a one has been rolled.
 
-![](./images2/media/image639.png){width="5.0in"
+![](./images/webp/image639.webp){width="5.0in"
 height="2.922008967629046in"}
 
 To start with, we\'re going to swap the players right off the die. If
@@ -7231,7 +7520,7 @@ anyone was rolled, either of the two dice comes up a one, then we\'re
 going to swap the player. Let\'s do that first because that\'s just
 using the ternary operator again.
 
-![](./images2/media/image640.png){width="5.0in"
+![](./images/webp/image640.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Let\'s come back here and get this ternary operator here. You can just
@@ -7244,7 +7533,7 @@ so a zero in JavaScript is falsy. If it\'s false, then it\'s going to do
 this. It\'s going to switch it to one. If it\'s true, then it\'s going
 to switch it to a zero.
 
-![](./images2/media/image641.png){width="5.0in"
+![](./images/webp/image641.webp){width="5.0in"
 height="2.922008967629046in"}
 
 I have a page loaded from the MDN Web docs that will talk more about the
@@ -7252,7 +7541,7 @@ ternary operator. If you\'re more curious about this particular
 expression in JavaScript or this operator in JavaScript, it\'s worth
 taking a look at this page here. We\'ve got that.
 
-![](./images2/media/image642.png){width="5.0in"
+![](./images/webp/image642.webp){width="5.0in"
 height="2.922008967629046in"}
 
 The next thing we need to do is just set the game index. We\'re going to
@@ -7272,8 +7561,8 @@ say player 1. That goes back and forth. Then down here we just need to
 set time out and runs out of time again. That will work, that should
 work just fine.
 
-![](./images2/media/image643.png){width="3.5in"
-height="2.0454057305336835in"}![](./images2/media/image644.png){width="3.5in"
+![](./images/webp/image643.webp){width="3.5in"
+height="2.0454057305336835in"}![](./images/webp/image644.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 Again, we can test it up here by forcing one of these roles,
@@ -7288,7 +7577,7 @@ the player 1, and now roll the dice for player 1, roll the dice. You
 roll the one switching for player 2, roll the dice. You roll the one
 switching for player 1.
 
-![](./images2/media/image645.png){width="5.0in"
+![](./images/webp/image645.webp){width="5.0in"
 height="2.922008967629046in"}
 
 You can see it switching back and forth now and working perfectly every
@@ -7302,13 +7591,13 @@ continue moving on with the game.
 
 # 4.10 The Else Statement (6:36) {#the-else-statement-636 .unnumbered}
 
-![](./images2/media/image646.png){width="4.0in"
+![](./images/webp/image646.webp){width="4.0in"
 height="2.262820428696413in"}
 
 The next thing we need to look at is the final else statement which will
 happen if you throw the dice and no one\'s are rolled.
 
-![](./images2/media/image647.png){width="5.0in"
+![](./images/webp/image647.webp){width="5.0in"
 height="2.922008967629046in"}
 
 And basically, what we need to do is we need to update the score for
@@ -7316,7 +7605,7 @@ whichever player had them. We\'re going to take the score they had
 before and add the **rollSum** to it in order to update that score. So
 let\'s do that first.
 
-![](./images2/media/image648.png){width="5.0in"
+![](./images/webp/image648.webp){width="5.0in"
 height="2.922008967629046in"}
 
 So, when you get rid of this, And say **gameData.score**, And the
@@ -7330,7 +7619,7 @@ believe. Let me check over here and make sure I did that, right?
 **gameData.index + gameDtaa.rollSum**, correct. Okay from there, what we
 need is to set the action area and create two buttons in there.
 
-![](./images2/media/image649.png){width="5.0in"
+![](./images/webp/image649.webp){width="5.0in"
 height="2.922008967629046in"}
 
 So, that action area is going to get set with two buttons, one for
@@ -7345,7 +7634,7 @@ how I do that from the inside out for even typing this stuff because
 that will keep me from making mistakes. That will help me from making
 mistakes, I might still make mistakes, but that\'ll help, okay?
 
-![](./images2/media/image650.png){width="5.0in"
+![](./images/webp/image650.webp){width="5.0in"
 height="2.922008967629046in"}
 
 So we\'re going to set that and then we need two event listeners for
@@ -7354,7 +7643,7 @@ each of those things. So, I\'m going to have an event listener
 **addEventListener**, and listening for a click. And when you click the
 button we\'re going to run a function.
 
-![](./images2/media/image651.png){width="5.0in"
+![](./images/webp/image651.webp){width="5.0in"
 height="2.922008967629046in"}
 
 And for now we\'re just going to put in here, setUpTurn, we\'re going to
@@ -7368,7 +7657,7 @@ and stick it in here. And that will allow me to swap the player to the
 other player. Cool, the last thing we\'re going to need in here is
 we\'re going to need something that checks the winning condition.
 
-![](./images2/media/image652.png){width="5.0in"
+![](./images/webp/image652.webp){width="5.0in"
 height="2.922008967629046in"}
 
 So, we\'ll check the winning condition in here as well, but we\'ll do
@@ -7377,8 +7666,8 @@ Come over here, refresh the page, pick my player when I roll the dice, I
 get it a 2 in a 6, that adds up to 8. I don\'t have any scoring going on
 down here yet, but I can choose roll again.
 
-![](./images2/media/image653.png){width="3.5in"
-height="2.0454057305336835in"}![](./images2/media/image654.png){width="3.5in"
+![](./images/webp/image653.webp){width="3.5in"
+height="2.0454057305336835in"}![](./images/webp/image654.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 And it says roll the dice for player 1 and now I got a 1 and a 3 year
@@ -7386,8 +7675,8 @@ old one, switching to player 2. Roll the dice, I got a 2 and a 4, I can
 click roll again and I\'m still on player 2 and I can roll the dice
 again.
 
-![](./images2/media/image655.png){width="3.5in"
-height="2.0454057305336835in"}![](./images2/media/image656.png){width="3.5in"
+![](./images/webp/image655.webp){width="3.5in"
+height="2.0454057305336835in"}![](./images/webp/image656.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 Now, I got a 5 and a 5, and I could pass if I wanted to, if I click pass
@@ -7399,27 +7688,27 @@ we\'ll pick it up in the next lesson.
 
 # 4.11 Checking for a Win (6:02) {#checking-for-a-win-602 .unnumbered}
 
-![](./images2/media/image657.png){width="4.0in"
+![](./images/webp/image657.webp){width="4.0in"
 height="2.262820428696413in"}
 
 The third major function we need is the function that checks for a
 winning condition.
 
-![](./images2/media/image658.png){width="5.0in"
+![](./images/webp/image658.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Has the player scored enough points to actually win the game? Let\'s
 make a function for that called **checkWinningCondition** and add that
 to our functions down here.
 
-![](./images2/media/image659.png){width="3.5in"
-height="2.0454057305336835in"}![](./images2/media/image660.png){width="3.5in"
+![](./images/webp/image659.webp){width="3.5in"
+height="2.0454057305336835in"}![](./images/webp/image660.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 So this really long function, **throwDice** goes all the way down to
 this closing curly brace here.
 
-![](./images2/media/image661.png){width="5.0in"
+![](./images/webp/image661.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Let\'s add another function down here. Function
@@ -7430,7 +7719,7 @@ winning condition met or else show current score. If we haven\'t won, we
 at least ought to know how close we are to winning? So it\'s going to do
 those two things.
 
-![](./images2/media/image662.png){width="5.0in"
+![](./images/webp/image662.webp){width="5.0in"
 height="2.922008967629046in"}
 
 To check the winning condition, we just need to get this players score.
@@ -7458,14 +7747,14 @@ section of this **function**.
 
 # 4.12 Show the Current Score (8:33) {#show-the-current-score-833 .unnumbered}
 
-![](./images2/media/image663.png){width="4.0in"
+![](./images/webp/image663.webp){width="4.0in"
 height="2.262820428696413in"}
 
 Okay, so now we need to show the current score, and make sure that that
 gets filled out properly, if we haven\'t won the game, so let\'s go over
 and add this.
 
-![](./images2/media/image664.png){width="5.0in"
+![](./images/webp/image664.webp){width="5.0in"
 height="2.922008967629046in"}
 
 We\'re going to set the score areas innnerHTML to a paragraph that shows
@@ -7483,7 +7772,7 @@ we\'re going to do the same thing down here, For a player two, Except
 that\'s going to be 1, And this is going to be the same thing down here,
 Except that\'s going to be 1.
 
-![](./images2/media/image665.png){width="5.0in"
+![](./images/webp/image665.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Now you could even make it stand out a little bit more by putting a
@@ -7495,15 +7784,15 @@ believe that\'s all we need let\'s just see over here, yep. Players\[0\]
 player\[1\] looks good, that all looks good all right great, so what do
 we need to do to get this to work?
 
-![](./images2/media/image666.png){width="5.0in"
+![](./images/webp/image666.webp){width="5.0in"
 height="2.922008967629046in"}
 
 We need to run this function, Here, check winning condition, It\'s not
 the only place we need to run it, but let\'s start with that. Let\'s put
 it there.
 
-![](./images2/media/image667.png){width="3.5in"
-height="2.0454057305336835in"}![](./images2/media/image668.png){width="3.5in"
+![](./images/webp/image667.webp){width="3.5in"
+height="2.0454057305336835in"}![](./images/webp/image668.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 Let\'s test this, make sure you save the file and then we\'re going to
@@ -7512,8 +7801,8 @@ for player 1. So now I\'ve got eight and I\'ve got no player 2 is
 running here, and you can see that the score got added up, player 2 has
 8 points. I can click roll again and it takes me to set up the term,
 
-![](./images2/media/image669.png){width="3.5in"
-height="2.0454057305336835in"}![](./images2/media/image670.png){width="3.5in"
+![](./images/webp/image669.webp){width="3.5in"
+height="2.0454057305336835in"}![](./images/webp/image670.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 and I can roll the dice for player 2, again and I\'ve got 15. Okay so 2
@@ -7522,14 +7811,14 @@ turn. Now I\'ve got 25, and if I get five or more this we should have
 the end of the game and that should trigger it so let\'s see what
 happens.
 
-![](./images2/media/image671.png){width="5.0in"
+![](./images/webp/image671.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Roll the dice, and player 2 wins with 33 points, and now up here I have
 started new game, it still says roll again or pass so that\'s something
 that needs to be dealt with.
 
-![](./images2/media/image672.png){width="5.0in"
+![](./images/webp/image672.webp){width="5.0in"
 height="2.922008967629046in"}
 
 But, We can start a new game up here, what happens if I click roll
@@ -7543,7 +7832,7 @@ haven\'t done it yet, but if you roll two ones, you also need to fix
 that there as well. So that because that\'s going to change the score,
 so we want to show the score if you roll two ones.
 
-![](./images2/media/image673.png){width="5.0in"
+![](./images/webp/image673.webp){width="5.0in"
 height="2.922008967629046in"}
 
 So let\'s go back to our code over here, And I want to run
@@ -7557,7 +7846,7 @@ this set time out. Doesn\'t actually matter, the set time out will wait
 two seconds anyway, but I\'m going to put it before that, there we go,
 so that helps.
 
-![](./images2/media/image674.png){width="5.0in"
+![](./images/webp/image674.webp){width="5.0in"
 height="2.922008967629046in"}
 
 The other thing we need to do down here is that, if you\'ve won the game
@@ -7566,7 +7855,7 @@ I was setting the action area, actually this is what I\'m missing
 **actionArea.innerHTML** set that to blank, so that that will get rid of
 those buttons that I had there by accident.
 
-![](./images2/media/image675.png){width="5.0in"
+![](./images/webp/image675.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Now there\'s one more thing that we can do to make this work a little
@@ -7587,7 +7876,7 @@ cleanup stuff.
 
 # 4.13 Final Clean-Up (8:08) {#final-clean-up-808 .unnumbered}
 
-![](./images2/media/image676.png){width="4.0in"
+![](./images/webp/image676.webp){width="4.0in"
 height="2.262820428696413in"}
 
 Okay the game is working and that\'s great, and everything is working
@@ -7600,7 +7889,7 @@ click roll again, it just rolls them again. I don\'t really need to go
 back to the setup turn at this point, I could just roll the dice again.
 So what can we do about that?
 
-![](./images2/media/image677.png){width="5.0in"
+![](./images/webp/image677.webp){width="5.0in"
 height="2.922008967629046in"}
 
 What if down here, in here when we go to roll again instead of doing
@@ -7611,8 +7900,8 @@ hope I get snake eyes again. There we go. Now when I click roll again it
 just rolls again, and you can see that the score is getting added
 nicely. It\'s a bit smoother so that works great, okay?
 
-![](./images2/media/image678.png){width="3.5in"
-height="2.0454057305336835in"}![](./images2/media/image679.png){width="3.5in"
+![](./images/webp/image678.webp){width="3.5in"
+height="2.0454057305336835in"}![](./images/webp/image679.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 A couple other things to clean up this thing here is really long, and
@@ -7626,8 +7915,8 @@ function, **showCurrentScore**, and it\'s really just going to be this
 stuff just because it\'s kind of long. And then, really all we need to
 do is run this function here, **showCurrentScore**.
 
-![](./images2/media/image680.png){width="3.5in"
-height="2.0454057305336835in"}![](./images2/media/image681.png){width="3.5in"
+![](./images/webp/image680.webp){width="3.5in"
+height="2.0454057305336835in"}![](./images/webp/image681.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 Now, we don\'t need to run check winning condition up when you run snake
@@ -7642,8 +7931,8 @@ IF statement here, we just need to do this bottom part which is showing
 the current score. So, that\'s a little bit cleaner and a little bit
 nicer like that.
 
-![](./images2/media/image682.png){width="3.5in"
-height="2.0454057305336835in"}![](./images2/media/image683.png){width="3.5in"
+![](./images/webp/image682.webp){width="3.5in"
+height="2.0454057305336835in"}![](./images/webp/image683.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 I think the next thing I wanted to talk about is this throw dice
@@ -7664,8 +7953,8 @@ You could also make a separate function that just contains the whole
 selection statement, if/else, if and the else statement and make that
 into a separate function that runs here.
 
-![](./images2/media/image684.png){width="3.5in"
-height="2.0454057305336835in"}![](./images2/media/image685.png){width="3.5in"
+![](./images/webp/image684.webp){width="3.5in"
+height="2.0454057305336835in"}![](./images/webp/image685.webp){width="3.5in"
 height="2.0454057305336835in"}
 
 The next thing to do is to apply some of our best practices to this,
@@ -7682,7 +7971,7 @@ going to click between the curly braces and move that down and add my
 **use strict** directive to make sure I didn\'t screw up in any of my
 variables and then paste everything here.
 
-![](./images2/media/image686.png){width="5.0in"
+![](./images/webp/image686.webp){width="5.0in"
 height="2.922008967629046in"}
 
 So that puts everything in there, and then you could go through, and you
@@ -7692,7 +7981,7 @@ think even the game data where the actual data changes, but the actual
 function, the actual variable doesn\'t change. That can be a constant as
 well.
 
-![](./images2/media/image687.png){width="5.0in"
+![](./images/webp/image687.webp){width="5.0in"
 height="2.922008967629046in"}
 
 So we saved that, and then we come over here, and we move this up, and
@@ -7704,12 +7993,12 @@ in the next lesson, and you\'ve got a working game here.
 
 # 4.14 Extending the Game (6:21) {#extending-the-game-621 .unnumbered}
 
-![](./images2/media/image688.png){width="4.0in"
+![](./images/webp/image688.webp){width="4.0in"
 height="2.262820428696413in"}
 
 Extending the game.
 
-![](./images2/media/image689.png){width="5.0in"
+![](./images/webp/image689.webp){width="5.0in"
 height="2.922008967629046in"}
 
 Now you have a pig day scheme that works and functions and it\'s pretty
@@ -7724,7 +8013,7 @@ it and do some interesting things with it. I\'ve given you some ideas
 for some things you could do that are not too hard and some that are
 more challenging if you really want to try to do them.
 
-![](./images2/media/image690.png){width="5.0in"
+![](./images/images/webp/image690.webp){width="5.0in"
 height="2.922007874015748in"}
 
 The first is when you roll a one, it zeros out the cumulative score for
@@ -7807,7 +8096,7 @@ excellent versions people have made of the big game.
 
 # Course Summary (0:57) {#course-summary-057 .unnumbered}
 
-![](./images2/media/image691.png){width="4.0in"
+![](./images2/images/webp/image691.webp){width="4.0in"
 height="2.262820428696413in"}
 
 Congratulations for making it to the end of our third course on
