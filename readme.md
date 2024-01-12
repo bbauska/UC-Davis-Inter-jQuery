@@ -648,13 +648,13 @@ them to work.
 </p>
 
 
-<b>[Step 1]{.mark}</b> is, you have to use the markup indicated by the
+<b><mark>[Step 1]</mark></b> is, you have to use the markup indicated by the
 plugin documentation. Often, you&apos;ll have to use divs or our articles or
 other elements with particular classes that the plugin needs in order
 for it to actually work. Classes or IDs or other, structures that the
 plugin needs to work.
 
-<b>[Step 2]{.mark},</b> you need to make sure jQuery is linked. The jQuery
+<b><mark>[Step 2]</mark>,</b> you need to make sure jQuery is linked. The jQuery
 libraries linked because if you&apos;re using a jQuery plugin, then you need
 to have jQuery decide if you&apos;re going to put your scripts at the top of
 the page or at the bottom of the page. Sometimes you can put them
@@ -663,7 +663,7 @@ to put them in one place or the other. But frequently you can make your
 own decision on this and put it where you want it to go and architect
 your file the way you want it to be structured.
 
-<b>[Step 3]{.mark},</b> is to link the plugin file and when you download a
+<b><mark>[Step 3]</mark>,</b> is to link the plugin file and when you download a
 plugin, frequently it will come with a compressed version and an
 uncompressed version. The uncompressed version is there for you to look
 at so you could see how the plugin actually functions, it&apos;s readable
@@ -674,14 +674,14 @@ download faster. So, if they provide a compressed one, then you should
 use that, if they don&apos;t provide a compressed one, you can compress it
 yourself.
 
-<b>[Step 4]{.mark},</b> link to the plug in CSS file, some of the fancier
+<b><mark>[Step 4]</mark>,</b> link to the plug in CSS file, some of the fancier
 plugins will come with styling that will style the elements inside of
 the plugin. And, this is usually included so that everything looks and
 works the way it&apos;s supposed to work within the interface for that
 plugin, so you want to make sure you get that CSS file linked onto your
 page.
 
-[Then <b>Step 5</b>]{.mark}, is you need to initialize the setup of the
+Then <b><mark>[Step 5]</mark></b>, is you need to initialize the setup of the
 plugin in your own script tag, or on your own linked JavaScript file.
 Often, you can set additional options so that when the function is
 initialized, and so that you can pass in whichever options will get the
@@ -742,7 +742,7 @@ it&apos;s the same basic steps each time.
   width="50%;" />
 </p>
 
-<b>[Number 1]{.mark}</b> on this list is the biggest one, I see this all
+<b><mark>[Number 1]</mark></b> on this list is the biggest one, I see this all
 the time, especially with students who are new to working with
 JavaScript in jQuery, and that is ending up with multiple copies of the
 jQuery library linked to your page.
@@ -771,7 +771,7 @@ follow the directions and they wind up with multiple copies, different
 versions of the jQuery library plugged in. That&apos;s the number 1 Gotcha.
 It happens a lot.
 
-The second, <b>[number 2]{.mark}</b> thing is file management. When you
+The second, <b><mark>[number 2]</mark></b> thing is file management. When you
 download a plugin, sometimes plugins require other files, whether it&apos;s
 CSS files or maybe an images folder, fonts or something else. You want
 to make sure that when you put those files in your folder, everything is
@@ -783,7 +783,7 @@ the correct places for the plugin to work. That&apos;s <b>number 2</b>, those
 two issues comprise 90 percent of the problems that people have with
 plugins, it&apos;s probably those two problems.
 
-The next thing, <b>[number 3]{.mark}</b> is top of the page versus bottom
+The next thing, <b><mark>[number 3]</mark></b> is top of the page versus bottom
 of the page. Make sure you&apos;re placing your plugins scripts in the
 correct place. Some of them may require you to load jQuery up at the top
 of the page. Usually, you can put them where you want as long as you run
@@ -796,7 +796,7 @@ to scripts up in the top of the page and maybe use the defer attribute
 to make sure they don&apos;t load into the whole page is loaded. Keep that
 in mind.
 
-Now, jQuery has a document ready method, <b>[number 4]{.mark}</b> that will
+Now, jQuery has a document ready method, <b><mark>[number 4]</mark></b> that will
 check to see that the DOM is flooded before anything inside the
 <b>document_ready</b> function runs. That&apos;s just checking to make sure
 your HTML is loaded. Sometimes people will provide plugins and tell you
@@ -820,7 +820,7 @@ the actual script file or the plugin file. This is where you initialize
 your script on your page where you&apos;re tying the plugin to run. You&apos;ll
 need to make sure you use these functions properly.
 
-Then the last, <b>[number 5]{.mark}</b> is overriding CSS on your
+Then the last, <b><mark>[number 5]</mark></b> is overriding CSS on your
 stylesheet. If you want to customize the look of the plugin and you
 should put your rules that override the styles they&apos;ve set on their
 specified CSS file, on your CSS file and then make sure your CSS file
@@ -5097,7 +5097,7 @@ of each of these sections. I don&apos;t want it to change. I&apos;m going to
 need to do something to adjust that number and fix that, and we&apos;ll take
 care of that in the next lesson.
 
-# 2.23 Top Posts (5:35) {#top-posts-535 .unnumbered}
+# 2.23 Top Posts (5:35)
 
 ![](./images/webp/image298.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -5184,7 +5184,7 @@ we&apos;re doing it with plain JavaScript instead. But really, all the steps
 are the same, and it&apos;s the same process. It&apos;s just the syntax, that&apos;s
 a little bit different.
 
-# 2.24 Add an Event Listener (5:42) {#add-an-event-listener-542 .unnumbered}
+# 2.24 Add an Event Listener (5:42)
 
 ![](./images/webp/image305.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -5291,7 +5291,7 @@ and scrolling up. Those are really your only two options, because this
 page doesn&apos;t scroll left and right. Those are the two conditions that
 we need to watch out for, while we&apos;re handling our scroll effect.
 
-# 2.25 The Magic Conditionals (5:58) {#the-magic-conditionals-558 .unnumbered}
+# 2.25 The Magic Conditionals (5:58)
 
 ![](./images/webp/image315.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -5394,7 +5394,7 @@ correct class on the correct link. We&apos;ll put the selected class on the
 most correct so that it can get highlighted properly. Put a semicolon
 there before we go.
 
-# 2.26 Changing the Next Link (5:56) {#changing-the-next-link-556 .unnumbered}
+# 2.26 Changing the Next Link (5:56)
 
 ![](./images/webp/image322.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -5451,9 +5451,16 @@ From there it&apos;s simple, now I can use **thisLink.className =
 want to say **prevCounter**, is now assigned the same value as counter,
 because now we&apos;re ready to go into the next section.
 
-![](./images/webp/image327.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image328.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 327/328.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image327.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image328.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 So if I save that and test it, assuming I did it all right, it should
 work let&apos;s see. Refresh the page, start up here at the top, now look at
@@ -5488,7 +5495,7 @@ we&apos;ll take care of that in the next lesson, and then we&apos;re done with
 this script and you&apos;ll have two versions of it, one that works with
 jQuery, and one that works with plain Vanilla JavaScript.
 
-# 2.27 Resizing Function (5:07) {#resizing-function-507 .unnumbered}
+# 2.27 Resizing Function (5:07)
 
 ![](./images/webp/image330.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -5574,7 +5581,7 @@ will go on from there and we&apos;ll build that up in the next lesson to
 finish the script off. But this is really all exactly the same as what
 we did in the for the jQuery version.
 
-# 2.28 Finalizing the Script (10:01) {#finalizing-the-script-1001 .unnumbered}
+# 2.28 Finalizing the Script (10:01)
 
 ![](./images/webp/image338.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -5731,7 +5738,7 @@ that&apos;s up to you.
 
 ## <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation> {#httpswww.coursera.orglearninteractivity-javascript-jquerysupplement0lqmfpdf-of-presentation .unnumbered}
 
-# 2.29 Scription Site Introduction (5:54) {#scription-site-introduction-554 .unnumbered}
+# 2.29 Scription Site Introduction (5:54)
 
 ![](./images/webp/image347.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -5907,7 +5914,7 @@ place. But if you go wrong, don&apos;t worry about it at the end, I will
 give you my finished file so you could do this without going through
 this. But I think it&apos;s helpful to go through it anyway.
 
-### 2.29 Start Files: Scription Site {#start-files-scription-site .unnumbered}
+### 2.29 Start Files: Scription Site
 
 <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/KrJDR/start-files-scription-site>
 
@@ -5921,9 +5928,9 @@ this. But I think it&apos;s helpful to go through it anyway.
 
 ## Flex Files: 2.29.Flexslider-files.zip
 
-# 2.30 Header HTML (5:09) {#header-html-509 .unnumbered}
+# 2.30 Header HTML (5:09)
 
-# ![](./images/webp/image368.webp){width="5.0in" height="3.0635684601924758in"} {#section-5 .unnumbered}
+# ![](./images/webp/image368.webp){width="5.0in" height="3.0635684601924758in"}
 
 Inside the header, you&apos;re going to have a div with the logo in it and
 the H 1 for the page. It&apos;s important for pages to have a main heading
@@ -6012,7 +6019,6 @@ So we&apos;ve got a section inside of a section here. And it&apos;s important to
 recognize when you&apos;re making mark up for things that you&apos;re looking
 at, your design and trying to figure out. Okay, how do I need to break
 this down into smaller sub pieces.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 378/379.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -6047,7 +6053,7 @@ We&apos;re coming along really well here. And we&apos;ll stop this lesson here
 and then we&apos;ll pick up putting in the rest of the HTML out in the next
 lesson.
 
-# 2.31 Pricing HTML (6:16) {#pricing-html-616 .unnumbered}
+# 2.31 Pricing HTML (6:16)
 
 ![](./images/webp/image381.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -6092,28 +6098,46 @@ So I&apos;m going to put this in over here. And it goes down here inside the
 pricing section, Here, and each one of these tabs is going to get
 content in here, so I&apos;ve got tab 1, tab 2, and tab 3, and each one of
 those is going to get a pile of content.
-
-![](./images/webp/image387.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image388.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 387/388.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image387.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image388.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 So if we come back here you can see this is all of the content just for
 a tab 1, so I&apos;m going to select all of this and all of this. So you
 have to be really careful to put it in the right place. So here, this is
 all going inside of this container for tab 1 here, so make sure you&apos;re
 in the right place and paste it in there.
-
-![](./images/webp/image389.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image390.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 389/390.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image389.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image390.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 And then, scroll down and the next one is going to go here inside tab 2,
 let&apos;s put that in tab 2 content, copy all of that, that&apos;s a lot of
 content.
-
-![](./images/webp/image391.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image392.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 391/392.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image391.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image392.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 And then, tap 3 content, same thing, tab that in and then come over here
 and come back and grab the next pile of content for tab 3, that&apos;s a lot
@@ -6136,10 +6160,16 @@ And then, the listen section and this is going to get a rotator, and you
 can see ID rotator. We&apos;re going to rotate block quotes. For right now,
 we&apos;ve just got one block quote in, but later when you make that work
 you can add some more block quotes.
-
-![](./images/webp/image395.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image396.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 395/396.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image395.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image396.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 So let&apos;s come over to our snippets and here&apos;s our listen section. Yeah
 and again just to go over to our design and see what that looks like.
@@ -6158,17 +6188,29 @@ height="3.073183508311461in"}
 
 And then finally after that, we have our team which isn&apos;t too long,
 that&apos;s going to be next.
-
-![](./images/webp/image399.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image400.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 399/400.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image399.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image400.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Not quite the last thing but we&apos;ll get that next and put that in our
 team.
-
-![](./images/webp/image401.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image402.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 401/402.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image401.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image402.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 And then we&apos;ll go and get the footer content and copy that and put it
 into the footer. You&apos;ve probably never built an HTML page quite so
@@ -6197,17 +6239,23 @@ reasons, the styling doesn&apos;t work or somebody&apos;s working in some real
 low quality browser, the pages still readable and the information is
 still accessible.
 
-# 2.32 Beginning Styling (6:37) {#beginning-styling-637 .unnumbered}
+# 2.32 Beginning Styling (6:37)
 
 ![](./images/webp/image404.webp){width="4.0in"
 height="2.261111111111111in"}
 
 In the last lesson (2.31), we finished with the html, and now we are
 going to start styling, and getting the styling in place.
-
-![](./images/webp/image405.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image406.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 405/406.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image405.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image406.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 And, I have a new set of snippets, so, you make sure you open this
 because we are also going to copy, and paste the styling into place, so,
@@ -6269,10 +6317,16 @@ with. I created a color scheme. So, these are the colors that I am
 actually working with to create all of my colors on the page. And, it is
 helpful when you are designing to start with the color scheme, you may
 not stick with it exactly, but it is helpful to do that.
-
-![](./images/webp/image410.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image411.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 410/411.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image410.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image411.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 All right, so you can come over to our snippets here, and copy this
 first snippet which has all the basic styling on it, and paste it in
@@ -6297,9 +6351,16 @@ are taking styling out, you are resetting it to a basic, and then you
 are going to add more styling back to make it look better. All right,
 there we are with the resets.
 
-![](./images/webp/image413.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image414.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 413/414.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image413.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image414.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 ![](./images/webp/image415.webp){width="5.0in"
 height="3.073183508311461in"}
@@ -6327,7 +6388,7 @@ Boom, already starting to look a little bit better once we get a font in
 there, and some and some stuff working along and going along, that is
 great. All right, we will continue with the styling in the next lesson.
 
-# 2.33 Styling That Attaches to Whole Page (5:03) {#styling-that-attaches-to-whole-page-503 .unnumbered}
+# 2.33 Styling That Attaches to Whole Page (5:03)
 
 ![](./images/webp/image417.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -6335,10 +6396,16 @@ height="2.261111111111111in"}
 Next, we&apos;ll apply some styling that will attach to the whole page and
 there&apos;s just a few rules here, but they&apos;ll actually make quite a big
 difference.
-
-![](./images/webp/image418.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image419.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 418/419.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image418.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image419.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 So let&apos;s go over and grab these three rules.
 
@@ -6362,19 +6429,31 @@ work down the page, starting with these basic sections and stuff further
 down the page is inherits, then you need fewer and fewer rules as you go
 down the page. You&apos;ll see as it sort of works out that way.
 
-![](./images/webp/image422.webp){width="3.5in"
-height="2.1512281277340333in"}
-![](./images/webp/image423.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 422/423.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image422.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image423.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Headers are always a pain in the neck. They always have a lot of styling
 in them to kind of get things to look right. And sort of copy all of
 this stuff and I&apos;m going to go ahead and paste that in the header and
 they had her section year.
-
-![](./images/webp/image424.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image425.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 424/425.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image424.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image425.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 There&apos;s a lot to look at in these header styles so it&apos;s worth spending
 a few minutes on this. I changed my background color for that for my
@@ -6428,7 +6507,7 @@ you can put that in if you wanted to. I kind of liked the gray in the
 end. I kind of liked it that way. All right, so the headers in place and
 we&apos;re ready to see what we need to do for the next section.
 
-# 2.34 Slider Styling (5:04) {#slider-styling-504 .unnumbered}
+# 2.34 Slider Styling (5:04)
 
 ![](./images/webp/image428.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -6535,7 +6614,7 @@ moves them up into place, and highlight them as they go by. You&apos;ll be
 adding that scripture, you&apos;ll have a challenge to add that script on
 your own in a future lesson here. Great, we&apos;re coming along.
 
-# 2.35 Pricing Styles (4:00) {#pricing-styles-400 .unnumbered}
+# 2.35 Pricing Styles (4:00)
 
 ![](./images/webp/image443.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -6623,7 +6702,7 @@ got the entire mobile version of this page set. The next thing we need
 to do is, add will adjust styling in the media queries for when the page
 gets larger, so we&apos;ll do that next.
 
-# 2.36 Tablet Styles (6:46) {#tablet-styles-646 .unnumbered}
+# 2.36 Tablet Styles (6:46)
 
 ![](./images/webp/image457.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -6757,7 +6836,7 @@ images taken off on splash. Great, we&apos;ve got the 760 media query done,
 let&apos;s go ahead next and work on the next media query for the full
 desktop size.
 
-# 2.37 Media Query for 1020 Pixels Wide (4:56) {#media-query-for-1020-pixels-wide-456 .unnumbered}
+# 2.37 Media Query for 1020 Pixels Wide (4:56)
 
 ![](./images/webp/image477.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -6841,7 +6920,7 @@ row and the footer stays the same. There we go.
 The 1020 media query is done and our page is really coming together.
 I&apos;m going to look at the next one in the next lesson.
 
-# 2.38 Media Query for 1200 Pixels Wide {#media-query-for-1200-pixels-wide .unnumbered}
+# 2.38 Media Query for 1200 Pixels Wide
 
 ![](./images/webp/image488.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -6959,7 +7038,7 @@ so there&apos;s no reason why you shouldn&apos;t play around with this and mess
 around with it, come up with your own styling and see what you can do
 with it. It&apos;s always fun to do that.
 
-# 2.39 Scription Site: Building Interactive Elements Challenges {#scription-site-building-interactive-elements-challenges .unnumbered}
+# 2.39 Scription Site: Building Interactive Elements Challenges
 
 ![](./images/webp/image505.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -7165,14 +7244,14 @@ forward and see what you can do with this and I hope you post on the
 discussion boards what you found successful and help out others who are
 working on this project. Hopefully, it&apos;s a lot of fun.
 
-## Scription Finished Version {#scription-finished-version .unnumbered}
+## Scription Finished Version
 
 Here is a [link](https://cpe-web-assignments.ucdavis.edu/scription/) to
 the finished version of the Scription Site Honor&apos;s Assignment.
 
 <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/PEs9J/scription-finished-version>
 
-## PDF of Presentations {#pdf-of-presentations .unnumbered}
+## PDF of Presentations
 
 Here is a PDF of the presentation slides used in the lessons for this
 section:
@@ -7183,7 +7262,7 @@ section:
 
 -   **2.39.ScriptionSite-Part2-InteractionChallenges.pdf**
 
-# 3.01 Module 3 Intro (0:37) {#module-3-intro-037 .unnumbered}
+# 3.01 Module 3 Intro (0:37)
 
 ![](./images/webp/image522.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -7197,7 +7276,7 @@ can take a more complex script and break it down. It&apos;s really
 interesting content and I think you&apos;re going to get a lot out of it. I
 look forward to doing it with you. Let&apos;s get started.
 
-# 3.02 Introduction to Objects and Data in JS (5:52) {#introduction-to-objects-and-data-in-js-552 .unnumbered}
+# 3.02 Introduction to Objects and Data in JS (5:52)
 
 ![](./images/webp/image523.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -7300,7 +7379,7 @@ the other way using the object literal. It&apos;s shorter syntax, is a
 little bit easier to follow, but you can create objects this way as
 well.
 
-## Start Files: Working with Objects in JavaScript {#start-files-working-with-objects-in-javascript .unnumbered}
+## Start Files: Working with Objects in JavaScript
 
 Attached is a zip file of the the things you need to begin this
 exercise. A **zip file** is defined as: a computer file whose contents
@@ -7311,12 +7390,12 @@ transmission, often carrying the extension .ZIP.
 
 <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/tTx6B/start-files-working-with-objects-in-javascript>
 
-## **Additional Resource:** {#additional-resource-2 .unnumbered}
+## **Additional Resource:**
 
 -   [How to open a zip file for either Mac or
     PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
 
-# 3.03 Objects Can Contain Arrays and Other Objects (5:04) {#objects-can-contain-arrays-and-other-objects-504 .unnumbered}
+# 3.03 Objects Can Contain Arrays and Other Objects (5:04)
 
 ![](./images/webp/image530.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -7397,7 +7476,7 @@ belongs to an **object** and then access that **method** through the
 **object**, like this **person.greeting**. And that&apos;s a really cool
 feature of JavaScript in **objects**.
 
-# 3.04 Functions Inside Objects Equals Methods (6:14) {#functions-inside-objects-equals-methods-614 .unnumbered}
+# 3.04 Functions Inside Objects Equals Methods (6:14)
 
 ![](./images/webp/image536.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -7492,7 +7571,7 @@ a new **object** from that **constructive function**. And this is a very
 powerful pattern, that you&apos;ll see frequently in, more sophisticated,
 more complex javascript programming.
 
-# 3.05 Putting Objects and Functions Together (5:18) {#putting-objects-and-functions-together-518 .unnumbered}
+# 3.05 Putting Objects and Functions Together (5:18)
 
 ![](./images/webp/image543.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -7563,7 +7642,7 @@ objects and functions together in JavaScript are very powerful, and give
 you this opportunity to create things that are reusable modules. That&apos;s
 a a key thing in any programming language is to be able to do that.
 
-# 3.06 Data Formats - XML (3:47) {#data-formats---xml-347 .unnumbered}
+# 3.06 Data Formats - XML (3:47)
 
 ![](./images/webp/image547.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -7626,7 +7705,7 @@ something that happens a lot. A lot of times you&apos;re going to have data
 in JSON format, and then you&apos;re going to convert that data into an
 object that you can manipulate and use within your JavaScript program.
 
-# 3.07 Example File (7:17) {#example-file-717 .unnumbered}
+# 3.07 Example File (7:17)
 
 ![](./images/webp/image551.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -7736,7 +7815,7 @@ building bigger, more sophisticated programs and we&apos;re going to have
 time to build in this course. But I want to at least introduce you to
 the topics.
 
-## PDF of Presentations {#pdf-of-presentations-1 .unnumbered}
+## PDF of Presentations
 
 Here is a PDF of the presentation slides used in the lessons for this
 section:
@@ -7749,7 +7828,7 @@ section:
 
 -   **3.07.JavaScript-Object-Challenges.pdf**
 
-# 3.08 Intro to Pig Dice Game (5:44) {#intro-to-pig-dice-game-544 .unnumbered}
+# 3.08 Intro to Pig Dice Game (5:44)
 
 ![](./images/webp/image562.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -7850,7 +7929,7 @@ Here are the diagrams for the pig game to help you.
 ![](./images/webp/image566.webp){width="6.5in"
 height="1.5729166666666667in"}
 
-# 3.09 Play the Game of Pig (5:04) {#play-the-game-of-pig-504 .unnumbered}
+# 3.09 Play the Game of Pig (5:04)
 
 ![](./images/webp/image567.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -7939,7 +8018,7 @@ that. Give it some time, really percolate on this, and think about how
 you would go about creating this program before going on with this
 lesson.
 
-# 3.10 Version One (4:05) {#version-one-405 .unnumbered}
+# 3.10 Version One (4:05)
 
 ![](./images/webp/image572.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -8001,7 +8080,7 @@ ones that I don&apos;t zero at the score, I just end my turn, and that
 describes the process of a single throw, which to me, is the cornerstone
 of this game.
 
-# 3.11 Version Two (2), Three (3), & Four (4) (6:51) {#version-two-2-three-3-four-4-651 .unnumbered}
+# 3.11 Version Two (2), Three (3), & Four (4) (6:51)
 
 ![](./images/webp/image574.webp){width="4.0in"
 height="2.262820428696413in"}
@@ -8109,7 +8188,7 @@ Look for ways to simplify the bigger problems and break them out into
 modular pieces as much as you can. And to really think about which
 functionality you need for each piece.
 
-## PDF of Presentions {#pdf-of-presentions .unnumbered}
+## PDF of Presentions
 
 -   **3.11.Intro-to-Pig-Dice-Games.pdf**
 
@@ -8117,7 +8196,7 @@ functionality you need for each piece.
 >
 > <https://d3c33hcgiwev3.cloudfront.net/wRpMd6i4TaiaTHeouG2osQ_7c411f98779849398ce95c23f23fedf1_WEB1092_M03_Introduction-to-Pig-Dice-Game.pdf?Expires=1704585600&Signature=dokAhbfdxI3qs5xjHcknMvZaX3kGHaQXYpYx2bHBBs6aaQ7SGPsvdCoVyqRrWHZhy3ZByrVjrK7dn7-D0N1FPTVv2GCEyv8zc3dUaTwu2RJbwQQxQyXm79L-bvq92s77lcIpJbGPtkHECDJeUIF1YbpMtLKeYoyoBovQ1WOm8Lg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A>
 
-# 4.01. Module 4 Introduction (0:43) {#module-4-introduction-043 .unnumbered}
+# 4.01. Module 4 Introduction (0:43)
 
 ![](./images/webp/image580.webp){width="4.0in"
 height="2.262820428696413in"}
@@ -8132,7 +8211,7 @@ our code editors and our web browsers and have a lot of fun with this
 project. We&apos;ve had a lot of fun creating the material for you and I
 think you&apos;ll get a lot out of it. Let&apos;s get to it.
 
-# 4.02 Intro to the Game of Pig (6:30) {#intro-to-the-game-of-pig-630 .unnumbered}
+# 4.02 Intro to the Game of Pig (6:30)
 
 ![](./images/webp/image581.webp){width="4.0in"
 height="2.262820428696413in"}
@@ -8265,7 +8344,7 @@ and labeled properly. We&apos;re on our way to creating the pig game.
 
 > <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eu5vr/start-files-game-of-pig>
 
-# 4.03 Start the Game (7:50) {#start-the-game-750 .unnumbered}
+# 4.03 Start the Game (7:50)
 
 ![](./images/webp/image591.webp){width="4.0in"
 height="2.262820428696413in"}
@@ -8375,7 +8454,7 @@ or 1 is going to choose player 1 or play or 2. This is 0, this is 1,
 okay, great. We&apos;ve got a good start at making our big game. Let&apos;s keep
 going in the next lesson.
 
-# 4.04 Set Up the Turn (6:39) {#set-up-the-turn-639 .unnumbered}
+# 4.04 Set Up the Turn (6:39)
 
 ![](./images/webp/image602.webp){width="4.0in"
 height="2.262820428696413in"}
@@ -8458,7 +8537,7 @@ dice will just keep giving me more of these, but that&apos;s working
 perfectly. We&apos;re rolling the dice, we&apos;ve set up our turn and we&apos;re
 ready to roll the dice.
 
-# 4.05 Throwing the Dice (9:57) {#throwing-the-dice-957 .unnumbered}
+# 4.05 Throwing the Dice (9:57)
 
 ![](./images/webp/image607.webp){width="4.0in"
 height="2.262820428696413in"}
@@ -8566,7 +8645,7 @@ their sum total. **GameData.rollSum**, that one there, is going to equal
 and put them in there. Great. We&apos;re going to test this in the next
 lesson.
 
-# 4.06 Test Throwing the Dice (5:22) {#test-throwing-the-dice-522 .unnumbered}
+# 4.06 Test Throwing the Dice (5:22)
 
 ![](./images/webp/image613.webp){width="4.0in"
 height="2.262820428696413in"}
@@ -8654,7 +8733,7 @@ to do one thing. That&apos;s going to start at zero. If one of the two like
 in this case here. If one of the two dice came up a one, then we do
 something else, we need to swap. &lbrack;inaudible&rbrack;.
 
-# 4.07 Add the Selection Statements (3:37) {#add-the-selection-statements-337 .unnumbered}
+# 4.07 Add the Selection Statements (3:37)
 
 ![](./images/webp/image623.webp){width="4.0in"
 height="2.262820428696413in"}
@@ -8705,7 +8784,7 @@ was world, your turn is over. You can keep going along and seeing that
 these numbers add up correctly and that it&apos;s doing the right thing
 until you&apos;ve gotten all of those things checked.
 
-# 4.08 Snake Eyes! (7:11) {#snake-eyes-711 .unnumbered}
+# 4.08 Snake Eyes! (7:11)
 
 ![](./images/webp/image630.webp){width="4.0in"
 height="2.262820428696413in"}
@@ -8807,7 +8886,7 @@ seconds and changing the player, so that&apos;s actually working, which is
 great. Now remove console gamedata.rollsum = 2 which was hard-coded for
 testing the switch players function.
 
-# 4.09 A "1" Was Rolled (5:19) {#a-1-was-rolled-519 .unnumbered}
+# 4.09 A "1" Was Rolled (5:19)
 
 ![](./images/webp/image638.webp){width="4.0in"
 height="2.262820428696413in"}
@@ -8891,7 +8970,7 @@ one, we&apos;ve gotten this sussed out. Next, we need to figure out the
 else, which is what happens when we want to continue the game and
 continue moving on with the game.
 
-# 4.10 The Else Statement (6:36) {#the-else-statement-636 .unnumbered}
+# 4.10 The Else Statement (6:36)
 
 ![](./images/webp/image646.webp){width="4.0in"
 height="2.262820428696413in"}
@@ -8988,7 +9067,7 @@ could choose roll again. So that&apos;s all working great, it&apos;s working
 perfectly fine just the way it is, excellent. Let&apos;s stop there and
 we&apos;ll pick it up in the next lesson.
 
-# 4.11 Checking for a Win (6:02) {#checking-for-a-win-602 .unnumbered}
+# 4.11 Checking for a Win (6:02)
 
 ![](./images/webp/image657.webp){width="4.0in"
 height="2.262820428696413in"}
@@ -9047,7 +9126,7 @@ statement that we&apos;ll check to see. If the game has won, we will start a
 new game. And the next lesson, we&apos;ll fill out the show current score
 section of this **function**.
 
-# 4.12 Show the Current Score (8:33) {#show-the-current-score-833 .unnumbered}
+# 4.12 Show the Current Score (8:33)
 
 ![](./images/webp/image663.webp){width="4.0in"
 height="2.262820428696413in"}
@@ -9176,7 +9255,7 @@ stop this lesson here but in the last lesson we will talk about some
 things that we could do to clean up a little more, just this final
 cleanup stuff.
 
-# 4.13 Final Clean-Up (8:08) {#final-clean-up-808 .unnumbered}
+# 4.13 Final Clean-Up (8:08)
 
 ![](./images/webp/image676.webp){width="4.0in"
 height="2.262820428696413in"}
