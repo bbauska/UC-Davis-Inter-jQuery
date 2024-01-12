@@ -723,7 +723,7 @@ different; the directions may be written a little bit different, but
 it&apos;s the same basic steps each time.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-05">1.05. Gotchas and Rookie Mistakes</h2>
+<h2 name="ch1-05">1.05. Gotchas and Rookie Mistakes (8:52)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 13. gotchas and rookie mistakes (1.05) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -924,7 +924,7 @@ carrying the extension .ZIP.
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-06">1.06. FlexSlider: A jQuery Plugin</h2>
+<h2 name="ch1-06">1.06. FlexSlider: A jQuery Plugin (6:38)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. flexslider: a jquery plugin (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1127,7 +1127,6 @@ folder includes a font that as the next button in the previous button
 that will show up on the slider, so, we need that in order for this
 'next' and 'previous' buttons to load properly. We will need that as
 well.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 33/34. flexslider.css, fonts & minified flexslider (27) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1145,9 +1144,8 @@ version of FlexSlider. Just those three files, the rest of it I don&apos;t
 need. I&apos;m going to put them into my project folder over here so that I
 have them, and that gets us all the files that we need in order to get
 started for this project.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-07">1.07. About the Minified Version</h2>
+<h2 name="ch1-07">1.07. About the Minified Version (5:55)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 35. about the minified version (1.07) (27) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1176,7 +1174,6 @@ in that you want to use. The non-modified version is available if you
 want to see the actual JavaScript or maybe even edited, but you&apos;ll
 probably never want to do that. So, we&apos;ll always use the Minified
 version.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 37. add javascript flexslider files (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1190,7 +1187,6 @@ And again, these are the files that we actually need for our project.
 So, we&apos;re going to copy them over and put them into our project folder
 just like you see here and just like we did just a minute ago in the
 previous lesson.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. add 3 files to head of index (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1205,7 +1201,6 @@ and you can come back to the flex slider website and I recommend that
 you do this. Even though I&apos;m going to walk through doing it with you,
 it&apos;s good to sort of come in here and see how these directions are
 written and to understand what the steps are.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 39. link to 3 files and add markup (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1223,7 +1218,6 @@ plug ins. It&apos;s important to know a little bit about how JavaScript
 works in order to get this stuff to work, right? Once you&apos;ve done it a
 few times for a few different plug ins, you&apos;ll see there&apos;s a lot of
 similarities.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. following directions (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1235,7 +1229,6 @@ similarities.
 
 All right, so let&apos;s go through this together. So, you can see what I
 mean about how to do this.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. styles.css and load jquery (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1347,7 +1340,7 @@ markup this plug in expects. It expects a <b>div</b> with the class,
 the images inside of it, and we&apos;ll do that in the next lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-08">1.08. Adding Markup & Hooking Up the Slider</h2>
+<h2 name="ch1-08">1.08. Adding Markup & Hooking Up the Slider  (7:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 49. adding markup and hooking up the slider (34) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -5293,7 +5286,6 @@ a little bit different.
 In the last module, we put all the tops of our posts or our sections
 really into post tops, and we can alert our council logged that out so
 we know where they all are.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 306.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -5311,7 +5303,6 @@ work. We want to make sure that all the images load because that&apos;s
 going to affect how tall each section is and where the top of the next
 section starts. That&apos;s why we&apos;re putting everything inside of the
 window function.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 307.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -5329,7 +5320,6 @@ it to the window, **window.addEventListener**, and we&apos;re listening for
 scroll event, then we&apos;re going to run a function, and all of our stuff
 will go inside of here. Now, this looks very similar to the jQuery
 version of the scroll event.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 308.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -5347,7 +5337,6 @@ stuff a little bit easier, I think, in jQuery. But the plain JavaScript
 syntax is not that much longer and you don&apos;t have to download the
 entire jQuery library to use it, or force your users to download the
 entire jQuery library to use it. That&apos;s nice.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 309.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -5361,13 +5350,17 @@ Then we&apos;re going to put into this variable pagetop. Pagetop it&apos;s going
 to equal this thing, **window.pageYOffset**. Again, what that does is
 it, **window.pageYOffset** tracks how far off the top of the window or
 page is scrolled.
-
-![](./images/webp/image310.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 310.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image310.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 I can, **console.log**, put **pageTop** and we should be seeing those
 pixels change as we scroll down the page. Let&apos;s test that and see.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 311/312.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -5388,9 +5381,14 @@ capture. But that event is firing every time we scroll a little bit. We
 get up to the top of the page, we should be getting a zero. When we get
 down to the bottom of the page, we should be getting a number that
 represents the full height of the entire window.
-
-![](./images/webp/image313.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 313.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image313.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 That&apos;s working great, and really what I want to do is I want to track
 not the very top of the window, but the start of this first thing or
@@ -5406,27 +5404,43 @@ number, is greater than the number of the second section for
 section on the screen, and if it&apos;s greater than the number for the top
 of the third section, then we must be viewing that section on the
 screen, and so on. That strategy is exactly the same.
-
-![](./images/webp/image314.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 314.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image314.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 As before, you can either be scrolling down the page, starting at the
 top, or going down. Or you could be somewhere in the middle of the page
 and scrolling up. Those are really your only two options, because this
 page doesn&apos;t scroll left and right. Those are the two conditions that
 we need to watch out for, while we&apos;re handling our scroll effect.
-
-# 2.25 The Magic Conditionals (5:58)
-
-![](./images/webp/image315.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-25">2.25 The Magic Conditionals (5:58)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 315.  (14x) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image315.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 To handle those two situations of scrolling up and scrolling down, I
 need an if and an else if, just as I did in the jQuery version and I&apos;m
 going to piece this in here.
 
-![](./images/webp/image316.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 316.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image316.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 You&apos;re going to have to type it, but I&apos;m going to paste it in here,
 because it&apos;s actually exactly the same as what we had in the previous
@@ -5457,9 +5471,14 @@ here. You come back. Let&apos;s go up to the top of the page, click
 section, and that second section it&apos;s 250 pixels from the top of the
 screen. The down says scrolling down too. It&apos;s into the 250 pixels that
 did it. Should be doing it. There, I see what I did wrong.
-
-![](./images/webp/image317.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 317.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image317.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Over here. I put the plus 250 in the wrong place. Should be here. Plus
 250, there we go. Lets try that. Scroll to the top of the page, there we
@@ -5467,7 +5486,7 @@ go. Now when I get to section two, scrolling down too, when that is 250
 pixels from the top of the page, it hits it and says okay.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 318/319.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 318/319.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image318.webp"
   style="width:45%;"
@@ -5488,8 +5507,14 @@ what makes the script very powerful, because only when those things
 happen, we&apos;re going to make other things happen on the page. Not for
 every single pixel that we scroll.
 
-![](./images/webp/image320.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 320.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image320.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Just as before, we want to see if the **counter** is not the same as the
 previous **counter**. Because if it isn&apos;t, then we&apos;ve moved into a new
@@ -5518,8 +5543,9 @@ Great. We&apos;ll stop this lesson here, but in the next one will put the
 correct class on the correct link. We&apos;ll put the selected class on the
 most correct so that it can get highlighted properly. Put a semicolon
 there before we go.
-
-# 2.26 Changing the Next Link (5:56)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-26">2.26 Changing the Next Link (5:56)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ![](./images/webp/image322.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -5620,8 +5646,9 @@ we&apos;ll take care of that in the next lesson, and then we&apos;re done with
 this script and you&apos;ll have two versions of it, one that works with
 jQuery, and one that works with plain Vanilla JavaScript.
 
-# 2.27 Resizing Function (5:07)
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-27">2.27 Resizing Function (5:07)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 ![](./images/webp/image330.webp){width="4.0in"
 height="2.261111111111111in"}
 
@@ -5706,7 +5733,9 @@ will go on from there and we&apos;ll build that up in the next lesson to
 finish the script off. But this is really all exactly the same as what
 we did in the for the jQuery version.
 
-# 2.28 Finalizing the Script (10:01)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-28">2.28 Finalizing the Script (10:01)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ![](./images/webp/image338.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -5859,11 +5888,11 @@ This script is really great, and I think really you could do a lot with
 it without even going to a library, like Animated On Scroll. But,
 that&apos;s up to you.
 
-## PDF of Presentation: 2.28.JavaScript-Scroll-Effects.pdf
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation">PDF of Presentation: 2.28.JavaScript-Scroll-Effect.pdf</a></li>
+</ul>
 
-## <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation> {#httpswww.coursera.orglearninteractivity-javascript-jquerysupplement0lqmfpdf-of-presentation .unnumbered}
-
-# 2.29 Scription Site Introduction (5:54)
+<h2 name="ch2-29">2.29 Scription Site Introduction (5:54)</h2>
 
 ![](./images/webp/image347.webp){width="4.0in"
 height="2.261111111111111in"}
@@ -6039,21 +6068,19 @@ place. But if you go wrong, don&apos;t worry about it at the end, I will
 give you my finished file so you could do this without going through
 this. But I think it&apos;s helpful to go through it anyway.
 
-### 2.29 Start Files: Scription Site
+<h3>2.29 Start Files: Scription Site<h3>
+
+<ul>
+  <li>Start Files: 2.29.Scription-Part1-START.zip</li>
+  <li>Scription: 2.29.Scription-Part1-Snippet.zip</li>
+  <li>Start Files: 2.29.Scription-Part2-START.zip</li>
+  <li>Scription: 2.29.Scription-Part2-Snippet.zip</li>
+  <li>Flex Files: 2.29.Flexslider-files.zip</li>
+</ul>
 
 <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/KrJDR/start-files-scription-site>
 
-## Start Files: 2.29.Scription-Part1-START.zip
-
-## Scription: 2.29.Scription-Part1-Snippets.zip
-
-## Start Files: 2.29.Scription-Part2-START.zip
-
-## Scription: 2.29-Scription-Part2-Snippets.zip
-
-## Flex Files: 2.29.Flexslider-files.zip
-
-# 2.30 Header HTML (5:09)
+<h2 name="ch2-30">2.30 Header HTML (5:09)</h2>
 
 # ![](./images/webp/image368.webp){width="5.0in" height="3.0635684601924758in"}
 
@@ -6178,7 +6205,7 @@ We&apos;re coming along really well here. And we&apos;ll stop this lesson here
 and then we&apos;ll pick up putting in the rest of the HTML out in the next
 lesson.
 
-# 2.31 Pricing HTML (6:16)
+<h2 name="ch2-31">2.31 Pricing HTML (6:16)</h2>
 
 ![](./images/webp/image381.webp){width="4.0in"
 height="2.261111111111111in"}
