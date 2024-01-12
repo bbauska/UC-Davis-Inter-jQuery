@@ -1490,9 +1490,17 @@ back to it, but I&apos;m essentially done with it. Now I&apos;m only going to
 work on the advancedSlider version here. I have that version; these
 files open in my code editor.
 
-![](./images/webp/image097.webp){width="3.5in"
-height="1.9388353018372704in"}![](./images/webp/image098.webp){width="3.5in"
-height="1.9388353018372704in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 97/98. verify right set of files (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image097.png?raw=true"
+  style="width:45%"
+  alt="Use advancedSlider." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image098.png?raw=true"
+  style="width:45%"
+  alt="Verify your working with the right set of files." />
+</p>
 
 I&apos;ve also switched this over here so that it&apos;s pointing to my
 advancedSlider folder here (see top of image), so that I know that I&apos;m
@@ -1501,8 +1509,14 @@ right set of files in your browser. Make sure you&apos;ve got the right set
 of files in your code editor. Over here you can see it says
 advancedSlider there, so this is my advanced slider files.
 
-![](./images/webp/image099.webp){width="5.0in"
-height="2.7697648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. update the markup (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image099.png"
+  alt="Update the Markup."
+  style="border: 2px solid gray;"
+  width="40%;" />
+</p>
 
 Great. Now that I&apos;ve got that into place and I&apos;m ready to really do
 some different things with this FlexSlider, the first thing I want to do
@@ -1516,15 +1530,27 @@ adopt one of these kittens on this lovely Kitten page. I need to update
 the markup to go along with this, for my FlexSlider. I will provide some
 snippets with this lesson that you can open and they look like this.
 
-![](./images/webp/image100.webp){width="5.0in"
-height="2.7697648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 100. flexslider jquery plugin (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image100.png"
+  alt="FlexSlider jQuery Plugin."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 There are some snippets here and so I&apos;m basically going to replace my
 slider with this content here. You can type it all out if you wanted to,
 instead of just putting the pictures in.
 
-![](./images/webp/image101.webp){width="5.0in"
-height="2.7697648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 101. updated markup adding anchor tags (54) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image101.png"
+  alt="Add anchor tags with class to markup."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 I have a div, with an h2. The div has a class of slide 1, slide 2, slide
 3, so on and so forth. Then I have the h1 and the h2 and I have an
@@ -1538,9 +1564,17 @@ could actually adopt this kitten or something like that, that will be
 fun. But rather than make you type all of this stuff out, which is
 tedious, you can actually come to the snippet page and just copy it.
 
-![](./images/webp/image102.webp){width="3.5in"
-height="1.9388353018372704in"}![](./images/webp/image103.webp){width="3.5in"
-height="1.9388353018372704in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 102/103. flexslider, slides, class (55) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image102.png?raw=true"
+  style="width:45%"
+  alt="Update index.html with FlexSlider, slides and new class (cta)." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image103.png?raw=true"
+  style="width:45%"
+  alt="Update index.html with FlexSlider, slides and new class (cta)." />
+</p>
 
 Then come back to your project and on your index file, in place of the
 slider down here, this FlexSlider, we&apos;re just going to paste this one
@@ -1553,19 +1587,32 @@ this slider and that&apos;s great. That gets us started and on our way with
 creating our fancier version of our FlexSlider. In the next lesson,
 we&apos;ll start looking at what we need to do to adjust the styling for
 this.
-
-# 1.12. Additional Styling (5:47) {#additional-styling-547 .unnumbered}
-
-![](./images/webp/image104.webp){width="4.0in"
-height="2.1752132545931757in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch1-12">1.12. Additional Styling (5:47)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 104. additional styling (1.12) (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image104.png"
+  alt="1.12. Additional Styling for FlexSlider."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 In the last module, we updated the markup for our fancy version of the
 slider, and now we need to do some updating for the actual CSS for the
 display of the slides.
 
-![](./images/webp/image105.webp){width="3.5in"
-height="1.9784722222222222in"}![](./images/webp/image106.webp){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 105/106. styling for flexslider (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image105.png?raw=true"
+  style="width:45%"
+  alt="Rules for flexslider." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image106.png?raw=true"
+  style="width:45%"
+  alt="Update styles.css with new rules." />
+</p>
 
 So, I&apos;m going to come back over here to my snippets and I&apos;m just going
 to copy these three rules here. And I&apos;m going to come over and paste
@@ -1573,8 +1620,14 @@ them into my CSS file over here, styles.css. And I&apos;m going to stick
 them just in my section with the flex slider stuff here. It doesn&apos;t
 really matter where they go, I&apos;m going to put them here.
 
-![](./images/webp/image107.webp){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 107. styles.css: slide1-slide5 background (57) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image107.png"
+  alt="Define background for slide1 thru slide5 in styles.css."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Now, this is really important, the slides the .slide1, .slide2, .slide3,
 that corresponds to these divs, div class slide3, slide4. They&apos;re going
@@ -1594,8 +1647,14 @@ in CSS currently, there&apos;s some features coming to CSS that will make it
 easier in the long run, but for right now it&apos;s a little clunky and
 unfortunate.
 
-![](./images/webp/image108.webp){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. set position of slides (58) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image108.png"
+  alt="The position CSS property sets how an element is positioned in a document."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 But basically, what I&apos;ve done here is I&apos;ve said the div that&apos;s inside
 these list items, I&apos;m going to make it a width 100% position relative
@@ -1611,8 +1670,14 @@ width. So as wide as these things are, they will always be 50% as high.
 And these images are twice as wide as they are tall. So that actually
 works for these particular images.
 
-![](./images/webp/image109.webp){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 109. kitten01.jpg image dimensions (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image110.png"
+  alt="Image Dimensions for kitten01.jpg."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 If I come back to the finder and look at these images, if I do CMD+I,
 you can see here that the dimensions of this image is 960 by 480, it&apos;s
@@ -1637,17 +1702,27 @@ that for the height to the width ratio. So that&apos;s a good place to find
 out what that ratio is. So that you would set the ratio By Photoshop.
 And you can set the width to whatever the height is in relation to the
 width. And then I&apos;ve got background size cover.
-
-![](./images/webp/image110.webp){width="5.0in"
-height="2.826388888888889in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 110. styling the cta 'call to action' (60) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image110.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 Then down here I&apos;m setting the H2 to position absolute top 20 pixels,
 left 20 pixels, then I&apos;m setting the color for that. So that&apos;s not too
 fancy. But that&apos;s an important thing to understand with the way that
 this is working.
 
-![](./images/webp/image111.webp){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 111. styling the cta 'call to action' (60) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image111.png"
+  alt="."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 The next thing we need is the styling for the actual call to action
 buttons that are going to show up on the slides. If I save this like
@@ -1659,22 +1734,41 @@ background of my slide, rather than in the foreground. And the
 foreground is an H2 that&apos;s been absolutely positioned here. But now I
 need to style this call to action, and I&apos;ll do that in the next lesson.
 
-# 1.13. Styling the CTA 'Call To Action' (8:01) {#styling-the-cta-call-to-action-801 .unnumbered}
-
-![](./images/webp/image112.webp){width="4.0in"
-height="2.1752132545931757in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch1-13">1.13. Styling the CTA 'Call To Action'</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 112. styling the cta 'call to action' (61) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image112.png"
+  alt="1.13. Styling the CTA 'Call to Action'."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 Now we&apos;re down to styling the call to action so that it displays
 properly on the page, and I have a rule for the dot CTA anchor tags,
 there&apos;s a lot of stuff in here, but you&apos;ll see why as we move forward
 and do this, but let&apos;s go ahead and add this rule to our style sheet.
 
-![](./images/webp/image113.webp){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. styling the call to action (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image113.png"
+  alt="Styling the Call to Action."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
-![](./images/webp/image114.webp){width="3.5in"
-height="1.9784722222222222in"}![](./images/webp/image115.webp){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 114/115. styling the call to action (62) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image114.png"
+  style="width:45%;"
+  alt="Call to Action Styling." />
+<img src="./images/webp/image115.png"
+  style="width:45%;"
+  alt="Styles.css for Call to Action." />
+</p>
 
 If you come over here, you can see that I have it here, it&apos;s a long one
 so, I made it, so you don&apos;t have to tighten it, you can just copy and
@@ -1711,17 +1805,29 @@ family, the font size, 4vw is four percent of the viewport width, so
 again, the font it&apos;s going to resize based on how wide the screen is,
 and then also the color for the text. That&apos;s a lot of stuff.
 
-![](./images/webp/image116.webp){width="3.5in"
-height="1.9784722222222222in"}![](./images/webp/image117.webp){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116/117. define class: light (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image116.png"
+  style="width:45%;"
+  alt="Styles.css: Define new class .light." />
+<img src="./images/webp/image117.png"
+  style="width:45%;"
+  alt="Utilize class: light in index." />
+</p>
 
 We&apos;re going to do one more rule in here for dot light (.light), and
 I&apos;m setting a color in here, color, and I think I set it to, where did
 I set it to #ededed. The reason for that, it&apos;s a light gray, one of the
 slides is dark, so over here, I have a class of light on slide 4.
-
-![](./images/webp/image118.webp){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 118. styles.css: background slide (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image118.png"
+  alt="Define different background colors for slides."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 You may have also wondered why on one of the slides I went up here, I
 went kitten 2 to kitten 6, and then four, and then five. Kitten 3, the
@@ -1733,17 +1839,29 @@ different color in there and a different class for that one, that&apos;s all
 we need there for that, so that&apos;s really good and should make sense in
 our work.
 
-![](./images/webp/image119.webp){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 119. resize call to action button (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image119.png"
+  alt="Resize the CTA (call to action) button for tablet-sized browser windows."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 We need a couple more rules that are going to resize these elements for
 desktop and for mobile, so we need to add these rules into the media
 queries at the bottom of the style sheet (styles.css), and we&apos;re just
 setting height, width, and font size.
-
-![](./images/webp/image120.webp){width="3.5in"
-height="1.9784722222222222in"}![](./images/webp/image121.webp){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 120/121. tablet-sized min-width: 600px (64) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image120.png"
+  style="width:45%;"
+  alt="styles.css: min-width: 600px." />
+<img src="./images/webp/image121.png"
+  style="width:45%;"
+  alt="CTA: Call To Action anchor tag." />
+</p>
 
 For the tablet-sized versions of the site, which is, screens that are
 600 pixels and wider, I&apos;m just going to set dot CTA with 20vw instead
@@ -1754,9 +1872,17 @@ and then I&apos;m setting the font size to a little bit smaller, I think is
 not what it was, yes, 3vw instead of 4vw, it&apos;s 3vw, and so bringing the
 font size down a little bit, 3vw.
 
-![](./images/webp/image122.webp){width="3.5in"
-height="1.9784722222222222in"}![](./images/webp/image123.webp){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 122/123. desktop with min-width: 1000px (65) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image122.png"
+  style="width:45%;"
+  alt="styles.css: min-width: 1000px." />
+<img src="./images/webp/image123.png"
+  style="width:45%;"
+  alt="styles.css: new ID cta with width/height of 150px." />
+</p>
+
 
 Then, when we get to the full-screen size for desktop, I need this
 again, and I&apos;m just going to set it to a maximum size, because at this
@@ -1765,17 +1891,29 @@ be set to a specific size, 150px, so it&apos;s not going to be flexible
 anymore, because if, this size or wider, it&apos;s always going to be this
 size, 150px. Font-size to 24 pixels.
 
-![](./images/webp/image124.webp){width="5.0in"
-height="2.826388888888889in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 124. kittens for sale example (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image124.png"
+  alt="Kittens for Sale example."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 That gets all of the styling in place for these, and if we go back and
 review the page, you&apos;ll see that the call to action isn&apos;t on the
 screen at all, it&apos;s going to be up here, I actually noticed down here
 at bottom 100 percent, so it is showing up. But this is the way they&apos;re
 going to look in end here, is round like this.
 
-![](./images/webp/image125.webp){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 125. example: kittens for sale! (66) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image125.png"
+  alt="Kittens for Sale example, #2."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
+
 
 If you go to number 4, slide 4, that one should be picking up the light
 class, and I don&apos;t know why it&apos;s not now. You know what, I think I put
@@ -1786,19 +1924,26 @@ right. It may need to be refreshed properly, but that&apos;s okay. Great, so
 you got that all in place. The last thing we need to do is get this
 animation to work.
 
-## PDF of Presentation {#pdf-of-presentation-1 .unnumbered}
+<h3>PDF of Presentation</h3>
 
 Here is a PDF of the presentation slides used in the lessons for this
 section: <b>jQuery Plugins and FlexSlider</b>.
 
--   1.13.FlexSlider.pdf
+<ul>
+  <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.13.FlexSlider.pdf" 
+    target="_blank" rel="noopener noreferrer">1.13.FlexSlider.pdf</a></li>
+</ul>
 
-https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Hv9Tf/pdf-of-presentation
-
-# 2.01 Module 2 Intro (0:38) {#module-2-intro-038 .unnumbered}
-
-![](./images/webp/image126.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-01">2.01. Module 2 Intro (0:38)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 126. module 2 intro - scroll effects (67) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image126.png"
+  alt="2.01. Module 2 Intro - Scroll Effects."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 Hello and welcome to our second module. In this lesson, we will look at
 scroll effects. Scroll effects are very popular these days and you see
@@ -1810,18 +1955,31 @@ to test your skills, and see how you&apos;re doing with this.
 Let&apos;s dive in, break out our code editors and our web browsers, and get
 started on this module.
 
-# 2.02. Introduction to Smooth Scroll with jQuery (4:15) {#introduction-to-smooth-scroll-with-jquery-415 .unnumbered}
-
-![](./images/webp/image127.webp){width="4.0in"
-height="2.1752132545931757in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-02">2.02. Introduction to Smooth Scroll with jQuery (4:15)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 127. intro to smooth scroll with jquery (67) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image127.png"
+  alt="2.02. Intro to Smooth Scroll with jQuery."
+  style="border: 2px solid black; border-radius:15px"
+  width="40%;" />
+</p>
 
 In the first part of this lesson, we&apos;re going to use jQuery to make a
 smooth scroll script so that when you click a link at the top of the
 page, it does a smooth scrolling action further down the page.
 
-![](./images/webp/image128.webp){width="3.5in"
-height="1.9784722222222222in"}![](./images/webp/image129.webp){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 128/129. section one and two example (68) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image128.png"
+  style="width:45%;"
+  alt="Example section one." />
+<img src="./images/webp/image129.png"
+  style="width:45%;"
+  alt="Example section two." />
+</p>
 
 And I have an example page that you can download with example files and
 I have them open here and you&apos;ll notice if I click section one, it puts
@@ -1832,9 +1990,16 @@ here. And this is just basic html. If I click section two it just put
 section two at the top of the page, you can see here the URL has pounds
 second in here.
 
-![](./images/webp/image130.webp){width="3.5in"
-height="1.9784722222222222in"}![](./images/webp/image131.webp){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130/131. section links defined (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image130.png"
+  style="width:45%;"
+  alt="href sections defined #first thru #fifth." />
+<img src="./images/webp/image131.png"
+  style="width:45%;"
+  alt="Example sections 1st thru 5th." />
+</p>
 
 If I go into my files and look at this, you can see that my links are
 just linked to these IDs pound first links to section ID first and pound
@@ -1849,10 +2014,22 @@ from one place to another place on a web page. And if it happens
 smoothly and quickly without a lot of interference, then it adds to the
 user experience. So, we&apos;re going to do that using jQuery.
 
-![](./images/webp/image132.webp){width="3.5in"
-height="1.9784722222222222in"}![](./images/webp/image133.webp){width="3.5in"
-height="1.9784722222222222in"}![](./images/webp/image134.webp){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 132/133. adjust the header rule styles.css (69) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image132.png"
+  style="width:40%;"
+  alt="Adjust the header rule CSS." />
+<img src="./images/webp/image133.png"
+  style="width:40%;"
+  alt="Updates to styles.css - header and body." />
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 134. smooth scroller set heading (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image134.png"
+  alt="Smooth Scroller example with set heading."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
 
 The first thing we need to do is set the header so its position fixed.
 And if you go back to the files, you&apos;ll notice in the style sheet up
@@ -1871,9 +2048,16 @@ width 100% so it will stretch across the entire window. Now you can see
 because it&apos;s slightly transparent that the images and every all the
 content is passing beneath this header.
 
-![](./images/webp/image135.webp){width="3.5in"
-height="1.9784722222222222in"}![](./images/webp/image136.webp){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 135/136. padding-top: 200 (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image135.png"
+  style="width:45%;"
+  alt="Add padding-top: 200 to body of style.css." />
+<img src="./images/webp/image136.png"
+  style="width:45%;"
+  alt="Smooth Scroller example of padding-top: 200." />
+</p>
 
 But you also notice that it&apos;s covering up part of section one. So, we
 need to go back to our style sheet here and uncomment out this line
@@ -1889,30 +2073,36 @@ document. Okay, so with some basic CSS and some basic HTML out of the
 way, we can start working on our script and getting the interactivity to
 work properly.
 
-## Start Files: Smooth Scroll with JavaScript {#start-files-smooth-scroll-with-javascript .unnumbered}
+<h3>Start Files: Smooth Scroll with JavaScript</h3>
 
 Attached is a zip file of the things you need to begin this exercise. A
 <b>zip file</b> is defined as: a computer file whose contents include one
 or more files that are compressed for storage or transmission, often
 carrying the extension .ZIP.
 
--   [2.02.jQueryScrollEffects-START.zip (ZIP
-    File)](https://d3c33hcgiwev3.cloudfront.net/TWch2Fo9RPunIdhaPQT7mg_20a45687745d416696ea6b9617ac6ff1_WEB1092_FlexSliderPlugin.zip?Expires=1700352000&Signature=NMzGqDqh7ukjS3t3QDStmyO63TfJKJODbNBiGheFKRKgduARGm~12s2u9yv2TVnTO0XHYiNSSUtV-ltfPKm5Y98d9WkeqttASMh4~z1OqZM7AsGldhYMl3UI2sbmakAnmXGRMbQvoZaBd5FpL~ExZZrwraKp4Y687myEMvyE8K0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery" target="_blank" rel="noopener noreferrer">
+    2.02.jQueryScrollEffects-START.zip (ZIP File)</a></li>
+</ul>
 
-> <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery>
+<h3>Additional Resource:</h3>
 
-## <b>Additional Resource:</b> {#additional-resource-1 .unnumbered}
-
--   [How to open a zip file for either Mac or
-    PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
-
-# 2.03. Creating a Click Handler (5:00) {#creating-a-click-handler-500 .unnumbered}
-
-##  {#section .unnumbered}
-
-![](./images/webp/image137.webp){width="3.5in"
-height="1.9784722222222222in"}![](./images/webp/image138.webp){width="3.5in"
-height="1.9784722222222222in"}
+<ul>
+  <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/" 
+    target="_blank" rel="noopener noreferrer">How to open a zip file for either Mac or PC</a></li>
+</ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-03">2.03. Creating a Click Handler (5:00)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 137/138. creating a click handler (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image137.png"
+  style="width:45%;"
+  alt="2.03. Creating a Click Handler." />
+<img src="./images/webp/image138.png"
+  style="width:45%;"
+  alt="Add Easing and Click Handler scripts to end of index." />
+</p>
 
 We have set up our files, and we&apos;re ready to start working on our
 script, and you&apos;ll notice down here at the bottom of the page, I have
@@ -1925,10 +2115,16 @@ plug-in and how that works. Then I have linked here a file called
 <b>smoothscroll.js,</b> which is our JavaScript file, and this is where
 we&apos;re going to write our jQuery code.
 
-![](./images/webp/image139.webp){width="3.5in"
-height="1.9784722222222222in"}![](./images/webp/image140.webp){width="3.5in"
-height="1.9784722222222222in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 139/140. add click handler to index (71) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image139.png"
+  style="width:45%;"
+  alt="If clicked, run this function." />
+<img src="./images/webp/image140.png"
+  style="width:45%;"
+  alt="smoothscroll.js - click handler function." />
+</p>
 I&apos;m going to remove that comment, and add here a click handler, so I&apos;m
 going to use my jQuery object to come in and grab my <b>nav ul li a</b>,
 the anchor tags in the navigation over here at these anchor tags that I
@@ -1947,8 +2143,14 @@ make var thisSection, and assign it this.attr(href). What that&apos;ll do is
 it&apos;ll get the href of the link that was clicked. Let&apos;s alert that out.
 You can see what it actually does.
 
-![](./images/webp/image141.webp){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 141. example: alert, click handler (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image141.png"
+  alt="Example: alert click handler function."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 If I come back to my HTML, I&apos;ve put a click handler on all of these
 anchor tags here, but you can only click on one at a time. I should be
@@ -1959,9 +2161,14 @@ back over here, and refresh the page and click one of these links, I
 should get pound 1st, pound 2nd, pound 3rd, pound 4th, and pound 5th.
 You&apos;ll notice it is actually moving the page there as well as it does
 that, but I want to make sure I&apos;m getting those links.
-
-![](./images/webp/image142.webp){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 142. html stop animate (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image142.png"
+  alt="HTML stop animate."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Let&apos;s go back to our script. Now, we don&apos;t need this alert here at
 all. That&apos;s not going to help anything, but it just shows us what&apos;s
@@ -1979,9 +2186,19 @@ going to actually animate our HTML, and in here, we&apos;ll use our
 <b>thisSection</b> thing to tell us where we&apos;re going to animate to, and
 we&apos;ll do that in the next lesson so you see how it all comes together.
 
-# 2.04. Adding the Animation (6:56) {#adding-the-animation-656 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-04">2.04. Adding the Animation (6:56)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 143/144. adding the animation (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image143.png"
+  style="width:45%;"
+  alt="2.04. Adding the Animation." />
+<img src="./images/webp/image144.png"
+  style="width:45%;"
+  alt="Adding the animation to smoothscroll.js." />
+</p>
 
-# ![](./images/webp/image143.webp){width="3.5in" height="1.9784722222222222in"}![](./images/webp/image144.webp){width="3.5in" height="1.9784722222222222in"} {#section-1 .unnumbered}
 
 In the previous module we created a click handler for all the anchor
 tags and then we got the ID of the particular anchor tag that gets
@@ -1991,9 +2208,14 @@ points to the idea of the section down below that we&apos;re going to. It&apos;s
 going to be pound (#) 1st or pound 2nd or pound 3rd or pound 4th or
 pound 5^th^ (#1st-#5th). We&apos;ve already seen that.
 
-![](./images/webp/image144.webp){width="5.0in"
-height="2.826388888888889in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. animate scroll top (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image144.png"
+  alt="Animate in 8 tens of a second property of scrollTop."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 Then we&apos;re going to animate the html. And I&apos;ll show you in a minute
 what this stop thing does, but we&apos;re going to animate and in here we
 pass in a key value pair that we&apos;re going to actually animate. What is
@@ -2010,8 +2232,15 @@ offset top. We&apos;ll set it to offset top. So, dollar sign in parentheses,
 this section and set its offset, to the top over 800 milliseconds. And
 that will actually animate the page to the top of the window.
 
-![](./images/webp/image145.webp){width="5.0in"
-height="2.826388888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 145. example: offset scrolltop (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image145.png"
+  alt="Example: offset scrollTop."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
+
 
 If we test this out and if you&apos;re wondering what offset is, you can go
 look it up on the jQuery documentation and see what offset does and how
@@ -2022,9 +2251,16 @@ of the pound second from up here and refresh the page. And then if I
 click 2nd, you can see that it does a smooth scroll right to with that
 section going right up to the top of the window.
 
-![](./images/webp/image146.webp){width="3.5in"
-height="1.9784722222222222in"}![](./images/webp/image147.webp){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 146/147. stop method with example (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image146.png"
+  style="width:45%;"
+  alt="Stop method." />
+<img src="./images/webp/image147.png"
+  style="width:45%;"
+  alt="Example, scroll stop method." />
+</p>
 
 We don't want it to go all the way to the top of the window, we want it
 to stop here and we&apos;ll fix that in a minute. But before we do, what
@@ -2052,9 +2288,16 @@ to go all the way down to the 5th section. So that&apos;s what this stop
 method is doing for us. Don&apos;t stop. So it will stop the animation
 that&apos;s running and then animate the thing that we&apos;ve clicked on next.
 
-![](./images/webp/image148.webp){width="3.5in"
-height="1.9784722222222222in"}![](./images/webp/image149.webp){width="3.5in"
-height="1.9784722222222222in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 148/149. top scroll minus 200 (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image148.png"
+  style="width:45%;"
+  alt="Scroll to top minus 200 pixels." />
+<img src="./images/webp/image149.png"
+  style="width:45%;"
+  alt="Example: scroll to top minus 200px." />
+</p>
 
 Okay, now the next thing is this there are two minor things we need to
 fix. First of all, I really want it to move to top minus 200 like so.
@@ -2066,9 +2309,14 @@ remember, we put 200 pixels padding up there. So that&apos;s now putting it
 in the correct place, so that helps. So that&apos;s one thing, I&apos;m going to
 put this back to 800 because the animation is so slow now.
 
-![](./images/webp/image150.webp){width="5.0in"
-height="2.826388888888889in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 150. move animation tag to body (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image150.png"
+  alt="Move animation tag to body."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 Okay, the other thing is I&apos;m going to put a comment here and add body.
 Now, pretty much these days all the browsers will animate the HTML
 element and you won&apos;t run into a problem with this, but there have been
