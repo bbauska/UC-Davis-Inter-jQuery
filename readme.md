@@ -468,10 +468,16 @@ You will be able to then extend the script in many creative ways.</p>
     Coursera’s Honor Code</a></li>
 </ul>
 
-# 1.01. Course Introduction (0:40) {#course-introduction-040 .unnumbered}
-
-![](./images/webp/image003.webp){width="4.0in"
-height="2.240598206474191in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch1-01">1.01. Welcome! Course Introduction (0:40)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. course intro (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image003.png" 
+  alt="1.01. Course Introduction."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
 Hello and welcome to our 3rd course in our four-core specialization on
 JavaScript. My name is Bill Mead and I&apos;m back again to do more
@@ -487,11 +493,19 @@ We&apos;re going to do a lot in this course. Let&apos;s break out our code
 editors and our web browsers and get started and learn even more about
 JavaScript.
 
-# 1.02. Module 1 Introduction {#module-1-introduction .unnumbered}
-
-![](./images/webp/image004.webp){width="4.0in"
-height="2.240598206474191in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch1-02">1.02. Module Introduction</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. module 1 intro (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image004.png" 
+  alt="1.02. Module 1 Introduction."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 Hello and welcome to our first module in our third course on JavaScript.
 In this module, we&apos;re going to dive even deeper into jQuery, looking at
 some jQuery plugins. You&apos;ve already made some sliders in a previous
@@ -501,15 +515,29 @@ you&apos;ve done manually by creating your own sliders is really instructive
 and useful. Plus, you end up with a great tool for creating slider
 elements on web pages and that&apos;s really pretty fun.
 
-# 1.03. Introduction to jQuery Plugins (3:49) {#introduction-to-jquery-plugins-349 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch1-03">1.03. Introduction to jQuery Plugins (3:49)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. intro to jquery plugins (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image005.png" 
+  alt="1.03. Intro to jQuery Plugins."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
-![](./images/webp/image005.webp){width="4.0in"
-height="2.240598206474191in"}
 
 Just as a quick recap, we&apos;ve learned a lot of JavaScript so far.
 
-![](./images/webp/image006.webp){width="5.0in"
-height="2.8338681102362204in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. recap: javascript (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image006.png" 
+  alt="Recap: JavaScript."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
+
 
 We started with the JavaScript basics, which included working with
 variables, flow control structures like if statements and else
@@ -521,8 +549,15 @@ can capture those events and then do things with them. With these
 basics, you can do quite a lot, but it might take you a long time to
 write the scripts that you want to do for your web page.
 
-![](./images/webp/image007.webp){width="5.0in"
-height="2.8338681102362204in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. recap: jquery (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image007.png" 
+  alt="Recap: jQuery."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
+
 
 Then we had jQuery and your world became a little bit larger. With
 jQuery, we&apos;ve learned that there are a lot of helper functions built
@@ -530,8 +565,14 @@ into this library that make writing scripts shorter and a little bit
 more compact, and a little bit easier. That helps and that makes things
 a little bit easier and a little bit better for all of us.
 
-![](./images/webp/image008.webp){width="5.0in"
-height="2.8338681102362204in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. introducing: plugins (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image008.png" 
+  alt="Introducing: Plugins."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
 Now we need to introduce plugins. We&apos;ve already used the <b>easing</b>
 plugin, which is a very simple plugin that adds additional function to
@@ -553,8 +594,15 @@ written and see if you can modify them and use them in your own projects
 through the use of a plugin, and that&apos;s really very powerful and really
 great.
 
-![](./images/webp/image009.webp){width="5.0in"
-height="2.8338681102362204in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. adding functionality (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image009.png" 
+  alt="Adding Functionality."
+  style="border: 2px solid #000000;" 
+  width="50%;" />
+</p>
+
 
 Again, <b>plugins</b> add additional functionality to jQuery, and we&apos;ve
 already seen this with the <b>easing plugin.</b> But some plugins can have
@@ -571,10 +619,16 @@ a lot of features and functionality. What if you want the tabs to run
 down the side of the tabbed interface rather than across the tab? You
 could do that thing.
 
-# 1.04. Using Plugins and Essential Steps (4:22) {#using-plugins-and-essential-steps-422 .unnumbered}
+<h2 name="ch1-04">1.04. Using Plugins and Essential Steps (4:22)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 10. using plugins and essential steps (1.04) (13) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image010.png"
+  alt="1.04. Using Plugins and Essential Steps."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
-![](./images/webp/image010.webp){width="4.0in"
-height="2.240598206474191in"}
 
 Using plugins and essential steps, adding plugins to your project,
 configuring them, and learning how to use them still takes some work and
@@ -584,8 +638,15 @@ whole script yourself.
 Many of the larger, more sophisticated plugins require five steps to get
 them to work.
 
-![](./images/webp/image011.webp){width="5.0in"
-height="2.8338681102362204in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 11. using plugins and essential steps, #2 (13) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image011.png" 
+  alt="Using Plugins and Essential Steps, #2."
+  style="border: 2px solid #000000;" 
+  width="50%;" />
+</p>
+
 
 <b>[Step 1]{.mark}</b> is, you have to use the markup indicated by the
 plugin documentation. Often, you&apos;ll have to use divs or our articles or
@@ -631,8 +692,15 @@ then the jQuery plugin, and then you will initialize the plugin on your
 own script. And then also make sure that if there&apos;s any CSS files,
 those are included as well.
 
-![](./images/webp/image012.webp){width="5.0in"
-height="2.8338681102362204in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. documentation mish-mash (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image012.png"
+  alt="Documentation Mish-Mash."
+  style="border: 2px solid #000000;" 
+  width="50%;" />
+</p>
+
 
 Suppose you find a jQuery plugin you want to try on your website, how do
 you go about adding it to your page? How do you know what to do? Because
@@ -654,13 +722,25 @@ pretty much the same way. The documentation may look a little bit
 different; the directions may be written a little bit different, but
 it&apos;s the same basic steps each time.
 
-# 1.05. Gotchas and Rookie Mistakes (8:52) {#gotchas-and-rookie-mistakes-852 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch1-05">1.05. Gotchas and Rookie Mistakes</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 13. gotchas and rookie mistakes (1.05) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image013.png"
+  alt="Gotchas and Rookie Mistakes."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
-![](./images/webp/image013.webp){width="4.0in"
-height="2.240598206474191in"}
-
-![](./images/webp/image014.webp){width="5.0in"
-height="2.8338681102362204in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. gotchas and rookie mistakes, #2 (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image014.png" 
+  alt="Gotchas and Rookie Mistakes, #2."
+  style="border: 2px solid #000000;"
+  width="50%;" />
+</p>
 
 <b>[Number 1]{.mark}</b> on this list is the biggest one, I see this all
 the time, especially with students who are new to working with
@@ -749,9 +829,16 @@ on their stylesheet. You don&apos;t want to overwrite the styles on their
 access file because if you ever update the plugin files, you&apos;ll lose
 that and you&apos;ll have to do it again. You want to make sure you put it
 on your CSS file.
-
-![](./images/webp/image015.webp){width="5.0in"
-height="2.8338681102362204in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. 5 items of beware the plugin (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<kbd>
+  <img src="./images/webp/image015.png" 
+  alt="5 Items of Beware the Plugins."
+  style="border: 2px solid #000000;" 
+  width="50%;" />
+</kbd>
+</p>
 
 One last topic that I have to talk about before we&apos;re done with this
 lecture and plugins is just to beware of the plug in. Plugins can add
@@ -777,8 +864,14 @@ than actually writing the code yourself from scratch if it&apos;s an
 extensive plugin. It&apos;s worth it to make sure that the plugin you&apos;re
 using is really worthwhile.
 
-![](./images/webp/image016.webp){width="5.0in"
-height="2.8338681102362204in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. looking to the future (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image016.png"
+  alt="Looking to the Future."
+  style="border: 2px solid black; border-radius:15px"
+  width="50%;" />
+</p>
 
 Getting used to using other people&apos;s code now via jQuery plugins is a
 good preparation for the future. If you get deeper into JavaScript
@@ -793,53 +886,66 @@ that. It&apos;s a really great way of thinking and working with JavaScript
 in jQuery in general and getting used to that here will help prepare you
 for a future as a JavaScript developer.
 
-## PDF of Presentation {#pdf-of-presentation .unnumbered}
+<h3>PDF, FlexSlider Basic START ZIP &amp; FlexSlider Plugin ZIP</h3>
 
 Here is a PDF of the presentation slides used in the lessons for this
 section:
 
-### <b>jQuery Plugins</b> {#jquery-plugins .unnumbered}
+<h4>jQuery Plugins PDF</h4>
 
--   [<b>1.05.jQueryPlugins.pdf (PDF
-    File)</b>](https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.05.jQuery-Plugins.pdf)
-
-<https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/W04DM/pdf-of-presentation>
-
-### Zip Program Start Files {#zip-program-start-files .unnumbered}
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/W04DM/pdf-of-presentation" 
+    target="_blank" rel="noreferrer noopener">1.05.jQueryPlugins.pdf (PDF File)</a></li>
+</ul>
 
 Attached is a zip file of the things you need to begin this exercise. A
 <b>zip file</b> is defined as: a computer file whose contents include one
 or more files that are compressed for storage or transmission, often
 carrying the extension .ZIP.
 
-### <b>Start Files: jQuery Plugins & FexSlider</b> {#start-files-jquery-plugins-fexslider .unnumbered}
 
--   [<b>1.05.FlexsliderBasic-Start.zip (ZIP
-    File)</b>](https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/zip_files/1.05.FlexSliderBasic-Start.zip)
+<h4>START Files: FlexSlider &amp; jQuery Plugins</h4>
 
-https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider" 
+    target="_blank" rel="noopener noreferrer">1.05.FlexSliderBasic-START.zip (ZIP File)</a></li>
+</ul>
 
--   [<b>1.05.FlexSliderPlugin.zip (ZIP
-    File)</b>](https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/zip_files/1.05.FlexSliderPlugin.zip)
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider"
+    target="_blank" rel="noopener noreferrer">1.05.FlexSliderPlugin.zip (ZIP File)</a></li>
+</ul>
 
-https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider
+<h4>Additional Resource:</h4>
 
-### <b>Additional Resource:</b> {#additional-resource .unnumbered}
+<ul>
+  <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/"
+    target="_blank" rel="noopener noreferrer">How to open a zip file for either Mac or PC</a></li>
+</ul>
 
--   [How to open a zip file for either Mac or
-    PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
-
-# 1.06. FlexSlider: A jQuery Plugin (6:38) {#flexslider-a-jquery-plugin-638 .unnumbered}
-
-![](./images/webp/image017.webp){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch1-06">1.06. FlexSlider: A jQuery Plugin</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. flexslider: a jquery plugin (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image017.png" 
+  alt="1.06. FlexSlider: A jQuery Plugin."
+  style="border: 2px solid black;"
+  width="40%;" />
+</p>
 
 Now that we&apos;ve talked about jQuery plug-ins a bit, let&apos;s take a look
 at one that we can use to add a significant amount of interface options
 to our page.
 
-![](./images/webp/image018.webp){width="5.0in"
-height="2.719016841644794in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. basic flexslider (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image018.png" 
+  alt="Basic FlexSlider."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 The FlexSlider is a good one to look at. Partially because we&apos;ve been
 working on image sliders, so, we come to this with the context of having
@@ -850,25 +956,46 @@ the previous lessons. That&apos;s fun.
 The other thing that&apos;s nice about FlexSlider, it&apos;s called FlexSlider
 because it&apos;s a responsive slider.
 
-![](./images/webp/image019.webp){width="3.0in"
-height="1.6314107611548556in"}![](./images/webp/image020.webp){width="3.0in"
-height="1.6314107611548556in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 19/20. responsive kittens for sale (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image019.png?raw=true"
+  style="width:40%"
+  alt="Responsive Kittens for Sale Web Page, #1." />
+<img src="./images/webp/image020.png?raw=true"
+  style="width:40%"
+  alt="Responsive Kittens for Sale Web Page, #2." />
+</p>
 
 I&apos;ve opened up the page over here and you can see if I pull this off
 and resize it, the page is responsive and it squishes and stretches, and
 so, we can actually create a slider that will work for different screen
 sizes using FlexSlider. That&apos;s fun.
 
-![](./images/webp/image021.webp){width="5.0in"
-height="2.719016841644794in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. markup for web site (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image021.png" 
+  alt="Markup for Kittens for Sale Web Page."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 If you look at the markup, you&apos;ll notice that it&apos;s pretty basic. If
 you download the start files that come with this lesson, I have in here
 some basic markup.
 
-![](./images/webp/image022.webp){width="3.5in"
-height="1.9033114610673665in"}![](./images/webp/image023.webp){width="3.5in"
-height="1.9033114610673665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 22/23. responsive kittens for sale (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image022.png?raw=true"
+  style="width:45%"
+  alt="Responsive Kittens for Sale Web Page, #1." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image023.png?raw=true"
+  style="width:45%"
+  alt="Responsive Kittens for Sale Web Page, #2." />
+</p>
 
 This is where the actual slider will go, and then I&apos;ve just got some
 columns and some articles, and then the styling is all in place on the
@@ -878,22 +1005,39 @@ the page, and there&apos;s just a few rules in there just because this is
 pretty basic, but there we have it. We&apos;ll make a slider about kittens
 because, who doesn&apos;t love kittens? Kittens are awesome.
 
-![](./images/webp/image024.webp){width="5.0in"
-height="2.719016841644794in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. responsive media queries (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image024.png" 
+  alt="Responsive Media Queries."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 We looked at the media queries and they&apos;ll handle the screen if it&apos;s
 wider than 600 pixels. Up to 600 pixels you just get a very basic
 layout, and then once you get larger than that, it will give you a more
 of a layout on the page with the columns. Okay.
 
-![](./images/webp/image025.webp){width="5.0in"
-height="2.719016841644794in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. flexslider website (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image025.png" 
+  alt="FlexSlider Website."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Then the next thing is the FlexSlider Website and the FlexSlider Script.
 
-![](./images/webp/image026.webp){width="5.0in"
-height="2.719016841644794in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. flexslider website, #2 (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image026.png" 
+  alt="FlexSlider Website, #2."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 If you go to the FlexSlider Website, which is here, you can download
 FlexSlider or you can click on the Live Demo. It&apos;s posted by
 WooCommerce and they have the basic directions here with some additional
@@ -903,14 +1047,26 @@ files to get started. However, I&apos;ve already provided the same files
 with this lesson, so, you don&apos;t have to go there and download them,
 they&apos;re also included with this lesson.
 
-![](./images/webp/image027.webp){width="5.0in"
-height="2.719016841644794in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. flexslider website, #3 (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image027.png" 
+  alt="FlexSlider Website, #3."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Get those files first by either clicking the Download button here or by
 downloading the FlexSlider files of this lesson.
 
-![](./images/webp/image028.webp){width="5.0in"
-height="2.719016841644794in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 28. files needed: flexslider website (25) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image028.png" 
+  alt="Files Needed for FlexSlider Website."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Now, when you get those files, the FlexSlider files, you&apos;re going to
 need to figure out what you need in order to actually make the
@@ -919,18 +1075,34 @@ especially if you&apos;re not that familiar with this thing. Let me go
 through it carefully, because you&apos;re likely to run into this with other
 plug-ins as well.
 
-![](./images/webp/image029.webp){width="3.5in"
-height="1.9033114610673665in"}![](./images/webp/image030.webp){width="3.5in"
-height="1.9033114610673665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 29/30. folder with website and images (26) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image029.png?raw=true"
+  style="width:45%"
+  alt="Folder with website." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image030.png?raw=true"
+  style="width:45%"
+  alt="Folder with images." />
+</p>
 
 Here on the left, I have my folder with my website in it, that&apos;s my
 index page, I&apos;ve got a JavaScript file, I&apos;ve got slides which have
 different slides for the different pictures of the kittens, and I&apos;ve
 got my style-sheet, that&apos;s what&apos;s in my folder.
 
-![](./images/webp/image031.webp){width="3.5in"
-height="1.9033114610673665in"}![](./images/webp/image032.webp){width="3.5in"
-height="1.9033114610673665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31/32. unzipped download files (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image031.png?raw=true"
+  style="width:45%"
+  alt="Unzipped download files." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image032.png?raw=true"
+  style="width:45%"
+  alt="Other unzipped download files." />
+</p>
 
 Over here, these are the files that got downloaded. When I unzipped the
 FlexSlider folder this is what I got. You might wonder what some of this
@@ -956,9 +1128,17 @@ that will show up on the slider, so, we need that in order for this
 'next' and 'previous' buttons to load properly. We will need that as
 well.
 
-![](./images/webp/image033.webp){width="3.5in"
-height="1.9033114610673665in"}![](./images/webp/image034.webp){width="3.5in"
-height="1.9033114610673665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 33/34. flexslider.css, fonts & minified flexslider (27) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image033.png?raw=true"
+  style="width:45%"
+  alt="flexslider.css, fonts and jquery.flexslider-min.js." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image034.png?raw=true"
+  style="width:45%"
+  alt="flexslider.css, fonts and jquery.flexslider-min.js." />
+</p>
 
 I&apos;m going to grab the FlexSlider.css, the fonts, and the minified
 version of FlexSlider. Just those three files, the rest of it I don&apos;t
@@ -966,16 +1146,28 @@ need. I&apos;m going to put them into my project folder over here so that I
 have them, and that gets us all the files that we need in order to get
 started for this project.
 
-# 1.07. About the Minified Version (5:55) {#about-the-minified-version-555 .unnumbered}
-
-![](./images/webp/image035.webp){width="4.0in"
-height="2.1752132545931757in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch1-07">1.07. About the Minified Version</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 35. about the minified version (1.07) (27) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image035.png"
+  alt="1.07. About the Minified Version."
+  style="border: 2px solid gray;"
+  width="40%;" />
+</p>
 
 And again, I&apos;m just repeating myself here but it&apos;s really important
 that you understand this.
 
-![](./images/webp/image036.webp){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. minified vs non-minified (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image036.png"
+  alt="Minified vs. Non-Minified jQuery FlexSlider.js."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 The Minified version is the same file with all the same with all the
 white space removed and a few other things done to make the file smaller
@@ -985,16 +1177,28 @@ want to see the actual JavaScript or maybe even edited, but you&apos;ll
 probably never want to do that. So, we&apos;ll always use the Minified
 version.
 
-![](./images/webp/image037.webp){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 37. add javascript flexslider files (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image037.png"
+  alt="Add 3 files to project: flexslider.css, jquery.flexslider-min.js and fonts."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 And again, these are the files that we actually need for our project.
 So, we&apos;re going to copy them over and put them into our project folder
 just like you see here and just like we did just a minute ago in the
 previous lesson.
 
-![](./images/webp/image038.webp){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. add 3 files to head of index (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image038.png"
+  alt="Add stylesheet and 2 javascript files to head of index."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Next, it&apos;s about following the directions to make the flex slider work,
 and you can come back to the flex slider website and I recommend that
@@ -1002,8 +1206,14 @@ you do this. Even though I&apos;m going to walk through doing it with you,
 it&apos;s good to sort of come in here and see how these directions are
 written and to understand what the steps are.
 
-![](./images/webp/image039.webp){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 39. link to 3 files and add markup (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image039.png"
+  alt="Link files and add markup."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 First, link the files, then add the markup, then hook up your slider,
 and then tailor its units with special stuff down here. And if you&apos;re
@@ -1014,18 +1224,37 @@ works in order to get this stuff to work, right? Once you&apos;ve done it a
 few times for a few different plug ins, you&apos;ll see there&apos;s a lot of
 similarities.
 
-![](./images/webp/image040.webp){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. following directions (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image040.png"
+  alt="Following Directions."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 All right, so let&apos;s go through this together. So, you can see what I
 mean about how to do this.
 
-![](./images/webp/image041.webp){width="5.0in"
-height="2.8044870953630796in"}
-
-![](./images/webp/image042.webp){width="3.5in"
-height="1.963140857392826in"}![](./images/webp/image043.webp){width="3.5in"
-height="1.963140857392826in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. styles.css and load jquery (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image041.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 42/43. where to put scripts, css & js (31) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image042.png?raw=true"
+  style="width:45%"
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image043.png?raw=true"
+  style="width:45%"
+  alt="." />
+</p>
 
 First, we can look at where these scripts go, and over here, notice this
 one is listing jQuery 1.6.2, that&apos;s a really old version of jQuery. And
@@ -1040,8 +1269,14 @@ flexslider.css&quot;. Don&apos;t forget rel =&quot;stylesheet&quot;, and make su
 spell style sheet right. Okay, so that will link that up. You can see
 I&apos;ve got jquery 2.2.4 loaded here, as opposed to the 1.6.
 
-![](./images/webp/image044.webp){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. jquery version to load (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image044.png"
+  alt="jQuery version to load."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 But I&apos;m actually going to load the most recent version of jQuery. So,
 I&apos;m going to come back here and I&apos;m going to go and look for jquery
@@ -1050,16 +1285,28 @@ And here is the latest version of jquery. You&apos;ll notice it&apos;s been
 updated recently to 3.6, okay. So, I&apos;m going to replace this version of
 jquery with that one.
 
-![](./images/webp/image045.webp){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 45. load jquery at bottom of screen (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image045.png"
+  alt="Load jQuery at bottom of screen."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 But notice I need to go back and add the <b>defer</b>, I want to put
 <b>defer</b> back in here because really, I want this script to load at the
 bottom of the screen. Okay, now I want to load the jQuery Flexslider
 script.
 
-![](./images/webp/image046.webp){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. add scripts to index.html (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image046.png"
+  alt="Where to add scripts to index.html."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 So, I&apos;m going to put that in here, script src equals quote, and I want
 this one, that&apos;s the plug in. I&apos;m going to load that one next, and
@@ -1069,8 +1316,14 @@ myscript.js. There we go, I&apos;ve got the files loaded. So, what&apos;s the
 next thing that we need to do? If we come back to the directions, it
 says place somewhere in the head of your document.
 
-![](./images/webp/image047.webp){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 47. defer scripts loading; jquery, plugin, my script (33) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image047.png"
+  alt="Defer script load; jQuery libary, then plugins, then my script."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 The other thing I want to do is I want to put the defer attribute on my
 script. Let&apos;s do that too. Because we want to make sure that it loads
@@ -1079,26 +1332,44 @@ here. So, that they will load in this order, first this library, then
 the plug in, then my script. And they&apos;ll load after the rest of the
 page is loaded, just to be certain. So, we&apos;ve got that, okay.
 
-![](./images/webp/image048.webp){width="5.0in"
-height="2.8044870953630796in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 48. add markup with div, flexslider, ul and li images (33) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image048.png"
+  alt="Add Markup container with div, FlexSlider, ul and li images."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 The next thing we need to do is to add the markup, and this is the
 markup this plug in expects. It expects a <b>div</b> with the class,
 <b>flexslider</b>, and a <b>ul</b> with the class slides, then list items with
 the images inside of it, and we&apos;ll do that in the next lesson.
 
-# 1.08. Adding Markup & Hooking Up the Slider (7:33) {#adding-markup-hooking-up-the-slider-733 .unnumbered}
-
-![](./images/webp/image049.webp){width="4.0in"
-height="2.1752132545931757in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch1-08">1.08. Adding Markup & Hooking Up the Slider</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 49. adding markup and hooking up the slider (34) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image049.png"
+  alt="1.08. Adding Markup and Hooking Up the Slider."
+  style="border: 2px solid gray;"
+  width="40%;" />
+</p>
 
 In the last lesson, we got all of our files linked and everything hooked
 up so that it should all be ready to work. You want to make sure that
 your stylesheet loads after the FlexSlider style sheets, that you can
 modify changes there. We&apos;ll get to more on that later.
 
-![](./images/webp/image050.webp){width="5.0in"
-height="2.7735050306211724in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 50. step 2, add markup div, ul and li images (34) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image050.png"
+  alt="Step 2 FlexSlider, add markup, div, ul and li images."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Now, we&apos;re ready to actually come down here and make our markup work
 the way it&apos;s supposed to work. If we come back to our slides and our
@@ -1108,8 +1379,14 @@ div with the class of FlexSlider and unordered list of the class of
 slides, and then we can actually put our images inside each list item
 for that unordered list.
 
-![](./images/webp/image051.webp){width="5.0in"
-height="2.7735039370078742in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 51. index.html, div class='flexslider' (35) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image051.png"
+  alt="Add flexslider class to div and slides class to ul."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Let&apos;s go over here and set this up the same way. We need a div, we need
 a class, equals FlexSlider on here. This needs a class equals slides.
@@ -1120,31 +1397,55 @@ here. Let&apos;s go ahead and add the six more times. 1,2,3,4,5,6, and then
 just change these numbers, 2, 3, 4, 5, 6, and 7. That will give us seven
 slides with seven kittens, one on each side. That&apos;s great.
 
-![](./images/webp/image052.webp){width="5.0in"
-height="2.7735050306211724in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. verify classes on div and ul (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image052.png"
+  alt="Add class to div and ul in index.html."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Now we&apos;ve got our markup looking the way that it needs to look for our
 project. What&apos;s the next thing that we need to do? We did the markup,
 we got that all in, so that&apos;s great.
 
-![](./images/webp/image053.webp){width="5.0in"
-height="2.7735039370078742in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 53. step 3, add to head of index.html (36) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image053.png"
+  alt="."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 Step 3, directions. Hook up the <b>FlexSlider</b>. This thing says to use
 the <b>window.load</b> function. Now, I happen to know that the
 <b>window.load</b> function does not work with the latest version of
 jQuery, but that&apos;s okay. This is what it says down here.
 
-![](./images/webp/image054.webp){width="5.0in"
-height="2.7735050306211724in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. update myscript.js (37) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image054.png"
+  alt="Add functions to MyScript.js."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
+
 
 We could just copy this, <b>window.load</b> function here. This place after
 these links, script type JavaScript. But we&apos;re going to put this not
 inside script tags, but we already have a separate file called
 <b>MyScript</b> that&apos;s linked up here. That&apos;s this one here.
 
-![](./images/webp/image055.webp){width="5.0in"
-height="2.7735050306211724in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 55. on load, run flexslider function (37) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image055.png"
+  alt="MyScript.js: Add flexslider function."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 I&apos;m going to put it on there, <b>MyScript</b>. Take <b>FlexSlider</b> and
 make it run. This says jQuery, go get this <b>FlexSlider</b> element, dot
@@ -1158,9 +1459,17 @@ that happen first. But I happen to know that this isn&apos;t going to work
 because the <b>window.load</b> function is deprecated and they want us to
 use <b>window.on</b> instead. But let&apos;s just test it anyway.
 
-![](./images/webp/image056.webp){width="3.5in"
-height="1.9780982064741908in"}![](./images/webp/image057.webp){width="3.5in"
-height="1.9780982064741908in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 56/57. example test, verify jquery version # (38) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image056.png?raw=true"
+  style="width:45%"
+  alt="Example test, verify correct jquery.min.js is loaded." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image057.png?raw=true"
+  style="width:45%"
+  alt="Inspect jQuery and FlexSlider code." />
+</p>
 
 If I come over here and refresh this page, you&apos;ll notice the FlexSlider
 is not here. If I do inspect and then come over to the console, index
@@ -1170,11 +1479,22 @@ this is a really good indicator that something&apos;s wrong with jQuery
 itself. It&apos;s not anything we did. It&apos;s actually jQuery. What&apos;s wrong
 here is that the latest version of jQuery does not support this file.
 
-![](./images/webp/image058.webp){width="5.0in"
-height="2.8258552055993in"}
-
-![](./images/webp/image059.webp){width="5.0in"
-height="2.8258552055993in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58. jquery snippet (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image058.png"
+  alt="jQuery snippet."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 59. load defer jquery in index.html (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image059.png"
+  alt="Load correct version of jQuery defer in index.html."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Now, if I were to go back to my hosted libraries and take this one
 instead, and come back here and replace it, you&apos;ll see that it&apos;ll work
@@ -1182,17 +1502,30 @@ if I put this up here instead of the newest version. When I put that in
 there, put my defer back in, and now if I go test the page, you&apos;ll see
 that it works. Close this, refresh.
 
-![](./images/webp/image060.webp){width="5.0in"
-height="2.8258562992125986in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 60. example, test kittens for sale (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image060.png"
+  alt="Example, test Kittens For Sale."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 Look at that, we have a kitten slider, and it&apos;s working, I get my
 errors, I get these buttons down here, so I&apos;ve got this additional
 functionality, and it&apos;s working. It&apos;s doing everything it&apos;s supposed
 to do.
 
-![](./images/webp/image061.webp){width="3.5in"
-height="1.9780982064741908in"}![](./images/webp/image062.webp){width="3.5in"
-height="1.9780982064741908in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 61/62. again, validate jquery version (40) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image061.png?raw=true"
+  style="width:45%"
+  alt="index.html load jquery with correct version." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image062.png?raw=true"
+  style="width:45%"
+  alt="Run flexslider from myscript.js." />
+</p>
 
 But what if I really want to have the latest version of jQuery? Well,
 this is where knowing a little bit of JavaScript and a little bit of
@@ -1200,15 +1533,29 @@ jQuery really helps, because I know that this load method here has been
 replaced. It&apos;s been deprecated. You could go look that up on the jQuery
 website if you wanted to.
 
-![](./images/webp/image063.webp){width="3.5in"
-height="1.9780982064741908in"}![](./images/webp/image064.webp){width="3.5in"
-height="1.9780982064741908in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63/64. again, validate jquery (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image063.png?raw=true"
+  style="width:45%"
+  alt="Load jQuery version." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image064.png?raw=true"
+  style="width:45%"
+  alt="Test example flexslider." />
+</p>
 
 But I&apos;m going to come back here and I&apos;m going to command Z and put
 this back to the version 3.6 and save that.
 
-![](./images/webp/image065.webp){width="5.0in"
-height="2.8258562992125986in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. test example scroll (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image065.png"
+  alt="Test example scroll."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Over here instead of load I&apos;m going to use on, and in here, I&apos;m going
 to put on load as an event and then run the function and watch this.
@@ -1216,9 +1563,17 @@ That should work. Make sure both files are saved, come back and refresh
 and look at that, it works fine using the on method, the more up-to-date
 method.
 
-![](./images/webp/image066.webp){width="3.5in"
-height="1.9780982064741908in"}![](./images/webp/image067.webp){width="3.5in"
-height="1.9780982064741908in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 66/67. fonts load and example tests (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image066.png?raw=true"
+  style="width:45%"
+  alt="Verify fonts reside in correct folder." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image067.png?raw=true"
+  style="width:45%"
+  alt="Example test fonts and FlexSlider." />
+</p>
 
 Okay, great. Now, while we&apos;re here, let me just do one other thing.
 Suppose I forgot something. This is the thing that is often forgotten
@@ -1236,27 +1591,55 @@ page. There they are, they&apos;re back again. Okay, great. We&apos;ve got the
 basic slider working, now we can talk about what else we need to do with
 it and we&apos;ll do that in the next lesson.
 
-# 1.09. FlexSlider Rules (6:31) {#flexslider-rules-631 .unnumbered}
-
-![](./images/webp/image068.webp){width="4.0in"
-height="2.1752132545931757in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch1-09">1.09. FlexSlider Rules</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. flexslider rules (1.09) (42) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image068.png"
+  alt="1.09. FlexSlider Rules."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 In the last lesson (1.08), we got the Flexslider working, and it&apos;s
 working great. It&apos;s functional. All the pieces are functioning, but
 it&apos;s got some weird issues that we need to fix in terms of the layout
 in the styling.
 
-![](./images/webp/image069.webp){width="3.5in"
-height="1.8681616360454942in"}![](./images/webp/image070.webp){width="3.5in"
-height="1.8681627296587926in"}
-
-![](./images/webp/image071.webp){width="3.5in"
-height="1.8681627296587926in"}![](./images/webp/image072.webp){width="3.5in"
-height="1.8681627296587926in"}
-
-![](./images/webp/image073.webp){width="3.5in"
-height="1.8681627296587926in"}![](./images/webp/image074.webp){width="3.5in"
-height="1.8681627296587926in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 69/70. test example kittens for sale (42) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image069.png?raw=true"
+  style="width:45%"
+  alt="Inspect flexslider element style for each image." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image070.png?raw=true"
+  style="width:45%"
+  alt="FlexSliderBasic-Start index.html." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 71/72. flexslider rules in styles.css (43) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image071.png?raw=true"
+  style="width:45%"
+  alt="FlexSlider Rules." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image072.png?raw=true"
+  style="width:45%"
+  alt="Update styles for flexslider class." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 73/74. it should be working, test (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image073.png?raw=true"
+  style="width:45%"
+  alt="It Should Be Working.  If not, fine tune it." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image074.png?raw=true"
+  style="width:45%"
+  alt="Test, example scroll left and right." />
+</p>
 
 For example, why is my Flexslider sticking out on the edge over here?
 What&apos;s up with this gap? What if I wanted to change the color of these
@@ -1285,9 +1668,17 @@ styles and clean-up the styling of the actual Flexslider. Let&apos;s add
 that to ours. How do I know that? Just by poking around in their CSS
 file. I want to make sure I&apos;m on my CSS file.
 
-![](./images/webp/image075.webp){width="3.5in"
-height="1.8681627296587926in"}![](./images/webp/image076.webp){width="3.5in"
-height="1.8681627296587926in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 75/76. media queries, flexslider styles (44) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image075.png?raw=true"
+  style="width:45%"
+  alt="Verify media queries." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image076.png?raw=true"
+  style="width:45%"
+  alt="Test, example styles." />
+</p>
 
 Then somewhere in here you can put it wherever you want, it doesn&apos;t
 really matter. Make sure it goes above the media queries. I&apos;m going to
@@ -1299,8 +1690,14 @@ rule in place here, if I come back and check my page, you&apos;ll notice the
 Flexslider looks better here. It&apos;s fitting into the space well, and
 I&apos;ve got rid of that gap and all that stuff.
 
-![](./images/webp/image076.webp){width="5.0in"
-height="2.6688035870516185in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. inspect example site (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image076.png"
+  alt="Inspect example site: Kittens For Sale."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Down here, I still want to adjust these buttons a little bit. I mean,
 inspect again. Maybe move my inspector to the side and it&apos;s this thing
@@ -1308,8 +1705,14 @@ here, dot flex-control-paging li a.flex-active. That&apos;s the class
 that&apos;s changing the colors on these buttons here. That&apos;s the one that
 I want to actually attach to.
 
-![](./images/webp/image077.webp){width="5.0in"
-height="2.6688035870516185in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 77. border, margin, radius, background-color (45) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image077.png"
+  alt="styles.css: border, margin, background-color."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 I&apos;m going to come over here, I&apos;m going to add that rule in here. If I
 want a different color, what did I put on my slides over here? I put
@@ -1317,8 +1720,14 @@ pound B40205, make it match that. What was it? Just color or is it
 background? Background: #B40205. There we go. That will give me a red
 background color. Save that and come back and test it.
 
-![](./images/webp/image078.webp){width="5.0in"
-height="2.6688035870516185in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 78. inspect styles, font and color  (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image078.png"
+  alt="Inspect to fine tune style, font and colors."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 You can see my colors now overriding the color that was there before and
 I can go ahead and click on these things and they all work. That&apos;s
@@ -1329,17 +1738,31 @@ just a matter of using the inspector and hunting around to see what
 rules are being applied that you might want to change to get it to style
 and look the way you want it to look on your page.
 
-# 1.10. Additional Controls (7:30) {#additional-controls-730 .unnumbered}
-
-![](./images/webp/image079.webp){width="4.0in"
-height="2.1752132545931757in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch1-10">1.10. Additional Controls</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. additional controls (1.10) (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image079.png"
+  alt="1.10. Additional Controls."
+  style="border: 2px solid gray;"
+  width="40%;" />
+</p>
 
 Your slider should be looking good. We&apos;ve gotten everything in place
 and it&apos;s working.
 
-![](./images/webp/image080.webp){width="3.5019728783902013in"
-height="1.990819116360455in"}![](./images/webp/image081.webp){width="3.5037095363079613in"
-height="2.0132130358705163in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 80/81. flexslider website options (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image080.png?raw=true"
+  style="width:45%"
+  alt="FlexSlider website options." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image081.png?raw=true"
+  style="width:45%"
+  alt="Test, example website." />
+</p>
 
 It&apos;s functional and it looks good and we&apos;ve adjusted the CSS and all
 that kind of fun stuff. That&apos;s really great. It&apos;s a lot easier to do
@@ -1350,18 +1773,31 @@ these buttons down here, being able to go to slides that way. We could
 have done that manually on our own, but with this plug in, it provides
 it for us automatically and that&apos;s great.
 
-![](./images/webp/image082.webp){width="3.5in"
-height="1.9388353018372704in"}![](./images/webp/image083.webp){width="3.5in"
-height="1.9388353018372704in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 82/83. options and default values for flexslider (47) ~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image082.png?raw=true"
+  style="width:45%"
+  alt="List of FlexSlider Options and their default values." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image083.png?raw=true"
+  style="width:45%"
+  alt="Additional options and default values." />
+</p>
 
 Now, what about all these additional options that show up down here at
 the bottom of the screen? There&apos;s all this stuff down here, and we can
 use this to further customize the functionality of our FlexSlider.
 That&apos;s really cool, but how do you do it? It&apos;s not really clear by
 looking at this exactly what you need to do.
-
-![](./images/webp/image084.webp){width="5.0in"
-height="2.7697648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 84. flexslider options, default values (47) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image084.png"
+  alt="FlexSlider Options, default values."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 But basically, what we need to do is we need to pass options in to this
 FlexSlider method here, this FlexSlider method here. We pass them in in
@@ -1372,8 +1808,14 @@ but if you know some JavaScript and you&apos;re familiar with having done
 this kind of thing before, you&apos;ll figure it out pretty quickly. What
 can we do? Let&apos;s take a look at it.
 
-![](./images/webp/image085.webp){width="5.0in"
-height="2.7697648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85. flexslider with options (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image085.png"
+  alt="FlexSlider with Options."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Just like we did with the custom enemy method in jQuery, where we can
 pass in an object, curly brace, curly brace, and then we can pass in
@@ -1383,9 +1825,17 @@ objects yet, and we will get into that in more depth in a lesson coming
 up. For right now, we&apos;ll just kind of go with it and get used to the
 syntax because we&apos;ll see it a lot, especially with the plugins.
 
-![](./images/webp/image086.webp){width="3.5in"
-height="1.9388353018372704in"}![](./images/webp/image087.webp){width="3.5in"
-height="1.9388353018372704in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 86/87. update flexslider options (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image086.png?raw=true"
+  style="width:45%"
+  alt="myscript.js flexslider options." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image087.png?raw=true"
+  style="width:45%"
+  alt="Example, using FlexSlider." />
+</p>
 
 Let&apos;s come over here and inside our script file here, inside our
 parentheses here, we&apos;re going to add a set of curly braces. Then inside
@@ -1407,9 +1857,18 @@ You remember what a trouble that was for us to figure out how to do
 manually. Well, here it&apos;s built in, so we don&apos;t have to really even
 worry about that.
 
-![](./images/webp/image088.webp){width="3.5in"
-height="1.9388353018372704in"}![](./images/webp/image089.webp){width="3.5in"
-height="1.9388353018372704in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 88/89. other flexslider options (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image088.png?raw=true"
+  style="width:45%"
+  alt="FlexSlider with Options." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image089.png?raw=true"
+  style="width:45%"
+  alt="myscript.js. Set animation: 'slide' and slideshowSpeed: 2000." />
+</p>
+
 
 What else can we do? Over here, I had slide, you can set the speed,
 slideshow speed. That&apos;s in here. Slideshows speed. Slide, comma, for
@@ -1420,9 +1879,17 @@ how quickly it&apos;s going to slide from slide to slide automatically. One
 two, one two, there we go. Now it&apos;s going rather quickly, that&apos;s
 great.
 
-![](./images/webp/image090.webp){width="3.5in"
-height="1.9388353018372704in"}![](./images/webp/image091.webp){width="3.5in"
-height="1.9388353018372704in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 90/91. scroll direction: 'vertical' (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image090.png?raw=true"
+  style="width:45%"
+  alt="Set scroll direction vertical." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image091.png?raw=true"
+  style="width:45%"
+  alt="Example, verify scroll direction vertical." />
+</p>
 
 What else can we do? We could do direction vertical, if you wanted to
 just slide up and down instead, we could do that. Comma, direction,
@@ -1431,15 +1898,27 @@ doesn&apos;t know, but it knows that one there. It knows what 2,000 is. All
 right, now if you do this, after two seconds, it&apos;s going to go
 vertical.
 
-![](./images/webp/image092.webp){width="5.0in"
-height="2.7697648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. example, test vertical scroll (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image092.png"
+  alt="Example, test vertical scroll."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 We could do reverse true, so we&apos;ll go from top to bottom instead of
 from bottom to top. Reverse true. True is a word that JavaScript knows.
 Now it&apos;s going from the top to the bottom.
 
-![](./images/webp/image093.webp){width="5.0in"
-height="2.7697648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. set pauseonhover = true (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image093.png"
+  alt="pauseonHover: true."
+  style="border: 2px solid gray;"
+  width="50%;" />
+</p>
 
 Then finally, another one we could do is pause on hover true. Which is
 in here, you can find it in here somewhere pause on hover. There it is.
@@ -1464,17 +1943,31 @@ has FlexSlider on it. It could look the same, because they all have the
 same arrows here, left and right arrows. We can get rid of those and do
 something else that would be kind of interesting and fun.
 
-# 1.11. Advanced FlexSlider (4:20) {#advanced-flexslider-420 .unnumbered}
-
-![](./images/webp/image094.webp){width="4.0in"
-height="2.1752132545931757in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch1-11">1.11. Advanced FlexSlider</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. advanced flexslider (1.11) (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/webp/image094.png"
+  alt="1.11. Advanced FlexSlider."
+  style="border: 2px solid gray;"
+  width="40%;" />
+</p>
 
 Now that you&apos;ve created the basic FlexSlider, with some advanced
 options, we can really do some different things with this FlexSlider.
 
-![](./images/webp/image095.webp){width="3.5in"
-height="1.9388353018372704in"}![](./images/webp/image096.webp){width="3.5in"
-height="1.9388353018372704in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 95/96. copy flexslider/rename to kittensadvanced (52) ~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/webp/image095.png?raw=true"
+  style="width:45%"
+  alt="Copy and rename advancedFlexSlider to KittensAdvanced." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/webp/image096.png?raw=true"
+  style="width:45%"
+  alt="Copy, rename and verify new folder for FlexSlider changes." />
+</p>
 
 To do that, it&apos;s nice to keep the basic version working the way it is
 working, so that you have a version of that if you want to refer back to
