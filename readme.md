@@ -4699,7 +4699,7 @@ pointer debt to this function down here, and let it run that way.
 
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript">2.18.Scroll-Effects-START.zip</a></li>
-<ul>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-19">2.19. Getting the Target -- Part 1 (4:50)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
