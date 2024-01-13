@@ -9652,7 +9652,6 @@ Roll the dice for player x. Again, player x is going to be a variable.
 Which variable is it going to be? Dollar sign, curly braces. It&apos;s
 really just going to be this one again. This will be player 1, or player
 2 here, that gets put in there.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 611.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -9761,7 +9760,6 @@ close something so it thinks that my whole image has this name on here,
 which is incorrect. Let&apos;s go back over here. It&apos;s in here I forgot to
 put a quote here. It&apos;s in one double quote, and I&apos;ll add two, but you
 have to delete one of them there. There we go, save that.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 618/619.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -9823,7 +9821,7 @@ came up, in other words, if the rolled sum is a two, then we&apos;re going
 to do one thing. That&apos;s going to start at zero. If one of the two like
 in this case here. If one of the two dice came up a one, then we do
 something else, we need to swap. &lbrack;inaudible&rbrack;.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-07">4.07 Add the Selection Statements (3:37)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 623.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9909,7 +9907,6 @@ until you&apos;ve gotten all of those things checked.
   style="width:40%;"
   alt="." />
 </p>
-
 Let&apos;s handle Snake Eyes first.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 631.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9921,7 +9918,6 @@ Let&apos;s handle Snake Eyes first.
 
 We&apos;ll fill out each of these if statements, but we&apos;ll do Snake Eyes
 first. If we get a 2, let&apos;s deal with that.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 632.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -9946,9 +9942,13 @@ is. If index is 0 will set this one 0, if index is 1 will set this one
 to 0. So, we&apos;re setting it to 0 there because we&apos;re zeroing out their
 score because that&apos;s what happens if you roll to ones as you lose all
 the points you&apos;ve gotten so far.
-
-![](./images/webp/image633.webp){width="5.0in"
-height="2.922007874015748in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 633.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image633.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Then we need to switch players and we could do this with an if
 statement, if index is 0 set it to 1. If it&apos;s 1 set it to 0, we could
@@ -9956,9 +9956,13 @@ do an if else statement there, but there&apos;s kind of a nice shortcut way
 of doing that. And that&apos;s using what&apos;s called the **ternary
 operator**. We see it over here, so I&apos;m going to set
 **gameData.index**.
-
-![](./images/webp/image634.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 634.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image634.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So, what happens here in **ternary operator** is we evaluate whether or
 not this is true **gameData.index**. And remember in JavaScript 0 is
@@ -9987,8 +9991,13 @@ player. So, let&apos;s go ahead and add that setTimeout there.
 SetTimeout(setUpTurn, after two seconds, 2000 milliseconds) and that
 should work.
 
-![](./images/webp/image635.webp){width="5.0in"
-height="2.922007874015748in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 635.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image635.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Now, if we wanted to test this before we go forward, it might be a good
 idea to do that. What we can do is we could just come in here just
@@ -9998,16 +10007,24 @@ should run and change my player, wait two seconds and set up the turn.
 That way, we don&apos;t have to sort of keep playing and rolling until we
 try to get two 1s to pop up randomly in order to test this. So let&apos;s
 throw that in there and see what happens here.
-
-![](./images/webp/image636.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 636.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image636.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 If I come over here and test this, I can run my first player, roll the
 dice, it comes up with 11. But then it waits 2 seconds and it says roll
 the dice for player 2, let&apos;s try that again.
-
-![](./images/webp/image637.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 637.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image637.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Roll the dice for player 2, I roll the dice, I actually got to 1 that
 time, but it&apos;s switched into 2, 2 announces roll the dice for player 1.
@@ -10015,24 +10032,36 @@ So you can see that it&apos;s actually changing the player, waiting 2
 seconds and changing the player, so that&apos;s actually working, which is
 great. Now remove console gamedata.rollsum = 2 which was hard-coded for
 testing the switch players function.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-09">4.09 A "1" Was Rolled (5:19)</h2>
-
-![](./images/webp/image638.webp){width="4.0in"
-height="2.262820428696413in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 638.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image638.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 The next thing we&apos;re going to look at is if a one has been rolled.
-
-![](./images/webp/image639.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 639.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image639.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 To start with, we&apos;re going to swap the players right off the die. If
 anyone was rolled, either of the two dice comes up a one, then we&apos;re
 going to swap the player. Let&apos;s do that first because that&apos;s just
 using the ternary operator again.
-
-![](./images/webp/image640.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 640.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image640.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let&apos;s come back here and get this ternary operator here. You can just
 copy and paste it and stick it down here in place of that console log.
@@ -10043,17 +10072,26 @@ it&apos;s a one, it&apos;s true because remember truthy and falsy in JavaScript,
 so a zero in JavaScript is falsy. If it&apos;s false, then it&apos;s going to do
 this. It&apos;s going to switch it to one. If it&apos;s true, then it&apos;s going
 to switch it to a zero.
-
-![](./images/webp/image641.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 641.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image641.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 I have a page loaded from the MDN Web docs that will talk more about the
 ternary operator. If you&apos;re more curious about this particular
 expression in JavaScript or this operator in JavaScript, it&apos;s worth
 taking a look at this page here. We&apos;ve got that.
 
-![](./images/webp/image642.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 642.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image642.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 The next thing we need to do is just set the game index. We&apos;re going to
 add to that instead of adding, you rolled snake eyes, we&apos;re going to
@@ -10093,9 +10131,13 @@ automatically. Roll the dice for player 2, you roll the one switching
 the player 1, and now roll the dice for player 1, roll the dice. You
 roll the one switching for player 2, roll the dice. You roll the one
 switching for player 1.
-
-![](./images/webp/image645.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 645.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image645.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 You can see it switching back and forth now and working perfectly every
 time. That&apos;s exactly what we want there. We want to come back and
@@ -10105,25 +10147,37 @@ what happens if you roll two once or if either of the dice come up with
 one, we&apos;ve gotten this sussed out. Next, we need to figure out the
 else, which is what happens when we want to continue the game and
 continue moving on with the game.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-10">4.10 The Else Statement (6:36)</h2>
-
-![](./images/webp/image646.webp){width="4.0in"
-height="2.262820428696413in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 646.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image646.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 The next thing we need to look at is the final else statement which will
 happen if you throw the dice and no one&apos;s are rolled.
-
-![](./images/webp/image647.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 647.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image647.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 And basically, what we need to do is we need to update the score for
 whichever player had them. We&apos;re going to take the score they had
 before and add the **rollSum** to it in order to update that score. So
 let&apos;s do that first.
-
-![](./images/webp/image648.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 648.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image648.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So, when you get rid of this, And say **gameData.score**, And the
 **score** is going to be for the **gameData.player**. I want to visit
@@ -10135,9 +10189,13 @@ it&apos;s really this line again. + **gameData.rollSum&lbrack;&rbrack;**. Like t
 believe. Let me check over here and make sure I did that, right?
 **gameData.index + gameDtaa.rollSum**, correct. Okay from there, what we
 need is to set the action area and create two buttons in there.
-
-![](./images/webp/image649.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 649.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image649.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So, that action area is going to get set with two buttons, one for
 rolling again or for passing. So, let&apos;s go ahead and do that and
@@ -10150,18 +10208,26 @@ Pass and that what&apos;s going to have an id, id = &quot;pass&quot;. So, you no
 how I do that from the inside out for even typing this stuff because
 that will keep me from making mistakes. That will help me from making
 mistakes, I might still make mistakes, but that&apos;ll help, okay?
-
-![](./images/webp/image650.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 650.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image650.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So we&apos;re going to set that and then we need two event listeners for
 each of those things. So, I&apos;m going to have an event listener
 **document.getElementById(roll again).** And that&apos;s going to have an
 **addEventListener**, and listening for a click. And when you click the
 button we&apos;re going to run a function.
-
-![](./images/webp/image651.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 651.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image651.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 And for now we&apos;re just going to put in here, setUpTurn, we&apos;re going to
 run that function again. Great, so if you roll again, when you click
@@ -10174,8 +10240,13 @@ and stick it in here. And that will allow me to swap the player to the
 other player. Cool, the last thing we&apos;re going to need in here is
 we&apos;re going to need something that checks the winning condition.
 
-![](./images/webp/image652.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 652.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image652.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So, we&apos;ll check the winning condition in here as well, but we&apos;ll do
 that later. For right now let&apos;s just test this out and see if it works.
@@ -10215,17 +10286,25 @@ operator. And I can roll the dice for player 1 and I got a 6 that I
 could choose roll again. So that&apos;s all working great, it&apos;s working
 perfectly fine just the way it is, excellent. Let&apos;s stop there and
 we&apos;ll pick it up in the next lesson.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-11">4.11 Checking for a Win (6:02)</h2>
-
-![](./images/webp/image657.webp){width="4.0in"
-height="2.262820428696413in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 657.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image657.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 The third major function we need is the function that checks for a
 winning condition.
-
-![](./images/webp/image658.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 658.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image658.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Has the player scored enough points to actually win the game? Let&apos;s
 make a function for that called **checkWinningCondition** and add that
@@ -10243,9 +10322,13 @@ to our functions down here.
 
 So this really long function, **throwDice** goes all the way down to
 this closing curly brace here.
-
-![](./images/webp/image661.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 661.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image661.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let&apos;s add another function down here. Function
 **checkWinningCondition**. And this function is going to have an **if
@@ -10254,9 +10337,13 @@ happens if you have actually achieved the winning conditions. So if
 winning condition met or else show current score. If we haven&apos;t won, we
 at least ought to know how close we are to winning? So it&apos;s going to do
 those two things.
-
-![](./images/webp/image662.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 662.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image662.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 To check the winning condition, we just need to get this players score.
 Get that players score and see if it&apos;s greater than
@@ -10280,18 +10367,26 @@ that. Once we&apos;ve won, we can start a new game. Cool, so that&apos;s the if
 statement that we&apos;ll check to see. If the game has won, we will start a
 new game. And the next lesson, we&apos;ll fill out the show current score
 section of this **function**.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-12">4.12 Show the Current Score (8:33)</h2>
-
-![](./images/webp/image663.webp){width="4.0in"
-height="2.262820428696413in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 663.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image663.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Okay, so now we need to show the current score, and make sure that that
 gets filled out properly, if we haven&apos;t won the game, so let&apos;s go over
 and add this.
-
-![](./images/webp/image664.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 664.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image664.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 We&apos;re going to set the score areas innnerHTML to a paragraph that shows
 the scores of both players. So we can say **score.innerHTML** = and I&apos;m
@@ -10307,9 +10402,13 @@ again add the dollar sign. And in there we&apos;re going to say,
 we&apos;re going to do the same thing down here, For a player two, Except
 that&apos;s going to be 1, And this is going to be the same thing down here,
 Except that&apos;s going to be 1.
-
-![](./images/webp/image665.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 665.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image665.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Now you could even make it stand out a little bit more by putting a
 strong tag around each of these things. And you could do much better
@@ -10319,9 +10418,13 @@ going to put that into the score and, then we&apos;re ready to continue I
 believe that&apos;s all we need let&apos;s just see over here, yep. Players&lbrack;0&rbrack;
 player&lbrack;1&rbrack; looks good, that all looks good all right great, so what do
 we need to do to get this to work?
-
-![](./images/webp/image666.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 666.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image666.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 We need to run this function, Here, check winning condition, It&apos;s not
 the only place we need to run it, but let&apos;s start with that. Let&apos;s put
@@ -10358,16 +10461,24 @@ two is 15, I could roll again, roll the dice again takes me to set up
 turn. Now I&apos;ve got 25, and if I get five or more this we should have
 the end of the game and that should trigger it so let&apos;s see what
 happens.
-
-![](./images/webp/image671.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 671.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image671.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Roll the dice, and player 2 wins with 33 points, and now up here I have
 started new game, it still says roll again or pass so that&apos;s something
 that needs to be dealt with.
-
-![](./images/webp/image672.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 672.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image672.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 But, We can start a new game up here, what happens if I click roll
 again? Now I&apos;ve got an error up here, so that&apos;s something that we need
@@ -10379,9 +10490,13 @@ want to fix here, and one of them that&apos;s less obvious because we
 haven&apos;t done it yet, but if you roll two ones, you also need to fix
 that there as well. So that because that&apos;s going to change the score,
 so we want to show the score if you roll two ones.
-
-![](./images/webp/image673.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 673.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image673.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So let&apos;s go back to our code over here, And I want to run
 **checkWinningCondition**, Up here, if you roll two ones I&apos;m going to
@@ -10393,18 +10508,26 @@ zeroed out and you want to be able to see that, so we&apos;ll put
 this set time out. Doesn&apos;t actually matter, the set time out will wait
 two seconds anyway, but I&apos;m going to put it before that, there we go,
 so that helps.
-
-![](./images/webp/image674.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 674.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image674.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 The other thing we need to do down here is that, if you&apos;ve won the game
 I was setting the action area, actually this is what I&apos;m missing
 .innerHTML, that&apos;s what I was missing from before,
 **actionArea.innerHTML** set that to blank, so that that will get rid of
 those buttons that I had there by accident.
-
-![](./images/webp/image675.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 675.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image675.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Now there&apos;s one more thing that we can do to make this work a little
 bit better but let&apos;s just test this again, just to make sure it&apos;s all
@@ -10422,10 +10545,14 @@ stop this lesson here but in the last lesson we will talk about some
 things that we could do to clean up a little more, just this final
 cleanup stuff.
 
-# 4.13 Final Clean-Up (8:08)
-
-![](./images/webp/image676.webp){width="4.0in"
-height="2.262820428696413in"}
+<h2 name="ch4-13">4.13 Final Clean-Up (8:08)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 676.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image676.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Okay the game is working and that&apos;s great, and everything is working
 the way it should. So that&apos;s excellent. But there&apos;s one thing that I
@@ -10436,9 +10563,13 @@ eyes there, it&apos;ll be kind of nice if when I roll the dice again if I
 click roll again, it just rolls them again. I don&apos;t really need to go
 back to the setup turn at this point, I could just roll the dice again.
 So what can we do about that?
-
-![](./images/webp/image677.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 677.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image677.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 What if down here, in here when we go to roll again instead of doing
 setup turn we just run this **function**. Throw the dice instead of
@@ -10519,7 +10650,6 @@ shorter, which would be kind of nice as well.
 You could also make a separate function that just contains the whole
 selection statement, if/else, if and the else statement and make that
 into a separate function that runs here.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 684/685.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -10544,9 +10674,13 @@ and a set of parentheses after that, in a semicolon. And then, I&apos;m
 going to click between the curly braces and move that down and add my
 **use strict** directive to make sure I didn&apos;t screw up in any of my
 variables and then paste everything here.
-
-![](./images/webp/image686.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 686.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image686.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So that puts everything in there, and then you could go through, and you
 could change all of these **vars** to **const**. And in fact in this
@@ -10554,9 +10688,13 @@ entire **script**, all of the **var** declarations can be **const**. I
 think even the game data where the actual data changes, but the actual
 function, the actual variable doesn&apos;t change. That can be a constant as
 well.
-
-![](./images/webp/image687.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 687.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image687.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So we saved that, and then we come over here, and we move this up, and
 we&apos;re going to link to **src="script.js"**. And you could move this up
