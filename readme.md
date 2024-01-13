@@ -3356,7 +3356,6 @@ event is firing every time I scroll a tiny little bit. Those are the two
 pieces that make capturing scroll events tricky, the fact that you
 can&apos;t be sure which pixel you going to hit and you have to watch out
 for performance.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-09">2.09. Strategy</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3370,7 +3369,6 @@ for performance.
 
 Now, the next thing we need to watch out for are what could the user
 possibly be doing on the page when it comes to scrolling?
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 183. scroll down or up (if not at top) (96) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3386,7 +3384,6 @@ on the page and scrolling down, or there&apos;s somewhere further down the
 page, and they&apos;re scrolling back up towards the top of the page. It&apos;s
 only one of those two things. They can only scroll up, and they can only
 scroll down, and they can only scroll up if they&apos;re not at the top.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 184. setting up if/else statement (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3402,7 +3399,6 @@ scenario of what happens if we&apos;re scrolling down the page. The Else If
 is going to handle what happens if we&apos;re further down the page and
 scrolling up into a previous section. Let&apos;s go ahead and add this to
 our script over here.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 185. add if/else code for scroll (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3422,7 +3418,6 @@ handle the case of, am I scrolling up. These are the two scenarios that
 we need to watch out for. We&apos;ve got our basic structure of what&apos;s
 going to happen to handle these two situations of what happens while
 we&apos;re scrolling down and what happens when we&apos;re scrolling up.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 186. what is size of each section element (98) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3452,7 +3447,6 @@ But now I need to know where are the rest of them and going to put them
 into this array. I&apos;m going to paste this in. You&apos;re going to have to
 type it, but I&apos;m going to post it in here, paste and posts. I&apos;m going
 to use the each method.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 186. section size, rounded math.floor (99) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3466,7 +3460,6 @@ In plain JavaScript, we have for each but in jQuery, we have in each
 method that we can pass in a function. I&apos;m going to push the tops and I
 have a **Math.floor** and you&apos;ll let me take that out just for a
 minute. I&apos;ll take math for it now because that kind of confuses things.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187. section size, no rounding (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -6181,7 +6174,9 @@ place. But if you go wrong, don&apos;t worry about it at the end, I will
 give you my finished file so you could do this without going through
 this. But I think it&apos;s helpful to go through it anyway.
 
-<h3><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/KrJDR/start-files-scription-site">2.29 Start Files: Scription Site</a><h3>
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/KrJDR/start-files-scription-site">2.29 Start Files:  Scription Site</a></li>
+</ul>
 
 <ul>
   <li>Start Files: 2.29.Scription-Part1-START.zip</li>
@@ -6598,8 +6593,13 @@ got the yes, if you port things set there. Okay, good, so we should be
 all set with that and from here we can go over, and start working on
 some styling for the page here.
 
-![](./images/webp/image408.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 408.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image408.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Now, I have some initial basic resets. The normalized CSS helps smooth
 out differences between browsers, but I have often found it helpful to
@@ -6628,9 +6628,13 @@ really like the way they look all style weeks differently, and I am
 using some variables for the colors of the page. So, if you wanted to
 change the colors of the page, you could just change them here once and
 it will change it throughout the, throughout the whole page.
-
-![](./images/webp/image409.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 409.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image409.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 If we come over and look at the design here, you can see if I move up
 over here that I have got. This is the color scheme that I am working
@@ -6660,8 +6664,13 @@ shorthand styling for things, which drives me nuts, but I have yet to
 figure out how to get it to not do this. So, I really prefer it not to,
 but that is okay.
 
-![](./images/webp/image412.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 412.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image412.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 It is fine, it will space everything out a little bit further and, it is
 always a good idea each step along the way to come back, and see how
@@ -6671,9 +6680,8 @@ generally reset to do. They will make your page look worse, because you
 are taking styling out, you are resetting it to a basic, and then you
 are going to add more styling back to make it look better. All right,
 there we are with the resets.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 413/414.  (2) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 413/414.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image413.webp"
   style="width:45%;"
@@ -6683,8 +6691,13 @@ there we are with the resets.
   alt="." />
 </p>
 
-![](./images/webp/image415.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 415.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image415.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 That is great, next, we can add some basic typography. Again, I am using
 some google fonts, and they are loaded already in the html. They are
@@ -6700,19 +6713,27 @@ And, I do like to do things in this order, where I sort of set some
 basic settings for the page basic resets typography and maybe some,
 basic page section stuff. That is going to get inherited across the
 entire page.
-
-![](./images/webp/image416.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 416.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image416.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let us go take a look at what that looks like, those rules applied.
 Boom, already starting to look a little bit better once we get a font in
 there, and some and some stuff working along and going along, that is
 great. All right, we will continue with the styling in the next lesson.
 
-# 2.33 Styling That Attaches to Whole Page (5:03)
-
-![](./images/webp/image417.webp){width="4.0in"
-height="2.261111111111111in"}
+<h2 name="ch2-33">2.33 Styling That Attaches to Whole Page (5:03)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 417.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image417.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Next, we&apos;ll apply some styling that will attach to the whole page and
 there&apos;s just a few rules here, but they&apos;ll actually make quite a big
@@ -6729,9 +6750,13 @@ difference.
 </p>
 
 So let&apos;s go over and grab these three rules.
-
-![](./images/webp/image420.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 420.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image420.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Paste them on our style sheet here inside the basic sections section.
 And you&apos;ll see just with these little bit of rules over here, it&apos;s
@@ -6739,9 +6764,13 @@ going to make a big difference. Currently, we&apos;ve got no padding here,
 everything&apos;s running right up against the edge, it&apos;s kind of a mess.
 It doesn&apos;t look that great yet, but I&apos;m going to scroll up to the top
 here.
-
-![](./images/webp/image421.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 421.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image421.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 And if I refresh, you&apos;ll see immediately we&apos;re starting to get some
 spacing between the sections and a little bit more. It&apos;s getting a
@@ -6799,9 +6828,13 @@ can click on. And it&apos;s going to activate a smooth scroll effect that
 you&apos;ll put in later when you&apos;re completing the interactive challenges
 part of this lesson. But you can see basically everything&apos;s kind of
 coming into place here.
-
-![](./images/webp/image426.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 426.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image426.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 I&apos;ve got the the rules for the navigation in here we&apos;re displaying. It
 is flex, a display method that allows you to get things to line up next
@@ -6810,9 +6843,13 @@ then the anchor tags are set to display block. And that&apos;s because
 anchor tags by default, in line elements and usually in navigation you
 want them to be block elements and then I&apos;m setting my colors and my
 font size and that kind of fun stuff.
-
-![](./images/webp/image427.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 427.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image427.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So with all that in place, we should go over and take a look and see
 what all this magic does to the head header of our of our page here.
@@ -6827,25 +6864,40 @@ I scroll down the page and if you wanted to try the greenish background,
 you can put that in if you wanted to. I kind of liked the gray in the
 end. I kind of liked it that way. All right, so the headers in place and
 we&apos;re ready to see what we need to do for the next section.
-
-# 2.34 Slider Styling (5:04)
-
-![](./images/webp/image428.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-34">2.34 Slider Styling (5:04)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 428.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image428.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Continuing with our styling, we&apos;ll add some styling for the slider.
-
-![](./images/webp/image429.webp){width="3.5in"
-height="2.1512281277340333in"}
-![](./images/webp/image430.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 429/430.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image429.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image430.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 These styles, again, are only snippets. It puts the image for the slider
 in the background of this element.
-
-![](./images/webp/image431.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image432.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 431/432.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image431.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image432.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let&apos;s go ahead, come down here, and add this. I&apos;m just going to copy
 all of this, select it all, copy it, and then come over and add this
@@ -6862,10 +6914,16 @@ can just delete it, and then paste it back in again from the snippets.
 Don&apos;t worry about messing it up. With that in place, let&apos;s go see if
 our slider is displaying properly.
 
-![](./images/webp/image433.webp){width="3.5in"
-height="2.1512281277340333in"}
-![](./images/webp/image434.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 433/434.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image433.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image434.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 There we have it. For the mobile version, we&apos;re going to have this
 called action stretch across the entire slide. It&apos;ll look better for
@@ -6876,9 +6934,13 @@ When we get to desktop, it&apos;s going to look like this instead. I&apos;ve
 left off this thing, I&apos;ve actually decided to put that in. But it&apos;s
 going to look like this with our called action here instead. We&apos;ve got
 that in place and we&apos;re ready to go on to the next part.
-
-![](./images/webp/image435.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 435.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image435.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 We don&apos;t need to do much for the overviews settings because a lot of it
 is set nicely already by the styles we&apos;ve already added. This is what I
@@ -6887,16 +6949,28 @@ a lot of things get inherited. We just need a few rules to sort out some
 of these things, and set the the overview section to display the grid,
 so that it looks right there.
 
-![](./images/webp/image436.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image437.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 436/437.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image436.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image437.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let&apos;s go ahead and add these rules for the overview section. Just a few
 of them here. We just need to stick in over here inside the overview.
 I&apos;m going to save that.
 
-![](./images/webp/image438.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 438.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image438.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Then when we come back and refresh the page. We&apos;ve got our description
 and we&apos;ve got an overview here with our columns of stuff. It looks
@@ -6905,9 +6979,16 @@ phone, it should look pretty nice. Again, we&apos;re doing the mobile first,
 because we&apos;ll be adding the desktop view in later. Then next, we&apos;ve
 got to look at the desktop, the download section.
 
-![](./images/webp/image439.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image440.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 439/440.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image439.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image440.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Download styles, let&apos;s add those. There are a lot of rules for the
 download section. Some of these are specifically in place because of the
@@ -6918,15 +6999,24 @@ There&apos;s a whole big chunk for the download section. It&apos;s a lot. Let&ap
 just grab it all. Again, the best thing to do is to mess with it, and
 see what happens if you mess around with it. If you screwed up, just
 paste it back in again, it&apos;s not a big deal.
-
-![](./images/webp/image441.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 441.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image441.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 We put that in. I&apos;m not going to go through and describe all of these,
 but they&apos;re all in here.
 
-![](./images/webp/image442.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 442.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image442.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let&apos;s go take a look and see what that did to our page. Download
 section. This thing here is going to be an element. I&apos;ll show you the
@@ -6934,18 +7024,29 @@ finished version that animates, and moves these things up and down, or
 moves them up into place, and highlight them as they go by. You&apos;ll be
 adding that scripture, you&apos;ll have a challenge to add that script on
 your own in a future lesson here. Great, we&apos;re coming along.
-
-# 2.35 Pricing Styles (4:00)
-
-![](./images/webp/image443.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-35">2.35 Pricing Styles (4:00)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 443.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image443.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 We&apos;re going to continue adding styling to our page and the next section
 is the pricing styles.
 
-![](./images/webp/image444.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image445.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 444/445.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image444.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image445.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 And that&apos;s going to set us up to get our tabs working the way we need
 them to work when we add the the tapped script later, you&apos;ll be able to
@@ -6960,10 +7061,16 @@ what these do recommend playing around with them and inspecting your
 page, take something out, see what happens, change the values mess
 around with it. It doesn&apos;t matter if you screwed up, it&apos;s totally
 fine.
-
-![](./images/webp/image446.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image447.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 446/447.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image446.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image447.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 I&apos;m going to go ahead and add those here under the pricing style
 section, And you&apos;ll see once we get that in and save it and then come
@@ -6976,10 +7083,16 @@ those things up there in the header, I don&apos;t really want those there.
 But we&apos;ll get that to work later, that would be great if we get that to
 work. But we&apos;ve got all of that content designed and looking pretty
 good. Now, we just need to go on to the next section.
-
-![](./images/webp/image448.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image449.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 448/449.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image448.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image449.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let&apos;s get these styles for the listen section. It&apos;s not that many
 here, it&apos;s just a few. We&apos;ll add more, you&apos;ll add some more later.
@@ -6987,25 +7100,41 @@ When you do the JavaScript to make the actual content rotator work,
 we&apos;ll add a few more, but we&apos;ll get those into place and then let&apos;s
 come back over here. And put these in just to kind of get that to
 display properly, save that.
-
-![](./images/webp/image450.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 450.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image450.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 And then let&apos;s take a look and see how that is actually coming through.
 Refresh this scroll down and here&apos;s our listen section, looks nice for
 mobile.
-
-![](./images/webp/image451.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image452.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 451/452.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image451.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image452.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Next, we&apos;ve got the our team section, let&apos;s go ahead and add that.
 There isn&apos;t going to be any interactive elements for the rest of the
 page.
-
-![](./images/webp/image453.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image454.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 453/454.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image453.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image454.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 So these styles will just stay the way they are and we&apos;re not going to
 do anything interactive with these last two sections, there our team
@@ -7013,27 +7142,44 @@ part and the footer. And again, if you&apos;re not sure what these rules are
 doing or recommend playing around with them, take some time with it to
 see what they actually do, save that. Let&apos;s come back and see how the
 rest of our page shapes up.
-
-![](./images/webp/image455.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image456.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 455/456.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image455.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image456.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 There&apos;s the our team section for mobile and the footer and now we&apos;ve
 got the entire mobile version of this page set. The next thing we need
 to do is, add will adjust styling in the media queries for when the page
 gets larger, so we&apos;ll do that next.
-
-# 2.36 Tablet Styles (6:46)
-
-![](./images/webp/image457.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-36">2.36 Tablet Styles (6:46)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 457.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image457.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 You&apos;ve finished the styling for the mobile version, and now it&apos;s time
 to get the styling in place for the tablet version.
 
-![](./images/webp/image458.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image459.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 458/459.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image458.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image459.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 So to get ready for that, come over here to your view, switch this to be
 responsive and make the screen just a little bit larger than 670 pixel
@@ -7042,10 +7188,16 @@ do a little bit more for the styling in between these sizes, somewhere
 in 61, sure, that&apos;s fine. But at this point, we&apos;re getting to a point
 where our layout just doesn&apos;t look quite as good at this size, we could
 do a better job.
-
-![](./images/webp/image460.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image461.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 460/461.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image460.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image461.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 We can add a media query, adjust our layout a little bit based on the
 size here. Again, we&apos;ll just copy and paste our styles in place so you
@@ -7058,9 +7210,13 @@ not going to cooperate with me in that, but that&apos;s okay.
 
 So I&apos;m going to add 760 media query styling for the slider and for the
 overview to make those two areas look a little bit better.
-
-![](./images/webp/image462.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 462.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image462.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 I&apos;m going to copy that. Come over here and scroll down and you can see
 I have a media query here for 760 pixels, so these rules are going to go
@@ -7068,8 +7224,13 @@ between these two curly braces in here. I&apos;m going to paste those in,
 and even tap them in a little bit there. When I click save, it&apos;s going
 to expand more, which drives me nuts, but that&apos;s right.
 
-![](./images/webp/image463.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 463.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image463.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 But if I come back and look at that, if I come back here and refresh up
 at the top of my page, you&apos;ll see it&apos;s adjusted this down here, it&apos;s
@@ -7098,9 +7259,13 @@ flex 1, just giving me some layout since I&apos;ve got enough screen space
 to do it here. All of these are actually just providing a little bit of
 layout using the flex parts model here, flex parts layout model. Again,
 these are going to go into the 760 media query.
-
-![](./images/webp/image467.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 467.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image467.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So just after these rules here, but this is the closing of the media
 career, that curly brace, don&apos;t lose that. It can screw things up, it
@@ -7108,19 +7273,31 @@ goes after that one. I wish that it didn&apos;t. Do this thing where it
 piles them all up. In fact, I&apos;m going to leave those like that and not
 save it until we and get the next set, which is for the lesson and our
 team.
-
-![](./images/webp/image468.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image469.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 468/469.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image468.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image469.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Then we&apos;ll do a few minor changes for the footer as well. So it&apos;s
 great to put all of these in. Again, if you&apos;re not sure what these do,
 I really recommend coming in and messing around with them, see what they
 do when you take them out, see what happens.
-
-![](./images/webp/image470.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image471.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 470/471.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image470.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image471.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 We got that and then we&apos;ve got the ones for the footer as well.
 Hopefully, and I realized that by copying and pasting the stuff in you
@@ -7131,24 +7308,41 @@ interaction design stuff, it&apos;ll make more sense. That&apos;s my hope. But
 if it doesn&apos;t feel like it seems like it&apos;s doing that and that&apos;s
 fine, you could skip to the end. I will provide this file before you&apos;re
 finished when we&apos;re done.
-
-![](./images/webp/image472.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image473.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 472/473.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image472.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image473.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 You can see I&apos;ve added a little bit of layout here. Down here, I have
 added a little bit lay. Pricing is over here and my tabs are on this
 side instead of one on top of the other.
-
-![](./images/webp/image474.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 474.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image474.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 This is now on the left instead of on top, and then we&apos;ve got a quote
 here which will use content rotator for.
 
-![](./images/webp/image475.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image476.webp){width="3.5in"
-height="2.1512281277340333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 475/476.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image475.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image476.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Your team has been reconfigured to make that look a little bit better,
 and in the footer set up to look a little bit better. By the way, in the
@@ -7156,17 +7350,28 @@ footer, I have the names of all the different people who provided these
 images taken off on splash. Great, we&apos;ve got the 760 media query done,
 let&apos;s go ahead next and work on the next media query for the full
 desktop size.
-
-# 2.37 Media Query for 1020 Pixels Wide (4:56)
-
-![](./images/webp/image477.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-37">2.37 Media Query for 1020 Pixels Wide (4:56)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 477.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image477.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 The next breakpoint for my media query is 1020 pixels.
 
-![](./images/webp/image478.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image479.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 478/479.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image478.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image479.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 When I get my screen that wide, I want to make further adjustments to
 the layout. And we&apos;re really getting much closer to the design that you
@@ -7187,9 +7392,16 @@ elements layout and the space available for them to make them look a
 little bit better. And this is all just part of what you do as a
 designer.
 
-![](./images/webp/image480.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image481.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 480/481.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image480.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image481.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 I&apos;m going to come in here, I&apos;m going to grab these rules here for the
 body, the header and the slider styles just got some basic styling
@@ -7202,17 +7414,30 @@ different padding, you can tell all this stuff has to do pretty much
 with layout with 33% padding 30. It&apos;s all having things to do with
 layout in here that I&apos;m applying to these elements. And again, if you
 want to mess around with it, feel free.
-
-![](./images/webp/image482.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image483.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 482/483.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image482.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image483.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Well, these ones for the pricing Tableaus in I mean add that&apos;s the
 pricing and the downloads.
 
-![](./images/webp/image484.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image485.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 484/485.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image484.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image485.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 This one is the listen and teams. You don&apos;t need to do anything for the
 footer. It&apos;ll just get wider. Listen styles tab those in. Now when I
@@ -7221,9 +7446,16 @@ reading it that way for the media queries. I like them all in one line.
 I find it there&apos;s usually just one or two declarations. Not that much
 going on. This one had more, but I prefer to put them on one line.
 
-![](./images/webp/image486.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image487.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 486/487.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image486.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image487.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let&apos;s go take a look and see what all that did for our 1020 version of
 our page refresh. Now, this is now taking up a third of the width of the
@@ -7240,25 +7472,37 @@ row and the footer stays the same. There we go.
 
 The 1020 media query is done and our page is really coming together.
 I&apos;m going to look at the next one in the next lesson.
-
-# 2.38 Media Query for 1200 Pixels Wide
-
-![](./images/webp/image488.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-38">2.38 Media Query for 1200 Pixels Wide</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 488.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image488.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 The media query for 1200 pixels wide is for when somebody is viewing
 this website on a nice large desktop in their browsers, nice and wide,
 and they&apos;ve got lots of screen real estate, in which case we can really
 kind of optimize our layout for that look.
-
-![](./images/webp/image489.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 489.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image489.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So let&apos;s go ahead and add these rules in over there and you need to set
 your width here for me to do it.
-
-![](./images/webp/image490.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 490.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image490.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 I&apos;m going to need to move this thing down to the bottom here and I&apos;m
 going to shrink that down a little bit. And then set this to 1200, maybe
@@ -7270,11 +7514,16 @@ doesn&apos;t need a lot of change, but just making some minor changes to
 kind of make the stuff look a little bit better on the wider screen. So
 let&apos;s go over and add those rules that we have on our snippets and
 they&apos;re here.
-
-![](./images/webp/image491.webp){width="3.5in"
-height="2.1639424759405075in"}
-![](./images/webp/image492.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 491/492.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image491.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image492.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 I want to cut this set first. I&apos;m giving sections 50 pixels padding, so
 now I&apos;ve got a lot of room, I can actually space things out, give them
@@ -7283,10 +7532,16 @@ to do with providing some better spacing in here, and when you&apos;re a
 designer, spacing is really important because it really helps
 communicate. So you want to get that kind of stuff just right as much as
 possible.
-
-![](./images/webp/image493.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image494.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 493/494.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image493.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image494.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 And then we&apos;ve got a few more here for the overview, download and
 pricing styles. I want to switch to here and add those in. Again, the
@@ -7295,17 +7550,31 @@ descendant of the overview section. So it won&apos;t apply to an article
 inside of an article, it will only apply to those parent level ones, and
 that&apos;s kind of helpful to be aware of.
 
-![](./images/webp/image495.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image496.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 495/496.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image495.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image496.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Okay, continue on here and get the last piece for this one. And finally,
 put that in here. The footer gets some new styling at 1200 pixels to
 adjust for that.
 
-![](./images/webp/image497.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image498.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 497/498.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image497.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image498.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 And then finally, we&apos;ve got one little rule that goes in the 1500 or
 larger media query, and it has to do with the fact that the header is
@@ -7315,10 +7584,16 @@ really large, and I can&apos;t even demonstrate that here in this lesson,
 but you&apos;ll have to trust me that it works. Or try it out or if you&apos;ve
 got a nice big monitor you&apos;ll see the difference. Take it out and see
 what it looks like without it and then put it back in.
-
-![](./images/webp/image499.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image500.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 499/500.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image499.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image500.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 So now I&apos;ve got that all sort of sorted out. And in there, I can come
 over and take a look at my page. You can see this got reconfigured even
@@ -7327,10 +7602,16 @@ padding on the edges, 50 pixels padding. I&apos;ve got some room here. It&apos;s
 nice to have some room. And so since I&apos;ve got some room, I might as
 well use it to give myself some white space, make the page a little bit
 easier to read, make it a little bit nicer.
-
-![](./images/webp/image501.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image502.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 501/502.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image501.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image502.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Down here, again, adding some room, 50 pixels padding around these
 things. 50 pixels padding around this element here. Give it a little bit
@@ -7339,10 +7620,16 @@ of breathing room.
 Same thing down here. Now I&apos;ve got some extra padding in here. Give it
 a little bit of breathing room, extra padding here to give it a little
 bit of breathing room.
-
-![](./images/webp/image503.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image504.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 503/504.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image503.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image504.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 I bumped up the sizing of this quote a lot. I mean, really make it stand
 out. I got the room now, might as well, right? Down here, the team
@@ -7358,11 +7645,15 @@ as something that you can download and so you can get my version anyway,
 so there&apos;s no reason why you shouldn&apos;t play around with this and mess
 around with it, come up with your own styling and see what you can do
 with it. It&apos;s always fun to do that.
-
-# 2.39 Scription Site: Building Interactive Elements Challenges
-
-![](./images/webp/image505.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch2-39">2.39 Scription Site: Building Interactive Elements Challenges</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 505.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image505.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 In the previous lesson, we did the HTML and CSS to create this fictional
 web page for scription, and this fictional company, and it looks really
@@ -7372,34 +7663,51 @@ which you can actually build in some interactive elements. This is your
 opportunity to show all the great things you&apos;ve learned in our
 JavaScript specialization and to do some challenges to build some
 interactive elements in here.
-
-![](./images/webp/image506.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 506.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image506.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let&apos;s take a look at what some of these different interactive elements
 are. If I come over to this tab here and I will provide this page for
 you, so that you can see what you&apos;re supposed to be doing.
-
-![](./images/webp/image507.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 507.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image507.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Here I have the scription web site with all of the interactive elements
 put in it. You can see that it&apos;s got a flex slider and it&apos;s running
 and doing its thing and it&apos;s functional, and you can click on the
 different links here, different pieces here. It&apos;s stuff set that up, so
 that&apos;s all working.
-
-![](./images/webp/image508.webp){width="5.0in"
-height="3.091346237970254in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 508.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image508.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 You&apos;ll notice that I&apos;ve got a nice, smooth scroll script working here
 and it moves down to each section as we go down here, when we get down
 to the download section.
-
-![](./images/webp/image509.webp){width="3.5in"
-height="2.1639424759405075in"}
-![](./images/webp/image510.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 509/510.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image509.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image510.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Of all of the challenges, this is the toughest one, because this is the
 one that doesn&apos;t match exactly what we&apos;ve done in the other lessons,
@@ -7408,10 +7716,16 @@ items moves up and pops into place and highlights the top item. To give
 you a sense of all the features this piece of software has to offer over
 here, this would be a lesson, but it&apos;s really just a picture of a
 lesson. No big deal.
-
-![](./images/webp/image511.webp){width="3.5in"
-height="2.1639424759405075in"}![](./images/webp/image512.webp){width="3.5in"
-height="2.1639424759405075in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 511/512.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image511.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image512.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 We go into pricing, and sure enough, you have tabs, you know how to make
 a tabs interface, you do it with JQuery, you do it with JavaScript,
@@ -7425,9 +7739,13 @@ them all look right on the page. Our team doesn&apos;t have anything
 interactive on it and the footer doesn&apos;t, but we can go all the way
 back up to the top of the page by clicking the logo. These are all of
 the pieces for you to build in, and it should be pretty fun.
-
-![](./images/webp/image513.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 513.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image513.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let&apos;s take a quick look at the challenges as they&apos;re laid out here.
 We&apos;ve got all of that done, and that&apos;s our introduction, we want to
@@ -7435,9 +7753,13 @@ make sure that you link to a script file to make sure there are no
 variables in the global scope, so each script needs to be in IIFE
 closure or some other function that will keep the variable from creeping
 into the global scope.
-
-![](./images/webp/image514.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 514.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image514.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 The first challenge is the smooth scroll. Again, when the user clicks
 the links in the navigation, it should scroll to the correct point on
@@ -7448,9 +7770,13 @@ scroll script. It&apos;s really just the easy part of the smooth scroll
 script where it&apos;s scrolling down to the correct part of the page,
 we&apos;re not doing any of the page tracking stuff that was much harder. So
 that&apos;s challenge one.
-
-![](./images/webp/image515.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 515.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image515.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Some hints for this, see if you can modify the JQuery smooth scroll
 script from the first lesson module to make it work. You might find it
@@ -7468,9 +7794,13 @@ let const as preferred only use let if the value of the variable needs
 to change in the course of writing the script, and the way to do that is
 just to set everything to const and then if it breaks, find which one is
 breaking and change that one to let. Usually it&apos;s const.
-
-![](./images/webp/image516.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 516.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image516.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Challenge 2, add the Flexslider. For this challenge, turn the image at
 the top of the page into a flexslider. To do this, go back to the
@@ -7478,9 +7808,13 @@ Flexslider lesson for a reminder on how the Flexslider works. Add the
 link to the Flexslider the CSS to the index file at the markup for the
 additional slides, the index file. By the way, I&apos;ve provided some
 additional snippets so that adding this markup will be easier.
-
-![](./images/webp/image517.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 517.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image517.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Here are all the list items that you need for the Flexslider and I will
 provide this file for you so you can just paste this right in. You
@@ -7494,9 +7828,13 @@ Flexslider&apos;s files. You&apos;ll need those in order to make this work.
 Adjust the styling in the CSS file and add appropriate script to the JS
 file to initialize the slider. I did modify the slider a little bit with
 some of the features that we saw in the other slider.
-
-![](./images/webp/image518.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 518.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image518.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Notice that I also got rid of the arrows that point left and right.
 That&apos;s a setting, so you can just turn them off by just setting it to
@@ -7505,9 +7843,13 @@ although they don&apos;t really go with the style of the site. But they
 really look terrible on the mobile version. I decided I didn&apos;t want
 them anymore. I didn&apos;t really need that particular item in there. I did
 that as well.
-
-![](./images/webp/image519.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 519.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image519.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Once you get the Flexslider done, you can go on to, Challenge 3, add the
 tabs. For this challenge add the script to make the tabs work in the
@@ -7523,9 +7865,13 @@ version but if you do, you&apos;ll need to add a few styles to the
 style-sheet to make that version work and you can go back and look at
 that version of that script to see what styles you would need to add.
 That&apos;s Challenge 3, to get that to work.
-
-![](./images/webp/image520.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 520.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image520.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Challenge 4, is the content rotator. Add the content rotator for the
 client quotes to this challenge. To do this, you&apos;ll need to add more
@@ -7541,9 +7887,13 @@ rotator to 550 pixels. Once you get those pieces in place, you can go
 ahead and work on the content rotator. You can pause this lesson here,
 we&apos;ll come back to it to see exactly what you need to do in order to
 get that to work.
-
-![](./images/webp/image521.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 521.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image521.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Challenge 5, this is really the toughest challenge because you have not
 seen this one before. But you have all of the pieces you need in order
@@ -7583,10 +7933,15 @@ section:
 
 -   **2.39.ScriptionSite-Part2-InteractionChallenges.pdf**
 
-# 3.01 Module 3 Intro (0:37)
-
-![](./images/webp/image522.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch3-01">3.01 Module 3 Intro (0:37)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 522.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image522.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Hello, welcome to the third module and our third course on JavaScript.
 In this module, we&apos;re going to introduce objects and we&apos;ll do a lot of
@@ -7596,17 +7951,25 @@ game that we&apos;re going to work on in our fourth module, and see how we
 can take a more complex script and break it down. It&apos;s really
 interesting content and I think you&apos;re going to get a lot out of it. I
 look forward to doing it with you. Let&apos;s get started.
-
-# 3.02 Introduction to Objects and Data in JS (5:52)
-
-![](./images/webp/image523.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch3-02">3.02 Introduction to Objects and Data in JS (5:52)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 523.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image523.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let&apos;s talk about a few of the familiar pieces we have with the
 JavaScript language.
-
-![](./images/webp/image524.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 524.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image524.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 You&apos;re already familiar with variables. That&apos;s a data structure that
 can hold a variable. We have the var cheese and it can hold a value like
@@ -7627,8 +7990,13 @@ key which is **lastname**, which has the value Smith in there. Well we
 can do the same thing with JavaScript but not with the arrays. Instead
 we&apos;ll use **objects**.
 
-![](./images/webp/image525.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 525.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image525.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 This is the object literal in JavaScript. Here I have a variable person
 and it&apos;s assigned an object, and the object consists of key value
@@ -7649,8 +8017,13 @@ and but John does. And this is how you will frequently see **objects**
 listed in JavaScript is in this sort of format, because it&apos;s easier to
 read.
 
-![](./images/webp/image526.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 526.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image526.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Now notice here again, I&apos;m going to point this out because this is
 really important. The key in the object first name does not get quotes
@@ -7660,9 +8033,13 @@ thing to notice here is that each key value pair is followed by a comma
 except for the last one. And that&apos;s really kind of important as well.
 So you&apos;ll have key value pairs and one on each line, one key value pair
 in each line followed with a comma.
-
-![](./images/webp/image527.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 527.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image527.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Now it&apos;s really important to get in the habit of actually typing this.
 And to do this now just to demonstrate, you could come over to a new
@@ -7678,16 +8055,24 @@ and feel and get some muscle memory in around the actual syntax. And
 then we have a comma there and then age 25 or whatever you want to put
 in for an age. And remember that one does not get a comma, we just close
 the object and that object has been defined.
-
-![](./images/webp/image528.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 528.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image528.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 And now I could access person.firstname and you can see it even fills it
 out for me, I can press tab and it&apos;ll return Jose. You want to practice
 this as much as you can, and get used to using these data structures.
-
-![](./images/webp/image529.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 529.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image529.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 One more thing about objects before we close out this lesson is that you
 can also create an object like this. Here I have person, a variable
@@ -7716,16 +8101,25 @@ transmission, often carrying the extension .ZIP.
 -   [How to open a zip file for either Mac or
     PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
 
-# 3.03 Objects Can Contain Arrays and Other Objects (5:04)
-
-![](./images/webp/image530.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch3-03">3.03 Objects Can Contain Arrays and Other Objects (5:04)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 530.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image530.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 The object data format in JavaScript is very flexible because objects
 can contain arrays and other objects.
-
-![](./images/webp/image531.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 531.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image531.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Here you can see we have an object called person and we&apos;ve expanded it
 a bit so it has first name and last name, but it also has an array for
@@ -7735,8 +8129,13 @@ it&apos;s an object inside of an object and inside phone number it has its
 own key value pairs. And then we can access these different values
 through similar methods that we used before down here.
 
-![](./images/webp/image532.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 532.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image532.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 I recommend typing this out and seeing if you can get it to work exactly
 the way this works. I&apos;m going to do that over here and you&apos;re not
