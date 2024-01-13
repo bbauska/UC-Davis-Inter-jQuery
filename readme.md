@@ -8148,8 +8148,13 @@ a chicken, **person.pets&lbrack;2&rbrack;**. It gets me the chicken or I could d
 (**person.phonenumber.work**) and that will get me the work phone
 number. We can access all the data inside of this object.
 
-![](./images/webp/image533.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 533.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image533.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 You can even update data very easily with this and we&apos;ll talk more
 about this later but it&apos;s possible to update data if I did
@@ -8162,8 +8167,13 @@ can have a raise. All kinds of fun stuff can go in there and that&apos;s a
 really important thing to understand about objects as a data structure.
 They&apos;re very flexible and very useful for working with in this way.
 
-![](./images/webp/image534.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 534.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image534.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Another thing that&apos;s interesting about objects is that they can contain
 functions as one of the values of one of their properties and that may
@@ -8180,8 +8190,13 @@ parentheses after greeting after that property. And it will run that
 function that&apos;s in that assigned to that greeting key there. So let&apos;s
 do this really quickly because this is kind of interesting.
 
-![](./images/webp/image535.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 535.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image535.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 If you come back over here to your tab, we can clear out the **console**
 here and I&apos;m just going to paste this in just so that it&apos;s there and
@@ -8195,16 +8210,25 @@ can assign a **method**, creative **function**, create a **method** that
 belongs to an **object** and then access that **method** through the
 **object**, like this **person.greeting**. And that&apos;s a really cool
 feature of JavaScript in **objects**.
-
-# 3.04 Functions Inside Objects Equals Methods (6:14)
-
-![](./images/webp/image536.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch3-04">3.04 Functions Inside Objects Equals Methods (6:14)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 536.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image536.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let&apos;s take this idea a little bit further.
 
-![](./images/webp/image537.webp){width="5.0in"
-height="3.1180555555555554in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 537.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image537.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 We can put **functions** inside **objects**, which again are called
 **methods**. But also we can use the **'this'** keyword, to reference
@@ -8222,25 +8246,39 @@ out of this. And, the "**this**" keyword can be somewhat confusing in
 javascript, but it refers to this **object**, this **person**, that&apos;s
 the context in which this makes sense here.
 
-![](./images/webp/image538.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 538.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image538.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So, let&apos;s give this a try over here. And it will say hello John Smith.
 This is referring to this **firstname** and this **lastname**. And
 remember that this is a key word here in javascript, so that&apos;s
 important.
 
-![](./images/webp/image539.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 539.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image539.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 The next thing to talk about is the **object constructor**. This will
 push our **objects**, even further into something even more useful. And
 what an **object constructor** does, is it creates a **use function** to
 create an **object** that could be like a reusable template that you
 could use over and over again.
-
-![](./images/webp/image540.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 540.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image540.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So here, if you look at this, what we have here on this screen, we have
 a **function** **person**, and when you create **constructive
@@ -8260,9 +8298,13 @@ see how it works and recommend, typing this out because we&apos;re starting
 to have seen a number of different ways of using objects now and if
 you&apos;re not typing them, you&apos;re not going to get comfortable with them
 or remember them.
-
-![](./images/webp/image541.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 541.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image541.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 I&apos;m going to go over here to my tab here, and I&apos;m just going to paste
 it in but you should definitely type it. Type this whole thing out here.
@@ -8275,9 +8317,13 @@ going to put in, **firstName** &apos;&apos;Mary&apos;&apos;, **lastName** "Mead"
 **object** in **myMother** and I can access its values by typing
 **myMother** dot **firstName**. It&apos;s that 2nd one there. Now we had
 **firstName** with the capital in there.
-
-![](./images/webp/image542.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 542.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image542.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So there we go, we can actually access these values for this **object**
 here and I can make another **object**. **myFather**, equals **new
@@ -8290,11 +8336,15 @@ reusable **objects**, and can have different values each time you create
 a new **object** from that **constructive function**. And this is a very
 powerful pattern, that you&apos;ll see frequently in, more sophisticated,
 more complex javascript programming.
-
-# 3.05 Putting Objects and Functions Together (5:18)
-
-![](./images/webp/image543.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch3-05">3.05 Putting Objects and Functions Together (5:18)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 543.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image543.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Putting objects and functions together, this is a really powerful
 pattern, and it&apos;s used frequently in more sophisticated JavaScript
@@ -8304,9 +8354,13 @@ going to really make use of a pattern like this.
 But I want to show it to you as we&apos;re talking about **objects**, so you
 can start to think about ways in which you can use **objects** and
 **functions** together that are very powerful.
-
-![](./images/webp/image544.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 544.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image544.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Here on the left, you can see that we have a **function** called
 **printableMessage**, and in that **function** there&apos;s a variable
@@ -8329,16 +8383,24 @@ is a really good example of the power of a **closure**, because we can
 actually assign **variables** that hold **printableMessage**, and we can
 do different things with them without actually affecting what&apos;s inside
 this **closure**.
-
-![](./images/webp/image545.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 545.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image545.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let&apos;s see how this works, and again, I strongly recommend that you
 actually type this out into an HTML file or else in script tags. You can
 see that it gets defined here. That will get to find, **printMessage.**
-
-![](./images/webp/image546.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 546.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image546.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Now I can make a **variable var** **awesome1**, equals printable
 **message{}** there, and I can do, **awesome1**. **PrintMessage{},** and
@@ -8361,18 +8423,26 @@ But as we&apos;re talking about objects, it&apos;s important to talk about how
 objects and functions together in JavaScript are very powerful, and give
 you this opportunity to create things that are reusable modules. That&apos;s
 a a key thing in any programming language is to be able to do that.
-
-# 3.06 Data Formats - XML (3:47)
-
-![](./images/webp/image547.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch3-06">3.06 Data Formats - XML (3:47)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 547.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image547.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 The next thing to talk about in our journey with Objects, is to talk
 about data formats and to talk about data. Here, we&apos;re seeing a data
 format called XML.
-
-![](./images/webp/image548.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 548.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image548.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 If you look at it, it should look fairly familiar in the sense that we
 have data that has been described using tags, and the tags look a little
@@ -8390,18 +8460,26 @@ data format called JSON, which stands for JavaScript Object Notation.
 
 Over here, we have a level graph here, about the popularity of these.
 You can see JSON&apos;s going off the chart here.
-
-![](./images/webp/image549.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 549.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image549.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 This comes from this article over here, &quot;The Rise of JSON.&quot; This is
 interesting, about how JSON has become very popular. You&apos;ll also notice
 this name, Douglas Crockford, was involved with the invention of this
 data format JSON. We&apos;ve talked about him before. XML is a valuable
 format for data, but it&apos;s being largely replaced by JSON.
-
-![](./images/webp/image550.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 550.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image550.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 If we look at JSON and Objects now, on the left you&apos;ll see something
 that is JSON formatted strings. This is data in JSON format, again,
@@ -8424,34 +8502,52 @@ is a trivial matter, as we&apos;ll see in just a minute because this is
 something that happens a lot. A lot of times you&apos;re going to have data
 in JSON format, and then you&apos;re going to convert that data into an
 object that you can manipulate and use within your JavaScript program.
-
-# 3.07 Example File (7:17)
-
-![](./images/webp/image551.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch3-07">3.07 Example File (7:17)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 551.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image551.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 With this lesson, there is a example file, so I recommend you open up
 that example file in Visual Studio Code or whichever code editor you&apos;re
 using and work with that to see what you can do with that file, with
 some JSON data.
-
-![](./images/webp/image552.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 552.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image552.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 I have that file open over here. In it is just a variable called JSON
 with a string of JSON data.
-
-![](./images/webp/image553.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 553.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image553.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 We can do something with this, we could say **var user** equals
 JSON.parse(json). Now let&apos;s see what happens. I&apos;m going to
 console.log. I&apos;m just going to console.log the json variable up there,
 and that should just give me my string of data.
-
-![](./images/webp/image554.webp){width="3.5in"
-height="2.0454057305336835in"}![](./images/webp/image555.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 554/555.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image554.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image555.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let&apos;s see what happens if I do that. If I go over to here, and then to
 my file here and click refresh, you can see I&apos;m just getting my string
@@ -8460,10 +8556,16 @@ to have your raw data built into a file. You&apos;re going to be getting it
 from some external source, maybe from a database or from some 3rd party
 API. We&apos;ll be talking about those later in this course. But for right
 now, I&apos;ve just built a little bit of JSON in here.
-
-![](./images/webp/image556.webp){width="3.5in"
-height="2.0454057305336835in"}![](./images/webp/image557.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 556/557.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image556.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image557.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Next, I&apos;m going to come to logout user and you&apos;ll see I&apos;m going to
 actually do a whole separate. When you see you can see both next to each
@@ -8474,9 +8576,13 @@ so that&apos;s what this parse method does here is it takes the json. This
 parse method here takes that JSON and JSON.parse will take that JSON and
 parse it and stick it into user. Now, it&apos;s an object that I can
 actually do some things with.
-
-![](./images/webp/image558.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 558.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image558.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 What can I do with it? I can do a number of things with it. I can access
 the data so I could use user.last_name or user.social media&lbrack;0&rbrack; to get
@@ -8493,10 +8599,16 @@ to the objects so I could have user.social_media&lbrack;3&rbrack; wordpress.com,
 that&apos;s a new social media place that want to add to my object, and
 you&apos;ll see that each of these things works and runs in there. I
 recommend trying some of these things out.
-
-![](./images/webp/image559.webp){width="3.5in"
-height="2.0454057305336835in"}![](./images/webp/image560.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 559/560.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image559.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image560.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 If you go over here, and just add some calls to the console log, you can
 comment these out. If you don&apos;t want to actually see them right now and
@@ -8512,9 +8624,13 @@ spend enough time on objects. Really, the truth is they didn&apos;t spend
 enough time on objects. I&apos;ll tell you to do this stuff. But if you
 don&apos;t do it, you won&apos;t get used to it and you won&apos;t get good at
 working with JavaScript and objects.
-
-![](./images/webp/image561.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 561.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image561.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 The last thing here is occasionally you need to take an object and
 convert it back into JSON or convert it into JSON. You can do that by
@@ -8548,16 +8664,26 @@ section:
 
 -   **3.07.JavaScript-Object-Challenges.pdf**
 
-# 3.08 Intro to Pig Dice Game (5:44)
-
-![](./images/webp/image562.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch3-08">3.08 Intro to Pig Dice Game (5:44)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 562.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image562.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 This is a game of luck created that we can create in JavaScript and I
 didn&apos;t invent this game.
 
-![](./images/webp/image563.webp){width="4.0in"
-height="2.2658114610673667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 563.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image563.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 You can look it up in the Internet and see other all variations of this
 game. In fact, at the end of this lesson, I&apos;m hoping you can make some
@@ -8573,8 +8699,13 @@ thinking about creating more sophisticated applications or scripts are
 going to become longer. We really need to think about how we&apos;re going
 to go about building them more carefully.
 
-![](./images/webp/image564.webp){width="5.0in"
-height="2.8322648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 564.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image564.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let&apos;s start with this game of Pig. In the first place to start is with
 the rules and the game of pig rules. The rules that we&apos;re going to
@@ -8619,8 +8750,13 @@ here. I strongly recommend that you do these steps in that you think
 about this as thoroughly as you can before going into the lesson where
 we actually build the game.
 
-![](./images/webp/image565.webp){width="5.0in"
-height="2.8322648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 565.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image565.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 With that said, do this with nothing more than those rules, that set of
 rules, nothing more than the rules on that previous slide. What do you
@@ -8633,9 +8769,13 @@ think you&apos;ll need, and for which parts? What else comes to mind? Just
 with nothing other than the rules. Sit down and take a few minutes to
 think about this and to see what you can get, I&apos;ll go back to the
 rules.
-
-![](./images/webp/image564.webp){width="4.0in"
-height="2.2658114610673667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 564.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image564.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Here&apos;s the rules here. I mean, in the lesson here, and you should go do
 that, take a few minutes to really try to map out what you think this
@@ -8645,38 +8785,59 @@ rules.
 -   **3.08. Intro to Pig Dice Game Diagrams**
 
 Here are the diagrams for the pig game to help you.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 566.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image566.webp"
+  style="width:65%;"
+  alt="." />
+</p>
 
-![](./images/webp/image566.webp){width="6.5in"
-height="1.5729166666666667in"}
-
-# 3.09 Play the Game of Pig (5:04)
-
-![](./images/webp/image567.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch3-09">3.09 Play the Game of Pig (5:04)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 567.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image567.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Okay, now hopefully you&apos;ve taken a few minutes and jotted down some
 notes just based on the rules. If you are creating a game from scratch
 and you didn&apos;t have an example to go from of that game, that&apos;s all you
 would have. You would have to start with that.
-
-![](./images/webp/image568.webp){width="4.0in"
-height="2.2658114610673667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 568.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image568.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Now, here we&apos;re a little bit lucky in that this game already exists. So
 we can actually reverse engineer it a little bit. We can actually go
 play the game and take further notes based on what we observe while
 playing the game. So I will provide a URL for this game.
-
-![](./images/webp/image569.webp){width="4.0in"
-height="2.2658114610673667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 569.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image569.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 It&apos;s the cpe-web-assignments.ucdavis.edu/pig-js. So you can actually go
 to this website and play this game following the rules that I have. And
 I recommend that you do this a few times. Play the game, pick the player
 see what happens when you click the different buttons.
-
-![](./images/webp/image570.webp){width="4.0in"
-height="2.2658114610673667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 570.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image570.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 What happens if you click Quit? What happens if you click Roll the dice?
 Inspect the screen, use your inspector to inspect sort of what the
@@ -8713,9 +8874,13 @@ at the rules, does it match? Are there things that are different than
 you thought? Are there things that you&apos;re noticing that you didn&apos;t
 notice before, since you have the advantage of having a existing version
 to deconstruct? What do you notice there?
-
-![](./images/webp/image571.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 571.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image571.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Pause the lesson and do this before going on to the next part of the
 lesson. Okay, hopefully you did that and you took some time, and wrote
@@ -8737,11 +8902,15 @@ in the afternoon, or in the morning, or tomorrow, or something like
 that. Give it some time, really percolate on this, and think about how
 you would go about creating this program before going on with this
 lesson.
-
-# 3.10 Version One (4:05)
-
-![](./images/webp/image572.webp){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch3-10">3.10 Version One (4:05)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 572.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image572.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 In this next part of this lesson, I&apos;m going to talk about my thought
 process for how I go about solving these types of problems. And your
@@ -8763,9 +8932,13 @@ So I&apos;m going to show you some diagrams here that will walk through how
 I think about it, and you can create your own diagrams and you can just
 draw them on pieces of paper. It&apos;s a good idea to do that, to help you
 sort of think out the steps that you would need in order to do this.
-
-![](./images/webp/image573.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 573.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image573.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 The first diagram demonstrates what I think of as the core of this game.
 And usually for me, when I start a new project, when I start a new
@@ -8800,18 +8973,26 @@ ones that I don&apos;t zero at the score, I just end my turn, and that
 describes the process of a single throw, which to me, is the cornerstone
 of this game.
 
-# 3.11 Version Two (2), Three (3), & Four (4) (6:51)
-
-![](./images/webp/image574.webp){width="4.0in"
-height="2.262820428696413in"}
+<h2 name="ch3-11">3.11 Version Two (2), Three (3), & Four (4) (6:51)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 574.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image574.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Having done the first version of my diagram, I start to think, well,
 wait a minute here, I need to keep track of the score. And somebody has
 won because the game is going to end, it&apos;s not just about the throws at
 a certain point, you&apos;re going to stop throwing dice or switching turns.
-
-![](./images/webp/image575.webp){width="5.0in"
-height="2.8322648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 575.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image575.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 And when that happens, you&apos;re going to check to see if some sort of
 winning condition has been met. So here you can see in this diagram
@@ -8825,8 +9006,13 @@ is going to totally be over. If no, I can decide whether or not we going
 to roll again and if yes, I can roll again and no, then my turn is over,
 but the game is not over.
 
-![](./images/webp/image576.webp){width="5.0in"
-height="2.8322648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 576.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image576.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 That brings me to version 3 of my diagram here. And here in version 3
 you can see that I start by throwing my dice and I roll the two dice if
@@ -8854,8 +9040,13 @@ helper function there that&apos;s going to set up a turn. And I&apos;ve started
 splitting this out into some different versions, into some different
 pieces here.
 
-![](./images/webp/image577.webp){width="5.0in"
-height="2.8322648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 577.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image577.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Version 3 is still feeling a little bit complex to me so I decided I
 wanted to modularize it a little bit more. Now I have a function that&apos;s
@@ -8880,8 +9071,13 @@ action area and add a button for starting a new game. If no, you can set
 the score area with the current score and then you&apos;re all set for the
 next turn. That&apos;s what the winning condition would look like.
 
-![](./images/webp/image578.webp){width="5.0in"
-height="2.8322648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 578.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image578.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Now we&apos;ve got three functions that are working together. One that
 represents kind of the guts of the game, the throw of the dice. One that
@@ -8890,8 +9086,13 @@ setting up that next turn, getting that next turn ready, getting our
 board ready. And one for checking the winning condition. And these three
 functions are going to work together to create this game.
 
-![](./images/webp/image579.webp){width="5.0in"
-height="2.8322648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 579.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image579.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 In summary, one approach to thinking about a game, or about creating a
 more complex script is to start at the most difficult part of the script
@@ -8916,10 +9117,15 @@ functionality you need for each piece.
 >
 > <https://d3c33hcgiwev3.cloudfront.net/wRpMd6i4TaiaTHeouG2osQ_7c411f98779849398ce95c23f23fedf1_WEB1092_M03_Introduction-to-Pig-Dice-Game.pdf?Expires=1704585600&Signature=dokAhbfdxI3qs5xjHcknMvZaX3kGHaQXYpYx2bHBBs6aaQ7SGPsvdCoVyqRrWHZhy3ZByrVjrK7dn7-D0N1FPTVv2GCEyv8zc3dUaTwu2RJbwQQxQyXm79L-bvq92s77lcIpJbGPtkHECDJeUIF1YbpMtLKeYoyoBovQ1WOm8Lg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A>
 
-# 4.01. Module 4 Introduction (0:43)
-
-![](./images/webp/image580.webp){width="4.0in"
-height="2.262820428696413in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch4-01">4.01. Module 4 Introduction (0:43)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 580.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image580.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Hello and congratulations to making it to the fourth module and our
 third course in JavaScript. In this module, we&apos;re going to build the
@@ -8931,17 +9137,27 @@ our code editors and our web browsers and have a lot of fun with this
 project. We&apos;ve had a lot of fun creating the material for you and I
 think you&apos;ll get a lot out of it. Let&apos;s get to it.
 
-# 4.02 Intro to the Game of Pig (6:30)
-
-![](./images/webp/image581.webp){width="4.0in"
-height="2.262820428696413in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch4-02">4.02 Intro to the Game of Pig (6:30)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 581.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image581.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Game of pig built in JavaScript.
-
-![](./images/webp/image582.webp){width="3.5in"
-height="1.9825863954505687in"}
-![](./images/webp/image583.webp){width="3.5in"
-height="1.9825853018372703in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 582/583.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image582.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image583.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 This is just a very basic version of the game with very little styling,
 so we can really just make it work. You can go back later, and add some
@@ -8962,30 +9178,48 @@ otherwise it would be really confusing. But it&apos;s important to realize
 that it&apos;s not developed that way, and that people don&apos;t necessarily
 think in this very linear way.
 
-![](./images/webp/image584.webp){width="5.0in"
-height="2.8322648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 584.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image584.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 I have my file open here in visual studio code. This is the index file
 here with all of the basic pieces of the HTML that are needed here to
 make the game work.
 
-![](./images/webp/image585.webp){width="5.0in"
-height="2.8322648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 585.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image585.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 We&apos;ve got an empty script tacked down here. This is where we&apos;re going
 to be working. This is in this part of the page. Then also we have the
 images of the dice that will be pulling up. This could go into a folder,
 but at this point, I just have them in the main folder and that&apos;s fine.
-
-![](./images/webp/image586.webp){width="5.0in"
-height="2.8322648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 586.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image586.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Then over here, I have the page loaded up so we can actually test the
 page here, and see how things are working as we go along, and work on
 the page here.
-
-![](./images/webp/image587.webp){width="5.0in"
-height="2.8322648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 587.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image587.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 The first thing we need to do in our code editor, is create some
 variables that we&apos;re going to use to access different areas of the
@@ -8993,8 +9227,13 @@ page, so it&apos;s really these variables here. I&apos;m going to have
 **startGame**, is going to be **document.getElementById** on it by the
 **startgame**.
 
-![](./images/webp/image588.webp){width="5.0in"
-height="2.8322648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 588.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image588.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 It&apos;s this button right here. Then I have **gameControl**, which is this
 whole div, the **gameControl** div. Then I have **game**, this is where
@@ -9009,9 +9248,13 @@ order. But let&apos;s just **get.ElementById**, I&apos;m just getting these
 id&apos;s for each of these elements. Make sure you get this code in here
 first, because these are the different parts of the board that we&apos;re
 going to need for our script.
-
-![](./images/webp/image589.webp){width="5.0in"
-height="2.8322648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 589.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image589.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 The next thing that you&apos;re going to need is an **object** to keep track
 of the data in the game. This is a perfect use for an **object**. We
@@ -9047,9 +9290,13 @@ Then we&apos;ve got the **gameEnd**, which I have currently set to 29 so
 that you can play the game really fairly quickly, and see how it works.
 Or later you could bump that up to 100 or something like that, to a
 score that&apos;s maybe a little bit more reasonable for the game.
-
-![](./images/webp/image590.webp){width="5.0in"
-height="2.8322648731408573in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 590.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image590.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 But let&apos;s go ahead and get this into our script file. I&apos;m not pasted
 in, you&apos;re going to have to type it, but I&apos;m going to pasted in here
@@ -9064,31 +9311,48 @@ and labeled properly. We&apos;re on our way to creating the pig game.
 
 > <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eu5vr/start-files-game-of-pig>
 
-# 4.03 Start the Game (7:50)
-
-![](./images/webp/image591.webp){width="4.0in"
-height="2.262820428696413in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch4-03">4.03 Start the Game (7:50)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 591.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image591.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Next we&apos;re going to start the game. And again when I was developing
 this, I started with what happens when somebody throws the dice? But, I
 think for the purposes of building our game from start to finish, it
 helps to just start at the top and start at the beginning.
-
-![](./images/webp/image592.webp){width="4.0in"
-height="2.337607174103237in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 592.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image592.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 So, when somebody clicks this button here, we want to start the game. I
 need to add a click handler for this button. I&apos;m going to add an event
 handler for clicking to the start game button.
-
-![](./images/webp/image593.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 593.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image593.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So let&apos;s do that first, we have our start game button defined here,
 which goes in and gets this button here.
-
-![](./images/webp/image594.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 594.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image594.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So, we&apos;re going to add in our script start game out event listener, and
 we&apos;re looking for a click, and we&apos;re going to run a function. Like so,
@@ -9097,9 +9361,13 @@ are going to do something with the, I&apos;m going to just put a comment in
 here now. Change index, or randomly select index whatever we want to put
 in there, just we&apos;re going to have to handle that. But before I do
 that, I want to first just sort of get the correct html on the page.
-
-![](./images/webp/image595.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 595.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image595.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So, up here at the top of my page in this section called game control
 here, I want to get now that I&apos;ve clicked the button. I don&apos;t really
@@ -9120,9 +9388,13 @@ just give it an id, id equals sore quote. Notice I&apos;m using single
 quotes here and then double quotes there. Alternatively, you could use
 the tick marks on either end as well. Make sure you get your html right,
 okay. So we&apos;re going to add that in there, that&apos;s great.
-
-![](./images/webp/image596.webp){width="6.5in"
-height="3.798611111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 596.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image596.webp"
+  style="width:65%;"
+  alt="." />
+</p>
 
 And now I just need an event listener for when somebody clicks the quick
 button. So I&apos;m going to say, document can I get element by id,
@@ -9131,19 +9403,29 @@ function, like so. And what&apos;s going to happen in that function? We&apos;re
 just going to do location.reload. And that refreshes the page, and then
 you go back to the way the page was before. Okay, great, so when you
 click the button, these things will happen and we&apos;ll get that working.
-
-![](./images/webp/image597.webp){width="3.5in"
-height="2.0454057305336835in"}![](./images/webp/image598.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 597/598.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image597.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image598.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let&apos;s just test this much and see if it works. If I come over here,
 click refresh, when I click that I get the game has started, when I
 click do you want to quit? It just refreshes the page, and puts it back
 so that&apos;s working just fine the way it is. When the test is frequently
 as we can there.
-
-![](./images/webp/image599.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 599.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image599.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Now, the last bit is I also want to set that game index, the game data
 index, I want to set that so that we can see that we&apos;re getting a
@@ -9159,9 +9441,16 @@ same line here, by putting **Math.round**, and then surrounding that. So
 log so that we can really see what that&apos;s doing console.log
 gameData.index, what is the value there and we&apos;ll test that and see.
 
-![](./images/webp/image600.webp){width="3.5in"
-height="2.0454057305336835in"}![](./images/webp/image601.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 600/601.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image600.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image601.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 So let&apos;s come over here and I&apos;m going to refresh the page to turn on
 my inspector so I can get to the console log, console and randomly and I
@@ -9173,16 +9462,24 @@ player or the other. So hopefully, you can see here that index being a 0
 or 1 is going to choose player 1 or play or 2. This is 0, this is 1,
 okay, great. We&apos;ve got a good start at making our big game. Let&apos;s keep
 going in the next lesson.
-
-# 4.04 Set Up the Turn (6:39)
-
-![](./images/webp/image602.webp){width="4.0in"
-height="2.262820428696413in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch4-04">4.04 Set Up the Turn (6:39)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 602.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image602.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 The next thing we need to do is set up the turn.
-
-![](./images/webp/image603.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 603.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image603.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 We&apos;re going to create a **function** for that and remember, we&apos;re
 going to have three basic functions in this game. One of them is
@@ -9190,10 +9487,16 @@ going to have three basic functions in this game. One of them is
 we&apos;ll have one for checking the winning condition. It&apos;s really the way
 these three functions work together that are going to determine how this
 game works.
-
-![](./images/webp/image604.webp){width="3.5in"
-height="2.0454057305336835in"}![](./images/webp/image605.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 604/605.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image604.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image605.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 The first thing we&apos;re going to do really is the **setUpTurn** function,
 and in that function we&apos;ll take game and we&apos;re going to set it
@@ -9245,9 +9548,13 @@ player of here, we now need to set up the term. I&apos;m going to run set up
 the term here, and we can leave this in here for now just for a moment
 to see if that&apos;s going to work. But we&apos;re going to run set up the term
 there so that we can get ready to roll the dice and see how that works.
-
-![](./images/webp/image606.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 606.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image606.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let&apos;s test it. If we come over here and refresh the page, randomly
 picked the first player, roll the dice for player two, I get a button,
@@ -9256,18 +9563,26 @@ it will go back and I could start again. At this point, just rolling the
 dice will just keep giving me more of these, but that&apos;s working
 perfectly. We&apos;re rolling the dice, we&apos;ve set up our turn and we&apos;re
 ready to roll the dice.
-
-# 4.05 Throwing the Dice (9:57)
-
-![](./images/webp/image607.webp){width="4.0in"
-height="2.262820428696413in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch4-05">4.05 Throwing the Dice (9:57)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 607.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image607.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Throwing the dice. This is the core function in this program, and it&apos;s
 the big function, it&apos;s going to take us some time to get this function
 all working properly.
-
-![](./images/webp/image608.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 608.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image608.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 But we&apos;re going to get it started here. At this point, what we&apos;re
 doing is we&apos;re going to clear out that **actionArea**, anything that&apos;s
@@ -9277,9 +9592,13 @@ into our **gameData** object. Then set the innerHTML for the message
 that&apos;s going to go to the player about what was rolled, and also show
 those two dice. Then we&apos;ll also sum up the total of those two dice and
 put that into the **rollSum** property in the **gameData object**.
-
-![](./images/webp/image609.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 609.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image609.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let&apos;s go ahead and get this started because this is an important one to
 do. I&apos;m going to add a function, function **throwDice(){}**, and then
@@ -9308,9 +9627,13 @@ unlikely. But possible that you could roll a 0.00000, in which case,
 get a 0, 1, 2, 3, 4, 5, or 6 if you were to follow that methodology. We
 don&apos;t want a zero, we want it always to be a 1, 2, 3, 4, 5, or 6 to
 match our numbers up there for our dice.
-
-![](./images/webp/image610.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 610.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image610.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 That&apos;s our roll 1. Roll 2 is exactly the same thing, we&apos;re going to
 generate a new random number for that. Then we need to set a message on
@@ -9330,8 +9653,13 @@ Which variable is it going to be? Dollar sign, curly braces. It&apos;s
 really just going to be this one again. This will be player 1, or player
 2 here, that gets put in there.
 
-![](./images/webp/image611.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 611.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image611.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 The next thing we need are the actual pictures of the dice. That&apos;s
 going to go inside the same div, so I&apos;m going to do game.innerHTML,
@@ -9349,9 +9677,13 @@ one from it, minus one. Because remember, this is going to be a 1, 2, 3,
 here. I need to subtract one there, gameData.roll1 minus 1. I think
 that&apos;s right. I prefer to have double quotes here I think. Quote there,
 double quotes, add an extra one for me.
-
-![](./images/webp/image612.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 612.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image612.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 There we go. That will put in our source and really be good to have an
 attribute as well for good HTML equals &quot;die&quot;. You could even do this
@@ -9364,24 +9696,36 @@ their sum total. **GameData.rollSum**, that one there, is going to equal
 **gameData.roll1** plus **gameData.roll2**, and that will add those up
 and put them in there. Great. We&apos;re going to test this in the next
 lesson.
-
-# 4.06 Test Throwing the Dice (5:22)
-
-![](./images/webp/image613.webp){width="4.0in"
-height="2.262820428696413in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch4-06">4.06 Test Throwing the Dice (5:22)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 613.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image613.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 You&apos;ve started your dice throwing function, so let&apos;s test it and see
 if it works.
-
-![](./images/webp/image614.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 614.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image614.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 All we really need to do to test it, is replace the console log in the
 set up the turn function, and replace it with the throw the dice
 function. Let&apos;s take a look and see how that works.
-
-![](./images/webp/image615.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 615.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image615.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 All I need is to take this function here and copy it, and put it up
 here. Actually there&apos;s another console log up here, let me just stick
@@ -9392,17 +9736,25 @@ dice, so that one starts set up the turn, set up the turn, throws the
 dice once the turn has been set up, and you click the &quot;roll&quot; the
 button thing there. Let&apos;s see what that gives us. Let&apos;s save this and
 come over here and test it.
-
-![](./images/webp/image616.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 616.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image616.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Now, if I refresh and randomly pick a player that can roll the dice,
 oops, error, file not found, 6die.jpgalt. I can see right here that I
 forgot to close mine. This is very easy to have that happen when you&apos;re
 working with HTML inside of the string.
-
-![](./images/webp/image617.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 617.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image617.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 I can see right here what&apos;s gone wrong. I can see that I forgot to
 close something so it thinks that my whole image has this name on here,
@@ -9410,9 +9762,16 @@ which is incorrect. Let&apos;s go back over here. It&apos;s in here I forgot to
 put a quote here. It&apos;s in one double quote, and I&apos;ll add two, but you
 have to delete one of them there. There we go, save that.
 
-![](./images/webp/image618.webp){width="3.5in"
-height="2.0454057305336835in"}![](./images/webp/image619.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 618/619.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image618.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image619.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Roll the dice. Now, I&apos;ve got two dice and it showed up and I can say,
 &quot;Do you want to quit?&quot; and start again, Roll the dice and make it two
@@ -9421,9 +9780,13 @@ quit? each time to get this to work. If you wanted to go even further,
 you could come in and add a console log, and see what gameData.rollSum
 some has in it or would any other variable in there has if you&apos;re just
 curious to see what&apos;s in there, you can save that.
-
-![](./images/webp/image620.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 620.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image620.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Up here, maybe I don&apos;t need this one anymore. The one that&apos;s giving me
 one and two, you just comment it out or you can delete it, you do
@@ -9433,18 +9796,26 @@ randomly start the game, roll the dice, and you can see I rolled two
 sixes again, that&apos;s something and got 12. Unfortunately, to do it again
 at this point, you have to click the button or just click refresh. In
 here I got 5, 1 plus 4 is 5.
-
-![](./images/webp/image621.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 621.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image621.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 I&apos;m going to move this inspector to the side and it&apos;s going to be
 easier to see what&apos;s going on if it&apos;s there. That&apos;s all working and
 working really nicely. Now we have a dice game where we can throw the
 dice, and two dice are roll and randomly we generate those two images
 and display them on the page, and that&apos;s fine.
-
-![](./images/webp/image622.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 622.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image622.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Now, the next thing to do is to figure out, what do we do from here? We
 need an if statement. You need some if statement that says, if two 1s
@@ -9453,32 +9824,48 @@ to do one thing. That&apos;s going to start at zero. If one of the two like
 in this case here. If one of the two dice came up a one, then we do
 something else, we need to swap. &lbrack;inaudible&rbrack;.
 
-# 4.07 Add the Selection Statements (3:37)
-
-![](./images/webp/image623.webp){width="4.0in"
-height="2.262820428696413in"}
+<h2 name="ch4-07">4.07 Add the Selection Statements (3:37)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 623.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image623.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 We&apos;re going to add if statements into our throw dysfunction here.
-
-![](./images/webp/image624.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 624.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image624.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So if, And the first one is if game data don&apos;t roll some is the same as
 exactly the same as two. The only way you get a two is if you&apos;ve rolled
 to once, if it&apos;s exactly the same as a two, then we&apos;re going to say
 something like console log, snake eyes. We&apos;ll fill this out later with
 more specific instructions.
-
-![](./images/webp/image625.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 625.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image625.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 But for right now I just want to know, I just want to capture that
 situation and then we&apos;ve got an else if. Yeah and we want to check two
 values. We want to check the value of roll one and the value of roll two
 and if either one of them comes up a one, we want to do.
-
-![](./images/webp/image626.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 626.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image626.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 So that will come back true if either one of them is a one. So the way
 to do that is to say if game data dot roll one is the same as one or
@@ -9487,13 +9874,23 @@ situation occurs, then console dot log one her A1 was rolled, your turn
 is over and then we&apos;ve got the else. And for that, we can just copy
 this, paste it and saying the game continues, Roll again or pass and
 we&apos;ll deal with that separately.
-
-![](./images/webp/image627.webp){width="3.35in"
-height="1.957746062992126in"}![](./images/webp/image628.webp){width="3.5in"
-height="2.0454057305336835in"}
-
-![](./images/webp/image629.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 627/628.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image627.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image628.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 629.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image629.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 So now we&apos;ve got three situations to deal with here. Let&apos;s just make
 sure that this all works the way we expected to and come back here and
@@ -9503,22 +9900,35 @@ again or pass. I&apos;m not getting anything. Okay, here I got a one, a one
 was world, your turn is over. You can keep going along and seeing that
 these numbers add up correctly and that it&apos;s doing the right thing
 until you&apos;ve gotten all of those things checked.
-
-# 4.08 Snake Eyes! (7:11)
-
-![](./images/webp/image630.webp){width="4.0in"
-height="2.262820428696413in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 name="ch4-08">4.08 Snake Eyes! (7:11)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 630.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image630.webp"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let&apos;s handle Snake Eyes first.
-
-![](./images/webp/image631.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 631.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image631.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 We&apos;ll fill out each of these if statements, but we&apos;ll do Snake Eyes
 first. If we get a 2, let&apos;s deal with that.
 
-![](./images/webp/image632.webp){width="5.0in"
-height="2.922008967629046in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 632.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image632.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 First thing we&apos;re going to do is add to the innerHTML of the game, and
 say something that tells us that we got snake eyes. Let&apos;s do that, so
@@ -9606,7 +10016,7 @@ seconds and changing the player, so that&apos;s actually working, which is
 great. Now remove console gamedata.rollsum = 2 which was hard-coded for
 testing the switch players function.
 
-# 4.09 A "1" Was Rolled (5:19)
+<h2 name="ch4-09">4.09 A "1" Was Rolled (5:19)</h2>
 
 ![](./images/webp/image638.webp){width="4.0in"
 height="2.262820428696413in"}
@@ -9661,10 +10071,16 @@ player 1, now the index is set to the other player. If we were on player
 say player 1. That goes back and forth. Then down here we just need to
 set time out and runs out of time again. That will work, that should
 work just fine.
-
-![](./images/webp/image643.webp){width="3.5in"
-height="2.0454057305336835in"}![](./images/webp/image644.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 643/644.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image643.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image644.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Again, we can test it up here by forcing one of these roles,
 gameData.roll1. I&apos;m going to set that equal to one. Just to test it.
@@ -9690,7 +10106,7 @@ one, we&apos;ve gotten this sussed out. Next, we need to figure out the
 else, which is what happens when we want to continue the game and
 continue moving on with the game.
 
-# 4.10 The Else Statement (6:36)
+<h2 name="ch4-10">4.10 The Else Statement (6:36)</h2>
 
 ![](./images/webp/image646.webp){width="4.0in"
 height="2.262820428696413in"}
@@ -9767,18 +10183,31 @@ Come over here, refresh the page, pick my player when I roll the dice, I
 get it a 2 in a 6, that adds up to 8. I don&apos;t have any scoring going on
 down here yet, but I can choose roll again.
 
-![](./images/webp/image653.webp){width="3.5in"
-height="2.0454057305336835in"}![](./images/webp/image654.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 653/654.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image653.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image654.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 And it says roll the dice for player 1 and now I got a 1 and a 3 year
 old one, switching to player 2. Roll the dice, I got a 2 and a 4, I can
 click roll again and I&apos;m still on player 2 and I can roll the dice
 again.
-
-![](./images/webp/image655.webp){width="3.5in"
-height="2.0454057305336835in"}![](./images/webp/image656.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 655/656.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image655.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image656.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Now, I got a 5 and a 5, and I could pass if I wanted to, if I click pass
 it sets up the turn but changes it to player 1 because of that ternary
@@ -9787,7 +10216,7 @@ could choose roll again. So that&apos;s all working great, it&apos;s working
 perfectly fine just the way it is, excellent. Let&apos;s stop there and
 we&apos;ll pick it up in the next lesson.
 
-# 4.11 Checking for a Win (6:02)
+<h2 name="ch4-11">4.11 Checking for a Win (6:02)</h2>
 
 ![](./images/webp/image657.webp){width="4.0in"
 height="2.262820428696413in"}
@@ -9801,10 +10230,16 @@ height="2.922008967629046in"}
 Has the player scored enough points to actually win the game? Let&apos;s
 make a function for that called **checkWinningCondition** and add that
 to our functions down here.
-
-![](./images/webp/image659.webp){width="3.5in"
-height="2.0454057305336835in"}![](./images/webp/image660.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 659/660.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image659.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image660.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 So this really long function, **throwDice** goes all the way down to
 this closing curly brace here.
@@ -9846,7 +10281,7 @@ statement that we&apos;ll check to see. If the game has won, we will start a
 new game. And the next lesson, we&apos;ll fill out the show current score
 section of this **function**.
 
-# 4.12 Show the Current Score (8:33)
+<h2 name="ch4-12">4.12 Show the Current Score (8:33)</h2>
 
 ![](./images/webp/image663.webp){width="4.0in"
 height="2.262820428696413in"}
@@ -9891,20 +10326,32 @@ height="2.922008967629046in"}
 We need to run this function, Here, check winning condition, It&apos;s not
 the only place we need to run it, but let&apos;s start with that. Let&apos;s put
 it there.
-
-![](./images/webp/image667.webp){width="3.5in"
-height="2.0454057305336835in"}![](./images/webp/image668.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 667/668.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image667.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image668.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let&apos;s test this, make sure you save the file and then we&apos;re going to
 come over here, and refresh my page, and start my game, roll the dice
 for player 1. So now I&apos;ve got eight and I&apos;ve got no player 2 is
 running here, and you can see that the score got added up, player 2 has
 8 points. I can click roll again and it takes me to set up the term,
-
-![](./images/webp/image669.webp){width="3.5in"
-height="2.0454057305336835in"}![](./images/webp/image670.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 669/670.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image669.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image670.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 and I can roll the dice for player 2, again and I&apos;ve got 15. Okay so 2
 two is 15, I could roll again, roll the dice again takes me to set up
@@ -10000,10 +10447,16 @@ that. Now, when I start the game and I rolled the dice for a player 2,
 hope I get snake eyes again. There we go. Now when I click roll again it
 just rolls again, and you can see that the score is getting added
 nicely. It&apos;s a bit smoother so that works great, okay?
-
-![](./images/webp/image678.webp){width="3.5in"
-height="2.0454057305336835in"}![](./images/webp/image679.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 678/679.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image678.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image679.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 A couple other things to clean up this thing here is really long, and
 you could turn it into a separate little helper function. I don&apos;t know
@@ -10015,10 +10468,16 @@ to see just kind of little helper function here. I&apos;m going to say
 function, **showCurrentScore**, and it&apos;s really just going to be this
 stuff just because it&apos;s kind of long. And then, really all we need to
 do is run this function here, **showCurrentScore**.
-
-![](./images/webp/image680.webp){width="3.5in"
-height="2.0454057305336835in"}![](./images/webp/image681.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 680/681.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image680.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image681.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Now, we don&apos;t need to run check winning condition up when you run snake
 eyes because you&apos;re not going to win there, but we need to run show
@@ -10032,9 +10491,16 @@ IF statement here, we just need to do this bottom part which is showing
 the current score. So, that&apos;s a little bit cleaner and a little bit
 nicer like that.
 
-![](./images/webp/image682.webp){width="3.5in"
-height="2.0454057305336835in"}![](./images/webp/image683.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 682/683.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image682.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image683.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 I think the next thing I wanted to talk about is this throw dice
 function is really long. Now, you could potentially break out these IF
@@ -10054,9 +10520,16 @@ You could also make a separate function that just contains the whole
 selection statement, if/else, if and the else statement and make that
 into a separate function that runs here.
 
-![](./images/webp/image684.webp){width="3.5in"
-height="2.0454057305336835in"}![](./images/webp/image685.webp){width="3.5in"
-height="2.0454057305336835in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 684/685.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image684.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image685.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
 The next thing to do is to apply some of our best practices to this,
 which would be to create a separate script file because now we got a
