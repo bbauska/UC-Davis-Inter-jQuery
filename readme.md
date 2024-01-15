@@ -7238,11 +7238,23 @@ take it away as the screen gets smaller. So that&apos;s where we start with
 mobile first, is that we can easily just add layer by just tying this
 section to the split flex and just add a few rules to add some layout as
 the screen gets wider.
-
-![](./images/webp/image464.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image465.webp){width="3.5in"
-height="2.1512281277340333in"}![](./images/webp/image466.webp){width="5.0in"
-height="3.073183508311461in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 464/465.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image464.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/webp/image465.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 466.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/webp/image466.webp"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Okay, great. we&apos;ve got that into place. I have a few more rules for the
 download and pricing style sections. Again, they&apos;re just giving me some
