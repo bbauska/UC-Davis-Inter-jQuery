@@ -10477,7 +10477,7 @@ Roll the dice, and player 2 wins with 33 points, and now up here I have
 started new game, it still says roll again or pass so that&apos;s something
 that needs to be dealt with.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 672.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 672.  (339) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image672.webp"
   style="width:50%;"
@@ -10495,11 +10495,11 @@ haven&apos;t done it yet, but if you roll two ones, you also need to fix
 that there as well. So that because that&apos;s going to change the score,
 so we want to show the score if you roll two ones.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 673.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 673. function: checkwinningcondition (340) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image673.webp"
   style="width:50%;"
-  alt="." />
+  alt="Run function: checkWinningCondition." />
 </p>
 
 So let&apos;s go back to our code over here, And I want to run
@@ -10513,11 +10513,11 @@ this set time out. Doesn&apos;t actually matter, the set time out will wait
 two seconds anyway, but I&apos;m going to put it before that, there we go,
 so that helps.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 674.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 674. if win, set action area (341) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image674.webp"
   style="width:50%;"
-  alt="." />
+  alt="Set action area when you win." />
 </p>
 
 The other thing we need to do down here is that, if you&apos;ve won the game
@@ -10526,11 +10526,11 @@ I was setting the action area, actually this is what I&apos;m missing
 **actionArea.innerHTML** set that to blank, so that that will get rid of
 those buttons that I had there by accident.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 675.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 675. test game of pig (341) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image675.webp"
   style="width:50%;"
-  alt="." />
+  alt="Test Game of Pig." />
 </p>
 
 Now there&apos;s one more thing that we can do to make this work a little
@@ -10551,11 +10551,11 @@ cleanup stuff.
 
 <h2 name="ch4-13">4.13 Final Clean-Up (8:08)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 676.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 676. final clean-up (4.13) (342) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image676.webp"
   style="width:40%;"
-  alt="." />
+  alt="4.13. Final Clean-Up." />
 </p>
 
 Okay the game is working and that&apos;s great, and everything is working
@@ -10568,11 +10568,11 @@ click roll again, it just rolls them again. I don&apos;t really need to go
 back to the setup turn at this point, I could just roll the dice again.
 So what can we do about that?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 677.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 677. replace setup turn with throw dice (343) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image677.webp"
   style="width:40%;"
-  alt="." />
+  alt="Replace function setup turn with throw dice." />
 </p>
 
 What if down here, in here when we go to roll again instead of doing
@@ -10583,14 +10583,14 @@ hope I get snake eyes again. There we go. Now when I click roll again it
 just rolls again, and you can see that the score is getting added
 nicely. It&apos;s a bit smoother so that works great, okay?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 678/679.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 678/679. find and cleanup where possible (343) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image678.webp"
   style="width:45%;"
-  alt="." />
+  alt="Using best practices, cleanup where possible." />
 <img src="./images/webp/image679.webp"
   style="width:45%;"
-  alt="." />
+  alt="Using best practices, cleanup where possible." />
 </p>
 
 A couple other things to clean up this thing here is really long, and
@@ -10604,14 +10604,14 @@ function, **showCurrentScore**, and it&apos;s really just going to be this
 stuff just because it&apos;s kind of long. And then, really all we need to
 do is run this function here, **showCurrentScore**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 680/681.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 680/681. change to showcurrentscore (344) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image680.webp"
   style="width:45%;"
-  alt="." />
+  alt="Change checkWinningCondition to showCurrentScore." />
 <img src="./images/webp/image681.webp"
   style="width:45%;"
-  alt="." />
+  alt="Change checkWinningCondition to showCurrentScore." />
 </p>
 
 Now, we don&apos;t need to run check winning condition up when you run snake
@@ -10627,14 +10627,14 @@ the current score. So, that&apos;s a little bit cleaner and a little bit
 nicer like that.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 682/683.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 682/683. best practices throw dice function (344) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image682.webp"
   style="width:45%;"
-  alt="." />
+  alt="Optimize JavaScript functions using best practices." />
 <img src="./images/webp/image683.webp"
   style="width:45%;"
-  alt="." />
+  alt="If function is used more than once, split off." />
 </p>
 
 I think the next thing I wanted to talk about is this throw dice
@@ -10655,14 +10655,14 @@ You could also make a separate function that just contains the whole
 selection statement, if/else, if and the else statement and make that
 into a separate function that runs here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 684/685.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 684/685. script.js with all functions (345) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image684.webp"
   style="width:45%;"
-  alt="." />
+  alt="Separate JS code into script.js for best practices." />
 <img src="./images/webp/image685.webp"
   style="width:45%;"
-  alt="." />
+  alt="Move all functions into one script file for ease." />
 </p>
 
 The next thing to do is to apply some of our best practices to this,
@@ -10679,11 +10679,11 @@ going to click between the curly braces and move that down and add my
 **use strict** directive to make sure I didn&apos;t screw up in any of my
 variables and then paste everything here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 686.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 686. change vars to const in javascript (346) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image686.webp"
   style="width:50%;"
-  alt="." />
+  alt="Update all var to const to speed things up." />
 </p>
 
 So that puts everything in there, and then you could go through, and you
@@ -10693,11 +10693,11 @@ think even the game data where the actual data changes, but the actual
 function, the actual variable doesn&apos;t change. That can be a constant as
 well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 687.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 687. differ script.js (346) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image687.webp"
   style="width:50%;"
-  alt="." />
+  alt="Use the differ attribute with script.js." />
 </p>
 
 So we saved that, and then we come over here, and we move this up, and
@@ -10709,10 +10709,10 @@ in the next lesson, and you&apos;ve got a working game here.
 
 <h2 name="ch4-14">4.14 Extending the Game (6:21)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 688. extending the game (module 4.14) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 688. extending the game (module 4.14) (347) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/webp/image688.webp"
-  alt="Extending the Game."
+  alt="4.14. Extending the Game."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -10720,10 +10720,10 @@ in the next lesson, and you&apos;ve got a working game here.
 Extending the game.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 689. extending the game  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 689. easy ways to extend the game (module 4.14) (347) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/webp/image689.webp"
-  alt="Extending the Game."
+  alt="Easy ways to extend the game."
   style="border: 2px solid #000000;" 
   width="50%;" />
 </p>
@@ -10741,10 +10741,10 @@ for some things you could do that are not too hard and some that are
 more challenging if you really want to try to do them.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 690. extending the game (module 4.14) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 690. easy ways to extend the game (module 4.14) (348) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/webp/image690.webp"
-  alt="Extending the Game."
+  alt="Easy ways to extend the game."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -10754,8 +10754,9 @@ that turn. If you think about this game the way it is now over here,
 when you play this game, there&apos;s no reason to ever click pass, really.
 You&apos;re just going to roll again until you get a one. There&apos;s no
 strategic reason to ever click pass. But what if you roll the one, you
-lose all of the points that you gained during that turn. Remember,
-rolling two ones loses all the points you&apos;ve got in the game so far,
+lose all of the points that you gained during that turn. 
+
+Remember, rolling two ones loses all the points you&apos;ve got in the game so far,
 but rolling one one could lose all the points you&apos;ve gained for the
 turn. If you&apos;ve got a couple of big rolls in there, you&apos;ve rolled the
 nine, you&apos;ve this 12 or whatever. Now pass could be strategically
@@ -10768,12 +10769,13 @@ to your object up here, and you could create another variable that says,
 turn some, or something like that, and each time a value gets added to
 the turn some, you can increase that variable. If a one is rolled,
 you&apos;re going to subtract that from that player&apos;s score. They lose
-those points for that turn. Just by adding one more property into the
-game data, you could add that feature in fairly easily. You just have to
-remember to update the rules. But that&apos;s just one way of updating the
-scheme. There are other easy ways you could make some better graphics or
-better interface, make it look nicer, make it clear whose turn it is and
-what the score is. None of this stuff is working terribly well over here
+those points for that turn. 
+
+Just by adding one more property into the game data, you could add that feature 
+in fairly easily. You just have to remember to update the rules. But that&apos;s 
+just one way of updating the scheme. There are other easy ways you could make some 
+better graphics or better interface, make it look nicer, make it clear whose turn 
+it is and what the score is. None of this stuff is working terribly well over here
 for what I have so far. It&apos;s okay but it&apos;s not. It&apos;s certainly not
 great. You can make it much better. That&apos;s something you can do that
 doesn&apos;t even involve a lot of programming that&apos;s really just design
@@ -10829,7 +10831,7 @@ excellent versions people have made of the big game.
 
 <h2 name="ch4-15">Course Summary (0:57)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 691. course summary: interactivity with javascript and jquery (xxx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 691. course summary: interactivity with javascript and jquery (350) ~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/webp/image691.webp"
   alt="Course Summary: Interactivity with JavaScript and jQuery."
