@@ -514,7 +514,6 @@ which adds a lot of features, two sliders and comparing that to what
 you&apos;ve done manually by creating your own sliders is really instructive
 and useful. Plus, you end up with a great tool for creating slider
 elements on web pages and that&apos;s really pretty fun.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-03">1.03. Introduction to jQuery Plugins (3:49)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -526,9 +525,7 @@ elements on web pages and that&apos;s really pretty fun.
   width="40%;" />
 </p>
 
-
 Just as a quick recap, we&apos;ve learned a lot of JavaScript so far.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. recap: javascript (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -537,7 +534,6 @@ Just as a quick recap, we&apos;ve learned a lot of JavaScript so far.
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
-
 
 We started with the JavaScript basics, which included working with
 variables, flow control structures like if statements and else
@@ -558,13 +554,11 @@ write the scripts that you want to do for your web page.
   width="40%;" />
 </p>
 
-
 Then we had jQuery and your world became a little bit larger. With
 jQuery, we&apos;ve learned that there are a lot of helper functions built
 into this library that make writing scripts shorter and a little bit
 more compact, and a little bit easier. That helps and that makes things
 a little bit easier and a little bit better for all of us.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. introducing: plugins (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -593,7 +587,6 @@ your scripts yourself. You can look for scripts that other people have
 written and see if you can modify them and use them in your own projects
 through the use of a plugin, and that&apos;s really very powerful and really
 great.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. adding functionality (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -602,7 +595,6 @@ great.
   style="border: 2px solid #000000;" 
   width="50%;" />
 </p>
-
 
 Again, <b>plugins</b> add additional functionality to jQuery, and we&apos;ve
 already seen this with the <b>easing plugin.</b> But some plugins can have
