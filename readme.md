@@ -81,11 +81,22 @@ function topFunction() {
 >### [**1.04 Using Plugins and Essential Steps**](#ch1-04)
 >### [**1.05 Gotchas and Rookie Mistakes**](#ch1-05)
 
--   **1.05.jQueryPlugins.pdf**
+<!-- -   **1.05.jQueryPlugins.pdf** -->
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/W04DM/pdf-of-presentation" 
+    target="_blank" rel="noreferrer noopener">1.05.jQueryPlugins.pdf (PDF File)</a></li>
+</ul>
 
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider" 
+    target="_blank" rel="noopener noreferrer">1.05.FlexSliderBasic-START.zip (ZIP File)</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider"
+    target="_blank" rel="noopener noreferrer">1.05.FlexSliderPlugin.zip (ZIP File)</a></li>
+</ul>
+<!--
 -   **1.05.FlexSliderBasic-Start.zip**
-
 -   **1.05.FlexSliderPlugin.zip**
+-->
 
 >### [**1.06 FlexSlider: A jQuery Plugin**](#ch1-06)
 >### [**1.07 About the Minified Version**](#ch1-07)
@@ -95,13 +106,20 @@ function topFunction() {
 >### [**1.11 Advanced FlexSlider**](#ch1-11)
 >### [**1.12 Additional Styling**](#ch1-12)
 >### [**1.13 Styling the CTA**](#ch1-13)
--   **1.13.FlexSlider.pdf**
+
+<!-- -   **1.13.FlexSlider.pdf** -->
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Hv9Tf/pdf-of-presentation">1.13.FlexSlider.pdf</a></li>
+</ul>
 
 ## [**Week 2: Combining Scripts and Skill Building Through Practice**](#ch2)
 >### [**2.01 Module 2 Introduction**](#ch2-01)
 >### [**2.02 Intro to Smooth Scroll with jQuery**](#ch2-02)
 
--   **2.02.jQueryScrollEffects-START.zip**
+<!-- -   **2.02.jQueryScrollEffects-START.zip** -->
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery">2.02.jQueryScrollEffects-START.zip</a></li>
+</ul>
 
 >### [**2.03 Creating a Click Handler**](#ch2-03)
 >### [**2.04 Adding the Animation**](#ch2-04)
@@ -119,11 +137,18 @@ function topFunction() {
 >### [**2.16 resetPagePosition Function**](#ch2-16)
 >### [**2.17 Reviewing the Whole Script**](#ch2-17)
 
--   **2.17.jQueryPageLocationTracking.pdf**
+<!-- -   **2.17.jQueryPageLocationTracking.pdf** -->
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation">2.17.jQueryPageLocationTracking.pdf</a></li>
+</ul>
 
->### [**2.18 Intro to Scroll Effects with JS**](#ch2-18)
+<!-- >### [**2.18 Intro to Scroll Effects with JS**](#ch2-18) -->
 
--   **2.18.ScrollEffects-START.zip**
+<!- -   **2.18.ScrollEffects-START.zip** -->
+
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript">2.18.ScrollEffects-START.zip</a></li.
+</ul>
 
 >### [**2.19 Getting the Target - Part 1**](#ch2-19)
 >### [**2.20 Getting the Target - Part 2**](#ch2-20)
@@ -136,9 +161,17 @@ function topFunction() {
 >### [**2.27 Resizing Function**](#ch2-27)
 >### [**2.28 Finalzing the Script**](#ch2-28)
 
--   **2.28.PDF-of-Presentation.pdf**
+<!-- -   **2.28.PDF-of-Presentation.pdf** -->
+
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation">2.28.PDF-of-Presentation.pdf</a></li>
+</ul>
 
 >### [**2.29 Scription Site Introduction**](#ch2-29)
+
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/KrJDR/start-files-scription-site">2.29.Scription Site</a></li>
+</ul>
 
 -   **2.29.Scription-Part1-Start.zip**
 
@@ -901,9 +934,6 @@ carrying the extension .ZIP.
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider" 
     target="_blank" rel="noopener noreferrer">1.05.FlexSliderBasic-START.zip (ZIP File)</a></li>
-</ul>
-
-<ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider"
     target="_blank" rel="noopener noreferrer">1.05.FlexSliderPlugin.zip (ZIP File)</a></li>
 </ul>
