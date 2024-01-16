@@ -146,7 +146,7 @@ function topFunction() {
 
 <!-- -   **2.18.ScrollEffects-START.zip** -->
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript">2.18.ScrollEffects-START.zip</a></li.
+  <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript">2.18.ScrollEffects-START.zip</a></li>
 </ul>
 
 >### [**2.19 Getting the Target - Part 1**](#ch2-19)
