@@ -87,16 +87,16 @@ function topFunction() {
     target="_blank" rel="noreferrer noopener">1.05.jQueryPlugins.pdf (PDF File)</a></li>
 </ul>
 
+<!--
+-   **1.05.FlexSliderBasic-Start.zip**
+-   **1.05.FlexSliderPlugin.zip**
+-->
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider" 
     target="_blank" rel="noopener noreferrer">1.05.FlexSliderBasic-START.zip (ZIP File)</a></li>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider"
     target="_blank" rel="noopener noreferrer">1.05.FlexSliderPlugin.zip (ZIP File)</a></li>
 </ul>
-<!--
--   **1.05.FlexSliderBasic-Start.zip**
--   **1.05.FlexSliderPlugin.zip**
--->
 
 >### [**1.06 FlexSlider: A jQuery Plugin**](#ch1-06)
 >### [**1.07 About the Minified Version**](#ch1-07)
@@ -142,10 +142,9 @@ function topFunction() {
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation">2.17.jQueryPageLocationTracking.pdf</a></li>
 </ul>
 
-<!-- >### [**2.18 Intro to Scroll Effects with JS**](#ch2-18) -->
+>### [**2.18 Intro to Scroll Effects with JS**](#ch2-18)
 
-<!- -   **2.18.ScrollEffects-START.zip** -->
-
+<!-- -   **2.18.ScrollEffects-START.zip** -->
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript">2.18.ScrollEffects-START.zip</a></li.
 </ul>
@@ -162,7 +161,6 @@ function topFunction() {
 >### [**2.28 Finalzing the Script**](#ch2-28)
 
 <!-- -   **2.28.PDF-of-Presentation.pdf** -->
-
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation">2.28.PDF-of-Presentation.pdf</a></li>
 </ul>
