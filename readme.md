@@ -1,7 +1,7 @@
 ---
 title: "University of California @Davis Interactivity with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "1/12/2024 11+am"
+date last editted: "1/15/2024 9+pm"
 output: 
   markdown:
     with some style
@@ -10314,24 +10314,24 @@ Has the player scored enough points to actually win the game? Let&apos;s
 make a function for that called **checkWinningCondition** and add that
 to our functions down here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 659/660.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 659/660. within throwdice check winning conditions (3xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image659.webp"
   style="width:45%;"
-  alt="." />
+  alt="function throwDice." />
 <img src="./images/webp/image660.webp"
   style="width:45%;"
-  alt="." />
+  alt="Check Winning Condition." />
 </p>
 
 So this really long function, **throwDice** goes all the way down to
 this closing curly brace here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 661.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 661. add if..else for winning conditions (3xx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image661.webp"
   style="width:50%;"
-  alt="." />
+  alt="Add if..else for winning conditions." />
 </p>
 
 Let&apos;s add another function down here. Function
@@ -10342,11 +10342,11 @@ winning condition met or else show current score. If we haven&apos;t won, we
 at least ought to know how close we are to winning? So it&apos;s going to do
 those two things.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 662.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 662. check player score against gameend (3xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image662.webp"
   style="width:50%;"
-  alt="." />
+  alt="Is player score (gameData.score) greater than gameData.gameEnd?" />
 </p>
 
 To check the winning condition, we just need to get this players score.
@@ -10374,22 +10374,22 @@ section of this **function**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-12">4.12 Show the Current Score (8:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 663.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 663. show the current score (4.12) (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image663.webp"
   style="width:50%;"
-  alt="." />
+  alt="4.12. Show the Current Score." />
 </p>
 
 Okay, so now we need to show the current score, and make sure that that
 gets filled out properly, if we haven&apos;t won the game, so let&apos;s go over
 and add this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 664.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 664. showing the current score (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image664.webp"
   style="width:50%;"
-  alt="." />
+  alt="Showing the Current Score." />
 </p>
 
 We&apos;re going to set the score areas innnerHTML to a paragraph that shows
@@ -10407,11 +10407,11 @@ we&apos;re going to do the same thing down here, For a player two, Except
 that&apos;s going to be 1, And this is going to be the same thing down here,
 Except that&apos;s going to be 1.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 665.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 665. function checkwinningcondition (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image665.webp"
   style="width:50%;"
-  alt="." />
+  alt="function checkWinningCondition." />
 </p>
 
 Now you could even make it stand out a little bit more by putting a
@@ -10423,25 +10423,25 @@ believe that&apos;s all we need let&apos;s just see over here, yep. Players&lbra
 player&lbrack;1&rbrack; looks good, that all looks good all right great, so what do
 we need to do to get this to work?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 666.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 666. function checkwinningcondition (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image666.webp"
   style="width:50%;"
-  alt="." />
+  alt="function checkWinningCondition." />
 </p>
 
 We need to run this function, Here, check winning condition, It&apos;s not
 the only place we need to run it, but let&apos;s start with that. Let&apos;s put
 it there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 667/668.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 667/668. test score 0 to 8 (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image667.webp"
   style="width:45%;"
-  alt="." />
+  alt="Test score console.log 0 to 8." />
 <img src="./images/webp/image668.webp"
   style="width:45%;"
-  alt="." />
+  alt="Again, test score console log 0 to 8." />
 </p>
 
 Let&apos;s test this, make sure you save the file and then we&apos;re going to
@@ -10450,14 +10450,14 @@ for player 1. So now I&apos;ve got eight and I&apos;ve got no player 2 is
 running here, and you can see that the score got added up, player 2 has
 8 points. I can click roll again and it takes me to set up the term,
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 669/670.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 669/670. test score 0 to 15, then 0 to 25 (3xx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image669.webp"
   style="width:45%;"
-  alt="." />
+  alt="Test Game of PIG, score 0 to 15." />
 <img src="./images/webp/image670.webp"
   style="width:45%;"
-  alt="." />
+  alt="Test Game of PIG, score 0 to 25." />
 </p>
 
 and I can roll the dice for player 2, again and I&apos;ve got 15. Okay so 2
@@ -10466,22 +10466,22 @@ turn. Now I&apos;ve got 25, and if I get five or more this we should have
 the end of the game and that should trigger it so let&apos;s see what
 happens.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 671.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 671. test game player 2 wins with 33 (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image671.webp"
   style="width:50%;"
-  alt="." />
+  alt="Test Game of PIG, player 2 wins with 33 points." />
 </p>
 
 Roll the dice, and player 2 wins with 33 points, and now up here I have
 started new game, it still says roll again or pass so that&apos;s something
 that needs to be dealt with.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 672.  (339) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 672. test start game of pig with console.log (339) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image672.webp"
   style="width:50%;"
-  alt="." />
+  alt="Test Game of PIG, with console.log of score." />
 </p>
 
 But, We can start a new game up here, what happens if I click roll
@@ -10839,7 +10839,7 @@ excellent versions people have made of the big game.
   width="40%;" />
 </p>
 
-Congratulations for making it to the end of our third course on
+<p>Congratulations for making it to the end of our third course on
 JavaScript and therefore, of course, specialization. We&apos;ve done a lot.
 You&apos;ve learned a lot of JavaScript so far. In the first course we
 covered a lot of basics, a lot of basic syntax. We did a lot of
@@ -10847,13 +10847,13 @@ challenges to get good at that syntax, and the second course, we
 introduced **jQuery** and we created some great interface elements that
 are very simple and easy to integrate into web pages. In this course,
 we&apos;ve gotten even deeper into it with **jQuery plug-ins** and we even
-created a game.
+created a game.</p>
 
-So with all of this, you&apos;ve really developed a lot of JavaScript skills
+<p>So with all of this, you&apos;ve really developed a lot of JavaScript skills
 so far. We have a fourth course in the specialization, and in that
 course, we&apos;ll get even more complex scripts, and I promise you&apos;re
 going to learn even more JavaScript and you&apos;ll get even better at it
-and you&apos;ll get more practice. So I look forward to seeing you there.
+and you&apos;ll get more practice. So I look forward to seeing you there.</p>
 
 <p>.the end...</p>
-<h6>Last Updated 1/12/2024 11:07am</h6>
+<h6>Last Updated 1/15/2024 9:55pm</h6>
