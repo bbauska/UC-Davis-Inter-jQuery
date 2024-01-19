@@ -1,7 +1,7 @@
 ---
 title: "University of California @Davis Interactivity with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "1/15/2024 9+pm"
+date last editted: "1/19/2024 12+am"
 output: 
   markdown:
     with some style
@@ -8305,31 +8305,28 @@ what an <b>object constructor</b> does, is it creates a <b>use function</b> to
 create an <b>object</b> that could be like a reusable template that you
 could use over and over again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 540.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 540. objects can contain functions (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image540.webp"
   style="width:50%;"
-  alt="." />
+  alt="Objects can contain functions." />
 </p>
 
-So here, if you look at this, what we have here on this screen, we have
-a <b>function</b> <b>person</b>, and when you create <b>constructive
-functions</b>, the the standard is to make the first letter of the name of
-that constructor a capital letter. So it&apos;s a person with a capital P.
-And we&apos;re going to pass in some values first, <b>last age</b> and <b>eye
-color</b>. And you could have other values if you wanted to as well.
-<b>Height, weight, hair color</b>, I don&apos;t know whatever other things you
-want to use to describe that person and notice we&apos;re using the this
-keyword.
+<p>So here, if you look at this, what we have here on this screen, we have a <b>function</b> 
+<b>person</b>, and when you create <b>constructive functions</b>, the standard is to make 
+the first letter of the name of that constructor a capital letter. So it&apos;s a person 
+with a capital P. And we&apos;re going to pass in some values first, <b>last age</b> and 
+<b>eye color</b>. And you could have other values if you wanted to as well. <b>Height, 
+weight, hair color</b>, I don&apos;t know whatever other things you want to use to describe 
+that person and notice we&apos;re using the this keyword.</p>
 
-This, dot <b>firstname</b> creates a <b>firstname</b>, <b>property</b> on
-<b>person</b> and it&apos;s going to be assigned whatever gets passed in, as
-the value for first when the <b>object</b> is in and the same thing for
-<b>lastname</b>, <b>age</b> and <b>eyecolor</b>. So, let&apos;s give this a try to
-see how it works and recommend, typing this out because we&apos;re starting
-to have seen a number of different ways of using objects now and if
-you&apos;re not typing them, you&apos;re not going to get comfortable with them
-or remember them.
+<p>This, dot <b>firstname</b> creates a <b>firstname</b>, <b>property</b> on <b>person</b> 
+and it&apos;s going to be assigned whatever gets passed in, as the value for first when the 
+<b>object</b> is in and the same thing for <b>lastname</b>, <b>age</b> and <b>eyecolor</b>. 
+So, let&apos;s give this a try to see how it works and recommend, typing this out because 
+we&apos;re starting to have seen a number of different ways of using objects now and if
+you&apos;re not typing them, you&apos;re not going to get comfortable with them or 
+remember them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 541.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -8371,11 +8368,11 @@ more complex javascript programming.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch3-05">3.05 Putting Objects and Functions Together (5:18)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 543.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 543. putting objects and functions together (3.05) (2xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image543.webp"
   style="width:40%;"
-  alt="." />
+  alt="3.05. Putting Objects and Functions Together." />
 </p>
 
 Putting objects and functions together, this is a really powerful
@@ -9840,7 +9837,7 @@ working really nicely. Now we have a dice game where we can throw the
 dice, and two dice are roll and randomly we generate those two images
 and display them on the page, and that&apos;s fine.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 622.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 622.  (314) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image622.webp"
   style="width:50%;"
@@ -9856,147 +9853,147 @@ something else, we need to swap. &lbrack;inaudible&rbrack;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-07">4.07 Add the Selection Statements (3:37)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 623.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 623. add the selection statements (4.07) (315) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image623.webp"
   style="width:40%;"
-  alt="." />
+  alt="4.07. Add the Selection Statements." />
 </p>
 
-We&apos;re going to add if statements into our throw dysfunction here.
+<p>We&apos;re going to add if statements into our throw dysfunction here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 624.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 624. roll a two? or not? (315) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image624.webp"
   style="width:50%;"
-  alt="." />
+  alt="Roll a two? Or not." />
 </p>
 
-So if, And the first one is if game data don&apos;t roll some is the same as
+<p>So if the first one is if game data don&apos;t roll some is the same as
 exactly the same as two. The only way you get a two is if you&apos;ve rolled
 to once, if it&apos;s exactly the same as a two, then we&apos;re going to say
 something like console log, snake eyes. We&apos;ll fill this out later with
-more specific instructions.
+more specific instructions.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 625.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 625. test, game of pig (316) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image625.webp"
   style="width:50%;"
-  alt="." />
+  alt="Test, Game of Pig." />
 </p>
 
-But for right now I just want to know, I just want to capture that
+<p>But for right now I just want to know, I just want to capture that
 situation and then we&apos;ve got an else if. Yeah and we want to check two
 values. We want to check the value of roll one and the value of roll two
-and if either one of them comes up a one, we want to do.
+and if either one of them comes up a one, we want to do.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 626.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 626. test, game of pigs (316) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image626.webp"
   style="width:50%;"
-  alt="." />
+  alt="Test, Game of Pig." />
 </p>
 
-So that will come back true if either one of them is a one. So the way
+<p>So that will come back true if either one of them is a one. So the way
 to do that is to say if game data dot roll one is the same as one or
 there&apos;s two pipes, game data dot roll two is the same as what. If that
 situation occurs, then console dot log one her A1 was rolled, your turn
 is over and then we&apos;ve got the else. And for that, we can just copy
 this, paste it and saying the game continues, Roll again or pass and
-we&apos;ll deal with that separately.
+we&apos;ll deal with that separately.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 627/628.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 627/628. test, game of pig (317) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image627.webp"
   style="width:45%;"
-  alt="." />
+  alt="Test, game of pig." />
 <img src="./images/webp/image628.webp"
   style="width:45%;"
-  alt="." />
+  alt="Test, game of pig." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 629.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 629. test, game of pig (317) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image629.webp"
   style="width:40%;"
-  alt="." />
+  alt="Test, game of pig." />
 </p>
 
-So now we&apos;ve got three situations to deal with here. Let&apos;s just make
+<p>So now we&apos;ve got three situations to deal with here. Let&apos;s just make
 sure that this all works the way we expected to and come back here and
 refresh this, pick my player, roll the dice. I got an eight. The game
 continues roll again or pass. I got two fives. The game continues roll
 again or pass. I&apos;m not getting anything. Okay, here I got a one, a one
 was world, your turn is over. You can keep going along and seeing that
 these numbers add up correctly and that it&apos;s doing the right thing
-until you&apos;ve gotten all of those things checked.
+until you&apos;ve gotten all of those things checked.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-08">4.08 Snake Eyes! (7:11)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 630.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 630. snake eyes! (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image630.webp"
   style="width:40%;"
-  alt="." />
+  alt="Snake Eyes!" />
 </p>
-Let&apos;s handle Snake Eyes first.
+<p>Let&apos;s handle Snake Eyes first.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 631.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 631. snake eyes! (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image631.webp"
   style="width:50%;"
-  alt="." />
+  alt="Snake Eyes!" />
 </p>
 
-We&apos;ll fill out each of these if statements, but we&apos;ll do Snake Eyes
-first. If we get a 2, let&apos;s deal with that.
+<p>We&apos;ll fill out each of these if statements, but we&apos;ll do Snake Eyes
+first. If we get a 2, let&apos;s deal with that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 632.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 632. add to the innerhtml of the game (319) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image632.webp"
   style="width:50%;"
-  alt="." />
+  alt="Add to the innerHTML of the game." />
 </p>
 
-First thing we&apos;re going to do is add to the innerHTML of the game, and
+<p>First thing we&apos;re going to do is add to the innerHTML of the game, and
 say something that tells us that we got snake eyes. Let&apos;s do that, so
 we can alert the player that they got snake eyes. So in here,
 game.innerHTML +=, += because we&apos;re going to add to it, and something
 like, Snap, let&apos;s close paragraph first. Correct, good practice there,
 Snap, You got snake eyes! Something like that. So, it&apos;s going to just
-put a paragraph in there, that has that.
+put a paragraph in there, that has that.</p>
 
-The next thing that happens is that the score for that player gets
+<p>The next thing that happens is that the score for that player gets
 zeroed out. So <b>gameData.score, &lbrack;gameData.index&rbrack;</b>, Is going to be
 set to 0. We set that back to 0 gameData.score. So, that means we&apos;re
 going up into this gameData finding the score for whichever player it
 is. If index is 0 will set this one 0, if index is 1 will set this one
 to 0. So, we&apos;re setting it to 0 there because we&apos;re zeroing out their
 score because that&apos;s what happens if you roll to ones as you lose all
-the points you&apos;ve gotten so far.
+the points you&apos;ve gotten so far.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 633.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 633. snake eyes! (320) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image633.webp"
   style="width:50%;"
-  alt="." />
+  alt="Snake Eyes!" />
 </p>
 
-Then we need to switch players and we could do this with an if
+<p>Then we need to switch players and we could do this with an if
 statement, if index is 0 set it to 1. If it&apos;s 1 set it to 0, we could
 do an if else statement there, but there&apos;s kind of a nice shortcut way
 of doing that. And that&apos;s using what&apos;s called the <b>ternary
 operator</b>. We see it over here, so I&apos;m going to set
-<b>gameData.index</b>.
+<b>gameData.index</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 634.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 634. gamedata.index true or false? (320) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image634.webp"
   style="width:50%;"
-  alt="." />
+  alt="gameData.index, true or false." />
 </p>
 
-So, what happens here in <b>ternary operator</b> is we evaluate whether or
+<p>So, what happens here in <b>ternary operator</b> is we evaluate whether or
 not this is true <b>gameData.index</b>. And remember in JavaScript 0 is
 false and the <b>gameData.index</b> is either going to be 0 or 1. So if
 it&apos;s 0, then it&apos;s false, in which case will set it to 1. If index is
@@ -10007,95 +10004,93 @@ things. If we had three players, this wouldn&apos;t work, because we would
 have to do some if else statements for that. But with two players we can
 just say it&apos;s either a 0 or 1. If it&apos;s a 1 change it to 0, if it&apos;s 0
 change it to 1 like that. So, it&apos;s kind of a nice one line way of doing
-this and our function is getting quite long. So, anything we can do to
-shorten it up is kind of nice. So gameData, .index? And then in
-parentheses I&apos;m going to put gameData.index = 0. Because if this is
-true, I want to set it to 0 or we use a colon here, gameData.index, = 1
-because if it&apos;s false, if that&apos;s 0, I want to set it to 1.
+this and our function is getting quite long.</p>
 
-And then what we&apos;re going to do is we&apos;re going to wait a couple of
-seconds because we want this. Snap snake eyes is rolled on the screen
-for a minute or not a whole minute but a few seconds, so that whoever is
-playing the game can actually see it up here. So I&apos;m going to use
-setTimeout to just wait two seconds before I run setUpTurn again. Run
-the setup turn function again which will put us back with the correct
-player. So, let&apos;s go ahead and add that setTimeout there.
-SetTimeout(setUpTurn, after two seconds, 2000 milliseconds) and that
-should work.
+<p>So, anything we can do to shorten it up is kind of nice. So gameData, .index? And 
+then in parentheses I&apos;m going to put gameData.index = 0. Because if this is true, 
+I want to set it to 0 or we use a colon here, gameData.index, = 1 because if it&apos;s 
+false, if that&apos;s 0, I want to set it to 1.</p>
 
+<p>And then what we&apos;re going to do is we&apos;re going to wait a couple of seconds 
+because we want this. Snap snake eyes is rolled on the screen for a minute or not a whole 
+minute but a few seconds, so that whoever is playing the game can actually see it up 
+here. So I&apos;m going to use setTimeout to just wait two seconds before I run setUpTurn 
+again. Run the setup turn function again which will put us back with the correct player. 
+So, let&apos;s go ahead and add that setTimeout there. SetTimeout(setUpTurn, after two 
+seconds, 2000 milliseconds) and that should work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 635.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 635. test, game data roll (321) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image635.webp"
   style="width:50%;"
-  alt="." />
+  alt="Test, game data roll." />
 </p>
 
-Now, if we wanted to test this before we go forward, it might be a good
+<p>Now, if we wanted to test this before we go forward, it might be a good
 idea to do that. What we can do is we could just come in here just
 temporarily set gameData.rollSum == 2. So no matter what we roll in this
 rollUp here, this things can get set back down to 2. And then this thing
 should run and change my player, wait two seconds and set up the turn.
 That way, we don&apos;t have to sort of keep playing and rolling until we
 try to get two 1s to pop up randomly in order to test this. So let&apos;s
-throw that in there and see what happens here.
+throw that in there and see what happens here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 636.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 636. roll the dice as player 1 (322) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image636.webp"
   style="width:50%;"
-  alt="." />
+  alt="Roll the dice as player 1." />
 </p>
 
-If I come over here and test this, I can run my first player, roll the
-dice, it comes up with 11. But then it waits 2 seconds and it says roll
-the dice for player 2, let&apos;s try that again.
+<p>If I come over here and test this, I can run my first player, roll the dice, it comes 
+up with 11. But then it waits 2 seconds and it says roll the dice for player 2, 
+let&apos;s try that again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 637.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 637. roll the dice as player 2 (322) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image637.webp"
   style="width:50%;"
-  alt="." />
+  alt="Roll the dice as player 2." />
 </p>
 
-Roll the dice for player 2, I roll the dice, I actually got to 1 that
+<p>Roll the dice for player 2, I roll the dice, I actually got to 1 that
 time, but it&apos;s switched into 2, 2 announces roll the dice for player 1.
 So you can see that it&apos;s actually changing the player, waiting 2
 seconds and changing the player, so that&apos;s actually working, which is
 great. Now remove console gamedata.rollsum = 2 which was hard-coded for
-testing the switch players function.
+testing the switch players function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-09">4.09 A "1" Was Rolled (5:19)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 638.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 638. a "1" was rolled (4.09) (323) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image638.webp"
   style="width:40%;"
-  alt="." />
+  alt="4.09. A "1" was rolled." />
 </p>
 
-The next thing we&apos;re going to look at is if a one has been rolled.
+<p>The next thing we&apos;re going to look at is if a one has been rolled.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 639.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 639. again, a "1" was rolled (323) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image639.webp"
   style="width:50%;"
-  alt="." />
+  alt="Again, a "1" is rolled." />
 </p>
 
-To start with, we&apos;re going to swap the players right off the die. If
+<p>To start with, we&apos;re going to swap the players right off the die. If
 anyone was rolled, either of the two dice comes up a one, then we&apos;re
 going to swap the player. Let&apos;s do that first because that&apos;s just
-using the ternary operator again.
+using the ternary operator again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 640.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 640. ternary operator (324) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image640.webp"
   style="width:50%;"
-  alt="." />
+  alt="Ternary operator." />
 </p>
 
-Let&apos;s come back here and get this ternary operator here. You can just
+<p>Let&apos;s come back here and get this ternary operator here. You can just
 copy and paste it and stick it down here in place of that console log.
 Again, what that does is it sees what the value of index is and it
 determines if this statement comes back, true or not. Remember, index is
@@ -10103,36 +10098,37 @@ either going to be a zero or a one. If it&apos;s a zero, it&apos;s false. If
 it&apos;s a one, it&apos;s true because remember truthy and falsy in JavaScript,
 so a zero in JavaScript is falsy. If it&apos;s false, then it&apos;s going to do
 this. It&apos;s going to switch it to one. If it&apos;s true, then it&apos;s going
-to switch it to a zero.
+to switch it to a zero.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 641.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 641. ternary operator in mdn (324) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image641.webp"
   style="width:50%;"
-  alt="." />
+  alt="MDN's ternary operator." />
 </p>
 
-I have a page loaded from the MDN Web docs that will talk more about the
+<p>I have a page loaded from the MDN Web docs that will talk more about the
 ternary operator. If you&apos;re more curious about this particular
 expression in JavaScript or this operator in JavaScript, it&apos;s worth
-taking a look at this page here. We&apos;ve got that.
-
+taking a look at this page here. We&apos;ve got that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 642.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 642. test, set the game index (325) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image642.webp"
   style="width:50%;"
-  alt="." />
+  alt="Test, set the game index." />
 </p>
 
-The next thing we need to do is just set the game index. We&apos;re going to
+<p>The next thing we need to do is just set the game index. We&apos;re going to
 add to that instead of adding, you rolled snake eyes, we&apos;re going to
 say sorry, one of your rolls was the one switching to the other player.
 Let&apos;s go ahead and put that thing in there and then we&apos;ll set up the
 turn again. That&apos;s basically all we need for this else if here. In
 here, <b>game.innerHTML</b> plus equals. We&apos;re going to use our tick
 marks, again, the semicolon, and in here, we&apos;re going to add a
-paragraph P. You rolled a one switching to other player and really other
+paragraph P.</p>
+
+<p>You rolled a one switching to other player and really other
 players going to be a variable dollar sign, carry braces, and really
 what we want is this one here. This is the reason why we wanted to do
 this line first because we just switched that index. If we were on
@@ -10140,209 +10136,198 @@ player 1, now the index is set to the other player. If we were on player
 1, this will just say player 2, if we were on player 2 here, this will
 say player 1. That goes back and forth. Then down here we just need to
 set time out and runs out of time again. That will work, that should
-work just fine.
+work just fine.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 643/644.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 643/644. test, roll the dice (226) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image643.webp"
   style="width:45%;"
-  alt="." />
+  alt="gameData.roll." />
 <img src="./images/webp/image644.webp"
   style="width:45%;"
-  alt="." />
+  alt="gameData.roll." />
 </p>
 
-Again, we can test it up here by forcing one of these roles,
-gameData.roll1. I&apos;m going to set that equal to one. Just to test it.
-It&apos;s not perfect, but I just want to see it without having to roll a
-bunch of times until I get a one. That certainly comes up more
-frequently than rolling two once. Let&apos;s refresh this. Roll the dice for
-player 1, you roll the one. I didn&apos;t roll the one, but because we set
-it to say one of those dice, it&apos;s going to be one, it&apos;s doing it
-automatically. Roll the dice for player 2, you roll the one switching
-the player 1, and now roll the dice for player 1, roll the dice. You
-roll the one switching for player 2, roll the dice. You roll the one
-switching for player 1.
+<p>Again, we can test it up here by forcing one of these roles, gameData.roll1. I&apos;m 
+going to set that equal to one. Just to test it. It&apos;s not perfect, but I just want 
+to see it without having to roll a bunch of times until I get a one. That certainly comes 
+up more frequently than rolling two once. Let&apos;s refresh this. Roll the dice for
+player 1, you roll the one. I didn&apos;t roll the one, but because we set it to say one 
+of those dice, it&apos;s going to be one, it&apos;s doing it automatically. Roll the dice 
+for player 2, you roll the one switching the player 1, and now roll the dice for player 1, 
+roll the dice. You roll the one switching for player 2, roll the dice. You roll the one
+switching for player 1.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 645.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 645. test, game of pig; roll the dice (326) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image645.webp"
   style="width:50%;"
-  alt="." />
+  alt="Test, game of pig; roll the dice." />
 </p>
 
-You can see it switching back and forth now and working perfectly every
+<p>You can see it switching back and forth now and working perfectly every
 time. That&apos;s exactly what we want there. We want to come back and
 remove this gamedata = 1 because that will really screw things up later
 if we forget to do that. Great. We&apos;ve gotten both the situations for
 what happens if you roll two once or if either of the dice come up with
 one, we&apos;ve gotten this sussed out. Next, we need to figure out the
 else, which is what happens when we want to continue the game and
-continue moving on with the game.
+continue moving on with the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-10">4.10 The Else Statement (6:36)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 646.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 646. the else statement (4.10) (327) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image646.webp"
   style="width:40%;"
-  alt="." />
+  alt="4.10. The Else Statement." />
 </p>
 
-The next thing we need to look at is the final else statement which will
-happen if you throw the dice and no one&apos;s are rolled.
+<p>The next thing we need to look at is the final else statement which will
+happen if you throw the dice and no one&apos;s are rolled.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 647.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 647. the else statement (327) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image647.webp"
   style="width:50%;"
-  alt="." />
+  alt="The Else Statement." />
 </p>
 
-And basically, what we need to do is we need to update the score for
-whichever player had them. We&apos;re going to take the score they had
-before and add the <b>rollSum</b> to it in order to update that score. So
-let&apos;s do that first.
+<p>And basically, what we need to do is we need to update the score for whichever 
+player had them. We&apos;re going to take the score they had before and add the 
+<b>rollSum</b> to it in order to update that score. So let&apos;s do that first.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 648.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 648. gamedata.score and gamedata.index (328) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image648.webp"
   style="width:50%;"
-  alt="." />
+  alt="gameData.score and gameData.index." />
 </p>
 
-So, when you get rid of this, And say <b>gameData.score</b>, And the
-<b>score</b> is going to be for the <b>gameData.player</b>. I want to visit
-<b>GameData.index</b>, that&apos;s what I do square bracket. Okay, <b>score</b>
-for a <b>gameData.index</b>. So that&apos;s either going to get me up here on
-score. That&apos;s going to get me either this one or this one, one of those
-two <b>gameData.index</b>. And that&apos;s going to = the <b>gameData.score</b>,
-it&apos;s really this line again. + <b>gameData.rollSum&lbrack;&rbrack;</b>. Like that, I
-believe. Let me check over here and make sure I did that, right?
-<b>gameData.index + gameDtaa.rollSum</b>, correct. Okay from there, what we
-need is to set the action area and create two buttons in there.
+<p>So, when you get rid of this, And say <b>gameData.score</b>, And the <b>score</b> 
+is going to be for the <b>gameData.player</b>. I want to visit <b>GameData.index</b>, 
+that&apos;s what I do square bracket. Okay, <b>score</b> for a <b>gameData.index</b>. 
+So that&apos;s either going to get me up here on score. That&apos;s going to get me 
+either this one or this one, one of those two <b>gameData.index</b>. And that&apos;s 
+going to = the <b>gameData.score</b>, it&apos;s really this line again. + <b>gameData.rollSum&lbrack;&rbrack;</b>. Like that, I believe. Let me check over here 
+and make sure I did that, right? <b>gameData.index + gameDtaa.rollSum</b>, correct. 
+Okay from there, what we need is to set the action area and create two buttons in there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 649.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 649. two buttons, roll again & passing (328) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image649.webp"
   style="width:50%;"
-  alt="." />
+  alt="Two buttons; roll again and passing." />
 </p>
 
-So, that action area is going to get set with two buttons, one for
-rolling again or for passing. So, let&apos;s go ahead and do that and
-that&apos;s just simple HTML they were letting javascript generate there. So
-actionArea.innerHTML = open and close, quote there and I&apos;m going to
-have a button close button. Well, color, roll again, And it&apos;s going to
-have an id = &quot;rollagain&quot;, something like that. So there&apos;s that, Or
-we&apos;re going to do another button, open and close it, And in there put
-Pass and that what&apos;s going to have an id, id = &quot;pass&quot;. So, you notice
-how I do that from the inside out for even typing this stuff because
-that will keep me from making mistakes. That will help me from making
-mistakes, I might still make mistakes, but that&apos;ll help, okay?
+<p>That action area is going to get set with two buttons, one for rolling again or for 
+passing. So, let&apos;s go ahead and do that and that&apos;s just simple HTML they were 
+letting javascript generate there. So actionArea.innerHTML = open and close, quote there 
+and I&apos;m going to have a button close button. Well, color, roll again, And it&apos;s 
+going to have an id = &quot;rollagain&quot;, something like that. So there&apos;s that, 
+or we&apos;re going to do another button, open and close it, And in there put Pass and 
+that what&apos;s going to have an id, id = &quot;pass&quot;. So, you notice how I do 
+that from the inside out for even typing this stuff because that will keep me from 
+making mistakes. That will help me from making mistakes, I might still make mistakes, 
+but that&apos;ll help, okay?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 650.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 650. roll again code in index.html (329) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image650.webp"
   style="width:50%;"
-  alt="." />
+  alt="getElementByID(roll again)." />
 </p>
 
-So we&apos;re going to set that and then we need two event listeners for
-each of those things. So, I&apos;m going to have an event listener
-<b>document.getElementById(roll again).</b> And that&apos;s going to have an
-<b>addEventListener</b>, and listening for a click. And when you click the
-button we&apos;re going to run a function.
+<p>So we&apos;re going to set that and then we need two event listeners for each of those 
+things. So, I&apos;m going to have an event listener <b>document.getElementById(roll 
+again).</b> And that&apos;s going to have an <b>addEventListener</b>, and listening for 
+a click. And when you click the button we&apos;re going to run a function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 651.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 651. setupturn, swap players (330) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image651.webp"
   style="width:50%;"
-  alt="." />
+  alt="setUpTurn, swap players." />
 </p>
 
-And for now we&apos;re just going to put in here, setUpTurn, we&apos;re going to
+<p>And for now we&apos;re just going to put in here, setUpTurn, we&apos;re going to
 run that function again. Great, so if you roll again, when you click
 that button to roll again, you just set up to turn again and the player
 hasn&apos;t changed or anything. However, we&apos;re going to have another one
-of these and I can just copy this and paste it and change this to pass.
-And we&apos;re going to run setUpTurn again, but before we do that we&apos;re
+of these and I can just copy this and paste it and change this to pass.</p>
+
+<p>And we&apos;re going to run setUpTurn again, but before we do that we&apos;re
 just going to swap the player. So we can just copy that ternary operator
 and stick it in here. And that will allow me to swap the player to the
 other player. Cool, the last thing we&apos;re going to need in here is
-we&apos;re going to need something that checks the winning condition.
-
+we&apos;re going to need something that checks the winning condition.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 652.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 652. game of pig; start game (331) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image652.webp"
   style="width:50%;"
-  alt="." />
+  alt="Start the Game of Pig." />
 </p>
 
-So, we&apos;ll check the winning condition in here as well, but we&apos;ll do
+<p>So, we&apos;ll check the winning condition in here as well, but we&apos;ll do
 that later. For right now let&apos;s just test this out and see if it works.
 Come over here, refresh the page, pick my player when I roll the dice, I
 get it a 2 in a 6, that adds up to 8. I don&apos;t have any scoring going on
-down here yet, but I can choose roll again.
-
+down here yet, but I can choose roll again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 653/654.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 653/654. game of pig; roll dice (331) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image653.webp"
   style="width:45%;"
-  alt="." />
+  alt="Game of Pig; roll the dice." />
 <img src="./images/webp/image654.webp"
   style="width:45%;"
-  alt="." />
+  alt="Game of Pig; roll the dice." />
 </p>
 
-And it says roll the dice for player 1 and now I got a 1 and a 3 year
-old one, switching to player 2. Roll the dice, I got a 2 and a 4, I can
-click roll again and I&apos;m still on player 2 and I can roll the dice
-again.
+<p>And it says roll the dice for player 1 and now I got a 1 and a 3 year old one, 
+switching to player 2. Roll the dice, I got a 2 and a 4, I can click roll again and 
+I&apos;m still on player 2 and I can roll the dice again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 655/656.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 655/656. game of pig; roll dice (332) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image655.webp"
   style="width:45%;"
-  alt="." />
+  alt="Game of Pig; roll the dice." />
 <img src="./images/webp/image656.webp"
   style="width:45%;"
-  alt="." />
+  alt="Game of Pig; roll the dice." />
 </p>
 
-Now, I got a 5 and a 5, and I could pass if I wanted to, if I click pass
-it sets up the turn but changes it to player 1 because of that ternary
-operator. And I can roll the dice for player 1 and I got a 6 that I
-could choose roll again. So that&apos;s all working great, it&apos;s working
-perfectly fine just the way it is, excellent. Let&apos;s stop there and
-we&apos;ll pick it up in the next lesson.
+<p>Now, I got a 5 and a 5, and I could pass if I wanted to, if I click pass it sets up 
+the turn but changes it to player 1 because of that ternary operator. And I can roll 
+the dice for player 1 and I got a 6 that I could choose roll again. So that&apos;s all 
+working great, it&apos;s working perfectly fine just the way it is, excellent. 
+Let&apos;s stop there and we&apos;ll pick it up in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-11">4.11 Checking for a Win (6:02)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 657.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 657. 3rd major function checks for winning condition (332) ~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image657.webp"
   style="width:50%;"
   alt="." />
 </p>
 
-The third major function we need is the function that checks for a
-winning condition.
+<p>The third major function we need is the function that checks for a winning condition.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 658.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 658. checking for a win (333) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image658.webp"
   style="width:50%;"
-  alt="." />
+  alt="Checking for a win." />
 </p>
 
-Has the player scored enough points to actually win the game? Let&apos;s
-make a function for that called <b>checkWinningCondition</b> and add that
-to our functions down here.
+<p>Has the player scored enough points to actually win the game? Let&apos;s make a 
+function for that called <b>checkWinningCondition</b> and add that to our functions 
+down here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 659/660. within throwdice check winning conditions (3xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 659/660. within throwdice check winning conditions (333) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image659.webp"
   style="width:45%;"
@@ -10352,90 +10337,84 @@ to our functions down here.
   alt="Check Winning Condition." />
 </p>
 
-So this really long function, <b>throwDice</b> goes all the way down to
-this closing curly brace here.
+<p>So this really long function, <b>throwDice</b> goes all the way down to this closing 
+curly brace here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 661. add if..else for winning conditions (3xx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 661. add if..else for winning conditions (334) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image661.webp"
   style="width:50%;"
   alt="Add if..else for winning conditions." />
 </p>
 
-Let&apos;s add another function down here. Function
-<b>checkWinningCondition</b>. And this function is going to have an <b>if
-else</b> statement in it. The if statement is going to handle with what
-happens if you have actually achieved the winning conditions. So if
-winning condition met or else show current score. If we haven&apos;t won, we
-at least ought to know how close we are to winning? So it&apos;s going to do
-those two things.
+<p>Let&apos;s add another function down here. Function <b>checkWinningCondition</b>. And 
+this function is going to have an <b>if else</b> statement in it. The if statement is 
+going to handle with what happens if you have actually achieved the winning conditions. 
+So if winning condition met or else show current score. If we haven&apos;t won, we at 
+least ought to know how close we are to winning? So it&apos;s going to do those two things.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 662. check player score against gameend (3xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 662. check player score against gameend (334) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image662.webp"
   style="width:50%;"
   alt="Is player score (gameData.score) greater than gameData.gameEnd?" />
 </p>
 
-To check the winning condition, we just need to get this players score.
-Get that players score and see if it&apos;s greater than
-<b>gameData.gameEnd.</b> If that&apos;s true, then we need to do some things.
-We want to set the score area of the page to say this particular player,
-player one wins. Player x wins with x points, something like that. But
-player x is going to be variable. So we&apos;re going to do &dollar;{}. And in
-there we&apos;re going to say, where&apos;s my player thing when I switch
-players? It&apos;s up here. So play, that&apos;s going to be their player
-winner, player two wins with x points. And in there goes this game data
-score index, this thing here because that&apos;s the score that we got.
+<p>To check the winning condition, we just need to get this players score. Get that 
+players score and see if it&apos;s greater than <b>gameData.gameEnd.</b> If that&apos;s 
+true, then we need to do some things. We want to set the score area of the page to say 
+this particular player, player one wins. Player x wins with x points, something like 
+that. But player x is going to be variable. So we&apos;re going to do &dollar;{}. And 
+in there we&apos;re going to say, where&apos;s my player thing when I switch players? 
+It&apos;s up here. So play, that&apos;s going to be their player winner, player two wins 
+with x points. And in there goes this game data score index, this thing here because 
+that&apos;s the score that we got.</p>
 
-What else do we need to do? I&apos;m going to clear out the action area and
-then we make a, get element by Id quit. I mean that button that&apos;s up at
-the top of the page, I&apos;m going to set its innerHTML to start a new
-game. So let&apos;s just do that. ActionArea = &quot; &quot;. We&apos;re just clearing
-it out, that&apos;s all we&apos;re doing there. And then we&apos;re going to say
-document.getElementById( &quot;quit&quot;) that button there. I mean I&apos;d say
-it&apos;s innerHTML. It&apos;s going to be start a New Game, something like
-that. Once we&apos;ve won, we can start a new game. Cool, so that&apos;s the if
-statement that we&apos;ll check to see. If the game has won, we will start a
-new game. And the next lesson, we&apos;ll fill out the show current score
-section of this <b>function</b>.
+<p>What else do we need to do? I&apos;m going to clear out the action area and then we 
+make a, get element by Id quit. I mean that button that&apos;s up at the top of the 
+page, I&apos;m going to set its innerHTML to start a new game. So let&apos;s just do 
+that. ActionArea = &quot; &quot;. We&apos;re just clearing it out, that&apos;s all 
+we&apos;re doing there. And then we&apos;re going to say 
+document.getElementById(&quot;quit&quot;) that button there. I mean I&apos;d say it&apos;s 
+innerHTML. It&apos;s going to be start a New Game, something like that. Once we&apos;ve won, 
+we can start a new game. Cool, so that&apos;s the if statement that we&apos;ll check to see. 
+If the game has won, we will start a new game. And the next lesson, we&apos;ll fill out 
+the show current score section of this <b>function</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-12">4.12 Show the Current Score (8:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 663. show the current score (4.12) (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 663. show the current score (4.12) (335) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image663.webp"
   style="width:50%;"
   alt="4.12. Show the Current Score." />
 </p>
 
-Okay, so now we need to show the current score, and make sure that that
-gets filled out properly, if we haven&apos;t won the game, so let&apos;s go over
-and add this.
+<p>Okay, so now we need to show the current score, and make sure that that gets filled 
+out properly, if we haven&apos;t won the game, so let&apos;s go over and add this.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 664. showing the current score (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 664. showing the current score (336) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image664.webp"
   style="width:50%;"
   alt="Showing the Current Score." />
 </p>
 
-We&apos;re going to set the score areas innnerHTML to a paragraph that shows
-the scores of both players. So we can say <b>score.innerHTML</b> = and I&apos;m
-going to just put in here some tick marks and a paragraph. Like so, and
-then in here I&apos;m going to say something this score for player one 1 is
-x, and the score for player 2, is y something like that. Now player 1 is
-going to to be replaced with the variable, Curly braces, and again,
-player 1 is this thing here in players index. Well, I just need players
-<b>gameData.players&lbrack;0&rbrack;</b>, is going to be something. And what score is
-that going to be? This is going to be a variable here, curly braces, and
-again add the dollar sign. And in there we&apos;re going to say,
+<p>We&apos;re going to set the score areas innnerHTML to a paragraph that shows the 
+scores of both players. So we can say <b>score.innerHTML</b> = and I&apos;m going to 
+just put in here some tick marks and a paragraph. Like so, and then in here I&apos;m 
+going to say something this score for player one 1 is x, and the score for player 2, 
+is y something like that. Now player 1 is going to to be replaced with the variable, 
+Curly braces, and again, player 1 is this thing here in players index. Well, I just 
+need players <b>gameData.players&lbrack;0&rbrack;</b>, is going to be something. And 
+what score is that going to be? This is going to be a variable here, curly braces, and
+again add the dollar sign. And in there we&apos;re going to say, 
 <b>gameData.score&lbrack;0&rbrack;</b>. So that&apos;s the first player&apos;s score, and then
-we&apos;re going to do the same thing down here, For a player two, Except
-that&apos;s going to be 1, And this is going to be the same thing down here,
-Except that&apos;s going to be 1.
+we&apos;re going to do the same thing down here, For a player two, Except that&apos;s 
+going to be 1, And this is going to be the same thing down here, Except that&apos;s 
+going to be 1.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 665. function checkwinningcondition (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 665. function checkwinningcondition (337) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image665.webp"
   style="width:50%;"
@@ -10451,7 +10430,7 @@ believe that&apos;s all we need let&apos;s just see over here, yep. Players&lbra
 player&lbrack;1&rbrack; looks good, that all looks good all right great, so what do
 we need to do to get this to work?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 666. function checkwinningcondition (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 666. function checkwinningcondition (337) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image666.webp"
   style="width:50%;"
@@ -10462,7 +10441,7 @@ We need to run this function, Here, check winning condition, It&apos;s not
 the only place we need to run it, but let&apos;s start with that. Let&apos;s put
 it there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 667/668. test score 0 to 8 (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 667/668. test score 0 to 8 (338) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image667.webp"
   style="width:45%;"
@@ -10478,7 +10457,7 @@ for player 1. So now I&apos;ve got eight and I&apos;ve got no player 2 is
 running here, and you can see that the score got added up, player 2 has
 8 points. I can click roll again and it takes me to set up the term,
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 669/670. test score 0 to 15, then 0 to 25 (3xx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 669/670. test score 0 to 15, then 0 to 25 (338) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image669.webp"
   style="width:45%;"
@@ -10494,7 +10473,7 @@ turn. Now I&apos;ve got 25, and if I get five or more this we should have
 the end of the game and that should trigger it so let&apos;s see what
 happens.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 671. test game player 2 wins with 33 (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 671. test game player 2 wins with 33 (339) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image671.webp"
   style="width:50%;"
