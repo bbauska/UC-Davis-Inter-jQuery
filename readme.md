@@ -2877,12 +2877,12 @@ jQuery library and any plugins that you&apos;re using.
 </p>
 
 Over here, after my 800, I can add a comma and add an easing and I used
-**easeOutCirc** as my easing here, which gives us a pretty dramatic set
+<b>easeOutCirc</b> as my easing here, which gives us a pretty dramatic set
 of easing. If I set that and then while I&apos;m here, I&apos;m just going to
 put a return in here. That opens and then that closes there. I want to
-move that down like so, there we go, **easeOutCirc**. I think that looks
+move that down like so, there we go, <b>easeOutCirc</b>. I think that looks
 a little bit better, a little bit easier to read. We animate this over
-800 milliseconds when we are using **easeOutCirc**.
+800 milliseconds when we are using <b>easeOutCirc</b>.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 155. example of easing animation scroll (79) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3182,7 +3182,7 @@ to our script here.
   width="50%;" />
 </p>
 
-Over here on my **smoothscroll** page here, I&apos;m just going to go down
+Over here on my <b>smoothscroll</b> page here, I&apos;m just going to go down
 here. We&apos;ve got this script is handling this scroll, and I&apos;m going to
 click after that and I&apos;m going to add a jQuery object for window, the
 window object onload, we&apos;re going to run a function. Again, this
@@ -3478,7 +3478,7 @@ to use the each method.
 
 In plain JavaScript, we have for each but in jQuery, we have in each
 method that we can pass in a function. I&apos;m going to push the tops and I
-have a **Math.floor** and you&apos;ll let me take that out just for a
+have a <b>Math.floor</b> and you&apos;ll let me take that out just for a
 minute. I&apos;ll take math for it now because that kind of confuses things.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187. section size, no rounding (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3536,7 +3536,7 @@ at just the post option.
 If I come back to the page and refresh the page, you&apos;ll see here I get
 an array with five elements in it for each of my five sections, 200,
 700, 1500.6875, and then 21 no 4.56- and 2683.4875. I don&apos;t really need
-all the decimal points, so that&apos;s why I put the **Math.floor** in
+all the decimal points, so that&apos;s why I put the <b>Math.floor</b> in
 there.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3550,8 +3550,8 @@ there.
   alt="Size of each section is identified." />
 </p>
 
-Let&apos;s add the **Math.floor** back real quick here, I&apos;m going to put
-**Math.floor()** at the end over here, so it&apos;ll take this whole thing.
+Let&apos;s add the <b>Math.floor</b> back real quick here, I&apos;m going to put
+<b>Math.floor()</b> at the end over here, so it&apos;ll take this whole thing.
 This offset top here and put it into the floor method so that it rounds
 it down. If I save that and then come back and refresh again, now I&apos;m
 just getting whole numbers 200, 700, 1525, 2104, and 2683 and that&apos;s
@@ -3583,7 +3583,7 @@ I&apos;ve put the window scroll event back in with my IF statements.
 
 
 We&apos;re going to work on these a little bit now. But before we do, we
-need to add this statement here, page top (**pagetop**), which is this
+need to add this statement here, page top (<b>pagetop</b>), which is this
 variable up here that we created but have not assigned. We looked at it
 before and we just set it to window scroll top. Here I&apos;m going to set
 it to window scrollTop plus 210. That&apos;s because we know our page over
@@ -3799,15 +3799,15 @@ The next thing we need to do is to take advantage of the script to
 change the highlighting of these actual pieces based on which section
 we&apost;re at. That&apos;s the last part of the script that we need to do, and that
 part is not very difficult at this point. What I&apos;m going to do up here
-at the top is I&apos;m just going to make another variable **'var
-allLinks'** and that can hold dollar sign, parenthesis, and then what is
-it over here, I&apos;ve got a navigation appears just now, **&apos;nav ul li
-a&apos;**. I just want to put those anchor tags: **&apos;nav ul li a&apos;**, into a
-variable called **'allLinks'** because I&apos;m going to use that to affect
+at the top is I&apos;m just going to make another variable <b>'var
+allLinks'</b> and that can hold dollar sign, parenthesis, and then what is
+it over here, I&apos;ve got a navigation appears just now, <b>&apos;nav ul li
+a&apos;</b>. I just want to put those anchor tags: <b>&apos;nav ul li a&apos;</b>, into a
+variable called <b>'allLinks'</b> because I&apos;m going to use that to affect
 this.
 
-Then down here I&apos;m going to make another variable called &apos;**var**
-**prevCounter**&apos;, and set that to zero. You&apos;ll see why in a minute for
+Then down here I&apos;m going to make another variable called &apos;<b>var</b>
+<b>prevCounter</b>&apos;, and set that to zero. You&apos;ll see why in a minute for
 the previous counter, you&apos;ll see why we need that as we go forward
 here. Add these two variables, one that&apos;s just going to gather all the
 links just for a short cut, we don&apos;t have to take this out every time,
@@ -3829,7 +3829,7 @@ and you&apos;re going to have to type this in. If counter is not the same as
 exclamation point, equals not the same as previous counter, then we want
 to take all links, and remove the class attribute so that I&apos;ll remove
 selected from all of those anchor tags up there. Then we want to take
-the link with **eq**. **eq** is a function in jQuery that&apos;s like
+the link with <b>eq</b>. <b>eq</b> is a function in jQuery that&apos;s like
 equals.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3986,7 +3986,7 @@ Down here after my windows scroll event handler, which is this one here
 (left) and it&apos;s down here, but before the closing of my window load.
 Before this closing thing here, I&apos;m just going to add a new event
 handler down here (right image). It&apos;s going to look like this dollar
-sign **window.on**, we&apos;re going to use the on method again, but instead
+sign <b>window.on</b>, we&apos;re going to use the on method again, but instead
 of looking for load we&apos;re going to look for resize. Then we&apos;re going
 to run a function. In here, I&apos;m just going to console log. Resizing.
 
@@ -4070,8 +4070,8 @@ I&apos;m just going to leave it there for a moment because we&apos;re going to
 use the console log anyway.
 
 But in here, I&apos;m going to do a set time out in here for this. I&apos;m
-going to a set time and it&apos;s **doneResizing** and assign it the
-**setTimeout** function. SetTimeout method here, and remember,
+going to a set time and it&apos;s <b>doneResizing</b> and assign it the
+<b>setTimeout</b> function. SetTimeout method here, and remember,
 setTimeout takes a function, like that, and then a comma and then an
 amount of time. Then I said it&apos;s a really short amount of time, like
 half a second, 500 that&apos;s fine. We move that down there and then up
@@ -4327,9 +4327,9 @@ shift to get it to line up for it.
   width="50%;" />
 </p>
 
-Now I have a function called **resetPageposition**, and I&apos;m going to
-run that function here, **resetPagePosition**. When my time out function
-runs, it&apos;s going to run **resetPagePosition**, this function here,
+Now I have a function called <b>resetPageposition</b>, and I&apos;m going to
+run that function here, <b>resetPagePosition</b>. When my time out function
+runs, it&apos;s going to run <b>resetPagePosition</b>, this function here,
 which is all the stuff that we had in there. When we&apos;re done resizing,
 we&apos;re going to do all this stuff that we just wrote. That&apos;s cool.
 
@@ -4343,10 +4343,10 @@ we&apos;re going to do all this stuff that we just wrote. That&apos;s cool.
 </p>
 
 But I&apos;m also going to run it up at the top of the page here,
-**resetPagePosition**, and then I can get rid of this thing. You comment
-this out, **console.log**, **postTops**. I&apos;m going to create my
-variable **postTops**, but then inside here I&apos;m going to adjust my
-**postTops** based on when the page loads. This function is going to run
+<b>resetPagePosition</b>, and then I can get rid of this thing. You comment
+this out, <b>console.log</b>, <b>postTops</b>. I&apos;m going to create my
+variable <b>postTops</b>, but then inside here I&apos;m going to adjust my
+<b>postTops</b> based on when the page loads. This function is going to run
 twice. It&apos;s going to run when the page loads and it&apos;s going to run any
 time you resize the screen.
 
@@ -4859,7 +4859,7 @@ the path to see at the end and instead I&apos;m going to create a variable
 here, &apos;const original&apos;, you know, &apos;Top&apos; and assign it,
 &apos;target.Section&apos;, Bounding.Rect Top&apos;. Now, I really don&apos;t need it to
 have all of the decimal points that we&apos;re showing up on the page, so I
-can round that down here. I can put, **Math.floor**, parentheses and put
+can round that down here. I can put, <b>Math.floor</b>, parentheses and put
 the other parentheses over here and then really what I want is 200
 pixels down the page, so I&apos;m going to subtract 200 &apos;minus 200&apos;, just
 remember, that&apos;s my First Section, starts with 200 pixels down the
@@ -4939,7 +4939,7 @@ of a problem, and we&apos;ll talk about it more in the next lesson.
 In the last lesson (2.20), we noticed that the Smooth Scroll was working
 fine here in Chrome, but it&apos;s not working properly in Safari. What can
 we do about that? What we can do is we can use what&apos;s called a
-**Polyfill**. A **polyfill** is a term that was created by a developer
+<b>Polyfill</b>. A <b>polyfill</b> is a term that was created by a developer
 named Remy Sharp.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4953,14 +4953,14 @@ named Remy Sharp.
   alt="." />
 </p>
 
-If you go just google &apos;who invented **polyfill**?&apos; or &apos;where did the
+If you go just google &apos;who invented <b>polyfill</b>?&apos; or &apos;where did the
 Polyfill name come from?&apos;, Remy Sharp has written on his blog, in 2010,
-an article about how he came up with the name **polyfill**. That&apos;s
-where it came from. But really, what a **polyfill** is, it&apos;s a shim or
+an article about how he came up with the name <b>polyfill</b>. That&apos;s
+where it came from. But really, what a <b>polyfill</b> is, it&apos;s a shim or
 some piece of script that&apos;s made to help browsers that are not
 compliant yet with standards work and those browsers will use that extra
 script to make it work. These days, most of the browsers are pretty up
-to date in standards and there&apos;s very little need for **polyfills**,
+to date in standards and there&apos;s very little need for <b>polyfills</b>,
 but it&apos;s a worthwhile concept to know about and it&apos;s worth figuring
 out how to use them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4974,7 +4974,7 @@ out how to use them.
   alt="." />
 </p>
 
-As it turns out, somebody wrote a **polyfill** for this particular
+As it turns out, somebody wrote a <b>polyfill</b> for this particular
 thing, and it&apos;s over here on GitHub. It&apos;s this &apos;iamdustan&apos;
 character, and GitHub wrote this smooth scroll polyfill. You could
 download this file here by clicking the download zip, here. I also have
@@ -5184,7 +5184,7 @@ care of that in the next lesson.
 </p>
 
 In the last lesson, we saw that we could use the
-**getBoundingClientRect().top** to get the top of any particular element
+<b>getBoundingClientRect().top</b> to get the top of any particular element
 on the page. In this case, the first element, the first section, we&apos;re
 getting here posts, zero.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5199,7 +5199,7 @@ getting here posts, zero.
 But we don&apos;t want where it is anywhere on the page. We want to get the
 distance. It is from the top of the window, from when the page loads and
 have that be consistent. We can do that by adding to it
-**window.pageYOffset**. That&apos;s the amount of pixels the window has
+<b>window.pageYOffset</b>. That&apos;s the amount of pixels the window has
 scrolled past the viewport, and by adding that back on there, we will
 always get 200 pixels. Let&apos;s go ahead and give that a try.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5214,7 +5214,7 @@ always get 200 pixels. Let&apos;s go ahead and give that a try.
 </p>
 
 At the end here, we need to add plus window.pageYOffset. This one, not X
-but Y. It should be a plus window **pageYOffset**. Now, let&apos;s save that
+but Y. It should be a plus window <b>pageYOffset</b>. Now, let&apos;s save that
 and then come over here. I&apos;m going to make sure I&apos;m scrolled up to the
 top of the window. Click, &quot;Refresh&quot; and you can see I get 200 there.
 If I scroll the page down and refresh again, you can see that I get 200
@@ -5229,13 +5229,13 @@ there. I always get 200 for that first post.
 </p>
 
 Great. Now, that we&apos;ve got that, the next thing we need to do is round
-it down using our **Math.floor**, because some of these will generate a
+it down using our <b>Math.floor</b>, because some of these will generate a
 whole bunch of partial points past decimal point that we don&apos;t need. We
 can just round it down to the nearest pixel, and then put all of those
 into an array, just like we did in the previous script. We already have
-our **postTops** array created here. It&apos;s empty. But we can push into
-it our posts, and we can do that with the **forEach** method. Again, we
-can do **posts.forEach**. I really like this method because it&apos;s nice
+our <b>postTops</b> array created here. It&apos;s empty. But we can push into
+it our posts, and we can do that with the <b>forEach</b> method. Again, we
+can do <b>posts.forEach</b>. I really like this method because it&apos;s nice
 and clean and simple to read. It&apos;s a little bit shorter. You could use
 a for-loop, certainly. That would be fine to use a standard for-loop.
 But I like this method, so I&apos;m going to use it. I&apos;m going to pass in a
@@ -5244,13 +5244,13 @@ function.
 Then remember, this function is going to pass in a variable post.
 Because this is a variable, you can call it whatever you want. I think
 post makes sense. Then in here, I&apos;m going to say, I&apos;m going to push
-**postTops.push**. What am I going to push here? I&apos;m going to push this
+<b>postTops.push</b>. What am I going to push here? I&apos;m going to push this
 whole thing, so I can copy and paste that in here. But not post zero. I
 just want my variable post, this variable here. Because it&apos;s going to
 go through each of these posts, and do each post. It&apos;s going to push
 the first post in, the second post in and so on. I&apos;ve made a little
-extra room here because I also need to put in here, **Math.floor()**,
-and the second parentheses will close here like so. **Math.floor** will
+extra room here because I also need to put in here, <b>Math.floor()</b>,
+and the second parentheses will close here like so. <b>Math.floor</b> will
 take this, round it down and then it gets pushed into postTops.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5329,7 +5329,7 @@ Now we&apos;re at the point where we&apos;re ready to start working with our
 scroll event. We need to add an event listener for capturing scroll
 effects. I&apos;m just going to comment that out for now. But we can add
 that list of recapturing scroll of effects. Again, I&apos;m going to attach
-it to the window, **window.addEventListener**, and we&apos;re listening for
+it to the window, <b>window.addEventListener</b>, and we&apos;re listening for
 scroll event, then we&apos;re going to run a function, and all of our stuff
 will go inside of here. Now, this looks very similar to the jQuery
 version of the scroll event.
@@ -5360,8 +5360,8 @@ entire jQuery library to use it. That&apos;s nice.
 </p>
 
 Then we&apos;re going to put into this variable pagetop. Pagetop it&apos;s going
-to equal this thing, **window.pageYOffset**. Again, what that does is
-it, **window.pageYOffset** tracks how far off the top of the window or
+to equal this thing, <b>window.pageYOffset</b>. Again, what that does is
+it, <b>window.pageYOffset</b> tracks how far off the top of the window or
 page is scrolled.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 310.  (160) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5372,7 +5372,7 @@ page is scrolled.
   width="50%;" />
 </p>
 
-I can, **console.log**, put **pageTop** and we should be seeing those
+I can, <b>console.log</b>, put <b>pageTop</b> and we should be seeing those
 pixels change as we scroll down the page. Let&apos;s test that and see.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 311/312.  (160) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5411,9 +5411,9 @@ this. It had 210 in the other one, but I&apos;m going to do 250 here. I
 think it&apos;s a little bit better. I&apos;m going to add 250 there.
 
 It&apos;s worth noting that the strategy for this script is exactly the same
-as what we did for the jQuery script. When this number the **pagetop**
+as what we did for the jQuery script. When this number the <b>pagetop</b>
 number, is greater than the number of the second section for
-**postTops**, where that one starts, then we must be viewing that second
+<b>postTops</b>, where that one starts, then we must be viewing that second
 section on the screen, and if it&apos;s greater than the number for the top
 of the third section, then we must be viewing that section on the
 screen, and so on. That strategy is exactly the same.
@@ -5460,21 +5460,21 @@ because it&apos;s actually exactly the same as what we had in the previous
 script. In fact, I don&apos;t think it&apos;s different really, even at all.
 I&apos;m going to comment out this console log call there. We don&apos;t really
 need that now. But here I&apos;m seeing if pagetop is greater than the
-**postTops** **counter**.
+<b>postTops</b> <b>counter</b>.
 
-The **counter** starts at one, so if it&apos;s greater than the first
-element inside **postTops**, the **counter** is going to get
+The <b>counter</b> starts at one, so if it&apos;s greater than the first
+element inside <b>postTops</b>, the <b>counter</b> is going to get
 incremented. If we&apos;re on the first section, we go into the second
-section, this **counter** would be one, and so now we&apos;re in that second
+section, this <b>counter</b> would be one, and so now we&apos;re in that second
 section, then we should increment the counter and we must be scrolling
 down. Then when we go into the third section, we&apos;ll increment the
-**counter** again and so on and so forth as we get down to the bottom of
+<b>counter</b> again and so on and so forth as we get down to the bottom of
 the page.
 
-Then the else if, we&apos;re going to check to see if the **counter** is
+Then the else if, we&apos;re going to check to see if the <b>counter</b> is
 greater than one, not greater than zero this time, but greater than one,
 is a greater than one, because one is our first section, and if
-**pagetop** is less than **postTops** counter minus one. If it&apos;s less
+<b>pagetop</b> is less than <b>postTops</b> counter minus one. If it&apos;s less
 than that, then we must be scrolling up if both of these are true, in
 which case will decrement the counter.
 
@@ -5527,8 +5527,8 @@ every single pixel that we scroll.
   width="50%;" />
 </p>
 
-Just as before, we want to see if the **counter** is not the same as the
-previous **counter**. Because if it isn&apos;t, then we&apos;ve moved into a new
+Just as before, we want to see if the <b>counter</b> is not the same as the
+previous <b>counter</b>. Because if it isn&apos;t, then we&apos;ve moved into a new
 section, and the first thing we want to do is remove all of the classes
 from those links at the top of the page, which is that class selected
 that should be on one of them. But we want to make sure it isn&apos;t done
@@ -5544,16 +5544,16 @@ clear that everything has no class on it up there.
 </p>
 
 Let&apos;s go ahead and add this if statement over here. Down here I&apos;m
-going to add an if. If **counter** is not the same as **prevCounter**.
-If they&apos;re not the same. Then again, I&apos;m going to use my **forEach**
+going to add an if. If <b>counter</b> is not the same as <b>prevCounter</b>.
+If they&apos;re not the same. Then again, I&apos;m going to use my <b>forEach</b>
 and I already have up here at the top of the page, I already have
-**navLinks** gathering all these, so we&apos;ve already got this variable so
+<b>navLinks</b> gathering all these, so we&apos;ve already got this variable so
 we can just use it again.
 
-Just like before, I&apos;m going to just do now **navLinks** for each
+Just like before, I&apos;m going to just do now <b>navLinks</b> for each
 function, curly braces, each links. It&apos;s going to go through each links
-of **navLinks**, and what is it going to do here, we&apos;re going to say,
-each link, **removeAttribute**, this one here, which attribute are you
+of <b>navLinks</b>, and what is it going to do here, we&apos;re going to say,
+each link, <b>removeAttribute</b>, this one here, which attribute are you
 removing class. That&apos;ll remove the class attribute from each of those.
 Great. We&apos;ll stop this lesson here, but in the next one will put the
 correct class on the correct link. We&apos;ll put the selected class on the
@@ -5582,11 +5582,11 @@ to the correct link.
   width="50%;" />
 </p>
 
-So I&apos;m going to add a variable, **const thisLink**, I want to add it to
+So I&apos;m going to add a variable, <b>const thisLink</b>, I want to add it to
 the link that I clicked on. I&apos;m going to get the correct link here by
-using a query selector, so I&apos;m going to say **document.querySelector**,
+using a query selector, so I&apos;m going to say <b>document.querySelector</b>,
 QuerySelector. And, this is a little tricky this querySelector, what
-we&apos;re going to use is **nav ul, li a**.
+we&apos;re going to use is <b>nav ul, li a</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 324.  (168) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -5596,19 +5596,19 @@ we&apos;re going to use is **nav ul, li a**.
   width="50%;" />
 </p>
 
-But we want **li:nth-child()** because over here, in our HTML remember,
+But we want <b>li:nth-child()</b> because over here, in our HTML remember,
 we want to get, If we clicked on this one, we want to get the first list
 item&apos;s anchor tag, or the second list item&apos;s anchor tag or the third
 list item&apos;s anchor tag. Remember the list items are all siblings, the
 anchor tags are cousins, because there&apos;s only one anchor tag in each
 list item, but the list items are all sibling. So there&apos;s this is the
 first one, second, one, third, fourth one, fifth one. So over here I
-want to get **nav ul li nth-child**, and if I were to put in a one that
+want to get <b>nav ul li nth-child</b>, and if I were to put in a one that
 would get the first link, the two would get the second link, the three
 would get the third link and so on. So this is why we&apos;re using 1, 2, 3,
 4 and 5 four our counters instead of 0, 1, 2, 3 and 4, in the script.
 
-And the jQuery script, we use the **EQ method** to find the the first,
+And the jQuery script, we use the <b>EQ method</b> to find the the first,
 second, third and fourth link but that&apos;s zero indexed. So the first one
 and that one is 0, or is the first one and this one is 1, so that&apos;s why
 our counter&apos;s a little bit different in the script. But, we could have
@@ -5627,7 +5627,7 @@ element on the page, so we could have done it this way as well there.
 
 But what I want to do is I want to change this so I&apos;m using not my up
 and down quotes, oops. Yeah yeah I know it&apos;s a problem. I want to use
-my tick marks, so that in here I can pass in **&dollar;{counter}**, and that
+my tick marks, so that in here I can pass in <b>&dollar;{counter}</b>, and that
 will get me the correct link there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 326.  (169) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5638,9 +5638,9 @@ will get me the correct link there.
   width="50%;" />
 </p>
 
-From there it&apos;s simple, now I can use **thisLink.className =
-&apos;selected&apos;**, which is if I&apos;ve selected right. And then of course we
-want to say **prevCounter**, is now assigned the same value as counter,
+From there it&apos;s simple, now I can use <b>thisLink.className =
+&apos;selected&apos;</b>, which is if I&apos;ve selected right. And then of course we
+want to say <b>prevCounter</b>, is now assigned the same value as counter,
 because now we&apos;re ready to go into the next section.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 327/328.  (170) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7961,9 +7961,9 @@ section:
 
 <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/gpBsr/pdf-of-presentations>
 
--   **2.39.ScriptionSite-Part1-HTML-CSS.pdf**
+-   <b>2.39.ScriptionSite-Part1-HTML-CSS.pdf</b>
 
--   **2.39.ScriptionSite-Part2-InteractionChallenges.pdf**
+-   <b>2.39.ScriptionSite-Part2-InteractionChallenges.pdf</b>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch3-01">3.01 Module 3 Intro (0:37)</h2>
@@ -8015,12 +8015,12 @@ languages, some languages like PHP have associative arrays. And an
 associative array as seen above is an array that has a key value pair
 for each element of the array. So we have a variable person and in PHP
 recognized variable because it starts with the dollar sign. But we have
-variable **person** and it&apos;s an array, and in the array we have key
-value pairs. The key is **firstname** and the **lastname** is and then
-there&apos;s the **firstname** value which is John. And then we have another
-key which is **lastname**, which has the value Smith in there. Well we
+variable <b>person</b> and it&apos;s an array, and in the array we have key
+value pairs. The key is <b>firstname</b> and the <b>lastname</b> is and then
+there&apos;s the <b>firstname</b> value which is John. And then we have another
+key which is <b>lastname</b>, which has the value Smith in there. Well we
 can do the same thing with JavaScript but not with the arrays. Instead
-we&apos;ll use **objects**.
+we&apos;ll use <b>objects</b>.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 525.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8033,19 +8033,19 @@ we&apos;ll use **objects**.
 This is the object literal in JavaScript. Here I have a variable person
 and it&apos;s assigned an object, and the object consists of key value
 pairs. Sometimes these are referred to as members and sometimes they&apos;re
-referred to as properties. The **firstname** property of **person**
-where the **lastname** property of **person**. And then **firstname**
-has a value which is John and the **lastname** is a value which is
-Smith. And **age** another property with the value of 25.
+referred to as properties. The <b>firstname</b> property of <b>person</b>
+where the <b>lastname</b> property of <b>person</b>. And then <b>firstname</b>
+has a value which is John and the <b>lastname</b> is a value which is
+Smith. And <b>age</b> another property with the value of 25.
 
 The way you would access these in JavaScript is typing the name of the
-variable **person** and then a period or dot and then the key, the
+variable <b>person</b> and then a period or dot and then the key, the
 property first name. And that will give you the value John. Frequently
-you&apos;ll see **objects** organized like this. **var person** and then
-you&apos;ll have the **firstname** on its own line. The first each member of
+you&apos;ll see <b>objects</b> organized like this. <b>var person</b> and then
+you&apos;ll have the <b>firstname</b> on its own line. The first each member of
 the object, each key value pair. Each property will have a line inside
-the object. And notice that **firstname** doesn&apos;t have quotes around it
-and but John does. And this is how you will frequently see **objects**
+the object. And notice that <b>firstname</b> doesn&apos;t have quotes around it
+and but John does. And this is how you will frequently see <b>objects</b>
 listed in JavaScript is in this sort of format, because it&apos;s easier to
 read.
 
@@ -8120,15 +8120,15 @@ well.
 ## Start Files: Working with Objects in JavaScript
 
 Attached is a zip file of the the things you need to begin this
-exercise. A **zip file** is defined as: a computer file whose contents
+exercise. A <b>zip file</b> is defined as: a computer file whose contents
 include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
--   **3.02.jsonExample.html.zip -- download to unzip**
+-   <b>3.02.jsonExample.html.zip -- download to unzip</b>
 
 <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/tTx6B/start-files-working-with-objects-in-javascript>
 
-## **Additional Resource:**
+## <b>Additional Resource:</b>
 
 -   [How to open a zip file for either Mac or
     PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
@@ -8174,10 +8174,10 @@ the way this works. I&apos;m going to do that over here and you&apos;re not
 going to have to watch me type it out because that&apos;s kind of painful.
 I&apos;m just going to paste it in here. But you can see I&apos;ve created this
 object and now I could access elements of this object by doing
-**person.firstname** or **person.pets** square bracket two. Well get me
-a chicken, **person.pets&lbrack;2&rbrack;**. It gets me the chicken or I could do a
-**person.phonenumber** and then within phone number I could have work
-(**person.phonenumber.work**) and that will get me the work phone
+<b>person.firstname</b> or <b>person.pets</b> square bracket two. Well get me
+a chicken, <b>person.pets&lbrack;2&rbrack;</b>. It gets me the chicken or I could do a
+<b>person.phonenumber</b> and then within phone number I could have work
+(<b>person.phonenumber.work</b>) and that will get me the work phone
 number. We can access all the data inside of this object.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8190,7 +8190,7 @@ number. We can access all the data inside of this object.
 
 You can even update data very easily with this and we&apos;ll talk more
 about this later but it&apos;s possible to update data if I did
-**person.firstname** equals Jose. I need to go in quotes So you can now
+<b>person.firstname</b> equals Jose. I need to go in quotes So you can now
 see that person. If I just do person you&apos;ll see I get the whole object
 here and that first name is set to Jose. So we can actually work with
 the data inside the object and we can update it or we can access the
@@ -8212,12 +8212,12 @@ functions as one of the values of one of their properties and that may
 seem like a weird thing, but remember in JavaScript functions are first
 class. So wherever you can put data you can put a function.
 
-Here you can see I have an object for a **person** with **firstname**
-and **lastname**. And then I have a **greeting** which is a function
-which has a value, which is a **function()**. And the function, all that
-function does is **console.log("Hello!")},** it doesn&apos;t do anything
+Here you can see I have an object for a <b>person</b> with <b>firstname</b>
+and <b>lastname</b>. And then I have a <b>greeting</b> which is a function
+which has a value, which is a <b>function()</b>. And the function, all that
+function does is <b>console.log("Hello!")},</b> it doesn&apos;t do anything
 very interesting, but we can access that value. We can access that
-function by doing **person.greeting();** and then putting the
+function by doing <b>person.greeting();</b> and then putting the
 parentheses after greeting after that property. And it will run that
 function that&apos;s in that assigned to that greeting key there. So let&apos;s
 do this really quickly because this is kind of interesting.
@@ -8230,18 +8230,18 @@ do this really quickly because this is kind of interesting.
   alt="." />
 </p>
 
-If you come back over here to your tab, we can clear out the **console**
+If you come back over here to your tab, we can clear out the <b>console</b>
 here and I&apos;m just going to paste this in just so that it&apos;s there and
-it&apos;s all all done. But now I could type **person.greeting();** and you
-can see I get hello. So it&apos;s actually running this **function**, this
-anonymous **function** that&apos;s assigned to **greeting** here. And
-remember when we put a **function** as a member of an **object**, this
-**hello function** belongs to **person**. Remember what we call that,
-that&apos;s called a **method**. So, it&apos;s really kind of amazing that you
-can assign a **method**, creative **function**, create a **method** that
-belongs to an **object** and then access that **method** through the
-**object**, like this **person.greeting**. And that&apos;s a really cool
-feature of JavaScript in **objects**.
+it&apos;s all all done. But now I could type <b>person.greeting();</b> and you
+can see I get hello. So it&apos;s actually running this <b>function</b>, this
+anonymous <b>function</b> that&apos;s assigned to <b>greeting</b> here. And
+remember when we put a <b>function</b> as a member of an <b>object</b>, this
+<b>hello function</b> belongs to <b>person</b>. Remember what we call that,
+that&apos;s called a <b>method</b>. So, it&apos;s really kind of amazing that you
+can assign a <b>method</b>, creative <b>function</b>, create a <b>method</b> that
+belongs to an <b>object</b> and then access that <b>method</b> through the
+<b>object</b>, like this <b>person.greeting</b>. And that&apos;s a really cool
+feature of JavaScript in <b>objects</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch3-04">3.04 Functions Inside Objects Equals Methods (6:14)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8262,20 +8262,20 @@ Let&apos;s take this idea a little bit further.
   alt="." />
 </p>
 
-We can put **functions** inside **objects**, which again are called
-**methods**. But also we can use the **'this'** keyword, to reference
-other **objects** or other **keys** within the **object**. And that&apos;s
+We can put <b>functions</b> inside <b>objects</b>, which again are called
+<b>methods</b>. But also we can use the <b>'this'</b> keyword, to reference
+other <b>objects</b> or other <b>keys</b> within the <b>object</b>. And that&apos;s
 pretty handy, this can be pretty helpful from time to time. So, here we
-have **person** and we have a property called **firstname**, which has a
-value, John a property called **lastname**, which has a value Smith and
-a property called **greeting** that holds a **function**. And this
-function is going to just do a **console.log**, but the **console.log**
-is going to say hello this dot **firstname**. So that&apos;s going to go
-into the **firstname** property and get the value and put it there. And
-this dot **lastname** so that&apos;s going to go into the last new property
+have <b>person</b> and we have a property called <b>firstname</b>, which has a
+value, John a property called <b>lastname</b>, which has a value Smith and
+a property called <b>greeting</b> that holds a <b>function</b>. And this
+function is going to just do a <b>console.log</b>, but the <b>console.log</b>
+is going to say hello this dot <b>firstname</b>. So that&apos;s going to go
+into the <b>firstname</b> property and get the value and put it there. And
+this dot <b>lastname</b> so that&apos;s going to go into the last new property
 and get its value and put it there. So, we should get hello John Smith
-out of this. And, the "**this**" keyword can be somewhat confusing in
-javascript, but it refers to this **object**, this **person**, that&apos;s
+out of this. And, the "<b>this</b>" keyword can be somewhat confusing in
+javascript, but it refers to this <b>object</b>, this <b>person</b>, that&apos;s
 the context in which this makes sense here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8287,7 +8287,7 @@ the context in which this makes sense here.
 </p>
 
 So, let&apos;s give this a try over here. And it will say hello John Smith.
-This is referring to this **firstname** and this **lastname**. And
+This is referring to this <b>firstname</b> and this <b>lastname</b>. And
 remember that this is a key word here in javascript, so that&apos;s
 important.
 
@@ -8299,10 +8299,10 @@ important.
   alt="." />
 </p>
 
-The next thing to talk about is the **object constructor**. This will
-push our **objects**, even further into something even more useful. And
-what an **object constructor** does, is it creates a **use function** to
-create an **object** that could be like a reusable template that you
+The next thing to talk about is the <b>object constructor</b>. This will
+push our <b>objects</b>, even further into something even more useful. And
+what an <b>object constructor</b> does, is it creates a <b>use function</b> to
+create an <b>object</b> that could be like a reusable template that you
 could use over and over again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 540.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8313,19 +8313,19 @@ could use over and over again.
 </p>
 
 So here, if you look at this, what we have here on this screen, we have
-a **function** **person**, and when you create **constructive
-functions**, the the standard is to make the first letter of the name of
+a <b>function</b> <b>person</b>, and when you create <b>constructive
+functions</b>, the the standard is to make the first letter of the name of
 that constructor a capital letter. So it&apos;s a person with a capital P.
-And we&apos;re going to pass in some values first, **last age** and **eye
-color**. And you could have other values if you wanted to as well.
-**Height, weight, hair color**, I don&apos;t know whatever other things you
+And we&apos;re going to pass in some values first, <b>last age</b> and <b>eye
+color</b>. And you could have other values if you wanted to as well.
+<b>Height, weight, hair color</b>, I don&apos;t know whatever other things you
 want to use to describe that person and notice we&apos;re using the this
 keyword.
 
-This, dot **firstname** creates a **firstname**, **property** on
-**person** and it&apos;s going to be assigned whatever gets passed in, as
-the value for first when the **object** is in and the same thing for
-**lastname**, **age** and **eyecolor**. So, let&apos;s give this a try to
+This, dot <b>firstname</b> creates a <b>firstname</b>, <b>property</b> on
+<b>person</b> and it&apos;s going to be assigned whatever gets passed in, as
+the value for first when the <b>object</b> is in and the same thing for
+<b>lastname</b>, <b>age</b> and <b>eyecolor</b>. So, let&apos;s give this a try to
 see how it works and recommend, typing this out because we&apos;re starting
 to have seen a number of different ways of using objects now and if
 you&apos;re not typing them, you&apos;re not going to get comfortable with them
@@ -8344,11 +8344,11 @@ And once I put this in here and press return, or enter on my keyboard, I
 can then make a copy of this person used this as a template. So I could
 say something like, bar my mother, and I can assign it using the new
 keyword new person noticed with the capital P. And then in here I&apos;m
-going to put in, **firstName** &apos;&apos;Mary&apos;&apos;, **lastName** "Mead",
-**age** 60, and then **eyeColor** "brown". Now I have a copy of this
-**object** in **myMother** and I can access its values by typing
-**myMother** dot **firstName**. It&apos;s that 2nd one there. Now we had
-**firstName** with the capital in there.
+going to put in, <b>firstName</b> &apos;&apos;Mary&apos;&apos;, <b>lastName</b> "Mead",
+<b>age</b> 60, and then <b>eyeColor</b> "brown". Now I have a copy of this
+<b>object</b> in <b>myMother</b> and I can access its values by typing
+<b>myMother</b> dot <b>firstName</b>. It&apos;s that 2nd one there. Now we had
+<b>firstName</b> with the capital in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 542.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -8357,15 +8357,15 @@ going to put in, **firstName** &apos;&apos;Mary&apos;&apos;, **lastName** "Mead"
   alt="." />
 </p>
 
-So there we go, we can actually access these values for this **object**
-here and I can make another **object**. **myFather**, equals **new
-Person**. George Mead 85. Great, I know something like that. And now I
-can access **myFather**. Right, **lastName**. And you&apos;ll see that I get
+So there we go, we can actually access these values for this <b>object</b>
+here and I can make another <b>object</b>. <b>myFather</b>, equals <b>new
+Person</b>. George Mead 85. Great, I know something like that. And now I
+can access <b>myFather</b>. Right, <b>lastName</b>. And you&apos;ll see that I get
 "Mead".
 
-I can use this **constructor function**, to create **objects** that are
-reusable **objects**, and can have different values each time you create
-a new **object** from that **constructive function**. And this is a very
+I can use this <b>constructor function</b>, to create <b>objects</b> that are
+reusable <b>objects</b>, and can have different values each time you create
+a new <b>object</b> from that <b>constructive function</b>. And this is a very
 powerful pattern, that you&apos;ll see frequently in, more sophisticated,
 more complex javascript programming.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8383,9 +8383,9 @@ pattern, and it&apos;s used frequently in more sophisticated JavaScript
 programming, and we&apos;re not going to do anything in this course that&apos;s
 going to really make use of a pattern like this.
 
-But I want to show it to you as we&apos;re talking about **objects**, so you
-can start to think about ways in which you can use **objects** and
-**functions** together that are very powerful.
+But I want to show it to you as we&apos;re talking about <b>objects</b>, so you
+can start to think about ways in which you can use <b>objects</b> and
+<b>functions</b> together that are very powerful.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 544.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -8394,27 +8394,27 @@ can start to think about ways in which you can use **objects** and
   alt="." />
 </p>
 
-Here on the left, you can see that we have a **function** called
-**printableMessage**, and in that **function** there&apos;s a variable
-called **message** which is, set to the value of &apos;hello&apos;. Then we have
-another **function** in here called **printMessage**, which all it does
+Here on the left, you can see that we have a <b>function</b> called
+<b>printableMessage</b>, and in that <b>function</b> there&apos;s a variable
+called <b>message</b> which is, set to the value of &apos;hello&apos;. Then we have
+another <b>function</b> in here called <b>printMessage</b>, which all it does
 is print out that value that&apos;s inside the message variable. But I have
-another function called **setMessage**, which takes a **parameter**, and
-what that **parameter** will do is it&apos;ll change the value, of
-**message**, at least temporarily, you&apos;ll see in a minute, and then
-what&apos;s really important here is that this **function** returns an
-**object**, and the **object** that it returns has two members as the
-**function** **printMessage** is returned, and the **function**
-**setMessage** is returned.
+another function called <b>setMessage</b>, which takes a <b>parameter</b>, and
+what that <b>parameter</b> will do is it&apos;ll change the value, of
+<b>message</b>, at least temporarily, you&apos;ll see in a minute, and then
+what&apos;s really important here is that this <b>function</b> returns an
+<b>object</b>, and the <b>object</b> that it returns has two members as the
+<b>function</b> <b>printMessage</b> is returned, and the <b>function</b>
+<b>setMessage</b> is returned.
 
 We can actually use this thing as a factory to create different values
-for these **variables** within this **function**. We&apos;ve talked a bit
-before about **closures**, and really any function in JavaScript is a
-**closure**. However, we&apos;ve talked about **scoping closures**, and this
-is a really good example of the power of a **closure**, because we can
-actually assign **variables** that hold **printableMessage**, and we can
+for these <b>variables</b> within this <b>function</b>. We&apos;ve talked a bit
+before about <b>closures</b>, and really any function in JavaScript is a
+<b>closure</b>. However, we&apos;ve talked about <b>scoping closures</b>, and this
+is a really good example of the power of a <b>closure</b>, because we can
+actually assign <b>variables</b> that hold <b>printableMessage</b>, and we can
 do different things with them without actually affecting what&apos;s inside
-this **closure**.
+this <b>closure</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 545.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -8425,7 +8425,7 @@ this **closure**.
 
 Let&apos;s see how this works, and again, I strongly recommend that you
 actually type this out into an HTML file or else in script tags. You can
-see that it gets defined here. That will get to find, **printMessage.**
+see that it gets defined here. That will get to find, <b>printMessage.</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 546.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -8434,19 +8434,19 @@ see that it gets defined here. That will get to find, **printMessage.**
   alt="." />
 </p>
 
-Now I can make a **variable var** **awesome1**, equals printable
-**message{}** there, and I can do, **awesome1**. **PrintMessage{},** and
+Now I can make a <b>variable var</b> <b>awesome1</b>, equals printable
+<b>message{}</b> there, and I can do, <b>awesome1</b>. <b>PrintMessage{},</b> and
 it should run that function in there and give me hello, but I could also
-make another variable var **awesome2**, and assign it also that same
-function **PrintMessage**, like that. I have assigned that the same
-**function** and here I can do, **awesome2.setMessage**, I&apos;m going to
-put in a new message, **greetings** like so. What that will do, is
-it&apos;ll go in run this **function** and say, new message greeting, a sign
+make another variable var <b>awesome2</b>, and assign it also that same
+function <b>PrintMessage</b>, like that. I have assigned that the same
+<b>function</b> and here I can do, <b>awesome2.setMessage</b>, I&apos;m going to
+put in a new message, <b>greetings</b> like so. What that will do, is
+it&apos;ll go in run this <b>function</b> and say, new message greeting, a sign
 message greeting, so that when I run print message, it&apos;s going to
 actually print that message.
 
-Now if I do, **awesome2.printMessage**, I get **greetings**, however,
-again, if I do **awesome1.printMessage**, I still get hello. That&apos;s
+<p>Now if I do, <b>awesome2.printMessage</b>, I get <b>greetings</b>, however,
+again, if I do </b>awesome1.printMessage</b>, I still get hello. That&apos;s
 really interesting that I can actually use this pattern here to set
 different values and then access those values in different ways through
 different variables. It&apos;s a very powerful pattern and worth being aware
@@ -8458,16 +8458,16 @@ a a key thing in any programming language is to be able to do that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch3-06">3.06 Data Formats - XML (3:47)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 547.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 547. data formats - xml (3.06) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image547.webp"
   style="width:40%;"
-  alt="." />
+  alt="3.06. Data Formats - XML." />
 </p>
 
-The next thing to talk about in our journey with Objects, is to talk
+<p>The next thing to talk about in our journey with Objects, is to talk
 about data formats and to talk about data. Here, we&apos;re seeing a data
-format called XML.
+format called XML.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 548.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -8516,10 +8516,10 @@ format for data, but it&apos;s being largely replaced by JSON.
 If we look at JSON and Objects now, on the left you&apos;ll see something
 that is JSON formatted strings. This is data in JSON format, again,
 JavaScript Object Notation. On the right, you&apos;re seeing a JavaScript
-**object** and you should notice that the two of these things look very
+<b>object</b> and you should notice that the two of these things look very
 similar to each other.
 
-The differences are; that on the left, the whole thing is a **string**.
+The differences are; that on the left, the whole thing is a <b>string</b>.
 You&apos;ll notice that there&apos;s a quote mark right at the very top, and a
 quote mark right at the bottom. Then inside there, we&apos;ve got the curly
 braces with the key-value pairs. You&apos;ll notice that with JSON, both the
@@ -8566,7 +8566,7 @@ with a string of JSON data.
   alt="." />
 </p>
 
-We can do something with this, we could say **var user** equals
+We can do something with this, we could say <b>var user</b> equals
 JSON.parse(json). Now let&apos;s see what happens. I&apos;m going to
 console.log. I&apos;m just going to console.log the json variable up there,
 and that should just give me my string of data.
@@ -8649,7 +8649,7 @@ work if I come back here and refresh this, I&apos;m getting Joe. You can go
 through and try some of these different pieces here. I strongly
 recommend that you do this just so you can see what happens when you&apos;re
 working with data that comes in from JSON. You can do all the same
-things because it&apos;s an **object**. Just practice working with objects.
+things because it&apos;s an <b>object</b>. Just practice working with objects.
 
 One thing students tell me when I&apos;m teaching JavaScript is I didn&apos;t
 spend enough time on objects. Really, the truth is they didn&apos;t spend
@@ -8666,8 +8666,8 @@ working with JavaScript and objects.
 
 The last thing here is occasionally you need to take an object and
 convert it back into JSON or convert it into JSON. You can do that by
-simply using the **JSON.stringify method** with the JSON **object**,
-**JSON.stringify(USER)**. You might wonder, when would you want to do
+simply using the <b>JSON.stringify method</b> with the JSON <b>object</b>,
+<b>JSON.stringify(USER)</b>. You might wonder, when would you want to do
 that. Suppose you want to create an API, and you want people to access
 your data. You might need to take some data that&apos;s in some sort of
 object and turn it back into JSON. Or perhaps you want to send that JSON
@@ -8688,13 +8688,13 @@ the topics.
 Here is a PDF of the presentation slides used in the lessons for this
 section:
 
-**Objects and Data in JavaScript**.
+<b>Objects and Data in JavaScript</b>.
 
 <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0RJjt/pdf-of-presentations>
 
--   **3.07.Objects-&-Data-in-JS.pdf**
+-   <b>3.07.Objects-&-Data-in-JS.pdf</b>
 
--   **3.07.JavaScript-Object-Challenges.pdf**
+-   <b>3.07.JavaScript-Object-Challenges.pdf</b>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch3-08">3.08 Intro to Pig Dice Game (5:44)</h2>
@@ -8814,7 +8814,7 @@ that, take a few minutes to really try to map out what you think this
 game consists of without actually seeing the game just based on the
 rules.
 
--   **3.08. Intro to Pig Dice Game Diagrams**
+-   <b>3.08. Intro to Pig Dice Game Diagrams</b>
 
 Here are the diagrams for the pig game to help you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8883,7 +8883,7 @@ match what notes you took earlier. What items match what you took
 earlier in your notes? What pieces of functionality can you identify?
 Really look at it and think about, okay, what&apos;s going on here? There&apos;s
 a button. What can you observe? There&apos;s a button when you click it,
-what happens? How does that happen? Use that **inspector** to see what
+what happens? How does that happen? Use that <b>inspector</b> to see what
 the different parts of the page are. What happens in each part of those
 pages as you&apos;re playing the game. Anything else you can notice, take
 five minutes, just take five minutes and really write this out as best
@@ -9143,7 +9143,7 @@ functionality you need for each piece.
 
 ## PDF of Presentions
 
--   **3.11.Intro-to-Pig-Dice-Games.pdf**
+-   <b>3.11.Intro-to-Pig-Dice-Games.pdf</b>
 
 > https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ucp5v/pdf-of-presentations
 >
@@ -9256,8 +9256,8 @@ the page here.
 The first thing we need to do in our code editor, is create some
 variables that we&apos;re going to use to access different areas of the
 page, so it&apos;s really these variables here. I&apos;m going to have
-**startGame**, is going to be **document.getElementById** on it by the
-**startgame**.
+<b>startGame</b>, is going to be <b>document.getElementById</b> on it by the
+<b>startgame</b>.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 588.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9267,16 +9267,16 @@ page, so it&apos;s really these variables here. I&apos;m going to have
   alt="." />
 </p>
 
-It&apos;s this button right here. Then I have **gameControl**, which is this
-whole div, the **gameControl** div. Then I have **game**, this is where
+It&apos;s this button right here. Then I have <b>gameControl</b>, which is this
+whole div, the <b>gameControl</b> div. Then I have <b>game</b>, this is where
 the game is actually going to take place. If you go back to the previous
 lesson, and pull up the game and play it, and inspect it, you&apos;ll see
 that that&apos;s where the game takes place.
 
-**score** which calls the element id 'score'. Then I have **actionArea**
-which is get element by id of **actions**, and it doesn&apos;t really matter
+<b>score</b> which calls the element id 'score'. Then I have <b>actionArea</b>
+which is get element by id of <b>actions</b>, and it doesn&apos;t really matter
 if these are out of order here, but you can put them in a different
-order. But let&apos;s just **get.ElementById**, I&apos;m just getting these
+order. But let&apos;s just <b>get.ElementById</b>, I&apos;m just getting these
 id&apos;s for each of these elements. Make sure you get this code in here
 first, because these are the different parts of the board that we&apos;re
 going to need for our script.
@@ -9288,37 +9288,37 @@ going to need for our script.
   alt="." />
 </p>
 
-The next thing that you&apos;re going to need is an **object** to keep track
-of the data in the game. This is a perfect use for an **object**. We
-don&apos;t have to use an **object**. We could use variables for this, but
-this is a perfect use for an **object**, and allows us to practice what
-we&apos;ve learned so far with **objects**, and using **objects** to manage
+The next thing that you&apos;re going to need is an <b>object</b> to keep track
+of the data in the game. This is a perfect use for an <b>object</b>. We
+don&apos;t have to use an <b>object</b>. We could use variables for this, but
+this is a perfect use for an <b>object</b>, and allows us to practice what
+we&apos;ve learned so far with <b>objects</b>, and using <b>objects</b> to manage
 data.
 
-Here I have an **object** called **gameData**. This **object** has a
+Here I have an <b>object</b> called <b>gameData</b>. This <b>object</b> has a
 number of members in it. The first three hold arrays, the first one
-holds the **filenames** of all the individual pictures of the dice.
-**1die.jpg** is going to have the die with the one dot on it, and so on
-and so forth. The player&apos;s, **player1** and **player2** so those are
-two **players**, so we'll be switching back and forth between those.
-Then we&apos;ve got **score**, that&apos;s going to keep track of the scores,
-the first zero is going to be for **player1**, and the second zero is
-going to be for **player2**. Each time you roll the dice, you&apos;re going
+holds the <b>filenames</b> of all the individual pictures of the dice.
+<b>1die.jpg</b> is going to have the die with the one dot on it, and so on
+and so forth. The player&apos;s, <b>player1</b> and <b>player2</b> so those are
+two <b>players</b>, so we'll be switching back and forth between those.
+Then we&apos;ve got <b>score</b>, that&apos;s going to keep track of the scores,
+the first zero is going to be for <b>player1</b>, and the second zero is
+going to be for <b>player2</b>. Each time you roll the dice, you&apos;re going
 to take the number that comes up for that die, and stick it into roll1,
-and then the second die will get **roll2**, and then **rollSum** will be
+and then the second die will get <b>roll2</b>, and then <b>rollSum</b> will be
 the combination of both of those added together.
 
-**index** is interesting because we&apos;re going to use **index**.
-**index** is either going to be a zero, or a one. **Player 1** is going
-to be zero, and **player 2** is going to be one. When **index** is one,
+<b>index</b> is interesting because we&apos;re going to use <b>index</b>.
+<b>index</b> is either going to be a zero, or a one. <b>Player 1</b> is going
+to be zero, and <b>player 2</b> is going to be one. When <b>index</b> is one,
 we&apos;re going to use that, number one, to go into the player&apos;s array,
-and get **player2**. Or will be using **index1** to go into the
-**score** and update the **score** of that second zero in there, and the
-first zero would be **index** 0. That&apos;s why we have **index** here.
+and get <b>player2</b>. Or will be using <b>index1</b> to go into the
+<b>score</b> and update the <b>score</b> of that second zero in there, and the
+first zero would be <b>index</b> 0. That&apos;s why we have <b>index</b> here.
 This is going to change based on which player we&apos;re working with as we
 go through the game.
 
-Then we&apos;ve got the **gameEnd**, which I have currently set to 29 so
+Then we&apos;ve got the <b>gameEnd</b>, which I have currently set to 29 so
 that you can play the game really fairly quickly, and see how it works.
 Or later you could bump that up to 100 or something like that, to a
 score that&apos;s maybe a little bit more reasonable for the game.
@@ -9339,7 +9339,7 @@ I&apos;ve got all my die&apos;s in here, notice the comma at the end, but no
 comma there, comma at the end here, and make sure everything is right,
 and labeled properly. We&apos;re on our way to creating the pig game.
 
--   Start Files: Game of Pig **4.02.Pig-START.zip**
+-   Start Files: Game of Pig <b>4.02.Pig-START.zip</b>
 
 > <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eu5vr/start-files-game-of-pig>
 
@@ -9407,7 +9407,7 @@ need it anymore, and I don&apos;t need to start game text anymore. So when
 you use the inner html to change that game control there, so I can set
 game control dot enter html. And I&apos;m going to put in just an h2, the
 game has started kind of thing. So let&apos;s do that,
-**gameControl.innerHTML** equals. And I&apos;m just going to use single
+<b>gameControl.innerHTML</b> equals. And I&apos;m just going to use single
 quotes here, h2, the game has started. You can make those title cases if
 you wanted to might have done that on my my picture there.
 
@@ -9463,13 +9463,13 @@ Now, the last bit is I also want to set that game index, the game data
 index, I want to set that so that we can see that we&apos;re getting a
 random player. So game data, is this object here. And so I&apos;m going to
 actually say, gameData.index this element, this can equal,
-**Math.round**. And that will actually round that, I&apos;m sorry
-**Math.random**. That will actually generate a random number, between 0
+<b>Math.round</b>. And that will actually round that, I&apos;m sorry
+<b>Math.random</b>. That will actually generate a random number, between 0
 and 1. And I want to round it, because I wanted to round up to either 1
 or down to 0, because I want index to be 0 or 1. So I can do that on the
-same line here, by putting **Math.round**, and then surrounding that. So
-**Math.random** will pick a random number from 0 to 1. And
-**Math.round** will round it up or round it down. Let&apos;s add a console
+same line here, by putting <b>Math.round</b>, and then surrounding that. So
+<b>Math.random</b> will pick a random number from 0 to 1. And
+<b>Math.round</b> will round it up or round it down. Let&apos;s add a console
 log so that we can really see what that&apos;s doing console.log
 gameData.index, what is the value there and we&apos;ll test that and see.
 
@@ -9513,9 +9513,9 @@ The next thing we need to do is set up the turn.
   alt="." />
 </p>
 
-We&apos;re going to create a **function** for that and remember, we&apos;re
+We&apos;re going to create a <b>function</b> for that and remember, we&apos;re
 going to have three basic functions in this game. One of them is
-**setupTurn** we&apos;re going to have one for rolling the dice and then
+<b>setupTurn</b> we&apos;re going to have one for rolling the dice and then
 we&apos;ll have one for checking the winning condition. It&apos;s really the way
 these three functions work together that are going to determine how this
 game works.
@@ -9530,7 +9530,7 @@ game works.
   alt="." />
 </p>
 
-The first thing we&apos;re going to do really is the **setUpTurn** function,
+The first thing we&apos;re going to do really is the <b>setUpTurn</b> function,
 and in that function we&apos;ll take game and we&apos;re going to set it
 innerHTML to roll the dice for the correct player and we&apos;ll fill that
 in as we go here. Then we&apos;re going to get that action area, we&apos;re
@@ -9542,7 +9542,7 @@ working. Let&apos;s go ahead and add this to our code over here. Down here,
 we&apos;ve got my start game event listener after the start game was then
 last minute ad function set up turn.
 
-The first thing I&apos;m going to do here is **game.innerHTML** equals, and
+The first thing I&apos;m going to do here is <b>game.innerHTML</b> equals, and
 I&apos;m going to use my tick marks here and in there, I&apos;m going to put in
 a paragraph. You have to use the tick marks because I&apos;m going to
 include a variable in here in a minute. Roll the dice for player, acts
@@ -9617,13 +9617,13 @@ all working properly.
 </p>
 
 But we&apos;re going to get it started here. At this point, what we&apos;re
-doing is we&apos;re going to clear out that **actionArea**, anything that&apos;s
-in that **actionArea** we&apos;re just going to clear it out, and then
+doing is we&apos;re going to clear out that <b>actionArea</b>, anything that&apos;s
+in that <b>actionArea</b> we&apos;re just going to clear it out, and then
 we&apos;re going to record the two rolls of each die. Record those rolls
-into our **gameData** object. Then set the innerHTML for the message
+into our <b>gameData</b> object. Then set the innerHTML for the message
 that&apos;s going to go to the player about what was rolled, and also show
 those two dice. Then we&apos;ll also sum up the total of those two dice and
-put that into the **rollSum** property in the **gameData object**.
+put that into the <b>rollSum</b> property in the <b>gameData object</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 609.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -9633,29 +9633,29 @@ put that into the **rollSum** property in the **gameData object**.
 </p>
 
 Let&apos;s go ahead and get this started because this is an important one to
-do. I&apos;m going to add a function, function **throwDice(){}**, and then
+do. I&apos;m going to add a function, function <b>throwDice(){}</b>, and then
 in here, first thing I&apos;m going to do is set the
-&quot;**actionArea.innerHTML**&quot; equals. Then clear out that **actionArea**.
+&quot;<b>actionArea.innerHTML</b>&quot; equals. Then clear out that <b>actionArea</b>.
 Then I need to set my values for my dice up here, roll 1 and roll 2.
-**GameData.roll1** is going to be equal to, and again, I&apos;m going to do
-**Math.random**. That will generate a random number between zero and
+<b>GameData.roll1</b> is going to be equal to, and again, I&apos;m going to do
+<b>Math.random</b>. That will generate a random number between zero and
 one. But if I multiply it by six, and then I need to round it down,
-**Math.round,** actually I want to do with that floor. Then I want to
+<b>Math.round,</b> actually I want to do with that floor. Then I want to
 add one to it. Because what this will generate is a random number
 that&apos;s basically between 0-5. I want a random number because my dice
 are 1, 2, 3, 4, 5, and 6.
 
-Now, you might wonder here, well, why couldn&apos;t I use **Math.ceiling**?
-I could do **Math.random** times 5, and that would give me a 0-5, and
-then round it up using **Math.ceiling**, or **Math.ceil**. It gets
+Now, you might wonder here, well, why couldn&apos;t I use <b>Math.ceiling</b>?
+I could do <b>Math.random</b> times 5, and that would give me a 0-5, and
+then round it up using <b>Math.ceiling</b>, or <b>Math.ceil</b>. It gets
 rounded up from 0-1 to 1-2, 2-3, and so on and so forth. If it&apos;s a
 partial number, then it&apos;ll get rounded up.
 
 But there&apos;s a very small error that could happen with that, which is,
-if you remember what **Math.random** does, is it generates a number
-between zero and one, but it&apos;s zero **inclusive**. It&apos;s very, very
+if you remember what <b>Math.random</b> does, is it generates a number
+between zero and one, but it&apos;s zero <b>inclusive</b>. It&apos;s very, very
 unlikely. But possible that you could roll a 0.00000, in which case,
-**Math.ceil** will not round that up to one, so you could potentially
+<b>Math.ceil</b> will not round that up to one, so you could potentially
 get a 0, 1, 2, 3, 4, 5, or 6 if you were to follow that methodology. We
 don&apos;t want a zero, we want it always to be a 1, 2, 3, 4, 5, or 6 to
 match our numbers up there for our dice.
@@ -9670,7 +9670,7 @@ match our numbers up there for our dice.
 That&apos;s our roll 1. Roll 2 is exactly the same thing, we&apos;re going to
 generate a new random number for that. Then we need to set a message on
 our screen. We&apos;re going to put a message inside this game div here, and
-that game div is going to say, **game.innerHTML**. We can just use game
+that game div is going to say, <b>game.innerHTML</b>. We can just use game
 because we define this variable up here that&apos;s going to go get that
 thing. Game.innerHTML equals, and I&apos;m going to use my tick marks again
 because I&apos;m going to use my variable in here. Open and close the P.
@@ -9699,7 +9699,7 @@ like so, the semicolon and in here I&apos;m going to put in an image tag,
 img src equals quote quote, like so. That&apos;s going to be this. Then to
 get to one of my images, it would be something like die 1, die 2,
 whatever that is, but it&apos;s really going to be a variable. It&apos;s going
-to be dollar sign, curly braces **gameData**. which element do I want up
+to be dollar sign, curly braces <b>gameData</b>. which element do I want up
 here? I want my dice element,.dice square bracket, and which one do I
 want? Well, it depends on what I rolled here for roll 1, we set roll 1
 here. That&apos;s going to be gameData.roll1. Actually I need to subtract
@@ -9723,8 +9723,8 @@ that&apos;s fine. We&apos;ve added that image and that&apos;s the image for our
 first roll. We need an image for our second roll, which is going to look
 exactly like this, except, that this is now roll 2. Then the last thing
 that we need to do is add up these two rolls together and put them in
-their sum total. **GameData.rollSum**, that one there, is going to equal
-**gameData.roll1** plus **gameData.roll2**, and that will add those up
+their sum total. <b>GameData.rollSum</b>, that one there, is going to equal
+<b>gameData.roll1</b> plus <b>gameData.roll2</b>, and that will add those up
 and put them in there. Great. We&apos;re going to test this in the next
 lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9967,7 +9967,7 @@ Snap, You got snake eyes! Something like that. So, it&apos;s going to just
 put a paragraph in there, that has that.
 
 The next thing that happens is that the score for that player gets
-zeroed out. So **gameData.score, &lbrack;gameData.index&rbrack;**, Is going to be
+zeroed out. So <b>gameData.score, &lbrack;gameData.index&rbrack;</b>, Is going to be
 set to 0. We set that back to 0 gameData.score. So, that means we&apos;re
 going up into this gameData finding the score for whichever player it
 is. If index is 0 will set this one 0, if index is 1 will set this one
@@ -9985,9 +9985,9 @@ the points you&apos;ve gotten so far.
 Then we need to switch players and we could do this with an if
 statement, if index is 0 set it to 1. If it&apos;s 1 set it to 0, we could
 do an if else statement there, but there&apos;s kind of a nice shortcut way
-of doing that. And that&apos;s using what&apos;s called the **ternary
-operator**. We see it over here, so I&apos;m going to set
-**gameData.index**.
+of doing that. And that&apos;s using what&apos;s called the <b>ternary
+operator</b>. We see it over here, so I&apos;m going to set
+<b>gameData.index</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 634.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -9996,9 +9996,9 @@ operator**. We see it over here, so I&apos;m going to set
   alt="." />
 </p>
 
-So, what happens here in **ternary operator** is we evaluate whether or
-not this is true **gameData.index**. And remember in JavaScript 0 is
-false and the **gameData.index** is either going to be 0 or 1. So if
+So, what happens here in <b>ternary operator</b> is we evaluate whether or
+not this is true <b>gameData.index</b>. And remember in JavaScript 0 is
+false and the <b>gameData.index</b> is either going to be 0 or 1. So if
 it&apos;s 0, then it&apos;s false, in which case will set it to 1. If index is
 true, if it&apos;s set to 1 then it&apos;s true, in which case will set it to 0.
 So, that&apos;s kind of a nice one line way of doing an if else, when
@@ -10130,7 +10130,7 @@ add to that instead of adding, you rolled snake eyes, we&apos;re going to
 say sorry, one of your rolls was the one switching to the other player.
 Let&apos;s go ahead and put that thing in there and then we&apos;ll set up the
 turn again. That&apos;s basically all we need for this else if here. In
-here, **game.innerHTML** plus equals. We&apos;re going to use our tick
+here, <b>game.innerHTML</b> plus equals. We&apos;re going to use our tick
 marks, again, the semicolon, and in here, we&apos;re going to add a
 paragraph P. You rolled a one switching to other player and really other
 players going to be a variable dollar sign, carry braces, and really
@@ -10201,7 +10201,7 @@ happen if you throw the dice and no one&apos;s are rolled.
 
 And basically, what we need to do is we need to update the score for
 whichever player had them. We&apos;re going to take the score they had
-before and add the **rollSum** to it in order to update that score. So
+before and add the <b>rollSum</b> to it in order to update that score. So
 let&apos;s do that first.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 648.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10211,15 +10211,15 @@ let&apos;s do that first.
   alt="." />
 </p>
 
-So, when you get rid of this, And say **gameData.score**, And the
-**score** is going to be for the **gameData.player**. I want to visit
-**GameData.index**, that&apos;s what I do square bracket. Okay, **score**
-for a **gameData.index**. So that&apos;s either going to get me up here on
+So, when you get rid of this, And say <b>gameData.score</b>, And the
+<b>score</b> is going to be for the <b>gameData.player</b>. I want to visit
+<b>GameData.index</b>, that&apos;s what I do square bracket. Okay, <b>score</b>
+for a <b>gameData.index</b>. So that&apos;s either going to get me up here on
 score. That&apos;s going to get me either this one or this one, one of those
-two **gameData.index**. And that&apos;s going to = the **gameData.score**,
-it&apos;s really this line again. + **gameData.rollSum&lbrack;&rbrack;**. Like that, I
+two <b>gameData.index</b>. And that&apos;s going to = the <b>gameData.score</b>,
+it&apos;s really this line again. + <b>gameData.rollSum&lbrack;&rbrack;</b>. Like that, I
 believe. Let me check over here and make sure I did that, right?
-**gameData.index + gameDtaa.rollSum**, correct. Okay from there, what we
+<b>gameData.index + gameDtaa.rollSum</b>, correct. Okay from there, what we
 need is to set the action area and create two buttons in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 649.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10250,8 +10250,8 @@ mistakes, I might still make mistakes, but that&apos;ll help, okay?
 
 So we&apos;re going to set that and then we need two event listeners for
 each of those things. So, I&apos;m going to have an event listener
-**document.getElementById(roll again).** And that&apos;s going to have an
-**addEventListener**, and listening for a click. And when you click the
+<b>document.getElementById(roll again).</b> And that&apos;s going to have an
+<b>addEventListener</b>, and listening for a click. And when you click the
 button we&apos;re going to run a function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 651.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10339,7 +10339,7 @@ winning condition.
 </p>
 
 Has the player scored enough points to actually win the game? Let&apos;s
-make a function for that called **checkWinningCondition** and add that
+make a function for that called <b>checkWinningCondition</b> and add that
 to our functions down here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 659/660. within throwdice check winning conditions (3xx) ~~~~~~~~~~~~~~~~~-->
@@ -10352,7 +10352,7 @@ to our functions down here.
   alt="Check Winning Condition." />
 </p>
 
-So this really long function, **throwDice** goes all the way down to
+So this really long function, <b>throwDice</b> goes all the way down to
 this closing curly brace here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 661. add if..else for winning conditions (3xx) ~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10363,8 +10363,8 @@ this closing curly brace here.
 </p>
 
 Let&apos;s add another function down here. Function
-**checkWinningCondition**. And this function is going to have an **if
-else** statement in it. The if statement is going to handle with what
+<b>checkWinningCondition</b>. And this function is going to have an <b>if
+else</b> statement in it. The if statement is going to handle with what
 happens if you have actually achieved the winning conditions. So if
 winning condition met or else show current score. If we haven&apos;t won, we
 at least ought to know how close we are to winning? So it&apos;s going to do
@@ -10379,7 +10379,7 @@ those two things.
 
 To check the winning condition, we just need to get this players score.
 Get that players score and see if it&apos;s greater than
-**gameData.gameEnd.** If that&apos;s true, then we need to do some things.
+<b>gameData.gameEnd.</b> If that&apos;s true, then we need to do some things.
 We want to set the score area of the page to say this particular player,
 player one wins. Player x wins with x points, something like that. But
 player x is going to be variable. So we&apos;re going to do &dollar;{}. And in
@@ -10398,7 +10398,7 @@ it&apos;s innerHTML. It&apos;s going to be start a New Game, something like
 that. Once we&apos;ve won, we can start a new game. Cool, so that&apos;s the if
 statement that we&apos;ll check to see. If the game has won, we will start a
 new game. And the next lesson, we&apos;ll fill out the show current score
-section of this **function**.
+section of this <b>function</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-12">4.12 Show the Current Score (8:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10421,16 +10421,16 @@ and add this.
 </p>
 
 We&apos;re going to set the score areas innnerHTML to a paragraph that shows
-the scores of both players. So we can say **score.innerHTML** = and I&apos;m
+the scores of both players. So we can say <b>score.innerHTML</b> = and I&apos;m
 going to just put in here some tick marks and a paragraph. Like so, and
 then in here I&apos;m going to say something this score for player one 1 is
 x, and the score for player 2, is y something like that. Now player 1 is
 going to to be replaced with the variable, Curly braces, and again,
 player 1 is this thing here in players index. Well, I just need players
-**gameData.players&lbrack;0&rbrack;**, is going to be something. And what score is
+<b>gameData.players&lbrack;0&rbrack;</b>, is going to be something. And what score is
 that going to be? This is going to be a variable here, curly braces, and
 again add the dollar sign. And in there we&apos;re going to say,
-**gameData.score&lbrack;0&rbrack;**. So that&apos;s the first player&apos;s score, and then
+<b>gameData.score&lbrack;0&rbrack;</b>. So that&apos;s the first player&apos;s score, and then
 we&apos;re going to do the same thing down here, For a player two, Except
 that&apos;s going to be 1, And this is going to be the same thing down here,
 Except that&apos;s going to be 1.
@@ -10531,12 +10531,12 @@ so we want to show the score if you roll two ones.
 </p>
 
 So let&apos;s go back to our code over here, And I want to run
-**checkWinningCondition**, Up here, if you roll two ones I&apos;m going to
+<b>checkWinningCondition</b>, Up here, if you roll two ones I&apos;m going to
 run it here as well, because that&apos;s not going to have a win when
 you&apos;re not going to get a win if you roll two ones, but the score is
 going to change. So if you roll two ones then that player score get
 zeroed out and you want to be able to see that, so we&apos;ll put
-**checkWinningCondition** there as well, actually we&apos;ll put it before
+<b>checkWinningCondition</b> there as well, actually we&apos;ll put it before
 this set time out. Doesn&apos;t actually matter, the set time out will wait
 two seconds anyway, but I&apos;m going to put it before that, there we go,
 so that helps.
@@ -10551,7 +10551,7 @@ so that helps.
 The other thing we need to do down here is that, if you&apos;ve won the game
 I was setting the action area, actually this is what I&apos;m missing
 .innerHTML, that&apos;s what I was missing from before,
-**actionArea.innerHTML** set that to blank, so that that will get rid of
+<b>actionArea.innerHTML</b> set that to blank, so that that will get rid of
 those buttons that I had there by accident.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 675. test game of pig (341) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10576,7 +10576,7 @@ game. So that&apos;s all working perfectly fine, so that&apos;s great. We will
 stop this lesson here but in the last lesson we will talk about some
 things that we could do to clean up a little more, just this final
 cleanup stuff.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-13">4.13 Final Clean-Up (8:08)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 676. final clean-up (4.13) (342) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10604,7 +10604,7 @@ So what can we do about that?
 </p>
 
 What if down here, in here when we go to roll again instead of doing
-setup turn we just run this **function**. Throw the dice instead of
+setup turn we just run this <b>function</b>. Throw the dice instead of
 setup turn here. I think that will work, so let&apos;s go back and test
 that. Now, when I start the game and I rolled the dice for a player 2,
 hope I get snake eyes again. There we go. Now when I click roll again it
@@ -10628,9 +10628,9 @@ current score and make sure you put it in the winning condition, and you
 could move it also into the IF statement for the throw dice. Yeah, we
 could put it in a couple of different places here. Let&apos;s do this just
 to see just kind of little helper function here. I&apos;m going to say
-function, **showCurrentScore**, and it&apos;s really just going to be this
+function, <b>showCurrentScore</b>, and it&apos;s really just going to be this
 stuff just because it&apos;s kind of long. And then, really all we need to
-do is run this function here, **showCurrentScore**.
+do is run this function here, <b>showCurrentScore</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 680/681. change to showcurrentscore (344) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -10644,8 +10644,8 @@ do is run this function here, **showCurrentScore**.
 
 Now, we don&apos;t need to run check winning condition up when you run snake
 eyes because you&apos;re not going to win there, but we need to run show
-current score. Instead of **checkWinningCondition**, we can change this
-to **showCurrentScore**. And that makes a bit more sense because that&apos;s
+current score. Instead of <b>checkWinningCondition</b>, we can change this
+to <b>showCurrentScore</b>. And that makes a bit more sense because that&apos;s
 what we&apos;re doing it. We&apos;re showing the current score, nobody&apos;s going
 to win when they rolled two ones that&apos;s going to zero out their score.
 And we want to show the current score, but we don&apos;t really need to
@@ -10653,7 +10653,6 @@ check the winning condition. We don&apos;t need to do the top part of this
 IF statement here, we just need to do this bottom part which is showing
 the current score. So, that&apos;s a little bit cleaner and a little bit
 nicer like that.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 682/683. best practices throw dice function (344) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -10704,7 +10703,7 @@ function here. I&apos;m going to have parentheses and in there, I&apos;m going
 to run a function which has its own parentheses, in its own curly braces
 and a set of parentheses after that, in a semicolon. And then, I&apos;m
 going to click between the curly braces and move that down and add my
-**use strict** directive to make sure I didn&apos;t screw up in any of my
+<b>use strict</b> directive to make sure I didn&apos;t screw up in any of my
 variables and then paste everything here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 686. change vars to const in javascript (346) ~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10714,12 +10713,11 @@ variables and then paste everything here.
   alt="Update all var to const to speed things up." />
 </p>
 
-So that puts everything in there, and then you could go through, and you
-could change all of these **vars** to **const**. And in fact in this
-entire **script**, all of the **var** declarations can be **const**. I
-think even the game data where the actual data changes, but the actual
-function, the actual variable doesn&apos;t change. That can be a constant as
-well.
+<p>So that puts everything in there, and then you could go through, and you could change 
+all of these <b>vars</b> to <b>const</b>. And in fact in this entire <b>script</b>, all of the 
+<b>var</b> declarations can be <b>const</b>. I think even the game data where the actual data 
+changes, but the actual function, the actual variable doesn&apos;t change. That can be 
+a constant as well.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 687. differ script.js (346) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -10729,8 +10727,8 @@ well.
 </p>
 
 So we saved that, and then we come over here, and we move this up, and
-we&apos;re going to link to **src="script.js"**. And you could move this up
-to the top of the page with the **differ** attribute on there as well.
+we&apos;re going to link to <b>src="script.js"</b>. And you could move this up
+to the top of the page with the <b>differ</b> attribute on there as well.
 So that&apos;s all working. That&apos;s good. We&apos;ve done all of the cleanup
 stuff. We have one last thing to talk about, but I&apos;m going to do that
 in the next lesson, and you&apos;ve got a working game here.
@@ -10745,8 +10743,7 @@ in the next lesson, and you&apos;ve got a working game here.
   width="40%;" />
 </p>
 
-Extending the game.
-
+<p>Extending the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 689. easy ways to extend the game (module 4.14) (347) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -10756,7 +10753,7 @@ Extending the game.
   width="50%;" />
 </p>
 
-Now you have a pig day scheme that works and functions and it&apos;s pretty
+<p>Now you have a pig day scheme that works and functions and it&apos;s pretty
 basic and that&apos;s great because we were able to plan and strategize a
 way of making a few different functions work together, to come together
 to make a game. That&apos;s definitely more complex than any of the scripts
@@ -10766,8 +10763,7 @@ more complicated scripts. But the game itself could be extended in lots
 of different ways, and my hope is that you will take this and run with
 it and do some interesting things with it. I&apos;ve given you some ideas
 for some things you could do that are not too hard and some that are
-more challenging if you really want to try to do them.
-
+more challenging if you really want to try to do them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 690. easy ways to extend the game (module 4.14) (348) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -10777,14 +10773,14 @@ more challenging if you really want to try to do them.
   width="40%;" />
 </p>
 
-The first is when you roll a one, it zeros out the cumulative score for
+<p>The first is when you roll a one, it zeros out the cumulative score for
 that turn. If you think about this game the way it is now over here,
 when you play this game, there&apos;s no reason to ever click pass, really.
 You&apos;re just going to roll again until you get a one. There&apos;s no
 strategic reason to ever click pass. But what if you roll the one, you
-lose all of the points that you gained during that turn. 
+lose all of the points that you gained during that turn.</p>
 
-Remember, rolling two ones loses all the points you&apos;ve got in the game so far,
+<p>Remember, rolling two ones loses all the points you&apos;ve got in the game so far,
 but rolling one one could lose all the points you&apos;ve gained for the
 turn. If you&apos;ve got a couple of big rolls in there, you&apos;ve rolled the
 nine, you&apos;ve this 12 or whatever. Now pass could be strategically
@@ -10797,9 +10793,9 @@ to your object up here, and you could create another variable that says,
 turn some, or something like that, and each time a value gets added to
 the turn some, you can increase that variable. If a one is rolled,
 you&apos;re going to subtract that from that player&apos;s score. They lose
-those points for that turn. 
+those points for that turn.</p>
 
-Just by adding one more property into the game data, you could add that feature 
+<p>Just by adding one more property into the game data, you could add that feature 
 in fairly easily. You just have to remember to update the rules. But that&apos;s 
 just one way of updating the scheme. There are other easy ways you could make some 
 better graphics or better interface, make it look nicer, make it clear whose turn 
@@ -10807,9 +10803,9 @@ it is and what the score is. None of this stuff is working terribly well over he
 for what I have so far. It&apos;s okay but it&apos;s not. It&apos;s certainly not
 great. You can make it much better. That&apos;s something you can do that
 doesn&apos;t even involve a lot of programming that&apos;s really just design
-work.
+work.</p>
 
-You can create form fields for the players name so that instead of
+<p>You can create form fields for the players name so that instead of
 player 1 and good player 2. When you start the game, when you click,
 Start. Instead of randomly pick a player, you could actually enter and
 you get to form fields here. Player 1 and player 2. Add those form
@@ -10817,9 +10813,9 @@ fields in there. Again, you could replace these things here with the
 names that somebody types into the field so that it&apos;s not just player 1
 player 2. You could do that thing, that would be more challenging, but
 would be a fun thing to do. You could replace the dice with cards.
-There&apos;s no reason why it has to be dice.
+There&apos;s no reason why it has to be dice.</p>
 
-You could make a cool card game. There&apos;s no reason that it has to be
+<p>You could make a cool card game. There&apos;s no reason that it has to be
 1-6. You could have 20 possible cards for each person and have more
 values. What would you need to change in order to do that? You could
 allow the player to set a threshold for what wins the game. Right now
@@ -10829,9 +10825,9 @@ says or it could you even be a drop down field for 30, 50 or 100,
 whatever you want, and the player picks what the threshold for winning
 is going to be for that game. You could do that. That would be an easy
 thing to add into the game. Again, it&apos;s just updating the data in that
-game data object at the top of the game.
+game data object at the top of the game.</p>
 
-Then there&apos;s some more challenging ways to extend the game. You get add
+<p>Then there&apos;s some more challenging ways to extend the game. You get add
 more players. Where if you had three players or four players or what if
 you could choose how many players you wanted to have playing the game.
 What would you have to add in order to do that, that&apos;s a little bit
@@ -10840,9 +10836,9 @@ needs to be different. This needs to work differently because it&apos;s not
 going to just be a zero or one in or ternary operators are no longer
 going to work because those will only handle two values, either one or
 zero. But you can certainly do it. That wouldn&apos;t be that hard. That
-would be something more to do.
+would be something more to do.</p>
 
-You could add more dice. What if you add more than two dice? What if you
+<p>You could add more dice. What if you add more than two dice? What if you
 had three or four, you could add other conditions that affect the game
 score. What if somebody rolls two sixs&apos; is what happens then? Maybe
 their score doubles? I don&apos;t know. You could do all fun things with
@@ -10851,7 +10847,7 @@ with extending this game. That&apos;s your next job, is to really think
 about some things that you could do to extend this game and make it a
 more interesting better game. I look forward to seeing what people post
 on the discussion board. I&apos;ll check in from time to time and see what
-excellent versions people have made of the big game.
+excellent versions people have made of the big game.</p>
 
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/QxK0k/pdf-of-presentation">4.14.Game-of-Pig.pdf</a></li>
@@ -10872,9 +10868,9 @@ JavaScript and therefore, of course, specialization. We&apos;ve done a lot.
 You&apos;ve learned a lot of JavaScript so far. In the first course we
 covered a lot of basics, a lot of basic syntax. We did a lot of
 challenges to get good at that syntax, and the second course, we
-introduced **jQuery** and we created some great interface elements that
+introduced <b>jQuery</b> and we created some great interface elements that
 are very simple and easy to integrate into web pages. In this course,
-we&apos;ve gotten even deeper into it with **jQuery plug-ins** and we even
+we&apos;ve gotten even deeper into it with <b>jQuery plug-ins</b> and we even
 created a game.</p>
 
 <p>So with all of this, you&apos;ve really developed a lot of JavaScript skills
