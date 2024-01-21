@@ -1,7 +1,7 @@
 ---
 title: "University of California @Davis Interactivity with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "1/19/2024 12+am"
+date last editted: "1/21/2024 12+pm"
 output: 
   markdown:
     with some style
@@ -74,12 +74,12 @@ function topFunction() {
 <!--~~ Hoverable Dropdown Menu ~~-->
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
 
-## [**Week 1: jQuery Plugins and Capturing the Scroll Event**](#ch1)
->### [**1.01 Welcome!**](#ch1-01)
->### [**1.02 Module 1 Introduction**](#ch1-02)
->### [**1.03 Intro to jQuery Plugins**](#ch1-03)
->### [**1.04 Using Plugins and Essential Steps**](#ch1-04)
->### [**1.05 Gotchas and Rookie Mistakes**](#ch1-05)
+### [**Week 1: jQuery Plugins and Capturing the Scroll Event**](#ch1)
+>#### [**1.01 Welcome!**](#ch1-01)
+>#### [**1.02 Module 1 Introduction**](#ch1-02)
+>#### [**1.03 Intro to jQuery Plugins**](#ch1-03)
+>#### [**1.04 Using Plugins and Essential Steps**](#ch1-04)
+>#### [**1.05 Gotchas and Rookie Mistakes**](#ch1-05)
 
 <!-- -   **1.05.jQueryPlugins.pdf** -->
 <ul>
@@ -98,74 +98,74 @@ function topFunction() {
     target="_blank" rel="noopener noreferrer">1.05.FlexSliderPlugin.zip (ZIP File)</a></li>
 </ul>
 
->### [**1.06 FlexSlider: A jQuery Plugin**](#ch1-06)
->### [**1.07 About the Minified Version**](#ch1-07)
->### [**1.08 Adding Markup &amp; Hooking Up the Slider**](#ch1-08)
->### [**1.09 FlexSlider Rules**](#ch1-09)
->### [**1.10 Additional Controls**](#ch1-10)
->### [**1.11 Advanced FlexSlider**](#ch1-11)
->### [**1.12 Additional Styling**](#ch1-12)
->### [**1.13 Styling the CTA**](#ch1-13)
+>#### [**1.06 FlexSlider: A jQuery Plugin**](#ch1-06)
+>#### [**1.07 About the Minified Version**](#ch1-07)
+>#### [**1.08 Adding Markup &amp; Hooking Up the Slider**](#ch1-08)
+>#### [**1.09 FlexSlider Rules**](#ch1-09)
+>#### [**1.10 Additional Controls**](#ch1-10)
+>#### [**1.11 Advanced FlexSlider**](#ch1-11)
+>#### [**1.12 Additional Styling**](#ch1-12)
+>#### [**1.13 Styling the CTA**](#ch1-13)
 
 <!-- -   **1.13.FlexSlider.pdf** -->
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Hv9Tf/pdf-of-presentation">1.13.FlexSlider.pdf</a></li>
 </ul>
 
-## [**Week 2: Combining Scripts and Skill Building Through Practice**](#ch2)
->### [**2.01 Module 2 Introduction**](#ch2-01)
->### [**2.02 Intro to Smooth Scroll with jQuery**](#ch2-02)
+### [**Week 2: Combining Scripts and Skill Building Through Practice**](#ch2)
+>#### [**2.01 Module 2 Introduction**](#ch2-01)
+>#### [**2.02 Intro to Smooth Scroll with jQuery**](#ch2-02)
 
 <!-- -   **2.02.jQueryScrollEffects-START.zip** -->
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery">2.02.jQueryScrollEffects-START.zip</a></li>
 </ul>
 
->### [**2.03 Creating a Click Handler**](#ch2-03)
->### [**2.04 Adding the Animation**](#ch2-04)
->### [**2.05 Add Some Easing and a Callback Function**](#ch2-05)
->### [**2.06 Highlighting Elements**](#ch2-06)
->### [**2.07 Intro to Page Location Tracking**](#ch2-07)
->### [**2.08 The Crux of the Problem**](#ch2-08)
->### [**2.09 Strategy**](#ch2-09)
->### [**2.10 Adding PageTop and If Statements**](#ch2-11)
->### [**2.11 Writing the Else/If Statement - Part 1**](#ch2-11)
->### [**2.12 Writing the Else/If Statement - Part 2**](#ch2-12)
->### [**2.13 Edge Case Issues**](#ch2-13)
->### [**2.14 Resizing the Counter**](#ch2-14)
->### [**2.15 Resetting the Counter**](#ch2-15)
->### [**2.16 resetPagePosition Function**](#ch2-16)
->### [**2.17 Reviewing the Whole Script**](#ch2-17)
+>#### [**2.03 Creating a Click Handler**](#ch2-03)
+>#### [**2.04 Adding the Animation**](#ch2-04)
+>#### [**2.05 Add Some Easing and a Callback Function**](#ch2-05)
+>#### [**2.06 Highlighting Elements**](#ch2-06)
+>#### [**2.07 Intro to Page Location Tracking**](#ch2-07)
+>#### [**2.08 The Crux of the Problem**](#ch2-08)
+>#### [**2.09 Strategy**](#ch2-09)
+>#### [**2.10 Adding PageTop and If Statements**](#ch2-11)
+>#### [**2.11 Writing the Else/If Statement - Part 1**](#ch2-11)
+>#### [**2.12 Writing the Else/If Statement - Part 2**](#ch2-12)
+>#### [**2.13 Edge Case Issues**](#ch2-13)
+>#### [**2.14 Resizing the Counter**](#ch2-14)
+>#### [**2.15 Resetting the Counter**](#ch2-15)
+>#### [**2.16 resetPagePosition Function**](#ch2-16)
+>#### [**2.17 Reviewing the Whole Script**](#ch2-17)
 
 <!-- -   **2.17.jQueryPageLocationTracking.pdf** -->
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation">2.17.jQueryPageLocationTracking.pdf</a></li>
 </ul>
 
->### [**2.18 Intro to Scroll Effects with JS**](#ch2-18)
+>#### [**2.18 Intro to Scroll Effects with JS**](#ch2-18)
 
 <!-- -   **2.18.ScrollEffects-START.zip** -->
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript">2.18.ScrollEffects-START.zip</a></li>
 </ul>
 
->### [**2.19 Getting the Target - Part 1**](#ch2-19)
->### [**2.20 Getting the Target - Part 2**](#ch2-20)
->### [**2.21 Smooth Scroll Polyfill**](#ch2-21)
->### [**2.22 Checking the Load**](#ch2-22)
->### [**2.23 Top Posts**](#ch2-23)
->### [**2.24 Add an Event Listener**](#ch2-24)
->### [**2.25 The Magic Conditionals**](#ch2-25)
->### [**2.26 Changing the Next Link**](#ch2-26)
->### [**2.27 Resizing Function**](#ch2-27)
->### [**2.28 Finalzing the Script**](#ch2-28)
+>#### [**2.19 Getting the Target - Part 1**](#ch2-19)
+>#### [**2.20 Getting the Target - Part 2**](#ch2-20)
+>#### [**2.21 Smooth Scroll Polyfill**](#ch2-21)
+>#### [**2.22 Checking the Load**](#ch2-22)
+>#### [**2.23 Top Posts**](#ch2-23)
+>#### [**2.24 Add an Event Listener**](#ch2-24)
+>#### [**2.25 The Magic Conditionals**](#ch2-25)
+>#### [**2.26 Changing the Next Link**](#ch2-26)
+>#### [**2.27 Resizing Function**](#ch2-27)
+>#### [**2.28 Finalzing the Script**](#ch2-28)
 
 <!-- -   **2.28.PDF-of-Presentation.pdf** -->
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation">2.28.PDF-of-Presentation.pdf</a></li>
 </ul>
 
->### [**2.29 Scription Site Introduction**](#ch2-29)
+>#### [**2.29 Scription Site Introduction**](#ch2-29)
 
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/KrJDR/start-files-scription-site">2.29.Scription Site</a></li>
@@ -181,67 +181,67 @@ function topFunction() {
 
 -   **2.29.Flexslider-files.zip**
 
->### [**2.30 Header HTML**](#ch2-30)
->### [**2.31 Pricing Styling**](#ch2-31)
->### [**2.32 Beginning Styling**](#ch2-32)
->### [**2.33 Styling That Attaches to Whole Page**](#ch2-33)
->### [**2.34 Slider Styles**](#ch2-34)
->### [**2.35 Pricing Styles**](#ch2-35)
->### [**2.36 Tables Styles**](#ch2-36)
->### [**2.37 Media Query for 1020 Pixels Wide**](#ch2-37)
->### [**2.38 Media Query for 1200 Pixels Wide**](#ch2-38)
->### [**2.39 Scription Site: Building Interactive Elements Challenges**](#ch2-39)
+>#### [**2.30 Header HTML**](#ch2-30)
+>#### [**2.31 Pricing Styling**](#ch2-31)
+>#### [**2.32 Beginning Styling**](#ch2-32)
+>#### [**2.33 Styling That Attaches to Whole Page**](#ch2-33)
+>#### [**2.34 Slider Styles**](#ch2-34)
+>#### [**2.35 Pricing Styles**](#ch2-35)
+>#### [**2.36 Tables Styles**](#ch2-36)
+>#### [**2.37 Media Query for 1020 Pixels Wide**](#ch2-37)
+>#### [**2.38 Media Query for 1200 Pixels Wide**](#ch2-38)
+>#### [**2.39 Scription Site: Building Interactive Elements Challenges**](#ch2-39)
 
 -   **2.39.Scription-Finished-Version.pdf**
 
 -   **2.39.PDF-of-Presentations.pdf**
 
-## [**Week 3. Intro to Objects and Data in JavaScript**](ch3)
->### [**3.01 Module 3 Introduction**](#ch3-01)
->### [**3.02 Intro to Objects and Data in JS**](#ch3-02)
+### [**Week 3. Intro to Objects and Data in JavaScript**](ch3)
+>#### [**3.01 Module 3 Introduction**](#ch3-01)
+>#### [**3.02 Intro to Objects and Data in JS**](#ch3-02)
 
 -   **3.02-Start Files-Working-with-Objects-in-JavaScript.pdf**
 
->### [**3.03 Objects Can Contain Arrays and Other Objects**](#ch3-03)
->### [**3.04 Functions Inside Objects Equals Methods**](#ch3-04)
->### [**3.05 Putting Objects and Functions Together**](#ch3-05)
->### [**3.06 Data Formats - XML**](#ch3-06)
->### [**3.07 Example File**](#ch3-07)
+>#### [**3.03 Objects Can Contain Arrays and Other Objects**](#ch3-03)
+>#### [**3.04 Functions Inside Objects Equals Methods**](#ch3-04)
+>#### [**3.05 Putting Objects and Functions Together**](#ch3-05)
+>#### [**3.06 Data Formats - XML**](#ch3-06)
+>#### [**3.07 Example File**](#ch3-07)
 
 -   **3.07-PDF-of-Presentations.pdf**
 
->### [**3.08 Intro to Pig Dice Game**](#ch3-08)
+>#### [**3.08 Intro to Pig Dice Game**](#ch3-08)
 
 -   **3.08-Pig-Dice-Game-Diagrams.pdf**
 
->### [**3.09 Play the Game of Pig**](#ch3-09)
->### [**3.10 Version One**](#ch3-10)
->### [**3.11 Other Versions**](#ch3-11)
+>#### [**3.09 Play the Game of Pig**](#ch3-09)
+>#### [**3.10 Version One**](#ch3-10)
+>#### [**3.11 Other Versions**](#ch3-11)
 
 -   **3.11-PDF-of-Presentations.pdf**
 
-## [**Week 4. Building a Simple Game in JavaScript**](ch4)
->### [**4.01 Module 4 Introduction**](#ch4-01)
->### [**4.02 Intro to the Game of Pig**](#ch4-02)
+### [**Week 4. Building a Simple Game in JavaScript**](ch4)
+>#### [**4.01 Module 4 Introduction**](#ch4-01)
+>#### [**4.02 Intro to the Game of Pig**](#ch4-02)
 
 -   **4.02.Start-Files-Game-of-Pig.pdf**
 
->### [**4.03 Start the Game**](#ch4-03)
->### [**4.04 Set Up the Turn**](#ch4-04)
->### [**4.05 Throwing the Dice**](#ch4-02)
->### [**4.06 Test Throwing the Dice**](#ch4-06)
->### [**4.07 Add the Selection Statements**](#ch4-07)
->### [**4.08 Snake Eyes**](#ch4-08)
->### [**4.09 A "1" Was Rolled**](#ch4-09)
->### [**4.10 The Else Statement**](#ch4-10)
->### [**4.11 Checking for a Win**](#ch4-11)
->### [**4.12 Show the Current Score**](#ch4-12)
->### [**4.13 Final Clean-Up**](#ch4-13)
->### [**4.14 Extending the Game**](#ch4-14)
+>#### [**4.03 Start the Game**](#ch4-03)
+>#### [**4.04 Set Up the Turn**](#ch4-04)
+>#### [**4.05 Throwing the Dice**](#ch4-02)
+>#### [**4.06 Test Throwing the Dice**](#ch4-06)
+>#### [**4.07 Add the Selection Statements**](#ch4-07)
+>#### [**4.08 Snake Eyes**](#ch4-08)
+>#### [**4.09 A "1" Was Rolled**](#ch4-09)
+>#### [**4.10 The Else Statement**](#ch4-10)
+>#### [**4.11 Checking for a Win**](#ch4-11)
+>#### [**4.12 Show the Current Score**](#ch4-12)
+>#### [**4.13 Final Clean-Up**](#ch4-13)
+>#### [**4.14 Extending the Game**](#ch4-14)
 
 -   <b>4.14.PDF-of-Presentation.pdf</b>
 
->### [<b>4.15 Course Summary</b>](#ch4-15)
+>#### [<b>4.15 Course Summary</b>](#ch4-15)
 
 <h2>Syllabus</h2>
 
@@ -10859,4 +10859,4 @@ going to learn even more JavaScript and you&apos;ll get even better at it
 and you&apos;ll get more practice. So I look forward to seeing you there.</p>
 
 <p>.the end...</p>
-<h6>Last Updated 1/15/2024 9:55pm</h6>
+<h6>Last Updated 1/21/2024 12:36pm</h6>
