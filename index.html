@@ -4091,7 +4091,8 @@ somebody resizes the window.</p>
 <p align="center">
 <img src="./images/webp/image220.webp"
   style="width:45%;"
-  alt="." /> <img src="./images/webp/image221.webp"
+  alt="." /> 
+<img src="./images/webp/image221.webp"
   style="width:45%;"
   alt="." />
 </p>
@@ -4135,11 +4136,9 @@ resizing the window. Because at that point, that's when I want to
 calculate, how tall are my sections and fix my script up so that it will
 run right at that particular size. We'll do that in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-14">
-2.14. Resizing Your Windows
-</h2>
+<h2 name="ch2-14">2.14. Resizing Your Windows</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 224. resizing your windows (2.14) (117) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 224. resizing your windows (2.14) (118) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image224.webp"
   alt="2.14. Resizing Your Windows."
@@ -4150,59 +4149,58 @@ run right at that particular size. We'll do that in the next lesson.</p>
 know we're in a place where we can actually change the heights of our
 element to do all that stuff.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 225.  (118) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 225. resizing and doneresizing (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image225.webp"
-  alt="."
+  alt="resizing and doneResizing."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
 <p>To do that, I'm going to come back up here at the top of the page and
 then add one more variable var doneResizing.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 226/227.  (118) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 226/227. insert resize function & test (119) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image226.webp"
   style="width:45%;"
-  alt="." /> <img src="./images/webp/image227.webp"
+  alt="Insert resize function." /> 
+<img src="./images/webp/image227.webp"
   style="width:45%;"
-  alt="." />
+  alt="Test resize function." />
 </p>
-<p>I'm just going to set out a variable and it's going to be undefined
-at the moment, but down here, I'm going to insert my resize function
-here. I can get rid of this console log. I don't need that one.
-Actually, I'm just going to leave it there for a moment because we're
+<p>I'm just going to set out a variable and it's going to be undefined at the moment, but 
+down here, I'm going to insert my resize function here. I can get rid of this console log. 
+I don't need that one. Actually, I'm just going to leave it there for a moment because we're
 going to use the console log anyway.</p>
-<p>But in here, I'm going to do a set time out in here for this. I'm
-going to a set time and it's <b>doneResizing</b> and assign it the
-<b>setTimeout</b> function. SetTimeout method here, and remember,
-setTimeout takes a function, like that, and then a comma and then an
-amount of time. Then I said it's a really short amount of time, like
-half a second, 500 that's fine. We move that down there and then up
-here, I'm going to do clearTimeout, doneResizing, and then I'm going to
-just move this console log so that it's in here, just so we can see what
-the heck is going on, console log doneResizing. What's happening here
-is, remember clearTimeout stops the Timeout from happening. While I'm
-resizing my window, clearTimeout, going to fire, and setTimeout is going
-to stop. As soon as I'm done actually resizing my window, then this will
-stop running, doneResizing will give me 500 milliseconds, and then it'll
-cancel. I got okay, I'm done resizing and that's a nice cheater's way of
-knowing when I finished resizing the window because this is going to
-keep this thing from actually happening until I stop resizing the
-window. Until this method stops happening, which is happening while this
-event is going to be happening while I'm resizing the window. But as
-soon as I'm done, then the set time me out will run in a week, 500
-milliseconds console log after it's done resizing, I hope. Let's see if
-that works if I did it right. If we come back over here and refresh my
-screen here.</p>
+
+<p>But in here, I'm going to do a set time out in here for this. I'm going to a set time and 
+it's <b>doneResizing</b> and assign it the <b>setTimeout</b> function. SetTimeout method here, 
+and remember, setTimeout takes a function, like that, and then a comma and then an amount of 
+time. Then I said it's a really short amount of time, like half a second, 500 that's fine. We 
+move that down there and then up here, I'm going to do clearTimeout, doneResizing, and then 
+I'm going to just move this console log so that it's in here, just so we can see what the 
+heck is going on, console log doneResizing. What's happening here is, remember clearTimeout 
+stops the Timeout from happening.</p>
+
+<p>While I'm resizing my window, clearTimeout, going to fire, and setTimeout is going to 
+stop. As soon as I'm done actually resizing my window, then this will stop running, 
+doneResizing will give me 500 milliseconds, and then it'll cancel. I got okay, I'm done 
+resizing and that's a nice cheater's way of knowing when I finished resizing the window 
+because this is going to keep this thing from actually happening until I stop resizing the
+window. Until this method stops happening, which is happening while this event is going to 
+be happening while I'm resizing the window. But as soon as I'm done, then the set time me 
+out will run in a week, 500 milliseconds console log after it's done resizing, I hope. 
+Let's see if that works if I did it right. If we come back over here and refresh my screen 
+here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 228/229.  (119) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 228/229. done resizing in smoothscroll.js (120) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image228.webp"
   style="width:45%;"
-  alt="." /> <img src="./images/webp/image229.webp"
+  alt="Done resizing, how tall are the sections?" />
+<img src="./images/webp/image229.webp"
   style="width:45%;"
-  alt="." />
+  alt="Done resizing, how tall are the sections?" />
 </p>
 <p>Now while I'm resizing the screen, nothing's happening over there in
 the console log, but as soon as I stop, doneResizing. Now, I know that
@@ -4210,10 +4208,10 @@ when I doneResizing my window, number 2, doneResizing that event fires,
 and now that I'm doneResizing, I can actually figure out, well, how tall
 are my sections and reset my page and do all of that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 230.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 230. set posttops height of sections (121) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image230.webp"
-  alt="."
+  alt="Set postTops height of each section."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -4223,10 +4221,10 @@ want to come up here and I want to get these two things because this is
 what setting my postTops. When I get these two things, I'm just going to
 copy them from there and paste them in here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 231.  (120) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 231. reset var posttops (121) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image231.webp"
-  alt="."
+  alt="Reset postTops."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -4237,10 +4235,10 @@ page where I have postTops console log out here, I'm going to uncomment
 that out and save that, and now we should be able to test this and see
 if it's working.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 232.  (121) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 232. get new post tops of sections (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image232.webp"
-  alt="."
+  alt="Get new postTops of sections."
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
@@ -4250,13 +4248,14 @@ resizing, I get new postTops. The first one still at 200, that's fine.
 That makes sense, but the next one is a much higher number, and so on
 and so forth.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 233/234.  (121) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 233/234. re-evaluate after resizing window (122) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image233.webp"
   style="width:45%;"
-  alt="." /> <img src="./images/webp/image234.webp"
+  alt="Re-evaluate after resizing window." />
+<img src="./images/webp/image234.webp"
   style="width:45%;"
-  alt="." />
+  alt="Re-evaluate after resizing window." />
 </p>
 <p>If I make it slightly wider, I'll get a different set of numbers. But
 you'll notice this only re-evaluates after I'm done resizing my window.
@@ -4266,7 +4265,7 @@ That's really cool, that's working really well.</p>
 2.15. Resetting the Counter
 </h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 235. resetting the counter (2.15) (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 235. resetting the counter (2.15) (123) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image235.webp"
   alt="2.15. Resetting the Counter."
@@ -4278,13 +4277,14 @@ somebody resizes the window. But we haven't solved the second part of
 what happens if somebody refreshes the page while they're further down
 the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 236/237.  (122) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 236/237. what happens when you refresh while scrolling? (123) ~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image236.webp"
   style="width:45%;"
-  alt="." /> <img src="./images/webp/image237.webp"
+  alt="What happens when you refresh while scrolling?" />
+<img src="./images/webp/image237.webp"
   style="width:45%;"
-  alt="." />
+  alt="What happens when you refresh while scrolling?" />
 </p>
 <p>What I want to do for this is I'm going to come down here into my
 script down here. I'm going to piece something in. You're going to have
@@ -4323,13 +4323,14 @@ need to do is remove the class from all links and then put the
 appropriate class in the appropriate link. That's really cool and that
 should work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 238/239.  (123) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 238/239. calculate each section height (124) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image238.webp"
   style="width:45%;"
-  alt="." /> <img src="./images/webp/image239.webp"
+  alt="Calculate each section height." />
+<img src="./images/webp/image239.webp"
   style="width:45%;"
-  alt="." />
+  alt="Calculate each section height." />
 </p>
 <p>Now, if I see this and notice, I do have this inside the resize
 function, which is not great, and we'll fix that in a minute. But we'll
@@ -4352,7 +4353,7 @@ into its own function. We'll do that in the next lesson.</p>
 2.16. resetPagePosition Function
 </h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 240. resetpageposition function (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 240. resetpageposition function (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image240.webp"
   alt="2.16 resetPagePosition Function."
