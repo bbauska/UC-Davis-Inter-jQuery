@@ -171,11 +171,11 @@ function topFunction() {
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/KrJDR/start-files-scription-site">2.29.Scription Site</a></li>
 </ul>
 
--   **2.29.Scription-Part1-Start.zip**
+-   **2.29.Scription-Part1-START.zip**
 
 -   **2.29.Scription-Part1-Snippets.zip**
 
--   **2.29.Scription-Part2-Start.zip**
+-   **2.29.Scription-Part2-START.zip**
 
 -   **2.29.Scription-Part2-Snippets.zip**
 
@@ -200,7 +200,7 @@ function topFunction() {
 >#### [**3.01 Module 3 Introduction**](#ch3-01)
 >#### [**3.02 Intro to Objects and Data in JS**](#ch3-02)
 
--   **3.02-Start Files-Working-with-Objects-in-JavaScript.pdf**
+-   **3.02-START-Files-Working-with-Objects-in-JavaScript.pdf**
 
 >#### [**3.03 Objects Can Contain Arrays and Other Objects**](#ch3-03)
 >#### [**3.04 Functions Inside Objects Equals Methods**](#ch3-04)
@@ -224,7 +224,7 @@ function topFunction() {
 >#### [**4.01 Module 4 Introduction**](#ch4-01)
 >#### [**4.02 Intro to the Game of Pig**](#ch4-02)
 
--   **4.02.Start-Files-Game-of-Pig.pdf**
+-   **4.02.START-Files-Game-of-Pig.pdf**
 
 >#### [**4.03 Start the Game**](#ch4-03)
 >#### [**4.04 Set Up the Turn**](#ch4-04)
@@ -269,7 +269,7 @@ basic and more advanced image sliders.</p>
 
 <ul>
   <li>1.05.jQueryPlugins.pdf</li>
-  <li>1.05.FlexSliderBasic-Start.zip</li>
+  <li>1.05.FlexSliderBasic-START.zip</li>
   <li>1.05.FlexSliderPlugin.zip</li>
 </ul>
     
@@ -359,9 +359,9 @@ jQuery plugins explored in this course into the Scription webpage through a seri
 <ul>
   <li>zip_files:
     <ul>
-	  <li>2.29.Scription-Part1-Start.zip</li>
+	  <li>2.29.Scription-Part1-START.zip</li>
 	  <li>2.29.Scription-Part1-Snippets.zip</li>
-	  <li>2.29.Scription-Part2-Start.zip</li>
+	  <li>2.29.Scription-Part2-START.zip</li>
 	  <li>2.29.Scription-Part2-Snippets.zip</li>
 	  <li>2.29.Flexslider-files.zip</li>
       </li>
@@ -466,8 +466,15 @@ You will be able to then extend the script in many creative ways.</p>
 <h2 name="ch1-00">1.00 A Note from UC Davis</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Welcome to this course!</p>
-<p>We are delighted to be a part of your continuing education. This course will provide you with a variety of tools and learning opportunities, to include lesson lectures, readings, assessments, peer reviews, and an opportunity to contribute to the Coursera learning community in the discussion forums.</p>
-<p>In each of the lesson sections, you’ll find learning objectives, lecture lessons, readings, activities, and an opportunity to test your knowledge in quiz format. In some of the module sections you’ll also work on assignments and grade the work of your peers. A peer-review assignment, is one where you and your fellow learners have an opportunity to review and grade each other’s work. We’ll dive more into peer reviews later on in this course.</p>
+<p>We are delighted to be a part of your continuing education. This course will 
+provide you with a variety of tools and learning opportunities, to include lesson 
+lectures, readings, assessments, peer reviews, and an opportunity to contribute 
+to the Coursera learning community in the discussion forums.</p>
+<p>In each of the lesson sections, you’ll find learning objectives, lecture 
+lessons, readings, activities, and an opportunity to test your knowledge in 
+quiz format. In some of the module sections you’ll also work on assignments 
+and grade the work of your peers. A peer-review assignment, is one where you 
+and your fellow learners have an opportunity to review and grade each other’s work. We’ll dive more into peer reviews later on in this course.</p>
 <p>When navigating the course, you can find available course resources under each of the lecture lessons in a section labeled “Downloads” – here you can download the lecture video, view transcripts, PDFs of the lecture slides, and find additional readings or files.</p>
 <p>If you run into any issues during this course, learner support is available to all Coursera students. The link for Coursera’s Learner support is included below. The Help Center/Learner Support includes topics such as account setup, payments, enrollment questions, and troubleshooting common problems.</p>
 <p>If you find any content issues, be sure to let the course staff know by flagging the lecture, assignment, reading, or quiz and this will inform us of where these issues occur. Here is the link for more information on how to Flag an Issue - it is also listed below.</p>
@@ -498,7 +505,6 @@ You will be able to then extend the script in many creative ways.</p>
     rel="noopener noreferrer" target="_blank">
     Coursera’s Honor Code</a></li>
 </ul>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-01">1.01. Welcome! Course Introduction (0:40)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -523,7 +529,6 @@ you even more practice. You get even better with JavaScript and jQuery.
 We&apos;re going to do a lot in this course. Let&apos;s break out our code
 editors and our web browsers and get started and learn even more about
 JavaScript.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-02">1.02. Module Introduction</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -575,7 +580,6 @@ when somebody clicks on something or hovers a mouse over something, we
 can capture those events and then do things with them. With these
 basics, you can do quite a lot, but it might take you a long time to
 write the scripts that you want to do for your web page.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. recap: jquery (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -660,7 +664,6 @@ whole script yourself.
 
 Many of the larger, more sophisticated plugins require five steps to get
 them to work.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 11. using plugins and essential steps, #2 (13) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -714,7 +717,6 @@ will have the markup for the jQuery plugin, then you&apos;ll have jQuery,
 then the jQuery plugin, and then you will initialize the plugin on your
 own script. And then also make sure that if there&apos;s any CSS files,
 those are included as well.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. documentation mish-mash (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -723,7 +725,6 @@ those are included as well.
   style="border: 2px solid #000000;" 
   width="50%;" />
 </p>
-
 
 Suppose you find a jQuery plugin you want to try on your website, how do
 you go about adding it to your page? How do you know what to do? Because
@@ -744,7 +745,6 @@ you&apos;ll see once you work with a few plugins that many of them work
 pretty much the same way. The documentation may look a little bit
 different; the directions may be written a little bit different, but
 it&apos;s the same basic steps each time.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-05">1.05. Gotchas and Rookie Mistakes (8:52)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -755,7 +755,6 @@ it&apos;s the same basic steps each time.
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. gotchas and rookie mistakes, #2 (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -886,7 +885,6 @@ with them. It&apos;ll take time to do the research, but probably less time
 than actually writing the code yourself from scratch if it&apos;s an
 extensive plugin. It&apos;s worth it to make sure that the plugin you&apos;re
 using is really worthwhile.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. looking to the future (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -942,7 +940,6 @@ carrying the extension .ZIP.
   <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/"
     target="_blank" rel="noopener noreferrer">How to open a zip file for either Mac or PC</a></li>
 </ul>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-06">1.06. FlexSlider: A jQuery Plugin (6:38)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -957,7 +954,6 @@ carrying the extension .ZIP.
 Now that we&apos;ve talked about jQuery plug-ins a bit, let&apos;s take a look
 at one that we can use to add a significant amount of interface options
 to our page.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. basic flexslider (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -975,7 +971,6 @@ the previous lessons. That&apos;s fun.
 
 The other thing that&apos;s nice about FlexSlider, it&apos;s called FlexSlider
 because it&apos;s a responsive slider.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 19/20. responsive kittens for sale (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -991,7 +986,6 @@ I&apos;ve opened up the page over here and you can see if I pull this off
 and resize it, the page is responsive and it squishes and stretches, and
 so, we can actually create a slider that will work for different screen
 sizes using FlexSlider. That&apos;s fun.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. markup for web site (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1004,7 +998,6 @@ sizes using FlexSlider. That&apos;s fun.
 If you look at the markup, you&apos;ll notice that it&apos;s pretty basic. If
 you download the start files that come with this lesson, I have in here
 some basic markup.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 22/23. responsive kittens for sale (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1024,7 +1017,6 @@ larger or smaller. The media queries, will handle the sizing of stuff on
 the page, and there&apos;s just a few rules in there just because this is
 pretty basic, but there we have it. We&apos;ll make a slider about kittens
 because, who doesn&apos;t love kittens? Kittens are awesome.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. responsive media queries (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1038,7 +1030,6 @@ We looked at the media queries and they&apos;ll handle the screen if it&apos;s
 wider than 600 pixels. Up to 600 pixels you just get a very basic
 layout, and then once you get larger than that, it will give you a more
 of a layout on the page with the columns. Okay.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. flexslider website (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1049,7 +1040,6 @@ of a layout on the page with the columns. Okay.
 </p>
 
 Then the next thing is the FlexSlider Website and the FlexSlider Script.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. flexslider website, #2 (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1066,7 +1056,6 @@ to use FlexSlider right here on this page, and you can download the
 files to get started. However, I&apos;ve already provided the same files
 with this lesson, so, you don&apos;t have to go there and download them,
 they&apos;re also included with this lesson.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. flexslider website, #3 (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1078,7 +1067,6 @@ they&apos;re also included with this lesson.
 
 Get those files first by either clicking the Download button here or by
 downloading the FlexSlider files of this lesson.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 28. files needed: flexslider website (25) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1094,7 +1082,6 @@ FlexSlider work in your project. This is a little bit confusing,
 especially if you&apos;re not that familiar with this thing. Let me go
 through it carefully, because you&apos;re likely to run into this with other
 plug-ins as well.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 29/30. folder with website and images (26) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1111,7 +1098,6 @@ Here on the left, I have my folder with my website in it, that&apos;s my
 index page, I&apos;ve got a JavaScript file, I&apos;ve got slides which have
 different slides for the different pictures of the kittens, and I&apos;ve
 got my style-sheet, that&apos;s what&apos;s in my folder.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31/32. unzipped download files (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1177,7 +1163,6 @@ started for this project.
 
 And again, I&apos;m just repeating myself here but it&apos;s really important
 that you understand this.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. minified vs non-minified (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1281,7 +1266,6 @@ CSS. So, I&apos;m just going to add a link here, link href = &quot;
 flexslider.css&quot;. Don&apos;t forget rel =&quot;stylesheet&quot;, and make sure you
 spell style sheet right. Okay, so that will link that up. You can see
 I&apos;ve got jquery 2.2.4 loaded here, as opposed to the 1.6.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. jquery version to load (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1297,7 +1281,6 @@ cdn in google, Google Hosted Libraries. I&apos;m going to go find jquery.
 And here is the latest version of jquery. You&apos;ll notice it&apos;s been
 updated recently to 3.6, okay. So, I&apos;m going to replace this version of
 jquery with that one.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 45. load jquery at bottom of screen (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1311,7 +1294,6 @@ But notice I need to go back and add the <b>defer</b>, I want to put
 <b>defer</b> back in here because really, I want this script to load at the
 bottom of the screen. Okay, now I want to load the jQuery Flexslider
 script.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. add scripts to index.html (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1328,7 +1310,6 @@ to load that file last, script as we are seeing, equals quote
 myscript.js. There we go, I&apos;ve got the files loaded. So, what&apos;s the
 next thing that we need to do? If we come back to the directions, it
 says place somewhere in the head of your document.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 47. defer scripts loading; jquery, plugin, my script (33) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1344,7 +1325,6 @@ after the jQuery library. So, I want to put defer here, and defer down
 here. So, that they will load in this order, first this library, then
 the plug in, then my script. And they&apos;ll load after the rest of the
 page is loaded, just to be certain. So, we&apos;ve got that, okay.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 48. add markup with div, flexslider, ul and li images (33) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1358,7 +1338,6 @@ The next thing we need to do is to add the markup, and this is the
 markup this plug in expects. It expects a <b>div</b> with the class,
 <b>flexslider</b>, and a <b>ul</b> with the class slides, then list items with
 the images inside of it, and we&apos;ll do that in the next lesson.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-08">1.08. Adding Markup & Hooking Up the Slider  (7:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1374,7 +1353,6 @@ In the last lesson, we got all of our files linked and everything hooked
 up so that it should all be ready to work. You want to make sure that
 your stylesheet loads after the FlexSlider style sheets, that you can
 modify changes there. We&apos;ll get to more on that later.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 50. step 2, add markup div, ul and li images (34) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1391,7 +1369,6 @@ need to do. This is what this particular script requires. It requires a
 div with the class of FlexSlider and unordered list of the class of
 slides, and then we can actually put our images inside each list item
 for that unordered list.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 51. index.html, div class='flexslider' (35) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1409,7 +1386,6 @@ the folder, I have slides and I have seven of them. I have seven kittens
 here. Let&apos;s go ahead and add the six more times. 1,2,3,4,5,6, and then
 just change these numbers, 2, 3, 4, 5, 6, and 7. That will give us seven
 slides with seven kittens, one on each side. That&apos;s great.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. verify classes on div and ul (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1422,7 +1398,6 @@ slides with seven kittens, one on each side. That&apos;s great.
 Now we&apos;ve got our markup looking the way that it needs to look for our
 project. What&apos;s the next thing that we need to do? We did the markup,
 we got that all in, so that&apos;s great.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 53. step 3, add to head of index.html (36) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1435,7 +1410,6 @@ Step 3, directions. Hook up the <b>FlexSlider</b>. This thing says to use
 the <b>window.load</b> function. Now, I happen to know that the
 <b>window.load</b> function does not work with the latest version of
 jQuery, but that&apos;s okay. This is what it says down here.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. update myscript.js (37) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1450,7 +1424,6 @@ We could just copy this, <b>window.load</b> function here. This place after
 these links, script type JavaScript. But we&apos;re going to put this not
 inside script tags, but we already have a separate file called
 <b>MyScript</b> that&apos;s linked up here. That&apos;s this one here.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 55. on load, run flexslider function (37) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1471,7 +1444,6 @@ before we can actually start making the slider run. So, we want to make
 that happen first. But I happen to know that this isn&apos;t going to work
 because the <b>window.load</b> function is deprecated and they want us to
 use <b>window.on</b> instead. But let&apos;s just test it anyway.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 56/57. example test, verify jquery version # (38) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1491,7 +1463,6 @@ is actually in the jQuery library, <b>jquery.min.js:2</b>, function load,
 this is a really good indicator that something&apos;s wrong with jQuery
 itself. It&apos;s not anything we did. It&apos;s actually jQuery. What&apos;s wrong
 here is that the latest version of jQuery does not support this file.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58. jquery snippet (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1514,7 +1485,6 @@ instead, and come back here and replace it, you&apos;ll see that it&apos;ll work
 if I put this up here instead of the newest version. When I put that in
 there, put my defer back in, and now if I go test the page, you&apos;ll see
 that it works. Close this, refresh.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 60. example, test kittens for sale (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1527,7 +1497,6 @@ Look at that, we have a kitten slider, and it&apos;s working, I get my
 errors, I get these buttons down here, so I&apos;ve got this additional
 functionality, and it&apos;s working. It&apos;s doing everything it&apos;s supposed
 to do.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 61/62. again, validate jquery version (40) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1545,7 +1514,6 @@ this is where knowing a little bit of JavaScript and a little bit of
 jQuery really helps, because I know that this load method here has been
 replaced. It&apos;s been deprecated. You could go look that up on the jQuery
 website if you wanted to.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63/64. again, validate jquery (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1560,7 +1528,6 @@ website if you wanted to.
 
 But I&apos;m going to come back here and I&apos;m going to command Z and put
 this back to the version 3.6 and save that.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. test example scroll (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1575,7 +1542,6 @@ to put on load as an event and then run the function and watch this.
 That should work. Make sure both files are saved, come back and refresh
 and look at that, it works fine using the on method, the more up-to-date
 method.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 66/67. fonts load and example tests (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1603,7 +1569,6 @@ the script is making use of that in order to put those arrows on the
 page. There they are, they&apos;re back again. Okay, great. We&apos;ve got the
 basic slider working, now we can talk about what else we need to do with
 it and we&apos;ll do that in the next lesson.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-09">1.09. FlexSlider Rules</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1619,7 +1584,6 @@ In the last lesson (1.08), we got the Flexslider working, and it&apos;s
 working great. It&apos;s functional. All the pieces are functioning, but
 it&apos;s got some weird issues that we need to fix in terms of the layout
 in the styling.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 69/70. test example kittens for sale (42) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1680,7 +1644,6 @@ border none, border radius zero. That will clear out some of those
 styles and clean-up the styling of the actual Flexslider. Let&apos;s add
 that to ours. How do I know that? Just by poking around in their CSS
 file. I want to make sure I&apos;m on my CSS file.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 75/76. media queries, flexslider styles (44) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1702,7 +1665,6 @@ all and border radius zero to give it square edges. Just with that one
 rule in place here, if I come back and check my page, you&apos;ll notice the
 Flexslider looks better here. It&apos;s fitting into the space well, and
 I&apos;ve got rid of that gap and all that stuff.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. inspect example site (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1717,7 +1679,6 @@ inspect again. Maybe move my inspector to the side and it&apos;s this thing
 here, dot flex-control-paging li a.flex-active. That&apos;s the class
 that&apos;s changing the colors on these buttons here. That&apos;s the one that
 I want to actually attach to.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 77. border, margin, radius, background-color (45) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1732,7 +1693,6 @@ want a different color, what did I put on my slides over here? I put
 pound B40205, make it match that. What was it? Just color or is it
 background? Background: #B40205. There we go. That will give me a red
 background color. Save that and come back and test it.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 78. inspect styles, font and color  (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1750,7 +1710,6 @@ look the way you want it to look. Finding out what those styles are, or
 just a matter of using the inspector and hunting around to see what
 rules are being applied that you might want to change to get it to style
 and look the way you want it to look on your page.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-10">1.10. Additional Controls</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1764,7 +1723,6 @@ and look the way you want it to look on your page.
 
 Your slider should be looking good. We&apos;ve gotten everything in place
 and it&apos;s working.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 80/81. flexslider website options (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1785,7 +1743,6 @@ slider. We didn&apos;t include this functionality for being able to have
 these buttons down here, being able to go to slides that way. We could
 have done that manually on our own, but with this plug in, it provides
 it for us automatically and that&apos;s great.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 82/83. options and default values for flexslider (47) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1820,7 +1777,6 @@ made it really clear on exactly how to do this here on the instructions,
 but if you know some JavaScript and you&apos;re familiar with having done
 this kind of thing before, you&apos;ll figure it out pretty quickly. What
 can we do? Let&apos;s take a look at it.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85. flexslider with options (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1837,7 +1793,6 @@ Let&apos;s give that a try. I know we haven&apos;t really talked a lot about
 objects yet, and we will get into that in more depth in a lesson coming
 up. For right now, we&apos;ll just kind of go with it and get used to the
 syntax because we&apos;ll see it a lot, especially with the plugins.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 86/87. update flexslider options (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1869,7 +1824,6 @@ special programming for that, it&apos;s all built right into the plug in.
 You remember what a trouble that was for us to figure out how to do
 manually. Well, here it&apos;s built in, so we don&apos;t have to really even
 worry about that.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 88/89. other flexslider options (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1891,7 +1845,6 @@ be really long. I&apos;m going to set it to two seconds. That will tell us
 how quickly it&apos;s going to slide from slide to slide automatically. One
 two, one two, there we go. Now it&apos;s going rather quickly, that&apos;s
 great.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 90/91. scroll direction: 'vertical' (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1910,7 +1863,6 @@ vertical. This has to go in quotes because it&apos;s a word that JavaScript
 doesn&apos;t know, but it knows that one there. It knows what 2,000 is. All
 right, now if you do this, after two seconds, it&apos;s going to go
 vertical.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. example, test vertical scroll (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1923,7 +1875,6 @@ vertical.
 We could do reverse true, so we&apos;ll go from top to bottom instead of
 from bottom to top. Reverse true. True is a word that JavaScript knows.
 Now it&apos;s going from the top to the bottom.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. set pauseonhover = true (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1955,7 +1906,6 @@ something else, so that it doesn&apos;t look like every Website you go to
 has FlexSlider on it. It could look the same, because they all have the
 same arrows here, left and right arrows. We can get rid of those and do
 something else that would be kind of interesting and fun.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-11">1.11. Advanced FlexSlider</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1969,7 +1919,6 @@ something else that would be kind of interesting and fun.
 
 Now that you&apos;ve created the basic FlexSlider, with some advanced
 options, we can really do some different things with this FlexSlider.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 95/96. copy flexslider/rename to kittensadvanced (52) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1995,7 +1944,6 @@ But I&apos;ve made a copy so that I have this version if I want to refer
 back to it, but I&apos;m essentially done with it. Now I&apos;m only going to
 work on the advancedSlider version here. I have that version; these
 files open in my code editor.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 97/98. verify right set of files (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2014,7 +1962,6 @@ working with the right set of files. Make sure you&apos;re working with the
 right set of files in your browser. Make sure you&apos;ve got the right set
 of files in your code editor. Over here you can see it says
 advancedSlider there, so this is my advanced slider files.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. update the markup (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2035,7 +1982,6 @@ that will drop down and make it really clear that, what you should do is
 adopt one of these kittens on this lovely Kitten page. I need to update
 the markup to go along with this, for my FlexSlider. I will provide some
 snippets with this lesson that you can open and they look like this.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 100. flexslider jquery plugin (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2048,7 +1994,6 @@ snippets with this lesson that you can open and they look like this.
 There are some snippets here and so I&apos;m basically going to replace my
 slider with this content here. You can type it all out if you wanted to,
 instead of just putting the pictures in.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 101. updated markup adding anchor tags (54) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2069,7 +2014,6 @@ But if this is a real website, that could be a link to a page where you
 could actually adopt this kitten or something like that, that will be
 fun. But rather than make you type all of this stuff out, which is
 tedious, you can actually come to the snippet page and just copy it.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 102/103. flexslider, slides, class (55) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2107,7 +2051,6 @@ this.
 In the last module, we updated the markup for our fancy version of the
 slider, and now we need to do some updating for the actual CSS for the
 display of the slides.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 105/106. styling for flexslider (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2125,7 +2068,6 @@ to copy these three rules here. And I&apos;m going to come over and paste
 them into my CSS file over here, styles.css. And I&apos;m going to stick
 them just in my section with the flex slider stuff here. It doesn&apos;t
 really matter where they go, I&apos;m going to put them here.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 107. styles.css: slide1-slide5 background (57) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2152,7 +2094,6 @@ proportionally. And keeping track of proportions is a little bit tricky
 in CSS currently, there&apos;s some features coming to CSS that will make it
 easier in the long run, but for right now it&apos;s a little clunky and
 unfortunate.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. set position of slides (58) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2175,7 +2116,6 @@ padding is bottom 50%. In this case the padding is relative to the
 width. So as wide as these things are, they will always be 50% as high.
 And these images are twice as wide as they are tall. So that actually
 works for these particular images.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 109. kitten01.jpg image dimensions (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2220,7 +2160,6 @@ Then down here I&apos;m setting the H2 to position absolute top 20 pixels,
 left 20 pixels, then I&apos;m setting the color for that. So that&apos;s not too
 fancy. But that&apos;s an important thing to understand with the way that
 this is working.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 111. styling the cta 'call to action' (60) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2239,7 +2178,6 @@ the background images have come in. These images are now in the
 background of my slide, rather than in the foreground. And the
 foreground is an H2 that&apos;s been absolutely positioned here. But now I
 need to style this call to action, and I&apos;ll do that in the next lesson.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-13">1.13. Styling the CTA 'Call To Action'</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2255,7 +2193,6 @@ Now we&apos;re down to styling the call to action so that it displays
 properly on the page, and I have a rule for the dot CTA anchor tags,
 there&apos;s a lot of stuff in here, but you&apos;ll see why as we move forward
 and do this, but let&apos;s go ahead and add this rule to our style sheet.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. styling the call to action (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2264,7 +2201,6 @@ and do this, but let&apos;s go ahead and add this rule to our style sheet.
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 114/115. styling the call to action (62) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2310,7 +2246,6 @@ text-decoration, none gets rid of the underlying setting, the font
 family, the font size, 4vw is four percent of the viewport width, so
 again, the font it&apos;s going to resize based on how wide the screen is,
 and then also the color for the text. That&apos;s a lot of stuff.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116/117. define class: light (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2344,7 +2279,6 @@ But for number 4 here, I wanted to make this text light, so, I put a
 different color in there and a different class for that one, that&apos;s all
 we need there for that, so that&apos;s really good and should make sense in
 our work.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 119. resize call to action button (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2377,7 +2311,6 @@ larger, so I&apos;m going to just shrink it down just a little bit there,
 and then I&apos;m setting the font size to a little bit smaller, I think is
 not what it was, yes, 3vw instead of 4vw, it&apos;s 3vw, and so bringing the
 font size down a little bit, 3vw.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 122/123. desktop with min-width: 1000px (65) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2396,7 +2329,6 @@ point the screen isn't going to be flexible anymore, so I want these to
 be set to a specific size, 150px, so it&apos;s not going to be flexible
 anymore, because if, this size or wider, it&apos;s always going to be this
 size, 150px. Font-size to 24 pixels.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 124. kittens for sale example (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2410,7 +2342,6 @@ review the page, you&apos;ll see that the call to action isn&apos;t on the
 screen at all, it&apos;s going to be up here, I actually noticed down here
 at bottom 100 percent, so it is showing up. But this is the way they&apos;re
 going to look in end here, is round like this.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 125. example: kittens for sale! (66) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2439,7 +2370,6 @@ section: <b>jQuery Plugins and FlexSlider</b>.
   <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.13.FlexSlider.pdf" 
     target="_blank" rel="noopener noreferrer">1.13.FlexSlider.pdf</a></li>
 </ul>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-01">2.01. Module 2 Intro (0:38)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2460,7 +2390,6 @@ to test your skills, and see how you&apos;re doing with this.
 
 Let&apos;s dive in, break out our code editors and our web browsers, and get
 started on this module.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-02">2.02. Introduction to Smooth Scroll with jQuery (4:15)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2475,7 +2404,6 @@ started on this module.
 In the first part of this lesson, we&apos;re going to use jQuery to make a
 smooth scroll script so that when you click a link at the top of the
 page, it does a smooth scrolling action further down the page.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 128/129. section one and two example (68) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2495,7 +2423,6 @@ Currently this is just a scrolling page with a bunch of sections on
 here. And this is just basic html. If I click section two it just put
 section two at the top of the page, you can see here the URL has pounds
 second in here.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130/131. section links defined (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2553,7 +2480,6 @@ pinned to the top left position of the view port here. And it&apos;s set to
 width 100% so it will stretch across the entire window. Now you can see
 because it&apos;s slightly transparent that the images and every all the
 content is passing beneath this header.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 135/136. padding-top: 200 (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2620,7 +2546,6 @@ forgotten, you can go back to the previous lessons and review the easing
 plug-in and how that works. Then I have linked here a file called
 <b>smoothscroll.js,</b> which is our JavaScript file, and this is where
 we&apos;re going to write our jQuery code.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 139/140. add click handler to index (71) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2648,7 +2573,6 @@ you could use const as well if you preferred, but I&apos;m just going to
 make var thisSection, and assign it this.attr(href). What that&apos;ll do is
 it&apos;ll get the href of the link that was clicked. Let&apos;s alert that out.
 You can see what it actually does.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 141. example: alert, click handler (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2691,7 +2615,6 @@ when we&apos;re going to do that, and we&apos;ll test this in a minute. This is
 going to actually animate our HTML, and in here, we&apos;ll use our
 <b>thisSection</b> thing to tell us where we&apos;re going to animate to, and
 we&apos;ll do that in the next lesson so you see how it all comes together.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-04">2.04. Adding the Animation (6:56)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2713,7 +2636,6 @@ associated with that or what&apos;s the href associated with that? Which
 points to the idea of the section down below that we&apos;re going to. It&apos;s
 going to be pound (#) 1st or pound 2nd or pound 3rd or pound 4th or
 pound 5^th^ (#1st-#5th). We&apos;ve already seen that.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. animate scroll top (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2737,7 +2659,6 @@ going to do it with the offset method. The offset method and we want to
 offset top. We&apos;ll set it to offset top. So, dollar sign in parentheses,
 this section and set its offset, to the top over 800 milliseconds. And
 that will actually animate the page to the top of the window.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 145. example: offset scrolltop (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2756,7 +2677,6 @@ moving it to the top. Let&apos;s see what happens if I&apos;m going to get rid
 of the pound second from up here and refresh the page. And then if I
 click 2nd, you can see that it does a smooth scroll right to with that
 section going right up to the top of the window.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 146/147. stop method with example (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2793,7 +2713,6 @@ section. I want it to go there right away without having to wait for it
 to go all the way down to the 5th section. So that&apos;s what this stop
 method is doing for us. Don&apos;t stop. So it will stop the animation
 that&apos;s running and then animate the thing that we&apos;ve clicked on next.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 148/149. top scroll minus 200 (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2814,7 +2733,6 @@ goes to 200 pixels down from the top of the page. Which you&apos;ll
 remember, we put 200 pixels padding up there. So that&apos;s now putting it
 in the correct place, so that helps. So that&apos;s one thing, I&apos;m going to
 put this back to 800 because the animation is so slow now.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 150. move animation tag to body (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2833,7 +2751,6 @@ all handle the HTML just fine. But this is kind of just to fall back
 just in case somebody is using an older browser. I&apos;m not sure when they
 actually fixed up, so we won&apos;t see a difference because of that now,
 but it&apos;s just something to be aware of, Going forward.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-05">2.05. Add Some Easing and a Callback Function</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2848,7 +2765,6 @@ but it&apos;s just something to be aware of, Going forward.
 The smooth scroll script is working and that&apos;s great, but because we
 have the easing plugin plugged in, we can give the script a little bit
 more personality by adding some easing.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 152/153. script must follow jquery library load (78) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2866,7 +2782,6 @@ here down at the bottom of the page, you can see I have the jQuery
 library loaded and then I have the easing plugin loaded and then my
 script comes after that. Always, your script has to come after the
 jQuery library and any plugins that you&apos;re using.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 154. easing animation scroll (79) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2883,7 +2798,6 @@ put a return in here. That opens and then that closes there. I want to
 move that down like so, there we go, <b>easeOutCirc</b>. I think that looks
 a little bit better, a little bit easier to read. We animate this over
 800 milliseconds when we are using <b>easeOutCirc</b>.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 155. example of easing animation scroll (79) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2902,7 +2816,6 @@ feels good. This feels very snappy because they&apos;re very quickly, but
 does it still give you the sense that you&apos;re traveling to that part of
 the page? Yeah, it does, so that&apos;s nice. Maybe I&apos;ll leave it like
 that.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 156. example, test easing animation scroll (80) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2929,7 +2842,6 @@ go get the window and see what it offset, is it offset? I think it&apos;s
 like that offset. We have done that right. Here we go. Let&apos;s see if I
 did that right. I think I did. I come back here, refresh the page, click
 second and I did something wrong there.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-06">2.06. Highlighting Elements</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2944,7 +2856,6 @@ second and I did something wrong there.
 On the style sheet is a rule, selected, and I might have it commented
 out. Let&apos;s go over and see because if we do, we need to uncomment it
 out.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 158. highlight the clicked link (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2987,7 +2898,6 @@ don&apos;t just all turn pink.
 Although you could have an interface that shows which ones if you
 clicked on and it would work for that, but I really wanted to just
 highlight the one that I&apos;ve actually clicked on.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 159/160. get anchor tags: nav ul li a (82) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3029,9 +2939,9 @@ can handle what happens as we scroll the page and move from one section
 to another. We&apos;re going to deal with that in the next lesson.
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation">PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation">
+    PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</a></li>
 </ul>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-07">2.07. Introduction to Page Location Tracking</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3071,7 +2981,6 @@ that if we could get these things to highlight, we could do anything on
 the page based on where we are, scroll down the page. If you think about
 that for a second and go look at some of the interesting websites that
 are out there. https://callbruno.com/en
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 163/164. example scroll callbruno.com (85) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3100,7 +3009,6 @@ is capturing the scroll event and doing something on the page based on
 whether or not I&apos;m scrolling. So, I scroll down the page here that
 animation plays differently while I&apos;m scrolling up or scrolling down.
 It&apos;s affected by the scroll.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 167/168. example callbruno.com, #5/#6 (85) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3120,7 +3028,6 @@ of these types of effects, you need to capture the scroll event, and you
 need to be able to do things with that scroll event when you capture it,
 and that can be a little bit challenging and we&apos;ll get into why in just
 a minute here.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 169. example, scroll event, highlight link (86) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3136,7 +3043,6 @@ just keep in mind that when we&apos;re done with this script, we will have a
 script that you could use on lots of Web pages to track where you are in
 the page and do lots of different animations or cool effects or other
 things based on where you are on the page. That&apos;s pretty exciting.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170. awwwards.com (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3153,7 +3059,6 @@ to come to. I think I&apos;ve pointed out in previous lessons, if you want
 to see some interesting interactions that people have created on the
 Web, they often get posted here. This is a good place to come to get
 inspiration about different things that you can do.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 171. window load and scroll listener (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3172,7 +3077,6 @@ happen until the whole page is loaded with all the images and everything
 else. Then we&apos;re going to capture the actual scroll with an event
 handler for capturing scroll using jQuery. Let&apos;s go ahead and add these
 to our script here.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 172. console.log, scrolling (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3192,7 +3096,6 @@ of is how tall each of these sections are. Well, how tall this section
 is has something to do with how large this picture is. If this picture
 was in here, the section would take up less space because it would end
 here. It wouldn&apos;t be that tall.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 173. on load, scroll function (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3220,7 +3123,6 @@ scrolls, and that&apos;s where we&apos;re going to put our script is inside here
 as the page scrolls, and I could just for right now, I could just do
 alert, I could do console.log. You don&apos;t want to do alert because
 you&apos;ll get a ton of alerts scrolling, and save that.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 174. test, scrolling (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3241,7 +3143,6 @@ doing big things on your page, then you have to be careful about
 overloading your processor, if you want to move stuff around on the
 screen, it&apos;s easy to overload it by firing this event so many times and
 trying to do too many things at once.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-08">2.08. The Crux of the Problem</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3256,7 +3157,6 @@ trying to do too many things at once.
 Now, we&apos;re going to get to the crux of the problem. What we&apos;re going
 to do is we&apos;re going to look at a couple of variables and watch what
 happens as we scroll on the page.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 176. window scroll event listener code (91) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3281,7 +3181,6 @@ going to have post and this is going to have five sections. Then down
 here, we need to set the values of these. I&apos;m just going to piece them
 in here. I&apos;m going to remove this console log; we don&apos;t need that one
 anymore and put this in instead.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 177. window scroll event listener code (92) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -6798,7 +6697,6 @@ little bit better, a little bit more readable coming along. And as you
 work down the page, starting with these basic sections and stuff further
 down the page is inherits, then you need fewer and fewer rules as you go
 down the page. You&apos;ll see as it sort of works out that way.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 422/423.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -6933,7 +6831,6 @@ it, play around with the settings. Even if you screw it up entirely, you
 can just delete it, and then paste it back in again from the snippets.
 Don&apos;t worry about messing it up. With that in place, let&apos;s go see if
 our slider is displaying properly.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 433/434.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -6968,7 +6865,6 @@ meant by, as you go down the page, you need to do less styling, because
 a lot of things get inherited. We just need a few rules to sort out some
 of these things, and set the the overview section to display the grid,
 so that it looks right there.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 436/437.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -6998,7 +6894,6 @@ really good, it looks really nice. You can imagine seeing this on your
 phone, it should look pretty nice. Again, we&apos;re doing the mobile first,
 because we&apos;ll be adding the desktop view in later. Then next, we&apos;ve
 got to look at the desktop, the download section.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 439/440.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -7029,7 +6924,6 @@ paste it back in again, it&apos;s not a big deal.
 
 We put that in. I&apos;m not going to go through and describe all of these,
 but they&apos;re all in here.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 442.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -7189,7 +7083,6 @@ gets larger, so we&apos;ll do that next.
 
 You&apos;ve finished the styling for the mobile version, and now it&apos;s time
 to get the styling in place for the tablet version.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 458/459.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -7243,7 +7136,6 @@ I have a media query here for 760 pixels, so these rules are going to go
 between these two curly braces in here. I&apos;m going to paste those in,
 and even tap them in a little bit there. When I click save, it&apos;s going
 to expand more, which drives me nuts, but that&apos;s right.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 463.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -7364,7 +7256,6 @@ side instead of one on top of the other.
 
 This is now on the left instead of on top, and then we&apos;ve got a quote
 here which will use content rotator for.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 475/476.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -7393,7 +7284,6 @@ desktop size.
 </p>
 
 The next breakpoint for my media query is 1020 pixels.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 478/479.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -7423,7 +7313,6 @@ So, we just want to make some adjustments to how these different
 elements layout and the space available for them to make them look a
 little bit better. And this is all just part of what you do as a
 designer.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 480/481.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -7459,7 +7348,6 @@ want to mess around with it, feel free.
 
 Well, these ones for the pricing Tableaus in I mean add that&apos;s the
 pricing and the downloads.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 484/485.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -7477,7 +7365,6 @@ say this is all going to get expanded sadly, but there we go. Maybe like
 reading it that way for the media queries. I like them all in one line.
 I find it there&apos;s usually just one or two declarations. Not that much
 going on. This one had more, but I prefer to put them on one line.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 486/487.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -7581,7 +7468,6 @@ angle brackets are there to make sure that only articles that are direct
 descendant of the overview section. So it won&apos;t apply to an article
 inside of an article, it will only apply to those parent level ones, and
 that&apos;s kind of helpful to be aware of.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 495/496.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -7596,7 +7482,6 @@ that&apos;s kind of helpful to be aware of.
 Okay, continue on here and get the last piece for this one. And finally,
 put that in here. The footer gets some new styling at 1200 pixels to
 adjust for that.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 497/498.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
