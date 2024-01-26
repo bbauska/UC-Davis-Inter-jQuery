@@ -10590,13 +10590,13 @@ a constant as well.</p>
   alt="Use the differ attribute with script.js." />
 </p>
 
-So we saved that, and then we come over here, and we move this up, and
+<p>So we saved that, and then we come over here, and we move this up, and
 we&apos;re going to link to <b>src="script.js"</b>. And you could move this up
 to the top of the page with the <b>differ</b> attribute on there as well.
 So that&apos;s all working. That&apos;s good. We&apos;ve done all of the cleanup
 stuff. We have one last thing to talk about, but I&apos;m going to do that
-in the next lesson, and you&apos;ve got a working game here.
-
+in the next lesson, and you&apos;ve got a working game here.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-14">4.14 Extending the Game (6:21)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 688. extending the game (module 4.14) (347) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10716,7 +10716,7 @@ excellent versions people have made of the big game.</p>
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/QxK0k/pdf-of-presentation">4.14.Game-of-Pig.pdf</a></li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-15">Course Summary (0:57)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 691. course summary: interactivity with javascript and jquery (350) ~~~~~~~~~~~~-->
