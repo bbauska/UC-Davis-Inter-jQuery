@@ -174,23 +174,6 @@
       vertical-align: middle;
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  <!-- img-hover-zoom -->
-  /* [1] The container */
-  .img-hover-zoom {
-    height: 300px; /* [1.1] Set it as per your need */
-    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-  }
-
-  /* [2] Transition property for smooth transformation of images */
-  .img-hover-zoom img {
-    transition: transform .5s ease;
-  }
-
-  /* [3] Finally, transforming the image when container gets hovered */
-  .img-hover-zoom:hover img {
-    transform: scale(1.5);
-  }
-
   </style>
   <!-- jquery magnify -->
   <!-- jQuery -->
@@ -216,18 +199,16 @@ jQuery</h1>
 <!--~~~~~~~~~~~~~~~~~~~~~~ readme.md of uc-davis-inter-jquery.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. jquery logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img id="zoomA"
-  class="displayed border"
+<img class="border displayed"
   src="./images/image001.png"
   alt="jQuery logo."
-  style="width: 40%; border: 2px solid #000000;" />
+  style="width:40%" >
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. uc davis logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img id="zoomA"
-  class="displayed border"
+<img class="displayed border"
   src="./images/image002.png" 
   alt="University of California @Davis logo."
-  style="border: 2px solid #000000; width: 20%;" />
+  style="width: 20%;" />
 
 <h3>About this Course</h3>
 
@@ -868,11 +849,10 @@ guidelines and the Coursera Honor Code here:</p>
 <h2 id="ch1-01">1.01. Welcome! Course Introduction (0:40)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. course intro (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img id="zoomA"
-  class="displayed border"
+<img class="displayed border"
   src="./images/image003.png" 
   alt="1.01. Course Introduction."
-  style="border: 2px solid #000000;width:40%;" />
+  style="width:40%;" />
 
 <p>Hello and welcome to our 3rd course in our four-core specialization
 on JavaScript. My name is Bill Mead and I'm back again to do more
@@ -890,11 +870,10 @@ JavaScript.</p>
 <h2 id="ch1-02">1.02. Module Introduction</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. module 1 intro (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img id="zoomA"
-  class="displayed border"
+<img class="displayed border"
   src="./images/image004.png" 
   alt="1.02. Module 1 Introduction."
-  style="border: 2px solid #000000; width:40%;" />
+  style="width:40%;" />
 
 <p>Hello and welcome to our first module in our third course on JavaScript.
 In this module, we're going to dive even deeper into jQuery, looking at
@@ -908,20 +887,18 @@ elements on web pages and that's really pretty fun.</p>
 <h2 id="ch1-03">1.03. Introduction to jQuery Plugins (3:49)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. intro to jquery plugins (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img id="zoomA"
-  class="displayed border"
+<img class="displayed border"
   src="./images/image005.png" 
   alt="1.03. Intro to jQuery Plugins."
-  style="border: 2px solid #000000; width:40%;" />
+  style="width:40%;" />
 
 <p>Just as a quick recap, we've learned a lot of JavaScript so far.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. recap: javascript (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img id="zoomA"
-  class="displayed border"
+<img class="displayed border"
   src="./images/image006.png" 
   alt="Recap: JavaScript."
-  style="border: 2px solid #000000; width:40%;" />
+  style="width:40%;" />
 
 <p>We started with the JavaScript basics, which included working with
 variables, flow control structures like if statements and else
@@ -934,11 +911,10 @@ basics, you can do quite a lot, but it might take you a long time to
 write the scripts that you want to do for your web page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. recap: jquery (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img id="zoomA"
-  class="displayed border"
+<img class="displayed border"
   src="./images/image007.png" 
   alt="Recap: jQuery."
-  style="border: 2px solid #000000; width:40%;" />
+  style="width:40%;" />
 
 <p>Then we had jQuery and your world became a little bit larger. With
 jQuery, we've learned that there are a lot of helper functions built
@@ -947,11 +923,10 @@ more compact, and a little bit easier. That helps and that makes things
 a little bit easier and a little bit better for all of us.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. introducing: plugins (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img id="zoomA"
-  class="displayed border"
+<img class="displayed border"
   src="./images/image008.png" 
   alt="Introducing: Plugins."
-  style="border: 2px solid #000000; width:40%;" />
+  style="width:40%;" />
 
 <p>Now we need to introduce plugins. We've already used the
 <b>easing</b> plugin, which is a very simple plugin that adds additional
@@ -974,11 +949,10 @@ through the use of a plugin, and that's really very powerful and really
 great.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. adding functionality (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img id="zoomA"
-  class="displayed border"
+<img class="displayed border"
   src="./images/image009.png" 
   alt="Adding Functionality."
-  style="border: 2px solid #000000; width:50%;" />
+  style="width:50%;" />
 
 <p>Again, <b>plugins</b> add additional functionality to jQuery, and
 we've already seen this with the <b>easing plugin.</b> But some plugins
@@ -997,11 +971,10 @@ could do that thing.</p>
 <h2 id="ch1-04">1.04. Using Plugins and Essential Steps (4:22)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 10. using plugins and essential steps (1.04) (13) ~~~~~~~~~~~~~~~~~~~~~-->
-<img id="zoomA"
-  class="displayed border"
+<img class="displayed border"
   src="./images/image010.png"
   alt="1.04. Using Plugins and Essential Steps."
-  style="border: 2px solid #000000; width:40%;" />
+  style="width:40%;" />
 
 <p>Using plugins and essential steps, adding plugins to your project,
 configuring them, and learning how to use them still takes some work and
@@ -1011,11 +984,10 @@ whole script yourself.</p>
 them to work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 11. using plugins and essential steps, #2 (13) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<img id="zoomA"
-  class="displayed border"
+<img class="displayed border"
   src="./images/image011.png" 
   alt="Using Plugins and Essential Steps, #2."
-  style="border: 2px solid #000000; width:50%;" />
+  style="width:50%;" />
 
 <p><b><mark>Step 1</mark></b> is, you have to use the markup indicated
 by the plugin documentation. Often, you'll have to use divs or our
@@ -1058,11 +1030,11 @@ own script. And then also make sure that if there's any CSS files, those
 are included as well.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. documentation mish-mash (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image012.png"
+<img class="displayed border"
+  src="./images/image012.png"
   alt="Documentation Mish-Mash."
-  style="border: 2px solid #000000; width:50%;" />
-</p>
+  style="width:50%;" />
+
 <p>Suppose you find a jQuery plugin you want to try on your website, how
 do you go about adding it to your page? How do you know what to do?
 Because these plugins are all made by different developers or groups of
@@ -1082,24 +1054,19 @@ way. The documentation may look a little bit different; the directions
 may be written a little bit different, but it's the same basic steps
 each time.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-05">
-1.05. Gotchas and Rookie Mistakes (8:52)
-</h2>
+<h2 id="ch1-05">1.05. Gotchas and Rookie Mistakes (8:52)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 13. gotchas and rookie mistakes (1.05) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image013.png"
+<img class="displayed border"
+  src="./images/image013.png"
   alt="Gotchas and Rookie Mistakes."
-  style="border: 2px solid #000000;" 
-  width:40%;" />
-</p>
+  style="width:40%;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. gotchas and rookie mistakes, #2 (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image014.png" 
+<img class="displayed border"
+  src="./images/image014.png"
   alt="Gotchas and Rookie Mistakes, #2."
-  style="border: 2px solid #000000; width:50%;" />
-</p>
+  style="width:50%;" />
 
 <p><b><mark>Number 1</mark></b> on this list is the biggest one, I see
 this all the time, especially with students who are new to working with
