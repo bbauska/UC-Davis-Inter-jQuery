@@ -7,6 +7,15 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="bbauska" />
+  <meta name="title" content="UC-Davis Interactivity with JS and jQuery" />
+  <meta name="description" content="Interactivity with JavaScript and jQuery: 
+    The course objectives include how to identify objects in JavaScript;
+    create new objects and populate them with data; 
+	manipulate objects by adding, modifying and deleting data in objects; 
+	manipulate the DOM based on the data in objects; 
+	identify and articulate how multiple functions work together to create a more complex program; 
+	and identify processes for breaking larger programs into smaller, more manageable pieces." />
+  
   <title>University of California @Davis Interactivity with JavaScript and jQuery</title>
   <style>
     html {
@@ -166,17 +175,15 @@
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
+<!--
 <header id="title-block-header">
 <h1 class="title">University of California <span class="citation"
 data-cites="Davis">@Davis</span> Interactivity with JavaScript and
 jQuery</h1>
-<p class="author">bbauska</p>
 </header>
+-->
 
 <h1 style="text-align:center;">Interactivity with JavaScript and jQuery</h1>
 
@@ -186,18 +193,18 @@ jQuery</h1>
 <!--~~~~~~~~~~~~~~~~~~~~~~ readme.md of uc-davis-inter-jquery.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. jquery logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- "displayed border" -->
-<img class="thumbnail"
+<img id="zoomA"
+  class="displayed border"
   src="./images/webp/image001.webp"
-  alt="jQuery logo." />
-<!--  style="width: 40%; border: 2px solid #000000;" -->
+  alt="jQuery logo."
+  style="width: 40%; border: 2px solid #000000;" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. uc davis logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="thumbnail displayed border"
-<img class="thumbnail"
+<img id="zoomA"
+  class="displayed border"
   src="./images/webp/image002.webp" 
-  alt="University of California @Davis logo." />
-<!--  style="border: 2px solid #000000; width: 20%;" -->
+  alt="University of California @Davis logo."
+  style="border: 2px solid #000000; width: 20%;" />
 
 <h3>About this Course</h3>
 
@@ -242,85 +249,61 @@ function topFunction() {
 </script>
 -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~ Hoverable Dropdown Menu ~~-->
-<h2>
-<a href="#table-of-contents">Table of Contents</a>
-</h2>
-<h3 id="week-1-jquery-plugins-and-capturing-the-scroll-event"><a
-href="#ch1"><strong>Week 1: jQuery Plugins and Capturing the Scroll
-Event</strong></a></h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ hoverable dropdown menu ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2><a href="#table-of-contents">Table of Contents</a></h2>
+
+<h3><a href="#ch1"><strong>Week 1: jQuery Plugins and Capturing the Scroll Event</strong></a></h3>
+
 <blockquote>
-<h4 id="welcome"><a href="#ch1-01"><strong>1.01
-Welcome!</strong></a></h4>
-<h4 id="module-1-introduction"><a href="#ch1-02"><strong>1.02 Module 1
-Introduction</strong></a></h4>
-<h4 id="intro-to-jquery-plugins"><a href="#ch1-03"><strong>1.03 Intro to
-jQuery Plugins</strong></a></h4>
-<h4 id="using-plugins-and-essential-steps"><a
-href="#ch1-04"><strong>1.04 Using Plugins and Essential
-Steps</strong></a></h4>
-<h4 id="gotchas-and-rookie-mistakes"><a href="#ch1-05"><strong>1.05
-Gotchas and Rookie Mistakes</strong></a></h4>
+  <h4 id="welcome"><a href="#ch1-01"><strong>1.01 Welcome!</strong></a></h4>
+  <h4 id="module-1-introduction"><a href="#ch1-02"><strong>1.02 Module 1 Introduction</strong></a></h4>
+  <h4 id="intro-to-jquery-plugins"><a href="#ch1-03"><strong>1.03 Intro to jQuery Plugins</strong></a></h4>
+  <h4 id="using-plugins-and-essential-steps"><a href="#ch1-04"><strong>1.04 Using Plugins and Essential Steps</strong></a></h4>
+  <h4 id="gotchas-and-rookie-mistakes"><a href="#ch1-05"><strong>1.05 Gotchas and Rookie Mistakes</strong></a></h4>
 </blockquote>
+
 <!-- -   **1.05.jQueryPlugins.pdf** -->
 <ul>
-<li>
-<a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/W04DM/pdf-of-presentation" 
-    target="_blank" rel="noreferrer noopener">1.05.jQueryPlugins.pdf
-(PDF File)</a>
-</li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/W04DM/pdf-of-presentation" 
+    target="_blank" rel="noreferrer noopener">1.05.jQueryPlugins.pdf (PDF File)</a>
+  </li>
 </ul>
+
 <!--
 -   **1.05.FlexSliderBasic-Start.zip**
 -   **1.05.FlexSliderPlugin.zip**
 -->
 <ul>
-<li>
-<a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider" 
-    target="_blank" rel="noopener noreferrer">1.05.FlexSliderBasic-START.zip
-(ZIP File)</a>
-</li>
-<li>
-<a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider"
-    target="_blank" rel="noopener noreferrer">1.05.FlexSliderPlugin.zip
-(ZIP File)</a>
-</li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider" 
+    target="_blank" rel="noopener noreferrer">1.05.FlexSliderBasic-START.zip (ZIP File)</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider"
+    target="_blank" rel="noopener noreferrer">1.05.FlexSliderPlugin.zip (ZIP File)</a></li>
 </ul>
+
 <blockquote>
-<h4 id="flexslider-a-jquery-plugin"><a href="#ch1-06"><strong>1.06
-FlexSlider: A jQuery Plugin</strong></a></h4>
-<h4 id="about-the-minified-version"><a href="#ch1-07"><strong>1.07 About
-the Minified Version</strong></a></h4>
-<h4 id="adding-markup-hooking-up-the-slider"><a
-href="#ch1-08"><strong>1.08 Adding Markup &amp; Hooking Up the
-Slider</strong></a></h4>
-<h4 id="flexslider-rules"><a href="#ch1-09"><strong>1.09 FlexSlider
-Rules</strong></a></h4>
-<h4 id="additional-controls"><a href="#ch1-10"><strong>1.10 Additional
-Controls</strong></a></h4>
-<h4 id="advanced-flexslider"><a href="#ch1-11"><strong>1.11 Advanced
-FlexSlider</strong></a></h4>
-<h4 id="additional-styling"><a href="#ch1-12"><strong>1.12 Additional
-Styling</strong></a></h4>
-<h4 id="styling-the-cta"><a href="#ch1-13"><strong>1.13 Styling the
-CTA</strong></a></h4>
+  <h4><a href="#ch1-06"><strong>1.06 FlexSlider: A jQuery Plugin</strong></a></h4>
+  <h4><a href="#ch1-07"><strong>1.07 About the Minified Version</strong></a></h4>
+  <h4><a href="#ch1-08"><strong>1.08 Adding Markup &amp; Hooking Up the Slider</strong></a></h4>
+  <h4><a href="#ch1-09"><strong>1.09 FlexSlider Rules</strong></a></h4>
+  <h4><a href="#ch1-10"><strong>1.10 Additional Controls</strong></a></h4>
+  <h4><a href="#ch1-11"><strong>1.11 Advanced FlexSlider</strong></a></h4>
+  <h4><a href="#ch1-12"><strong>1.12 Additional Styling</strong></a></h4>
+  <h4><a href="#ch1-13"><strong>1.13 Styling the CTA</strong></a></h4>
 </blockquote>
+
 <!-- -   **1.13.FlexSlider.pdf** -->
 <ul>
-<li>
-<a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Hv9Tf/pdf-of-presentation">1.13.FlexSlider.pdf</a>
-</li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Hv9Tf/pdf-of-presentation">
+    1.13.FlexSlider.pdf</a></li>
 </ul>
-<h3 id="week-2-combining-scripts-and-skill-building-through-practice"><a
-href="#ch2"><strong>Week 2: Combining Scripts and Skill Building Through
-Practice</strong></a></h3>
+
+<h3><a href="#ch2"><strong>Week 2: Combining Scripts and Skill Building Through Practice</strong></a></h3>
+
 <blockquote>
-<h4 id="module-2-introduction"><a href="#ch2-01"><strong>2.01 Module 2
-Introduction</strong></a></h4>
-<h4 id="intro-to-smooth-scroll-with-jquery"><a
-href="#ch2-02"><strong>2.02 Intro to Smooth Scroll with
-jQuery</strong></a></h4>
+  <h4><a href="#ch2-01"><strong>2.01 Module 2 Introduction</strong></a></h4>
+  <h4><a href="#ch2-02"><strong>2.02 Intro to Smooth Scroll with jQuery</strong></a></h4>
 </blockquote>
+
 <!-- -   **2.02.jQueryScrollEffects-START.zip** -->
 <ul>
 <li>
@@ -595,8 +578,8 @@ image sliders.</p>
 <h3>Week Two:</h3>
 
 <h4>Combining Scripts and Skill Building Through Practice</h4>
-<p>
-In this module, you will be able to use jQuery to create a smooth scroll
+
+<p>In this module, you will be able to use jQuery to create a smooth scroll
 effect for in-page navigation, as well as develop a script, using
 jQuery, that keeps track of scroll positions on the page. You will be
 able to compare and contrast the in-page smooth scroll script and the
@@ -605,221 +588,199 @@ plain JavaScript. You will be able to build a webpage using HTML and CSS
 that will combine some of the different scripts created in this course.
 You will be able to combine some of the different scripts and jQuery
 plugins explored in this course into the Scription webpage through a
-series of challenges.
-</p>
-<h5>
-39 videos, 5 readings, 7 zip files
-</h5>
+series of challenges.</p>
+
+<h5>39 videos, 5 readings, 7 zip files</h5>
+
 <ol type="1">
-<li>Module 2 Introduction (:38)</li>
-<li>Introduction to Smooth Scroll with jQuery (4:15)</li>
+  <li>Module 2 Introduction (:38)</li>
+  <li>Introduction to Smooth Scroll with jQuery (4:15)</li>
 </ol>
+
 <ul>
-<li>
-<a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery" target="_blank" rel="noopener noreferrer">
-2.02.jQueryScrollEffects-START.zip (ZIP File)</a>
-</li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery" target="_blank" rel="noopener noreferrer">2.02.jQueryScrollEffects-START.zip (ZIP File)</a></li>
 </ul>
+
 <ol start="3" type="1">
-<li>Creating a Click Handler (5:00)</li>
-<li>Adding the Animation (6:56)</li>
-<li>Add Some Easing and a Callback Function (4:05)</li>
-<li>Highlighting Elements (5:22)</li>
+  <li>Creating a Click Handler (5:00)</li>
+  <li>Adding the Animation (6:56)</li>
+  <li>Add Some Easing and a Callback Function (4:05)</li>
+  <li>Highlighting Elements (5:22)</li>
 </ol>
+
 <ul>
-<li>
-<a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation">PDF
-of Presentation: 2.06.jQuerySmoothScroll.pdf</a>
-</li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation">PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</a></li>
 </ul>
+
 <ol start="7" type="1">
-<li>Introduction to Page Location Tracking (8:00)</li>
-<li>The Crux of the Problem (6:09)</li>
-<li>Strategy (8:27)</li>
-<li>Adding PageTop and If Statements (5:39)</li>
-<li>Writing the Else/If Statement - Part 1 (4:10)</li>
-<li>Writing the Else/If Statement - Part 2 (5:43)</li>
-<li>Edge Case Issues (5:07)</li>
-<li>Resizing Your Windows (5:41)</li>
-<li>Resetting the Counter (5:22)</li>
-<li>resetPagePosition Function (8:33)</li>
-<li>Reviewing the Whole Script (5:48)</li>
+  <li>Introduction to Page Location Tracking (8:00)</li>
+  <li>The Crux of the Problem (6:09)</li>
+  <li>Strategy (8:27)</li>
+  <li>Adding PageTop and If Statements (5:39)</li>
+  <li>Writing the Else/If Statement - Part 1 (4:10)</li>
+  <li>Writing the Else/If Statement - Part 2 (5:43)</li>
+  <li>Edge Case Issues (5:07)</li>
+  <li>Resizing Your Windows (5:41)</li>
+  <li>Resetting the Counter (5:22)</li>
+  <li>resetPagePosition Function (8:33)</li>
+  <li>Reviewing the Whole Script (5:48)</li>
 </ol>
+
 <ul>
-<li>
-2.17.jQueryPageLocationTracking.pdf (10 min’s)
-</li>
+  <li>2.17.jQueryPageLocationTracking.pdf (10 min’s)</li>
 </ul>
+
 <ol start="18" type="1">
-<li>Introduction to Scroll Effects with JS (6:04)</li>
+  <li>Introduction to Scroll Effects with JS (6:04)</li>
 </ol>
+
 <ul>
-<li>
-2.18.ScrollEffects-START.zip
-</li>
+  <li>2.18.ScrollEffects-START.zip</li>
 </ul>
+
 <ol start="19" type="1">
-<li>Getting the Target - Part 1 (4:50)</li>
-<li>Getting the Target - Part 2 (5:15)</li>
-<li>Smooth Scroll Polyfill (4:45)</li>
-<li>Checking the Load (6:48)</li>
-<li>Top Posts (5:35)</li>
-<li>Add an Event Listener (5:42)</li>
-<li>The Magic Conditionals (5:58)</li>
-<li>Changing the Next Link (5:56)</li>
-<li>Resizing Function (5:07)</li>
-<li>Finalizing the Script (10:01)</li>
+  <li>Getting the Target - Part 1 (4:50)</li>
+  <li>Getting the Target - Part 2 (5:15)</li>
+  <li>Smooth Scroll Polyfill (4:45)</li>
+  <li>Checking the Load (6:48)</li>
+  <li>Top Posts (5:35)</li>
+  <li>Add an Event Listener (5:42)</li>
+  <li>The Magic Conditionals (5:58)</li>
+  <li>Changing the Next Link (5:56)</li>
+  <li>Resizing Function (5:07)</li>
+  <li>Finalizing the Script (10:01)</li>
 </ol>
+
 <ul>
-<li>
-2.28.PDF of Presentation (10 min’s)
-</li>
+  <li>2.28.PDF of Presentation (10 min’s)</li>
 </ul>
+
 <ol start="29" type="1">
-<li>Scription Site Introduction (5:54)</li>
+  <li>Scription Site Introduction (5:54)</li>
 </ol>
+
 <ul>
-<li>
-zip_files:
-<ul>
-<li>
-2.29.Scription-Part1-START.zip
-</li>
-<li>
-2.29.Scription-Part1-Snippets.zip
-</li>
-<li>
-2.29.Scription-Part2-START.zip
-</li>
-<li>
-2.29.Scription-Part2-Snippets.zip
-</li>
-<li>
-2.29.Flexslider-files.zip
-</li>
-</li>
+  <li>zip_files:
+    <ul>
+      <li>2.29.Scription-Part1-START.zip</li>
+      <li>2.29.Scription-Part1-Snippets.zip</li>
+      <li>2.29.Scription-Part2-START.zip</li>
+      <li>2.29.Scription-Part2-Snippets.zip</li>
+      <li>2.29.Flexslider-files.zip</li>
+    </ul>
+  </li>
 </ul>
-</ul>
+
 <ol start="30" type="1">
-<li>Header HTML (5:09)</li>
-<li>Pricing HTML</li>
-<li>Beginning Styling</li>
-<li>Styling That Attaches to Whole Page</li>
-<li>Slider Styling</li>
-<li>Pricing Styles</li>
-<li>Tablet Styles</li>
-<li>Media Query for 1020 Pixels Wide</li>
-<li>Media Query for 1200 Pixels Wide</li>
-<li>Scription Site: Building Interactive Elements Challenges</li>
+  <li>Header HTML (5:09)</li>
+  <li>Pricing HTML</li>
+  <li>Beginning Styling</li>
+  <li>Styling That Attaches to Whole Page</li>
+  <li>Slider Styling</li>
+  <li>Pricing Styles</li>
+  <li>Tablet Styles</li>
+  <li>Media Query for 1020 Pixels Wide</li>
+  <li>Media Query for 1200 Pixels Wide</li>
+  <li>Scription Site: Building Interactive Elements Challenges</li>
 </ol>
+
 <ul>
-<li>
-2.39.Scription Finished Version
-</li>
-<li>
-2.39.PDF of Presentations
-</li>
+  <li>2.39.Scription Finished Version</li>
+  <li>2.39.PDF of Presentations</li>
 </ul>
-<h3>
-Week Three:
-</h3>
-<h4>
-Introduction to Objects &amp; Data in JavaScript
-</h4>
-<p>
-In this module, you will be introduced to the object literal and be able
+
+<h3>Week Three:</h3>
+
+<h4>Introduction to Objects &amp; Data in JavaScript</h4>
+
+<p>In this module, you will be introduced to the object literal and be able
 to demonstrate some of the ways to manipulate data inside objects. You
 will be able to develop good habits and processes that help with
 thinking about how to solve a programming problem, including breaking a
-problem down into smaller pieces.
-</p>
-<h5>
-11 videos, 4 readings
-</h5>
+problem down into smaller pieces.</p>
+
+<h5>11 videos, 4 readings</h5>
+
 <ol type="1">
-<li>Module Introduction</li>
-<li>Introduction to Objects and Data in JS</li>
+  <li>Module Introduction</li>
+  <li>Introduction to Objects and Data in JS</li>
 </ol>
+
 <ul>
-<li>
-3.02.Start Files: Working with Objects in JavaScript
-</li>
+  <li>3.02.Start Files: Working with Objects in JavaScript</li>
 </ul>
+
 <ol start="3" type="1">
-<li>Objects Can Contain Arrays and Other Objects</li>
-<li>Functions Inside Objects Equals Methods</li>
-<li>Putting Objects and Functions Together</li>
-<li>Data Formats - XML</li>
-<li>Example File</li>
+  <li>Objects Can Contain Arrays and Other Objects</li>
+  <li>Functions Inside Objects Equals Methods</li>
+  <li>Putting Objects and Functions Together</li>
+  <li>Data Formats - XML</li>
+  <li>Example File</li>
 </ol>
+
 <ul>
-<li>
-3.07.PDF of Presentations
-</li>
+  <li>3.07.PDF of Presentations</li>
 </ul>
+
 <ol start="8" type="1">
-<li>Introduction to Pig Dice Game</li>
+  <li>Introduction to Pig Dice Game</li>
 </ol>
+
 <ul>
-<li>
-3.08.Pig Dice Game Diagrams
-</li>
+  <li>3.08.Pig Dice Game Diagrams</li>
 </ul>
+
 <ol start="9" type="1">
-<li>Play the Game of Pig</li>
-<li>Version One</li>
-<li>Other Versions</li>
+  <li>Play the Game of Pig</li>
+  <li>Version One</li>
+  <li>Other Versions</li>
 </ol>
+
 <ul>
-<li>
-3.11.PDF of Presentations
-</li>
+  <li>3.11.PDF of Presentations</li>
 </ul>
-<h3>
-Week Four:
-</h3>
-<h4>
-Building a Simple Game in JavaScript
-</h4>
-<p>
-By building this game within this module, you will be able to practice
+
+<h3>Week Four:</h3>
+
+<h4>Building a Simple Game in JavaScript</h4>
+
+<p>By building this game within this module, you will be able to practice
 the JavaScript you have already learned while constructing a script with
 more functions and complexity. You will be able to then extend the
-script in many creative ways.
-</p>
-<h5>
-15 videos, 2 readings
-</h5>
+script in many creative ways.</p>
+
+<h5>15 videos, 2 readings</h5>
+
 <ol type="1">
-<li>Module Introduction</li>
-<li>Introduction to the Game of Pig</li>
+  <li>Module Introduction</li>
+  <li>Introduction to the Game of Pig</li>
 </ol>
+
 <ul>
-<li>
-4.02.Start Files: Game of Pig
-</li>
+  <li>4.02.Start Files: Game of Pig</li>
 </ul>
+
 <ol start="3" type="1">
-<li>Start the Game</li>
-<li>Set Up the Turn</li>
-<li>Throwing the Dice</li>
-<li>Test Throwing the Dice</li>
-<li>Add the Selection Statements</li>
-<li>Snake Eyes!</li>
-<li>A “1” Was Rolled</li>
-<li>The Else Statement</li>
-<li>Checking for a Win</li>
-<li>Show the Current Score</li>
-<li>Final Clean-Up</li>
-<li>Extending the Game</li>
+  <li>Start the Game</li>
+  <li>Set Up the Turn</li>
+  <li>Throwing the Dice</li>
+  <li>Test Throwing the Dice</li>
+  <li>Add the Selection Statements</li>
+  <li>Snake Eyes!</li>
+  <li>A “1” Was Rolled</li>
+  <li>The Else Statement</li>
+  <li>Checking for a Win</li>
+  <li>Show the Current Score</li>
+  <li>Final Clean-Up</li>
+  <li>Extending the Game</li>
 </ol>
+
 <ul>
-<li>
-4.14.PDF of Presentation
-</li>
+  <li>4.14.PDF of Presentation</li>
 </ul>
+
 <ol start="15" type="1">
-<li>Course Summary</li>
+  <li>Course Summary</li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-00">1.00 A Note from UC Davis</h2>
@@ -884,7 +845,8 @@ guidelines and the Coursera Honor Code here:</p>
 <h2 id="ch1-01">1.01. Welcome! Course Introduction (0:40)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. course intro (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="thumbnail displayed border"
+<img id="zoomA"
+  class="displayed border"
   src="./images/webp/image003.webp" 
   alt="1.01. Course Introduction."
   style="border: 2px solid #000000;width:40%;" />
@@ -895,17 +857,18 @@ JavaScript with you. Hopefully you've completed our first two courses on
 JavaScript and you've learned a lot about the syntax of JavaScript and
 how to solve problems with JavaScript. It takes a lot of practice to get
 good at this stuff.</p>
-I'm back again to do more with you to introduce some new concepts, to do
+<p>I'm back again to do more with you to introduce some new concepts, to do
 some new projects and to do some more sophisticated projects and give
 you even more practice. You get even better with JavaScript and jQuery.
 We're going to do a lot in this course. Let's break out our code editors
 and our web browsers and get started and learn even more about
-JavaScript.
+JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-02">1.02. Module Introduction</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. module 1 intro (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="thumbnail displayed border"
+<img id="zoomA"
+  class="displayed border"
   src="./images/webp/image004.webp" 
   alt="1.02. Module 1 Introduction."
   style="border: 2px solid #000000; width:40%;" />
@@ -922,7 +885,8 @@ elements on web pages and that's really pretty fun.</p>
 <h2 id="ch1-03">1.03. Introduction to jQuery Plugins (3:49)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. intro to jquery plugins (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="thumbnail displayed border"
+<img id="zoomA"
+  class="displayed border"
   src="./images/webp/image005.webp" 
   alt="1.03. Intro to jQuery Plugins."
   style="border: 2px solid #000000; width:40%;" />
@@ -930,7 +894,8 @@ elements on web pages and that's really pretty fun.</p>
 <p>Just as a quick recap, we've learned a lot of JavaScript so far.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. recap: javascript (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="thumbnail displayed border"
+<img id="zoomA"
+  class="displayed border"
   src="./images/webp/image006.webp" 
   alt="Recap: JavaScript."
   style="border: 2px solid #000000; width:40%;" />
@@ -946,7 +911,8 @@ basics, you can do quite a lot, but it might take you a long time to
 write the scripts that you want to do for your web page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. recap: jquery (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="thumbnail displayed border"
+<img id="zoomA"
+  class="displayed border"
   src="./images/webp/image007.webp" 
   alt="Recap: jQuery."
   style="border: 2px solid #000000; width:40%;" />
@@ -958,7 +924,8 @@ more compact, and a little bit easier. That helps and that makes things
 a little bit easier and a little bit better for all of us.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. introducing: plugins (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="thumbnail displayed border"
+<img id="zoomA"
+  class="displayed border"
   src="./images/webp/image008.webp" 
   alt="Introducing: Plugins."
   style="border: 2px solid #000000; width:40%;" />
@@ -984,7 +951,8 @@ through the use of a plugin, and that's really very powerful and really
 great.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. adding functionality (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="thumbnail displayed border"
+<img id="zoomA"
+  class="displayed border"
   src="./images/webp/image009.webp" 
   alt="Adding Functionality."
   style="border: 2px solid #000000; width:50%;" />
@@ -1006,32 +974,32 @@ could do that thing.</p>
 <h2 id="ch1-04">1.04. Using Plugins and Essential Steps (4:22)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 10. using plugins and essential steps (1.04) (13) ~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center">
-<img src="./images/webp/image010.webp"
+<img id="zoomA"
+  class="displayed border"
+  src="./images/webp/image010.webp"
   alt="1.04. Using Plugins and Essential Steps."
-  style="border: 2px solid #000000;" 
-  width="40%;" />
-</p>
+  style="border: 2px solid #000000; width:40%;" />
+
 <p>Using plugins and essential steps, adding plugins to your project,
 configuring them, and learning how to use them still takes some work and
 effort. But not nearly as much work and effort as it takes to write the
 whole script yourself.</p>
-Many of the larger, more sophisticated plugins require five steps to get
-them to work.
+<p>Many of the larger, more sophisticated plugins require five steps to get
+them to work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 11. using plugins and essential steps, #2 (13) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center">
-<img src="./images/webp/image011.webp" 
+<img id="zoomA"
+  class="displayed border"
+  src="./images/webp/image011.webp" 
   alt="Using Plugins and Essential Steps, #2."
-  style="border: 2px solid #000000;" 
-  width="50%;" />
-</p>
-<p><b><mark>[Step 1]</mark></b> is, you have to use the markup indicated
+  style="border: 2px solid #000000; width:50%;" />
+
+<p><b><mark>Step 1</mark></b> is, you have to use the markup indicated
 by the plugin documentation. Often, you'll have to use divs or our
 articles or other elements with particular classes that the plugin needs
 in order for it to actually work. Classes or IDs or other, structures
 that the plugin needs to work.</p>
-<p><b><mark>[Step 2]</mark>,</b> you need to make sure jQuery is linked.
+<p><b><mark>Step 2</mark>,</b> you need to make sure jQuery is linked.
 The jQuery libraries linked because if you're using a jQuery plugin,
 then you need to have jQuery decide if you're going to put your scripts
 at the top of the page or at the bottom of the page. Sometimes you can
@@ -1039,7 +1007,7 @@ put them whichever place you want, sometimes the plugin directions will
 tell you to put them in one place or the other. But frequently you can
 make your own decision on this and put it where you want it to go and
 architect your file the way you want it to be structured.</p>
-<p><b><mark>[Step 3]</mark>,</b> is to link the plugin file and when you
+<p><b><mark>Step 3</mark>,</b> is to link the plugin file and when you
 download a plugin, frequently it will come with a compressed version and
 an uncompressed version. The uncompressed version is there for you to
 look at so you could see how the plugin actually functions, it's
@@ -1049,13 +1017,13 @@ you want to use the compressed version because it will be smaller, and
 it'll download faster. So, if they provide a compressed one, then you
 should use that, if they don't provide a compressed one, you can
 compress it yourself.</p>
-<p><b><mark>[Step 4]</mark>,</b> link to the plug in CSS file, some of
+<p><b><mark>Step 4</mark>,</b> link to the plug in CSS file, some of
 the fancier plugins will come with styling that will style the elements
 inside of the plugin. And, this is usually included so that everything
 looks and works the way it's supposed to work within the interface for
 that plugin, so you want to make sure you get that CSS file linked onto
 your page.</p>
-Then <b><mark>[Step 5]</mark></b>, is you need to initialize the setup
+<p>Then <b><mark>Step 5</mark></b>, is you need to initialize the setup
 of the plugin in your own script tag, or on your own linked JavaScript
 file. Often, you can set additional options so that when the function is
 initialized, and so that you can pass in whichever options will get the
@@ -1064,14 +1032,13 @@ sure that this script loads last. So, the order of things are that you
 will have the markup for the jQuery plugin, then you'll have jQuery,
 then the jQuery plugin, and then you will initialize the plugin on your
 own script. And then also make sure that if there's any CSS files, those
-are included as well.
+are included as well.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. documentation mish-mash (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image012.webp"
   alt="Documentation Mish-Mash."
-  style="border: 2px solid #000000;" 
-  width="50%;" />
+  style="border: 2px solid #000000; width:50%;" />
 </p>
 <p>Suppose you find a jQuery plugin you want to try on your website, how
 do you go about adding it to your page? How do you know what to do?
@@ -1080,7 +1047,8 @@ developers, there's no real standard in terms of the documentation. This
 is where having a solid foundation in JavaScript really helps, because
 you need to look at the documentation they provide, and be able to tease
 it out and go okay, I understand what they're asking me to do here.</p>
-On this page they're telling me to install the plugin like this and then
+
+<p>On this page they're telling me to install the plugin like this and then
 add these configuration options, and so on and so forth. And unless you
 have some experience with JavaScript, it's going to look like a bunch of
 messy code and it's not going to make a lot of sense. So that's why it's
@@ -1089,7 +1057,7 @@ mess around with this stuff. But now that you do, and you'll see once
 you work with a few plugins that many of them work pretty much the same
 way. The documentation may look a little bit different; the directions
 may be written a little bit different, but it's the same basic steps
-each time.
+each time.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-05">
 1.05. Gotchas and Rookie Mistakes (8:52)
@@ -1100,17 +1068,16 @@ each time.
 <img src="./images/webp/image013.webp"
   alt="Gotchas and Rookie Mistakes."
   style="border: 2px solid #000000;" 
-  width="40%;" />
+  width:40%;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. gotchas and rookie mistakes, #2 (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image014.webp" 
   alt="Gotchas and Rookie Mistakes, #2."
-  style="border: 2px solid #000000;"
-  width="50%;" />
+  style="border: 2px solid #000000; width:50%;" />
 </p>
-<p><b><mark>[Number 1]</mark></b> on this list is the biggest one, I see
+<p><b><mark>Number 1</mark></b> on this list is the biggest one, I see
 this all the time, especially with students who are new to working with
 JavaScript in jQuery, and that is ending up with multiple copies of the
 jQuery library linked to your page.</p>
@@ -1136,7 +1103,7 @@ is the most common error that I see from students who are working with
 jQuery is the follow the directions and they wind up with multiple
 copies, different versions of the jQuery library plugged in. That's the
 number 1 Gotcha. It happens a lot.</p>
-<p>The second, <b><mark>[number 2]</mark></b> thing is file management.
+<p>The second, <b><mark>number 2</mark></b> thing is file management.
 When you download a plugin, sometimes plugins require other files,
 whether it's CSS files or maybe an images folder, fonts or something
 else. You want to make sure that when you put those files in your
@@ -1148,7 +1115,7 @@ the correct files and all the correct places for the plugin to work.
 That's <b>number 2</b>, those two issues comprise 90 percent of the
 problems that people have with plugins, it's probably those two
 problems.</p>
-<p>The next thing, <b><mark>[number 3]</mark></b> is top of the page
+<p>The next thing, <b><mark>number 3</mark></b> is top of the page
 versus bottom of the page. Make sure you're placing your plugins scripts
 in the correct place. Some of them may require you to load jQuery up at
 the top of the page. Usually, you can put them where you want as long as
@@ -1159,30 +1126,26 @@ before the closing body tag, or whether you're going to put the links to
 scripts up in the top of the page and maybe use the defer attribute to
 make sure they don't load into the whole page is loaded. Keep that in
 mind.</p>
-<p>Now, jQuery has a document ready method, <b><mark>[number
-4]</mark></b> that will check to see that the DOM is flooded before
-anything inside the <b>document_ready</b> function runs. That's just
-checking to make sure your HTML is loaded. Sometimes people will provide
-plugins and tell you to use the document ready function. You'll need
-that if you're up at the top of the page and you're not using the
-deferred attribute. But if you put it at the bottom of the page, you may
-not need it. There's also a window load method, and that's in older
-versions of jQuery version 2 and lower. It's now been replaced with
-<b>window.on</b> and the load and you pass in load as the event that
-we're looking for and then run an anonymous function, which is what we
-used in the previous lesson with the sliders. Be aware about these
-different functions, what they do, which versions of jQuery they work
-with and that stuff, because if you're reading the documentation for a
-plugin, it could be older documentation. If their documentation is
-telling you to use <b>window.load,</b> but you're using the most recent
-version of the jQuery library, you'll have to switch it to the
-<b>window.on</b> method and use that one instead. You want to make sure
-that you're using these functions properly. Really where you're going to
-use these is just where you're initializing your script. Has nothing to
-do with loading the actual script file or the plugin file. This is where
-you initialize your script on your page where you're tying the plugin to
-run. You'll need to make sure you use these functions properly.</p>
-Then the last, <b><mark>[number 5]</mark></b> is overriding CSS on your
+<p>Now, jQuery has a document ready method, <b><mark>number 4</mark></b> that will 
+check to see that the DOM is flooded before anything inside the <b>document_ready</b> 
+function runs. That's just checking to make sure your HTML is loaded. Sometimes people 
+will provide plugins and tell you to use the document ready function. You'll need that 
+if you're up at the top of the page and you're not using the deferred attribute. But 
+if you put it at the bottom of the page, you may not need it. There's also a window 
+load method, and that's in older versions of jQuery version 2 and lower. It's now been 
+replaced with <b>window.on</b> and the load and you pass in load as the event that
+we're looking for and then run an anonymous function, which is what we used in the 
+previous lesson with the sliders. Be aware about these different functions, what they 
+do, which versions of jQuery they work with and that stuff, because if you're reading 
+the documentation for a plugin, it could be older documentation. If their documentation 
+is telling you to use <b>window.load,</b> but you're using the most recent version of 
+the jQuery library, you'll have to switch it to the <b>window.on</b> method and use 
+that one instead. You want to make sure that you're using these functions properly. 
+Really where you're going to use these is just where you're initializing your script. 
+Has nothing to do with loading the actual script file or the plugin file. This is 
+where you initialize your script on your page where you're tying the plugin to run. 
+You'll need to make sure you use these functions properly.</p>
+<p>Then the last, <b><mark>number 5</mark></b> is overriding CSS on your
 stylesheet. If you want to customize the look of the plugin and you
 should put your rules that override the styles they've set on their
 specified CSS file, on your CSS file and then make sure your CSS file
@@ -1190,14 +1153,14 @@ loads last. That way, when your CSS loads, it will override the access
 on their stylesheet. You don't want to overwrite the styles on their
 access file because if you ever update the plugin files, you'll lose
 that and you'll have to do it again. You want to make sure you put it on
-your CSS file.
+your CSS file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. 5 items of beware the plugin (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <kbd> <img src="./images/webp/image015.webp" 
   alt="5 Items of Beware the Plugins."
-  style="border: 2px solid #000000;" 
-  width="50%;" /> </kbd>
+  style="border: 2px solid #000000; width:50%;" /> 
+</kbd>
 </p>
 <p>One last topic that I have to talk about before we're done with this
 lecture and plugins is just to beware of the plug in. Plugins can add
@@ -1212,21 +1175,20 @@ Rather than actually trying to solve our interaction design problem, we
 go look for a plugin that looks cool and interesting. That may not
 really be the right fit for a project just to avoid having to do some
 custom code. Watch out for that.</p>
-Also, plugins can be poorly written. They can have all bugs built into
+<p>Also, plugins can be poorly written. They can have all bugs built into
 them because they're made by other developers. You don't really know.
 You really have to test them out and research them, find out who else is
 using them, what problems if they had, what sorts of things work well
 with them. It'll take time to do the research, but probably less time
 than actually writing the code yourself from scratch if it's an
 extensive plugin. It's worth it to make sure that the plugin you're
-using is really worthwhile.
+using is really worthwhile.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. looking to the future (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image016.webp"
   alt="Looking to the Future."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px width:50%;" />
 </p>
 <p>Getting used to using other people's code now via jQuery plugins is a
 good preparation for the future. If you get deeper into JavaScript
@@ -1259,53 +1221,43 @@ jQuery Plugins PDF
 A <b>zip file</b> is defined as: a computer file whose contents include
 one or more files that are compressed for storage or transmission, often
 carrying the extension .ZIP.</p>
-<h4>
-START Files: FlexSlider &amp; jQuery Plugins
-</h4>
+
+<h4>START Files: FlexSlider &amp; jQuery Plugins</h4>
+
 <ul>
-<li>
-<a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider" 
-    target="_blank" rel="noopener noreferrer">1.05.FlexSliderBasic-START.zip
-(ZIP File)</a>
-</li>
-<li>
-<a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider"
-    target="_blank" rel="noopener noreferrer">1.05.FlexSliderPlugin.zip
-(ZIP File)</a>
-</li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider" 
+    target="_blank" rel="noopener noreferrer">1.05.FlexSliderBasic-START.zip (ZIP File)</a>
+  </li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider"
+    target="_blank" rel="noopener noreferrer">1.05.FlexSliderPlugin.zip (ZIP File)</a>
+  </li>
 </ul>
-<h4>
-Additional Resource:
-</h4>
+
+<h4>Additional Resource:</h4>
+
 <ul>
-<li>
-<a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/"
-    target="_blank" rel="noopener noreferrer">How to open a zip file for
-either Mac or PC</a>
-</li>
+  <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/"
+    target="_blank" rel="noopener noreferrer">How to open a zip file for either Mac or PC</a>
+  </li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-06">
-1.06. FlexSlider: A jQuery Plugin (6:38)
-</h2>
+<h2 id="ch1-06">1.06. FlexSlider: A jQuery Plugin (6:38)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. flexslider: a jquery plugin (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image017.webp" 
   alt="1.06. FlexSlider: A jQuery Plugin."
-  style="border: 2px solid black;"
-  width="40%;" />
+  style="border: 2px solid black; width:40%;" />
 </p>
-Now that we've talked about jQuery plug-ins a bit, let's take a look at
+<p>Now that we've talked about jQuery plug-ins a bit, let's take a look at
 one that we can use to add a significant amount of interface options to
-our page.
+our page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. basic flexslider (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/webp/image018.webp" 
   alt="Basic FlexSlider."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 <p>The FlexSlider is a good one to look at. Partially because we've been
 working on image sliders, so, we come to this with the context of having
@@ -1316,7 +1268,7 @@ The other thing that's nice about FlexSlider, it's called FlexSlider
 because it's a responsive slider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 19/20. responsive kittens for sale (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p align="center">
 <img src="./images/webp/image019.webp?raw=true"
   style="width:40%"
   alt="Responsive Kittens for Sale Web Page, #1." />
@@ -1324,21 +1276,20 @@ because it's a responsive slider.
   style="width:40%"
   alt="Responsive Kittens for Sale Web Page, #2." />
 </p>
+<p>
 I've opened up the page over here and you can see if I pull this off and
 resize it, the page is responsive and it squishes and stretches, and so,
 we can actually create a slider that will work for different screen
-sizes using FlexSlider. That's fun.
+sizes using FlexSlider. That's fun.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. markup for web site (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center">
 <img src="./images/webp/image021.webp" 
   alt="Markup for Kittens for Sale Web Page."
-  style="border: 2px solid gray;"
-  width="50%;" />
-</p>
-If you look at the markup, you'll notice that it's pretty basic. If you
+  style="border: 2px solid gray; width:50%;" />
+
+<p>If you look at the markup, you'll notice that it's pretty basic. If you
 download the start files that come with this lesson, I have in here some
-basic markup.
+basic markup.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 22/23. responsive kittens for sale (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10479,7 +10430,7 @@ you'll get more practice. So I look forward to seeing you there.
 .the end…
 </p>
 <h6>
-Last Updated 1/25/2024 2:15pm
+Last Updated 1/25/2024 4:27pm
 </h6>
 </body>
 </html>
