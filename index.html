@@ -174,6 +174,23 @@
       vertical-align: middle;
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  <!-- img-hover-zoom -->
+  /* [1] The container */
+  .img-hover-zoom {
+    height: 300px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+
   </style>
   <!-- jquery magnify -->
   <!-- jQuery -->
@@ -1454,7 +1471,7 @@ you understand this.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. minified vs non-minified (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <div class="img-hover-zoom">
-  <img src="./images/image036.jpg" alt="This zooms-in really well and smooth">
+  <img src="./images/image036.png" alt="Minified vs Non-Minified jQuery FlexSlider.js.">
 </div>
 <!--
 <img src="./images/image036.png"
@@ -5346,7 +5363,7 @@ When I get to that second section, and that second section it's 250 pixels from 
 of the screen. The down says scrolling down too. It's into the 250 pixels that did it. 
 Should be doing it. There, I see what I did wrong.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 317. section break + 250 as scroll (164) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 317. section break + 250 as scroll (165) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <div class="img-hover-zoom">
 <img src="./images/image317.png"
   alt="Scroll up/down for section break pixel count." >
@@ -5358,7 +5375,7 @@ go. Lets try that. Scroll to the top of the page, there we go. Now when I get to
 two, scrolling down too, when that is 250 pixels from the top of the page, it hits it and 
 says okay.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 318/319. section identifier; 1 thru 5 (164) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 318/319. section identifier; 1 thru 5 (165) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image318.png"
   style="width:45%;"
@@ -5376,7 +5393,7 @@ to do with the jQuery version as well, and that's what makes the script very pow
 because only when those things happen, we're going to make other things happen on the 
 page. Not for every single pixel that we scroll.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 320. example, changing the nav links (165) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 320. example, changing the nav links (166) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image320.png"
   alt="Example, changing the nav links."
