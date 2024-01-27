@@ -1,36 +1,36 @@
 /* styles.css from UC-Davis-Inter-jQuery of github.com/bbauska/ */
 body {
-	font-family: Arial;
-	color: #333;
-	/*padding-top: 200px;*/
+  font-family: Arial;
+  color: #333;
+  /* padding-top: 200px; */
 }
 
 header {
-	background:rgba(217,217,217,0.9);
-	width: 100%;
-	/*position: fixed;*/
-	top: 0;
-	height: 160px;
+  background:rgba(217,217,217,0.9);
+  width: 100%;
+  /* position: fixed; */
+  top: 0;
+  height: 160px;
 }
 
 header h1 {
-	text-align: center;
+  text-align: center;
 }
 
 p {
-	line-height: 1.5em;
+  line-height: 1.5em;
 }
 
 img {
-	display: block;
-	max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 section {
-	width: 95%;
-	margin: 0 auto 150px auto;
-	padding: 25px;
-	box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+  width: 95%;
+  margin: 0 auto 150px auto;
+  padding: 25px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
 }
 
 /*************** Navigation Styles ***************/
