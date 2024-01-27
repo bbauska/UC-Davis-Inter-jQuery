@@ -19,176 +19,43 @@
   
   <title>University of California @Davis Interactivity with JavaScript and jQuery</title>
   <link rel="stylesheet" type="text/css" href="./css/styles.css">
-  <h1 style="text-align:center;">Interactivity with JavaScript and jQuery</h1>
-  <h6 style="text-align:center;">(by William Mead, Lecturer - University of California 
-  <span class="citation" data-cites="Davis">@Davis</span>)</h6>
-  <style>
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 12px;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      html {
-        background-color: white;
-      }
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-      font-size: 85%;
-      margin: 0;
-      hyphens: manual;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
-  <!-- jquery magnify -->
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <!-- easyZoom JS -->
-  <script type="text/javascript" src="dist/easyzoom.js"></script>
-  <!-- end of jquery magnify -->
 </head>
 <body>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+  <script>
+    <!-- get the button -->
+    var mybutton = document.getElementById("myBtn");
 
+    <!-- when the user scrolls down 10px from the top of the document, show the "Top" button -->
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    <!-- when the user clicks on the button, scroll to the top of the document. 0,0 or to top of -->
+    <!-- menu button (2120 on other example) -->
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+<header id="title-block-header">
+
+  <h1 style="text-align:center;" class="title">Interactivity with JavaScript and jQuery</h1>
+  <h6 style="text-align:center;">(by William Mead, Lecturer - University of California 
+    <span class="citation" data-cites="Davis">@Davis</span>)</h6>
+
+</header>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. jquery logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -10438,14 +10305,15 @@ score. We don't need to do the top part of this IF statement here, we just
 need to do this bottom part which is showing the current score.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 682/683. best practices throw dice function (344) ~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image682.png"
-  style="width:45%;"
+<img class="border"
+  src="./images/image682.png"
+  style="width:40%; float: left; margin-left: 5%; margin-bottom: 1em;"
   alt="Optimize JavaScript functions using best practices." />
-<img src="./images/image683.png"
-  style="width:45%;"
+<img class="border"
+  src="./images/image683.png"
+  style="width:40%; float: left; margin-left: 5%; margin-bottom: 1em;"
   alt="If function is used more than once, split off." />
-</p>
+<p style="clear: both;"></p>
 
 <p>I think the next thing I wanted to talk about is this throw dice
 function is really long. Now, you could potentially break out these IF
@@ -10466,14 +10334,15 @@ selection statement, if/else, if and the else statement and make that
 into a separate function that runs here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 684/685. script.js with all functions (345) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image684.png"
-  style="width:45%;"
+<img class="border"
+  src="./images/image684.png"
+  style="width:40%; float: left; margin-left: 5%; margin-bottom: 1em;"
   alt="Separate JS code into script.js for best practices." />
-<img src="./images/image685.png"
-  style="width:45%;"
+<img class="border"
+  src="./images/image685.png"
+  style="width:40%; float: left; margin-left: 5%; margin-bottom: 1em;"
   alt="Move all functions into one script file for ease." />
-</p>
+<p style="clear: both;"></p>
 
 <p>The next thing to do is to apply some of our best practices to this,
 which would be to create a separate script file because now we got a
@@ -10490,11 +10359,10 @@ strict</b> directive to make sure I didn't screw up in any of my
 variables and then paste everything here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 686. change vars to const in javascript (346) ~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image686.png"
-  style="width:50%;"
-  alt="Update all var to const to speed things up." />
-</p>
+<img class="displayed"
+  src="./images/image686.png?raw=true"
+  alt="Update all var to const to speed things up."
+  style="width:50%" />
 
 <p>So that puts everything in there, and then you could go through, and you
 could change all of these <b>vars</b> to <b>const</b>. And in fact in
@@ -10504,11 +10372,10 @@ but the actual function, the actual variable doesn't change. That can be
 a constant as well.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 687. differ script.js (346) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image687.png"
-  style="width:50%;"
-  alt="Use the differ attribute with script.js." />
-</p>
+<img class="displayed"
+  src="./images/image687.png?raw=true"
+  alt="Use the differ attribute with script.js."
+  style="width:50%" />
 
 <p>So we saved that, and then we come over here, and we move this up,
 and we're going to link to <b>src=“script.js”</b>. And you could move
@@ -10520,20 +10387,18 @@ that in the next lesson, and you've got a working game here.</p>
 <h2 id="ch4-14">4.14 Extending the Game (6:21)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 688. extending the game (module 4.14) (347) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image688.png"
+<img class="displayed"
+  src="./images/image688.png?raw=true"
   alt="4.14. Extending the Game."
-  style="border: 2px solid #000000; width:40%;" />
-</p>
+  style="width:40%" />
 
 <p>Extending the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 689. easy ways to extend the game (module 4.14) (347) ~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image689.png"
+<img class="displayed"
+  src="./images/image689.png?raw=true"
   alt="Easy ways to extend the game."
-  style="border: 2px solid #000000; width:50%;" />
-</p>
+  style="width:50%" />
 
 <p>Now you have a pig day scheme that works and functions and it's pretty
 basic and that's great because we were able to plan and strategize a way
@@ -10548,12 +10413,11 @@ that you will take this and run with it and do some interesting things with it. 
 given you some ideas for some things you could do that are not too hard and some that 
 are more challenging if you really want to try to do them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 690. easy ways to extend the game (module 4.14) (348) ~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image690.png"
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 690. easy ways to extend the game (348) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image690.png?raw=true"
   alt="Easy ways to extend the game."
-  style="border: 2px solid #000000; width:40%;" />
-</p>
+  style="width:40%" />
 
 <p>The first is when you roll a one, it zeros out the cumulative score for
 that turn. If you think about this game the way it is now over here,
@@ -10563,12 +10427,13 @@ strategic reason to ever click pass. But what if you roll the one, you
 lose all of the points that you gained during that turn.</p>
 
 <p>Remember, rolling two ones loses all the points you've got in the game
-so far, but rolling one one could lose all the points you've gained for
-the turn. If you've got a couple of big rolls in there, you've rolled
-the nine, you've this 12 or whatever. Now pass could be strategically
+so far, but rolling one would lose all the points you've gained for
+that turn. If you've got a couple of big rolls in there, you've rolled
+the nine, you've got this 12 or whatever. Now pass could be strategically
 something that you want to do. Again, it's still just dumb luck as to
-whether you're going to win or lose, but pass could be more strategic.
-If you were going to do that, if you were going to add that feature into
+whether you're going to win or lose, but pass could be more strategic.</p>
+
+<p>If you were going to do that, if you were going to add that feature into
 this game, what would you need to do? What would you need to add? I
 don't think it would be all that difficult. I think you could go back to
 your object up here, and you could create another variable that says,
@@ -10633,17 +10498,17 @@ excellent versions people have made of the big game.</p>
 
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/QxK0k/pdf-of-presentation">
-    4.14.Game-of-Pig.pdf</a></li>
+    4.14.Game-of-Pig.pdf</a>
+  </li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-15">Course Summary (0:57)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 691. course summary: interactivity with javascript and jquery (350) ~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image691.png"
+<img class="displayed"
+  src="./images/image691.png?raw=true"
   alt="Course Summary: Interactivity with JavaScript and jQuery."
-  style="border: 2px solid #000000; width:40%;" />
-</p>
+  style="width:40%" />
 
 <p>Congratulations for making it to the end of our third course on
 JavaScript and therefore, of course, specialization. We've done a lot.
@@ -10663,7 +10528,27 @@ you'll get more practice. So I look forward to seeing you there.</p>
 
 <p>.the end…</p>
 
-<h6>Last Updated 1/25/2024 11:27pm</h6>
+<h6>Last Updated 1/26/2024 9:11pm</h6>
 
 </body>
 </html>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ ###.  (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--
+<img class="displayed"
+  src="./images/image###.png?raw=true"
+  alt="."
+  style="width:50%" />
+  
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ###-/###.  (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--
+<img class="border"
+  src="./images/imageXXX.png"
+  style="width:40%; float: left; margin-left: 5%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
+  src="./images/imageXXX.png"
+  style="width:40%; float: left; margin-left: 5%; margin-bottom: 1em;"
+  alt="." />
+<p style="clear: both;"></p>
