@@ -329,7 +329,7 @@ ul.task-list li input[type="checkbox"] {
 
 /* [1] The container */
 .img-hover-zoom {
-  height: 300px; /* [1.1] Set it as per your need */
+  height: 400px; /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
 
@@ -341,12 +341,6 @@ ul.task-list li input[type="checkbox"] {
 /* [3] Finally, transforming the image when container gets hovered */
 .img-hover-zoom:hover img {
   transform: scale(1.5);
-}
-
-/* The Image container */
-.img-hover-zoom {
-  height: 400px; /* Modify this according to your need */
-  overflow: hidden; /* Removing this will break the effects */
 }
 
 /* Quick-zoom Container */
