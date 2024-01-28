@@ -8849,7 +8849,7 @@ but at this point, I just have them in the main folder and that's fine.</p>
 <p>Then over here, I have the page loaded up so we can actually test the
 page here, and see how things are working as we go along, and work on
 the page here.</p>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 587.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center">
 <img src="./images/image587.png"
@@ -8884,11 +8884,10 @@ these elements. Make sure you get this code in here first, because these are the
 different parts of the board that we're going to need for our script.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 589.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image589.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<img class="displayed"
+  src="./images/image589.png?raw=true"
+  alt="."
+  style="width:50%" />
 
 <p>The next thing that you're going to need is an <b>object</b> to keep
 track of the data in the game. This is a perfect use for an
@@ -8927,11 +8926,10 @@ Or later you could bump that up to 100 or something like that, to a
 score that's maybe a little bit more reasonable for the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 590.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image590.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<img class="displayed"
+  src="./images/image590.png?raw=true"
+  alt="."
+  style="width:50%" />
 
 <p>But let's go ahead and get this into our script file. I'm not pasted
 in, you're going to have to type it, but I'm going to pasted in here so
@@ -8954,45 +8952,41 @@ and labeled properly. We're on our way to creating the pig game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-03">4.03 Start the Game (7:50)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 591.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image591.png"
-  style="width:40%;"
-  alt="." />
-</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 591. start the game (4.03) (299) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image591.png?raw=true"
+  alt="4.03. Start the Game."
+  style="width:40%" />
 
 <p>Next we're going to start the game. And again when I was developing
 this, I started with what happens when somebody throws the dice? But, I
 think for the purposes of building our game from start to finish, it
 helps to just start at the top and start at the beginning.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 592.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image592.png"
-  style="width:40%;"
-  alt="." />
-</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 592. test, click handler - game of pig (299) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image592.png?raw=true"
+  alt="Test, Game of Pig."
+  style="width:50%" />
 
 <p>So, when somebody clicks this button here, we want to start the game. I
 need to add a click handler for this button. I'm going to add an event
 handler for clicking to the start game button.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 593.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image593.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 593. start game! (300) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image593.png?raw=true"
+  alt="Start Game!"
+  style="width:50%" />
 
 <p>So let's do that first, we have our start game button defined here,
 which goes in and gets this button here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 594.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image594.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<!--~~~~~~~~~~~~~~~~~~~ 594. new script: startgame.addeventlistener() (300) ~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image594.png?raw=true"
+  alt="New script: startGame.addEventListener()"
+  style="width:50%" />
 
 <p>So, we're going to add in our script start game out event listener, and
 we're looking for a click, and we're going to run a function. Like so,
@@ -9002,12 +8996,11 @@ here now. Change index, or randomly select index whatever we want to put
 in there, just we're going to have to handle that. But before I do that,
 I want to first just sort of get the correct html on the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 595.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image595.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 595. gamecontrol.innerhtml (301) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image595.png?raw=true"
+  alt="gameControl.innerHTML = h2 and button id."
+  style="width:50%" />
 
 <p>So, up here at the top of my page in this section called game control
 here, I want to get now that I've clicked the button. I don't really
@@ -9029,13 +9022,12 @@ then double quotes there. Alternatively, you could use the tick marks on
 either end as well. Make sure you get your html right, okay. So we're
 going to add that in there, that's great.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 596.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image596.png"
-  style="width:65%;"
-  alt="." />
-</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~ 596. event listener for click quit button (302) ~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image596.png?raw=true"
+  alt="Add event listener for quit button."
+  style="width:50%" />
+  
 <p>And now I just need an event listener for when somebody clicks the quick
 button. So I'm going to say, document can I get element by id,
 quit.AddEventListener, when you click that we're going to run a
@@ -9044,15 +9036,16 @@ just going to do location.reload. And that refreshes the page, and then
 you go back to the way the page was before. Okay, great, so when you
 click the button, these things will happen and we'll get that working.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 597/598.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image597.png"
-  style="width:45%;"
-  alt="." />
-<img src="./images/image598.png"
-  style="width:45%;"
-  alt="." />
-</p>
+<!--~~~~~~~~~~~~~~~~~~~~~ 597/598. test, game of pig, quit? and start (302) ~~~~~~~~~~~~~~~~~~~~-->
+<img class="border"
+  src="./images/image597.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
+  alt="Test, Game of Pig, do you want to quit?" />
+<img class="border"
+  src="./images/image598.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
+  alt="Test, Randomly Pick the First Player, and Start the Game." />
+<p style="clear: both;"></p>
 
 <p>Let's just test this much and see if it works. If I come over here,
 click refresh, when I click that I get the game has started, when I
@@ -9060,13 +9053,12 @@ click do you want to quit? It just refreshes the page, and puts it back
 so that's working just fine the way it is. When the test is frequently
 as we can there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 599.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image599.png"
-  style="width:50%;"
-  alt="." />
-</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 599. gamdata index array creation (303) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image599.png?raw=true"
+  alt="gameData index; player 1 or player 2, running score, rolls, etc."
+  style="width:50%" />
+  
 <p>Now, the last bit is I also want to set that game index, the game
 data index, I want to set that so that we can see that we're getting a
 random player. So game data, is this object here. And so I'm going to
@@ -9081,14 +9073,16 @@ that. So <b>Math.random</b> will pick a random number from 0 to 1. And
 log so that we can really see what that's doing console.log
 gameData.index, what is the value there and we'll test that and see.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 600/601.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image600.png"
-  style="width:45%;"
-  alt="." /> <img src="./images/image601.png"
-  style="width:45%;"
-  alt="." />
-</p>
+<!--~~~~~~~~~~~~~~~~~~ 600/601. inspect, console, random start, 0 or 1 (304) ~~~~~~~~~~~~~~~~~~~-->
+<img class="border"
+  src="./images/image600.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
+  alt="Inspect, console, random pick who starts game, 0." />
+<img class="border"
+  src="./images/image601.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
+  alt="Inspect, console, random pick who starts game, 1." />
+<p style="clear: both;"></p>
 
 <p>So let's come over here and I'm going to refresh the page to turn on my
 inspector so I can get to the console log, console and randomly and I
@@ -9103,21 +9097,19 @@ in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-04">4.04 Set Up the Turn (6:39)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 602.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image602.png"
-  style="width:40%;"
-  alt="." />
-</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 602. set up the turn (4.04) (304) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image602.png?raw=true"
+  alt="4.04. Set Up the Turn."
+  style="width:40%" />
 
 <p>The next thing we need to do is set up the turn.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 603.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image603.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 603.  (305) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image603.png?raw=true"
+  alt="."
+  style="width:50%" />
 
 <p>We're going to create a <b>function</b> for that and remember, we're
 going to have three basic functions in this game. One of them is
@@ -9126,15 +9118,16 @@ we'll have one for checking the winning condition. It's really the way
 these three functions work together that are going to determine how this
 game works.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 604/605.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image604.png"
-  style="width:45%;"
-  alt="." />
-<img src="./images/image605.png"
-  style="width:45%;"
-  alt="." />
-</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 604/605.  (305) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border"
+  src="./images/image604.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
+  alt="Test score console.log 0 to 8." />
+<img class="border"
+  src="./images/image605.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
+  alt="Again, test score console log 0 to 8." />
+<p style="clear: both;"></p>
 
 <p>The first thing we're going to do really is the <b>setUpTurn</b>
 function, and in that function we'll take game and we're going to set it
@@ -9187,11 +9180,10 @@ to see if that's going to work. But we're going to run set up the term
 there so that we can get ready to roll the dice and see how that works.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 606.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image606.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<img class="displayed"
+  src="./images/image606.png?raw=true"
+  alt="."
+  style="width:50%" />
 
 <p>Let's test it. If we come over here and refresh the page, randomly
 picked the first player, roll the dice for player two, I get a button,
@@ -9203,23 +9195,21 @@ to roll the dice.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-05">4.05 Throwing the Dice (9:57)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 607.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image607.png"
-  style="width:40%;"
-  alt="." />
-</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 607. throwing the dice (4.05) (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image607.png?raw=true"
+  alt="4.05. Throwing the Dice."
+  style="width:40%" />
 
 <p>Throwing the dice. This is the core function in this program, and it's
 the big function, it's going to take us some time to get this function
 all working properly.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 608.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image608.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<img class="displayed"
+  src="./images/image608.png?raw=true"
+  alt="."
+  style="width:50%" />
 
 <p>But we're going to get it started here. At this point, what we're doing
 is we're going to clear out that <b>actionArea</b>, anything that's in
@@ -9231,11 +9221,10 @@ dice. Then we'll also sum up the total of those two dice and put that
 into the <b>rollSum</b> property in the <b>gameData object</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 609.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image609.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<img class="displayed"
+  src="./images/image609.png?raw=true"
+  alt="."
+  style="width:50%" />
 
 <p>Let's go ahead and get this started because this is an important one
 to do. I'm going to add a function, function <b>throwDice(){}</b>, and
@@ -9266,11 +9255,10 @@ don't want a zero, we want it always to be a 1, 2, 3, 4, 5, or 6 to
 match our numbers up there for our dice.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 610.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image610.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<img class="displayed"
+  src="./images/image610.png?raw=true"
+  alt="."
+  style="width:50%" />
 
 <p>That's our roll 1. Roll 2 is exactly the same thing, we're going to
 generate a new random number for that. Then we need to set a message on
@@ -9291,11 +9279,10 @@ just going to be this one again. This will be player 1, or player 2
 here, that gets put in there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 611.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image611.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<img class="displayed"
+  src="./images/image611.png?raw=true"
+  alt="."
+  style="width:50%" />
 
 <p>The next thing we need are the actual pictures of the dice. That's going
 to go inside the same div, so I'm going to do game.innerHTML, plus
@@ -9315,11 +9302,10 @@ prefer to have double quotes here I think. Quote there, double quotes,
 add an extra one for me.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 612.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image612.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<img class="displayed"
+  src="./images/image612.png?raw=true"
+  alt="."
+  style="width:50%" />
 
 <p>There we go. That will put in our source and really be good to have an
 attribute as well for good HTML equals "die". You could even do this
@@ -9335,32 +9321,29 @@ the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-06">4.06 Test Throwing the Dice (5:22)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 613.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image613.png"
-  style="width:40%;"
-  alt="." />
-</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 613. test throwing the dice (4.06) (3xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image613.png?raw=true"
+  alt="4.06. Test Throwing the Dice."
+  style="width:40%" />
 
 <p>You've started your dice throwing function, so let's test it and see if it works.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 614.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image614.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<img class="displayed"
+  src="./images/image614.png?raw=true"
+  alt="."
+  style="width:50%" />
 
 <p>All we really need to do to test it, is replace the console log in the
 set up the turn function, and replace it with the throw the dice
 function. Let's take a look and see how that works.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 615.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image615.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<img class="displayed"
+  src="./images/image615.png?raw=true"
+  alt="."
+  style="width:50%" />
 
 <p>All I need is to take this function here and copy it, and put it up
 here. Actually there's another console log up here, let me just stick it
@@ -9373,11 +9356,10 @@ thing there. Let's see what that gives us. Let's save this and come over
 here and test it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 616.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image616.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<img class="displayed"
+  src="./images/image616.png?raw=true"
+  alt="."
+  style="width:50%" />
 
 <p>Now, if I refresh and randomly pick a player that can roll the dice,
 oops, error, file not found, 6die.jpgalt. I can see right here that I
@@ -9385,11 +9367,10 @@ forgot to close mine. This is very easy to have that happen when you're
 working with HTML inside of the string.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 617.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image617.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<img class="displayed"
+  src="./images/image617.png?raw=true"
+  alt="."
+  style="width:50%" />
 
 <p>I can see right here what's gone wrong. I can see that I forgot to close
 something so it thinks that my whole image has this name on here, which
@@ -9398,13 +9379,15 @@ quote here. It's in one double quote, and I'll add two, but you have to
 delete one of them there. There we go, save that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 618/619.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image618.png"
-  style="width:45%;"
-  alt="." /> <img src="./images/image619.png"
-  style="width:45%;"
+<img class="border"
+  src="./images/image618.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
   alt="." />
-</p>
+<img class="border"
+  src="./images/image619.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
+  alt="." />
+<p style="clear: both;"></p>
 
 <p>Roll the dice. Now, I've got two dice and it showed up and I can say,
 "Do you want to quit?" and start again, Roll the dice and make it two
@@ -9415,11 +9398,10 @@ some has in it or would any other variable in there has if you're just
 curious to see what's in there, you can save that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 620.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image620.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<img class="displayed"
+  src="./images/image620.png?raw=true"
+  alt="."
+  style="width:50%" />
 
 <p>Up here, maybe I don't need this one anymore. The one that's giving me one and two, 
 you just comment it out or you can delete it, you do whatever you want to it. We don't 
@@ -9429,11 +9411,10 @@ again, that's something and got 12. Unfortunately, to do it again at this point,
 have to click the button or just click refresh. In here I got 5, 1 plus 4 is 5.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 621.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image621.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<img class="displayed"
+  src="./images/image621.png?raw=true"
+  alt="."
+  style="width:50%" />
 
 <p>I'm going to move this inspector to the side and it's going to be easier
 to see what's going on if it's there. That's all working and working
@@ -9442,11 +9423,10 @@ two dice are roll and randomly we generate those two images and display
 them on the page, and that's fine.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 622.  (314) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image622.png"
-  style="width:50%;"
-  alt="." />
-</p>
+<img class="displayed"
+  src="./images/image622.png?raw=true"
+  alt="."
+  style="width:50%" />
 
 <p>Now, the next thing to do is to figure out, what do we do from here? We
 need an if statement. You need some if statement that says, if two 1s
@@ -9458,18 +9438,18 @@ something else, we need to swap.</p>
 <h2 id="ch4-07">4.07 Add the Selection Statements (3:37)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 623. add the selection statements (4.07) (315) ~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image623.png"
-  style="width:40%;"
+<img class="displayed"
+  src="./images/image623.png?raw=true"
+  style="width:40%"
   alt="4.07. Add the Selection Statements." />
 </p>
 
 <p>We're going to add if statements into our throw dysfunction here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 624. roll a two? or not? (315) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image624.png"
-  style="width:50%;"
+<img class="displayed"
+  src="./images/image624.png?raw=true"
+  style="width:50%"
   alt="Roll a two? Or not." />
 </p>
 
@@ -9479,22 +9459,20 @@ as a two, then we're going to say something like console log, snake eyes. We'll 
 this out later with more specific instructions.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 625. test, game of pig (316) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image625.png"
-  style="width:50%;"
+<img class="displayed"
+  src="./images/image625.png?raw=true"
+  style="width:50%"
   alt="Test, Game of Pig." />
-</p>
 
 <p>But for right now I just want to know, I just want to capture that situation and then 
 we've got an else if. Yeah and we want to check two values. We want to check the value of 
 roll one and the value of roll two and if either one of them comes up a one, we want to do.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 626. test, game of pigs (316) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image626.png"
-  style="width:50%;"
+<img class="displayed"
+  src="./images/image626.png?raw=true"
+  style="width:50%"
   alt="Test, Game of Pig." />
-</p>
 
 <p>So that will come back true if either one of them is a one. So the way to do that is 
 to say if game data dot roll one is the same as one or there's two pipes, game data dot 
@@ -9504,19 +9482,20 @@ copy this, paste it and saying the game continues, Roll again or pass and we'll 
 with that separately.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 627/628. test, game of pig (317) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image627.png"
-  style="width:45%;"
-  alt="Test, game of pig." />
-<img src="./images/image628.png"
-  style="width:45%;"
-  alt="Test, game of pig." />
-</p>
+<img class="border"
+  src="./images/image627.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
+  alt="Test, Game of Pig." />
+<img class="border"
+  src="./images/image628.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
+  alt="Test, Game of Pig." />
+<p style="clear: both;"></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 629. test, game of pig (317) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image629.png"
-  style="width:40%;"
+<img class="displayed"
+  src="./images/image629.png?raw=true"
+  style="width:50%"
   alt="Test, game of pig." />
 </p>
 
@@ -9530,29 +9509,27 @@ of those things checked.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-08">4.08 Snake Eyes! (7:11)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 630. snake eyes! (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image630.png"
-  style="width:40%;"
-  alt="Snake Eyes!" />
-</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 630. snake eyes! (4.08) (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image630.png?raw=true"
+  alt="4.08. Snake Eyes!"
+  style="width:40%" />
 
 <p>Let's handle Snake Eyes first.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 631. snake eyes! (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image631.png"
-  style="width:50%;"
-  alt="Snake Eyes!" />
-</p>
+<img class="displayed"
+  src="./images/image631.png?raw=true"
+  alt="Snake Eyes!"
+  style="width:50%" />
 
 <p>We'll fill out each of these if statements, but we'll do Snake Eyes first. If we get 
 a 2, let's deal with that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 632. add to the innerhtml of the game (319) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image632.png"
-  style="width:50%;"
+<img class="displayed"
+  src="./images/image632.png?raw=true"
+  style="width:50%"
   alt="Add to the innerHTML of the game." />
 </p>
 
@@ -9737,6 +9714,16 @@ That goes back and forth. Then down here we just need to set time out
 and runs out of time again. That will work, that should work just fine.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 643/644. test, roll the dice (226) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border"
+  src="./images/image667.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
+  alt="Test score console.log 0 to 8." />
+<img class="border"
+  src="./images/image668.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
+  alt="Again, test score console log 0 to 8." />
+<p style="clear: both;"></p>
+
 <p style="align:center">
 <img src="./images/image643.png"
   style="width:45%;"
@@ -9873,6 +9860,16 @@ it a 2 in a 6, that adds up to 8. I don't have any scoring going on down
 here yet, but I can choose roll again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 653/654. game of pig; roll dice (333) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border"
+  src="./images/image667.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
+  alt="Test score console.log 0 to 8." />
+<img class="border"
+  src="./images/image668.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
+  alt="Again, test score console log 0 to 8." />
+<p style="clear: both;"></p>
+
 <p style="align:center">
 <img src="./images/image653.png"
   style="width:45%;"
@@ -9887,6 +9884,16 @@ to player 2. Roll the dice, I got a 2 and a 4, I can click roll again and I'm st
 player 2 and I can roll the dice again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 655/656. game of pig; roll dice (334) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border"
+  src="./images/image667.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
+  alt="Test score console.log 0 to 8." />
+<img class="border"
+  src="./images/image668.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
+  alt="Again, test score console log 0 to 8." />
+<p style="clear: both;"></p>
+
 <p style="align:center">
 <img src="./images/image655.png"
   style="width:45%;"
@@ -9925,6 +9932,16 @@ a function for that called <b>checkWinningCondition</b> and add that to
 our functions down here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 659/660. within throwdice check winning conditions (335) ~~~~~~~~~~~~~~~~~-->
+<img class="border"
+  src="./images/image667.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
+  alt="Test score console.log 0 to 8." />
+<img class="border"
+  src="./images/image668.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
+  alt="Again, test score console log 0 to 8." />
+<p style="clear: both;"></p>
+
 <p style="align:center">
 <img src="./images/image659.png"
   style="width:45%;"
@@ -9938,11 +9955,10 @@ our functions down here.</p>
 curly brace here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 661. add if..else for winning conditions (336) ~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image661.png"
-  style="width:50%;"
-  alt="Add if..else for winning conditions." />
-</p>
+<img class="displayed"
+  src="./images/image661.png?raw=true"
+  alt="Add if..else for winning conditions."
+  style="width:50%" />
 
 <p>Let's add another function down here. Function <b>checkWinningCondition</b>. And this 
 function is going to have an <b>if else</b> statement in it. The if statement is going to 
@@ -9951,11 +9967,10 @@ winning condition met or else show current score. If we haven't won, we at least
 to know how close we are to winning? So it's going to do those two things.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 662. check player score against gameend (336) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image662.png"
-  style="width:50%;"
-  alt="Is player score (gameData.score) greater than gameData.gameEnd?" />
-</p>
+<img class="displayed"
+  src="./images/image662.png?raw=true"
+  alt="Is player score (gameData.score) greater than gameData.gameEnd?"
+  style="width:50%" />
 
 <p>To check the winning condition, we just need to get this players score.
 Get that players score and see if it's greater than
@@ -9983,22 +9998,20 @@ this <b>function</b>.</p>
 <h2 id="ch4-12">4.12 Show the Current Score (8:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 663. show the current score (4.12) (337) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image663.png"
-  style="width:50%;"
-  alt="4.12. Show the Current Score." />
-</p>
+<img class="displayed"
+  src="./images/image663.png?raw=true"
+  alt="4.12. Show the Current Score."
+  style="width:50%" />
 
 <p>Okay, so now we need to show the current score, and make sure that that
 gets filled out properly, if we haven't won the game, so let's go over
 and add this.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 664. showing the current score (338) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image664.png"
-  style="width:50%;"
-  alt="Showing the Current Score." />
-</p>
+<img class="displayed"
+  src="./images/image664.png?raw=true"
+  alt="Showing the Current Score."
+  style="width:50%" />
 
 <p>We're going to set the score areas innnerHTML to a paragraph that shows the scores of 
 both players. So we can say <b>score.innerHTML</b> = and I'm going to just put in here 
@@ -10013,11 +10026,10 @@ to do the same thing down here, For a player two, Except that's going to be 1, A
 is going to be the same thing down here, except that's going to be 1.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 665. function checkwinningcondition (339) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image665.png"
-  style="width:50%;"
-  alt="function checkWinningCondition." />
-</p>
+<img class="displayed"
+  src="./images/image665.png?raw=true"
+  alt="function checkWinningCondition."
+  style="width:50%" />
 
 <p>Now you could even make it stand out a little bit more by putting a strong tag around 
 each of these things. And you could do much better than this for coming up with sort of 
@@ -10027,24 +10039,24 @@ that's all we need let's just see over here, yep. Players[0] player[1] looks goo
 all looks good all right great, so what do we need to do to get this to work?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 666. function checkwinningcondition (339) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image666.png"
-  style="width:50%;"
-  alt="function checkWinningCondition." />
-</p>
+<img class="displayed"
+  src="./images/image666.png?raw=true"
+  alt="function checkWinningCondition."
+  style="width:50%" />
 
 <p>We need to run this function, Here, check winning condition, It's not the only place 
 we need to run it, but let's start with that. Let's put it there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 667/668. test score 0 to 8 (340) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image667.png"
-  style="width:45%;"
+<img class="border"
+  src="./images/image667.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
   alt="Test score console.log 0 to 8." />
-<img src="./images/image668.png"
-  style="width:45%;"
+<img class="border"
+  src="./images/image668.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
   alt="Again, test score console log 0 to 8." />
-</p>
+<p style="clear: both;"></p>
 
 <p>Let's test this, make sure you save the file and then we're going to
 come over here, and refresh my page, and start my game, roll the dice
@@ -10053,14 +10065,15 @@ here, and you can see that the score got added up, player 2 has 8
 points. I can click roll again and it takes me to set up the term.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 669/670. test score 0 to 15, then 0 to 25 (340) ~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image669.png"
-  style="width:45%;"
+<img class="border"
+  src="./images/image669.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
   alt="Test Game of PIG, score 0 to 15." />
-<img src="./images/image670.png"
-  style="width:45%;"
+<img class="border"
+  src="./images/image670.png"
+  style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
   alt="Test Game of PIG, score 0 to 25." />
-</p>
+<p style="clear: both;"></p>
 
 <p>and I can roll the dice for player 2, again and I've got 15. Okay so 2
 two is 15, I could roll again, roll the dice again takes me to set up
@@ -10068,22 +10081,20 @@ turn. Now I've got 25, and if I get five or more this we should have the
 end of the game and that should trigger it so let's see what happens.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 671. test game player 2 wins with 33 (341) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image671.png"
-  style="width:50%;"
-  alt="Test Game of PIG, player 2 wins with 33 points." />
-</p>
+<img class="displayed"
+  src="./images/image671.png?raw=true"
+  alt="Test Game of PIG, player 2 wins with 33 points."
+  style="width:50%" />
 
 <p>Roll the dice, and player 2 wins with 33 points, and now up here I have
 started new game, it still says roll again or pass so that's something
 that needs to be dealt with.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 672. test start game of pig with console.log (341) ~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image672.png"
-  style="width:50%;"
-  alt="Test Game of PIG, with console.log of score." />
-</p>
+<img class="displayed"
+  src="./images/image672.png?raw=true"
+  alt="Test Game of PIG, with console.log of score."
+  style="width:50%" />
 
 <p>But, We can start a new game up here, what happens if I click roll
 again? Now I've got an error up here, so that's something that we need
@@ -10097,11 +10108,10 @@ as well. So that because that's going to change the score, so we want to
 show the score if you roll two ones.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 673. function: checkwinningcondition (342) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image673.png"
-  style="width:50%;"
-  alt="Run function: checkWinningCondition." />
-</p>
+<img class="displayed"
+  src="./images/image673.png?raw=true"
+  alt="Run function: checkWinningCondition."
+  style="width:50%" />
 
 <p>So let's go back to our code over here, And I want to run
 <b>checkWinningCondition</b>, Up here, if you roll two ones I'm going to
@@ -10115,11 +10125,10 @@ two seconds anyway, but I'm going to put it before that, there we go, so
 that helps.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 674. if win, set action area (343) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image674.png"
-  style="width:50%;"
-  alt="Set action area when you win." />
-</p>
+<img class="displayed"
+  src="./images/image674.png?raw=true"
+  alt="Set action area when you win."
+  style="width:50%" />
 
 <p>The other thing we need to do down here is that, if you've won the game
 I was setting the action area, actually this is what I'm missing
@@ -10128,12 +10137,10 @@ I was setting the action area, actually this is what I'm missing
 of those buttons that I had there by accident.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 675. test game of pig (343) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image675.png"
-  style="width:50%;"
-  alt="Test Game of Pig." />
-</p>
-
+<img class="displayed"
+  src="./images/image675.png?raw=true"
+  alt="Test Game of Pig."
+  style="width:50%" />
 
 <p>Now there's one more thing that we can do to make this work a little bit
 better but let's just test this again, just to make sure it's all
