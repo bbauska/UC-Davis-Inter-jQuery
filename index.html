@@ -4771,12 +4771,11 @@ down here with clean JavaScript window out of industry. Look. What are
 we going to put in there?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 291.  (150) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image291.png"
+<p<img class="displayed"
+  src="./images/image291.png?raw=true"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+  style="width:50%" />
+
 <p>We're going to put some variables. First, I'm just going to paste
 these in, you're going to have to type up. I have a variable called post
 that goes into my document query selectAll and gets all the sections,
@@ -4792,12 +4791,11 @@ that deals with what happens if people are resizing their window. So
 we'll do that again as well.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 292.  (151) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image292.png"
+<img class="displayed"
+  src="./images/image292.png?raw=true"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+  style="width:50%" />
+  
 <p>Now, one thing you might notice here, is that the counter is being
 set to one, and the previous count is being set to one instead of zero.
 That's because on this script, we're going to have our sections indexed
@@ -4822,6 +4820,7 @@ forward with the next part.</p>
   style="width:45%;"
   alt="." />
 </p>
+
 <p>Now, we use this method in the previous script, getBoundingClientRect
 at top. We use that to find the top of the particular element in the
 previous script and we're going to use that again. But let's cancel log
@@ -4831,12 +4830,11 @@ first posts, so I'm going to do posts square brackets, zero.get pounding
 Plan Recto. Let's come to log that out.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 295.  (152) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image295.png"
+<img class="displayed"
+  src="./images/image295.png?raw=true"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+  style="width:50%" />
+
 <p>If I go over here to my page and I turn on my inspector, you're going
 to switch it over and looking at my cancel, make sure you scroll up here
 at the top and then refresh the page. It's telling me minus 508 pixels,
@@ -4867,13 +4865,11 @@ of that in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-23">2.23. Top Posts (5:35)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 298.  (153) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image298.png"
-  alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
-</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 298. top posts (2.23) (153) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image298.png?raw=true"
+  alt="2.23. Top Posts."
+  style="width:40%" />
 
 <p>In the last lesson, we saw that we could use the
 <b>getBoundingClientRect().top</b> to get the top of any particular
@@ -4881,12 +4877,10 @@ element on the page. In this case, the first element, the first section,
 we're getting here posts, zero.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 299.  (154) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image299.png"
+<<img class="displayed"
+  src="./images/image299.png?raw=true"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+  style="width:50%" />
 
 <p>But we don't want where it is anywhere on the page. We want to get the
 distance. It is from the top of the window, from when the page loads and
@@ -4913,12 +4907,11 @@ If I scroll the page down and refresh again, you can see that I get 200
 there. I always get 200 for that first post.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 302.  (155) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image302.png"
+<img class="displayed"
+  src="./images/image302.png?raw=true"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+  style="width:50%" />
+  
 <p>Great. Now, that we've got that, the next thing we need to do is
 round it down using our <b>Math.floor</b>, because some of these will
 generate a whole bunch of partial points past decimal point that we
@@ -4944,12 +4937,11 @@ and the second parentheses will close here like so. <b>Math.floor</b>
 will take this, round it down and then it gets pushed into postTops.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 303.  (156) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image303.png"
+<img class="displayed"
+  src="./images/image303.png?raw=true"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+  style="width:50%" />
+
 <p>Then, of course, we want to cancel log out postTops just to see what
 the heck is going on. We don't need this one anymore. In fact, I'm just
 going to cut that from there. Stick it down here and change this to
@@ -4957,12 +4949,11 @@ postTops. Now, we should be able to see when we go back to our page over
 here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 304.  (156) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image304.png"
+<img class="displayed"
+  src="./images/image304.png?raw=true"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+  style="width:50%" />
+  
 <p>If I refresh, I'm getting the same numbers that I got before in the
 jQuery version. This is the exact same thing I'm getting of the top of
 my posts. Hopefully, this is starting to feel a little bit familiar. It
@@ -4974,24 +4965,22 @@ little bit different.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-24">2.24. Add an Event Listener (5:42)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 305.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image305.png"
-  alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
-</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 305. add an event listener (2.24) (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image305.png?raw=true"
+  alt="2.24. Add an Event Listener."
+  style="width:40%" />
+
 <p>In the last module, we put all the tops of our posts or our sections
 really into post tops, and we can alert our council logged that out so
 we know where they all are.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 306.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image306.png"
+<img class="displayed"
+  src="./images/image306.png?raw=true"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+  style="width:50%" />
+
 <p>Again, we're putting all of this inside the window load event because we
 want to make sure that the page loads so that we get the correct numbers
 for those tops of those posts, because if we don't get the correct
@@ -5002,12 +4991,11 @@ starts. That's why we're putting everything inside of the window
 function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 307.  (158) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image307.png"
+<img class="displayed"
+  src="./images/image307.png?raw=true"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+  style="width:50%" />
+
 <p>Now we're at the point where we're ready to start working with our
 scroll event. We need to add an event listener for capturing scroll
 effects. I'm just going to comment that out for now. But we can add that
@@ -5018,12 +5006,11 @@ will go inside of here. Now, this looks very similar to the jQuery
 version of the scroll event.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 308.  (159) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image308.png"
+<img class="displayed"
+  src="./images/image308.png?raw=true"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+  style="width:50%" />
+
 <p>In jQuery, we did it like this. We used the jQuery objects to grab our window and 
 then we use the on method to capture scroll, and then run a function. Again, it looks 
 very similar, but just slightly different, the jQuery version is a few characters 
@@ -5033,23 +5020,21 @@ the entire jQuery library to use it, or force your users to download the entire 
 library to use it. That's nice.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 309. how far off top of windows is scrolled (159) ~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image309.png"
-  alt="window.pageYOffset tracks how far off the top of the window is scrolled."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+<img class="displayed"
+  src="./images/image309.png?raw=true"
+  style="width:50%"
+  alt="window.pageYOffset tracks how far off the top of the window is scrolled." />
+
 <p>Then we're going to put into this variable pagetop. Pagetop it's going to equal this 
 thing, <b>window.pageYOffset</b>. Again, what that does is it, <b>window.pageYOffset</b> 
 tracks how far off the top of the window or page is scrolled.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 310. test with console.log, pagetop (160) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image310.png"
-  alt="Use pageTop with console.log for pixels down the scroll is."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+<img class="displayed"
+  src="./images/image310.png?raw=true"
+  style="width:50%"
+  alt="Use pageTop with console.log for pixels down the scroll is." />
+
 <p>I can, <b>console.log</b>, put <b>pageTop</b> and we should be seeing
 those pixels change as we scroll down the page. Let's test that and see.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5062,6 +5047,7 @@ those pixels change as we scroll down the page. Let's test that and see.</p>
   style="width:45%;"
   alt="Test, scroll down &amp; capture full length of web page." />
 </p>
+
 <p>I come back here and refresh my page. Now as I scroll down the page, you can see those 
 pixels are going up. Again as before, with the jQuery version, we're capturing every 
 little bit that scrolls, but we're not necessarily capturing every single pixel. The 
@@ -5072,12 +5058,11 @@ bottom of the page, we should be getting a number that represents the full heigh
 the entire window.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 313. capture section height in pixels (161) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image313.png"
-  alt="Capture each section height in pixels."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+<img class="displayed"
+  src="./images/image313.png?raw=true"
+  style="width:50%"
+  alt="Capture each section height in pixels." />
+
 <p>That's working great, and really what I want to do is I want to track not the very 
 top of the window, but the start of this first thing or maybe a little bit down from it. 
 I want to push down a little bit from there. Really what I want to do is I want to come 
@@ -5092,12 +5077,11 @@ top of the third section, then we must be viewing that section on the screen, an
 That strategy is exactly the same.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 314. understanding the options (162) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image314.png"
-  alt="Understanding the options; scroll up or scroll down."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+<img class="displayed"
+  src="./images/image314.png?raw=true"
+  style="width:50%"
+  alt="Understanding the options; scroll up or scroll down." />
+
 <p>As before, you can either be scrolling down the page, starting at the top, or going 
 down. Or you could be somewhere in the middle of the page and scrolling up. Those are 
 really your only two options, because this page doesn't scroll left and right. Those are 
@@ -5106,22 +5090,20 @@ the two conditions that we need to watch out for, while we're handling our scrol
 <h2 id="ch2-25">2.25. The Magic Conditionals (5:58)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 315. the magic conditionals (2.25) (162) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image315.png"
-  alt="2.25. The Magic Conditionals."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
-</p>
+<img class="displayed"
+  src="./images/image315.png?raw=true"
+  style="width:40%"
+  alt="2.25. The Magic Conditionals." />
+
 <p>To handle those two situations of scrolling up and scrolling down, I need an if and an 
 else if, just as I did in the jQuery version and I'm going to piece this in here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 316. find section using pagetop and offset (163) ~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image316.png"
-  alt="Assign var pagetop = window.pageYOffset, then if else for each section break."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+<img class="displayed"
+  src="./images/image316.png?raw=true"
+  style="width:50%"
+  alt="Assign var pagetop = window.pageYOffset, then if else for each section break." />
+
 <p>You're going to have to type it, but I'm going to paste it in here, because it's 
 actually exactly the same as what we had in the previous script. In fact, I don't think 
 it's different really, even at all. I'm going to comment out this console log call there. 
@@ -5145,12 +5127,11 @@ of the screen. The down says scrolling down too. It's into the 250 pixels that d
 Should be doing it. There, I see what I did wrong.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 317. section break + 250 as scroll (165) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<div class="img-hover-zoom">
-<img src="./images/image317.png"
-  alt="Scroll up/down for section break pixel count." >
-</div>
-<!--  style="border: 2px solid black; border-radius:15px" -->
-<!--  width="50%;" /> -->
+<img class="displayed"
+  src="./images/image317.png?raw=true"
+  style="width:50%"
+  alt="Scroll up/down for section break pixel count." />
+
 <p>Over here. I put the plus 250 in the wrong place. Should be here. Plus 250, there we 
 go. Lets try that. Scroll to the top of the page, there we go. Now when I get to section 
 two, scrolling down too, when that is 250 pixels from the top of the page, it hits it and 
@@ -5175,12 +5156,11 @@ because only when those things happen, we're going to make other things happen o
 page. Not for every single pixel that we scroll.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 320. example, changing the nav links (166) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image320.png"
-  alt="Example, changing the nav links."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+<img class="displayed"
+  src="./images/image320.png?raw=true"
+  style="width:50%"
+  alt="Example, changing the nav links." />
+  
 <p>Just as before, we want to see if the <b>counter</b> is not the same as the previous 
 <b>counter</b>. Because if it isn't, then we've moved into a new section, and the first 
 thing we want to do is remove all of the classes from those links at the top of the page, 
@@ -5189,12 +5169,11 @@ isn't done any of them will remove that class attribute from everything, just to
 that everything has no class on it up there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 321.  (166) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image321.png"
-  alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+<img class="displayed"
+  src="./images/image321.png?raw=true"
+  style="width:50%"
+  alt="." />
+
 <p>Let's go ahead and add this if statement over here. Down here I'm
 going to add an if. If <b>counter</b> is not the same as
 <b>prevCounter</b>. If they're not the same. Then again, I'm going to
@@ -5213,24 +5192,21 @@ semicolon there before we go.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-26">2.26. Changing the Next Link (5:56)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 322.  (167) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image322.png"
-  alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
-</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 322. changing the next link (2.26) (167) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="displayed"
+  src="./images/image322.png?raw=true"
+  style="width:40%"
+  alt="2.26. Changing the Next Link." />
+  
 <p>We took the class attribute off of all the links, now we need to add it
 to the correct link.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 323.  (167) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image323.png"
-  alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+<img class="displayed"
+  src="./images/image323.png?raw=true"
+  style="width:50%"
+  alt="." />
+
 <p>So I'm going to add a variable, <b>const thisLink</b>, I want to add it
 to the link that I clicked on. I'm going to get the correct link here by
 using a query selector, so I'm going to say
@@ -5239,12 +5215,11 @@ tricky this querySelector, what we're going to use is <b>nav ul, li
 a</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 324.  (168) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image324.png"
-  alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+<img class="displayed"
+  src="./images/image324.png?raw=true"
+  style="width:50%"
+  alt="." />
+
 <p>But we want <b>li:nth-child()</b> because over here, in our HTML
 remember, we want to get, If we clicked on this one, we want to get the
 first list item's anchor tag, or the second list item's anchor tag or
@@ -5267,12 +5242,10 @@ way because remember in jQuery there's about 100 ways of getting to each
 element on the page, so we could have done it this way as well there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 325.  (169) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p style="align:center">
-<img src="./images/image325.png"
-  alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
-</p>
+<img class="displayed"
+  src="./images/image325.png?raw=true"
+  style="width:50%"
+  alt="." />
 
 <p>But what I want to do is I want to change this so I'm using not my up
 and down quotes, oops. Yeah yeah I know it's a problem. I want to use my
