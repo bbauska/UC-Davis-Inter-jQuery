@@ -23,38 +23,10 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-  <script>
-    <!-- get the button -->
-    var mybutton = document.getElementById("myBtn");
-
-    <!-- when the user scrolls down 10px from the top of the document, show the "Top" button -->
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-
-    <!-- when the user clicks on the button, scroll to the top of the document. 0,0 or to top of -->
-    <!-- menu button (2120 on other example) -->
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-  </script>
 <header id="title-block-header">
-
   <h1 style="text-align:center;" class="title">Interactivity with JavaScript and jQuery</h1>
   <h6 style="text-align:center;">(by William Mead, Lecturer - University of California 
     <span class="citation" data-cites="Davis">@Davis</span>)</h6>
-
 </header>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. jquery logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -62,7 +34,6 @@
   src="./images/image001.png"
   alt="jQuery logo."
   style="width:40%" >
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. uc davis logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <div class="img-hover-zoom img-hover-zoom--slowmo">
