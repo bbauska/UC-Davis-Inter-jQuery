@@ -3263,10 +3263,11 @@ minute. I'll take math for it now because that kind of confuses things.</p>
   src="./images/image187.png"
   alt="Section size, no rounding."
   style="width:50%;" />
+<br><br>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 188. console log, posttops (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="./images/image187.png"
+  src="./images/image188.png"
   alt="console.log, postTops."
   style="width:50%;" />
 
@@ -3300,7 +3301,7 @@ just the post option.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 191. example, posttops section sizes (101) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
-  src="./images/image186.png"
+  src="./images/image191.png"
   alt="Example, postTops section sizes in pixels."
   style="width:50%;" />
 
@@ -3695,24 +3696,24 @@ handle these two situations for this and while we're at it, we're going
 to find a trick that's actually going to be really useful for other
 scripts, for handling the same things that could happen.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 219.  (115) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 219. capture event when window is resized (115) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image219.png"
-  alt="."
+  alt="Capture event when window is resized."
   style="width:50%;" />
 
 <p>In order to do this, I want to capture an event that fires when
 somebody resizes the window.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 220/221.  (115) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 220/221. event handler resize? (116) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
   src="./images/image220.png"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
-  alt="." />
+  alt="Create event handler to identify window resize." />
 <img class="border"
   src="./images/image221.png"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
-  alt="." />
+  alt="Create event handler to identify window resize." />
 <p style="clear: both;"></p>
 
 <p>Down here after my windows scroll event handler, which is this one
@@ -3724,10 +3725,10 @@ instead of looking for load we're going to look for resize. Then we're
 going to run a function. In here, I'm just going to console log.
 Resizing.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 222.  (116) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 222. continue with resize event handler (117) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image222.png"
-  alt="image222.png."
+  alt="Continue with resize event handler."
   style="width:50%" />
 
 <p>Now, this event listener will fire while we're resizing the window
@@ -3735,10 +3736,10 @@ and up here, I'm going to get rid of some of these other console logs
 comment that went out. I'm going to comment that I don't need that one
 just so I don't have those cluttering up my script over here. Great.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 223.  (116) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 223. resizing event handler (117) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image223.png"
-  alt="."
+  alt="Resizing event handler."
   style="width:50%;" />
 
 <p>I'm going to come over here to my page and I'm going to refresh and
@@ -3982,7 +3983,7 @@ into its own function. We'll do that in the next lesson.</p>
 <p>Our script is getting pretty long, and we're repeating ourselves in a
 few places.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 241/242. smoothscroll.js: load, resize (125) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 241/242. smoothscroll.js: load, resize (126) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
   src="./images/image241.png"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
@@ -4001,7 +4002,7 @@ function, so I'm going to put it after here, in fact, I'm going to get
 rid of a little bit of space there, and there we go. I'm going to add in
 here a function resetPagePosition.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 243/244. doneresizing and resetpageposition (125) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 243/244. doneresizing and resetpageposition (126) ~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
   src="./images/image243.png"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
@@ -4020,7 +4021,7 @@ with post tops and everything, all of that, I'm just going to cut and
 stick it inside this function instead. You might have to select it and
 shift to get it to line up for it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 245. resetpageposition (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 245. resetpageposition (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image245.png"
   alt="resetPagePosition."
@@ -4033,7 +4034,7 @@ here, which is all the stuff that we had in there. When we're done
 resizing, we're going to do all this stuff that we just wrote. That's
 cool.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 246. posttops and resetpageposition (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 246. posttops and resetpageposition (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image246.png"
   alt="postTops and resetPagePosition."
@@ -4047,7 +4048,7 @@ adjust my <b>postTops</b> based on when the page loads. This function is
 going to run twice. It's going to run when the page loads and it's going
 to run any time you resize the screen.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 247. reset array posttops (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 247. reset array posttops (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image247.png"
   alt="Reset array postTops."
@@ -4078,7 +4079,7 @@ choose the correct section. Separate sections on the screen. It does
 seem to be mostly working. Section, refresh the page, that section got
 highlighted, so that's correct.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 248/249. reload index.html (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 248/249. reload index.html (129) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
   src="./images/image248.png"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
@@ -4099,10 +4100,10 @@ that you go down to the correct section. You can see that it's slightly
 refreshing that, and the reason I think it's doing that is that it could
 be in some cases, actually reloading the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 250.  (129) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 250. highlight correct section 1 thru 5 (130) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image250.png"
-  alt="."
+  alt="Each section is highlighted as you pass it."
   style="width:50%;" />
 
 <p>One way to keep that from happening is in our script up here at the
@@ -4123,7 +4124,7 @@ review what we've done.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-17">2.17. Reviewing the Whole Script</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 251. reviewing the whole script (2.17) (130) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 251. reviewing the whole script (2.17) (131) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image251.png"
   alt="2.17. Reviewing the Whole Script."
@@ -4132,10 +4133,10 @@ review what we've done.</p>
 <p>This is quite an extensive script. We've done a lot here. I just want
 to go through it once quickly, to review what we've done.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 252.  (130) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 252. smooth scroll, when click highlight section (131) ~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image252.png"
-  alt="."
+  alt="Smooth scroll, when click section, highlight it."
   style="width:50%;" />
 
 <p>We started with the smooth scroll script, which handles what happens
@@ -4150,10 +4151,10 @@ possibly because now we have the other part that's handling this. That's
 something to consider. But that's what that first part of that script
 does.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 253.  (131) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 253. 2nd part of script, load images, create vars (132) ~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image253.png"
-  alt="."
+  alt="2nd part of script, load images, create variables."
   style="width:50%;" />
 
 <p>The second part of the script, is handling when the page loads in all
@@ -4167,10 +4168,10 @@ scrolled, and so on and so forth. Also, it will handle the situation for
 when it'll recalculate those things when we resize the screen but that
 happens later, so we set all that page position stuff.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 254.  (132) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 254. when scroll, capture event (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image254.png"
-  alt="."
+  alt="When scroll, capture event if moving from one section to another."
   style="width:50%;" />
 
 <p>The magic of the script is actually happening here. When you scroll
@@ -4185,20 +4186,20 @@ cool.</p>
 change. This script is the heart of the whole thing in terms of figuring
 out everything that should happen there on the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 255.  (133) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 255. windows on resize event until done (134) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image255.png"
-  alt="."
+  alt="Window on resize event until done resizing."
   style="width:50%;" />
 
 <p>Then finally, we have the ‘window on resize’, and we're using
 clearTimeout to keep the setTime out from happening until we're actually
 done resizing.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 256.  (133) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 256. after resize, reset page position (134) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image256.png"
-  alt="."
+  alt="After resize, reset page position."
   style="width:50%;" />
 
 <p>It's clearing done resizing while we're resizing, and then as soon as
@@ -4207,15 +4208,15 @@ again, which we already talked about, which sets the tops of all of our
 pages, of all of our sections and figures out how far down the page we
 are and sets the styling for the links appropriately.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 257/258.  (134) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 257/258. update css attribute (135) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
   src="./images/image257.png"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
-  alt="." />
+  alt="Update CSS attribute." />
 <img class="border"
   src="./images/image258.png"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
-  alt="." />
+  alt="Update CSS attribute." />
 <p style="clear: both;"></p>
 
 <p>The only thing I can think to do is maybe to remove these two pieces
@@ -4224,7 +4225,7 @@ makes our script function just slightly better. Now when we get to this
 function, then we could get rid of this callback function entirely if
 this works.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 259/260.  (134) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 259/260.  (135) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
   src="./images/image259.png"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
@@ -4244,7 +4245,7 @@ the highlighting here, and I actually don't need that in the other
 script. I think the two are affecting each other a little bit, so now
 both scripts are working.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 261/262.  (135) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 261/262.  (136) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
   src="./images/image261.png"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
@@ -4275,7 +4276,7 @@ the same script, and play JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-18">2.18. Introduction to Scroll Effects with JS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 263. intro to scroll effects with js (2.18) (136) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 263. intro to scroll effects with js (2.18) (137) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image263.png"
   alt="2.18. Intro to Scroll Effects with JavaScript."
@@ -4285,7 +4286,7 @@ the same script, and play JavaScript.</p>
 same thing, that we just did with the previous lesson on school effects
 using jQuery.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 264/265. scroll effects with plain js (136) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 264/265. scroll effects with plain js (137) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
   src="./images/image264.png"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
@@ -4304,7 +4305,7 @@ doing it twice will actually help you, and I think you will see that
 there's a lot of similarities between the JavaScript version, and the
 jQuery version.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 266/267. index.html and style.css (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 266/267. index.html and style.css (138) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
   src="./images/image266.png"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
@@ -4328,7 +4329,7 @@ great, so with those basic pieces in mind we are ready to get started
 with our JavaScript, and the first thing we want to do is gather all of
 these links in our navigation.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 268. script.js navlinks add event listener (137) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 268. script.js navlinks add event listener (138) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image268.png"
   alt="script.js navLinks, addEventListener."
@@ -4386,7 +4387,7 @@ run that way.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-19">2.19. Getting the Target – Part 1 (4:50)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 269. getting the target - part 1 (2.19) (139) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 269. getting the target - part 1 (2.19) (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image269.png"
   alt="2.19. Getting the Target - Part 1."
@@ -4396,7 +4397,7 @@ run that way.</p>
 we clicked on, and we could use the this keyword, but in some cases,
 event.target is a little bit more direct and explicit.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 270. getting the target smoothscroll (139) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 270. getting the target smoothscroll (140) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image270.png"
   alt="."
@@ -4405,7 +4406,7 @@ event.target is a little bit more direct and explicit.</p>
 <p>So event.target get attribute href, we'll find out which link we
 clicked. And if we go back to our code over here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 271. match link with href # link (140) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 271. match link with href # link (141) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image271.png"
   alt="Match link with href pound link (#first - #fifth)."
@@ -4421,7 +4422,7 @@ first, pound, second, pound third, pound fourth or pound fifth. So in
 targetAnchor, I'm going to get my targetID. Here I call the variable
 targetSection.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 272/273.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 272/273. scroll effects with javascript (141) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
   src="./images/image272.png"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
@@ -4439,7 +4440,7 @@ one link at a time. Which one did you click get the href that goes with
 that one, put it in targetID and then we can go get that section and
 that's our targetSection there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 274.  (141) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 274.  (142) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image274.png"
   alt="."
@@ -4453,7 +4454,7 @@ is in and .top will tell me what the top edges, .bottom would give me
 the bottom edge. We can get the left and we can get the right, but that
 will get me that kind of thing.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 275. test, inspect smooth scroller (141) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 275. test, inspect smooth scroller (142) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image275.png"
   alt="Test, inspect smooth scroller."
@@ -4479,14 +4480,14 @@ spit out in the console. Well, we'll do that in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-20">2.20. Getting the Target - Part 2 (5:15)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 276. getting the target - part 2 (2.20) (142) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 276. getting the target - part 2 (2.20) (143) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image276.png"
   alt="2.20. Getting the Target -- Part 2."
   style="width:40%;" />
   <br><br>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 277. generate top of section in pixel for image height (143) ~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 277. generate top of section in pixel for image height (144) ~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image277.png"
   alt="Generate the top of each section in pixels."
@@ -4495,7 +4496,7 @@ spit out in the console. Well, we'll do that in the next lesson.</p>
 <p>This statement is generating the tops of each section when I click on
 them, so I want assign that to variable.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 278. calculate top of each section (143) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 278. calculate top of each section (144) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image278.png"
   alt="Calculate top pixels in each section."
@@ -4514,7 +4515,7 @@ our, when we see scroll, we want it to smooth scroll to this position,
 200 pixels down, not all the way up at the top of the window, because
 that wouldn't really help us.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 279. section height - 5 sections (144) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 279. section height - 5 sections (145) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image279.png"
   alt="Section height - 5 sections."
@@ -4538,7 +4539,7 @@ just going to 'console.log', 'originalTop', just so you can see what's
 in that variable, each time we click, one of these links should be what
 we saw before.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 280/281. smooth scroller - height of sections (145) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 280/281. smooth scroller - height of sections (146) ~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
   src="./images/image280.png"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
@@ -4573,7 +4574,7 @@ we'll talk about it more in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-21">2.21. Smooth Scroll Polyfill (4:45)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 282. smooth scroll polyfill (2.21) (146) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 282. smooth scroll polyfill (2.21) (147) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image282.png"
   alt="2.21. Smooth Scroll Polyfill."
@@ -4585,7 +4586,7 @@ What can we do about that? What we can do is we can use what's called a
 <b>Polyfill</b>. A <b>polyfill</b> is a term that was created by a
 developer named Remy Sharp.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 283/284. what is a polyfill? & some examples (146) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 283/284. what is a polyfill? & some examples (147) ~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
   src="./images/image283.png"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
@@ -4607,7 +4608,7 @@ to date in standards and there's very little need for <b>polyfills</b>,
 but it's a worthwhile concept to know about and it's worth figuring out
 how to use them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 285/286. smooth scroll behavior polyfill (147) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 285/286. smooth scroll behavior polyfill (148) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
   src="./images/image285.png"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
@@ -4628,7 +4629,7 @@ here. All we need to do is link to it. Here, on the page, at the bottom
 of the page, here, I want to link to that file, script
 src="smoothscroll.js" that one there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 287.  (147) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 287.  (148) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image287.png"
   alt="."
@@ -4650,7 +4651,7 @@ where down the page we are. We don't need to make them highlight when
 we're actually clicking on them because it'll do it automatically with
 the second part of the script.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 288.  (148) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 288.  (149) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image288.png"
   alt="."
@@ -4671,7 +4672,7 @@ with scrolling and capturing the scrolling.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-22">2.22. Checking the Load (6:48)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 289.  (149) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 289.  (150) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image289.png"
   alt="."
@@ -4687,7 +4688,7 @@ haven't loaded then the height will be different. We want to make sure
 everything's loaded before we actually start calculating things like the
 height of each section.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 290.  (149) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 290.  (150) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image290.png"
   alt="."
@@ -4705,7 +4706,7 @@ compact, but not really all that different. We're going to use this one
 down here with clean JavaScript window out of industry. Look. What are
 we going to put in there?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 291.  (150) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 291.  (151) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image291.png?raw=true"
   alt="."
@@ -5736,7 +5737,7 @@ But I think it's helpful to go through it anyway.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 368. header html (2.30) (189) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image368.png"
-  style="width:50%;"
+  style="width:40%;"
   alt="2.30. Header HTML." />
 
 <p>Inside the header, you're going to have a div with the logo in it and
@@ -6261,7 +6262,7 @@ the styling in the next lesson.</p>
 <img class="displayed"
   src="./images/image417.png?raw=true"
   alt="2.33. Styling That Attaches to Whole Page."
-  style="width:50%" />
+  style="width:40%" />
 
 <p>Next, we'll apply some styling that will attach to the whole page and there's just a 
 few rules here, but they'll actually make quite a big difference.</p>
@@ -7616,7 +7617,7 @@ class="uri">https://www.coursera.org/learn/interactivity-javascript-jquery/suppl
 <img class="displayed"
   src="./images/image530.png?raw=true"
   alt="3.03. Objects Can Contain Arrays and Other Objects."
-  style="width:50%" />
+  style="width:40%" />
 
 <p>The object data format in JavaScript is very flexible because objects
 can contain arrays and other objects.</p>
@@ -7719,7 +7720,7 @@ in <b>objects</b>.</p>
 <img class="displayed"
   src="./images/image536.png?raw=true"
   alt="3.04. Functions Inside Objects = Methods."
-  style="width:50%" />
+  style="width:40%" />
 
 <p>Let's take this idea a little bit further.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8280,7 +8281,7 @@ rules.</p>
 <img class="displayed"
   src="./images/image567.png?raw=true"
   alt="3.09. Play the Game of Pig."
-  style="width:50%" />
+  style="width:40%" />
   
 <p>Okay, now hopefully you've taken a few minutes and jotted down some
 notes just based on the rules. If you are creating a game from scratch
@@ -9561,7 +9562,7 @@ what happens when we want to continue the game and continue moving on with the g
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 646. the else statement (4.10) (327) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image646.png?raw=true"
-  style="width:50%"
+  style="width:40%"
   alt="4.10. The Else Statement." />
 
 <p>The next thing we need to look at is the final else statement which will happen if 
@@ -10216,7 +10217,7 @@ you'll get more practice. So I look forward to seeing you there.</p>
 
 <p>.the end…</p>
 
-<h6>Last Updated 1/28/2024 9:11pm</h6>
+<h6>Last Updated 1/29/2024 5:02am</h6>
 
 </body>
 </html>
