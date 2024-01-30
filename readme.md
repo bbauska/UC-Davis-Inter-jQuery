@@ -586,7 +586,7 @@ write the scripts that you want to do for your web page.
   <img src="./images/image007.webp" 
   alt="Recap: jQuery."
   style="border: 2px solid #000000;" 
-  width="40%;" />
+  width="50%;" />
 </p>
 
 Then we had jQuery and your world became a little bit larger. With
@@ -600,7 +600,7 @@ a little bit easier and a little bit better for all of us.
   <img src="./images/image008.webp" 
   alt="Introducing: Plugins."
   style="border: 2px solid #000000;" 
-  width="40%;" />
+  width="50%;" />
 </p>
 
 Now we need to introduce plugins. We&apos;ve already used the <b>easing</b>
@@ -1002,11 +1002,11 @@ some basic markup.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 22/23. responsive kittens for sale (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image022.webp?raw=true"
-  style="width:45%"
+  style="width:40%"
   alt="Responsive Kittens for Sale Web Page, #1." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image023.webp?raw=true"
-  style="width:45%"
+  style="width:40%"
   alt="Responsive Kittens for Sale Web Page, #2." />
 </p>
 
@@ -1086,11 +1086,11 @@ plug-ins as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 29/30. folder with website and images (26) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image029.webp?raw=true"
-  style="width:45%"
+  style="width:40%"
   alt="Folder with website." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image030.webp?raw=true"
-  style="width:45%"
+  style="width:40%"
   alt="Folder with images." />
 </p>
 
@@ -1102,11 +1102,11 @@ got my style-sheet, that&apos;s what&apos;s in my folder.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31/32. unzipped download files (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image031.webp?raw=true"
-  style="width:45%"
+  style="width:40%"
   alt="Unzipped download files." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image032.webp?raw=true"
-  style="width:45%"
+  style="width:40%"
   alt="Other unzipped download files." />
 </p>
 
@@ -1137,11 +1137,11 @@ well.
 <!--~~~~~~~~~~~~~~~~~ 33/34. flexslider.css, fonts & minified flexslider (27) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image033.webp?raw=true"
-  style="width:45%"
+  style="width:40%"
   alt="flexslider.css, fonts and jquery.flexslider-min.js." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image034.webp?raw=true"
-  style="width:45%"
+  style="width:40%"
   alt="flexslider.css, fonts and jquery.flexslider-min.js." />
 </p>
 
@@ -1246,11 +1246,11 @@ mean about how to do this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 42/43. where to put scripts, css & js (31) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image042.webp?raw=true"
-  style="width:45%"
+  style="width:40%"
   alt="." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image043.webp?raw=true"
-  style="width:45%"
+  style="width:40%"
   alt="." />
 </p>
 
