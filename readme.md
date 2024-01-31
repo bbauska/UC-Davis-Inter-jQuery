@@ -10722,7 +10722,7 @@ excellent versions people have made of the big game.</p>
 <!--~~~~~~~~~~~ 691. course summary: interactivity with javascript and jquery (350) ~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image691.webp"
-  alt="Course Summary: Interactivity with JavaScript and jQuery."
+  alt="4.15. Course Summary: Interactivity with JavaScript and jQuery."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
