@@ -7,7 +7,7 @@ output:
     with some style
 ---
 
-<h1>#3 of 4 - JavaScript for Begginers Specialization</h1>
+<h4>#3 of 4 - JavaScript for Begginers Specialization</h4>
 
 <h1 align="center">Interactivity with JavaScript and jQuery</h1>
 
