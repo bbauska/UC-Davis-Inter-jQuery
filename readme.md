@@ -7,8 +7,6 @@ output:
     with some style
 ---
 
-<h4>#3 of 4 - JavaScript for Begginers Specialization</h4>
-
 <h1 align="center">Interactivity with JavaScript and jQuery</h1>
 
 <h6 align="center">(by William Mead, Lecturer - University of California @Davis)</h6>
