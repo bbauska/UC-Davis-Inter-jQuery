@@ -1,5 +1,5 @@
 ---
-title: "University of California @Davis Interactivity with JavaScript and jQuery"
+title: "#3 - University of California @Davis Interactivity with JavaScript and jQuery"
 author: "bbauska"
 date last editted: "2/5/2024 8+am"
 output: 
