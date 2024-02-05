@@ -15,7 +15,7 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. jquery logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image001.webp" 
+  <img src="./images/jq-and-js.png" 
   alt="jQuery logo."
   style="border: 2px solid #000000;" 
   width="400px;" />
