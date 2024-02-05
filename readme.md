@@ -1,11 +1,13 @@
 ---
 title: "University of California @Davis Interactivity with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "1/21/2024 12+pm"
+date last editted: "2/5/2024 8+am"
 output: 
   markdown:
     with some style
 ---
+
+<h1>#3 of 4 - JavaScript for Begginers Specialization</h1>
 
 <h1 align="center">Interactivity with JavaScript and jQuery</h1>
 
