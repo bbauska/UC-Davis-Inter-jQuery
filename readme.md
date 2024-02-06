@@ -474,13 +474,28 @@ to the Coursera learning community in the discussion forums.</p>
 lessons, readings, activities, and an opportunity to test your knowledge in 
 quiz format. In some of the module sections you’ll also work on assignments 
 and grade the work of your peers. A peer-review assignment, is one where you 
-and your fellow learners have an opportunity to review and grade each other’s work. We’ll dive more into peer reviews later on in this course.</p>
-<p>When navigating the course, you can find available course resources under each of the lecture lessons in a section labeled “Downloads” – here you can download the lecture video, view transcripts, PDFs of the lecture slides, and find additional readings or files.</p>
-<p>If you run into any issues during this course, learner support is available to all Coursera students. The link for Coursera’s Learner support is included below. The Help Center/Learner Support includes topics such as account setup, payments, enrollment questions, and troubleshooting common problems.</p>
-<p>If you find any content issues, be sure to let the course staff know by flagging the lecture, assignment, reading, or quiz and this will inform us of where these issues occur. Here is the link for more information on how to Flag an Issue - it is also listed below.</p>
-<p>One of the great things about Coursera courses is that they are self-paced. The course dates are based on the average time it takes to complete a course. However, if you need additional time to complete a course you can reset your deadlines with no penalties.</p>
+and your fellow learners have an opportunity to review and grade each other’s 
+work. We’ll dive more into peer reviews later on in this course.</p>
+<p>When navigating the course, you can find available course resources under 
+each of the lecture lessons in a section labeled “Downloads” – here you can 
+download the lecture video, view transcripts, PDFs of the lecture slides, and 
+find additional readings or files.</p>
+<p>If you run into any issues during this course, learner support is available to 
+all Coursera students. The link for Coursera’s Learner support is included below. 
+The Help Center/Learner Support includes topics such as account setup, payments, 
+enrollment questions, and troubleshooting common problems.</p>
+<p>If you find any content issues, be sure to let the course staff know by flagging 
+the lecture, assignment, reading, or quiz and this will inform us of where these 
+issues occur. Here is the link for more information on how to Flag an Issue - it is 
+also listed below.</p>
+<p>One of the great things about Coursera courses is that they are self-paced. The 
+course dates are based on the average time it takes to complete a course. However, 
+if you need additional time to complete a course you can reset your deadlines with 
+no penalties.</p>
 <p>More information on resetting deadlines can be found here: Assignment Deadlines</p>
-<p>Because of the self-paced nature of Coursera courses, this is an excellent opportunity to show your commitment to your work and the work of your peers through academic integrity. Be sure to read the Coursera guidelines and the Coursera Honor Code here:</p>
+<p>Because of the self-paced nature of Coursera courses, this is an excellent opportunity 
+to show your commitment to your work and the work of your peers through academic integrity. 
+Be sure to read the Coursera guidelines and the Coursera Honor Code here:</p>
   <a href="">Coursera Honor Code</a>
 
 <p>We look forward to having you in this course. Happy learning!</p>
@@ -494,7 +509,7 @@ and your fellow learners have an opportunity to review and grade each other’s 
     Coursera’s Learner Support/Help Center</a></li>
   <li><a href="https://learner.coursera.help/hc/en-us/articles/208280106-Report-a-problem-with-a-course"
     rel="noopener noreferrer" target="_blank">
-	Flagging a Lecture</a></li>
+    Flagging a Lecture</a></li>
   <li><a href="https://learner.coursera.help/hc/en-us/articles/208279866-Assignment-deadlines"
     rel="noopener noreferrer" target="_blank">
     Assignment Deadlines</a></li>
@@ -539,9 +554,11 @@ JavaScript.
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
+
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
 Hello and welcome to our first module in our third course on JavaScript.
 In this module, we&apos;re going to dive even deeper into jQuery, looking at
 some jQuery plugins. You&apos;ve already made some sliders in a previous
@@ -672,7 +689,6 @@ them to work.
   style="border: 2px solid #000000;" 
   width="50%;" />
 </p>
-
 
 <b><mark>[Step 1]</mark></b> is, you have to use the markup indicated by the
 plugin documentation. Often, you&apos;ll have to use divs or our articles or
