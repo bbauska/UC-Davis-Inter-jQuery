@@ -1852,7 +1852,6 @@ worry about that.
   alt="myscript.js. Set animation: 'slide' and slideshowSpeed: 2000." />
 </p>
 
-
 What else can we do? Over here, I had slide, you can set the speed,
 slideshow speed. That&apos;s in here. Slideshows speed. Slide, comma, for
 each one of these in here, you have to put a comma at the end, except
@@ -2338,7 +2337,6 @@ font size down a little bit, 3vw.
   alt="styles.css: new ID cta with width/height of 150px." />
 </p>
 
-
 Then, when we get to the full-screen size for desktop, I need this
 again, and I&apos;m just going to set it to a maximum size, because at this
 point the screen isn't going to be flexible anymore, so I want these to
@@ -2366,7 +2364,6 @@ going to look in end here, is round like this.
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
-
 
 If you go to number 4, slide 4, that one should be picking up the light
 class, and I don&apos;t know why it&apos;s not now. You know what, I think I put
@@ -2462,7 +2459,6 @@ create a smooth scroll effect so that you can get the sense of traveling
 from one place to another place on a web page. And if it happens
 smoothly and quickly without a lot of interference, then it adds to the
 user experience. So, we&apos;re going to do that using jQuery.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 132/133. adjust the header rule styles.css (69) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2644,7 +2640,6 @@ we&apos;ll do that in the next lesson so you see how it all comes together.
   alt="Adding the animation to smoothscroll.js." />
 </p>
 
-
 In the previous module we created a click handler for all the anchor
 tags and then we got the ID of the particular anchor tag that gets
 clicked on because you can only click one at a time. What is the idea
@@ -2683,7 +2678,6 @@ that will actually animate the page to the top of the window.
   style="border: 2px solid black; border-radius:15px"
   width="50%;" />
 </p>
-
 
 If we test this out and if you&apos;re wondering what offset is, you can go
 look it up on the jQuery documentation and see what offset does and how
@@ -2791,7 +2785,6 @@ more personality by adding some easing.
   style="width:45%;"
   alt="index.html scripts." />
 </p>
-
 
 Let&apos;s go ahead and do that. Over here, just to verify on our index file
 here down at the bottom of the page, you can see I have the jQuery
@@ -3206,7 +3199,6 @@ anymore and put this in instead.
   width="50%;" />
 </p>
 
-
 PostPosition is going to go find post zero, the first section on the
 page and get its offset top and then page top is going to go get window
 scrollTop. Then we&apos;re going to console log the two values of these
@@ -3225,7 +3217,6 @@ and I&apos;m going to close this down here.
 I&apos;ve got something wrong over here. Offset is not a function. Is it
 offset with s? It&apos;s offset with lower-case s. Make sure you do this
 right offset. There we go. Try that again.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 179. example, window scroll listener (93) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3260,7 +3251,6 @@ this thing out. It&apos;s really important to understand this before we
 continue to get what we&apos;re going for here, because I need to know when
 a particular section is in a particular place on my screen or in my view
 port.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 180/181. example, highlight section (94) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3439,7 +3429,6 @@ I see, it&apos;s unhappy because we have an unfinished if statement here
 with this stuff and you&apos;re so unhappy about that. I&apos;m just going to
 take this thing and cut it for the moment. Take that out and let&apos;s look
 at just the post option.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 191. example, posttops section sizes (101) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3453,7 +3442,6 @@ an array with five elements in it for each of my five sections, 200,
 700, 1500.6875, and then 21 no 4.56- and 2683.4875. I don&apos;t really need
 all the decimal points, so that&apos;s why I put the <b>Math.floor</b> in
 there.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 192/193. calculate each section size (101) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3484,7 +3472,6 @@ good. Great. We&apos;ll pick it up in the next lesson.
 </p>
 
 I&apos;ve put the window scroll event back in with my IF statements.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 195/196. smoothscroll.js - scroll up/down (102) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3524,7 +3511,6 @@ counter 1, which would be over here if we look at this, if that thing
 that&apos;s saying how far we&apos;re scrolling down the page is greater than
 700, then this second section must be up here, must be up towards the
 top of the page if that number is greater than that number.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 198/199. 24-43 of smoothscroll.js & after, 32-50 of smoothscroll.js (103) ~~~~~~~~~-->
 <p align="center">
@@ -3583,7 +3569,6 @@ very efficient and very useful and helps address one of the gotchas with
 working with scroll events, which is that you have to be careful not to
 do something every time you scroll a tiny little bit because you can
 overload your CPU.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-11">2.11. Writing the Else/If Statement - Part 1</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3619,7 +3604,6 @@ so if the counter is greater than that and ampersand ampersand Yeah.
 PostTops, PageTops is less than PostTops, square bracket counter this
 value, PageTop, this value here, which changes as you scroll the page
 every little bit if it&apos;s less than the PostTops counter.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 205. scroll down, increment, scroll up, decrement (106) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3639,7 +3623,6 @@ which case I then want to detriment counter, counter minus minus. And
 then I&apos;m going to do a console log scrolling up and then the counter
 we&apos;ll see what the counter is. All right, let&apos;s go and see what this
 does. I think that hopefully I did that right? I think I did.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 206/207. example, scroll up/down (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3686,7 +3669,6 @@ If this seems a bit cumbersome and confusing, that&apos;s okay, that&apos;s
 natural. It&apos;s not easy to wrap your head around. However, the hard part
 of the script is over. The rest is fairly easy to do, but the hard part
 of this script is now been finished, that&apos;s nice to know.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 209. scroll up/down & position to section (108) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3701,7 +3683,6 @@ This is where the magic happens, is in the &apos;if &apos; and in the
 &apos;elseif&apos; where we&apos;re tracking whether we&apos;re scrolling down or
 scrolling up, and where we are in the page in relation to our various
 sections of the page.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 210. get posttop for location of section (109) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3727,7 +3708,6 @@ the previous counter, you&apos;ll see why we need that as we go forward
 here. Add these two variables, one that&apos;s just going to gather all the
 links just for a short cut, we don&apos;t have to take this out every time,
 and then one for previous counter that set to zero.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 211. highlight section you are in (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3746,7 +3726,6 @@ to take all links, and remove the class attribute so that I&apos;ll remove
 selected from all of those anchor tags up there. Then we want to take
 the link with <b>eq</b>. <b>eq</b> is a function in jQuery that&apos;s like
 equals.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 212. update class attribute of section (111) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
