@@ -19,51 +19,51 @@ To keep up to date with how FlexSlider's development roadmap looks, please see o
 
 ## Updates
 
-** Version 2.7.2 **
+**Version 2.7.2**
 
-** Refactor jQuery HTML output for img attributes.
+**Refactor jQuery HTML output for img attributes.**
 
-** Version 2.7.1 **
+**Version 2.7.1**
 
-** RTL fixes for Firefox browser.
+**RTL fixes for Firefox browser.**
 
-** Version 2.7.0 **
+**Version 2.7.0**
 
-** Fixes resize method call for orientationchange. Adds RTL feature - param "rtl" added. **
+**Fixes resize method call for orientationchange. Adds RTL feature - param "rtl" added.**
 
-** Version 2.6.3 **
+**Version 2.6.3**
 
-** Rollback fade fixes, due to harsh fade reports. **
+**Rollback fade fixes, due to harsh fade reports.**
 
-** Version 2.6.2 **
+**Version 2.6.2**
 
-** Minor update to fix issues with varying heights and overflow onto content below the slider. Fixes the visibility of the pagination and the navigation in the "fade" mode. **
+**Minor update to fix issues with varying heights and overflow onto content below the slider. Fixes the visibility of the pagination and the navigation in the "fade" mode.**
 
-** Version 2.6.1 **
+**Version 2.6.1**
 
-** SmoothHeight now uses innerHeight() instead of height() to account for padding in calculation. Defining var altText to prevent error. bower.json add fonts folder on main field. Changed true to false in order to make sure whether or not to allow a slider comprised of a single slide. **
+**SmoothHeight now uses innerHeight() instead of height() to account for padding in calculation. Defining var altText to prevent error. bower.json add fonts folder on main field. Changed true to false in order to make sure whether or not to allow a slider comprised of a single slide.**
 
-** Version 2.6.0 **
+**Version 2.6.0**
 
-** Adds composer json file, scope fix for focused keyword, fixes bower demo folder exclusion, z-index fix for disabled nav arrow, play/pause accessibility fix, itemMargin fix for slider items, fixes accessibility for in focus elements and pagination controls, firefox fix for text selection on slider carousel, adds data-thumb-alt image alt attribute. **
+**Adds composer json file, scope fix for focused keyword, fixes bower demo folder exclusion, z-index fix for disabled nav arrow, play/pause accessibility fix, itemMargin fix for slider items, fixes accessibility for in focus elements and pagination controls, firefox fix for text selection on slider carousel, adds data-thumb-alt image alt attribute.**
 
-** Version 2.5.0 **
+**Version 2.5.0**
 
-** Bumped compatibility support starting with jQuery 1.7+. pausePlay icon fix. Firefox touch event fix. Adds customDirectionNav param. **
+**Bumped compatibility support starting with jQuery 1.7+. pausePlay icon fix. Firefox touch event fix. Adds customDirectionNav param.**
 
-** Version 2.4.0 **
+**Version 2.4.0**
 
-** Update for improved standards. Adds classes to li nav elements. Reset for li elements in stylesheet. **
+**Update for improved standards. Adds classes to li nav elements. Reset for li elements in stylesheet.**
 
-** Version 2.3.0 **
+**Version 2.3.0**
 
-** Fixes pauseInvisible attribute issue with Chrome and the Page Visibility API. **
+**Fixes pauseInvisible attribute issue with Chrome and the Page Visibility API.**
 
-** Version 2.2.2 **
+**Version 2.2.2**
 
-** Fixes minified JavaScript file to remove merge conflicts. **
+**Fixes minified JavaScript file to remove merge conflicts.**
 
-** Version 2.2.0 **
+**Version 2.2.0**
 
 - Fixed event handler conflicts with devices that are both click and touch enabled. e.g., Windows 8.
 - Made all slider variables public, stored in `slider.vars`. This allows manipulation of `slider.vars.minItems` and `slider.vars.maxItems` on the fly to create different fluid grids at certain breakpoints. [Check out this example demonstrating a basic technique](http://flexslider.woothemes.com/dynamic-carousel-min-max.html)
