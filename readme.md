@@ -1,7 +1,7 @@
 ---
 title: "#3 - University of California @Davis Interactivity with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "2/5/2024 8+am"
+date last editted: "2/12/2024 1+pm"
 output: 
   markdown:
     with some style
@@ -17,16 +17,14 @@ output:
 <p align="center">
   <img src="./images/jq-and-js.png" 
   alt="jQuery logo."
-  style="border: 2px solid #000000;" 
-  width="400px;" />
+  style="border: 2px solid #000000; width:400px;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. uc davis logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image002.jpg" 
   alt="University of California @Davis logo."
-  style="border: 2px solid #000000;" 
-  width="200px;" />
+  style="border: 2px solid #000000; width:200px;" />
 </p>
 
 <h3>About this Course</h3>
@@ -527,8 +525,7 @@ Be sure to read the Coursera guidelines and the Coursera Honor Code here:</p>
 <p align="center">
   <img src="./images/image003.webp" 
   alt="1.01. Course Introduction."
-  style="border: 2px solid #000000;" 
-  width="40%;" />
+  style="border: 2px solid #000000; width:40%;" />
 </p>
 
 Hello and welcome to our 3rd course in our four-core specialization on
@@ -551,8 +548,7 @@ JavaScript.
 <p align="center">
   <img src="./images/image004.webp" 
   alt="1.02. Module 1 Introduction."
-  style="border: 2px solid #000000;" 
-  width="40%;" />
+  style="border: 2px solid #000000; width:40%;" />
 </p>
 
 <div align="right">
@@ -574,8 +570,7 @@ elements on web pages and that&apos;s really pretty fun.
 <p align="center">
   <img src="./images/image005.webp" 
   alt="1.03. Intro to jQuery Plugins."
-  style="border: 2px solid #000000;" 
-  width="40%;" />
+  style="border: 2px solid #000000; width:40%;" />
 </p>
 
 Just as a quick recap, we&apos;ve learned a lot of JavaScript so far.
@@ -584,8 +579,7 @@ Just as a quick recap, we&apos;ve learned a lot of JavaScript so far.
 <p align="center">
   <img src="./images/image006.webp" 
   alt="Recap: JavaScript."
-  style="border: 2px solid #000000;" 
-  width="40%;" />
+  style="border: 2px solid #000000; width:40%;" />
 </p>
 
 We started with the JavaScript basics, which included working with
