@@ -38,36 +38,6 @@ and deleting data in objects; manipulate the DOM based on the data in objects;
 identify and articulate how multiple functions work together to create a more complex 
 program; and identify processes for breaking larger programs into smaller, more 
 manageable pieces.</p>
-<!-- table of contents -->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
-
-<!-- <div style="background-color:black;color:white;padding:30px">Scroll Down</div> -->
-<!-- <div style="background-color:lightgrey;padding:30px 30px 750px"></div> -->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- <script>
-// Get the button
-var mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 10px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document. 0,0 - 2120
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
--->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~ Hoverable Dropdown Menu ~~-->
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
@@ -116,7 +86,8 @@ function topFunction() {
 
 <!-- -   **2.02.jQueryScrollEffects-START.zip** -->
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery">2.02.jQueryScrollEffects-START.zip</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery">
+    2.02.jQueryScrollEffects-START.zip</a></li>
 </ul>
 
 >#### [**2.03 Creating a Click Handler**](#ch2-03)
@@ -137,14 +108,16 @@ function topFunction() {
 
 <!-- -   **2.17.jQueryPageLocationTracking.pdf** -->
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation">2.17.jQueryPageLocationTracking.pdf</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation">
+    2.17.jQueryPageLocationTracking.pdf</a></li>
 </ul>
 
 >#### [**2.18 Intro to Scroll Effects with JS**](#ch2-18)
 
 <!-- -   **2.18.ScrollEffects-START.zip** -->
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript">2.18.ScrollEffects-START.zip</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript">
+    2.18.ScrollEffects-START.zip</a></li>
 </ul>
 
 >#### [**2.19 Getting the Target - Part 1**](#ch2-19)
@@ -160,13 +133,15 @@ function topFunction() {
 
 <!-- -   **2.28.PDF-of-Presentation.pdf** -->
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation">2.28.PDF-of-Presentation.pdf</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation">
+    2.28.PDF-of-Presentation.pdf</a></li>
 </ul>
 
 >#### [**2.29 Scription Site Introduction**](#ch2-29)
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/KrJDR/start-files-scription-site">2.29.Scription Site</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/KrJDR/start-files-scription-site">
+    2.29.Scription Site</a></li>
 </ul>
 
 -   **2.29.Scription-Part1-START.zip**
@@ -304,7 +279,6 @@ jQuery plugins explored in this course into the Scription webpage through a seri
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery" target="_blank" rel="noopener noreferrer">
     2.02.jQueryScrollEffects-START.zip (ZIP File)</a></li>
 </ul>
-
 
    3. Creating a Click Handler (5:00)
    4. Adding the Animation (6:56)
@@ -596,8 +570,7 @@ write the scripts that you want to do for your web page.
 <p align="center">
   <img src="./images/image007.webp" 
   alt="Recap: jQuery."
-  style="border: 2px solid #000000;" 
-  width="50%;" />
+  style="border: 2px solid #000000; width:50%;" />
 </p>
 
 Then we had jQuery and your world became a little bit larger. With
@@ -610,8 +583,7 @@ a little bit easier and a little bit better for all of us.
 <p align="center">
   <img src="./images/image008.webp" 
   alt="Introducing: Plugins."
-  style="border: 2px solid #000000;" 
-  width="50%;" />
+  style="border: 2px solid #000000;" width:50%;" />
 </p>
 
 Now we need to introduce plugins. We&apos;ve already used the <b>easing</b>
@@ -638,8 +610,7 @@ great.
 <p align="center">
   <img src="./images/image009.webp" 
   alt="Adding Functionality."
-  style="border: 2px solid #000000;" 
-  width="50%;" />
+  style="border: 2px solid #000000; width:50%;" />
 </p>
 
 Again, <b>plugins</b> add additional functionality to jQuery, and we&apos;ve
@@ -663,8 +634,7 @@ could do that thing.
 <p align="center">
   <img src="./images/image010.webp"
   alt="1.04. Using Plugins and Essential Steps."
-  style="border: 2px solid #000000;" 
-  width="40%;" />
+  style="border: 2px solid #000000; width:40%;" />
 </p>
 
 
@@ -680,8 +650,7 @@ them to work.
 <p align="center">
   <img src="./images/image011.webp" 
   alt="Using Plugins and Essential Steps, #2."
-  style="border: 2px solid #000000;" 
-  width="50%;" />
+  style="border: 2px solid #000000; width:50%;" />
 </p>
 
 <b><mark>[Step 1]</mark></b> is, you have to use the markup indicated by the
@@ -732,29 +701,24 @@ those are included as well.
 <p align="center">
   <img src="./images/image012.webp"
   alt="Documentation Mish-Mash."
-  style="border: 2px solid #000000;" 
-  width="50%;" />
+  style="border: 2px solid #000000; width:50%;" />
 </p>
 
-Suppose you find a jQuery plugin you want to try on your website, how do
-you go about adding it to your page? How do you know what to do? Because
-these plugins are all made by different developers or groups of
-developers, there&apos;s no real standard in terms of the documentation.
-This is where having a solid foundation in JavaScript really helps,
-because you need to look at the documentation they provide, and be able
-to tease it out and go okay, I understand what they&apos;re asking me to do
-here.
+Suppose you find a jQuery plugin you want to try on your website, how do you go about 
+adding it to your page? How do you know what to do? Because these plugins are all made 
+by different developers or groups of developers, there&apos;s no real standard in terms 
+of the documentation. This is where having a solid foundation in JavaScript really helps,
+because you need to look at the documentation they provide, and be able to tease it out 
+and go okay, I understand what they&apos;re asking me to do here.
 
-On this page they&apos;re telling me to install the plugin like this and
-then add these configuration options, and so on and so forth. And unless
-you have some experience with JavaScript, it&apos;s going to look like a
-bunch of messy code and it&apos;s not going to make a lot of sense. So
-that&apos;s why it&apos;s really helpful to have a solid JavaScript foundation,
-before trying to mess around with this stuff. But now that you do, and
-you&apos;ll see once you work with a few plugins that many of them work
-pretty much the same way. The documentation may look a little bit
-different; the directions may be written a little bit different, but
-it&apos;s the same basic steps each time.
+On this page they&apos;re telling me to install the plugin like this and then add these 
+configuration options, and so on and so forth. And unless you have some experience with 
+JavaScript, it&apos;s going to look like a bunch of messy code and it&apos;s not going to 
+make a lot of sense. So that&apos;s why it&apos;s really helpful to have a solid JavaScript 
+foundation, before trying to mess around with this stuff. But now that you do, and you&apos;ll 
+see once you work with a few plugins that many of them work pretty much the same way. The 
+documentation may look a little bit different; the directions may be written a little bit 
+different, but it&apos;s the same basic steps each time.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-05">1.05. Gotchas and Rookie Mistakes (8:52)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -762,16 +726,14 @@ it&apos;s the same basic steps each time.
 <p align="center">
   <img src="./images/image013.webp"
   alt="Gotchas and Rookie Mistakes."
-  style="border: 2px solid #000000;" 
-  width="40%;" />
+  style="border: 2px solid #000000; width:40%;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. gotchas and rookie mistakes, #2 (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image014.webp" 
   alt="Gotchas and Rookie Mistakes, #2."
-  style="border: 2px solid #000000;"
-  width="50%;" />
+  style="border: 2px solid #000000; width:50%;" />
 </p>
 
 <b><mark>[Number 1]</mark></b> on this list is the biggest one, I see this all
@@ -828,47 +790,42 @@ to scripts up in the top of the page and maybe use the defer attribute
 to make sure they don&apos;t load into the whole page is loaded. Keep that
 in mind.
 
-Now, jQuery has a document ready method, <b><mark>[number 4]</mark></b> that will
-check to see that the DOM is flooded before anything inside the
-<b>document_ready</b> function runs. That&apos;s just checking to make sure
-your HTML is loaded. Sometimes people will provide plugins and tell you
-to use the document ready function. You&apos;ll need that if you&apos;re up at
-the top of the page and you&apos;re not using the deferred attribute. But if
-you put it at the bottom of the page, you may not need it. There&apos;s also
-a window load method, and that&apos;s in older versions of jQuery version 2
-and lower. It&apos;s now been replaced with <b>window.on</b> and the load and
-you pass in load as the event that we&apos;re looking for and then run an
-anonymous function, which is what we used in the previous lesson with
-the sliders. Be aware about these different functions, what they do,
-which versions of jQuery they work with and that stuff, because if
-you&apos;re reading the documentation for a plugin, it could be older
-documentation. If their documentation is telling you to use
-<b>window.load,</b> but you&apos;re using the most recent version of the jQuery
-library, you&apos;ll have to switch it to the <b>window.on</b> method and use
-that one instead. You want to make sure that you&apos;re using these
-functions properly. Really where you&apos;re going to use these is just
-where you&apos;re initializing your script. Has nothing to do with loading
-the actual script file or the plugin file. This is where you initialize
-your script on your page where you&apos;re tying the plugin to run. You&apos;ll
-need to make sure you use these functions properly.
+Now, jQuery has a document ready method, <b><mark>[number 4]</mark></b> that will check 
+to see that the DOM is flooded before anything inside the <b>document_ready</b> function 
+runs. That&apos;s just checking to make sure your HTML is loaded. Sometimes people will 
+provide plugins and tell you to use the document ready function. You&apos;ll need that 
+if you&apos;re up at the top of the page and you&apos;re not using the deferred attribute. 
+But if you put it at the bottom of the page, you may not need it.
 
-Then the last, <b><mark>[number 5]</mark></b> is overriding CSS on your
-stylesheet. If you want to customize the look of the plugin and you
-should put your rules that override the styles they&apos;ve set on their
-specified CSS file, on your CSS file and then make sure your CSS file
-loads last. That way, when your CSS loads, it will override the access
-on their stylesheet. You don&apos;t want to overwrite the styles on their
-access file because if you ever update the plugin files, you&apos;ll lose
-that and you&apos;ll have to do it again. You want to make sure you put it
-on your CSS file.
+There&apos;s also a window load method, and that&apos;s in older versions of jQuery 
+version 2 and lower. It&apos;s now been replaced with <b>window.on</b> and the load and
+you pass in load as the event that we&apos;re looking for and then run an anonymous 
+function, which is what we used in the previous lesson with the sliders. Be aware about 
+these different functions, what they do, which versions of jQuery they work with and that 
+stuff, because if you&apos;re reading the documentation for a plugin, it could be older
+documentation. If their documentation is telling you to use <b>window.load,</b> but 
+you&apos;re using the most recent version of the jQuery library, you&apos;ll have to 
+switch it to the <b>window.on</b> method and use that one instead. You want to make sure 
+that you&apos;re using these functions properly. Really where you&apos;re going to use 
+these is just where you&apos;re initializing your script. Has nothing to do with loading
+the actual script file or the plugin file. This is where you initialize your script on 
+your page where you&apos;re tying the plugin to run. You&apos;ll need to make sure you 
+use these functions properly.
+
+Then the last, <b><mark>[number 5]</mark></b> is overriding CSS on your stylesheet. If 
+you want to customize the look of the plugin and you should put your rules that override 
+the styles they&apos;ve set on their specified CSS file, on your CSS file and then make 
+sure your CSS file loads last. That way, when your CSS loads, it will override the access
+on their stylesheet. You don&apos;t want to overwrite the styles on their access file 
+because if you ever update the plugin files, you&apos;ll lose that and you&apos;ll have 
+to do it again. You want to make sure you put it on your CSS file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. 5 items of beware the plugin (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <kbd>
   <img src="./images/image015.webp" 
   alt="5 Items of Beware the Plugins."
-  style="border: 2px solid #000000;" 
-  width="50%;" />
+  style="border: 2px solid #000000; width:50%;" />
 </kbd>
 </p>
 
@@ -900,8 +857,7 @@ using is really worthwhile.
 <p align="center">
   <img src="./images/image016.webp"
   alt="Looking to the Future."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Getting used to using other people&apos;s code now via jQuery plugins is a
@@ -951,14 +907,13 @@ carrying the extension .ZIP.
     target="_blank" rel="noopener noreferrer">How to open a zip file for either Mac or PC</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-06">1.06. FlexSlider: A jQuery Plugin (6:38)</h2>
+<h2 name="ch1-06">1.06 FlexSlider: A jQuery Plugin (6:38)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. flexslider: a jquery plugin (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image017.webp" 
-  alt="1.06. FlexSlider: A jQuery Plugin."
-  style="border: 2px solid black;"
-  width="40%;" />
+  alt="1.06 FlexSlider: A jQuery Plugin."
+  style="border: 2px solid black; width:40%;" />
 </p>
 
 Now that we&apos;ve talked about jQuery plug-ins a bit, let&apos;s take a look
@@ -969,8 +924,7 @@ to our page.
 <p align="center">
   <img src="./images/image018.webp" 
   alt="Basic FlexSlider."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 The FlexSlider is a good one to look at. Partially because we&apos;ve been
@@ -10733,4 +10687,4 @@ going to learn even more JavaScript and you&apos;ll get even better at it
 and you&apos;ll get more practice. So I look forward to seeing you there.</p>
 
 <p>.the end...</p>
-<h6>Last Updated 1/21/2024 12:36pm</h6>
+<h6>Last Updated 2/12/2024 1:16pm</h6>
