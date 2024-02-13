@@ -2760,8 +2760,7 @@ a little bit better, a little bit easier to read. We animate this over
 <p align="center">
   <img src="./images/image155.webp"
   alt="Example, easing animation scroll."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Let&apos;s go take a look and see how it looks. Now it&apos;s got a nice,
@@ -2778,8 +2777,7 @@ that.
 <p align="center">
   <img src="./images/image156.webp"
   alt="Example, test easing animation scroll effect."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 This is all working and I could leave the script like this. It&apos;s
@@ -2806,8 +2804,7 @@ second and I did something wrong there.
 <p align="center">
   <img src="./images/image157.webp"
   alt="2.06. Highlighting Elements (Section)."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 On the style sheet is a rule, selected, and I might have it commented
@@ -2818,8 +2815,7 @@ out.
 <p align="center">
   <img src="./images/image158.webp"
   alt="Highlight the clicked link."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 We go to Styles, go down here and it&apos;s not commented out, good. I&apos;ve
@@ -2859,10 +2855,10 @@ highlight the one that I&apos;ve actually clicked on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 159/160. get anchor tags: nav ul li a (82) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image159.webp"
-  style="width:45%;"
+  style="border: 2px solid #000000; width:45%"
   alt="Get anchor tags, navigation line item anchor." />
 <img src="./images/image160.webp"
-  style="width:45%;"
+  style="border: 2px solid #000000; width:45%"
   alt="Example getting anchor tags." />
 </p>
 
@@ -2906,8 +2902,7 @@ to another. We&apos;re going to deal with that in the next lesson.
 <p align="center">
   <img src="./images/image161.webp"
   alt="2.07. Intro to Page Location Tracking."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 In this lesson, we&apos;re going to take the files that we already started
@@ -2919,8 +2914,7 @@ here.
 <p align="center">
   <img src="./images/image162.webp"
   alt="Example, smooth scroll."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 But what it does not do is if I scroll down the page, it doesn&apos;t change
@@ -2942,20 +2936,20 @@ are out there. https://callbruno.com/en
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 163/164. example scroll callbruno.com (85) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image163.webp"
-  style="width:45%;"
+  style="border: 2px solid #000000; width:45%"
   alt="Example callbruno.com, #1." />
 <img src="./images/image164.webp"
-  style="width:45%;"
+  style="border: 2px solid #000000; width:45%"
   alt="Example callbruno.com, #2." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 165/166. example callbruno, #3/#4 (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image165.webp"
-  style="width:45%;"
+  style="border: 2px solid #000000; width:45%"
   alt="Example callbruno.com, #3." />
 <img src="./images/image166.webp"
-  style="width:45%;"
+  style="border: 2px solid #000000; width:45%"
   alt="Example callbruno.com, #4." />
 </p>
 
@@ -2970,10 +2964,10 @@ It&apos;s affected by the scroll.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 167/168. example callbruno.com, #5/#6 (85) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image167.webp"
-  style="width:45%;"
+  style="border: 2px solid #000000; width:45%"
   alt="Example callbruno.com, #5." />
 <img src="./images/image168.webp"
-  style="width:45%;"
+  style="border: 2px solid #000000; width:45%"
   alt="Example callbruno.com, #6." />
 </p>
 
@@ -2990,8 +2984,7 @@ a minute here.
 <p align="center">
   <img src="./images/image169.webp"
   alt="Example, scroll event, highlight link."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 But for right now, for this script, all we&apos;re going to do is change the
@@ -3005,8 +2998,7 @@ things based on where you are on the page. That&apos;s pretty exciting.
 <p align="center">
   <img src="./images/image170.webp"
   alt="awwwards.com."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 By the way, I should add that I don&apos;t know anything about this Web site
@@ -3021,8 +3013,7 @@ inspiration about different things that you can do.
 <p align="center">
   <img src="./images/image171.webp"
   alt="Window Load and Scroll listener."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Let&apos;s get started with our script and we&apos;re going to work with the
@@ -3039,8 +3030,7 @@ to our script here.
 <p align="center">
   <img src="./images/image172.webp"
   alt="Tag console.log as scrolling to section."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Over here on my <b>smoothscroll</b> page here, I&apos;m just going to go down
@@ -3058,8 +3048,7 @@ here. It wouldn&apos;t be that tall.
 <p align="center">
   <img src="./images/image173.webp"
   alt="On load, scroll function."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 If I want to track which section is on the screen, I need to know how
@@ -3085,8 +3074,7 @@ you&apos;ll get a ton of alerts scrolling, and save that.
 <p align="center">
   <img src="./images/image174.webp"
   alt="Example, test scrolling."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 If I come back to my page now and choose my inspector over your turn on
@@ -3107,8 +3095,7 @@ trying to do too many things at once.
 <p align="center">
   <img src="./images/image175.webp"
   alt="2.08. The Crux of the Problem."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 Now, we&apos;re going to get to the crux of the problem. What we&apos;re going
@@ -3119,8 +3106,7 @@ happens as we scroll on the page.
 <p align="center">
   <img src="./images/image176.webp"
   alt="Window scroll event listener code."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 On your page, you want to add some variables here. You want to add these
@@ -3143,8 +3129,7 @@ anymore and put this in instead.
 <p align="center">
   <img src="./images/image177.webp"
   alt="Window scroll event listener code, #1."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 PostPosition is going to go find post zero, the first section on the
@@ -3158,8 +3143,7 @@ and I&apos;m going to close this down here.
 <p align="center">
   <img src="./images/image178.webp"
   alt="Window scroll event listener code, #2."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 I&apos;ve got something wrong over here. Offset is not a function. Is it
@@ -3170,8 +3154,7 @@ right offset. There we go. Try that again.
 <p align="center">
   <img src="./images/image179.webp"
   alt="Example, window scroll listener."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 There we go. I got zero, for the first one and 200 for the second one.
@@ -3203,10 +3186,10 @@ port.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 180/181. example, highlight section (94) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image180.webp"
-  style="width:45%;"
+  style="border: 2px solid #000000; width:45%"
   alt="Example, highlight section, #1." />
 <img src="./images/image181.webp"
-  style="width:45%;"
+  style="border: 2px solid #000000; width:45%"
   alt="Example, highlight section, #2." />
 </p>
 
@@ -4873,12 +4856,11 @@ again be working with scrolling and capturing the scrolling.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-22">2.22 Checking the Load (6:48)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 289.  (149) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 289. checking the load (2.22) (149) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image289.webp"
-  alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  alt="2.22 Checking the Load."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 We have the script that does the smooth scroll, and now we&apos;re going to
@@ -4895,8 +4877,7 @@ the height of each section.
 <p align="center">
   <img src="./images/image290.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 This is exactly the same as what we did in the jQuery version, except
@@ -4916,8 +4897,7 @@ we going to put in there?
 <p align="center">
   <img src="./images/image291.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 We&apos;re going to put some variables. First, I&apos;m just going to paste
@@ -4939,8 +4919,7 @@ resizing their window. So we&apos;ll do that again as well.
 <p align="center">
   <img src="./images/image292.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Now, one thing you might notice here, is that the counter is being set
@@ -4962,10 +4941,10 @@ forward with the next part.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 293/294.  (152) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image293.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 <img src="./images/image294.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
 
@@ -4982,8 +4961,7 @@ pounding Plan Recto. Let&apos;s come to log that out.
 <p align="center">
   <img src="./images/image295.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 If I go over here to my page and I turn on my inspector, you&apos;re going
@@ -4997,10 +4975,10 @@ pick it up from here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 296/297.  (153) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image296.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 <img src="./images/image297.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
 
@@ -5017,12 +4995,11 @@ care of that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-23">2.23 Top Posts (5:35)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 298.  (153) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 298. top posts (2.23) (153) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image298.webp"
-  alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  alt="2.23 Top Posts."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 In the last lesson, we saw that we could use the
@@ -5034,8 +5011,7 @@ getting here posts, zero.
 <p align="center">
   <img src="./images/image299.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:45%;" />
 </p>
 
 But we don&apos;t want where it is anywhere on the page. We want to get the
@@ -5048,10 +5024,10 @@ always get 200 pixels. Let&apos;s go ahead and give that a try.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 300/301.  (154) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image300.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 <img src="./images/image301.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
 
@@ -5066,8 +5042,7 @@ there. I always get 200 for that first post.
 <p align="center">
   <img src="./images/image302.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Great. Now, that we&apos;ve got that, the next thing we need to do is round
@@ -5100,8 +5075,7 @@ take this, round it down and then it gets pushed into postTops.
 <p align="center">
   <img src="./images/image303.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Then, of course, we want to cancel log out postTops just to see what the
@@ -5115,8 +5089,7 @@ here.
 <p align="center">
   <img src="./images/image304.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 If I refresh, I&apos;m getting the same numbers that I got before in the
@@ -5130,12 +5103,11 @@ a little bit different.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-24">2.24 Add an Event Listener (5:42)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 305.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 305. add an event listener (2.24) (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image305.webp"
-  alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  alt="2.24 Add an Event Listener."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 In the last module, we put all the tops of our posts or our sections
@@ -5146,8 +5118,7 @@ we know where they all are.
 <p align="center">
   <img src="./images/image306.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Again, we&apos;re putting all of this inside the window load event because
@@ -5163,8 +5134,7 @@ window function.
 <p align="center">
   <img src="./images/image307.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Now we&apos;re at the point where we&apos;re ready to start working with our
@@ -5180,8 +5150,7 @@ version of the scroll event.
 <p align="center">
   <img src="./images/image308.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 In jQuery, we did it like this. We used the jQuery objects to grab our
@@ -5197,8 +5166,7 @@ entire jQuery library to use it. That&apos;s nice.
 <p align="center">
   <img src="./images/image309.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Then we&apos;re going to put into this variable pagetop. Pagetop it&apos;s going
@@ -5210,8 +5178,7 @@ page is scrolled.
 <p align="center">
   <img src="./images/image310.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 I can, <b>console.log</b>, put <b>pageTop</b> and we should be seeing those
@@ -5220,10 +5187,10 @@ pixels change as we scroll down the page. Let&apos;s test that and see.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 311/312.  (160) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image311.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 <img src="./images/image312.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
 
@@ -5241,8 +5208,7 @@ represents the full height of the entire window.
 <p align="center">
   <img src="./images/image313.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 That&apos;s working great, and really what I want to do is I want to track
@@ -5264,8 +5230,7 @@ screen, and so on. That strategy is exactly the same.
 <p align="center">
   <img src="./images/image314.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 As before, you can either be scrolling down the page, starting at the
@@ -5276,12 +5241,11 @@ we need to watch out for, while we&apos;re handling our scroll effect.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-25">2.25 The Magic Conditionals (5:58)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 315.  (162) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 315. the magic conditionals (2.25) (162) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image315.webp"
-  alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  alt="2.25 The Magic Conditionals."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 To handle those two situations of scrolling up and scrolling down, I
@@ -5293,8 +5257,7 @@ going to piece this in here.
 <p align="center">
   <img src="./images/image316.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 You&apos;re going to have to type it, but I&apos;m going to paste it in here,
@@ -5331,8 +5294,7 @@ did it. Should be doing it. There, I see what I did wrong.
 <p align="center">
   <img src="./images/image317.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Over here. I put the plus 250 in the wrong place. Should be here. Plus
@@ -5343,10 +5305,10 @@ pixels from the top of the page, it hits it and says okay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 318/319.  (164) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image318.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 <img src="./images/image319.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
 
@@ -5365,8 +5327,7 @@ every single pixel that we scroll.
 <p align="center">
   <img src="./images/image320.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Just as before, we want to see if the <b>counter</b> is not the same as the
@@ -5381,8 +5342,7 @@ clear that everything has no class on it up there.
 <p align="center">
   <img src="./images/image321.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Let&apos;s go ahead and add this if statement over here. Down here I&apos;m
@@ -5404,13 +5364,11 @@ there before we go.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-26">2.26 Changing the Next Link (5:56)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 322.  (167) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 322. changing the next link (2.26) (167) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image322.webp"
-  alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  alt="2.26 Changing the Next Link."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 We took the class attribute off of all the links, now we need to add it
@@ -5420,8 +5378,7 @@ to the correct link.
 <p align="center">
   <img src="./images/image323.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 So I&apos;m going to add a variable, <b>const thisLink</b>, I want to add it to
@@ -6050,11 +6007,11 @@ this. But I think it&apos;s helpful to go through it anyway.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-30">2.30 Header HTML (5:09)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 368.  (189) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 368. header html (2.30) (189) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image368.webp"
   style="width:50%;"
-  alt="." />
+  alt="2.30 Header HTML." />
 </p>
 
 Inside the header, you&apos;re going to have a div with the logo in it and
@@ -10249,19 +10206,18 @@ going to be 1.</p>
   alt="function checkWinningCondition." />
 </p>
 
-Now you could even make it stand out a little bit more by putting a
-strong tag around each of these things. And you could do much better
-than this for coming up with sort of a nicer interface for this. But,
-But this will take care of us for the moment. There we go. So we&apos;re
-going to put that into the score and, then we&apos;re ready to continue I
-believe that&apos;s all we need let&apos;s just see over here, yep. Players&lbrack;0&rbrack;
-player&lbrack;1&rbrack; looks good, that all looks good all right great, so what do
-we need to do to get this to work?
+<p>Now you could even make it stand out a little bit more by putting a strong tag around 
+each of these things. And you could do much better than this for coming up with sort of 
+a nicer interface for this. But, But this will take care of us for the moment. There we 
+go. So we&apos;re going to put that into the score and, then we&apos;re ready to continue 
+I believe that&apos;s all we need let&apos;s just see over here, yep. Players&lbrack;0&rbrack;
+player&lbrack;1&rbrack; looks good, that all looks good all right great, so what do we 
+need to do to get this to work?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 666. function checkwinningcondition (337) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image666.webp"
-  style="width:50%;"
+  style="border: 2px solid #000000; width:50%"
   alt="function checkWinningCondition." />
 </p>
 
@@ -10272,10 +10228,10 @@ it there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 667/668. test score 0 to 8 (338) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image667.webp"
-  style="width:45%;"
+  style="border: 2px solid #000000; width:45%"
   alt="Test score console.log 0 to 8." />
 <img src="./images/image668.webp"
-  style="width:45%;"
+  style="border: 2px solid #000000; width:45%"
   alt="Again, test score console log 0 to 8." />
 </p>
 
@@ -10304,7 +10260,7 @@ happens.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 671. test game player 2 wins with 33 (339) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image671.webp"
-  style="width:50%;"
+  style="border: 2px solid #000000; width:50%"
   alt="Test Game of PIG, player 2 wins with 33 points." />
 </p>
 
@@ -10499,19 +10455,17 @@ into a separate function that runs here.
   alt="Move all functions into one script file for ease." />
 </p>
 
-The next thing to do is to apply some of our best practices to this,
-which would be to create a separate script file because now we got a
-bunch of JavaScript at the bottom of the page. It&apos;s probably a good
-idea to make a new file here and call it script.js. And on that file we
-could take all of our script from the top here, all the way down to the
-bottom of the script tag here, cut it and stick it on that script tag
-over there. And in fact, I&apos;m going to put in my immediately invoked
-function here. I&apos;m going to have parentheses and in there, I&apos;m going
-to run a function which has its own parentheses, in its own curly braces
-and a set of parentheses after that, in a semicolon. And then, I&apos;m
-going to click between the curly braces and move that down and add my
-<b>use strict</b> directive to make sure I didn&apos;t screw up in any of my
-variables and then paste everything here.
+<p>The next thing to do is to apply some of our best practices to this, which would be to 
+create a separate script file because now we got a bunch of JavaScript at the bottom of 
+the page. It&apos;s probably a good idea to make a new file here and call it script.js. 
+And on that file we could take all of our script from the top here, all the way down to 
+the bottom of the script tag here, cut it and stick it on that script tag over there. 
+And in fact, I&apos;m going to put in my immediately invoked function here. I&apos;m 
+going to have parentheses and in there, I&apos;m going to run a function which has its 
+own parentheses, in its own curly braces and a set of parentheses after that, in a 
+semicolon. And then, I&apos;m going to click between the curly braces and move that down 
+and add my <b>use strict</b> directive to make sure I didn&apos;t screw up in any of my
+variables and then paste everything here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 686. change vars to const in javascript (346) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -10657,7 +10611,8 @@ on the discussion board. I&apos;ll check in from time to time and see what
 excellent versions people have made of the big game.</p>
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/QxK0k/pdf-of-presentation">4.14.Game-of-Pig.pdf</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/QxK0k/pdf-of-presentation">
+    4.14.Game-of-Pig.pdf</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-15">Course Summary (0:57)</h2>
