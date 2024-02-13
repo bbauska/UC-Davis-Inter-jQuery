@@ -160,7 +160,7 @@ manageable pieces.</p>
 >#### [**2.33 Styling That Attaches to Whole Page**](#ch2-33)
 >#### [**2.34 Slider Styles**](#ch2-34)
 >#### [**2.35 Pricing Styles**](#ch2-35)
->#### [**2.36 Tables Styles**](#ch2-36)
+>#### [**2.36 Tablet Styles**](#ch2-36)
 >#### [**2.37 Media Query for 1020 Pixels Wide**](#ch2-37)
 >#### [**2.38 Media Query for 1200 Pixels Wide**](#ch2-38)
 >#### [**2.39 Scription Site: Building Interactive Elements Challenges**](#ch2-39)
@@ -955,8 +955,7 @@ sizes using FlexSlider. That&apos;s fun.
 <p align="center">
   <img src="./images/image021.webp" 
   alt="Markup for Kittens for Sale Web Page."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 If you look at the markup, you&apos;ll notice that it&apos;s pretty basic. If
@@ -986,8 +985,7 @@ because, who doesn&apos;t love kittens? Kittens are awesome.
 <p align="center">
   <img src="./images/image024.webp" 
   alt="Responsive Media Queries."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 We looked at the media queries and they&apos;ll handle the screen if it&apos;s
@@ -999,8 +997,7 @@ of a layout on the page with the columns. Okay.
 <p align="center">
   <img src="./images/image025.webp" 
   alt="FlexSlider Website."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 Then the next thing is the FlexSlider Website and the FlexSlider Script.
@@ -1009,8 +1006,7 @@ Then the next thing is the FlexSlider Website and the FlexSlider Script.
 <p align="center">
   <img src="./images/image026.webp" 
   alt="FlexSlider Website, #2."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 If you go to the FlexSlider Website, which is here, you can download
 FlexSlider or you can click on the Live Demo. It&apos;s posted by
@@ -1025,8 +1021,7 @@ they&apos;re also included with this lesson.
 <p align="center">
   <img src="./images/image027.webp" 
   alt="FlexSlider Website, #3."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 Get those files first by either clicking the Download button here or by
@@ -1036,8 +1031,7 @@ downloading the FlexSlider files of this lesson.
 <p align="center">
   <img src="./images/image028.webp" 
   alt="Files Needed for FlexSlider Website."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 Now, when you get those files, the FlexSlider files, you&apos;re going to
@@ -1115,14 +1109,13 @@ need. I&apos;m going to put them into my project folder over here so that I
 have them, and that gets us all the files that we need in order to get
 started for this project.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-07">1.07. About the Minified Version (5:55)</h2>
+<h2 name="ch1-07">1.07 About the Minified Version (5:55)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 35. about the minified version (1.07) (27) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image035.webp"
-  alt="1.07. About the Minified Version."
-  style="border: 2px solid gray;"
-  width="40%;" />
+  alt="1.07 About the Minified Version."
+  style="border: 2px solid gray; width:40%;" />
 </p>
 
 And again, I&apos;m just repeating myself here but it&apos;s really important
@@ -1132,8 +1125,7 @@ that you understand this.
 <p align="center">
   <img src="./images/image036.webp"
   alt="Minified vs. Non-Minified jQuery FlexSlider.js."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 The Minified version is the same file with all the same with all the
@@ -1148,8 +1140,7 @@ version.
 <p align="center">
   <img src="./images/image037.webp"
   alt="Add 3 files to project: flexslider.css, jquery.flexslider-min.js and fonts."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 And again, these are the files that we actually need for our project.
@@ -1161,8 +1152,7 @@ previous lesson.
 <p align="center">
   <img src="./images/image038.webp"
   alt="Add stylesheet and 2 javascript files to head of index."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 Next, it&apos;s about following the directions to make the flex slider work,
@@ -1175,8 +1165,7 @@ written and to understand what the steps are.
 <p align="center">
   <img src="./images/image039.webp"
   alt="Link files and add markup."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 First, link the files, then add the markup, then hook up your slider,
@@ -1192,8 +1181,7 @@ similarities.
 <p align="center">
   <img src="./images/image040.webp"
   alt="Following Directions."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 All right, so let&apos;s go through this together. So, you can see what I
@@ -1203,8 +1191,7 @@ mean about how to do this.
 <p align="center">
   <img src="./images/image041.webp"
   alt="."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 42/43. where to put scripts, css & js (31) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1235,8 +1222,7 @@ I&apos;ve got jquery 2.2.4 loaded here, as opposed to the 1.6.
 <p align="center">
   <img src="./images/image044.webp"
   alt="jQuery version to load."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 But I&apos;m actually going to load the most recent version of jQuery. So,
@@ -1250,8 +1236,7 @@ jquery with that one.
 <p align="center">
   <img src="./images/image045.webp"
   alt="Load jQuery at bottom of screen."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 But notice I need to go back and add the <b>defer</b>, I want to put
@@ -1263,8 +1248,7 @@ script.
 <p align="center">
   <img src="./images/image046.webp"
   alt="Where to add scripts to index.html."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 So, I&apos;m going to put that in here, script src equals quote, and I want
@@ -1279,8 +1263,7 @@ says place somewhere in the head of your document.
 <p align="center">
   <img src="./images/image047.webp"
   alt="Defer script load; jQuery libary, then plugins, then my script."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 The other thing I want to do is I want to put the defer attribute on my
@@ -1294,8 +1277,7 @@ page is loaded, just to be certain. So, we&apos;ve got that, okay.
 <p align="center">
   <img src="./images/image048.webp"
   alt="Add Markup container with div, FlexSlider, ul and li images."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 The next thing we need to do is to add the markup, and this is the
@@ -1303,14 +1285,13 @@ markup this plug in expects. It expects a <b>div</b> with the class,
 <b>flexslider</b>, and a <b>ul</b> with the class slides, then list items with
 the images inside of it, and we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-08">1.08. Adding Markup & Hooking Up the Slider  (7:33)</h2>
+<h2 name="ch1-08">1.08 Adding Markup & Hooking Up the Slider  (7:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 49. adding markup and hooking up the slider (34) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image049.webp"
-  alt="1.08. Adding Markup and Hooking Up the Slider."
-  style="border: 2px solid gray;"
-  width="40%;" />
+  alt="1.08 Adding Markup and Hooking Up the Slider."
+  style="border: 2px solid gray; width:40%;" />
 </p>
 
 In the last lesson, we got all of our files linked and everything hooked
@@ -1322,8 +1303,7 @@ modify changes there. We&apos;ll get to more on that later.
 <p align="center">
   <img src="./images/image050.webp"
   alt="Step 2 FlexSlider, add markup, div, ul and li images."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 Now, we&apos;re ready to actually come down here and make our markup work
@@ -1338,8 +1318,7 @@ for that unordered list.
 <p align="center">
   <img src="./images/image051.webp"
   alt="Add flexslider class to div and slides class to ul."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 Let&apos;s go over here and set this up the same way. We need a div, we need
@@ -1355,8 +1334,7 @@ slides with seven kittens, one on each side. That&apos;s great.
 <p align="center">
   <img src="./images/image052.webp"
   alt="Add class to div and ul in index.html."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 Now we&apos;ve got our markup looking the way that it needs to look for our
@@ -1367,8 +1345,7 @@ we got that all in, so that&apos;s great.
 <p align="center">
   <img src="./images/image053.webp"
   alt="."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 Step 3, directions. Hook up the <b>FlexSlider</b>. This thing says to use
 the <b>window.load</b> function. Now, I happen to know that the
@@ -1379,8 +1356,7 @@ jQuery, but that&apos;s okay. This is what it says down here.
 <p align="center">
   <img src="./images/image054.webp"
   alt="Add functions to MyScript.js."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 
@@ -1393,8 +1369,7 @@ inside script tags, but we already have a separate file called
 <p align="center">
   <img src="./images/image055.webp"
   alt="MyScript.js: Add flexslider function."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 I&apos;m going to put it on there, <b>MyScript</b>. Take <b>FlexSlider</b> and
@@ -1432,16 +1407,14 @@ here is that the latest version of jQuery does not support this file.
 <p align="center">
   <img src="./images/image058.webp"
   alt="jQuery snippet."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 59. load defer jquery in index.html (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image059.webp"
   alt="Load correct version of jQuery defer in index.html."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 Now, if I were to go back to my hosted libraries and take this one
@@ -1454,8 +1427,7 @@ that it works. Close this, refresh.
 <p align="center">
   <img src="./images/image060.webp"
   alt="Example, test Kittens For Sale."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 Look at that, we have a kitten slider, and it&apos;s working, I get my
 errors, I get these buttons down here, so I&apos;ve got this additional
@@ -1497,8 +1469,7 @@ this back to the version 3.6 and save that.
 <p align="center">
   <img src="./images/image065.webp"
   alt="Test example scroll."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 Over here instead of load I&apos;m going to use on, and in here, I&apos;m going
@@ -1534,14 +1505,13 @@ page. There they are, they&apos;re back again. Okay, great. We&apos;ve got the
 basic slider working, now we can talk about what else we need to do with
 it and we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-09">1.09. FlexSlider Rules</h2>
+<h2 name="ch1-09">1.09 FlexSlider Rules</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. flexslider rules (1.09) (42) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image068.webp"
-  alt="1.09. FlexSlider Rules."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  alt="1.09 FlexSlider Rules."
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 In the last lesson (1.08), we got the Flexslider working, and it&apos;s
@@ -1634,8 +1604,7 @@ I&apos;ve got rid of that gap and all that stuff.
 <p align="center">
   <img src="./images/image076.webp"
   alt="Inspect example site: Kittens For Sale."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 Down here, I still want to adjust these buttons a little bit. I mean,
@@ -1648,8 +1617,7 @@ I want to actually attach to.
 <p align="center">
   <img src="./images/image077.webp"
   alt="styles.css: border, margin, background-color."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 I&apos;m going to come over here, I&apos;m going to add that rule in here. If I
@@ -1662,8 +1630,7 @@ background color. Save that and come back and test it.
 <p align="center">
   <img src="./images/image078.webp"
   alt="Inspect to fine tune style, font and colors."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 You can see my colors now overriding the color that was there before and
@@ -1675,14 +1642,13 @@ just a matter of using the inspector and hunting around to see what
 rules are being applied that you might want to change to get it to style
 and look the way you want it to look on your page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-10">1.10. Additional Controls</h2>
+<h2 name="ch1-10">1.10 Additional Controls</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. additional controls (1.10) (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image079.webp"
-  alt="1.10. Additional Controls."
-  style="border: 2px solid gray;"
-  width="40%;" />
+  alt="1.10 Additional Controls."
+  style="border: 2px solid gray; width:40%;" />
 </p>
 
 Your slider should be looking good. We&apos;ve gotten everything in place
@@ -1729,8 +1695,7 @@ looking at this exactly what you need to do.
 <p align="center">
   <img src="./images/image084.webp"
   alt="FlexSlider Options, default values."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 But basically, what we need to do is we need to pass options in to this
@@ -1746,8 +1711,7 @@ can we do? Let&apos;s take a look at it.
 <p align="center">
   <img src="./images/image085.webp"
   alt="FlexSlider with Options."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 Just like we did with the custom enemy method in jQuery, where we can
@@ -1831,8 +1795,7 @@ vertical.
 <p align="center">
   <img src="./images/image092.webp"
   alt="Example, test vertical scroll."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 We could do reverse true, so we&apos;ll go from top to bottom instead of
@@ -1843,8 +1806,7 @@ Now it&apos;s going from the top to the bottom.
 <p align="center">
   <img src="./images/image093.webp"
   alt="pauseonHover: true."
-  style="border: 2px solid gray;"
-  width="50%;" />
+  style="border: 2px solid gray; width:50%;" />
 </p>
 
 Then finally, another one we could do is pause on hover true. Which is
@@ -1870,14 +1832,13 @@ has FlexSlider on it. It could look the same, because they all have the
 same arrows here, left and right arrows. We can get rid of those and do
 something else that would be kind of interesting and fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-11">1.11. Advanced FlexSlider</h2>
+<h2 name="ch1-11">1.11 Advanced FlexSlider</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. advanced flexslider (1.11) (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image094.webp"
-  alt="1.11. Advanced FlexSlider."
-  style="border: 2px solid gray;"
-  width="40%;" />
+  alt="1.11 Advanced FlexSlider."
+  style="border: 2px solid gray; width:40%;" />
 </p>
 
 Now that you&apos;ve created the basic FlexSlider, with some advanced
@@ -1930,8 +1891,7 @@ advancedSlider there, so this is my advanced slider files.
 <p align="center">
   <img src="./images/image099.webp"
   alt="Update the Markup."
-  style="border: 2px solid gray;"
-  width="40%;" />
+  style="border: 2px solid gray; width:40%;" />
 </p>
 
 Great. Now that I&apos;ve got that into place and I&apos;m ready to really do
@@ -1950,8 +1910,7 @@ snippets with this lesson that you can open and they look like this.
 <p align="center">
   <img src="./images/image100.webp"
   alt="FlexSlider jQuery Plugin."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 There are some snippets here and so I&apos;m basically going to replace my
@@ -1962,8 +1921,7 @@ instead of just putting the pictures in.
 <p align="center">
   <img src="./images/image101.webp"
   alt="Add anchor tags with class to markup."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 I have a div, with an h2. The div has a class of slide 1, slide 2, slide
@@ -2001,14 +1959,13 @@ creating our fancier version of our FlexSlider. In the next lesson,
 we&apos;ll start looking at what we need to do to adjust the styling for
 this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-12">1.12. Additional Styling (5:47)</h2>
+<h2 name="ch1-12">1.12 Additional Styling (5:47)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 104. additional styling (1.12) (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image104.webp"
-  alt="1.12. Additional Styling for FlexSlider."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  alt="1.12 Additional Styling for FlexSlider."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 In the last module, we updated the markup for our fancy version of the
@@ -2036,8 +1993,7 @@ really matter where they go, I&apos;m going to put them here.
 <p align="center">
   <img src="./images/image107.webp"
   alt="Define background for slide1 thru slide5 in styles.css."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Now, this is really important, the slides the .slide1, .slide2, .slide3,
@@ -2062,8 +2018,7 @@ unfortunate.
 <p align="center">
   <img src="./images/image108.webp"
   alt="The position CSS property sets how an element is positioned in a document."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 But basically, what I&apos;ve done here is I&apos;ve said the div that&apos;s inside
@@ -2084,8 +2039,7 @@ works for these particular images.
 <p align="center">
   <img src="./images/image110.webp"
   alt="Image Dimensions for kitten01.jpg."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 If I come back to the finder and look at these images, if I do CMD+I,
@@ -2115,9 +2069,8 @@ width. And then I&apos;ve got background size cover.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 110. styling the cta 'call to action' (60) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image110.webp"
-  alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  alt="Styling the CTA 'Call to Action'."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 Then down here I&apos;m setting the H2 to position absolute top 20 pixels,
 left 20 pixels, then I&apos;m setting the color for that. So that&apos;s not too
@@ -2128,8 +2081,7 @@ this is working.
 <p align="center">
   <img src="./images/image111.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 The next thing we need is the styling for the actual call to action
@@ -2148,8 +2100,7 @@ need to style this call to action, and I&apos;ll do that in the next lesson.
 <p align="center">
   <img src="./images/image112.webp"
   alt="1.13. Styling the CTA 'Call to Action'."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 Now we&apos;re down to styling the call to action so that it displays
@@ -2161,8 +2112,7 @@ and do this, but let&apos;s go ahead and add this rule to our style sheet.
 <p align="center">
   <img src="./images/image113.webp"
   alt="Styling the Call to Action."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 114/115. styling the call to action (62) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2229,8 +2179,7 @@ slides is dark, so over here, I have a class of light on slide 4.
 <p align="center">
   <img src="./images/image118.webp"
   alt="Define different background colors for slides."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 You may have also wondered why on one of the slides I went up here, I
@@ -2247,8 +2196,7 @@ our work.
 <p align="center">
   <img src="./images/image119.webp"
   alt="Resize the CTA (call to action) button for tablet-sized browser windows."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 We need a couple more rules that are going to resize these elements for
@@ -2296,8 +2244,7 @@ size, 150px. Font-size to 24 pixels.
 <p align="center">
   <img src="./images/image124.webp"
   alt="Kittens for Sale example."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 That gets all of the styling in place for these, and if we go back and
 review the page, you&apos;ll see that the call to action isn&apos;t on the
@@ -2309,8 +2256,7 @@ going to look in end here, is round like this.
 <p align="center">
   <img src="./images/image125.webp"
   alt="Kittens for Sale example, #2."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 If you go to number 4, slide 4, that one should be picking up the light
@@ -2338,8 +2284,7 @@ section: <b>jQuery Plugins and FlexSlider</b>.
 <p align="center">
   <img src="./images/image126.webp"
   alt="2.01. Module 2 Intro - Scroll Effects."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 Hello and welcome to our second module. In this lesson, we will look at
@@ -2358,8 +2303,7 @@ started on this module.
 <p align="center">
   <img src="./images/image127.webp"
   alt="2.02. Intro to Smooth Scroll with jQuery."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 In the first part of this lesson, we&apos;re going to use jQuery to make a
@@ -2421,8 +2365,7 @@ user experience. So, we&apos;re going to do that using jQuery.
 <p align="center">
 <img src="./images/image134.webp"
   alt="Smooth Scroller example with set heading."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 
 The first thing we need to do is set the header so its position fixed.
 And if you go back to the files, you&apos;ll notice in the style sheet up
@@ -2484,13 +2427,13 @@ carrying the extension .ZIP.
     target="_blank" rel="noopener noreferrer">How to open a zip file for either Mac or PC</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-03">2.03. Creating a Click Handler (5:00)</h2>
+<h2 name="ch2-03">2.03 Creating a Click Handler (5:00)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 137/138. creating a click handler (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image137.webp"
   style="width:45%;"
-  alt="2.03. Creating a Click Handler." />
+  alt="2.03 Creating a Click Handler." />
 <img src="./images/image138.webp"
   style="width:45%;"
   alt="Add Easing and Click Handler scripts to end of index." />
@@ -2538,8 +2481,7 @@ You can see what it actually does.
 <p align="center">
   <img src="./images/image141.webp"
   alt="Example: alert click handler function."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 If I come back to my HTML, I&apos;ve put a click handler on all of these
@@ -2556,8 +2498,7 @@ that, but I want to make sure I&apos;m getting those links.
 <p align="center">
   <img src="./images/image142.webp"
   alt="HTML stop animate."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Let&apos;s go back to our script. Now, we don&apos;t need this alert here at
@@ -2576,13 +2517,13 @@ going to actually animate our HTML, and in here, we&apos;ll use our
 <b>thisSection</b> thing to tell us where we&apos;re going to animate to, and
 we&apos;ll do that in the next lesson so you see how it all comes together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-04">2.04. Adding the Animation (6:56)</h2>
+<h2 name="ch2-04">2.04 Adding the Animation (6:56)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 143/144. adding the animation (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image143.webp"
   style="width:45%;"
-  alt="2.04. Adding the Animation." />
+  alt="2.04 Adding the Animation." />
 <img src="./images/image144.webp"
   style="width:45%;"
   alt="Adding the animation to smoothscroll.js." />
@@ -2600,8 +2541,7 @@ pound 5^th^ (#1st-#5th). We&apos;ve already seen that.
 <p align="center">
   <img src="./images/image144.webp"
   alt="Animate in 8 tens of a second property of scrollTop."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 Then we&apos;re going to animate the html. And I&apos;ll show you in a minute
 what this stop thing does, but we&apos;re going to animate and in here we
@@ -2623,8 +2563,7 @@ that will actually animate the page to the top of the window.
 <p align="center">
   <img src="./images/image145.webp"
   alt="Example: offset scrollTop."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 If we test this out and if you&apos;re wondering what offset is, you can go
@@ -2696,8 +2635,7 @@ put this back to 800 because the animation is so slow now.
 <p align="center">
   <img src="./images/image150.webp"
   alt="Move animation tag to body."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 Okay, the other thing is I&apos;m going to put a comment here and add body.
 Now, pretty much these days all the browsers will animate the HTML
@@ -2710,14 +2648,13 @@ just in case somebody is using an older browser. I&apos;m not sure when they
 actually fixed up, so we won&apos;t see a difference because of that now,
 but it&apos;s just something to be aware of, Going forward.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-05">2.05. Add Some Easing and a Callback Function</h2>
+<h2 name="ch2-05">2.05 Add Some Easing and a Callback Function</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 151. add some easing and a callback function (2.05) (78) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image151.webp"
-  alt="2.05. Add Some Easing and a Callback Function."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  alt="2.05 Add Some Easing and a Callback Function."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 The smooth scroll script is working and that&apos;s great, but because we
@@ -2744,8 +2681,7 @@ jQuery library and any plugins that you&apos;re using.
 <p align="center">
   <img src="./images/image154.webp"
   alt="Easing animation scroll to top."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Over here, after my 800, I can add a comma and add an easing and I used
@@ -3213,14 +3149,13 @@ pieces that make capturing scroll events tricky, the fact that you
 can&apos;t be sure which pixel you going to hit and you have to watch out
 for performance.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-09">2.09. Strategy</h2>
+<h2 name="ch2-09">2.09 Strategy</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182. strategy (2.09) (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image182.webp"
-  alt="2.09. Strategy."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  alt="2.09 Strategy."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 Now, the next thing we need to watch out for are what could the user
@@ -3230,8 +3165,7 @@ possibly be doing on the page when it comes to scrolling?
 <p align="center">
   <img src="./images/image183.webp"
   alt="Scroll down or scroll up (if other than top of page)."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 There&apos;s really just two scenarios that we have to pay attention to,
@@ -3245,8 +3179,7 @@ scroll down, and they can only scroll up if they&apos;re not at the top.
 <p align="center">
   <img src="./images/image184.webp"
   alt="Set up if/else statement for scroll event."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 We&apos;re going to use a variable called counter, and then we&apos;re going to
@@ -3260,8 +3193,7 @@ our script over here.
 <p align="center">
   <img src="./images/image185.webp"
   alt="Add if/else code for scroll."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 I&apos;m going to add a new variable here called Counter for your counter. I
@@ -3279,8 +3211,7 @@ we&apos;re scrolling down and what happens when we&apos;re scrolling up.
 <p align="center">
   <img src="./images/image186.webp"
   alt="Identify size of each section element."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 The next thing that we need is we need to know how many pixels down are
@@ -3308,8 +3239,7 @@ to use the each method.
 <p align="center">
   <img src="./images/image186.webp"
   alt="Section size, rounded using math.floor."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 In plain JavaScript, we have for each but in jQuery, we have in each
@@ -3321,16 +3251,14 @@ minute. I&apos;ll take math for it now because that kind of confuses things.
 <p align="center">
 <img src="./images/image187.webp"
   alt="Section size, no rounding."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 188. console log, posttops (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image187.webp"
   alt="console.log, postTops."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Put this in here for a moment, posts each function, post up push. This
@@ -3365,8 +3293,7 @@ at just the post option.
 <p align="center">
   <img src="./images/image186.webp"
   alt="Example, postTops section sizes in pixels."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 If I come back to the page and refresh the page, you&apos;ll see here I get
 an array with five elements in it for each of my five sections, 200,
@@ -3392,14 +3319,13 @@ just getting whole numbers 200, 700, 1525, 2104, and 2683 and that&apos;s
 good. Great. We&apos;ll pick it up in the next lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-10">2.10. Adding PageTop and If Statements</h2>
+<h2 name="ch2-10">2.10 Adding PageTop and If Statements</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 194. adding pagetop and if statements (102) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image194.webp"
-  alt="2.10. Adding PageTop and If Statements."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  alt="2.10 Adding PageTop and If Statements."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 I&apos;ve put the window scroll event back in with my IF statements.
@@ -3426,8 +3352,7 @@ here.
 <p align="center">
   <img src="./images/image197.webp"
   alt="Lines 24-43 of smoothscroll.js."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 The first section starts 200 pixels down. I&apos;m going to mark it 200
@@ -3501,14 +3426,13 @@ working with scroll events, which is that you have to be careful not to
 do something every time you scroll a tiny little bit because you can
 overload your CPU.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-11">2.11. Writing the Else/If Statement - Part 1</h2>
+<h2 name="ch2-11">2.11 Writing the Else/If Statement - Part 1</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 202. writing the else/if statement in smoothscroll.js (105) ~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image202.webp"
-  alt="2.11. Writing the Else/If Statement - Part 1."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  alt="2.11 Writing the Else/If Statement - Part 1."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Now we&apos;ll handle the 'else if' and we&apos;ll take care of what happens if
@@ -3540,8 +3464,7 @@ every little bit if it&apos;s less than the PostTops counter.
 <p align="center">
   <img src="./images/image205.webp"
   alt="Scroll down, increment counter, scroll up, decrement counter."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 
@@ -3586,14 +3509,13 @@ height of that section, that we&apos;re calculating when the page loads,
 including all the images, because they have an effect on the height of
 these elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-12">2.12. Writing the Else/If Statement -- Part 2 (5:43)</h2>
+<h2 name="ch2-12">2.12 Writing the Else/If Statement -- Part 2 (5:43)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 208. writing the else/if statement - part 2 (108) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image208.webp"
-  alt="2.12. Writing the Else/If Statement - Part 2."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  alt="2.12 Writing the Else/If Statement - Part 2."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 If this seems a bit cumbersome and confusing, that&apos;s okay, that&apos;s
@@ -3605,8 +3527,7 @@ of this script is now been finished, that&apos;s nice to know.
 <p align="center">
   <img src="./images/image209.webp"
   alt="Are you scrolling up or down and identify where in relation to section you are."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 
@@ -3619,8 +3540,7 @@ sections of the page.
 <p align="center">
   <img src="./images/image210.webp"
   alt="Get postTop for location of section on scrolling page."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 The next thing we need to do is to take advantage of the script to
 change the highlighting of these actual pieces based on which section
@@ -3644,8 +3564,7 @@ and then one for previous counter that set to zero.
 <p align="center">
   <img src="./images/image211.webp"
   alt="Highlight the section you are in."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Now to make use of that I&apos;m going to come down here, I&apos;m going to add
@@ -3662,8 +3581,7 @@ equals.
 <p align="center">
   <img src="./images/image212.webp"
   alt="Update class attribute of section."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 I&apos;m going to get the a tag that equals counter. For the first section
@@ -3694,8 +3612,7 @@ Let&apos;s see if that works.
 <p align="center">
   <img src="./images/image213.webp"
   alt="Highlight necessary section on scroll."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Come over here, I&apos;m going to just scroll up to the top here, refresh
@@ -3713,14 +3630,13 @@ to. This script gives you a lot of power over that thing, and that&apos;s
 really cool.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-13">2.13. Edge Case Issues</h2>
+<h2 name="ch2-13">2.13 Edge Case Issues</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 214. edge case issues (2.13) (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image214.webp"
-  alt="2.13. Edge Case Issues."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  alt="2.13 Edge Case Issues."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 This script is working and we can leave it the way it is, but there are
@@ -3789,8 +3705,7 @@ other scripts, for handling the same things that could happen.
 <p align="center">
   <img src="./images/image219.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 In order to do this, I want to capture an event that fires when somebody
@@ -3833,8 +3748,7 @@ just so I don&apos;t have those cluttering up my script over here. Great.
 <p align="center">
   <img src="./images/image223.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 I&apos;m going to come over here to my page and I&apos;m going to refresh and
 I&apos;m going to resize the window and you can see that while I&apos;m resizing
@@ -3850,14 +3764,13 @@ calculate, how tall are my sections and fix my script up so that it will
 run right at that particular size. We&apos;ll do that in the next lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-14">2.14. Resizing Your Windows</h2>
+<h2 name="ch2-14">2.14 Resizing Your Windows</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 224. resizing your windows (2.14) (117) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image224.webp"
-  alt="2.14. Resizing Your Windows."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  alt="2.14 Resizing Your Windows."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 
@@ -3870,8 +3783,7 @@ element to do all that stuff.
 <p align="center">
   <img src="./images/image225.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 To do that, I&apos;m going to come back up here at the top of the page and
@@ -3939,8 +3851,7 @@ tall are my sections and reset my page and do all of that.
 <p align="center">
   <img src="./images/image230.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Now, that I&apos;ve set it so that I can capture when I&apos;m doneResizing the
@@ -3954,8 +3865,7 @@ to copy them from there and paste them in here.
 <p align="center">
   <img src="./images/image231.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 
@@ -3971,8 +3881,7 @@ if it&apos;s working.
 <p align="center">
   <img src="./images/image232.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Over here, when I refresh the page, it should tell me where it thinks
@@ -4003,8 +3912,7 @@ window. That&apos;s really cool, that&apos;s working really well.
 <p align="center">
   <img src="./images/image235.webp"
   alt="2.15. Resetting the Counter."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 
@@ -4094,14 +4002,13 @@ out of here and put it into its own function. We&apos;ll do that in the next
 lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-16">2.16. resetPagePosition Function</h2>
+<h2 name="ch2-16">2.16 resetPagePosition Function</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 240. resetpageposition function (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image240.webp"
   alt="2.16 resetPagePosition Function."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 Our script is getting pretty long, and we&apos;re repeating ourselves in a
@@ -4148,8 +4055,7 @@ shift to get it to line up for it.
 <p align="center">
   <img src="./images/image245.webp"
   alt="resetPagePosition."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Now I have a function called <b>resetPageposition</b>, and I&apos;m going to
@@ -4163,8 +4069,7 @@ we&apos;re going to do all this stuff that we just wrote. That&apos;s cool.
 <p align="center">
   <img src="./images/image246.webp"
   alt="postTops and resetPagePosition."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 But I&apos;m also going to run it up at the top of the page here,
@@ -4180,8 +4085,7 @@ time you resize the screen.
 <p align="center">
   <img src="./images/image247.webp"
   alt="Reset array postTops."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 When the page loads we want to do all of these things. We want to get
@@ -4238,8 +4142,7 @@ could be in some cases, actually reloading the page.
 <p align="center">
   <img src="./images/image250.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 One way to keep that from happening is in our script up here at the top.
@@ -4266,10 +4169,8 @@ review what we&apos;ve done.
 <p align="center">
   <img src="./images/image251.webp"
   alt="2.17. Reviewing the Whole Script."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
-
 
 This is quite an extensive script. We&apos;ve done a lot here. I just want
 to go through it once quickly, to review what we&apos;ve done.
@@ -4279,8 +4180,7 @@ to go through it once quickly, to review what we&apos;ve done.
 <p align="center">
   <img src="./images/image252.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 We started with the smooth scroll script, which handles what happens
@@ -4301,8 +4201,7 @@ script does.
 <p align="center">
   <img src="./images/image253.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 The second part of the script, is handling when the page loads in all
@@ -4322,8 +4221,7 @@ happens later, so we set all that page position stuff.
 <p align="center">
   <img src="./images/image254.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 The magic of the script is actually happening here. When you scroll the
@@ -4343,8 +4241,7 @@ out everything that should happen there on the page.
 <p align="center">
   <img src="./images/image255.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Then finally, we have the 'window on resize', and we&apos;re using
@@ -4356,8 +4253,7 @@ actually done resizing.
 <p align="center">
   <img src="./images/image256.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 It&apos;s clearing done resizing while we&apos;re resizing, and then as soon as
@@ -4432,14 +4328,13 @@ the same script, and play JavaScript.
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation">2.17.jQueryPage-Location-Tracking.pdf (28 pgs).</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-18">2.18. Introduction to Scroll Effects with JS</h2>
+<h2 name="ch2-18">2.18 Introduction to Scroll Effects with JS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 263. intro to scroll effects with js (2.18) (136) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image263.webp"
-  alt="2.18. Intro to Scroll Effects with JavaScript."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  alt="2.18 Intro to Scroll Effects with JavaScript."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 <p>Scroll effects with Javascript in this lesson. We are going to do the
@@ -4492,8 +4387,7 @@ these links in our navigation.
 <p align="center">
   <img src="./images/image268.webp"
   alt="script.js navLinks, addEventListener."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 Come over to our script.js file, ignore this smooth scroll function for a
@@ -4552,8 +4446,7 @@ pointer debt to this function down here, and let it run that way.
 <p align="center">
   <img src="./images/image269.webp"
   alt="2.19. Getting the Target - Part 1."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 Next, we want to get the href of the link that we clicked, the one that
@@ -4564,8 +4457,7 @@ event.target is a little bit more direct and explicit.
 <p align="center">
   <img src="./images/image270.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 So event.target get attribute href, we&apos;ll find out which link we
@@ -4575,8 +4467,7 @@ clicked. And if we go back to our code over here.
 <p align="center">
   <img src="./images/image271.webp"
   alt="Match link with href pound link (#first - #fifth)."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 When you click on one of these links, first, second, third or fourth,
@@ -4610,8 +4501,7 @@ that&apos;s our targetSection there.
 <p align="center">
   <img src="./images/image274.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 To test this out let&apos;s run a console log here, console.log and pass
@@ -4627,8 +4517,7 @@ will get me that kind of thing.
 <p align="center">
   <img src="./images/image275.webp"
   alt="Test, inspect smooth scroller."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Let&apos;s actually save this and see if I&apos;m doing my job well over here by
@@ -4655,16 +4544,14 @@ spit out in the console. Well, we&apos;ll do that in the next lesson.
 <p align="center">
   <img src="./images/image276.webp"
   alt="2.20. Getting the Target -- Part 2."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 277.  (143) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image277.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 This statement is generating the tops of each section when I click on
@@ -4675,8 +4562,7 @@ them, so I want sign that to variable.
 <p align="center">
   <img src="./images/image278.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 So instead of console.log here, I&apos;m going to take that out, check out
@@ -4696,8 +4582,7 @@ of the window, because that wouldn&apos;t really help us.
 <p align="center">
   <img src="./images/image279.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Now, that we have this variable value in this variable here, we can use
@@ -4757,8 +4642,7 @@ of a problem, and we&apos;ll talk about it more in the next lesson.
 <p align="center">
   <img src="./images/image282.webp"
   alt="2.21. Smooth Scroll Polyfill."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 In the last lesson (2.20), we noticed that the Smooth Scroll was working
@@ -4813,8 +4697,7 @@ script src=&quot;smoothscroll.js&quot; that one there.
 <p align="center">
   <img src="./images/image287.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 There we go. I want to put it before my script, so it loads first. Just
@@ -4838,8 +4721,7 @@ the second part of the script.
 <p align="center">
   <img src="./images/image288.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 This is a really great little script. You can see that it&apos;s fairly
@@ -5391,8 +5273,7 @@ we&apos;re going to use is <b>nav ul, li a</b>.
 <p align="center">
   <img src="./images/image324.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 But we want <b>li:nth-child()</b> because over here, in our HTML remember,
@@ -5420,8 +5301,7 @@ element on the page, so we could have done it this way as well there.
 <p align="center">
   <img src="./images/image325.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 But what I want to do is I want to change this so I&apos;m using not my up
@@ -5433,8 +5313,7 @@ will get me the correct link there.
 <p align="center">
   <img src="./images/image326.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 From there it&apos;s simple, now I can use <b>thisLink.className =
@@ -5445,10 +5324,10 @@ because now we&apos;re ready to go into the next section.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 327/328.  (170) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image327.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 <img src="./images/image328.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
 
@@ -5472,8 +5351,7 @@ script as well.
 <p align="center">
   <img src="./images/image329.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 We could go over and clear out these console logs, we don&apos;t really need
@@ -5492,13 +5370,11 @@ jQuery, and one that works with plain Vanilla JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-27">2.27 Resizing Function (5:07)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 330.  (172) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 330. resizing function (2.27) (172) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image330.webp"
-  alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  alt="2.27 Resizing Function."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 Just as we did before, I want to add an event listener that captures
@@ -5510,8 +5386,7 @@ everything here.
 <p align="center">
   <img src="./images/image331.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 All right, so I want to add this event listener after the event listener
@@ -5528,8 +5403,7 @@ Window resize is semi code and we will put stuff in here.
 <p align="center">
   <img src="./images/image332.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 Now remember when we were doing JQuery, we used our JQuery object to get
@@ -5540,8 +5414,7 @@ run a function. That&apos;s how we did it with JQuery.
 <p align="center">
   <img src="./images/image333.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 So here the syntax is slightly different but not that different. We&apos;re
@@ -5552,10 +5425,10 @@ JQuery is a little bit shorter but that&apos;s okay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 334/335.  (174) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image334.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 <img src="./images/image335.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
 
@@ -5569,8 +5442,7 @@ timeout.
 <p align="center">
   <img src="./images/image336.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 That&apos;s what we&apos;re set time out and set time out runs a function, after
@@ -5587,8 +5459,7 @@ after we&apos;re done actually resizing the Window.
 <p align="center">
   <img src="./images/image337.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 So let&apos;s just test that really quickly over here. I&apos;m going to refresh
@@ -5609,13 +5480,11 @@ we did in the for the jQuery version.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-28">2.28 Finalizing the Script (10:01)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 338.  (176) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 338. finalizing the script (2.28) (176) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image338.webp"
-  alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="40%;" />
+  alt="2.28 Finalizing the Script."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
 We&apos;re down to the end of this lesson and we just need to fill out this
@@ -5625,10 +5494,10 @@ resetPagePosition function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 339/340.  (176) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image339.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 <img src="./images/image340.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
 
@@ -5641,8 +5510,7 @@ empty.
 <p align="center">
   <img src="./images/image341.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 And then, I&apos;m going to go through each of my posts and push into there,
@@ -5663,8 +5531,7 @@ having to run a function here.
 <p align="center">
   <img src="./images/image341.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="50%;" />
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 For each of the posts that are in there, for each post in postTops, and
@@ -5716,10 +5583,10 @@ some comments, I don&apos;t know.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 342/343.  (179) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image342.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 <img src="./images/image343.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
 
@@ -5734,10 +5601,10 @@ over and test it out really quickly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 344/345.  (180) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image344.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 <img src="./images/image345.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
 
@@ -5764,8 +5631,7 @@ in jQuery and in vanilla JavaScript.
 <p align="center">
   <img src="./images/image346.webp"
   alt="."
-  style="border: 2px solid black; border-radius:15px"
-  width="35%;" />
+  style="border: 2px solid black; border-radius:15px; width:35%;" />
 </p>
 
 It should be pointed out that frequently people will use plugins to do
@@ -5791,10 +5657,10 @@ that&apos;s up to you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 347/348.  (181) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image347.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 <img src="./images/image348.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5857,10 +5723,10 @@ come together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 353/354.  (184) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image353.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 <img src="./images/image354.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
 
@@ -5873,10 +5739,10 @@ cool.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 355/356.  (185) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image355.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 <img src="./images/image356.webp"
-  style="width:45%;"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
 
@@ -8934,11 +8800,11 @@ functionality you need for each piece.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-01">4.01. Module 4 Introduction (0:43)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 580.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 580. module 4 introduction (4.01) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image580.webp"
   style="width:40%;"
-  alt="." />
+  alt="4.01 Module 4 Introduction." />
 </p>
 
 Hello and congratulations to making it to the fourth module and our
@@ -8954,23 +8820,23 @@ think you&apos;ll get a lot out of it. Let&apos;s get to it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-02">4.02 Intro to the Game of Pig (6:30)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 581.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 581. intro to the game of pig (4.02) (293) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image581.webp"
   style="width:40%;"
-  alt="." />
+  alt="4.02 Intro to the Game of Pig." />
 </p>
 
-Game of pig built in JavaScript.
+<p>Game of pig built in JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 582/583.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 582/583. game of pig, the basic game (294) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image582.webp"
   style="width:45%;"
-  alt="." />
+  alt="Game of Pig." />
 <img src="./images/image583.webp"
   style="width:45%;"
-  alt="." />
+  alt="The Basic Game." />
 </p>
 
 This is just a very basic version of the game with very little styling,
@@ -8993,11 +8859,11 @@ that it&apos;s not developed that way, and that people don&apos;t necessarily
 think in this very linear way.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 584.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 584. index.html - working game (295) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image584.webp"
   style="width:50%;"
-  alt="." />
+  alt="index.html - Working Game." />
 </p>
 
 I have my file open here in visual studio code. This is the index file
@@ -9005,11 +8871,11 @@ here with all of the basic pieces of the HTML that are needed here to
 make the game work.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 585.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 585. index.html - with empty script (295) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image585.webp"
   style="width:50%;"
-  alt="." />
+  alt="index.html with empty script." />
 </p>
 
 We&apos;ve got an empty script tacked down here. This is where we&apos;re going
@@ -9017,7 +8883,7 @@ to be working. This is in this part of the page. Then also we have the
 images of the dice that will be pulling up. This could go into a folder,
 but at this point, I just have them in the main folder and that&apos;s fine.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 586.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 586.  (296) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image586.webp"
   style="width:50%;"
@@ -9028,7 +8894,7 @@ Then over here, I have the page loaded up so we can actually test the
 page here, and see how things are working as we go along, and work on
 the page here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 587.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 587.  (296) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image587.webp"
   style="width:50%;"
@@ -9042,7 +8908,7 @@ page, so it&apos;s really these variables here. I&apos;m going to have
 <b>startgame</b>.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 588.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 588.  (297) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image588.webp"
   style="width:50%;"
@@ -9063,11 +8929,11 @@ id&apos;s for each of these elements. Make sure you get this code in here
 first, because these are the different parts of the board that we&apos;re
 going to need for our script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 589.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 589. keeping track of game data (298) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image589.webp"
   style="width:50%;"
-  alt="." />
+  alt="Keeping Track of Game Data." />
 </p>
 
 The next thing that you&apos;re going to need is an <b>object</b> to keep track
@@ -9128,11 +8994,11 @@ and labeled properly. We&apos;re on our way to creating the pig game.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-03">4.03 Start the Game (7:50)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 591.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 591. start the game (4.03) (300) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image591.webp"
   style="width:40%;"
-  alt="." />
+  alt="4.03 Start the Game." />
 </p>
 
 Next we&apos;re going to start the game. And again when I was developing
@@ -9140,28 +9006,28 @@ this, I started with what happens when somebody throws the dice? But, I
 think for the purposes of building our game from start to finish, it
 helps to just start at the top and start at the beginning.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 592.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 592. test, game of pig (300) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image592.webp"
   style="width:40%;"
-  alt="." />
+  alt="Test, Game of Pig." />
 </p>
 
 So, when somebody clicks this button here, we want to start the game. I
 need to add a click handler for this button. I&apos;m going to add an event
 handler for clicking to the start game button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 593.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 593. start the game (301) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image593.webp"
   style="width:50%;"
-  alt="." />
+  alt="Start the Game." />
 </p>
 
 So let&apos;s do that first, we have our start game button defined here,
 which goes in and gets this button here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 594.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 594.  (301) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image594.webp"
   style="width:50%;"
@@ -9176,7 +9042,7 @@ here now. Change index, or randomly select index whatever we want to put
 in there, just we&apos;re going to have to handle that. But before I do
 that, I want to first just sort of get the correct html on the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 595.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 595.  (302) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image595.webp"
   style="width:50%;"
@@ -9203,7 +9069,7 @@ quotes here and then double quotes there. Alternatively, you could use
 the tick marks on either end as well. Make sure you get your html right,
 okay. So we&apos;re going to add that in there, that&apos;s great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 596.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 596.  (303) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image596.webp"
   style="width:65%;"
@@ -9218,7 +9084,7 @@ just going to do location.reload. And that refreshes the page, and then
 you go back to the way the page was before. Okay, great, so when you
 click the button, these things will happen and we&apos;ll get that working.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 597/598.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 597/598.  (303) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image597.webp"
   style="width:45%;"
@@ -9234,7 +9100,7 @@ click do you want to quit? It just refreshes the page, and puts it back
 so that&apos;s working just fine the way it is. When the test is frequently
 as we can there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 599.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 599.  (304) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image599.webp"
   style="width:50%;"
@@ -9256,7 +9122,7 @@ log so that we can really see what that&apos;s doing console.log
 gameData.index, what is the value there and we&apos;ll test that and see.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 600/601.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 600/601.  (305) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image600.webp"
   style="width:45%;"
@@ -9279,20 +9145,20 @@ going in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-04">4.04 Set Up the Turn (6:39)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 602.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 602. set up the turn (4.04) (305) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image602.webp"
   style="width:40%;"
-  alt="." />
+  alt="4.04 Set Up the Turn." />
 </p>
 
 The next thing we need to do is set up the turn.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 603.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 603. example, set up the turn (306) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image603.webp"
   style="width:50%;"
-  alt="." />
+  alt="Example, Set Up the Turn." />
 </p>
 
 We&apos;re going to create a <b>function</b> for that and remember, we&apos;re
@@ -9302,7 +9168,7 @@ we&apos;ll have one for checking the winning condition. It&apos;s really the way
 these three functions work together that are going to determine how this
 game works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 604/605.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 604/605.  (306) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image604.webp"
   style="width:45%;"
@@ -9363,7 +9229,7 @@ the term here, and we can leave this in here for now just for a moment
 to see if that&apos;s going to work. But we&apos;re going to run set up the term
 there so that we can get ready to roll the dice and see how that works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 606.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 606.  (308) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image606.webp"
   style="width:50%;"
@@ -9380,18 +9246,18 @@ ready to roll the dice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-05">4.05 Throwing the Dice (9:57)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 607.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 607. throwing the dice (4.05) (308) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image607.webp"
   style="width:40%;"
-  alt="." />
+  alt="4.05 Throwing the Dice." />
 </p>
 
 Throwing the dice. This is the core function in this program, and it&apos;s
 the big function, it&apos;s going to take us some time to get this function
 all working properly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 608.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 608. example, throwing the dice (309) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image608.webp"
   style="width:50%;"
@@ -9407,7 +9273,7 @@ that&apos;s going to go to the player about what was rolled, and also show
 those two dice. Then we&apos;ll also sum up the total of those two dice and
 put that into the <b>rollSum</b> property in the <b>gameData object</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 609.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 609.  (309) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image609.webp"
   style="width:50%;"
@@ -9442,7 +9308,7 @@ get a 0, 1, 2, 3, 4, 5, or 6 if you were to follow that methodology. We
 don&apos;t want a zero, we want it always to be a 1, 2, 3, 4, 5, or 6 to
 match our numbers up there for our dice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 610.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 610.  (310) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image610.webp"
   style="width:50%;"
@@ -9467,7 +9333,7 @@ Which variable is it going to be? Dollar sign, curly braces. It&apos;s
 really just going to be this one again. This will be player 1, or player
 2 here, that gets put in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 611.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 611.  (311) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image611.webp"
   style="width:50%;"
@@ -9491,7 +9357,7 @@ here. I need to subtract one there, gameData.roll1 minus 1. I think
 that&apos;s right. I prefer to have double quotes here I think. Quote there,
 double quotes, add an extra one for me.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 612.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 612.  (312) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image612.webp"
   style="width:50%;"
@@ -9512,28 +9378,28 @@ lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-06">4.06 Test Throwing the Dice (5:22)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 613.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 613. test throwing the dice (4.06) (313) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image613.webp"
   style="width:40%;"
-  alt="." />
+  alt="4.06 Test Throwing the Dice." />
 </p>
 
 You&apos;ve started your dice throwing function, so let&apos;s test it and see
 if it works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 614.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 614. test throwing (313) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image614.webp"
   style="width:50%;"
-  alt="." />
+  alt="Test Throwing." />
 </p>
 
 All we really need to do to test it, is replace the console log in the
 set up the turn function, and replace it with the throw the dice
 function. Let&apos;s take a look and see how that works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 615.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 615.  (314) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image615.webp"
   style="width:50%;"
@@ -9550,7 +9416,7 @@ dice once the turn has been set up, and you click the &quot;roll&quot; the
 button thing there. Let&apos;s see what that gives us. Let&apos;s save this and
 come over here and test it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 616.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 616.  (314) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image616.webp"
   style="width:50%;"
@@ -9562,7 +9428,7 @@ oops, error, file not found, 6die.jpgalt. I can see right here that I
 forgot to close mine. This is very easy to have that happen when you&apos;re
 working with HTML inside of the string.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 617.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 617.  (315) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image617.webp"
   style="width:50%;"
@@ -9575,7 +9441,7 @@ which is incorrect. Let&apos;s go back over here. It&apos;s in here I forgot to
 put a quote here. It&apos;s in one double quote, and I&apos;ll add two, but you
 have to delete one of them there. There we go, save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 618/619.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 618/619.  (315) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image618.webp"
   style="width:45%;"
@@ -9593,7 +9459,7 @@ you could come in and add a console log, and see what gameData.rollSum
 some has in it or would any other variable in there has if you&apos;re just
 curious to see what&apos;s in there, you can save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 620.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 620.  (316) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image620.webp"
   style="width:50%;"
@@ -9609,7 +9475,7 @@ sixes again, that&apos;s something and got 12. Unfortunately, to do it again
 at this point, you have to click the button or just click refresh. In
 here I got 5, 1 plus 4 is 5.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 621.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 621.  (317) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image621.webp"
   style="width:50%;"
@@ -9622,11 +9488,11 @@ working really nicely. Now we have a dice game where we can throw the
 dice, and two dice are roll and randomly we generate those two images
 and display them on the page, and that&apos;s fine.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 622.  (314) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 622. example add the selection statements (317) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image622.webp"
   style="width:50%;"
-  alt="." />
+  alt="Example, Add the Selection Statements." />
 </p>
 
 Now, the next thing to do is to figure out, what do we do from here? We
@@ -9638,7 +9504,7 @@ something else, we need to swap. &lbrack;inaudible&rbrack;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-07">4.07 Add the Selection Statements (3:37)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 623. add the selection statements (4.07) (315) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 623. add the selection statements (4.07) (318) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image623.webp"
   style="width:40%;"
@@ -9647,7 +9513,7 @@ something else, we need to swap. &lbrack;inaudible&rbrack;.
 
 <p>We&apos;re going to add if statements into our throw dysfunction here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 624. roll a two? or not? (315) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 624. roll a two? or not? (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image624.webp"
   style="width:50%;"
@@ -9660,7 +9526,7 @@ to once, if it&apos;s exactly the same as a two, then we&apos;re going to say
 something like console log, snake eyes. We&apos;ll fill this out later with
 more specific instructions.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 625. test, game of pig (316) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 625. test, game of pig (319) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image625.webp"
   style="width:50%;"
@@ -9672,7 +9538,7 @@ situation and then we&apos;ve got an else if. Yeah and we want to check two
 values. We want to check the value of roll one and the value of roll two
 and if either one of them comes up a one, we want to do.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 626. test, game of pigs (316) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 626. test, game of pigs (319) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image626.webp"
   style="width:50%;"
@@ -9687,7 +9553,7 @@ is over and then we&apos;ve got the else. And for that, we can just copy
 this, paste it and saying the game continues, Roll again or pass and
 we&apos;ll deal with that separately.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 627/628. test, game of pig (317) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 627/628. test, game of pig (320) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image627.webp"
   style="width:45%;"
@@ -9697,7 +9563,7 @@ we&apos;ll deal with that separately.</p>
   alt="Test, game of pig." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 629. test, game of pig (317) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 629. test, game of pig (320) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image629.webp"
   style="width:40%;"
@@ -9715,15 +9581,15 @@ until you&apos;ve gotten all of those things checked.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-08">4.08 Snake Eyes! (7:11)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 630. snake eyes! (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 630. snake eyes! (4.08) (321) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image630.webp"
   style="width:40%;"
-  alt="Snake Eyes!" />
+  alt="4.08 Snake Eyes!" />
 </p>
 <p>Let&apos;s handle Snake Eyes first.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 631. snake eyes! (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 631. snake eyes! (321) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image631.webp"
   style="width:50%;"
@@ -9733,7 +9599,7 @@ until you&apos;ve gotten all of those things checked.</p>
 <p>We&apos;ll fill out each of these if statements, but we&apos;ll do Snake Eyes
 first. If we get a 2, let&apos;s deal with that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 632. add to the innerhtml of the game (319) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 632. add to the innerhtml of the game (322) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image632.webp"
   style="width:50%;"
@@ -9757,7 +9623,7 @@ to 0. So, we&apos;re setting it to 0 there because we&apos;re zeroing out their
 score because that&apos;s what happens if you roll to ones as you lose all
 the points you&apos;ve gotten so far.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 633. snake eyes! (320) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 633. snake eyes! (323) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image633.webp"
   style="width:50%;"
@@ -9771,7 +9637,7 @@ of doing that. And that&apos;s using what&apos;s called the <b>ternary
 operator</b>. We see it over here, so I&apos;m going to set
 <b>gameData.index</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 634. gamedata.index true or false? (320) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 634. gamedata.index true or false? (323) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image634.webp"
   style="width:50%;"
@@ -9804,7 +9670,7 @@ again. Run the setup turn function again which will put us back with the correct
 So, let&apos;s go ahead and add that setTimeout there. SetTimeout(setUpTurn, after two 
 seconds, 2000 milliseconds) and that should work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 635. test, game data roll (321) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 635. test, game data roll (324) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image635.webp"
   style="width:50%;"
@@ -9820,7 +9686,7 @@ That way, we don&apos;t have to sort of keep playing and rolling until we
 try to get two 1s to pop up randomly in order to test this. So let&apos;s
 throw that in there and see what happens here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 636. roll the dice as player 1 (322) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 636. roll the dice as player 1 (325) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image636.webp"
   style="width:50%;"
@@ -9831,7 +9697,7 @@ throw that in there and see what happens here.</p>
 up with 11. But then it waits 2 seconds and it says roll the dice for player 2, 
 let&apos;s try that again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 637. roll the dice as player 2 (322) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 637. roll the dice as player 2 (325) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image637.webp"
   style="width:50%;"
@@ -9847,7 +9713,7 @@ testing the switch players function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-09">4.09 A "1" Was Rolled (5:19)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 638. a "1" was rolled (4.09) (323) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 638. a "1" was rolled (4.09) (326) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image638.webp"
   style="width:40%;"
@@ -9856,7 +9722,7 @@ testing the switch players function.</p>
 
 <p>The next thing we&apos;re going to look at is if a one has been rolled.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 639. again, a "1" was rolled (323) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 639. again, a "1" was rolled (326) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image639.webp"
   style="width:50%;"
@@ -9868,7 +9734,7 @@ anyone was rolled, either of the two dice comes up a one, then we&apos;re
 going to swap the player. Let&apos;s do that first because that&apos;s just
 using the ternary operator again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 640. ternary operator (324) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 640. ternary operator (327) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image640.webp"
   style="width:50%;"
@@ -9885,7 +9751,7 @@ so a zero in JavaScript is falsy. If it&apos;s false, then it&apos;s going to do
 this. It&apos;s going to switch it to one. If it&apos;s true, then it&apos;s going
 to switch it to a zero.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 641. ternary operator in mdn (324) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 641. ternary operator in mdn (327) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image641.webp"
   style="width:50%;"
@@ -9897,7 +9763,7 @@ ternary operator. If you&apos;re more curious about this particular
 expression in JavaScript or this operator in JavaScript, it&apos;s worth
 taking a look at this page here. We&apos;ve got that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 642. test, set the game index (325) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 642. test, set the game index (328) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image642.webp"
   style="width:50%;"
@@ -9923,7 +9789,7 @@ say player 1. That goes back and forth. Then down here we just need to
 set time out and runs out of time again. That will work, that should
 work just fine.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 643/644. test, roll the dice (226) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 643/644. test, roll the dice (329) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image643.webp"
   style="width:45%;"
@@ -9943,7 +9809,7 @@ for player 2, you roll the one switching the player 1, and now roll the dice for
 roll the dice. You roll the one switching for player 2, roll the dice. You roll the one
 switching for player 1.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 645. test, game of pig; roll the dice (326) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 645. test, game of pig; roll the dice (329) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image645.webp"
   style="width:50%;"
@@ -9961,7 +9827,7 @@ continue moving on with the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-10">4.10 The Else Statement (6:36)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 646. the else statement (4.10) (327) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 646. the else statement (4.10) (330) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image646.webp"
   style="width:40%;"
@@ -9971,7 +9837,7 @@ continue moving on with the game.</p>
 <p>The next thing we need to look at is the final else statement which will
 happen if you throw the dice and no one&apos;s are rolled.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 647. the else statement (327) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 647. the else statement (330) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image647.webp"
   style="width:50%;"
@@ -9998,7 +9864,7 @@ going to = the <b>gameData.score</b>, it&apos;s really this line again. + <b>gam
 and make sure I did that, right? <b>gameData.index + gameDtaa.rollSum</b>, correct. 
 Okay from there, what we need is to set the action area and create two buttons in there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 649. two buttons, roll again & passing (328) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 649. two buttons, roll again & passing (331) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image649.webp"
   style="width:50%;"
@@ -10016,7 +9882,7 @@ that from the inside out for even typing this stuff because that will keep me fr
 making mistakes. That will help me from making mistakes, I might still make mistakes, 
 but that&apos;ll help, okay?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 650. roll again code in index.html (329) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 650. roll again code in index.html (332) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image650.webp"
   style="width:50%;"
@@ -10028,7 +9894,7 @@ things. So, I&apos;m going to have an event listener <b>document.getElementById(
 again).</b> And that&apos;s going to have an <b>addEventListener</b>, and listening for 
 a click. And when you click the button we&apos;re going to run a function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 651. setupturn, swap players (330) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 651. setupturn, swap players (333) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image651.webp"
   style="width:50%;"
@@ -10047,7 +9913,7 @@ and stick it in here. And that will allow me to swap the player to the
 other player. Cool, the last thing we&apos;re going to need in here is
 we&apos;re going to need something that checks the winning condition.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 652. game of pig; start game (331) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 652. game of pig; start game (334) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image652.webp"
   style="width:50%;"
@@ -10060,7 +9926,7 @@ Come over here, refresh the page, pick my player when I roll the dice, I
 get it a 2 in a 6, that adds up to 8. I don&apos;t have any scoring going on
 down here yet, but I can choose roll again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 653/654. game of pig; roll dice (331) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 653/654. game of pig; roll dice (334) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image653.webp"
   style="width:45%;"
@@ -10074,7 +9940,7 @@ down here yet, but I can choose roll again.</p>
 switching to player 2. Roll the dice, I got a 2 and a 4, I can click roll again and 
 I&apos;m still on player 2 and I can roll the dice again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 655/656. game of pig; roll dice (332) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 655/656. game of pig; roll dice (335) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image655.webp"
   style="width:45%;"
@@ -10092,7 +9958,7 @@ Let&apos;s stop there and we&apos;ll pick it up in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-11">4.11 Checking for a Win (6:02)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 657. 3rd major function checks for winning condition (332) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 657. 3rd major function checks for winning condition (335) ~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image657.webp"
   style="width:50%;"
@@ -10101,7 +9967,7 @@ Let&apos;s stop there and we&apos;ll pick it up in the next lesson.</p>
 
 <p>The third major function we need is the function that checks for a winning condition.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 658. checking for a win (333) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 658. checking for a win (336) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image658.webp"
   style="width:50%;"
@@ -10112,7 +9978,7 @@ Let&apos;s stop there and we&apos;ll pick it up in the next lesson.</p>
 function for that called <b>checkWinningCondition</b> and add that to our functions 
 down here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 659/660. within throwdice check winning conditions (333) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 659/660. within throwdice check winning conditions (336) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image659.webp"
   style="width:45%;"
@@ -10125,7 +9991,7 @@ down here.</p>
 <p>So this really long function, <b>throwDice</b> goes all the way down to this closing 
 curly brace here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 661. add if..else for winning conditions (334) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 661. add if..else for winning conditions (337) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image661.webp"
   style="width:50%;"
@@ -10138,7 +10004,7 @@ going to handle with what happens if you have actually achieved the winning cond
 So if winning condition met or else show current score. If we haven&apos;t won, we at 
 least ought to know how close we are to winning? So it&apos;s going to do those two things.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 662. check player score against gameend (334) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 662. check player score against gameend (337) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image662.webp"
   style="width:50%;"
@@ -10168,7 +10034,7 @@ the show current score section of this <b>function</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-12">4.12 Show the Current Score (8:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 663. show the current score (4.12) (335) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 663. show the current score (4.12) (338) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image663.webp"
   style="width:50%;"
@@ -10178,7 +10044,7 @@ the show current score section of this <b>function</b>.</p>
 <p>Okay, so now we need to show the current score, and make sure that that gets filled 
 out properly, if we haven&apos;t won the game, so let&apos;s go over and add this.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 664. showing the current score (336) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 664. showing the current score (339) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image664.webp"
   style="width:50%;"
@@ -10199,7 +10065,7 @@ we&apos;re going to do the same thing down here, For a player two, Except that&a
 going to be 1, And this is going to be the same thing down here, Except that&apos;s 
 going to be 1.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 665. function checkwinningcondition (337) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 665. function checkwinningcondition (340) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image665.webp"
   style="width:50%;"
@@ -10214,7 +10080,7 @@ I believe that&apos;s all we need let&apos;s just see over here, yep. Players&lb
 player&lbrack;1&rbrack; looks good, that all looks good all right great, so what do we 
 need to do to get this to work?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 666. function checkwinningcondition (337) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 666. function checkwinningcondition (340) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image666.webp"
   style="border: 2px solid #000000; width:50%"
@@ -10225,7 +10091,7 @@ We need to run this function, Here, check winning condition, It&apos;s not
 the only place we need to run it, but let&apos;s start with that. Let&apos;s put
 it there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 667/668. test score 0 to 8 (338) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 667/668. test score 0 to 8 (341) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image667.webp"
   style="border: 2px solid #000000; width:45%"
@@ -10241,7 +10107,7 @@ for player 1. So now I&apos;ve got eight and I&apos;ve got no player 2 is
 running here, and you can see that the score got added up, player 2 has
 8 points. I can click roll again and it takes me to set up the term,
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 669/670. test score 0 to 15, then 0 to 25 (338) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 669/670. test score 0 to 15, then 0 to 25 (341) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image669.webp"
   style="width:45%;"
@@ -10257,7 +10123,7 @@ turn. Now I&apos;ve got 25, and if I get five or more this we should have
 the end of the game and that should trigger it so let&apos;s see what
 happens.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 671. test game player 2 wins with 33 (339) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 671. test game player 2 wins with 33 (342) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image671.webp"
   style="border: 2px solid #000000; width:50%"
@@ -10268,7 +10134,7 @@ Roll the dice, and player 2 wins with 33 points, and now up here I have
 started new game, it still says roll again or pass so that&apos;s something
 that needs to be dealt with.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 672. test start game of pig with console.log (339) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 672. test start game of pig with console.log (342) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image672.webp"
   style="width:50%;"
@@ -10286,7 +10152,7 @@ haven&apos;t done it yet, but if you roll two ones, you also need to fix
 that there as well. So that because that&apos;s going to change the score,
 so we want to show the score if you roll two ones.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 673. function: checkwinningcondition (340) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 673. function: checkwinningcondition (343) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image673.webp"
   style="width:50%;"
@@ -10304,7 +10170,7 @@ this set time out. Doesn&apos;t actually matter, the set time out will wait
 two seconds anyway, but I&apos;m going to put it before that, there we go,
 so that helps.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 674. if win, set action area (341) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 674. if win, set action area (344) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image674.webp"
   style="width:50%;"
@@ -10317,7 +10183,7 @@ I was setting the action area, actually this is what I&apos;m missing
 <b>actionArea.innerHTML</b> set that to blank, so that that will get rid of
 those buttons that I had there by accident.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 675. test game of pig (341) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 675. test game of pig (344) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image675.webp"
   style="width:50%;"
@@ -10342,7 +10208,7 @@ cleanup stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-13">4.13 Final Clean-Up (8:08)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 676. final clean-up (4.13) (342) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 676. final clean-up (4.13) (345) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image676.webp"
   style="width:40%;"
@@ -10359,7 +10225,7 @@ click roll again, it just rolls them again. I don&apos;t really need to go
 back to the setup turn at this point, I could just roll the dice again.
 So what can we do about that?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 677. replace setup turn with throw dice (343) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 677. replace setup turn with throw dice (346) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image677.webp"
   style="width:40%;"
@@ -10374,7 +10240,7 @@ hope I get snake eyes again. There we go. Now when I click roll again it
 just rolls again, and you can see that the score is getting added
 nicely. It&apos;s a bit smoother so that works great, okay?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 678/679. find and cleanup where possible (343) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 678/679. find and cleanup where possible (346) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image678.webp"
   style="width:45%;"
@@ -10395,7 +10261,7 @@ function, <b>showCurrentScore</b>, and it&apos;s really just going to be this
 stuff just because it&apos;s kind of long. And then, really all we need to
 do is run this function here, <b>showCurrentScore</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 680/681. change to showcurrentscore (344) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 680/681. change to showcurrentscore (347) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image680.webp"
   style="width:45%;"
@@ -10417,7 +10283,7 @@ IF statement here, we just need to do this bottom part which is showing
 the current score. So, that&apos;s a little bit cleaner and a little bit
 nicer like that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 682/683. best practices throw dice function (344) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 682/683. best practices throw dice function (347) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image682.webp"
   style="width:45%;"
@@ -10445,7 +10311,7 @@ You could also make a separate function that just contains the whole
 selection statement, if/else, if and the else statement and make that
 into a separate function that runs here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 684/685. script.js with all functions (345) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 684/685. script.js with all functions (348) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image684.webp"
   style="width:45%;"
@@ -10467,7 +10333,7 @@ semicolon. And then, I&apos;m going to click between the curly braces and move t
 and add my <b>use strict</b> directive to make sure I didn&apos;t screw up in any of my
 variables and then paste everything here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 686. change vars to const in javascript (346) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 686. change vars to const in javascript (349) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image686.webp"
   style="width:50%;"
@@ -10480,7 +10346,7 @@ all of these <b>vars</b> to <b>const</b>. And in fact in this entire <b>script</
 changes, but the actual function, the actual variable doesn&apos;t change. That can be 
 a constant as well.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 687. differ script.js (346) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 687. differ script.js (349) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image687.webp"
   style="width:50%;"
@@ -10496,22 +10362,20 @@ in the next lesson, and you&apos;ve got a working game here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-14">4.14 Extending the Game (6:21)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 688. extending the game (module 4.14) (347) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 688. extending the game (module 4.14) (350) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image688.webp"
   alt="4.14. Extending the Game."
-  style="border: 2px solid #000000;" 
-  width="40%;" />
+  style="border: 2px solid #000000; width:40%;" />
 </p>
 
 <p>Extending the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 689. easy ways to extend the game (module 4.14) (347) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 689. easy ways to extend the game (350) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image689.webp"
   alt="Easy ways to extend the game."
-  style="border: 2px solid #000000;" 
-  width="50%;" />
+  style="border: 2px solid #000000; width:50%;" />
 </p>
 
 <p>Now you have a pig day scheme that works and functions and it&apos;s pretty
@@ -10526,12 +10390,11 @@ it and do some interesting things with it. I&apos;ve given you some ideas
 for some things you could do that are not too hard and some that are
 more challenging if you really want to try to do them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 690. easy ways to extend the game (module 4.14) (348) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 690. easy ways to extend the game (351) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image690.webp"
   alt="Easy ways to extend the game."
-  style="border: 2px solid #000000;" 
-  width="40%;" />
+  style="border: 2px solid #000000; width:40%;" />
 </p>
 
 <p>The first is when you roll a one, it zeros out the cumulative score for
@@ -10617,12 +10480,11 @@ excellent versions people have made of the big game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch4-15">Course Summary (0:57)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 691. course summary: interactivity with javascript and jquery (350) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 691. course summary: interactivity with javascript and jquery (353) ~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image691.webp"
-  alt="4.15. Course Summary: Interactivity with JavaScript and jQuery."
-  style="border: 2px solid #000000;" 
-  width="40%;" />
+  alt="4.15 Course Summary: Interactivity with JavaScript and jQuery."
+  style="border: 2px solid #000000; width:40%;" />
 </p>
 
 <p>Congratulations for making it to the end of our third course on
