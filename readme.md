@@ -569,137 +569,128 @@ write the scripts that you want to do for your web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. recap: jquery (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image007.webp" 
+  title="Recap: jQuery"
   alt="Recap: jQuery."
-  style="border: 2px solid #000000; width:50%;" />
+  style="border: 2px solid #000000; width:40%;" />
 </p>
 
-Then we had jQuery and your world became a little bit larger. With
-jQuery, we&apos;ve learned that there are a lot of helper functions built
-into this library that make writing scripts shorter and a little bit
-more compact, and a little bit easier. That helps and that makes things
-a little bit easier and a little bit better for all of us.
+Then we had jQuery and your world became a little bit larger. With jQuery, we&apos;ve 
+learned that there are a lot of helper functions built into this library that make 
+writing scripts shorter and a little bit more compact, and a little bit easier. That 
+helps and that makes things a little bit easier and a little bit better for all of us.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. introducing: plugins (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image008.webp" 
+  title="Introducing: Plugins"
   alt="Introducing: Plugins."
-  style="border: 2px solid #000000;" width:50%;" />
+  style="border: 2px solid #000000; width:40%;" />
 </p>
 
-Now we need to introduce plugins. We&apos;ve already used the <b>easing</b>
-plugin, which is a very simple plugin that adds additional function to
-jQuery, so that you can use different types of <b>easing,</b> which is
-different speeds and ways in which things can animate on your screen,
-and by plugging in that particular plugin, you get access to all of
-those different features that aren&apos;t built into jQuery.
+Now we need to introduce plugins. We&apos;ve already used the <b>easing</b> plugin, 
+which is a very simple plugin that adds additional function to jQuery, so that you can 
+use different types of <b>easing,</b> which is different speeds and ways in which things 
+can animate on your screen, and by plugging in that particular plugin, you get access to 
+all of those different features that aren&apos;t built into jQuery.
 
-jQuery has this plugin architecture that&apos;s very powerful, that allows
-developers to build extensions to jQuery. They give it a lot of
-additional functionality. There are tons of jQuery plugins available,
-thousands of them, and I recommend looking around the web and seeing
-what other ones you can find. We will look at one or two here in this
-course, but there are just thousands of them out there and they&apos;re
-really worth exploring and seeing what&apos;s out there. That way your world
-becomes a lot bigger because now you don&apos;t only have to just write all
-your scripts yourself. You can look for scripts that other people have
-written and see if you can modify them and use them in your own projects
-through the use of a plugin, and that&apos;s really very powerful and really
-great.
+jQuery has this plugin architecture that&apos;s very powerful, that allows developers to 
+build extensions to jQuery. They give it a lot of additional functionality. There are 
+tons of jQuery plugins available, thousands of them, and I recommend looking around the 
+web and seeing what other ones you can find. We will look at one or two here in this
+course, but there are just thousands of them out there and they&apos;re really worth 
+exploring and seeing what&apos;s out there. That way your world becomes a lot bigger 
+because now you don&apos;t only have to just write all your scripts yourself. You can 
+look for scripts that other people have written and see if you can modify them and use 
+them in your own projects through the use of a plugin, and that&apos;s really very 
+powerful and really great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. adding functionality (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image009.webp" 
+  title="Adding Functionality"
   alt="Adding Functionality."
-  style="border: 2px solid #000000; width:50%;" />
+  style="border: 2px solid #000000; width:40%;" />
 </p>
 
-Again, <b>plugins</b> add additional functionality to jQuery, and we&apos;ve
-already seen this with the <b>easing plugin.</b> But some plugins can have
-very complex functionality without us having to write a whole bunch of
-code. We have access to a whole bunch of additional functions and we&apos;ll
-see what that looks like.
+Again, <b>plugins</b> add additional functionality to jQuery, and we&apos;ve already 
+seen this with the <b>easing plugin.</b> But some plugins can have very complex 
+functionality without us having to write a whole bunch of code. We have access to a 
+whole bunch of additional functions and we&apos;ll see what that looks like.
 
-You can create whole interfaces in a jQuery plugin, and then by
-providing that plugin, other people can have access to those interfaces.
-For example, we did the project where we made the tabbed interface. What
-if there was a jQuery plugin that made hooking up a tabbed interface
-super easy? There are plugins for those things and they might come with
-a lot of features and functionality. What if you want the tabs to run
-down the side of the tabbed interface rather than across the tab? You
-could do that thing.
+You can create whole interfaces in a jQuery plugin, and then by providing that plugin, 
+other people can have access to those interfaces. For example, we did the project where 
+we made the tabbed interface. What if there was a jQuery plugin that made hooking up a 
+tabbed interface super easy? There are plugins for those things and they might come with
+a lot of features and functionality. What if you want the tabs to run down the side of 
+the tabbed interface rather than across the tab? You could do that thing.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch1-04">1.04. Using Plugins and Essential Steps (4:22)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 10. using plugins and essential steps (1.04) (13) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image010.webp"
+  title="1.04. Using Plugins and Essential Steps"
   alt="1.04. Using Plugins and Essential Steps."
   style="border: 2px solid #000000; width:40%;" />
 </p>
 
 
-Using plugins and essential steps, adding plugins to your project,
-configuring them, and learning how to use them still takes some work and
-effort. But not nearly as much work and effort as it takes to write the
-whole script yourself.
+<p>Using plugins and essential steps, adding plugins to your project, configuring them, and 
+learning how to use them still takes some work and effort. But not nearly as much work 
+and effort as it takes to write the whole script yourself.</p>
 
-Many of the larger, more sophisticated plugins require five steps to get
-them to work.
+<p>Many of the larger, more sophisticated plugins require five steps to get them to work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 11. using plugins and essential steps, #2 (13) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image011.webp" 
+  title="Using Plugins and Essential Steps, #2"
   alt="Using Plugins and Essential Steps, #2."
   style="border: 2px solid #000000; width:50%;" />
 </p>
 
-<b><mark>[Step 1]</mark></b> is, you have to use the markup indicated by the
-plugin documentation. Often, you&apos;ll have to use divs or our articles or
-other elements with particular classes that the plugin needs in order
-for it to actually work. Classes or IDs or other, structures that the
-plugin needs to work.
+<b><mark>Step 1</mark></b> is, you have to use the markup indicated by the plugin 
+documentation. Often, you&apos;ll have to use divs or our articles or other elements 
+with particular classes that the plugin needs in order for it to actually work. Classes 
+or IDs or other, structures that the plugin needs to work.
 
-<b><mark>[Step 2]</mark>,</b> you need to make sure jQuery is linked. The jQuery
-libraries linked because if you&apos;re using a jQuery plugin, then you need
-to have jQuery decide if you&apos;re going to put your scripts at the top of
-the page or at the bottom of the page. Sometimes you can put them
-whichever place you want, sometimes the plugin directions will tell you
-to put them in one place or the other. But frequently you can make your
-own decision on this and put it where you want it to go and architect
-your file the way you want it to be structured.
+<b><mark>Step 2</mark>,</b> you need to make sure jQuery is linked. The jQuery libraries 
+linked because if you&apos;re using a jQuery plugin, then you need to have jQuery decide 
+if you&apos;re going to put your scripts at the top of the page or at the bottom of the 
+page. Sometimes you can put them whichever place you want, sometimes the plugin directions 
+will tell you to put them in one place or the other. But frequently you can make your own 
+decision on this and put it where you want it to go and architect your file the way you 
+want it to be structured.
 
-<b><mark>[Step 3]</mark>,</b> is to link the plugin file and when you download a
-plugin, frequently it will come with a compressed version and an
-uncompressed version. The uncompressed version is there for you to look
-at so you could see how the plugin actually functions, it&apos;s readable
-JavaScript, and you can do that kind of thing. But when you&apos;re ready to
-put it into your project and for your production ready project, you want
-to use the compressed version because it will be smaller, and it&apos;ll
-download faster. So, if they provide a compressed one, then you should
-use that, if they don&apos;t provide a compressed one, you can compress it
-yourself.
+<b><mark>Step 3</mark>,</b> is to link the plugin file and when you download a plugin, 
+frequently it will come with a compressed version and an uncompressed version. The 
+uncompressed version is there for you to look at so you could see how the plugin 
+actually functions, it&apos;s readable JavaScript, and you can do that kind of thing. 
+But when you&apos;re ready to put it into your project and for your production ready 
+project, you want to use the compressed version because it will be smaller, and it&apos;ll
+download faster. So, if they provide a compressed one, then you should use that, if they 
+don&apos;t provide a compressed one, you can compress it yourself.
 
-<b><mark>[Step 4]</mark>,</b> link to the plug in CSS file, some of the fancier
-plugins will come with styling that will style the elements inside of
-the plugin. And, this is usually included so that everything looks and
-works the way it&apos;s supposed to work within the interface for that
-plugin, so you want to make sure you get that CSS file linked onto your
-page.
+<b><mark>Step 4</mark>,</b> link to the plug in CSS file, some of the fancier plugins 
+will come with styling that will style the elements inside of the plugin. And, this is 
+usually included so that everything looks and works the way it&apos;s supposed to work 
+within the interface for that plugin, so you want to make sure you get that CSS file 
+linked onto your page.
 
-Then <b><mark>[Step 5]</mark></b>, is you need to initialize the setup of the
-plugin in your own script tag, or on your own linked JavaScript file.
-Often, you can set additional options so that when the function is
-initialized, and so that you can pass in whichever options will get the
-plugin to display the way you want it to display, but you want to make
-sure that this script loads last. So, the order of things are that you
-will have the markup for the jQuery plugin, then you&apos;ll have jQuery,
-then the jQuery plugin, and then you will initialize the plugin on your
-own script. And then also make sure that if there&apos;s any CSS files,
-those are included as well.
+Then <b><mark>Step 5</mark></b>, is you need to initialize the setup of the plugin in 
+your own script tag, or on your own linked JavaScript file. Often, you can set additional 
+options so that when the function is initialized, and so that you can pass in whichever 
+options will get the plugin to display the way you want it to display, but you want to 
+make sure that this script loads last. The order of things are that you will have the 
+markup for the jQuery plugin, then you&apos;ll have jQuery, then the jQuery plugin, and 
+then you will initialize the plugin on your own script. And then also make sure that if 
+there&apos;s any CSS files, those are included as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. documentation mish-mash (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image012.webp"
+  title="Documentation Mish-Mash"
   alt="Documentation Mish-Mash."
   style="border: 2px solid #000000; width:50%;" />
 </p>
@@ -725,6 +716,7 @@ different, but it&apos;s the same basic steps each time.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 13. gotchas and rookie mistakes (1.05) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image013.webp"
+  title="Gotchas and Rookie Mistakes"
   alt="Gotchas and Rookie Mistakes."
   style="border: 2px solid #000000; width:40%;" />
 </p>
@@ -732,11 +724,12 @@ different, but it&apos;s the same basic steps each time.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. gotchas and rookie mistakes, #2 (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image014.webp" 
+  title="Gotchas and Rookie Mistakes, #2"
   alt="Gotchas and Rookie Mistakes, #2."
   style="border: 2px solid #000000; width:50%;" />
 </p>
 
-<b><mark>[Number 1]</mark></b> on this list is the biggest one, I see this all
+<b><mark>Number 1</mark></b> on this list is the biggest one, I see this all
 the time, especially with students who are new to working with
 JavaScript in jQuery, and that is ending up with multiple copies of the
 jQuery library linked to your page.
@@ -765,7 +758,7 @@ follow the directions and they wind up with multiple copies, different
 versions of the jQuery library plugged in. That&apos;s the number 1 Gotcha.
 It happens a lot.
 
-The second, <b><mark>[number 2]</mark></b> thing is file management. When you
+The second, <b><mark>number 2</mark></b> thing is file management. When you
 download a plugin, sometimes plugins require other files, whether it&apos;s
 CSS files or maybe an images folder, fonts or something else. You want
 to make sure that when you put those files in your folder, everything is
@@ -777,7 +770,7 @@ the correct places for the plugin to work. That&apos;s <b>number 2</b>, those
 two issues comprise 90 percent of the problems that people have with
 plugins, it&apos;s probably those two problems.
 
-The next thing, <b><mark>[number 3]</mark></b> is top of the page versus bottom
+The next thing, <b><mark>number 3</mark></b> is top of the page versus bottom
 of the page. Make sure you&apos;re placing your plugins scripts in the
 correct place. Some of them may require you to load jQuery up at the top
 of the page. Usually, you can put them where you want as long as you run
@@ -790,7 +783,7 @@ to scripts up in the top of the page and maybe use the defer attribute
 to make sure they don&apos;t load into the whole page is loaded. Keep that
 in mind.
 
-Now, jQuery has a document ready method, <b><mark>[number 4]</mark></b> that will check 
+Now, jQuery has a document ready method, <b><mark>number 4</mark></b> that will check 
 to see that the DOM is flooded before anything inside the <b>document_ready</b> function 
 runs. That&apos;s just checking to make sure your HTML is loaded. Sometimes people will 
 provide plugins and tell you to use the document ready function. You&apos;ll need that 
@@ -812,7 +805,7 @@ the actual script file or the plugin file. This is where you initialize your scr
 your page where you&apos;re tying the plugin to run. You&apos;ll need to make sure you 
 use these functions properly.
 
-Then the last, <b><mark>[number 5]</mark></b> is overriding CSS on your stylesheet. If 
+Then the last, <b><mark>number 5</mark></b> is overriding CSS on your stylesheet. If 
 you want to customize the look of the plugin and you should put your rules that override 
 the styles they&apos;ve set on their specified CSS file, on your CSS file and then make 
 sure your CSS file loads last. That way, when your CSS loads, it will override the access
@@ -822,11 +815,10 @@ to do it again. You want to make sure you put it on your CSS file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. 5 items of beware the plugin (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<kbd>
   <img src="./images/image015.webp" 
+  title="5 Items of Beware the Plugins"
   alt="5 Items of Beware the Plugins."
   style="border: 2px solid #000000; width:50%;" />
-</kbd>
 </p>
 
 One last topic that I have to talk about before we&apos;re done with this
@@ -856,6 +848,7 @@ using is really worthwhile.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. looking to the future (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image016.webp"
+  title="Looking to the Future"
   alt="Looking to the Future."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -912,6 +905,7 @@ carrying the extension .ZIP.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. flexslider: a jquery plugin (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image017.webp" 
+  title="1.06 FlexSlider: A jQuery Plugin"
   alt="1.06 FlexSlider: A jQuery Plugin."
   style="border: 2px solid black; width:40%;" />
 </p>
@@ -922,7 +916,8 @@ to our page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. basic flexslider (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image018.webp" 
+  <img src="./images/image018.webp"
+  title="Basic FlexSlider"
   alt="Basic FlexSlider."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -939,10 +934,12 @@ because it&apos;s a responsive slider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 19/20. responsive kittens for sale (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image019.webp?raw=true"
-  style="width:40%"
+  style="width:45%"
+  title="Responsive Kittens for Sale Web Page, #1"
   alt="Responsive Kittens for Sale Web Page, #1." />
 <img src="./images/image020.webp?raw=true"
-  style="width:40%"
+  style="width:45%"
+  title="Responsive Kittens for Sale Web Page, #2"
   alt="Responsive Kittens for Sale Web Page, #2." />
 </p>
 
@@ -954,6 +951,7 @@ sizes using FlexSlider. That&apos;s fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. markup for web site (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image021.webp" 
+  title="Markup for Kittens for Sale Web Page"
   alt="Markup for Kittens for Sale Web Page."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -965,11 +963,12 @@ some basic markup.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 22/23. responsive kittens for sale (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image022.webp?raw=true"
-  style="width:40%"
+  style="width:45%"
+  title="Responsive Kittens for Sale Web Page, #1"
   alt="Responsive Kittens for Sale Web Page, #1." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image023.webp?raw=true"
-  style="width:40%"
+  style="width:45%"
+  title="Responsive Kittens for Sale Web Page, #2"
   alt="Responsive Kittens for Sale Web Page, #2." />
 </p>
 
@@ -984,6 +983,7 @@ because, who doesn&apos;t love kittens? Kittens are awesome.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. responsive media queries (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image024.webp" 
+  title="Responsive Media Queries"
   alt="Responsive Media Queries."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -996,6 +996,7 @@ of a layout on the page with the columns. Okay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. flexslider website (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image025.webp" 
+  title="FlexSlider Website"
   alt="FlexSlider Website."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1005,6 +1006,7 @@ Then the next thing is the FlexSlider Website and the FlexSlider Script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. flexslider website, #2 (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image026.webp" 
+  title="FlexSlider Website, #2"
   alt="FlexSlider Website, #2."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1019,7 +1021,8 @@ they&apos;re also included with this lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. flexslider website, #3 (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image027.webp" 
+  <img src="./images/image027.webp"
+  title="FlexSlider Website, #3"
   alt="FlexSlider Website, #3."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1030,6 +1033,7 @@ downloading the FlexSlider files of this lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 28. files needed: flexslider website (25) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image028.webp" 
+  title="Files Needed for FlexSlider Website"
   alt="Files Needed for FlexSlider Website."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1044,11 +1048,12 @@ plug-ins as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 29/30. folder with website and images (26) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image029.webp?raw=true"
-  style="width:40%"
+  style="width:45%"
+  title="Folder with website"
   alt="Folder with website." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image030.webp?raw=true"
-  style="width:40%"
+  style="width:45%"
+  title="Folder with images"
   alt="Folder with images." />
 </p>
 
@@ -1060,11 +1065,12 @@ got my style-sheet, that&apos;s what&apos;s in my folder.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31/32. unzipped download files (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image031.webp?raw=true"
-  style="width:40%"
+  style="width:45%"
+  title="Unzipped download files"
   alt="Unzipped download files." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image032.webp?raw=true"
-  style="width:40%"
+  style="width:45%"
+  title="Other unzipped download files"
   alt="Other unzipped download files." />
 </p>
 
@@ -1095,11 +1101,12 @@ well.
 <!--~~~~~~~~~~~~~~~~~ 33/34. flexslider.css, fonts & minified flexslider (27) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image033.webp?raw=true"
-  style="width:40%"
+  style="width:45%"
+  title="flexslider.css, fonts and jquery.flexslider-min.js"
   alt="flexslider.css, fonts and jquery.flexslider-min.js." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image034.webp?raw=true"
-  style="width:40%"
+  style="width:45%"
+  title="flexslider.css, fonts and jquery.flexslider-min.js"
   alt="flexslider.css, fonts and jquery.flexslider-min.js." />
 </p>
 
@@ -1114,6 +1121,7 @@ started for this project.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 35. about the minified version (1.07) (27) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image035.webp"
+  title="1.07 About the Minified Version"
   alt="1.07 About the Minified Version."
   style="border: 2px solid gray; width:40%;" />
 </p>
@@ -1123,7 +1131,8 @@ that you understand this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. minified vs non-minified (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image036.webp"
+  <img src="./images/image036.png"
+  title="Minified vs. Non-Minified jQuery FlexSlider.js"
   alt="Minified vs. Non-Minified jQuery FlexSlider.js."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1139,6 +1148,7 @@ version.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 37. add javascript flexslider files (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image037.webp"
+  title="Add 3 files to project: flexslider.css, jquery.flexslider-min.js and fonts"
   alt="Add 3 files to project: flexslider.css, jquery.flexslider-min.js and fonts."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1151,6 +1161,7 @@ previous lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. add 3 files to head of index (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image038.webp"
+  title="Add stylesheet and 2 javascript files to head of index"
   alt="Add stylesheet and 2 javascript files to head of index."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1164,6 +1175,7 @@ written and to understand what the steps are.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 39. link to 3 files and add markup (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image039.webp"
+  title="Link files and add markup"
   alt="Link files and add markup."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1180,6 +1192,7 @@ similarities.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. following directions (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image040.webp"
+  title="Following Directions"
   alt="Following Directions."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1190,19 +1203,21 @@ mean about how to do this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. styles.css and load jquery (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image041.webp"
-  alt="."
+  title="styles.css and load jQuery"
+  alt="styles.css and load jQuery."
   style="border: 2px solid gray; width:50%;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 42/43. where to put scripts, css & js (31) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image042.webp?raw=true"
-  style="width:40%"
-  alt="." />
-&nbsp;&nbsp;&nbsp;
+  style="width:45%"
+  title="Where to put styles and scripts within HTML"
+  alt="Where to put styles and scripts withing HTML." />
 <img src="./images/image043.webp?raw=true"
-  style="width:40%"
-  alt="." />
+  style="width:45%"
+  title="Where to put styles and scripts within HTML"
+  alt="Where to put styles and scripts within HTML." />
 </p>
 
 First, we can look at where these scripts go, and over here, notice this
@@ -1221,6 +1236,7 @@ I&apos;ve got jquery 2.2.4 loaded here, as opposed to the 1.6.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. jquery version to load (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image044.webp"
+  title="jQuery version to load"
   alt="jQuery version to load."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1235,6 +1251,7 @@ jquery with that one.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 45. load jquery at bottom of screen (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image045.webp"
+  title="Load jQuery at bottom of screen"
   alt="Load jQuery at bottom of screen."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1247,6 +1264,7 @@ script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. add scripts to index.html (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image046.webp"
+  title="Where to add scripts to index.html"
   alt="Where to add scripts to index.html."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1262,6 +1280,7 @@ says place somewhere in the head of your document.
 <!--~~~~~~~~~~~~~~~~ 47. defer scripts loading; jquery, plugin, my script (33) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image047.webp"
+  title="Defer script load; jQuery libary, then plugins, then my script"
   alt="Defer script load; jQuery libary, then plugins, then my script."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1276,6 +1295,7 @@ page is loaded, just to be certain. So, we&apos;ve got that, okay.
 <!--~~~~~~~~~~~~~~~ 48. add markup with div, flexslider, ul and li images (33) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image048.webp"
+  title="Add Markup container with div, FlexSlider, ul and li images"
   alt="Add Markup container with div, FlexSlider, ul and li images."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1290,6 +1310,7 @@ the images inside of it, and we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~ 49. adding markup and hooking up the slider (34) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image049.webp"
+  title="1.08 Adding Markup and Hooking Up the Slider"
   alt="1.08 Adding Markup and Hooking Up the Slider."
   style="border: 2px solid gray; width:40%;" />
 </p>
@@ -1302,6 +1323,7 @@ modify changes there. We&apos;ll get to more on that later.
 <!--~~~~~~~~~~~~~~~~~~~~ 50. step 2, add markup div, ul and li images (34) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image050.webp"
+  title="Step 2 FlexSlider, add markup, div, ul and li images"
   alt="Step 2 FlexSlider, add markup, div, ul and li images."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1317,6 +1339,7 @@ for that unordered list.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 51. index.html, div class='flexslider' (35) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image051.webp"
+  title="Add flexslider class to div and slides class to ul"
   alt="Add flexslider class to div and slides class to ul."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1333,6 +1356,7 @@ slides with seven kittens, one on each side. That&apos;s great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. verify classes on div and ul (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image052.webp"
+  title="Add class to div and ul in index.html"
   alt="Add class to div and ul in index.html."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1344,7 +1368,8 @@ we got that all in, so that&apos;s great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 53. step 3, add to head of index.html (36) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image053.webp"
-  alt="."
+  title="Step 3, add to head of index.html"
+  alt="Step 3, add to head of index.html."
   style="border: 2px solid gray; width:50%;" />
 </p>
 Step 3, directions. Hook up the <b>FlexSlider</b>. This thing says to use
@@ -1439,7 +1464,6 @@ to do.
 <img src="./images/image061.webp?raw=true"
   style="width:45%"
   alt="index.html load jquery with correct version." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image062.webp?raw=true"
   style="width:45%"
   alt="Run flexslider from myscript.js." />
@@ -1455,10 +1479,11 @@ website if you wanted to.
 <p align="center" width="100%">
 <img src="./images/image063.webp?raw=true"
   style="width:45%"
+  title="Load jQuery version"
   alt="Load jQuery version." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image064.webp?raw=true"
   style="width:45%"
+  title="Test example flexslider"
   alt="Test example flexslider." />
 </p>
 
@@ -1468,6 +1493,7 @@ this back to the version 3.6 and save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. test example scroll (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image065.webp"
+  title="Test example scroll"
   alt="Test example scroll."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1482,10 +1508,11 @@ method.
 <p align="center" width="100%">
 <img src="./images/image066.webp?raw=true"
   style="width:45%"
+  title="Verify fonts reside in correct folder"
   alt="Verify fonts reside in correct folder." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image067.webp?raw=true"
   style="width:45%"
+  title="Example test fonts and FlexSlider"
   alt="Example test fonts and FlexSlider." />
 </p>
 
@@ -1510,6 +1537,7 @@ it and we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. flexslider rules (1.09) (42) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image068.webp"
+  title="1.09 FlexSlider Rules"
   alt="1.09 FlexSlider Rules."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1523,10 +1551,11 @@ in the styling.
 <p align="center" width="100%">
 <img src="./images/image069.webp?raw=true"
   style="width:45%"
+  title="Inspect flexslider element style for each image"
   alt="Inspect flexslider element style for each image." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image070.webp?raw=true"
   style="width:45%"
+  title="FlexSliderBasic-Start index.html"
   alt="FlexSliderBasic-Start index.html." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1534,10 +1563,11 @@ in the styling.
 <p align="center" width="100%">
 <img src="./images/image071.webp?raw=true"
   style="width:45%"
+  title="FlexSlider Rules"
   alt="FlexSlider Rules." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image072.webp?raw=true"
   style="width:45%"
+  title="Update styles for flexslider class"
   alt="Update styles for flexslider class." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1545,10 +1575,11 @@ in the styling.
 <p align="center" width="100%">
 <img src="./images/image073.webp?raw=true"
   style="width:45%"
+  title="It Should Be Working.  If not, fine tune it"
   alt="It Should Be Working.  If not, fine tune it." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image074.webp?raw=true"
   style="width:45%"
+  title="Test, example scroll left and right"
   alt="Test, example scroll left and right." />
 </p>
 
@@ -1583,10 +1614,11 @@ file. I want to make sure I&apos;m on my CSS file.
 <p align="center" width="100%">
 <img src="./images/image075.webp?raw=true"
   style="width:45%"
+  title="Verify media queries"
   alt="Verify media queries." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image076.webp?raw=true"
   style="width:45%"
+  title="Test, example styles"
   alt="Test, example styles." />
 </p>
 
@@ -1603,6 +1635,7 @@ I&apos;ve got rid of that gap and all that stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. inspect example site (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image076.webp"
+  title="Inspect example site: Kittens For Sale"
   alt="Inspect example site: Kittens For Sale."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1661,7 +1694,6 @@ and it&apos;s working.
   style="width:45%"
   title="FlexSlider website options"
   alt="FlexSlider website options." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image081.webp?raw=true"
   style="width:45%"
   title="Test, example website"
@@ -1683,7 +1715,6 @@ it for us automatically and that&apos;s great.
   style="width:45%"
   title="List of FlexSlider Options and their default values"
   alt="List of FlexSlider Options and their default values." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image083.webp?raw=true"
   style="width:45%"
   title="Additional options and default values"
@@ -1733,10 +1764,11 @@ syntax because we&apos;ll see it a lot, especially with the plugins.
 <p align="center" width="100%">
 <img src="./images/image086.webp?raw=true"
   style="width:45%"
+  title="myscript.js flexslider options"
   alt="myscript.js flexslider options." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image087.webp?raw=true"
   style="width:45%"
+  title="Example, using FlexSlider"
   alt="Example, using FlexSlider." />
 </p>
 
@@ -1764,10 +1796,11 @@ worry about that.
 <p align="center" width="100%">
 <img src="./images/image088.webp?raw=true"
   style="width:45%"
+  title="FlexSlider with Options"
   alt="FlexSlider with Options." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image089.webp?raw=true"
   style="width:45%"
+  title="myscript.js. Set animation: 'slide' and slideshowSpeed: 2000"
   alt="myscript.js. Set animation: 'slide' and slideshowSpeed: 2000." />
 </p>
 
@@ -1784,10 +1817,11 @@ great.
 <p align="center" width="100%">
 <img src="./images/image090.webp?raw=true"
   style="width:45%"
+  title="Set scroll direction vertical"
   alt="Set scroll direction vertical." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image091.webp?raw=true"
   style="width:45%"
+  title="Example, verify scroll direction vertical"
   alt="Example, verify scroll direction vertical." />
 </p>
 
@@ -1801,6 +1835,7 @@ vertical.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. example, test vertical scroll (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image092.webp"
+  title="Example, test vertical scroll"
   alt="Example, test vertical scroll."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1812,6 +1847,7 @@ Now it&apos;s going from the top to the bottom.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. set pauseonhover = true (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image093.webp"
+  title="pauseonHover: true"
   alt="pauseonHover: true."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1855,10 +1891,11 @@ options, we can really do some different things with this FlexSlider.
 <p align="center" width="100%">
 <img src="./images/image095.webp?raw=true"
   style="width:45%"
+  title="Copy and rename advancedFlexSlider to KittensAdvanced"
   alt="Copy and rename advancedFlexSlider to KittensAdvanced." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image096.webp?raw=true"
   style="width:45%"
+  title="Copy, rename and verify new folder for FlexSlider changes"
   alt="Copy, rename and verify new folder for FlexSlider changes." />
 </p>
 
@@ -1880,10 +1917,11 @@ files open in my code editor.
 <p align="center" width="100%">
 <img src="./images/image097.webp?raw=true"
   style="width:45%"
+  title="Use advancedSlider"
   alt="Use advancedSlider." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image098.webp?raw=true"
   style="width:45%"
+  title="Verify your working with the right set of files"
   alt="Verify your working with the right set of files." />
 </p>
 
