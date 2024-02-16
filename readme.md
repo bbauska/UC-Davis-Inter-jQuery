@@ -1413,10 +1413,11 @@ use <b>window.on</b> instead. But let&apos;s just test it anyway.
 <p align="center" width="100%">
 <img src="./images/image056.webp?raw=true"
   style="width:45%"
+  title="Example test, verify correct jquery.min.js is loaded"
   alt="Example test, verify correct jquery.min.js is loaded." />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image057.webp?raw=true"
   style="width:45%"
+  title="Inspect jQuery and FlexSlider code"
   alt="Inspect jQuery and FlexSlider code." />
 </p>
 
@@ -1431,6 +1432,7 @@ here is that the latest version of jQuery does not support this file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58. jquery snippet (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image058.webp"
+  title="jQuery snippet"
   alt="jQuery snippet."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1438,6 +1440,7 @@ here is that the latest version of jQuery does not support this file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 59. load defer jquery in index.html (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image059.webp"
+  title="Load correct version of jQuery defer in index.html"
   alt="Load correct version of jQuery defer in index.html."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1451,6 +1454,7 @@ that it works. Close this, refresh.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 60. example, test kittens for sale (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image060.webp"
+  title="Example, test Kittens For Sale"
   alt="Example, test Kittens For Sale."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1463,9 +1467,11 @@ to do.
 <p align="center" width="100%">
 <img src="./images/image061.webp?raw=true"
   style="width:45%"
+  title="index.html load jquery with correct version"
   alt="index.html load jquery with correct version." />
 <img src="./images/image062.webp?raw=true"
   style="width:45%"
+  title="Run flexslider from myscript.js"
   alt="Run flexslider from myscript.js." />
 </p>
 
@@ -5713,16 +5719,19 @@ that&apos;s up to you.
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation">PDF of Presentation: 2.28.JavaScript-Scroll-Effect.pdf</a></li>
 </ul>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 name="ch2-29">2.29 Scription Site Introduction (5:54)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 347/348.  (181) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 347/348. scription site intro - building html and css (181) ~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image347.webp"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="2.29 Scription Site Introduction"
+  alt="2.29 Scription Site Introduction." />
 <img src="./images/image348.webp"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Building HTML and CSS"
+  alt="Building HTML and CSS." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 349.  (182) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5738,11 +5747,11 @@ long scrolling page. This page is going to have a number of interactive
 elements in it. And you&apos;ll be able to use a lot of the skills you&apos;ve
 gained so far in this course by creating these interactive elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 350.  (183) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 350. slider using flex slider (183) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image350.webp"
   style="width:50%;"
-  alt="." />
+  alt="Slider using flex slider." />
 </p>
 
 This will be a slider using flex slider up here.
@@ -5817,7 +5826,7 @@ normalizes the differences between different browsers.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 357.  (185) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image357.webp"
-  style="width:40%;"
+  style="width:50%;"
   alt="." />
 </p>
 
