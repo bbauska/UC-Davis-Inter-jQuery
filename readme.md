@@ -1,7 +1,7 @@
 ---
 title: "#3 - University of California @Davis Interactivity with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "2/12/2024 1+pm"
+date last editted: "2/16/2024 2+am"
 output: 
   markdown:
     with some style
@@ -3769,6 +3769,7 @@ run right at that particular size. We&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 224. resizing your windows (2.14) (117) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image224.webp"
+  title="2.14 Resizing Your Windows"
   alt="2.14 Resizing Your Windows."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -3779,10 +3780,11 @@ we&apos;re in a place where we can actually change the heights of our
 element to do all that stuff.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 225.  (118) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 225. add variable doneresizing (118) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image225.webp"
-  alt="."
+  title="Add variable doneResizing"
+  alt="Add variable doneResizing."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -3790,14 +3792,16 @@ To do that, I&apos;m going to come back up here at the top of the page and
 then add one more variable var doneResizing.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 226/227.  (118) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 226/227. add resize function with log (118) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image226.webp"
   style="width:45%;"
-  alt="." />
+  title="Add resize function"
+  alt="Add resize function." />
 <img src="./images/image227.webp"
   style="width:45%;"
-  alt="." />
+  title="Test, resize function with console log"
+  alt="Test, resize function with console log." />
 </p>
 
 I&apos;m just going to set out a variable and it&apos;s going to be undefined at
@@ -3891,14 +3895,16 @@ That makes sense, but the next one is a much higher number, and so on
 and so forth.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 233/234.  (121) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 233/234. test, smooth scroller and resizing functions (121) ~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image233.webp"
   style="width:45%;"
-  alt="." />
+  title="Test, resizing function with smoothscroller for vertical image position"
+  alt="Test, resizing function with smoothscroller for vertical image position." />
 <img src="./images/image234.webp"
   style="width:45%;"
-  alt="." />
+  title="Test, resizing smooth scroller for vertical image positions"
+  alt="Test, resizing smooth scroller for vertical image positions." />
 </p>
 
 If I make it slightly wider, I&apos;ll get a different set of numbers. But
@@ -3911,6 +3917,7 @@ window. That&apos;s really cool, that&apos;s working really well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 235. resetting the counter (2.15) (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image235.webp"
+  title="2.15. Resetting the Counter"
   alt="2.15. Resetting the Counter."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -3922,14 +3929,16 @@ what happens if somebody refreshes the page while they&apos;re further down
 the page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 236/237.  (122) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 236/237. add, test functions refresh while scrolling (122) ~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image236.webp"
   style="width:45%;"
-  alt="." />
+  title="Add functions to handle refresh while scrolling"
+  alt="Add functions to handle refresh while scrolling." />
 <img src="./images/image237.webp"
   style="width:45%;"
-  alt="." />
+  title="Test, added functions to handle refresh while scrolling"
+  alt="Test, added functions to handle refresh while scrolling." />
 </p>
 
 What I want to do for this is I&apos;m going to come down here into my
@@ -3973,14 +3982,16 @@ appropriate class in the appropriate link. That&apos;s really cool and that
 should work.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 238/239.  (123) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 238/239. smooth scroll, vertical image positions (123) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image238.webp"
   style="width:45%;"
-  alt="." />
+  title="Test, Smooth Scroll and vertical image positions"
+  alt="Test, Smooth Scroll and vertical image positions." />
 <img src="./images/image239.webp"
   style="width:45%;"
-  alt="." />
+  title="Test, section position for smooth scrolling"
+  alt="Test, section position for smooth scrolling." />
 </p>
 
 Now, if I see this and notice, I do have this inside the resize
@@ -3990,7 +4001,9 @@ fine if I come over here and refresh the page. You&apos;ll notice he didn&apos;t
 pick the right thing, but if I resize the page. Notice that when I was
 done, it actually picked the correct section that I was on. If I come up
 here and resize the page. Notice it switched this to the correct
-section. Section two I mean. If I resize the page again. I&apos;m still in
+section. Section two I mean. 
+
+If I resize the page again. I&apos;m still in
 the second section. But you get the idea it is actually working and
 doing the right thing. I know I went through it quickly, but make sure
 you get all of this in here, the script here, and then this piece is
@@ -4138,10 +4151,11 @@ refreshing that, and the reason I think it&apos;s doing that is that it
 could be in some cases, actually reloading the page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 250.  (129) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 250. function remove attributes when change sections (129) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image250.webp"
-  alt="."
+  title="Add to function to remove/update attributes when change sections"
+  alt="Add to function to remove/update attributes when change sections."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -4163,12 +4177,13 @@ last lesson on this where we just look at the different pieces and
 review what we&apos;ve done.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-17">2.17. Reviewing the Whole Script</h2>
+<h2 name="ch2-17">2.17 Reviewing the Whole Script</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 251. reviewing the whole script (2.17) (130) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image251.webp"
-  alt="2.17. Reviewing the Whole Script."
+  title="2.17 Reviewing the Whole Script"
+  alt="2.17 Reviewing the Whole Script."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
@@ -4176,10 +4191,10 @@ This is quite an extensive script. We&apos;ve done a lot here. I just want
 to go through it once quickly, to review what we&apos;ve done.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 252.  (130) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 252. smoothscroll.js - section tabs classes (130) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image252.webp"
-  alt="."
+  alt="smoothscroll.js - section tabs and classes."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -4197,10 +4212,11 @@ That&apos;s something to consider. But that&apos;s what that first part of that
 script does.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 253.  (131) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 253. smoothscroll.js - on load (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image253.webp"
-  alt="."
+  title="smoothscroll.js - on load"
+  alt="smoothscroll.js - on load."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -4217,10 +4233,10 @@ when it&apos;ll recalculate those things when we resize the screen but that
 happens later, so we set all that page position stuff.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 254.  (132) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 254. smoothscroll.js - identify section on scroll (132) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image254.webp"
-  alt="."
+  alt="smoothscroll.js - identify the section your in while scrolling."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -4237,10 +4253,10 @@ change. This script is the heart of the whole thing in terms of figuring
 out everything that should happen there on the page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 255.  (133) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 255. smoothscroll.js - on resize & cleartimeout (133) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image255.webp"
-  alt="."
+  alt="smoothscroll.js - on resize."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -4249,10 +4265,10 @@ clearTimeout to keep the setTime out from happening until we&apos;re
 actually done resizing.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 256.  (133) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 256. smoothscroll.js - resetpageposition (133) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image256.webp"
-  alt="."
+  alt="smoothscroll.js - resetPagePosition."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -4263,14 +4279,14 @@ pages, of all of our sections and figures out how far down the page we
 are and sets the styling for the links appropriately.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 257/258.  (134) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 257/258. smoothscroll.js - update class attributes (134) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image257.webp"
   style="width:45%;"
-  alt="." />
+  alt="Identify and comment out class attributes." />
 <img src="./images/image258.webp"
   style="width:45%;"
-  alt="." />
+  alt="Comment out class attributes." />
 </p>
 
 The only thing I can think to do is maybe to remove these two pieces
@@ -4280,14 +4296,14 @@ function, then we could get rid of this callback function entirely if
 this works.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 259/260.  (134) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 259/260. test, smooth scroll section (134) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image259.webp"
   style="width:45%;"
-  alt="." />
+  alt="Test Smooth Scroll section." />
 <img src="./images/image260.webp"
   style="width:45%;"
-  alt="." />
+  alt="Test Smooth Scroll section." />
 </p>
 
 But let&apos;s see if this does what we wanted to do here, and then come
@@ -4300,14 +4316,14 @@ script. I think the two are affecting each other a little bit, so now
 both scripts are working.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 261/262.  (135) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 261/262. comment out callback function (135) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image261.webp"
   style="width:45%;"
-  alt="." />
+  alt="Identify and comment out callback functions." />
 <img src="./images/image262.webp"
   style="width:45%;"
-  alt="." />
+  alt="Identify and comment out callback functions." />
 </p>
 
 You could come back here, and take out this callback function entirely
@@ -4547,21 +4563,21 @@ spit out in the console. Well, we&apos;ll do that in the next lesson.
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 277.  (143) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 277. script.js - tops of sections when clicked (143) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image277.webp"
-  alt="."
+  alt="script.js - getBoundingClientRect when clicked."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 This statement is generating the tops of each section when I click on
-them, so I want sign that to variable.
+them, so I want assign that to a variable.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 278.  (143) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 278. script.js - section top - 200 px (143) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image278.webp"
-  alt="."
+  alt="script.js - get section top minus 200px."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -4578,10 +4594,10 @@ page, so we really want our, when we see scroll, we want it to smooth
 scroll to this position, 200 pixels down, not all the way up at the top
 of the window, because that wouldn&apos;t really help us.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 279.  (144) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 279. test, script.js section position (144) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image279.webp"
-  alt="."
+  alt="Test, script.js section position."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -4604,14 +4620,14 @@ just going to &apos;console.log&apos;, &apos;originalTop&apos;, just so you can 
 what&apos;s in that variable, each time we click, one of these links should
 be what we saw before.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 280/281.  (145) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 280/281. test, smooth scroll and refresh (145) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image280.webp"
   style="width:45%;"
-  alt="." />
+  alt="Test, smooth scroll and refresh commands." />
 <img src="./images/image281.webp"
   style="width:45%;"
-  alt="." />
+  alt="Test, smooth scroll and refresh commands." />
 </p>
 
 Let&apos;s go ahead and test this. If I refresh my page, starting up stride
@@ -9898,6 +9914,7 @@ a click. And when you click the button we&apos;re going to run a function.</p>
 <p align="center">
 <img src="./images/image651.webp"
   style="width:50%;"
+  title="setUpTurn, swap players"
   alt="setUpTurn, swap players." />
 </p>
 
@@ -9917,6 +9934,7 @@ we&apos;re going to need something that checks the winning condition.</p>
 <p align="center">
 <img src="./images/image652.webp"
   style="width:50%;"
+  title="Start the Game of Pig"
   alt="Start the Game of Pig." />
 </p>
 
@@ -9930,9 +9948,11 @@ down here yet, but I can choose roll again.</p>
 <p align="center">
 <img src="./images/image653.webp"
   style="width:45%;"
+  title="Game of Pig; roll the dice"
   alt="Game of Pig; roll the dice." />
 <img src="./images/image654.webp"
   style="width:45%;"
+  title="Game of Pig; roll the dice"
   alt="Game of Pig; roll the dice." />
 </p>
 
@@ -9944,9 +9964,11 @@ I&apos;m still on player 2 and I can roll the dice again.</p>
 <p align="center">
 <img src="./images/image655.webp"
   style="width:45%;"
+  title="Game of Pig; roll the dice"
   alt="Game of Pig; roll the dice." />
 <img src="./images/image656.webp"
   style="width:45%;"
+  title="Game of Pig; roll the dice"
   alt="Game of Pig; roll the dice." />
 </p>
 
@@ -9962,7 +9984,8 @@ Let&apos;s stop there and we&apos;ll pick it up in the next lesson.</p>
 <p align="center">
 <img src="./images/image657.webp"
   style="width:50%;"
-  alt="." />
+  title="4.11 3rd Major Functions Checks for Winning Condition"
+  alt="4.11 3rd Major Functions Checks for Winning Condition." />
 </p>
 
 <p>The third major function we need is the function that checks for a winning condition.</p>
@@ -9971,6 +9994,7 @@ Let&apos;s stop there and we&apos;ll pick it up in the next lesson.</p>
 <p align="center">
 <img src="./images/image658.webp"
   style="width:50%;"
+  title="Checking for a win"
   alt="Checking for a win." />
 </p>
 
@@ -9982,9 +10006,11 @@ down here.</p>
 <p align="center">
 <img src="./images/image659.webp"
   style="width:45%;"
+  title="function throwDice"
   alt="function throwDice." />
 <img src="./images/image660.webp"
   style="width:45%;"
+  title="Check Winning Condition"
   alt="Check Winning Condition." />
 </p>
 
@@ -9995,6 +10021,7 @@ curly brace here.</p>
 <p align="center">
 <img src="./images/image661.webp"
   style="width:50%;"
+  title="Add if..else for winning conditions"
   alt="Add if..else for winning conditions." />
 </p>
 
@@ -10008,6 +10035,7 @@ least ought to know how close we are to winning? So it&apos;s going to do those 
 <p align="center">
 <img src="./images/image662.webp"
   style="width:50%;"
+  title="Is player score (gameData.score) greater than gameData.gameEnd?"
   alt="Is player score (gameData.score) greater than gameData.gameEnd?" />
 </p>
 
@@ -10037,7 +10065,8 @@ the show current score section of this <b>function</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 663. show the current score (4.12) (338) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image663.webp"
-  style="width:50%;"
+  style="width:40%;"
+  title="4.12. Show the Current Score"
   alt="4.12. Show the Current Score." />
 </p>
 
@@ -10048,6 +10077,7 @@ out properly, if we haven&apos;t won the game, so let&apos;s go over and add thi
 <p align="center">
 <img src="./images/image664.webp"
   style="width:50%;"
+  title="Showing the Current Score"
   alt="Showing the Current Score." />
 </p>
 
@@ -10069,6 +10099,7 @@ going to be 1.</p>
 <p align="center">
 <img src="./images/image665.webp"
   style="width:50%;"
+  title="function checkWinningCondition"
   alt="function checkWinningCondition." />
 </p>
 
@@ -10084,6 +10115,7 @@ need to do to get this to work?</p>
 <p align="center">
 <img src="./images/image666.webp"
   style="border: 2px solid #000000; width:50%"
+  title="function checkWinningCondition"
   alt="function checkWinningCondition." />
 </p>
 
@@ -10095,9 +10127,11 @@ it there.
 <p align="center">
 <img src="./images/image667.webp"
   style="border: 2px solid #000000; width:45%"
+  title="Test score console.log 0 to 8"
   alt="Test score console.log 0 to 8." />
 <img src="./images/image668.webp"
   style="border: 2px solid #000000; width:45%"
+  title="Again, test score console log 0 to 8"
   alt="Again, test score console log 0 to 8." />
 </p>
 
@@ -10111,9 +10145,11 @@ running here, and you can see that the score got added up, player 2 has
 <p align="center">
 <img src="./images/image669.webp"
   style="width:45%;"
+  title="Test Game of PIG, score 0 to 15"
   alt="Test Game of PIG, score 0 to 15." />
 <img src="./images/image670.webp"
   style="width:45%;"
+  title="Test Game of PIG, score 0 to 25"
   alt="Test Game of PIG, score 0 to 25." />
 </p>
 
@@ -10127,6 +10163,7 @@ happens.
 <p align="center">
 <img src="./images/image671.webp"
   style="border: 2px solid #000000; width:50%"
+  title="Test Game of PIG, player 2 wins with 33 points"
   alt="Test Game of PIG, player 2 wins with 33 points." />
 </p>
 
@@ -10138,6 +10175,7 @@ that needs to be dealt with.
 <p align="center">
 <img src="./images/image672.webp"
   style="width:50%;"
+  title="Test Game of PIG, with console.log of score"
   alt="Test Game of PIG, with console.log of score." />
 </p>
 
@@ -10156,6 +10194,7 @@ so we want to show the score if you roll two ones.
 <p align="center">
 <img src="./images/image673.webp"
   style="width:50%;"
+  title="Run function: checkWinningCondition"
   alt="Run function: checkWinningCondition." />
 </p>
 
@@ -10174,6 +10213,7 @@ so that helps.
 <p align="center">
 <img src="./images/image674.webp"
   style="width:50%;"
+  title="Set action area when you win"
   alt="Set action area when you win." />
 </p>
 
@@ -10187,6 +10227,7 @@ those buttons that I had there by accident.
 <p align="center">
 <img src="./images/image675.webp"
   style="width:50%;"
+  title="Test Game of Pig"
   alt="Test Game of Pig." />
 </p>
 
@@ -10212,6 +10253,7 @@ cleanup stuff.
 <p align="center">
 <img src="./images/image676.webp"
   style="width:40%;"
+  title="4.13. Final Clean-Up"
   alt="4.13. Final Clean-Up." />
 </p>
 
@@ -10229,6 +10271,7 @@ So what can we do about that?
 <p align="center">
 <img src="./images/image677.webp"
   style="width:40%;"
+  title="Replace function setup turn with throw dice"
   alt="Replace function setup turn with throw dice." />
 </p>
 
@@ -10244,9 +10287,11 @@ nicely. It&apos;s a bit smoother so that works great, okay?
 <p align="center">
 <img src="./images/image678.webp"
   style="width:45%;"
+  title="Using best practices, cleanup where possible"
   alt="Using best practices, cleanup where possible." />
 <img src="./images/image679.webp"
   style="width:45%;"
+  title="Using best practices, cleanup where possible"
   alt="Using best practices, cleanup where possible." />
 </p>
 
@@ -10265,9 +10310,11 @@ do is run this function here, <b>showCurrentScore</b>.
 <p align="center">
 <img src="./images/image680.webp"
   style="width:45%;"
+  title="Change checkWinningCondition to showCurrentScore"
   alt="Change checkWinningCondition to showCurrentScore." />
 <img src="./images/image681.webp"
   style="width:45%;"
+  title="Change checkWinningCondition to showCurrentScore"
   alt="Change checkWinningCondition to showCurrentScore." />
 </p>
 
@@ -10287,9 +10334,11 @@ nicer like that.
 <p align="center">
 <img src="./images/image682.webp"
   style="width:45%;"
+  title="Optimize JavaScript functions using best practices"
   alt="Optimize JavaScript functions using best practices." />
 <img src="./images/image683.webp"
   style="width:45%;"
+  title="If function is used more than once, split off"
   alt="If function is used more than once, split off." />
 </p>
 
@@ -10315,9 +10364,11 @@ into a separate function that runs here.
 <p align="center">
 <img src="./images/image684.webp"
   style="width:45%;"
+  title="Separate JS code into script.js for best practices"
   alt="Separate JS code into script.js for best practices." />
 <img src="./images/image685.webp"
   style="width:45%;"
+  title="Move all functions into one script file for ease"
   alt="Move all functions into one script file for ease." />
 </p>
 
@@ -10337,6 +10388,7 @@ variables and then paste everything here.</p>
 <p align="center">
 <img src="./images/image686.webp"
   style="width:50%;"
+  title="Update all var to const to speed things up"
   alt="Update all var to const to speed things up." />
 </p>
 
@@ -10350,6 +10402,7 @@ a constant as well.</p>
 <p align="center">
 <img src="./images/image687.webp"
   style="width:50%;"
+  title="Use the differ attribute with script.js"
   alt="Use the differ attribute with script.js." />
 </p>
 
@@ -10365,6 +10418,7 @@ in the next lesson, and you&apos;ve got a working game here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 688. extending the game (module 4.14) (350) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image688.webp"
+  title="4.14. Extending the Game"
   alt="4.14. Extending the Game."
   style="border: 2px solid #000000; width:40%;" />
 </p>
@@ -10374,6 +10428,7 @@ in the next lesson, and you&apos;ve got a working game here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 689. easy ways to extend the game (350) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image689.webp"
+  title="Easy ways to extend the game"
   alt="Easy ways to extend the game."
   style="border: 2px solid #000000; width:50%;" />
 </p>
@@ -10393,8 +10448,9 @@ more challenging if you really want to try to do them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 690. easy ways to extend the game (351) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image690.webp"
+  title="Easy ways to extend the game"
   alt="Easy ways to extend the game."
-  style="border: 2px solid #000000; width:40%;" />
+  style="border: 2px solid #000000; width:50%;" />
 </p>
 
 <p>The first is when you roll a one, it zeros out the cumulative score for
@@ -10483,6 +10539,7 @@ excellent versions people have made of the big game.</p>
 <!--~~~~~~~~~~~ 691. course summary: interactivity with javascript and jquery (353) ~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image691.webp"
+  title="4.15 Course Summary: Interactivity with JavaScript and jQuery"
   alt="4.15 Course Summary: Interactivity with JavaScript and jQuery."
   style="border: 2px solid #000000; width:40%;" />
 </p>
@@ -10504,4 +10561,4 @@ going to learn even more JavaScript and you&apos;ll get even better at it
 and you&apos;ll get more practice. So I look forward to seeing you there.</p>
 
 <p>.the end...</p>
-<h6>Last Updated 2/12/2024 1:16pm</h6>
+<h6>Last Updated 2/16/2024 2:34am</h6>
