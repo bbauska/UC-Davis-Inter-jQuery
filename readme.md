@@ -1647,6 +1647,7 @@ and look the way you want it to look on your page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. additional controls (1.10) (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image079.webp"
+  title="1.10 Additional Controls"
   alt="1.10 Additional Controls."
   style="border: 2px solid gray; width:40%;" />
 </p>
@@ -1658,10 +1659,12 @@ and it&apos;s working.
 <p align="center" width="100%">
 <img src="./images/image080.webp?raw=true"
   style="width:45%"
+  title="FlexSlider website options"
   alt="FlexSlider website options." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image081.webp?raw=true"
   style="width:45%"
+  title="Test, example website"
   alt="Test, example website." />
 </p>
 
@@ -1678,10 +1681,12 @@ it for us automatically and that&apos;s great.
 <p align="center" width="100%">
 <img src="./images/image082.webp?raw=true"
   style="width:45%"
+  title="List of FlexSlider Options and their default values"
   alt="List of FlexSlider Options and their default values." />
 &nbsp;&nbsp;&nbsp;
 <img src="./images/image083.webp?raw=true"
   style="width:45%"
+  title="Additional options and default values"
   alt="Additional options and default values." />
 </p>
 
@@ -1694,6 +1699,7 @@ looking at this exactly what you need to do.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 84. flexslider options, default values (47) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image084.webp"
+  title="FlexSlider Options, default values"
   alt="FlexSlider Options, default values."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1710,6 +1716,7 @@ can we do? Let&apos;s take a look at it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85. flexslider with options (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image085.webp"
+  title="FlexSlider with Options"
   alt="FlexSlider with Options."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -3025,12 +3032,12 @@ overloading your processor, if you want to move stuff around on the
 screen, it&apos;s easy to overload it by firing this event so many times and
 trying to do too many things at once.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-08">2.08. The Crux of the Problem</h2>
+<h2 name="ch2-08">2.08 The Crux of the Problem</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 175. the crux of the problem (2.08) (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image175.webp"
-  alt="2.08. The Crux of the Problem."
+  alt="2.08 The Crux of the Problem."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
@@ -3912,13 +3919,13 @@ you&apos;ll notice this only re-evaluates after I&apos;m done resizing my
 window. That&apos;s really cool, that&apos;s working really well.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-15">2.15. Resetting the Counter</h2>
+<h2 name="ch2-15">2.15 Resetting the Counter</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 235. resetting the counter (2.15) (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image235.webp"
-  title="2.15. Resetting the Counter"
-  alt="2.15. Resetting the Counter."
+  title="2.15 Resetting the Counter"
+  alt="2.15 Resetting the Counter."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
@@ -4456,12 +4463,12 @@ pointer debt to this function down here, and let it run that way.
   <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript">2.18.Scroll-Effects-START.zip</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-19">2.19. Getting the Target -- Part 1 (4:50)</h2>
+<h2 name="ch2-19">2.19 Getting the Target -- Part 1 (4:50)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 269. getting the target - part 1 (2.19) (139) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image269.webp"
-  alt="2.19. Getting the Target - Part 1."
+  alt="2.19 Getting the Target - Part 1."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
@@ -4559,7 +4566,7 @@ spit out in the console. Well, we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 276. getting the target - part 2 (2.20) (142) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image276.webp"
-  alt="2.20. Getting the Target -- Part 2."
+  alt="2.20 Getting the Target -- Part 2."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4657,7 +4664,7 @@ of a problem, and we&apos;ll talk about it more in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 282. smooth scroll polyfill (2.21) (146) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image282.webp"
-  alt="2.21. Smooth Scroll Polyfill."
+  alt="2.21 Smooth Scroll Polyfill."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
@@ -8039,7 +8046,7 @@ more complex javascript programming.
 <p align="center">
 <img src="./images/image543.webp"
   style="width:40%;"
-  alt="3.05. Putting Objects and Functions Together." />
+  alt="3.05 Putting Objects and Functions Together." />
 </p>
 
 Putting objects and functions together, this is a really powerful
@@ -8126,7 +8133,7 @@ a a key thing in any programming language is to be able to do that.
 <p align="center">
 <img src="./images/image547.webp"
   style="width:40%;"
-  alt="3.06. Data Formats - XML." />
+  alt="3.06 Data Formats - XML." />
 </p>
 
 <p>The next thing to talk about in our journey with Objects, is to talk
@@ -8814,7 +8821,7 @@ functionality you need for each piece.
 > <https://d3c33hcgiwev3.cloudfront.net/wRpMd6i4TaiaTHeouG2osQ_7c411f98779849398ce95c23f23fedf1_WEB1092_M03_Introduction-to-Pig-Dice-Game.pdf?Expires=1704585600&Signature=dokAhbfdxI3qs5xjHcknMvZaX3kGHaQXYpYx2bHBBs6aaQ7SGPsvdCoVyqRrWHZhy3ZByrVjrK7dn7-D0N1FPTVv2GCEyv8zc3dUaTwu2RJbwQQxQyXm79L-bvq92s77lcIpJbGPtkHECDJeUIF1YbpMtLKeYoyoBovQ1WOm8Lg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch4-01">4.01. Module 4 Introduction (0:43)</h2>
+<h2 name="ch4-01">4.01 Module 4 Introduction (0:43)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 580. module 4 introduction (4.01) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -9524,7 +9531,7 @@ something else, we need to swap. &lbrack;inaudible&rbrack;.
 <p align="center">
 <img src="./images/image623.webp"
   style="width:40%;"
-  alt="4.07. Add the Selection Statements." />
+  alt="4.07 Add the Selection Statements." />
 </p>
 
 <p>We&apos;re going to add if statements into our throw dysfunction here.</p>
@@ -9733,7 +9740,7 @@ testing the switch players function.</p>
 <p align="center">
 <img src="./images/image638.webp"
   style="width:40%;"
-  alt="4.09. A "1" was rolled." />
+  alt="4.09 A "1" was rolled." />
 </p>
 
 <p>The next thing we&apos;re going to look at is if a one has been rolled.</p>
@@ -9847,7 +9854,7 @@ continue moving on with the game.</p>
 <p align="center">
 <img src="./images/image646.webp"
   style="width:40%;"
-  alt="4.10. The Else Statement." />
+  alt="4.10 The Else Statement." />
 </p>
 
 <p>The next thing we need to look at is the final else statement which will
@@ -10066,8 +10073,8 @@ the show current score section of this <b>function</b>.</p>
 <p align="center">
 <img src="./images/image663.webp"
   style="width:40%;"
-  title="4.12. Show the Current Score"
-  alt="4.12. Show the Current Score." />
+  title="4.12 Show the Current Score"
+  alt="4.12 Show the Current Score." />
 </p>
 
 <p>Okay, so now we need to show the current score, and make sure that that gets filled 
@@ -10253,8 +10260,8 @@ cleanup stuff.
 <p align="center">
 <img src="./images/image676.webp"
   style="width:40%;"
-  title="4.13. Final Clean-Up"
-  alt="4.13. Final Clean-Up." />
+  title="4.13 Final Clean-Up"
+  alt="4.13 Final Clean-Up." />
 </p>
 
 Okay the game is working and that&apos;s great, and everything is working
@@ -10418,8 +10425,8 @@ in the next lesson, and you&apos;ve got a working game here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 688. extending the game (module 4.14) (350) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image688.webp"
-  title="4.14. Extending the Game"
-  alt="4.14. Extending the Game."
+  title="4.14 Extending the Game"
+  alt="4.14 Extending the Game."
   style="border: 2px solid #000000; width:40%;" />
 </p>
 
