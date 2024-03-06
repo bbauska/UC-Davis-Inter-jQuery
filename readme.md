@@ -435,7 +435,7 @@ You will be able to then extend the script in many creative ways.</p>
   15. Course Summary
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-00">1.00 A Note from UC Davis</h2>
+<h2 id="ch1-00">1.00 A Note from UC Davis</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Welcome to this course!</p>
 <p>We are delighted to be a part of your continuing education. This course will 
@@ -493,12 +493,12 @@ Be sure to read the Coursera guidelines and the Coursera Honor Code here:</p>
     Coursera’s Honor Code</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-01">1.01. Welcome! Course Introduction (0:40)</h2>
+<h2 id="ch1-01">1.01 Welcome! Course Introduction (0:40)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. course intro (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image003.webp" 
-  alt="1.01. Course Introduction."
+  alt="1.01 Course Introduction."
   style="border: 2px solid #000000; width:40%;" />
 </p>
 
@@ -516,12 +516,12 @@ We&apos;re going to do a lot in this course. Let&apos;s break out our code
 editors and our web browsers and get started and learn even more about
 JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-02">1.02. Module Introduction</h2>
+<h2 id="ch1-02">1.02 Module Introduction</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. module 1 intro (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image004.webp" 
-  alt="1.02. Module 1 Introduction."
+  alt="1.02 Module 1 Introduction."
   style="border: 2px solid #000000; width:40%;" />
 </p>
 
@@ -538,12 +538,12 @@ you&apos;ve done manually by creating your own sliders is really instructive
 and useful. Plus, you end up with a great tool for creating slider
 elements on web pages and that&apos;s really pretty fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-03">1.03. Introduction to jQuery Plugins (3:49)</h2>
+<h2 id="ch1-03">1.03 Introduction to jQuery Plugins (3:49)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. intro to jquery plugins (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image005.webp" 
-  alt="1.03. Intro to jQuery Plugins."
+  alt="1.03 Intro to jQuery Plugins."
   style="border: 2px solid #000000; width:40%;" />
 </p>
 
@@ -625,7 +625,7 @@ a lot of features and functionality. What if you want the tabs to run down the s
 the tabbed interface rather than across the tab? You could do that thing.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-04">1.04. Using Plugins and Essential Steps (4:22)</h2>
+<h2 id="ch1-04">1.04. Using Plugins and Essential Steps (4:22)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 10. using plugins and essential steps (1.04) (13) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -711,7 +711,7 @@ see once you work with a few plugins that many of them work pretty much the same
 documentation may look a little bit different; the directions may be written a little bit 
 different, but it&apos;s the same basic steps each time.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-05">1.05. Gotchas and Rookie Mistakes (8:52)</h2>
+<h2 id="ch1-05">1.05. Gotchas and Rookie Mistakes (8:52)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 13. gotchas and rookie mistakes (1.05) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -900,7 +900,7 @@ carrying the extension .ZIP.
     target="_blank" rel="noopener noreferrer">How to open a zip file for either Mac or PC</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-06">1.06 FlexSlider: A jQuery Plugin (6:38)</h2>
+<h2 id="ch1-06">1.06 FlexSlider: A jQuery Plugin (6:38)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. flexslider: a jquery plugin (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1116,7 +1116,7 @@ need. I&apos;m going to put them into my project folder over here so that I
 have them, and that gets us all the files that we need in order to get
 started for this project.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-07">1.07 About the Minified Version (5:55)</h2>
+<h2 id="ch1-07">1.07 About the Minified Version (5:55)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 35. about the minified version (1.07) (27) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1305,7 +1305,7 @@ markup this plug in expects. It expects a <b>div</b> with the class,
 <b>flexslider</b>, and a <b>ul</b> with the class slides, then list items with
 the images inside of it, and we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-08">1.08 Adding Markup & Hooking Up the Slider  (7:33)</h2>
+<h2 id="ch1-08">1.08 Adding Markup & Hooking Up the Slider  (7:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 49. adding markup and hooking up the slider (34) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1538,7 +1538,7 @@ page. There they are, they&apos;re back again. Okay, great. We&apos;ve got the
 basic slider working, now we can talk about what else we need to do with
 it and we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-09">1.09 FlexSlider Rules</h2>
+<h2 id="ch1-09">1.09 FlexSlider Rules</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. flexslider rules (1.09) (42) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1681,7 +1681,7 @@ just a matter of using the inspector and hunting around to see what
 rules are being applied that you might want to change to get it to style
 and look the way you want it to look on your page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-10">1.10 Additional Controls</h2>
+<h2 id="ch1-10">1.10 Additional Controls</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. additional controls (1.10) (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1881,7 +1881,7 @@ has FlexSlider on it. It could look the same, because they all have the
 same arrows here, left and right arrows. We can get rid of those and do
 something else that would be kind of interesting and fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-11">1.11 Advanced FlexSlider</h2>
+<h2 id="ch1-11">1.11 Advanced FlexSlider</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. advanced flexslider (1.11) (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2010,7 +2010,7 @@ creating our fancier version of our FlexSlider. In the next lesson,
 we&apos;ll start looking at what we need to do to adjust the styling for
 this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-12">1.12 Additional Styling (5:47)</h2>
+<h2 id="ch1-12">1.12 Additional Styling (5:47)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 104. additional styling (1.12) (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2145,7 +2145,7 @@ background of my slide, rather than in the foreground. And the
 foreground is an H2 that&apos;s been absolutely positioned here. But now I
 need to style this call to action, and I&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch1-13">1.13. Styling the CTA 'Call To Action'</h2>
+<h2 id="ch1-13">1.13. Styling the CTA 'Call To Action'</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 112. styling the cta 'call to action' (61) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2329,7 +2329,7 @@ section: <b>jQuery Plugins and FlexSlider</b>.
     target="_blank" rel="noopener noreferrer">1.13.FlexSlider.pdf</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-01">2.01. Module 2 Intro (0:38)</h2>
+<h2 id="ch2-01">2.01. Module 2 Intro (0:38)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 126. module 2 intro - scroll effects (67) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2348,7 +2348,7 @@ to test your skills, and see how you&apos;re doing with this.
 Let&apos;s dive in, break out our code editors and our web browsers, and get
 started on this module.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-02">2.02. Introduction to Smooth Scroll with jQuery (4:15)</h2>
+<h2 id="ch2-02">2.02. Introduction to Smooth Scroll with jQuery (4:15)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 127. intro to smooth scroll with jquery (67) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2478,7 +2478,7 @@ carrying the extension .ZIP.
     target="_blank" rel="noopener noreferrer">How to open a zip file for either Mac or PC</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-03">2.03 Creating a Click Handler (5:00)</h2>
+<h2 id="ch2-03">2.03 Creating a Click Handler (5:00)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 137/138. creating a click handler (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2568,7 +2568,7 @@ going to actually animate our HTML, and in here, we&apos;ll use our
 <b>thisSection</b> thing to tell us where we&apos;re going to animate to, and
 we&apos;ll do that in the next lesson so you see how it all comes together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-04">2.04 Adding the Animation (6:56)</h2>
+<h2 id="ch2-04">2.04 Adding the Animation (6:56)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 143/144. adding the animation (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2699,7 +2699,7 @@ just in case somebody is using an older browser. I&apos;m not sure when they
 actually fixed up, so we won&apos;t see a difference because of that now,
 but it&apos;s just something to be aware of, Going forward.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-05">2.05 Add Some Easing and a Callback Function</h2>
+<h2 id="ch2-05">2.05 Add Some Easing and a Callback Function</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 151. add some easing and a callback function (2.05) (78) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2785,7 +2785,7 @@ like that offset. We have done that right. Here we go. Let&apos;s see if I
 did that right. I think I did. I come back here, refresh the page, click
 second and I did something wrong there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-06">2.06. Highlighting Elements</h2>
+<h2 id="ch2-06">2.06. Highlighting Elements</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 157. highlighting elements (2.06) (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2883,7 +2883,7 @@ to another. We&apos;re going to deal with that in the next lesson.
     PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-07">2.07. Introduction to Page Location Tracking</h2>
+<h2 id="ch2-07">2.07. Introduction to Page Location Tracking</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 161. intro to page location tracking (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3076,7 +3076,7 @@ overloading your processor, if you want to move stuff around on the
 screen, it&apos;s easy to overload it by firing this event so many times and
 trying to do too many things at once.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-08">2.08 The Crux of the Problem</h2>
+<h2 id="ch2-08">2.08 The Crux of the Problem</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 175. the crux of the problem (2.08) (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3200,7 +3200,7 @@ pieces that make capturing scroll events tricky, the fact that you
 can&apos;t be sure which pixel you going to hit and you have to watch out
 for performance.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-09">2.09 Strategy</h2>
+<h2 id="ch2-09">2.09 Strategy</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182. strategy (2.09) (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3370,7 +3370,7 @@ just getting whole numbers 200, 700, 1525, 2104, and 2683 and that&apos;s
 good. Great. We&apos;ll pick it up in the next lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-10">2.10 Adding PageTop and If Statements</h2>
+<h2 id="ch2-10">2.10 Adding PageTop and If Statements</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 194. adding pagetop and if statements (102) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3477,7 +3477,7 @@ working with scroll events, which is that you have to be careful not to
 do something every time you scroll a tiny little bit because you can
 overload your CPU.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-11">2.11 Writing the Else/If Statement - Part 1</h2>
+<h2 id="ch2-11">2.11 Writing the Else/If Statement - Part 1</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 202. writing the else/if statement in smoothscroll.js (105) ~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3560,7 +3560,7 @@ height of that section, that we&apos;re calculating when the page loads,
 including all the images, because they have an effect on the height of
 these elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-12">2.12 Writing the Else/If Statement -- Part 2 (5:43)</h2>
+<h2 id="ch2-12">2.12 Writing the Else/If Statement -- Part 2 (5:43)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 208. writing the else/if statement - part 2 (108) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3681,7 +3681,7 @@ to. This script gives you a lot of power over that thing, and that&apos;s
 really cool.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-13">2.13 Edge Case Issues</h2>
+<h2 id="ch2-13">2.13 Edge Case Issues</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 214. edge case issues (2.13) (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3815,7 +3815,7 @@ calculate, how tall are my sections and fix my script up so that it will
 run right at that particular size. We&apos;ll do that in the next lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-14">2.14 Resizing Your Windows</h2>
+<h2 id="ch2-14">2.14 Resizing Your Windows</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 224. resizing your windows (2.14) (117) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3963,7 +3963,7 @@ you&apos;ll notice this only re-evaluates after I&apos;m done resizing my
 window. That&apos;s really cool, that&apos;s working really well.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-15">2.15 Resetting the Counter</h2>
+<h2 id="ch2-15">2.15 Resetting the Counter</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 235. resetting the counter (2.15) (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -4066,11 +4066,12 @@ out of here and put it into its own function. We&apos;ll do that in the next
 lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-16">2.16 resetPagePosition Function</h2>
+<h2 id="ch2-16">2.16 resetPagePosition Function</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 240. resetpageposition function (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image240.webp"
+  title="2.16 resetPagePosition Function"
   alt="2.16 resetPagePosition Function."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -4083,9 +4084,11 @@ few places.
 <p align="center">
 <img src="./images/image241.webp"
   style="width:45%;"
+  title="smoothscroll.js: On load function"
   alt="smoothscroll.js: On load function." />
 <img src="./images/image242.webp"
   style="width:45%;"
+  title="smoothscroll.js: On resize function"
   alt="smoothscroll.js: On resize function." />
 </p>
 
@@ -4102,9 +4105,11 @@ in here a function resetPagePosition.
 <p align="center">
 <img src="./images/image243.webp"
   style="width:45%;"
+  title="doneResizeing (sp?), postTops, and pagePosition"
   alt="doneResizeing (sp?), postTops, and pagePosition." />
 <img src="./images/image244.webp"
   style="width:45%;"
+  title="doneResizeing (sp?), postTops, and pagePosition"
   alt="doneResizeing (sp?), postTops, and pagePosition." />
 </p>
 I&apos;m going to put all of this stuff that comes inside this set time out
@@ -4118,6 +4123,7 @@ shift to get it to line up for it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 245. resetpageposition (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image245.webp"
+  title="resetPagePosition"
   alt="resetPagePosition."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -4132,6 +4138,7 @@ we&apos;re going to do all this stuff that we just wrote. That&apos;s cool.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 246. posttops and resetpageposition (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image246.webp"
+  title="postTops and resetPagePosition"
   alt="postTops and resetPagePosition."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -4148,6 +4155,7 @@ time you resize the screen.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 247. reset array posttops (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image247.webp"
+  title="Reset array postTops"
   alt="Reset array postTops."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -4184,9 +4192,11 @@ section got highlighted, so that&apos;s correct.
 <p align="center">
 <img src="./images/image248.webp"
   style="width:45%;"
+  title="Reload index.html"
   alt="Reload index.html." />
 <img src="./images/image249.webp"
   style="width:45%;"
+  title="Reload index.html, again"
   alt="Reload index.html, again." />
 </p>
 
@@ -4228,7 +4238,7 @@ last lesson on this where we just look at the different pieces and
 review what we&apos;ve done.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-17">2.17 Reviewing the Whole Script</h2>
+<h2 id="ch2-17">2.17 Reviewing the Whole Script</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 251. reviewing the whole script (2.17) (130) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -4245,6 +4255,7 @@ to go through it once quickly, to review what we&apos;ve done.
 <!--~~~~~~~~~~~~~~~~~~~~ 252. smoothscroll.js - section tabs classes (130) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image252.webp"
+  title="smoothscroll.js - section tabs and classes"
   alt="smoothscroll.js - section tabs and classes."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -4287,6 +4298,7 @@ happens later, so we set all that page position stuff.
 <!--~~~~~~~~~~~~~~~~ 254. smoothscroll.js - identify section on scroll (132) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image254.webp"
+  title="smoothscroll.js - identify the section your in while scrolling"
   alt="smoothscroll.js - identify the section your in while scrolling."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -4307,6 +4319,7 @@ out everything that should happen there on the page.
 <!--~~~~~~~~~~~~~~~~~~ 255. smoothscroll.js - on resize & cleartimeout (133) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image255.webp"
+  title="smoothscroll.js - on resize"
   alt="smoothscroll.js - on resize."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -4319,6 +4332,7 @@ actually done resizing.
 <!--~~~~~~~~~~~~~~~~~~~~~ 256. smoothscroll.js - resetpageposition (133) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image256.webp"
+  title="smoothscroll.js - resetPagePosition"
   alt="smoothscroll.js - resetPagePosition."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -4334,9 +4348,11 @@ are and sets the styling for the links appropriately.
 <p align="center">
 <img src="./images/image257.webp"
   style="width:45%;"
+  title="Identify and comment out class attributes"
   alt="Identify and comment out class attributes." />
 <img src="./images/image258.webp"
   style="width:45%;"
+  title="Comment out class attributes"
   alt="Comment out class attributes." />
 </p>
 
@@ -4351,9 +4367,11 @@ this works.
 <p align="center">
 <img src="./images/image259.webp"
   style="width:45%;"
+  title="Test Smooth Scroll section"
   alt="Test Smooth Scroll section." />
 <img src="./images/image260.webp"
   style="width:45%;"
+  title="Test Smooth Scroll section"
   alt="Test Smooth Scroll section." />
 </p>
 
@@ -4371,9 +4389,11 @@ both scripts are working.
 <p align="center">
 <img src="./images/image261.webp"
   style="width:45%;"
+  title="Identify and comment out callback functions"
   alt="Identify and comment out callback functions." />
 <img src="./images/image262.webp"
   style="width:45%;"
+  title="Identify and comment out callback functions"
   alt="Identify and comment out callback functions." />
 </p>
 
@@ -4395,11 +4415,12 @@ the same script, and play JavaScript.
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation">2.17.jQueryPage-Location-Tracking.pdf (28 pgs).</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-18">2.18 Introduction to Scroll Effects with JS</h2>
+<h2 id="ch2-18">2.18 Introduction to Scroll Effects with JS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 263. intro to scroll effects with js (2.18) (136) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image263.webp"
+  title="2.18 Intro to Scroll Effects with JavaScript"
   alt="2.18 Intro to Scroll Effects with JavaScript."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -4412,9 +4433,11 @@ using jQuery.</p>
 <p align="center">
 <img src="./images/image264.webp"
   style="width:45%;"
+  title="Scroll Effects with JavaScript"
   alt="Scroll Effects with JavaScript." />
 <img src="./images/image265.webp"
   style="width:45%;"
+  title="Example scroll effects with javascript"
   alt="Example scroll effects with javascript." />
 </p>
 
@@ -4430,9 +4453,11 @@ jQuery version.
 <p align="center">
 <img src="./images/image266.webp"
   style="width:45%;"
+  title="Scroll Effects with JavaScript"
   alt="Scroll Effects with JavaScript." />
 <img src="./images/image267.webp"
   style="width:45%;"
+  title="Example scroll effects with javascript"
   alt="Example scroll effects with javascript." />
 </p>
 
@@ -4453,6 +4478,7 @@ these links in our navigation.
 <!--~~~~~~~~~~~~~~~~~~~~ 268. script.js navlinks add event listener (137) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image268.webp"
+  title="script.js navLinks, addEventListener"
   alt="script.js navLinks, addEventListener."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -4507,11 +4533,12 @@ pointer debt to this function down here, and let it run that way.
   <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript">2.18.Scroll-Effects-START.zip</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-19">2.19 Getting the Target -- Part 1 (4:50)</h2>
+<h2 id="ch2-19">2.19 Getting the Target -- Part 1 (4:50)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 269. getting the target - part 1 (2.19) (139) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image269.webp"
+  title="2.19 Getting the Target - Part 1"
   alt="2.19 Getting the Target - Part 1."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -4605,11 +4632,12 @@ round this down. So we&apos;ll do that in the next lesson and assign this
 value to a variable that we can actually use rather than just have it
 spit out in the console. Well, we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-20">2.20 Getting the Target - Part 2 (5:15)</h2>
+<h2 id="ch2-20">2.20 Getting the Target - Part 2 (5:15)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 276. getting the target - part 2 (2.20) (142) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image276.webp"
+  title="2.20 Getting the Target -- Part 2"
   alt="2.20 Getting the Target -- Part 2."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -4703,11 +4731,12 @@ going to the right location. It&apos;s not going all the way up to the top
 of the window, but the behavior &apos;smooth&apos; is not working. That&apos;s a bit
 of a problem, and we&apos;ll talk about it more in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-21">2.21 Smooth Scroll Polyfill (4:45)</h2>
+<h2 id="ch2-21">2.21 Smooth Scroll Polyfill (4:45)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 282. smooth scroll polyfill (2.21) (146) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image282.webp"
+  title="2.21 Smooth Scroll Polyfill"
   alt="2.21 Smooth Scroll Polyfill."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -4803,11 +4832,12 @@ part of this script, which is the part where when we scroll down the
 page manually, it changes the highlighting in the navigations. We&apos;ll
 again be working with scrolling and capturing the scrolling.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-22">2.22 Checking the Load (6:48)</h2>
+<h2 id="ch2-22">2.22 Checking the Load (6:48)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 289. checking the load (2.22) (149) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image289.webp"
+  title="2.22 Checking the Load"
   alt="2.22 Checking the Load."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -4942,11 +4972,12 @@ of each of these sections. I don&apos;t want it to change. I&apos;m going to
 need to do something to adjust that number and fix that, and we&apos;ll take
 care of that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-23">2.23 Top Posts (5:35)</h2>
+<h2 id="ch2-23">2.23 Top Posts (5:35)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 298. top posts (2.23) (153) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image298.webp"
+  title="2.23 Top Posts"
   alt="2.23 Top Posts."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -5050,11 +5081,12 @@ we&apos;re doing it with plain JavaScript instead. But really, all the steps
 are the same, and it&apos;s the same process. It&apos;s just the syntax, that&apos;s
 a little bit different.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-24">2.24 Add an Event Listener (5:42)</h2>
+<h2 id="ch2-24">2.24 Add an Event Listener (5:42)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 305. add an event listener (2.24) (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image305.webp"
+  title="2.24 Add an Event Listener"
   alt="2.24 Add an Event Listener."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -5188,11 +5220,12 @@ and scrolling up. Those are really your only two options, because this
 page doesn&apos;t scroll left and right. Those are the two conditions that
 we need to watch out for, while we&apos;re handling our scroll effect.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-25">2.25 The Magic Conditionals (5:58)</h2>
+<h2 id="ch2-25">2.25 The Magic Conditionals (5:58)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 315. the magic conditionals (2.25) (162) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image315.webp"
+  title="2.25 The Magic Conditionals"
   alt="2.25 The Magic Conditionals."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -5311,11 +5344,12 @@ correct class on the correct link. We&apos;ll put the selected class on the
 most correct so that it can get highlighted properly. Put a semicolon
 there before we go.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-26">2.26 Changing the Next Link (5:56)</h2>
+<h2 id="ch2-26">2.26 Changing the Next Link (5:56)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 322. changing the next link (2.26) (167) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image322.webp"
+  title="2.26 Changing the Next Link"
   alt="2.26 Changing the Next Link."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -5435,7 +5469,7 @@ we&apos;ll take care of that in the next lesson, and then we&apos;re done with
 this script and you&apos;ll have two versions of it, one that works with
 jQuery, and one that works with plain Vanilla JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-27">2.27 Resizing Function (5:07)</h2>
+<h2 id="ch2-27">2.27 Resizing Function (5:07)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 330. resizing function (2.27) (172) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -5545,11 +5579,12 @@ will go on from there and we&apos;ll build that up in the next lesson to
 finish the script off. But this is really all exactly the same as what
 we did in the for the jQuery version.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-28">2.28 Finalizing the Script (10:01)</h2>
+<h2 id="ch2-28">2.28 Finalizing the Script (10:01)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 338. finalizing the script (2.28) (176) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image338.webp"
+  title="2.28 Finalizing the Script"
   alt="2.28 Finalizing the Script."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -5716,11 +5751,11 @@ it without even going to a library, like Animated On Scroll. But,
 that&apos;s up to you.
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation">PDF of Presentation: 2.28.JavaScript-Scroll-Effect.pdf</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation">PDF of Presentation: 2.28 JavaScript-Scroll-Effect.pdf</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-29">2.29 Scription Site Introduction (5:54)</h2>
+<h2 id="ch2-29">2.29 Scription Site Introduction (5:54)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 347/348. scription site intro - building html and css (181) ~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -5751,6 +5786,7 @@ gained so far in this course by creating these interactive elements.
 <p align="center">
 <img src="./images/image350.webp"
   style="width:50%;"
+  title="Slider using flex slider"
   alt="Slider using flex slider." />
 </p>
 
@@ -5934,19 +5970,20 @@ this. But I think it&apos;s helpful to go through it anyway.
 </ul>
 
 <ul>
-  <li>Start Files: 2.29.Scription-Part1-START.zip</li>
-  <li>Scription: 2.29.Scription-Part1-Snippet.zip</li>
-  <li>Start Files: 2.29.Scription-Part2-START.zip</li>
-  <li>Scription: 2.29.Scription-Part2-Snippet.zip</li>
-  <li>Flex Files: 2.29.Flexslider-files.zip</li>
+  <li>Start Files: 2.29 Scription-Part1-START.zip</li>
+  <li>Scription: 2.29 Scription-Part1-Snippet.zip</li>
+  <li>Start Files: 2.29 Scription-Part2-START.zip</li>
+  <li>Scription: 2.29 Scription-Part2-Snippet.zip</li>
+  <li>Flex Files: 2.29 Flexslider-files.zip</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-30">2.30 Header HTML (5:09)</h2>
+<h2 id="ch2-30">2.30 Header HTML (5:09)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 368. header html (2.30) (189) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image368.webp"
   style="width:50%;"
+  title="2.30 Header HTML"
   alt="2.30 Header HTML." />
 </p>
 
@@ -6079,13 +6116,15 @@ We&apos;re coming along really well here. And we&apos;ll stop this lesson here
 and then we&apos;ll pick up putting in the rest of the HTML out in the next
 lesson.
 
-<h2 name="ch2-31">2.31 Pricing HTML (6:16)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 381.  (194) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-31">2.31 Pricing HTML (6:16)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 381. pricing html (2.31) (194) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image376.webp"
   style="width:40%;"
-  alt="." />
+  title="2.31 Pricing HTML"
+  alt="2.31 Pricing HTML." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 382.  (194) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6302,13 +6341,14 @@ reasons, the styling doesn&apos;t work or somebody&apos;s working in some real
 low quality browser, the pages still readable and the information is
 still accessible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-32">2.32 Beginning Styling (6:37)</h2>
+<h2 id="ch2-32">2.32 Beginning Styling (6:37)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 404.  (202) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 404. beginning styling (2.32) (202) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image404.webp"
   style="width:40%;"
-  alt="." />
+  title="2.32 Beginning Styling"
+  alt="2.32 Beginning Styling." />
 </p>
 
 In the last lesson (2.31), we finished with the html, and now we are
@@ -6481,13 +6521,14 @@ Boom, already starting to look a little bit better once we get a font in
 there, and some and some stuff working along and going along, that is
 great. All right, we will continue with the styling in the next lesson.
 
-<h2 name="ch2-33">2.33 Styling That Attaches to Whole Page (5:03)</h2>
+<h2 id="ch2-33">2.33 Styling That Attaches to Whole Page (5:03)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 417.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 417. styling that attaches to whole page (2.33) (2xx) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image417.webp"
   style="width:40%;"
-  alt="." />
+  title="2.33 Styling That Attaches to Whole Page"
+  alt="2.33 Styling That Attaches to Whole Page." />
 </p>
 
 Next, we&apos;ll apply some styling that will attach to the whole page and
@@ -6619,13 +6660,14 @@ you can put that in if you wanted to. I kind of liked the gray in the
 end. I kind of liked it that way. All right, so the headers in place and
 we&apos;re ready to see what we need to do for the next section.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-34">2.34 Slider Styling (5:04)</h2>
+<h2 id="ch2-34">2.34 Slider Styling (5:04)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 428.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 428. slider styling (2.34) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image428.webp"
   style="width:40%;"
-  alt="." />
+  title="2.34 Slider Styling"
+  alt="2.34 Slider Styling." />
 </p>
 
 Continuing with our styling, we&apos;ll add some styling for the slider.
@@ -6775,13 +6817,14 @@ moves them up into place, and highlight them as they go by. You&apos;ll be
 adding that scripture, you&apos;ll have a challenge to add that script on
 your own in a future lesson here. Great, we&apos;re coming along.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-35">2.35 Pricing Styles (4:00)</h2>
+<h2 id="ch2-35">2.35 Pricing Styles (4:00)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 443.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 443. pricing styles (2.35) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image443.webp"
   style="width:40%;"
-  alt="." />
+  title="3.35 Pricing Styles"
+  alt="3.35 Pricing Styles." />
 </p>
 
 We&apos;re going to continue adding styling to our page and the next section
@@ -6908,13 +6951,14 @@ got the entire mobile version of this page set. The next thing we need
 to do is, add will adjust styling in the media queries for when the page
 gets larger, so we&apos;ll do that next.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-36">2.36 Tablet Styles (6:46)</h2>
+<h2 id="ch2-36">2.36 Tablet Styles (6:46)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 457.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 457. tablet styles (2.36) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image457.webp"
   style="width:40%;"
-  alt="." />
+  title="2.36 Tablet Styles"
+  alt="2.36 Tablet Styles." />
 </p>
 
 You&apos;ve finished the styling for the mobile version, and now it&apos;s time
@@ -7110,13 +7154,14 @@ images taken off on splash. Great, we&apos;ve got the 760 media query done,
 let&apos;s go ahead next and work on the next media query for the full
 desktop size.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-37">2.37 Media Query for 1020 Pixels Wide (4:56)</h2>
+<h2 id="ch2-37">2.37 Media Query for 1020 Pixels Wide (4:56)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 477.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 477. media query for 1020 pixels wide (2.37) (2xx) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image477.webp"
   style="width:40%;"
-  alt="." />
+  title="2.37 Media Query for 1020 Pixels Wide"
+  alt="2.37 Media Query for 1020 Pixels Wide." />
 </p>
 
 The next breakpoint for my media query is 1020 pixels.
@@ -7228,13 +7273,14 @@ row and the footer stays the same. There we go.
 The 1020 media query is done and our page is really coming together.
 I&apos;m going to look at the next one in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-38">2.38 Media Query for 1200 Pixels Wide</h2>
+<h2 id="ch2-38">2.38 Media Query for 1200 Pixels Wide</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 488.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 488. media query for 1200 pixels wide (2.38) (2xx) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image488.webp"
   style="width:40%;"
-  alt="." />
+  title="2.38 Media Query for 1200 Pixels Wide"
+  alt="2.38 Media Query for 1200 Pixels Wide." />
 </p>
 
 The media query for 1200 pixels wide is for when somebody is viewing
@@ -7399,13 +7445,14 @@ so there&apos;s no reason why you shouldn&apos;t play around with this and mess
 around with it, come up with your own styling and see what you can do
 with it. It&apos;s always fun to do that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch2-39">2.39 Scription Site: Building Interactive Elements Challenges</h2>
+<h2 id="ch2-39">2.39 Scription Site: Building Interactive Elements Challenges</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 505.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 505. scription site: building interactive elements challenges (2xx) ~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image505.webp"
   style="width:40%;"
-  alt="." />
+  title="2.39 Scription Site: Building Interactive Elements Challenges"
+  alt="2.39 Scription Site: Building Interactive Elements Challenges." />
 </p>
 
 In the previous lesson, we did the HTML and CSS to create this fictional
@@ -7668,32 +7715,33 @@ forward and see what you can do with this and I hope you post on the
 discussion boards what you found successful and help out others who are
 working on this project. Hopefully, it&apos;s a lot of fun.
 
-## Scription Finished Version
+<h3>Scription Finished Version</h3>
 
 Here is a [link](https://cpe-web-assignments.ucdavis.edu/scription/) to
 the finished version of the Scription Site Honor&apos;s Assignment.
 
 <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/PEs9J/scription-finished-version>
 
-## PDF of Presentations
+<h3>PDF of Presentations</h3>
 
 Here is a PDF of the presentation slides used in the lessons for this
 section:
 
 <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/gpBsr/pdf-of-presentations>
 
--   <b>2.39.ScriptionSite-Part1-HTML-CSS.pdf</b>
+-   <b>2.39 ScriptionSite-Part1-HTML-CSS.pdf</b>
 
--   <b>2.39.ScriptionSite-Part2-InteractionChallenges.pdf</b>
+-   <b>2.39 ScriptionSite-Part2-InteractionChallenges.pdf</b>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch3-01">3.01 Module 3 Intro (0:37)</h2>
+<h2 id="ch3-01">3.01 Module 3 Intro (0:37)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 522.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 522. module 3 intro (3.01) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image522.webp"
   style="width:40%;"
-  alt="." />
+  title="3.01 Module 3 Introduction"
+  alt="3.01 Module 3 Introduction." />
 </p>
 
 Hello, welcome to the third module and our third course on JavaScript.
@@ -7705,7 +7753,7 @@ can take a more complex script and break it down. It&apos;s really
 interesting content and I think you&apos;re going to get a lot out of it. I
 look forward to doing it with you. Let&apos;s get started.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch3-02">3.02 Introduction to Objects and Data in JS (5:52)</h2>
+<h2 id="ch3-02">3.02 Introduction to Objects and Data in JS (5:52)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 523.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -7838,30 +7886,31 @@ the other way using the object literal. It&apos;s shorter syntax, is a
 little bit easier to follow, but you can create objects this way as
 well.
 
-## Start Files: Working with Objects in JavaScript
+<h3>Start Files: Working with Objects in JavaScript</h3>
 
 Attached is a zip file of the the things you need to begin this
 exercise. A <b>zip file</b> is defined as: a computer file whose contents
 include one or more files that are compressed for storage or
 transmission, often carrying the extension .ZIP.
 
--   <b>3.02.jsonExample.html.zip -- download to unzip</b>
+-   <b>3.02 jsonExample.html.zip -- download to unzip</b>
 
 <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/tTx6B/start-files-working-with-objects-in-javascript>
 
-## <b>Additional Resource:</b>
+<h3>Additional Resource:</h3>
 
 -   [How to open a zip file for either Mac or
     PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch3-03">3.03 Objects Can Contain Arrays and Other Objects (5:04)</h2>
+<h2 id="ch3-03">3.03 Objects Can Contain Arrays and Other Objects (5:04)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 530.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 530. objects can contain arrays and other objects (3.03) (2xx) ~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image530.webp"
   style="width:40%;"
-  alt="." />
+  title="3.03 Objects Can Contain Arrays and Other Objects"
+  alt="3.03 Objects Can Contain Arrays and Other Objects." />
 </p>
 
 The object data format in JavaScript is very flexible because objects
@@ -7964,13 +8013,14 @@ belongs to an <b>object</b> and then access that <b>method</b> through the
 <b>object</b>, like this <b>person.greeting</b>. And that&apos;s a really cool
 feature of JavaScript in <b>objects</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch3-04">3.04 Functions Inside Objects Equals Methods (6:14)</h2>
+<h2 id="ch3-04">3.04 Functions Inside Objects Equals Methods (6:14)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 536.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 536. functions inside objects equals methods (3.04) (2xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image536.webp"
   style="width:40%;"
-  alt="." />
+  title="3.04 Functions Inside Objects Equals Methods"
+  alt="3.04 Functions Inside Objects Equals Methods." />
 </p>
 
 Let&apos;s take this idea a little bit further.
@@ -8030,6 +8080,7 @@ could use over and over again.
 <p align="center">
 <img src="./images/image540.webp"
   style="width:50%;"
+  title="Objects can contain functions"
   alt="Objects can contain functions." />
 </p>
 
@@ -8087,12 +8138,13 @@ a new <b>object</b> from that <b>constructive function</b>. And this is a very
 powerful pattern, that you&apos;ll see frequently in, more sophisticated,
 more complex javascript programming.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch3-05">3.05 Putting Objects and Functions Together (5:18)</h2>
+<h2 id="ch3-05">3.05 Putting Objects and Functions Together (5:18)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 543. putting objects and functions together (3.05) (2xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image543.webp"
   style="width:40%;"
+  title="3.05 Putting Objects and Functions Together"
   alt="3.05 Putting Objects and Functions Together." />
 </p>
 
@@ -8174,7 +8226,7 @@ objects and functions together in JavaScript are very powerful, and give
 you this opportunity to create things that are reusable modules. That&apos;s
 a a key thing in any programming language is to be able to do that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch3-06">3.06 Data Formats - XML (3:47)</h2>
+<h2 id="ch3-06">3.06 Data Formats - XML (3:47)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 547. data formats - xml (3.06) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -8253,7 +8305,7 @@ something that happens a lot. A lot of times you&apos;re going to have data
 in JSON format, and then you&apos;re going to convert that data into an
 object that you can manipulate and use within your JavaScript program.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch3-07">3.07 Example File (7:17)</h2>
+<h2 id="ch3-07">3.07 Example File (7:17)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 551.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -8415,7 +8467,7 @@ section:
 -   <b>3.07.JavaScript-Object-Challenges.pdf</b>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch3-08">3.08 Intro to Pig Dice Game (5:44)</h2>
+<h2 id="ch3-08">3.08 Intro to Pig Dice Game (5:44)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 562.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -8544,13 +8596,14 @@ Here are the diagrams for the pig game to help you.
 </p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch3-09">3.09 Play the Game of Pig (5:04)</h2>
+<h2 id="ch3-09">3.09 Play the Game of Pig (5:04)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 567.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 567. play the game of pig (3.09) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image567.webp"
   style="width:40%;"
-  alt="." />
+  title="3.09 Play the Game of Pig"
+  alt="3.09 Play the Game of Pig." />
 </p>
 
 Okay, now hopefully you&apos;ve taken a few minutes and jotted down some
@@ -8653,13 +8706,14 @@ that. Give it some time, really percolate on this, and think about how
 you would go about creating this program before going on with this
 lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch3-10">3.10 Version One (4:05)</h2>
+<h2 id="ch3-10">3.10 Version One (4:05)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 572.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 572. version one (3.10) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image572.webp"
   style="width:40%;"
-  alt="." />
+  title="3.10 Version One"
+  alt="3.10 Version One." />
 </p>
 
 In this next part of this lesson, I&apos;m going to talk about my thought
@@ -8723,13 +8777,15 @@ ones that I don&apos;t zero at the score, I just end my turn, and that
 describes the process of a single throw, which to me, is the cornerstone
 of this game.
 
-<h2 name="ch3-11">3.11 Version Two (2), Three (3), & Four (4) (6:51)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 574.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-11">3.11 Version Two (2), Three (3), & Four (4) (6:51)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 574. version two, three and four (3.11) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image574.webp"
   style="width:40%;"
-  alt="." />
+  title="3.11 Version Two, Three, &amp; Four"
+  alt="3.11 Version Two, Three, &amp; Four." />
 </p>
 
 Having done the first version of my diagram, I start to think, well,
@@ -8868,12 +8924,13 @@ functionality you need for each piece.
 > <https://d3c33hcgiwev3.cloudfront.net/wRpMd6i4TaiaTHeouG2osQ_7c411f98779849398ce95c23f23fedf1_WEB1092_M03_Introduction-to-Pig-Dice-Game.pdf?Expires=1704585600&Signature=dokAhbfdxI3qs5xjHcknMvZaX3kGHaQXYpYx2bHBBs6aaQ7SGPsvdCoVyqRrWHZhy3ZByrVjrK7dn7-D0N1FPTVv2GCEyv8zc3dUaTwu2RJbwQQxQyXm79L-bvq92s77lcIpJbGPtkHECDJeUIF1YbpMtLKeYoyoBovQ1WOm8Lg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch4-01">4.01 Module 4 Introduction (0:43)</h2>
+<h2 id="ch4-01">4.01 Module 4 Introduction (0:43)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 580. module 4 introduction (4.01) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image580.webp"
   style="width:40%;"
+  title="4.01 Module 4 Introduction"
   alt="4.01 Module 4 Introduction." />
 </p>
 
@@ -8888,12 +8945,13 @@ project. We&apos;ve had a lot of fun creating the material for you and I
 think you&apos;ll get a lot out of it. Let&apos;s get to it.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch4-02">4.02 Intro to the Game of Pig (6:30)</h2>
+<h2 id="ch4-02">4.02 Intro to the Game of Pig (6:30)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 581. intro to the game of pig (4.02) (293) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image581.webp"
   style="width:40%;"
+  title="4.02 Intro to the Game of Pig"
   alt="4.02 Intro to the Game of Pig." />
 </p>
 
@@ -8903,9 +8961,11 @@ think you&apos;ll get a lot out of it. Let&apos;s get to it.
 <p align="center">
 <img src="./images/image582.webp"
   style="width:45%;"
+  title="Game of Pig"
   alt="Game of Pig." />
 <img src="./images/image583.webp"
   style="width:45%;"
+  title="The Basic Game"
   alt="The Basic Game." />
 </p>
 
@@ -8933,6 +8993,7 @@ think in this very linear way.
 <p align="center">
 <img src="./images/image584.webp"
   style="width:50%;"
+  title="index.html - Working Game"
   alt="index.html - Working Game." />
 </p>
 
@@ -8945,6 +9006,7 @@ make the game work.
 <p align="center">
 <img src="./images/image585.webp"
   style="width:50%;"
+  title="index.html with empty script"
   alt="index.html with empty script." />
 </p>
 
@@ -9003,6 +9065,7 @@ going to need for our script.
 <p align="center">
 <img src="./images/image589.webp"
   style="width:50%;"
+  title="Keeping Track of Game Data"
   alt="Keeping Track of Game Data." />
 </p>
 
@@ -9057,17 +9120,18 @@ I&apos;ve got all my die&apos;s in here, notice the comma at the end, but no
 comma there, comma at the end here, and make sure everything is right,
 and labeled properly. We&apos;re on our way to creating the pig game.
 
--   Start Files: Game of Pig <b>4.02.Pig-START.zip</b>
+-   Start Files: Game of Pig <b>4.02 Pig-START.zip</b>
 
 > <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eu5vr/start-files-game-of-pig>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch4-03">4.03 Start the Game (7:50)</h2>
+<h2 id="ch4-03">4.03 Start the Game (7:50)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 591. start the game (4.03) (300) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image591.webp"
   style="width:40%;"
+  title="4.03 Start the Game"
   alt="4.03 Start the Game." />
 </p>
 
@@ -9080,6 +9144,7 @@ helps to just start at the top and start at the beginning.
 <p align="center">
 <img src="./images/image592.webp"
   style="width:40%;"
+  title="Test, Game of Pig"
   alt="Test, Game of Pig." />
 </p>
 
@@ -9091,6 +9156,7 @@ handler for clicking to the start game button.
 <p align="center">
 <img src="./images/image593.webp"
   style="width:50%;"
+  title="Start the Game"
   alt="Start the Game." />
 </p>
 
@@ -9213,12 +9279,13 @@ or 1 is going to choose player 1 or play or 2. This is 0, this is 1,
 okay, great. We&apos;ve got a good start at making our big game. Let&apos;s keep
 going in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch4-04">4.04 Set Up the Turn (6:39)</h2>
+<h2 id="ch4-04">4.04 Set Up the Turn (6:39)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 602. set up the turn (4.04) (305) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image602.webp"
   style="width:40%;"
+  title="4.04 Set Up the Turn"
   alt="4.04 Set Up the Turn." />
 </p>
 
@@ -9228,6 +9295,7 @@ The next thing we need to do is set up the turn.
 <p align="center">
 <img src="./images/image603.webp"
   style="width:50%;"
+  title="Example, Set Up the Turn"
   alt="Example, Set Up the Turn." />
 </p>
 
@@ -9314,12 +9382,13 @@ dice will just keep giving me more of these, but that&apos;s working
 perfectly. We&apos;re rolling the dice, we&apos;ve set up our turn and we&apos;re
 ready to roll the dice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch4-05">4.05 Throwing the Dice (9:57)</h2>
+<h2 id="ch4-05">4.05 Throwing the Dice (9:57)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 607. throwing the dice (4.05) (308) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image607.webp"
   style="width:40%;"
+  title="4.05 Throwing the Dice"
   alt="4.05 Throwing the Dice." />
 </p>
 
@@ -9446,12 +9515,13 @@ their sum total. <b>GameData.rollSum</b>, that one there, is going to equal
 and put them in there. Great. We&apos;re going to test this in the next
 lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch4-06">4.06 Test Throwing the Dice (5:22)</h2>
+<h2 id="ch4-06">4.06 Test Throwing the Dice (5:22)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 613. test throwing the dice (4.06) (313) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image613.webp"
   style="width:40%;"
+  title="4.06 Test Throwing the Dice"
   alt="4.06 Test Throwing the Dice." />
 </p>
 
@@ -9462,6 +9532,7 @@ if it works.
 <p align="center">
 <img src="./images/image614.webp"
   style="width:50%;"
+  title="Test Throwing"
   alt="Test Throwing." />
 </p>
 
@@ -9562,6 +9633,7 @@ and display them on the page, and that&apos;s fine.
 <p align="center">
 <img src="./images/image622.webp"
   style="width:50%;"
+  title="Example, Add the Selection Statements"
   alt="Example, Add the Selection Statements." />
 </p>
 
@@ -9572,12 +9644,13 @@ to do one thing. That&apos;s going to start at zero. If one of the two like
 in this case here. If one of the two dice came up a one, then we do
 something else, we need to swap. &lbrack;inaudible&rbrack;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch4-07">4.07 Add the Selection Statements (3:37)</h2>
+<h2 id="ch4-07">4.07 Add the Selection Statements (3:37)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 623. add the selection statements (4.07) (318) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image623.webp"
   style="width:40%;"
+  title="4.07 Add the Selection Statements"
   alt="4.07 Add the Selection Statements." />
 </p>
 
@@ -9587,6 +9660,7 @@ something else, we need to swap. &lbrack;inaudible&rbrack;.
 <p align="center">
 <img src="./images/image624.webp"
   style="width:50%;"
+  title="Roll a two? Or not"
   alt="Roll a two? Or not." />
 </p>
 
@@ -9600,6 +9674,7 @@ more specific instructions.</p>
 <p align="center">
 <img src="./images/image625.webp"
   style="width:50%;"
+  title="Test, Game of Pig"
   alt="Test, Game of Pig." />
 </p>
 
@@ -9612,6 +9687,7 @@ and if either one of them comes up a one, we want to do.</p>
 <p align="center">
 <img src="./images/image626.webp"
   style="width:50%;"
+  title="Test, Game of Pig"
   alt="Test, Game of Pig." />
 </p>
 
@@ -9627,9 +9703,11 @@ we&apos;ll deal with that separately.</p>
 <p align="center">
 <img src="./images/image627.webp"
   style="width:45%;"
+  title="Test, game of pig"
   alt="Test, game of pig." />
 <img src="./images/image628.webp"
   style="width:45%;"
+  title="Test, game of pig"
   alt="Test, game of pig." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9637,6 +9715,7 @@ we&apos;ll deal with that separately.</p>
 <p align="center">
 <img src="./images/image629.webp"
   style="width:40%;"
+  title="Test, game of pig"
   alt="Test, game of pig." />
 </p>
 
@@ -9649,12 +9728,13 @@ was world, your turn is over. You can keep going along and seeing that
 these numbers add up correctly and that it&apos;s doing the right thing
 until you&apos;ve gotten all of those things checked.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch4-08">4.08 Snake Eyes! (7:11)</h2>
+<h2 id="ch4-08">4.08 Snake Eyes! (7:11)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 630. snake eyes! (4.08) (321) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image630.webp"
   style="width:40%;"
+  title="4.08 Snake Eyes!"
   alt="4.08 Snake Eyes!" />
 </p>
 <p>Let&apos;s handle Snake Eyes first.</p>
@@ -9663,6 +9743,7 @@ until you&apos;ve gotten all of those things checked.</p>
 <p align="center">
 <img src="./images/image631.webp"
   style="width:50%;"
+  title="Snake Eyes!"
   alt="Snake Eyes!" />
 </p>
 
@@ -9673,6 +9754,7 @@ first. If we get a 2, let&apos;s deal with that.</p>
 <p align="center">
 <img src="./images/image632.webp"
   style="width:50%;"
+  title="Add to the innerHTML of the game"
   alt="Add to the innerHTML of the game." />
 </p>
 
@@ -9697,6 +9779,7 @@ the points you&apos;ve gotten so far.</p>
 <p align="center">
 <img src="./images/image633.webp"
   style="width:50%;"
+  title="Snake Eyes!"
   alt="Snake Eyes!" />
 </p>
 
@@ -9711,6 +9794,7 @@ operator</b>. We see it over here, so I&apos;m going to set
 <p align="center">
 <img src="./images/image634.webp"
   style="width:50%;"
+  title="gameData.index, true or false"
   alt="gameData.index, true or false." />
 </p>
 
@@ -9744,6 +9828,7 @@ seconds, 2000 milliseconds) and that should work.</p>
 <p align="center">
 <img src="./images/image635.webp"
   style="width:50%;"
+  title="Test, game data roll"
   alt="Test, game data roll." />
 </p>
 
@@ -9760,6 +9845,7 @@ throw that in there and see what happens here.</p>
 <p align="center">
 <img src="./images/image636.webp"
   style="width:50%;"
+  title="Roll the dice as player 1"
   alt="Roll the dice as player 1." />
 </p>
 
@@ -9771,6 +9857,7 @@ let&apos;s try that again.</p>
 <p align="center">
 <img src="./images/image637.webp"
   style="width:50%;"
+  title="Roll the dice as player 2"
   alt="Roll the dice as player 2." />
 </p>
 
@@ -9781,12 +9868,13 @@ seconds and changing the player, so that&apos;s actually working, which is
 great. Now remove console gamedata.rollsum = 2 which was hard-coded for
 testing the switch players function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch4-09">4.09 A "1" Was Rolled (5:19)</h2>
+<h2 id="ch4-09">4.09 A "1" Was Rolled (5:19)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 638. a "1" was rolled (4.09) (326) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image638.webp"
   style="width:40%;"
+  title="4.09 A "1" was rolled"
   alt="4.09 A "1" was rolled." />
 </p>
 
@@ -9796,6 +9884,7 @@ testing the switch players function.</p>
 <p align="center">
 <img src="./images/image639.webp"
   style="width:50%;"
+  title="Again, a "1" is rolled"
   alt="Again, a "1" is rolled." />
 </p>
 
@@ -9825,6 +9914,7 @@ to switch it to a zero.</p>
 <p align="center">
 <img src="./images/image641.webp"
   style="width:50%;"
+  title="MDN's ternary operator"
   alt="MDN's ternary operator." />
 </p>
 
@@ -9837,6 +9927,7 @@ taking a look at this page here. We&apos;ve got that.</p>
 <p align="center">
 <img src="./images/image642.webp"
   style="width:50%;"
+  title="Test, set the game index"
   alt="Test, set the game index." />
 </p>
 
@@ -9863,9 +9954,11 @@ work just fine.</p>
 <p align="center">
 <img src="./images/image643.webp"
   style="width:45%;"
+  title="gameData.roll"
   alt="gameData.roll." />
 <img src="./images/image644.webp"
   style="width:45%;"
+  title="gameData.roll"
   alt="gameData.roll." />
 </p>
 
@@ -9883,6 +9976,7 @@ switching for player 1.</p>
 <p align="center">
 <img src="./images/image645.webp"
   style="width:50%;"
+  title="Test, game of pig; roll the dice"
   alt="Test, game of pig; roll the dice." />
 </p>
 
@@ -9895,12 +9989,13 @@ one, we&apos;ve gotten this sussed out. Next, we need to figure out the
 else, which is what happens when we want to continue the game and
 continue moving on with the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch4-10">4.10 The Else Statement (6:36)</h2>
+<h2 id="ch4-10">4.10 The Else Statement (6:36)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 646. the else statement (4.10) (330) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image646.webp"
   style="width:40%;"
+  title="4.10 The Else Statement"
   alt="4.10 The Else Statement." />
 </p>
 
@@ -9911,6 +10006,7 @@ happen if you throw the dice and no one&apos;s are rolled.</p>
 <p align="center">
 <img src="./images/image647.webp"
   style="width:50%;"
+  title="The Else Statement"
   alt="The Else Statement." />
 </p>
 
@@ -9922,6 +10018,7 @@ player had them. We&apos;re going to take the score they had before and add the
 <p align="center">
 <img src="./images/image648.webp"
   style="width:50%;"
+  title="gameData.score and gameData.index"
   alt="gameData.score and gameData.index." />
 </p>
 
@@ -9938,6 +10035,7 @@ Okay from there, what we need is to set the action area and create two buttons i
 <p align="center">
 <img src="./images/image649.webp"
   style="width:50%;"
+  title="Two buttons; roll again and passing"
   alt="Two buttons; roll again and passing." />
 </p>
 
@@ -10032,7 +10130,7 @@ the dice for player 1 and I got a 6 that I could choose roll again. So that&apos
 working great, it&apos;s working perfectly fine just the way it is, excellent. 
 Let&apos;s stop there and we&apos;ll pick it up in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch4-11">4.11 Checking for a Win (6:02)</h2>
+<h2 id="ch4-11">4.11 Checking for a Win (6:02)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 657. 3rd major function checks for winning condition (335) ~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -10114,7 +10212,7 @@ we can start a new game. Cool, so that&apos;s the if statement that we&apos;ll c
 If the game has won, we will start a new game. And the next lesson, we&apos;ll fill out 
 the show current score section of this <b>function</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch4-12">4.12 Show the Current Score (8:33)</h2>
+<h2 id="ch4-12">4.12 Show the Current Score (8:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 663. show the current score (4.12) (338) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -10301,7 +10399,7 @@ stop this lesson here but in the last lesson we will talk about some
 things that we could do to clean up a little more, just this final
 cleanup stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch4-13">4.13 Final Clean-Up (8:08)</h2>
+<h2 id="ch4-13">4.13 Final Clean-Up (8:08)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 676. final clean-up (4.13) (345) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -10467,7 +10565,7 @@ So that&apos;s all working. That&apos;s good. We&apos;ve done all of the cleanup
 stuff. We have one last thing to talk about, but I&apos;m going to do that
 in the next lesson, and you&apos;ve got a working game here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch4-14">4.14 Extending the Game (6:21)</h2>
+<h2 id="ch4-14">4.14 Extending the Game (6:21)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 688. extending the game (module 4.14) (350) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -10585,10 +10683,10 @@ excellent versions people have made of the big game.</p>
 
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/QxK0k/pdf-of-presentation">
-    4.14.Game-of-Pig.pdf</a></li>
+    4.14 Game-of-Pig.pdf</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 name="ch4-15">Course Summary (0:57)</h2>
+<h2 id="ch4-15">Course Summary (0:57)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 691. course summary: interactivity with javascript and jquery (353) ~~~~~~~~~~~~-->
 <p align="center">
@@ -10615,4 +10713,5 @@ going to learn even more JavaScript and you&apos;ll get even better at it
 and you&apos;ll get more practice. So I look forward to seeing you there.</p>
 
 <p>.the end...</p>
-<h6>Last Updated 2/16/2024 2:34am</h6>
+
+<h6>Last Updated 3/06/2024 1:24am</h6>
