@@ -16,6 +16,7 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. jquery logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/jq-and-js.png" 
+  title="jQuery logo"
   alt="jQuery logo."
   style="border: 2px solid #000000; width:400px;" />
 </p>
@@ -23,6 +24,7 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. uc davis logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image002.jpg" 
+  title="University of California @Davis logo"
   alt="University of California @Davis logo."
   style="border: 2px solid #000000; width:200px;" />
 </p>
@@ -52,7 +54,8 @@ manageable pieces.</p>
 <!-- -   **1.05.jQueryPlugins.pdf** -->
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/W04DM/pdf-of-presentation" 
-    target="_blank" rel="noreferrer noopener">1.05.jQueryPlugins.pdf (PDF File)</a></li>
+    target="_blank" rel="noreferrer noopener">
+	1.05 jQueryPlugins.pdf (download)</a></li>
 </ul>
 
 <!--
@@ -61,9 +64,11 @@ manageable pieces.</p>
 -->
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider" 
-    target="_blank" rel="noopener noreferrer">1.05.FlexSliderBasic-START.zip (ZIP File)</a></li>
+    target="_blank" rel="noopener noreferrer">
+	1.05 FlexSliderBasic-START.zip (download)</a></li>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider"
-    target="_blank" rel="noopener noreferrer">1.05.FlexSliderPlugin.zip (ZIP File)</a></li>
+    target="_blank" rel="noopener noreferrer">
+	1.05 FlexSliderPlugin.zip (download)</a></li>
 </ul>
 
 >#### [**1.06 FlexSlider: A jQuery Plugin**](#ch1-06)
@@ -77,7 +82,9 @@ manageable pieces.</p>
 
 <!-- -   **1.13.FlexSlider.pdf** -->
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Hv9Tf/pdf-of-presentation">1.13.FlexSlider.pdf</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Hv9Tf/pdf-of-presentation"
+    target="_blank" rel="noopener noreferrer">
+	1.13 FlexSlider.pdf (download)</a></li>
 </ul>
 
 ### [**Week 2: Combining Scripts and Skill Building Through Practice**](#ch2)
@@ -86,8 +93,9 @@ manageable pieces.</p>
 
 <!-- -   **2.02.jQueryScrollEffects-START.zip** -->
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery">
-    2.02.jQueryScrollEffects-START.zip</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery"
+    target="_blank" rel="noopener noreferrer">
+    2.02 jQueryScrollEffects-START.zip (download)</a></li>
 </ul>
 
 >#### [**2.03 Creating a Click Handler**](#ch2-03)
@@ -108,16 +116,18 @@ manageable pieces.</p>
 
 <!-- -   **2.17.jQueryPageLocationTracking.pdf** -->
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation">
-    2.17.jQueryPageLocationTracking.pdf</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation"
+    target="_blank" rel="noopener noreferrer">
+    2.17 jQueryPageLocationTracking.pdf (download)</a></li>
 </ul>
 
 >#### [**2.18 Intro to Scroll Effects with JS**](#ch2-18)
 
 <!-- -   **2.18.ScrollEffects-START.zip** -->
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript">
-    2.18.ScrollEffects-START.zip</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript"
+    target="_blank" rel="noopener noreferrer">
+    2.18 ScrollEffects-START.zip (download)</a></li>
 </ul>
 
 >#### [**2.19 Getting the Target - Part 1**](#ch2-19)
@@ -133,8 +143,9 @@ manageable pieces.</p>
 
 <!-- -   **2.28.PDF-of-Presentation.pdf** -->
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation">
-    2.28.PDF-of-Presentation.pdf</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation"
+    target="_blank" rel="noopener noreferrer">
+    2.28 PDF-of-Presentation.pdf (download)</a></li>
 </ul>
 
 >#### [**2.29 Scription Site Introduction**](#ch2-29)
@@ -276,8 +287,9 @@ jQuery plugins explored in this course into the Scription webpage through a seri
    2. Introduction to Smooth Scroll with jQuery (4:15)
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery" target="_blank" rel="noopener noreferrer">
-    2.02.jQueryScrollEffects-START.zip (ZIP File)</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery"
+      target="_blank" rel="noopener noreferrer">
+      2.02 jQueryScrollEffects-START.zip (download)</a></li>
 </ul>
 
    3. Creating a Click Handler (5:00)
@@ -286,7 +298,9 @@ jQuery plugins explored in this course into the Scription webpage through a seri
    6. Highlighting Elements (5:22)
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation">PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation"
+    target="_blank" rel="noopener noreferrer">
+	PDF of Presentation: 2.06 jQuerySmoothScroll.pdf (download)</a></li>
 </ul>
   
    7. Introduction to Page Location Tracking (8:00)
@@ -498,6 +512,7 @@ Be sure to read the Coursera guidelines and the Coursera Honor Code here:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. course intro (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image003.webp" 
+  title="1.01 Course Introduction"
   alt="1.01 Course Introduction."
   style="border: 2px solid #000000; width:40%;" />
 </p>
@@ -521,6 +536,7 @@ JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. module 1 intro (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image004.webp" 
+  title="1.02 Module 1 Introduction"
   alt="1.02 Module 1 Introduction."
   style="border: 2px solid #000000; width:40%;" />
 </p>
@@ -543,6 +559,7 @@ elements on web pages and that&apos;s really pretty fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. intro to jquery plugins (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image005.webp" 
+  title="1.03 Intro to jQuery Plugins"
   alt="1.03 Intro to jQuery Plugins."
   style="border: 2px solid #000000; width:40%;" />
 </p>
@@ -552,6 +569,7 @@ Just as a quick recap, we&apos;ve learned a lot of JavaScript so far.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. recap: javascript (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image006.webp" 
+  title="Recap: JavaScript"
   alt="Recap: JavaScript."
   style="border: 2px solid #000000; width:40%;" />
 </p>
@@ -625,13 +643,13 @@ a lot of features and functionality. What if you want the tabs to run down the s
 the tabbed interface rather than across the tab? You could do that thing.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-04">1.04. Using Plugins and Essential Steps (4:22)</h2>
+<h2 id="ch1-04">1.04 Using Plugins and Essential Steps (4:22)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 10. using plugins and essential steps (1.04) (13) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image010.webp"
-  title="1.04. Using Plugins and Essential Steps"
-  alt="1.04. Using Plugins and Essential Steps."
+  title="1.04 Using Plugins and Essential Steps"
+  alt="1.04 Using Plugins and Essential Steps."
   style="border: 2px solid #000000; width:40%;" />
 </p>
 
@@ -875,7 +893,7 @@ section:
 
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/W04DM/pdf-of-presentation" 
-    target="_blank" rel="noreferrer noopener">1.05.jQueryPlugins.pdf (PDF File)</a></li>
+    target="_blank" rel="noreferrer noopener">1.05 jQueryPlugins.pdf (download)</a></li>
 </ul>
 
 Attached is a zip file of the things you need to begin this exercise. A
@@ -888,9 +906,9 @@ carrying the extension .ZIP.
 
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider" 
-    target="_blank" rel="noopener noreferrer">1.05.FlexSliderBasic-START.zip (ZIP File)</a></li>
+    target="_blank" rel="noopener noreferrer">1.05 FlexSliderBasic-START.zip (download)</a></li>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider"
-    target="_blank" rel="noopener noreferrer">1.05.FlexSliderPlugin.zip (ZIP File)</a></li>
+    target="_blank" rel="noopener noreferrer">1.05 FlexSliderPlugin.zip (download)</a></li>
 </ul>
 
 <h4>Additional Resource:</h4>
@@ -1166,8 +1184,8 @@ previous lesson.
   style="border: 2px solid gray; width:50%;" />
 </p>
 
-Next, it&apos;s about following the directions to make the flex slider work,
-and you can come back to the flex slider website and I recommend that
+Next, it&apos;s about following the directions to make the Flex slider work,
+and you can come back to the Flexslider website and I recommend that
 you do this. Even though I&apos;m going to walk through doing it with you,
 it&apos;s good to sort of come in here and see how these directions are
 written and to understand what the steps are.
@@ -1222,12 +1240,12 @@ mean about how to do this.
 
 First, we can look at where these scripts go, and over here, notice this
 one is listing jQuery 1.6.2, that&apos;s a really old version of jQuery. And
-then we&apos;ve got the flex slider JS here, we&apos;ve got the CSS file. I&apos;d
+then we&apos;ve got the flexslider JS here, we&apos;ve got the CSS file. I&apos;d
 rather load up the most recent version of jQuery rather than the old
 version of jQuery.
 
 Let&apos;s go over to our files over here. And on our index page, up at the
-top of the page, this is where we want to put a link to the flex slider
+top of the page, this is where we want to put a link to the flexslider
 CSS. So, I&apos;m just going to add a link here, link href = &quot;
 flexslider.css&quot;. Don&apos;t forget rel =&quot;stylesheet&quot;, and make sure you
 spell style sheet right. Okay, so that will link that up. You can see
@@ -1302,7 +1320,7 @@ page is loaded, just to be certain. So, we&apos;ve got that, okay.
 
 The next thing we need to do is to add the markup, and this is the
 markup this plug in expects. It expects a <b>div</b> with the class,
-<b>flexslider</b>, and a <b>ul</b> with the class slides, then list items with
+<b>Flexslider</b>, and a <b>ul</b> with the class slides, then list items with
 the images inside of it, and we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-08">1.08 Adding Markup & Hooking Up the Slider  (7:33)</h2>
@@ -1339,8 +1357,8 @@ for that unordered list.
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 51. index.html, div class='flexslider' (35) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image051.webp"
-  title="Add flexslider class to div and slides class to ul"
-  alt="Add flexslider class to div and slides class to ul."
+  title="Add Flexslider class to div and slides class to ul"
+  alt="Add Flexslider class to div and slides class to ul."
   style="border: 2px solid gray; width:50%;" />
 </p>
 
@@ -1380,6 +1398,7 @@ jQuery, but that&apos;s okay. This is what it says down here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. update myscript.js (37) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image054.webp"
+  title="Add functions to MyScript.js"
   alt="Add functions to MyScript.js."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1393,7 +1412,8 @@ inside script tags, but we already have a separate file called
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 55. on load, run flexslider function (37) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image055.webp"
-  alt="MyScript.js: Add flexslider function."
+  title="MyScript.js: Add Flexslider function"
+  alt="MyScript.js: Add Flexslider function."
   style="border: 2px solid gray; width:50%;" />
 </p>
 
@@ -1467,12 +1487,12 @@ to do.
 <p align="center" width="100%">
 <img src="./images/image061.webp?raw=true"
   style="width:45%"
-  title="index.html load jquery with correct version"
-  alt="index.html load jquery with correct version." />
+  title="index.html load jQuery with correct version"
+  alt="index.html load jQuery with correct version." />
 <img src="./images/image062.webp?raw=true"
   style="width:45%"
-  title="Run flexslider from myscript.js"
-  alt="Run flexslider from myscript.js." />
+  title="Run Flexslider from myscript.js"
+  alt="Run Flexslider from myscript.js." />
 </p>
 
 But what if I really want to have the latest version of jQuery? Well,
@@ -1489,8 +1509,8 @@ website if you wanted to.
   alt="Load jQuery version." />
 <img src="./images/image064.webp?raw=true"
   style="width:45%"
-  title="Test example flexslider"
-  alt="Test example flexslider." />
+  title="Test example Flexslider"
+  alt="Test example Flexslider." />
 </p>
 
 But I&apos;m going to come back here and I&apos;m going to command Z and put
@@ -2326,15 +2346,17 @@ section: <b>jQuery Plugins and FlexSlider</b>.
 
 <ul>
   <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.13.FlexSlider.pdf" 
-    target="_blank" rel="noopener noreferrer">1.13.FlexSlider.pdf</a></li>
+    target="_blank" rel="noopener noreferrer">
+	1.13 FlexSlider.pdf (download)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-01">2.01. Module 2 Intro (0:38)</h2>
+<h2 id="ch2-01">2.01 Module 2 Intro to Scroll Effects (0:38)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 126. module 2 intro - scroll effects (67) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image126.webp"
-  alt="2.01. Module 2 Intro - Scroll Effects."
+  title="2.01 Module 2 Intro - Scroll Effects"
+  alt="2.01 Module 2 Intro - Scroll Effects."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
@@ -2348,12 +2370,13 @@ to test your skills, and see how you&apos;re doing with this.
 Let&apos;s dive in, break out our code editors and our web browsers, and get
 started on this module.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-02">2.02. Introduction to Smooth Scroll with jQuery (4:15)</h2>
+<h2 id="ch2-02">2.02 Introduction to Smooth Scroll with jQuery (4:15)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 127. intro to smooth scroll with jquery (67) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image127.webp"
-  alt="2.02. Intro to Smooth Scroll with jQuery."
+  title="2.02 Intro to Smooth Scroll with jQuery"
+  alt="2.02 Intro to Smooth Scroll with jQuery."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
@@ -2365,9 +2388,11 @@ page, it does a smooth scrolling action further down the page.
 <p align="center">
 <img src="./images/image128.webp"
   style="width:45%;"
+  title="Example section one"
   alt="Example section one." />
 <img src="./images/image129.webp"
   style="width:45%;"
+  title="Example section two"
   alt="Example section two." />
 </p>
 
@@ -2384,9 +2409,11 @@ second in here.
 <p align="center">
 <img src="./images/image130.webp"
   style="width:45%;"
+  title="href sections defined #first thru #fifth"
   alt="href sections defined #first thru #fifth." />
 <img src="./images/image131.webp"
   style="width:45%;"
+  title="Example sections 1st thru 5th"
   alt="Example sections 1st thru 5th." />
 </p>
 
@@ -2407,14 +2434,17 @@ user experience. So, we&apos;re going to do that using jQuery.
 <p align="center">
 <img src="./images/image132.webp"
   style="width:40%;"
+  title="Adjust the header rule CSS"
   alt="Adjust the header rule CSS." />
 <img src="./images/image133.webp"
   style="width:40%;"
+  title="Updates to styles.css - header and body"
   alt="Updates to styles.css - header and body." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 134. smooth scroller set heading (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image134.webp"
+  title="Smooth Scroller example with set heading"
   alt="Smooth Scroller example with set heading."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 
@@ -2439,9 +2469,11 @@ content is passing beneath this header.
 <p align="center">
 <img src="./images/image135.webp"
   style="width:45%;"
+  title="Add padding-top: 200 to body of style.css"
   alt="Add padding-top: 200 to body of style.css." />
 <img src="./images/image136.webp"
   style="width:45%;"
+  title="Smooth Scroller example of padding-top: 200"
   alt="Smooth Scroller example of padding-top: 200." />
 </p>
 
@@ -2467,8 +2499,9 @@ or more files that are compressed for storage or transmission, often
 carrying the extension .ZIP.
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery" target="_blank" rel="noopener noreferrer">
-    2.02.jQueryScrollEffects-START.zip (ZIP File)</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery"
+    target="_blank" rel="noopener noreferrer">
+    2.02 jQueryScrollEffects-START.zip (download)</a></li>
 </ul>
 
 <h3>Additional Resource:</h3>
@@ -2484,9 +2517,11 @@ carrying the extension .ZIP.
 <p align="center">
 <img src="./images/image137.webp"
   style="width:45%;"
+  title="2.03 Creating a Click Handler"
   alt="2.03 Creating a Click Handler." />
 <img src="./images/image138.webp"
   style="width:45%;"
+  title="Add Easing and Click Handler scripts to end of index"
   alt="Add Easing and Click Handler scripts to end of index." />
 </p>
 
@@ -2505,9 +2540,11 @@ we&apos;re going to write our jQuery code.
 <p align="center">
 <img src="./images/image139.webp"
   style="width:45%;"
+  title="If clicked, run this function"
   alt="If clicked, run this function." />
 <img src="./images/image140.webp"
   style="width:45%;"
+  title="smoothscroll.js - click handler function"
   alt="smoothscroll.js - click handler function." />
 </p>
 I&apos;m going to remove that comment, and add here a click handler, so I&apos;m
@@ -2531,6 +2568,7 @@ You can see what it actually does.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 141. example: alert, click handler (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image141.webp"
+  title="Example: alert click handler function"
   alt="Example: alert click handler function."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2548,6 +2586,7 @@ that, but I want to make sure I&apos;m getting those links.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 142. html stop animate (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image142.webp"
+  title="HTML stop animate"
   alt="HTML stop animate."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2574,9 +2613,11 @@ we&apos;ll do that in the next lesson so you see how it all comes together.
 <p align="center">
 <img src="./images/image143.webp"
   style="width:45%;"
+  title="2.04 Adding the Animation"
   alt="2.04 Adding the Animation." />
 <img src="./images/image144.webp"
   style="width:45%;"
+  title="Adding the animation to smoothscroll.js"
   alt="Adding the animation to smoothscroll.js." />
 </p>
 
@@ -2591,6 +2632,7 @@ pound 5^th^ (#1st-#5th). We&apos;ve already seen that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. animate scroll top (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image144.webp"
+  title="Animate in 8 tens of a second property of scrollTop"
   alt="Animate in 8 tens of a second property of scrollTop."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2613,6 +2655,7 @@ that will actually animate the page to the top of the window.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 145. example: offset scrolltop (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image145.webp"
+  title="Example: offset scrollTop"
   alt="Example: offset scrollTop."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2630,9 +2673,11 @@ section going right up to the top of the window.
 <p align="center">
 <img src="./images/image146.webp"
   style="width:45%;"
+  title="Stop method"
   alt="Stop method." />
 <img src="./images/image147.webp"
   style="width:45%;"
+  title="Example, scroll stop method"
   alt="Example, scroll stop method." />
 </p>
 
@@ -2666,9 +2711,11 @@ that&apos;s running and then animate the thing that we&apos;ve clicked on next.
 <p align="center">
 <img src="./images/image148.webp"
   style="width:45%;"
+  title="Scroll to top minus 200 pixels"
   alt="Scroll to top minus 200 pixels." />
 <img src="./images/image149.webp"
   style="width:45%;"
+  title="Example: scroll to top minus 200px"
   alt="Example: scroll to top minus 200px." />
 </p>
 
@@ -2685,6 +2732,7 @@ put this back to 800 because the animation is so slow now.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 150. move animation tag to body (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image150.webp"
+  title="Move animation tag to body"
   alt="Move animation tag to body."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2704,6 +2752,7 @@ but it&apos;s just something to be aware of, Going forward.
 <!--~~~~~~~~~~~~~~~~ 151. add some easing and a callback function (2.05) (78) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image151.webp"
+  title="2.05 Add Some Easing and a Callback Function"
   alt="2.05 Add Some Easing and a Callback Function."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -2716,9 +2765,11 @@ more personality by adding some easing.
 <p align="center">
 <img src="./images/image152.webp"
   style="width:45%;"
+  title="Add easing script only AFTER jQuery library load"
   alt="Add easing script only AFTER jQuery library load." />
 <img src="./images/image153.webp"
   style="width:45%;"
+  title="index.html scripts"
   alt="index.html scripts." />
 </p>
 
@@ -2731,6 +2782,7 @@ jQuery library and any plugins that you&apos;re using.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 154. easing animation scroll (79) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image154.webp"
+  title="Easing animation scroll to top"
   alt="Easing animation scroll to top."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2746,6 +2798,7 @@ a little bit better, a little bit easier to read. We animate this over
 <!--~~~~~~~~~~~~~~~~~~~~~~ 155. example of easing animation scroll (79) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image155.webp"
+  title="Example, easing animation scroll"
   alt="Example, easing animation scroll."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2763,6 +2816,7 @@ that.
 <!--~~~~~~~~~~~~~~~~~~~~~ 156. example, test easing animation scroll (80) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image156.webp"
+  title="Example, test easing animation scroll effect"
   alt="Example, test easing animation scroll effect."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2785,12 +2839,13 @@ like that offset. We have done that right. Here we go. Let&apos;s see if I
 did that right. I think I did. I come back here, refresh the page, click
 second and I did something wrong there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-06">2.06. Highlighting Elements</h2>
+<h2 id="ch2-06">2.06 Highlighting Elements</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 157. highlighting elements (2.06) (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image157.webp"
-  alt="2.06. Highlighting Elements (Section)."
+  title="2.06 Highlighting Elements (Section)."
+  alt="2.06 Highlighting Elements (Section)."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
@@ -2801,6 +2856,7 @@ out.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 158. highlight the clicked link (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image158.webp"
+  title="Highlight the clicked link"
   alt="Highlight the clicked link."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2843,9 +2899,11 @@ highlight the one that I&apos;ve actually clicked on.
 <p align="center">
 <img src="./images/image159.webp"
   style="border: 2px solid #000000; width:45%"
+  title="Get anchor tags, navigation line item anchor"
   alt="Get anchor tags, navigation line item anchor." />
 <img src="./images/image160.webp"
   style="border: 2px solid #000000; width:45%"
+  title="Example getting anchor tags"
   alt="Example getting anchor tags." />
 </p>
 
@@ -2879,16 +2937,18 @@ can handle what happens as we scroll the page and move from one section
 to another. We&apos;re going to deal with that in the next lesson.
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation">
-    PDF of Presentation: 2.06.jQuerySmoothScroll.pdf</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation" 
+    rel="noopener noreferrer" target="_blank";>
+    PDF of Presentation: 2.06 jQuerySmoothScroll.pdf (download)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-07">2.07. Introduction to Page Location Tracking</h2>
+<h2 id="ch2-07">2.07 Introduction to Page Location Tracking</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 161. intro to page location tracking (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image161.webp"
-  alt="2.07. Intro to Page Location Tracking."
+  title="2.07 Intro to Page Location Tracking"
+  alt="2.07 Intro to Page Location Tracking."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
@@ -2900,6 +2960,7 @@ here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 162. example, smooth scroll (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image162.webp"
+  title="Example, smooth scroll"
   alt="Example, smooth scroll."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2924,9 +2985,11 @@ are out there. https://callbruno.com/en
 <p align="center">
 <img src="./images/image163.webp"
   style="border: 2px solid #000000; width:45%"
+  title="Example callbruno.com, #1"
   alt="Example callbruno.com, #1." />
 <img src="./images/image164.webp"
   style="border: 2px solid #000000; width:45%"
+  title="Example callbruno.com, #2"
   alt="Example callbruno.com, #2." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2934,9 +2997,11 @@ are out there. https://callbruno.com/en
 <p align="center">
 <img src="./images/image165.webp"
   style="border: 2px solid #000000; width:45%"
+  title="Example callbruno.com, #3"
   alt="Example callbruno.com, #3." />
 <img src="./images/image166.webp"
   style="border: 2px solid #000000; width:45%"
+  title="Example callbruno.com, #4"
   alt="Example callbruno.com, #4." />
 </p>
 
@@ -2952,9 +3017,11 @@ It&apos;s affected by the scroll.
 <p align="center">
 <img src="./images/image167.webp"
   style="border: 2px solid #000000; width:45%"
+  title="Example callbruno.com, #5"
   alt="Example callbruno.com, #5." />
 <img src="./images/image168.webp"
   style="border: 2px solid #000000; width:45%"
+  title="Example callbruno.com, #6"
   alt="Example callbruno.com, #6." />
 </p>
 
@@ -2970,6 +3037,7 @@ a minute here.
 <!--~~~~~~~~~~~~~~~~~~~ 169. example, scroll event, highlight link (86) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image169.webp"
+  title="Example, scroll event, highlight link"
   alt="Example, scroll event, highlight link."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2984,6 +3052,7 @@ things based on where you are on the page. That&apos;s pretty exciting.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170. awwwards.com (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image170.webp"
+  title="awwwards.com"
   alt="awwwards.com."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2999,6 +3068,7 @@ inspiration about different things that you can do.
 <!--~~~~~~~~~~~~~~~~~~~~~~ 171. window load and scroll listener (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image171.webp"
+  title="Window Load and Scroll listener"
   alt="Window Load and Scroll listener."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -4412,7 +4482,9 @@ interactions as you scroll down the page, all done in JQuery. We&apos;ll do
 the same script, and play JavaScript.
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation">2.17.jQueryPage-Location-Tracking.pdf (28 pgs).</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation"
+    target="_blank" rel="noopener noreferrer">
+	2.17 jQueryPage-Location-Tracking.pdf (download - 28 pgs).</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-18">2.18 Introduction to Scroll Effects with JS</h2>
@@ -4530,7 +4602,9 @@ pointer debt to this function down here, and let it run that way.
 <h3>Start Files: Smooth Scroll with JavaScript --</h3>
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript">2.18.Scroll-Effects-START.zip</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript"
+    target="_blank" rel="noopener noreferrer">
+	2.18 Scroll-Effects-START.zip (download)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-19">2.19 Getting the Target -- Part 1 (4:50)</h2>
@@ -4547,10 +4621,11 @@ Next, we want to get the href of the link that we clicked, the one that
 we clicked on, and we could use the this keyword, but in some cases,
 event.target is a little bit more direct and explicit.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 270. getting the target smoothscroll (139) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 270. example, getting the target smoothscroll (139) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image270.webp"
-  alt="."
+  title="Example, Getting the Target Smoothscroll"
+  alt="Example, Getting the Target Smoothscroll."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -4560,6 +4635,7 @@ clicked. And if we go back to our code over here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 271. match link with href # link (140) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image271.webp"
+  title="Match link with href pound link (#first - #fifth)"
   alt="Match link with href pound link (#first - #fifth)."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -4574,14 +4650,16 @@ first, pound, second, pound third, pound fourth or pound fifth. So in
 targetAnchor, I&apos;m going to get my targetID. Here I call the variable
 targetSection.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 272/273.  (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 272/273. targetanchor and targetsection (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image272.webp"
   style="width:45%;"
+  title="Scroll Effects with JavaScript"
   alt="Scroll Effects with JavaScript." />
 <img src="./images/image273.webp"
   style="width:45%;"
-  alt="Example scroll effects with javascript." />
+  title="Example Scroll Effects with JavaScript"
+  alt="Example Scroll Effects with JavaScript." />
 </p>
 
 TargetSection and it&apos;s going to go get that targetID. When you click on
@@ -4591,17 +4669,18 @@ one link at a time. Which one did you click get the href that goes with
 that one, put it in targetID and then we can go get that section and
 that&apos;s our targetSection there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 274.  (141) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 274. getboundingclientrect().top, .bottom (141) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image274.webp"
-  alt="."
+  title="getBoundingClientRect().top, .bottom, .left &amp; .right"
+  alt="getBoundingClientRect().top, .bottom, .left &amp; .right."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 To test this out let&apos;s run a console log here, console.log and pass
 into the console log as a statement that looks like this. So we&apos;re
-going to say targetSection.getBoundingClientRect().top. This method,
-getBoundingClientRect, we&apos;ll get me the shape of that box that section
+going to say **targetSection.getBoundingClientRect().top**. This method,
+**getBoundingClientRect**, we&apos;ll get me the shape of that box that section
 is in and .top will tell me what the top edges, .bottom would give me
 the bottom edge. We can get the left and we can get the right, but that
 will get me that kind of thing.
@@ -4610,6 +4689,7 @@ will get me that kind of thing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 275. test, inspect smooth scroller (141) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image275.webp"
+  title="Test, inspect smooth scroller"
   alt="Test, inspect smooth scroller."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -4645,6 +4725,7 @@ spit out in the console. Well, we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~ 277. script.js - tops of sections when clicked (143) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image277.webp"
+  title="script.js - getBoundingClientRect when clicked"
   alt="script.js - getBoundingClientRect when clicked."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -4656,6 +4737,7 @@ them, so I want assign that to a variable.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 278. script.js - section top - 200 px (143) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image278.webp"
+  title="script.js - get section top minus 200px"
   alt="script.js - get section top minus 200px."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -4676,7 +4758,8 @@ of the window, because that wouldn&apos;t really help us.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 279. test, script.js section position (144) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image279.webp"
-  alt="Test, script.js section position."
+  title="script.js - get section top minus 200px"
+  alt="script.js - get section top minus 200px."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -4703,9 +4786,11 @@ be what we saw before.
 <p align="center">
 <img src="./images/image280.webp"
   style="width:45%;"
+  title="Test, smooth scroll and refresh commands"
   alt="Test, smooth scroll and refresh commands." />
 <img src="./images/image281.webp"
   style="width:45%;"
+  title="Test, smooth scroll and refresh commands"
   alt="Test, smooth scroll and refresh commands." />
 </p>
 
@@ -4748,14 +4833,16 @@ we do about that? What we can do is we can use what&apos;s called a
 named Remy Sharp.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 283/284.  (146) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 283/284. what is a polyfill? some examples (146) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image283.webp"
   style="width:45%;"
-  alt="." />
+  title="What is a Polyfill?"
+  alt="What is a Polyfill?" />
 <img src="./images/image281.webp"
   style="width:45%;"
-  alt="." />
+  title="Some Examples of Polyfill"
+  alt="Some Examples of Polyfill." />
 </p>
 
 If you go just google &apos;who invented <b>polyfill</b>?&apos; or &apos;where did the
@@ -4769,14 +4856,16 @@ to date in standards and there&apos;s very little need for <b>polyfills</b>,
 but it&apos;s a worthwhile concept to know about and it&apos;s worth figuring
 out how to use them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 285/286.  (147) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 285/286. smooth scroll behavior polyfill (147) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image285.webp"
   style="width:45%;"
-  alt="." />
+  title="Smooth Scroll behavior polyfill"
+  alt="Smooth Scroll behavior polyfill." />
 <img src="./images/image286.webp"
   style="width:45%;"
-  alt="." />
+  title="window.scrollBy behavior smooth"
+  alt="window.scrollBy behavior smooth." />
 </p>
 
 As it turns out, somebody wrote a <b>polyfill</b> for this particular
@@ -4789,10 +4878,11 @@ file in my folder, here. All we need to do is link to it. Here, on the
 page, at the bottom of the page, here, I want to link to that file,
 script src=&quot;smoothscroll.js&quot; that one there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 287.  (147) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 287. src='smoothscroll.js' before script.js (147) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image287.webp"
-  alt="."
+  title="Define and run smoothscroll.js before script.js"
+  alt="Define and run smoothscroll.js before script.js."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -4813,10 +4903,11 @@ where down the page we are. We don&apos;t need to make them highlight when
 we&apos;re actually clicking on them because it&apos;ll do it automatically with
 the second part of the script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 288.  (148) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 288. window scrollby behavior smooth (148) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image288.webp"
-  alt="."
+  title="Window scrollby behavior smooth"
+  alt="Window scrollby behavior smooth."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -4852,10 +4943,11 @@ haven&apos;t loaded then the height will be different. We want to make sure
 everything&apos;s loaded before we actually start calculating things like
 the height of each section.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 290.  (149) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 290. window scrollby original top (149) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image290.webp"
-  alt="."
+  title="Window scrollby original top"
+  alt="Window scrollby original top."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -4872,10 +4964,11 @@ down here with clean JavaScript window out of industry. Look. What are
 we going to put in there?
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 291.  (150) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 291. posts = queryselectorall 'section' (150) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image291.webp"
-  alt="."
+  title="posts = document.querySelectorAll('section');"
+  alt="posts = document.querySelectorAll('section');"
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5751,7 +5844,9 @@ it without even going to a library, like Animated On Scroll. But,
 that&apos;s up to you.
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation">PDF of Presentation: 2.28 JavaScript-Scroll-Effect.pdf</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation"
+    target="_blank" rel="noopener noreferrer">
+	PDF of Presentation: 2.28 JavaScript-Scroll-Effect.pdf (download)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5966,7 +6061,9 @@ give you my finished file so you could do this without going through
 this. But I think it&apos;s helpful to go through it anyway.
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/KrJDR/start-files-scription-site">2.29 Start Files:  Scription Site</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/KrJDR/start-files-scription-site"
+    target="_blank" rel="noopener noreferrer">
+	2.29 Start Files:  Scription Site (download)</a></li>
 </ul>
 
 <ul>
@@ -10682,8 +10779,9 @@ on the discussion board. I&apos;ll check in from time to time and see what
 excellent versions people have made of the big game.</p>
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/QxK0k/pdf-of-presentation">
-    4.14 Game-of-Pig.pdf</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/QxK0k/pdf-of-presentation"
+    target="_blank" rel="noopener noreferrer">
+    4.14 Game-of-Pig.pdf (download)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-15">Course Summary (0:57)</h2>
@@ -10714,4 +10812,4 @@ and you&apos;ll get more practice. So I look forward to seeing you there.</p>
 
 <p>.the end...</p>
 
-<h6>Last Updated 3/06/2024 1:24am</h6>
+<h6>Last Updated 3/06/2024 11:08pm</h6>
