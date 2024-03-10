@@ -58,10 +58,6 @@ manageable pieces.</p>
 	1.05 jQueryPlugins.pdf (download)</a></li>
 </ul>
 
-<!--
--   **1.05.FlexSliderBasic-Start.zip**
--   **1.05.FlexSliderPlugin.zip**
--->
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider" 
     target="_blank" rel="noopener noreferrer">
@@ -152,18 +148,18 @@ manageable pieces.</p>
 
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/KrJDR/start-files-scription-site">
-    2.29.Scription Site</a></li>
+    2.29 Scription Site</a></li>
 </ul>
 
--   **2.29.Scription-Part1-START.zip**
+-   **2.29 Scription-Part1-START.zip**
 
--   **2.29.Scription-Part1-Snippets.zip**
+-   **2.29 Scription-Part1-Snippets.zip**
 
--   **2.29.Scription-Part2-START.zip**
+-   **2.29 Scription-Part2-START.zip**
 
--   **2.29.Scription-Part2-Snippets.zip**
+-   **2.29 Scription-Part2-Snippets.zip**
 
--   **2.29.Flexslider-files.zip**
+-   **2.29 Flexslider-files.zip**
 
 >#### [**2.30 Header HTML**](#ch2-30)
 >#### [**2.31 Pricing Styling**](#ch2-31)
