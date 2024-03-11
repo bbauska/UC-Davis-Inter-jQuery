@@ -1,4915 +1,10815 @@
 ---
-title: "#2 - University of California @Davis Animation with JavaScript and jQuery"
+title: "#3 - University of California @Davis Interactivity with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "3/10/2024 11+pm"
+date last editted: "2/16/2024 2+am"
 output: 
   markdown:
     with some style
 ---
 
+<h1 align="center">Interactivity with JavaScript and jQuery</h1>
+
+<h6 align="center">(by William Mead, Lecturer - University of California @Davis)</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 01/02.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image001.png?raw=true"
-  style="width:20%"
-  alt="." />
-<img src="./images/image002.png?raw=true"
-  style="width:20%"
-  alt="." />
+<!--~~~~~~~~~~~~~~~~~~~~~~ readme.md of uc-davis-inter-jquery.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. jquery logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/jq-and-js.png" 
+  title="jQuery logo"
+  alt="jQuery logo."
+  style="border: 2px solid #000000; width:400px;" />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. uc davis logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image002.jpg" 
+  title="University of California @Davis logo"
+  alt="University of California @Davis logo."
+  style="border: 2px solid #000000; width:200px;" />
 </p>
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="about">About this Course</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>About this Course</h3>
 
-With the general introduction of JavaScript in the first course, this
-course will focus on JavaScript libraries, specifically jQuery. The
-scripts will be geared toward <b>Document Object Model (DOM)</b>
-manipulation. Learners will describe the top JavaScript libraries and
-differentiate which would work best to implement and accelerate
-development of web page animation. 
-
-Course objectives include being
-introduced to the end product of the course -- a landing page style
-website using jQuery elements to manipulate HTML documents and enhance
-user experience. Diving deeper into the landing page that will be
-created and break it out into individual jQuery projects. jQuery events
-and effects will be covered while exploring more jQuery's relationship
-with HTML documents. Finally, a focus on plugins and continue to
-breakdown jQuery&apos;s ability to manipulate HTML and CSS.
-
+<p>This course is the third in our JavaScript for Beginners Specialization. The 
+scripts will become more complex and introduce more complex jQuery plugins. You 
+will have several challenges to practice your skills throughout the course.</p>
+<p>The course objectives include how to identify objects in JavaScript; create 
+new objects and populate them with data; manipulate objects by adding, modifying 
+and deleting data in objects; manipulate the DOM based on the data in objects; 
+identify and articulate how multiple functions work together to create a more complex 
+program; and identify processes for breaking larger programs into smaller, more 
+manageable pieces.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~ Hoverable Dropdown Menu ~~-->
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
 
-<h3 id="ch1-obj">Learning Objectives</h3>
+### [**Week 1: jQuery Plugins and Capturing the Scroll Event**](#ch1)
+>#### [**1.01 Welcome!**](#ch1-01)
+>#### [**1.02 Module 1 Introduction**](#ch1-02)
+>#### [**1.03 Intro to jQuery Plugins**](#ch1-03)
+>#### [**1.04 Using Plugins and Essential Steps**](#ch1-04)
+>#### [**1.05 Gotchas and Rookie Mistakes**](#ch1-05)
 
--   Plug in the jQuery library either locally or through a CDN.
-
--   Discuss history of jQuery and its relationship to JavaScript.
-
--   Use some of the selectors and filters available in jQuery to access
-    DOM elements.
-
--   Create an interactive element that could be used on a website in
-    both JS and jQuery.
-
--   Compare the syntax between JavaScript and jQuery.
-
--   Identify and fix coding and logic problems when they emerge while
-    working on a project.
-
--   Demonstrate proficiency with both JavaScript and jQuery for
-    accessing and manipulating elements on a web page.
-
-<h2 id="syllabus">Syllabus</h2>
-
-<h2 id="ch1">Week/Module 1</h2>
-
-<h2>Manipulating Web Pages Elements with jQuery & JavaScript</h2>
-
-In this module (1), you will be introduced to jQuery and basic jQuery
-syntax and we will compare it to JavaScript syntax. You will be able to
-plug-in the jQuery library and discuss the history of jQuery and its
-relationship to JavaScript. You&apos;ll also use some of the selectors and
-filters available in jQuery to access DOM elements. You will be able to
-create an interactive element that could be used on a website and be
-able to identify and fix coding and logic problems while working on a
-project. You will be able to demonstrate proficiency with both
-JavaScript and jQuery for accessing and manipulating elements on a web
-page.
-
-<h4>19 videos, 10 readings</h4>
-
-<h3 id="ch1-00-note">1.00 A Note From UC-Davis</h3>
-<h3 id="ch1-00-welcome">
-  <a href="https://www.coursera.org/lecture/animation-javascript-jquery/welcome-to-this-course-K8n2i"">1.00 Welcome to this Course!</a></h3>
-<h3<a href="ch1-00-intro">1.00 Module (1) Introduction 1.00-FileName.pdf</a></h3>
-
-<ol>
-  <li>Introduction to jQuery</li>
-</ol>
+<!-- -   **1.05.jQueryPlugins.pdf** -->
 <ul>
-  <li>Start Files: Introduction to jQuery 1.01-StartFile-FileName.pdf</li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/W04DM/pdf-of-presentation" 
+    target="_blank" rel="noreferrer noopener">
+	1.05 jQueryPlugins.pdf (download)</a></li>
 </ul>
 
-<ol start="2">
-  <li>jQuery Libraries</li>
-  <li>Plugging Into jQuery Libraries</li>
-  <li>Basic jQuery Syntax</li>
-  <li>Using jQuery to Access Elements</li>
-  <li>jQuery Events</li>
-</ol>
+<!--
+-   **1.05.FlexSliderBasic-Start.zip**
+-   **1.05.FlexSliderPlugin.zip**
+-->
 <ul>
-  <li>PDF of Presentation 1.06-FileName.pdf</li>
-</ul>
-
-<ol start="7">
-  <li>Introduction to Folding Sidebar Menus Using JS</li>
-</ol>
-<ul>
-  <li><a href="1.07-StartFile-FileName.pdf">Start Files: Folding Sidebar Menus with JavaScript</a></li>
-</ul>
-<ol start="8">
-  <li>Challenge 1 Solution</li>
-  <li>Challenge 2 Solution</li>
-  <li>Challenge 3 Solution</li>
-  <li>Challenge 4 Solution</li>
-  <li>Challenge 5 Solution</li>
-  <li>Challenge 6 Solution</li>
-  <li>Challenge 7 Solution</li>
-  <li>Challenge 8 Solution</li>
-</ol>
-<ul>
-  <li>1.15 PDF of Presentation 1.15-FileName.pdf</li>
-</ul>
-<ol start="16">
-  <li>Introduction to jQuery Sidebar Folding Navigation</li>
-</ol>
-<ul>
-  <li><a href="1.16-StartFile-FileName.pdf">Start Files: Folding Sidebar Menus with jQuery</a></li>
-</ul>
-<ol start="17">
-  <li>Getting the Next UL</li>
-  <li>The Whole Script</li>
-</ol>
-<ul>
-  <li>PDF of Presentation 1.18.FileName.pdf</li>
-</ul>
-<ol start="19">
-  <li>JavaScript and jQuery Challenges Intro</li>
-</ol>
-<ul>
-  <li>JavaScript and jQuery Challenge Activities 1.19-FileName.pdf</li>
-</ul>
-
-## Week/Module 2 
-
-## Animating Web Page Elements with jQuery & JavaScript
-
-In this module (2), you will be introduced to the jQuery effects
-library, helper functions, animations and callback functions. You will
-be able to use features in jQuery to animate elements on a web page. You
-will be able to use the callback functions to trigger a function when an
-animation is completed. You will be able to create a tabbed interface in
-both JavaScript and jQuery.
-
-### 20 videos, 7 readings
-
--   [Module (2)
-    > Introduction](https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-ZlMzi)
-
-1.  <b>Introduction to the jQuery Effects Library</b>
-
--   <b>Start Files:</b> Introduction to the jQuery Effects Library
-    > 2.01-StartFile-FileName.pdf
-
-2.  <b>Example 1 Continued</b>
-
-3.  <b>Example 2</b>
-
-4.  <b>Example 2: Plugin Architecture</b>
-
-5.  <b>Example 3: Fading Buttons</b>
-
-6.  <b>Example 3: Fade To</b>
-
-7.  <b>Example 4: Custom Animations - Part 1</b>
-
-8.  <b>Example 4: Custom Animations - Part 2</b>
-
-9.  <b>Doing All Animations at Once</b>
-
--   <b>Additional Resources</b>
-
--   PDF of Presentation 2.09-NameFile.pdf
-
-10. <b>Introduction to Tabbed Interface Using jQuery</b>
-
--   Start Files: Creating a Tabbed Interface with jQuery --
-    > 2.10-StartFiles-FileName.pdf
-
-11. <b>Styling the Anchor Tags</b>
-
-12. <b>Tab Styling and Colors</b>
-
-13. <b>Clicking and Fading Tabs</b>
-
-14. <b>Whole Script</b>
-
--   PDF of Presentation 2.14-NameFile.pdf
-
-15. <b>Getting the CSS Ready</b>
-
--   Start Files: Creating a Tabbed Interface with JavaScript
-    > 2.15-StartFiles-FileName.pdf
-
-16. <b>Making the Tabs Work</b>
-
-17. <b>New Tab and Old Tab</b>
-
-18. <b>Handling the Switch</b>
-
-19. <b>Fixing a Bug</b>
-
-20. <b>Cleaning Up the Code</b>
-
--   PDF of Presentation 2.20-FileName.pdf
-
-## Week/Module 3
-
-## Intermediate Document Manipulation & Animation
-
-In this module (3), you will be able to use the jQuery syntax and the
-built-in effects library to create image sliders that could be
-integrated into web pages. You will also be able to compare the jQuery
-syntax to the JavaScript syntax by building a similar image slider using
-only plain JavaScript syntax and using CSS to perform the animation.
-
-### 17 videos, 5 readings
-
--   [Module (3)
-    > Introduction](https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-pupTj)
-
-1.  <b>Basic Slider</b>
-
--   Start Files: jQuery Image Sliders 3.01-StartFiles-FileName.pdf
-
-2.  <b>Making the Script General</b>
-
-3.  <b>Window Load Function</b>
-
-4.  <b>Click Handler for Next Button</b>
-
-5.  <b>Next Click Handler with If Statement</b>
-
-6.  <b>Challenge Solution</b>
-
-    -   PDF of Presentation 3.06-FileName.pdf
-
-7.  <b>Strategy for Version 2</b>
-
-8.  <b>Cloning the Unordered List</b>
-
-9.  <b>Setting the Left Position</b>
-
-10. <b>Adding a Callback Function</b>
-
-11. <b>Previous Button Click Handler - Part 1</b>
-
-12. <b>Previous Button Click Handler - Part 2</b>
-
-    -   PDF of Presentation 3.12-FileName.pdf
-
-13. <b>Slider Using JavaScript</b>
-
-    -   Start Files: JavaScript Image Sliders 3.13-StartFile.pdf
-
-14. <b>CSS for Slides and Adding Variables</b>
-
-15. <b>Adding More Variables</b>
-
-16. <b>Event Handler for the Next Button</b>
-
-17. <b>Solution for the Previous Button Challenge</b>
-
-## PDF of Presentation 3.17-FileName.pdf
-
-## Week/Module 4
-
-## Timers and Recursion in JavaScript & jQuery
-
-In this module (4), you will be introduced to the use of timers and
-recursion in JavaScript and use these techniques to make interface
-elements that run on a timer. You practice using jQuery syntax and
-recursion to build a simple content rotator that could be used as an
-interface element on any web page.
-
-13 videos, 5 readings
-
--   [Module (4)
-    > Introduction](https://www.coursera.org/lecture/animation-javascript-jquery/module-introduction-lZUTE)
-
--   Start Files: Introduction to Timers & Recursion
-    > 4.00-StartFile-FileName.pdf
-
-1.  Example Script #1 - Part 1
-
-2.  Example Script #1 - Part 2
-
-3.  Example Script #2
-
-4.  Example Script #3: Recursion
-
--   PDF of Presentation 4.04-FileName.pdf
-
-5.  Converting a Slider
-
-6.  Putting Slides on a Timer Solution - Part 1
-
-7.  Putting Slides on a Timer Solution - Part 2
-
--   PDF of Presentation 4.07-FileName.pdf
-
--   Start Files: Recursive Content Rotator 4.07-StartFile-FileName.pdf
-
-8.  Project Set-up
-
-9.  Starting the Script
-
-10. The If/Else Statement - Part 1
-
-11. The If/Else Statement - Part 2
-
--   PDF of Presentation 4.11-FileName.pdf
-
-12. Course Summary
-
-<!-- hoverable drop-down menu -->
-
-### [<b>Week 1: jQuery Plugins and Capturing the Scroll Event</b>](#ch1)
->#### [<b>1.00 A Note from UC Davis</b>](#ch1-00-note)
->#### [<b>1.00 Welcome to JS Animation!</b>](#ch1-00-welcome)
->#### [<b>1.00 Learning Objectives!</b>](#ch1-00-obj)
->#### [<b>1.01 Module 1 Introduction to jQuery</b>](#ch1-01)
->#### [<b>1.02 jQuery Libraries</b>](#ch1-02)
->#### [<b>1.03 Plugging into jQuery Libraries</b>](#ch1-03)
->#### [<b>1.04 Basic jQuery Syntax</b>](#ch1-04)
->#### [<b>1.05 Using jQuery to Access Elements</b>](#ch1-05)
->#### [<b>1.06 jQuery Events</b>](#ch1-06)
-<ul>
-  <li><a href=""
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider" 
     target="_blank" rel="noopener noreferrer">
-	1.06 Slideshow of jQuery Events.pdf (download)</a></li>
+	1.05 FlexSliderBasic-START.zip (download)</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider"
+    target="_blank" rel="noopener noreferrer">
+	1.05 FlexSliderPlugin.zip (download)</a></li>
 </ul>
 
->#### [<b>1.07 Intro to JavaScript Folding Sidebar Menus Using JS</b>](#ch1-07)
+>#### [**1.06 FlexSlider: A jQuery Plugin**](#ch1-06)
+>#### [**1.07 About the Minified Version**](#ch1-07)
+>#### [**1.08 Adding Markup &amp; Hooking Up the Slider**](#ch1-08)
+>#### [**1.09 FlexSlider Rules**](#ch1-09)
+>#### [**1.10 Additional Controls**](#ch1-10)
+>#### [**1.11 Advanced FlexSlider**](#ch1-11)
+>#### [**1.12 Additional Styling**](#ch1-12)
+>#### [**1.13 Styling the CTA**](#ch1-13)
+
+<!-- -   **1.13.FlexSlider.pdf** -->
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Hv9Tf/pdf-of-presentation"
+    target="_blank" rel="noopener noreferrer">
+	1.13 FlexSlider.pdf (download)</a></li>
+</ul>
+
+### [**Week 2: Combining Scripts and Skill Building Through Practice**](#ch2)
+>#### [**2.01 Module 2 Introduction**](#ch2-01)
+>#### [**2.02 Intro to Smooth Scroll with jQuery**](#ch2-02)
+
+<!-- -   **2.02.jQueryScrollEffects-START.zip** -->
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery"
+    target="_blank" rel="noopener noreferrer">
+    2.02 jQueryScrollEffects-START.zip (download)</a></li>
+</ul>
+
+>#### [**2.03 Creating a Click Handler**](#ch2-03)
+>#### [**2.04 Adding the Animation**](#ch2-04)
+>#### [**2.05 Add Some Easing and a Callback Function**](#ch2-05)
+>#### [**2.06 Highlighting Elements**](#ch2-06)
+>#### [**2.07 Intro to Page Location Tracking**](#ch2-07)
+>#### [**2.08 The Crux of the Problem**](#ch2-08)
+>#### [**2.09 Strategy**](#ch2-09)
+>#### [**2.10 Adding PageTop and If Statements**](#ch2-11)
+>#### [**2.11 Writing the Else/If Statement - Part 1**](#ch2-11)
+>#### [**2.12 Writing the Else/If Statement - Part 2**](#ch2-12)
+>#### [**2.13 Edge Case Issues**](#ch2-13)
+>#### [**2.14 Resizing the Counter**](#ch2-14)
+>#### [**2.15 Resetting the Counter**](#ch2-15)
+>#### [**2.16 resetPagePosition Function**](#ch2-16)
+>#### [**2.17 Reviewing the Whole Script**](#ch2-17)
+
+<!-- -   **2.17.jQueryPageLocationTracking.pdf** -->
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation"
+    target="_blank" rel="noopener noreferrer">
+    2.17 jQueryPageLocationTracking.pdf (download)</a></li>
+</ul>
+
+>#### [**2.18 Intro to Scroll Effects with JS**](#ch2-18)
+
+<!-- -   **2.18.ScrollEffects-START.zip** -->
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript"
+    target="_blank" rel="noopener noreferrer">
+    2.18 ScrollEffects-START.zip (download)</a></li>
+</ul>
+
+>#### [**2.19 Getting the Target - Part 1**](#ch2-19)
+>#### [**2.20 Getting the Target - Part 2**](#ch2-20)
+>#### [**2.21 Smooth Scroll Polyfill**](#ch2-21)
+>#### [**2.22 Checking the Load**](#ch2-22)
+>#### [**2.23 Top Posts**](#ch2-23)
+>#### [**2.24 Add an Event Listener**](#ch2-24)
+>#### [**2.25 The Magic Conditionals**](#ch2-25)
+>#### [**2.26 Changing the Next Link**](#ch2-26)
+>#### [**2.27 Resizing Function**](#ch2-27)
+>#### [**2.28 Finalzing the Script**](#ch2-28)
+
+<!-- -   **2.28.PDF-of-Presentation.pdf** -->
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation"
+    target="_blank" rel="noopener noreferrer">
+    2.28 PDF-of-Presentation.pdf (download)</a></li>
+</ul>
+
+>#### [**2.29 Scription Site Introduction**](#ch2-29)
 
 <ul>
-  <li><a href=""
-    target="_blank" rel="noopener noreferrer">
-	1.07 START Files: JS Folding SideBar Menus (download)</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/KrJDR/start-files-scription-site">
+    2.29.Scription Site</a></li>
 </ul>
 
->#### [<b>1.08 Challenge 1 Solution</b>](#ch1-08)
->#### [<b>1.09 Challenge 2 Solution</b>](#ch1-09)
->#### [<b>1.10 Challenge 3 Solution</b>](#ch1-10)
->#### [<b>1.11 Challenge 4 Solution</b>](#ch1-11)
->#### [<b>1.12 Challenge 5 Solution</b>](#ch1-12)
->#### [<b>1.13 Challenge 6 Solution</b>](#ch1-13)
->#### [<b>1.14 Challenge 7 Solution</b>](#ch1-14)
->#### [<b>1.15 Challenge 8 Solution</b>](#ch1-15)
+-   **2.29.Scription-Part1-START.zip**
+
+-   **2.29.Scription-Part1-Snippets.zip**
+
+-   **2.29.Scription-Part2-START.zip**
+
+-   **2.29.Scription-Part2-Snippets.zip**
+
+-   **2.29.Flexslider-files.zip**
+
+>#### [**2.30 Header HTML**](#ch2-30)
+>#### [**2.31 Pricing Styling**](#ch2-31)
+>#### [**2.32 Beginning Styling**](#ch2-32)
+>#### [**2.33 Styling That Attaches to Whole Page**](#ch2-33)
+>#### [**2.34 Slider Styles**](#ch2-34)
+>#### [**2.35 Pricing Styles**](#ch2-35)
+>#### [**2.36 Tablet Styles**](#ch2-36)
+>#### [**2.37 Media Query for 1020 Pixels Wide**](#ch2-37)
+>#### [**2.38 Media Query for 1200 Pixels Wide**](#ch2-38)
+>#### [**2.39 Scription Site: Building Interactive Elements Challenges**](#ch2-39)
+
+-   **2.39.Scription-Finished-Version.pdf**
+
+-   **2.39.PDF-of-Presentations.pdf**
+
+### [**Week 3. Intro to Objects and Data in JavaScript**](ch3)
+>#### [**3.01 Module 3 Introduction**](#ch3-01)
+>#### [**3.02 Intro to Objects and Data in JS**](#ch3-02)
+
+-   **3.02-START-Files-Working-with-Objects-in-JavaScript.pdf**
+
+>#### [**3.03 Objects Can Contain Arrays and Other Objects**](#ch3-03)
+>#### [**3.04 Functions Inside Objects Equals Methods**](#ch3-04)
+>#### [**3.05 Putting Objects and Functions Together**](#ch3-05)
+>#### [**3.06 Data Formats - XML**](#ch3-06)
+>#### [**3.07 Example File**](#ch3-07)
+
+-   **3.07-PDF-of-Presentations.pdf**
+
+>#### [**3.08 Intro to Pig Dice Game**](#ch3-08)
+
+-   **3.08-Pig-Dice-Game-Diagrams.pdf**
+
+>#### [**3.09 Play the Game of Pig**](#ch3-09)
+>#### [**3.10 Version One**](#ch3-10)
+>#### [**3.11 Other Versions**](#ch3-11)
+
+-   **3.11-PDF-of-Presentations.pdf**
+
+### [**Week 4. Building a Simple Game in JavaScript**](ch4)
+>#### [**4.01 Module 4 Introduction**](#ch4-01)
+>#### [**4.02 Intro to the Game of Pig**](#ch4-02)
+
+-   **4.02.START-Files-Game-of-Pig.pdf**
+
+>#### [**4.03 Start the Game**](#ch4-03)
+>#### [**4.04 Set Up the Turn**](#ch4-04)
+>#### [**4.05 Throwing the Dice**](#ch4-02)
+>#### [**4.06 Test Throwing the Dice**](#ch4-06)
+>#### [**4.07 Add the Selection Statements**](#ch4-07)
+>#### [**4.08 Snake Eyes**](#ch4-08)
+>#### [**4.09 A "1" Was Rolled**](#ch4-09)
+>#### [**4.10 The Else Statement**](#ch4-10)
+>#### [**4.11 Checking for a Win**](#ch4-11)
+>#### [**4.12 Show the Current Score**](#ch4-12)
+>#### [**4.13 Final Clean-Up**](#ch4-13)
+>#### [**4.14 Extending the Game**](#ch4-14)
+
+-   <b>4.14.PDF-of-Presentation.pdf</b>
+
+>#### [<b>4.15 Course Summary</b>](#ch4-15)
+
+<h2>Syllabus</h2>
+
+<h3>Module (Week) One:</h3>
+
+<h4>Getting Started & jQuery Plugins and Capturing the Scroll Event</h4>
+
+<p>In this module (1), you will be introduced to jQuery plugins and be able to 
+present the advantages and challenges associated with using jQuery plugins. 
+You will also be able to recognize common mistakes to avoid when using jQuery plugins. 
+You will be introduced to the Flexslider jQuery plugin and be able to use it to build 
+basic and more advanced image sliders.</p>
+
+<h5>13 videos, 3 readings, 2 zip files</h5>
+
 <ul>
-  <li><a href=""
-    target="_blank" rel="noopener noreferrer">
-	1.15 PDF of Presentation (download)</a></li>
-</ul>
->#### [<b>1.16 Intro to jQuery Folding SideBar Menu Navigation</b>](#ch1-16)
-<ul>
-  <li><a href=""
-    target="_blank" rel="noopener noreferrer">
-	1.16 START Files: jQuery Folding SideBar Menus (download)</a></li>
+  <li>1.00.A Note from UC Davis</li>
 </ul>
 
->#### [<b>1.17 Getting the Next UL</b>](#ch1-17)
->#### [<b>1.18 The Whole Script</b>](#ch1-18)
+   1. Welcome to this Course!
+   2. Module Introduction
+   3. Introduction to jQuery Plugins
+   4. Using Plugins and Essential Steps
+   5. Gotchas and Rookie Mistakes
+
 <ul>
-  <li><a href=""
-    target="_blank" rel="noopener noreferrer">
-	1.18 PDF of Presentation (download)</a></li>
+  <li>1.05.jQueryPlugins.pdf</li>
+  <li>1.05.FlexSliderBasic-START.zip</li>
+  <li>1.05.FlexSliderPlugin.zip</li>
 </ul>
->#### [<b>1.19 JavaScript and jQuery Challenge Activities</b>](#ch1-19)
+    
+   6. FlexSlider: A jQuery Plugin
+   7. About the Minified Version
+   8. Adding Markup & Hooking Up the Slider
+   9. FlexSlider Rules
+  10. Additional Controls
+  11. Advanced FlexSlider
+  12. Additional Styling
+  13. Styling the CTA
+
 <ul>
-  <li><a href=""
-    target="_blank" rel="noopener noreferrer">
-	1.19 JS and jQuery Challenge Activities (download)</a></li>
+  <li>1.13.FlexSlider.pdf</li>
 </ul>
 
-<h2 id="ch1-00-note">A Note From UC Davis</h2>
+<h3>Week Two:</h3>
 
+<h4>Combining Scripts and Skill Building Through Practice</h4>
+
+<p>In this module, you will be able to use jQuery to create a smooth scroll effect for in-page navigation, as well 
+as develop a script, using jQuery, that keeps track of scroll positions on the page. You will be able to compare 
+and contrast the in-page smooth scroll script and the location tracking script created using jQuery with one 
+created using plain JavaScript. You will be able to build a webpage using HTML and CSS that will combine some 
+of the different scripts created in this course. You will be able to combine some of the different scripts and 
+jQuery plugins explored in this course into the Scription webpage through a series of challenges.</p>
+
+<h5>39 videos, 5 readings, 7 zip files</h5>
+
+   1. Module 2 Introduction (:38)
+   2. Introduction to Smooth Scroll with jQuery (4:15)
+
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery"
+      target="_blank" rel="noopener noreferrer">
+      2.02 jQueryScrollEffects-START.zip (download)</a></li>
+</ul>
+
+   3. Creating a Click Handler (5:00)
+   4. Adding the Animation (6:56)
+   5. Add Some Easing and a Callback Function (4:05)
+   6. Highlighting Elements (5:22)
+
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation"
+    target="_blank" rel="noopener noreferrer">
+	PDF of Presentation: 2.06 jQuerySmoothScroll.pdf (download)</a></li>
+</ul>
+  
+   7. Introduction to Page Location Tracking (8:00)
+   8. The Crux of the Problem (6:09)
+   9. Strategy (8:27)
+  10. Adding PageTop and If Statements (5:39)
+  11. Writing the Else/If Statement - Part 1 (4:10)
+  12. Writing the Else/If Statement - Part 2 (5:43)
+  13. Edge Case Issues (5:07)
+  14. Resizing Your Windows (5:41)
+  15. Resetting the Counter (5:22)
+  16. resetPagePosition Function (8:33)
+  17. Reviewing the Whole Script (5:48)
+
+<ul>
+  <li>2.17.jQueryPageLocationTracking.pdf (10 min’s)</li>
+</ul>
+  
+  18. Introduction to Scroll Effects with JS (6:04)
+
+<ul>
+  <li>2.18.ScrollEffects-START.zip</li>
+</ul>
+  
+  19. Getting the Target - Part 1 (4:50)
+  20. Getting the Target - Part 2 (5:15)
+  21. Smooth Scroll Polyfill (4:45)
+  22. Checking the Load (6:48)
+  23. Top Posts (5:35)
+  24. Add an Event Listener (5:42)
+  25. The Magic Conditionals (5:58)
+  26. Changing the Next Link (5:56)
+  27. Resizing Function (5:07)
+  28. Finalizing the Script (10:01)
+
+<ul>
+  <li>2.28.PDF of Presentation (10 min’s)</li>
+</ul>
+  
+  29. Scription Site Introduction (5:54)
+
+<ul>
+  <li>zip_files:
+    <ul>
+	  <li>2.29.Scription-Part1-START.zip</li>
+	  <li>2.29.Scription-Part1-Snippets.zip</li>
+	  <li>2.29.Scription-Part2-START.zip</li>
+	  <li>2.29.Scription-Part2-Snippets.zip</li>
+	  <li>2.29.Flexslider-files.zip</li>
+      </li>
+	</ul>
+</ul>
+    
+  30. Header HTML (5:09)
+  31. Pricing HTML
+  32. Beginning Styling
+  33. Styling That Attaches to Whole Page
+  34. Slider Styling
+  35. Pricing Styles
+  36. Tablet Styles
+  37. Media Query for 1020 Pixels Wide
+  38. Media Query for 1200 Pixels Wide
+  39. Scription Site: Building Interactive Elements Challenges
+
+<ul>
+  <li>2.39.Scription Finished Version</li>
+  <li>2.39.PDF of Presentations</li>
+</ul>
+
+<h3>Week Three:</h3>
+
+<h4>Introduction to Objects & Data in JavaScript</h4>
+
+<p>In this module, you will be introduced to the object literal and be able to 
+demonstrate some of the ways to manipulate data inside objects. You will be able 
+to develop good habits and processes that help with thinking about how to solve 
+a programming problem, including breaking a problem down into smaller pieces.</p>
+
+<h5>11 videos, 4 readings</h5>
+
+   1. Module Introduction
+   2. Introduction to Objects and Data in JS
+
+<ul>
+  <li>3.02.Start Files: Working with Objects in JavaScript</li>
+</ul>
+  
+   3. Objects Can Contain Arrays and Other Objects
+   4. Functions Inside Objects Equals Methods
+   5. Putting Objects and Functions Together
+   6. Data Formats - XML
+   7. Example File
+
+<ul>
+  <li>3.07.PDF of Presentations</li>
+</ul>
+  
+   8. Introduction to Pig Dice Game
+
+<ul>
+  <li>3.08.Pig Dice Game Diagrams</li>
+</ul>
+  
+   9. Play the Game of Pig
+  10. Version One
+  11. Other Versions
+
+<ul>
+  <li>3.11.PDF of Presentations</li>
+</ul>
+  
+<h3>Week Four:</h3>
+
+<h4>Building a Simple Game in JavaScript</h4>
+
+<p>By building this game within this module, you will be able to practice the JavaScript 
+you have already learned while constructing a script with more functions and complexity. 
+You will be able to then extend the script in many creative ways.</p>
+
+<h5>15 videos, 2 readings</h5>
+
+   1. Module Introduction
+   2. Introduction to the Game of Pig
+
+<ul>
+  <li>4.02.Start Files: Game of Pig</li>
+</ul>
+  
+   3. Start the Game
+   4. Set Up the Turn
+   5. Throwing the Dice
+   6. Test Throwing the Dice
+   7. Add the Selection Statements
+   8. Snake Eyes!
+   9. A "1" Was Rolled
+  10. The Else Statement
+  11. Checking for a Win
+  12. Show the Current Score
+  13. Final Clean-Up
+  14. Extending the Game
+
+<ul>
+  <li>4.14.PDF of Presentation</li>
+</ul>
+
+  15. Course Summary
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-00">1.00 A Note from UC Davis</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Welcome to this course!</p>
+<p>We are delighted to be a part of your continuing education. This course will 
+provide you with a variety of tools and learning opportunities, to include lesson 
+lectures, readings, assessments, peer reviews, and an opportunity to contribute 
+to the Coursera learning community in the discussion forums.</p>
+<p>In each of the lesson sections, you’ll find learning objectives, lecture 
+lessons, readings, activities, and an opportunity to test your knowledge in 
+quiz format. In some of the module sections you’ll also work on assignments 
+and grade the work of your peers. A peer-review assignment, is one where you 
+and your fellow learners have an opportunity to review and grade each other’s 
+work. We’ll dive more into peer reviews later on in this course.</p>
+<p>When navigating the course, you can find available course resources under 
+each of the lecture lessons in a section labeled “Downloads” – here you can 
+download the lecture video, view transcripts, PDFs of the lecture slides, and 
+find additional readings or files.</p>
+<p>If you run into any issues during this course, learner support is available to 
+all Coursera students. The link for Coursera’s Learner support is included below. 
+The Help Center/Learner Support includes topics such as account setup, payments, 
+enrollment questions, and troubleshooting common problems.</p>
+<p>If you find any content issues, be sure to let the course staff know by flagging 
+the lecture, assignment, reading, or quiz and this will inform us of where these 
+issues occur. Here is the link for more information on how to Flag an Issue - it is 
+also listed below.</p>
+<p>One of the great things about Coursera courses is that they are self-paced. The 
+course dates are based on the average time it takes to complete a course. However, 
+if you need additional time to complete a course you can reset your deadlines with 
+no penalties.</p>
+<p>More information on resetting deadlines can be found here: Assignment Deadlines</p>
+<p>Because of the self-paced nature of Coursera courses, this is an excellent opportunity 
+to show your commitment to your work and the work of your peers through academic integrity. 
+Be sure to read the Coursera guidelines and the Coursera Honor Code here:</p>
+  <a href="">Coursera Honor Code</a>
 
-<p>We are delighted to be a part of your continuing education. This course
-will provide you with a variety of tools and learning opportunities, to
-include video lectures, readings, assessments, peer reviews, and an
-opportunity to contribute to the Coursera learning community in the
-discussion forums.</p>
+<p>We look forward to having you in this course. Happy learning!</p>
+<p>UC Davis Coursera Team</p>
 
-<p>In each of the lesson sections, you'll find learning objectives, lecture
-videos, readings, activities, and an opportunity to test your knowledge
-in quiz format. In some of the module sections you'll also work on
-assignments and grade the work of your peers. A peer-review assignment,
-is one where you and your fellow learners have an opportunity to review
-and grade each other's work. We'll dive more into peer reviews later on
-in this course.</p>
+<h4>Additional Links:</h4>
 
-<p>When navigating the course, you can find available <b>course resources</b>
-under each of the lecture videos in a section labeled
-<b><i>"Downloads"</i></b> -- here you can download the lecture video,
-view transcripts, PDFs of the lecture slides, and <b>find additional
-readings or files</b>.
+<ul>
+  <li><a href="https://learner.coursera.help/hc/en-us" 
+    rel="noopener noreferrer" target="_blank">
+    Coursera’s Learner Support/Help Center</a></li>
+  <li><a href="https://learner.coursera.help/hc/en-us/articles/208280106-Report-a-problem-with-a-course"
+    rel="noopener noreferrer" target="_blank">
+    Flagging a Lecture</a></li>
+  <li><a href="https://learner.coursera.help/hc/en-us/articles/208279866-Assignment-deadlines"
+    rel="noopener noreferrer" target="_blank">
+    Assignment Deadlines</a></li>
+  <li><a href="https://learner.coursera.help/hc/en-us/sections/201895903-Peer-reviewed-assignments"
+    rel="noopener noreferrer" target="_blank">
+    Peer Reviewed Assignments</a></li>
+  <li><a href="https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code"
+    rel="noopener noreferrer" target="_blank">
+    Coursera’s Honor Code</a></li>
+</ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-01">1.01 Welcome! Course Introduction (0:40)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. course intro (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image003.webp" 
+  title="1.01 Course Introduction"
+  alt="1.01 Course Introduction."
+  style="border: 2px solid #000000; width:40%;" />
+</p>
 
-If you run into any issues during this course, <b>learner support</b> is
-available to all Coursera students. The link for Coursera's Learner
-support is included below. The <a href="https://learner.coursera.help/hc/en-us">Help Center/Learner
-Support</a> includes topics such as account setup, payments, enrollment questions, and troubleshooting
-common problems.
+Hello and welcome to our 3rd course in our four-core specialization on
+JavaScript. My name is Bill Mead and I&apos;m back again to do more
+JavaScript with you. Hopefully you&apos;ve completed our first two courses
+on JavaScript and you&apos;ve learned a lot about the syntax of JavaScript
+and how to solve problems with JavaScript. It takes a lot of practice to
+get good at this stuff.
 
-If you find any content issues, be sure to let the course staff know by
-<b>flagging the lecture</b>, assignment, reading, or quiz and this will
-inform us of where these issues occur. Here is the link for more
-information on how to <a href="https://learner.coursera.help/hc/en-us/articles/208280106-Report-a-problem-with-a-course">
-Flag an Issue</a> - it is also listed below.
+I&apos;m back again to do more with you to introduce some new concepts, to
+do some new projects and to do some more sophisticated projects and give
+you even more practice. You get even better with JavaScript and jQuery.
+We&apos;re going to do a lot in this course. Let&apos;s break out our code
+editors and our web browsers and get started and learn even more about
+JavaScript.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-02">1.02 Module Introduction</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. module 1 intro (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image004.webp" 
+  title="1.02 Module 1 Introduction"
+  alt="1.02 Module 1 Introduction."
+  style="border: 2px solid #000000; width:40%;" />
+</p>
 
-One of the great things about Coursera courses is that they are
-self-paced. The course dates are based on the average time it takes to
-complete a course. However, if you need additional time to complete a
-course you can <b>reset your deadlines</b> with no penalties. More
-information on resetting deadlines can be found here: 
-<a href="https://learner.coursera.help/hc/en-us/articles/208279866-Assignment-deadlines">Assignment Deadlines</a>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
-Need additional help during your course session? Be sure to utilize the
-<b>discussion forums</b> and interact with your fellow peers. In this area,
-you can ask questions or search for similar issues that have already
-been posted in the forums. Learner support is also a great place to find
-answers, but specific course content questions can typically be found
-and answered in the discussion forums. This is also a great place to
-post your assignment if additional peer reviews are needed. Here is a
-link with more information on the discussion forums: [Discussion
-Forums](https://learner.coursera.help/hc/en-us/articles/208279996-Get-help-with-course-content-in-the-discussion-forums)
+Hello and welcome to our first module in our third course on JavaScript.
+In this module, we&apos;re going to dive even deeper into jQuery, looking at
+some jQuery plugins. You&apos;ve already made some sliders in a previous
+lesson. But in this lesson, we&apos;ll look at the <b>flex slider</b> plugin,
+which adds a lot of features, two sliders and comparing that to what
+you&apos;ve done manually by creating your own sliders is really instructive
+and useful. Plus, you end up with a great tool for creating slider
+elements on web pages and that&apos;s really pretty fun.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-03">1.03 Introduction to jQuery Plugins (3:49)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. intro to jquery plugins (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image005.webp" 
+  title="1.03 Intro to jQuery Plugins"
+  alt="1.03 Intro to jQuery Plugins."
+  style="border: 2px solid #000000; width:40%;" />
+</p>
 
-Because of the self-paced nature of Coursera courses, this is an
-excellent opportunity to show your commitment to your work and the work
-of your peers through academic integrity. Be sure to read the Coursera
-guidelines and the <b>Coursera Honor Code</b> here: [Coursera Honor
-Code](https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code)
+Just as a quick recap, we&apos;ve learned a lot of JavaScript so far.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. recap: javascript (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image006.webp" 
+  title="Recap: JavaScript"
+  alt="Recap: JavaScript."
+  style="border: 2px solid #000000; width:40%;" />
+</p>
 
-We look forward to having you in this course. Happy learning!
+We started with the JavaScript basics, which included working with
+variables, flow control structures like if statements and else
+statements and loops, and that stuff. We created reusable functions that
+you can use in multiple projects or you can use multiple times within
+the same project. We&apos;ve manipulated the DOM and handled events such as
+when somebody clicks on something or hovers a mouse over something, we
+can capture those events and then do things with them. With these
+basics, you can do quite a lot, but it might take you a long time to
+write the scripts that you want to do for your web page.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. recap: jquery (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image007.webp" 
+  title="Recap: jQuery"
+  alt="Recap: jQuery."
+  style="border: 2px solid #000000; width:40%;" />
+</p>
 
-<i><b>UC Davis Coursera Team</i></b>
+Then we had jQuery and your world became a little bit larger. With jQuery, we&apos;ve 
+learned that there are a lot of helper functions built into this library that make 
+writing scripts shorter and a little bit more compact, and a little bit easier. That 
+helps and that makes things a little bit easier and a little bit better for all of us.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. introducing: plugins (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image008.webp" 
+  title="Introducing: Plugins"
+  alt="Introducing: Plugins."
+  style="border: 2px solid #000000; width:40%;" />
+</p>
 
-## Week/Module One:
+Now we need to introduce plugins. We&apos;ve already used the <b>easing</b> plugin, 
+which is a very simple plugin that adds additional function to jQuery, so that you can 
+use different types of <b>easing,</b> which is different speeds and ways in which things 
+can animate on your screen, and by plugging in that particular plugin, you get access to 
+all of those different features that aren&apos;t built into jQuery.
 
-## Manipulating Web Pages Elements with jQuery & JS
+jQuery has this plugin architecture that&apos;s very powerful, that allows developers to 
+build extensions to jQuery. They give it a lot of additional functionality. There are 
+tons of jQuery plugins available, thousands of them, and I recommend looking around the 
+web and seeing what other ones you can find. We will look at one or two here in this
+course, but there are just thousands of them out there and they&apos;re really worth 
+exploring and seeing what&apos;s out there. That way your world becomes a lot bigger 
+because now you don&apos;t only have to just write all your scripts yourself. You can 
+look for scripts that other people have written and see if you can modify them and use 
+them in your own projects through the use of a plugin, and that&apos;s really very 
+powerful and really great.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. adding functionality (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image009.webp" 
+  title="Adding Functionality"
+  alt="Adding Functionality."
+  style="border: 2px solid #000000; width:40%;" />
+</p>
 
-In this module, you will be introduced to jQuery and basic jQuery syntax
-and we will compare it to JavaScript syntax. You will be able to plug-in
-the jQuery library and discuss the history of jQuery and its
-relationship to JavaScript. You&apos;ll also use some of the selectors and
-filters available in jQuery to access DOM elements. You will be able to
-create an interactive element that could be used on a website and be
-able to identify and fix coding and logic problems while working on a
-project. You will be able to demonstrate proficiency with both
-JavaScript and jQuery for accessing and manipulating elements on a web
-page.
+Again, <b>plugins</b> add additional functionality to jQuery, and we&apos;ve already 
+seen this with the <b>easing plugin.</b> But some plugins can have very complex 
+functionality without us having to write a whole bunch of code. We have access to a 
+whole bunch of additional functions and we&apos;ll see what that looks like.
 
-## 1.00 Learning Objectives
-
--   Plug in the jQuery library either locally or through a CDN.
-
--   Discuss history of jQuery and its relationship to JavaScript.
-
--   Use some of the selectors and filters available in jQuery to access
-    DOM elements.
-
--   Create an interactive element that could be used on a website in
-    both JS and jQuery.
-
--   Compare the syntax between JavaScript and jQuery.
-
--   Identify and fix coding and logic problems when they emerge while
-    working on a project.
-
--   Demonstrate proficiency with both JavaScript and jQuery for
-    accessing and manipulating elements on a web page.
+You can create whole interfaces in a jQuery plugin, and then by providing that plugin, 
+other people can have access to those interfaces. For example, we did the project where 
+we made the tabbed interface. What if there was a jQuery plugin that made hooking up a 
+tabbed interface super easy? There are plugins for those things and they might come with
+a lot of features and functionality. What if you want the tabs to run down the side of 
+the tabbed interface rather than across the tab? You could do that thing.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-01">1.01 Introduction to jQuery (7:56)</h2>
+<h2 id="ch1-04">1.04 Using Plugins and Essential Steps (4:22)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 03/04.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 10. using plugins and essential steps (1.04) (13) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image010.webp"
+  title="1.04 Using Plugins and Essential Steps"
+  alt="1.04 Using Plugins and Essential Steps."
+  style="border: 2px solid #000000; width:40%;" />
+</p>
+
+
+<p>Using plugins and essential steps, adding plugins to your project, configuring them, and 
+learning how to use them still takes some work and effort. But not nearly as much work 
+and effort as it takes to write the whole script yourself.</p>
+
+<p>Many of the larger, more sophisticated plugins require five steps to get them to work.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 11. using plugins and essential steps, #2 (13) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image011.webp" 
+  title="Using Plugins and Essential Steps, #2"
+  alt="Using Plugins and Essential Steps, #2."
+  style="border: 2px solid #000000; width:50%;" />
+</p>
+
+<b><mark>Step 1</mark></b> is, you have to use the markup indicated by the plugin 
+documentation. Often, you&apos;ll have to use divs or our articles or other elements 
+with particular classes that the plugin needs in order for it to actually work. Classes 
+or IDs or other, structures that the plugin needs to work.
+
+<b><mark>Step 2</mark>,</b> you need to make sure jQuery is linked. The jQuery libraries 
+linked because if you&apos;re using a jQuery plugin, then you need to have jQuery decide 
+if you&apos;re going to put your scripts at the top of the page or at the bottom of the 
+page. Sometimes you can put them whichever place you want, sometimes the plugin directions 
+will tell you to put them in one place or the other. But frequently you can make your own 
+decision on this and put it where you want it to go and architect your file the way you 
+want it to be structured.
+
+<b><mark>Step 3</mark>,</b> is to link the plugin file and when you download a plugin, 
+frequently it will come with a compressed version and an uncompressed version. The 
+uncompressed version is there for you to look at so you could see how the plugin 
+actually functions, it&apos;s readable JavaScript, and you can do that kind of thing. 
+But when you&apos;re ready to put it into your project and for your production ready 
+project, you want to use the compressed version because it will be smaller, and it&apos;ll
+download faster. So, if they provide a compressed one, then you should use that, if they 
+don&apos;t provide a compressed one, you can compress it yourself.
+
+<b><mark>Step 4</mark>,</b> link to the plug in CSS file, some of the fancier plugins 
+will come with styling that will style the elements inside of the plugin. And, this is 
+usually included so that everything looks and works the way it&apos;s supposed to work 
+within the interface for that plugin, so you want to make sure you get that CSS file 
+linked onto your page.
+
+Then <b><mark>Step 5</mark></b>, is you need to initialize the setup of the plugin in 
+your own script tag, or on your own linked JavaScript file. Often, you can set additional 
+options so that when the function is initialized, and so that you can pass in whichever 
+options will get the plugin to display the way you want it to display, but you want to 
+make sure that this script loads last. The order of things are that you will have the 
+markup for the jQuery plugin, then you&apos;ll have jQuery, then the jQuery plugin, and 
+then you will initialize the plugin on your own script. And then also make sure that if 
+there&apos;s any CSS files, those are included as well.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. documentation mish-mash (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image012.webp"
+  title="Documentation Mish-Mash"
+  alt="Documentation Mish-Mash."
+  style="border: 2px solid #000000; width:50%;" />
+</p>
+
+Suppose you find a jQuery plugin you want to try on your website, how do you go about 
+adding it to your page? How do you know what to do? Because these plugins are all made 
+by different developers or groups of developers, there&apos;s no real standard in terms 
+of the documentation. This is where having a solid foundation in JavaScript really helps,
+because you need to look at the documentation they provide, and be able to tease it out 
+and go okay, I understand what they&apos;re asking me to do here.
+
+On this page they&apos;re telling me to install the plugin like this and then add these 
+configuration options, and so on and so forth. And unless you have some experience with 
+JavaScript, it&apos;s going to look like a bunch of messy code and it&apos;s not going to 
+make a lot of sense. So that&apos;s why it&apos;s really helpful to have a solid JavaScript 
+foundation, before trying to mess around with this stuff. But now that you do, and you&apos;ll 
+see once you work with a few plugins that many of them work pretty much the same way. The 
+documentation may look a little bit different; the directions may be written a little bit 
+different, but it&apos;s the same basic steps each time.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-05">1.05. Gotchas and Rookie Mistakes (8:52)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 13. gotchas and rookie mistakes (1.05) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image013.webp"
+  title="Gotchas and Rookie Mistakes"
+  alt="Gotchas and Rookie Mistakes."
+  style="border: 2px solid #000000; width:40%;" />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. gotchas and rookie mistakes, #2 (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image014.webp" 
+  title="Gotchas and Rookie Mistakes, #2"
+  alt="Gotchas and Rookie Mistakes, #2."
+  style="border: 2px solid #000000; width:50%;" />
+</p>
+
+<b><mark>Number 1</mark></b> on this list is the biggest one, I see this all
+the time, especially with students who are new to working with
+JavaScript in jQuery, and that is ending up with multiple copies of the
+jQuery library linked to your page.
+
+Only load the jQuery library once. You may have multiple plugins, but
+you should only load one copy of the jQuery library, which is used by
+all the plugins. What happens is you find a plugin that add some
+interesting functionality web page. You follow the directions and load
+the jQuery library and do all the directions to make that plugin work.
+Then you find another plugin that does something else that you want to
+use. You follow the directions and that page and it tells you to load
+the jQuery library and to load the plugins. You follow those directions
+and then in the end, you end up with the jQuery library loaded twice.
+Frequently, when you download these plugins, they&apos;ll include a copy of
+the jQuery library. You&apos;ll follow the directions, you&apos;ll link up one,
+then you&apos;ll think of another.
+
+It turns out that the two plugins hooked up actually are using different
+versions of the same jQuery library. Now you&apos;ve got two different
+versions of the jQuery library linked up, and that&apos;s going to cause all
+problems and things will break and it won&apos;t work right. You want to
+make sure you only ever have one copy of the jQuery library plugin. I&apos;m
+saying this now, but I promise it&apos;ll happen. How I see this is the most
+common error that I see from students who are working with jQuery is the
+follow the directions and they wind up with multiple copies, different
+versions of the jQuery library plugged in. That&apos;s the number 1 Gotcha.
+It happens a lot.
+
+The second, <b><mark>number 2</mark></b> thing is file management. When you
+download a plugin, sometimes plugins require other files, whether it&apos;s
+CSS files or maybe an images folder, fonts or something else. You want
+to make sure that when you put those files in your folder, everything is
+going into the correct spot and is linked properly. Because for the web,
+remember, everything is linked. All the files are linked to each other.
+If those links become broken, then your project won&apos;t work and it
+won&apos;t work properly. Make sure you have all the correct files and all
+the correct places for the plugin to work. That&apos;s <b>number 2</b>, those
+two issues comprise 90 percent of the problems that people have with
+plugins, it&apos;s probably those two problems.
+
+The next thing, <b><mark>number 3</mark></b> is top of the page versus bottom
+of the page. Make sure you&apos;re placing your plugins scripts in the
+correct place. Some of them may require you to load jQuery up at the top
+of the page. Usually, you can put them where you want as long as you run
+the scripts properly.
+
+But make sure you have a strategy for where your JavaScript is going to
+load, whether you&apos;re going to have it load at the bottom of the page
+before the closing body tag, or whether you&apos;re going to put the links
+to scripts up in the top of the page and maybe use the defer attribute
+to make sure they don&apos;t load into the whole page is loaded. Keep that
+in mind.
+
+Now, jQuery has a document ready method, <b><mark>number 4</mark></b> that will check 
+to see that the DOM is flooded before anything inside the <b>document_ready</b> function 
+runs. That&apos;s just checking to make sure your HTML is loaded. Sometimes people will 
+provide plugins and tell you to use the document ready function. You&apos;ll need that 
+if you&apos;re up at the top of the page and you&apos;re not using the deferred attribute. 
+But if you put it at the bottom of the page, you may not need it.
+
+There&apos;s also a window load method, and that&apos;s in older versions of jQuery 
+version 2 and lower. It&apos;s now been replaced with <b>window.on</b> and the load and
+you pass in load as the event that we&apos;re looking for and then run an anonymous 
+function, which is what we used in the previous lesson with the sliders. Be aware about 
+these different functions, what they do, which versions of jQuery they work with and that 
+stuff, because if you&apos;re reading the documentation for a plugin, it could be older
+documentation. If their documentation is telling you to use <b>window.load,</b> but 
+you&apos;re using the most recent version of the jQuery library, you&apos;ll have to 
+switch it to the <b>window.on</b> method and use that one instead. You want to make sure 
+that you&apos;re using these functions properly. Really where you&apos;re going to use 
+these is just where you&apos;re initializing your script. Has nothing to do with loading
+the actual script file or the plugin file. This is where you initialize your script on 
+your page where you&apos;re tying the plugin to run. You&apos;ll need to make sure you 
+use these functions properly.
+
+Then the last, <b><mark>number 5</mark></b> is overriding CSS on your stylesheet. If 
+you want to customize the look of the plugin and you should put your rules that override 
+the styles they&apos;ve set on their specified CSS file, on your CSS file and then make 
+sure your CSS file loads last. That way, when your CSS loads, it will override the access
+on their stylesheet. You don&apos;t want to overwrite the styles on their access file 
+because if you ever update the plugin files, you&apos;ll lose that and you&apos;ll have 
+to do it again. You want to make sure you put it on your CSS file.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. 5 items of beware the plugin (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image015.webp" 
+  title="5 Items of Beware the Plugins"
+  alt="5 Items of Beware the Plugins."
+  style="border: 2px solid #000000; width:50%;" />
+</p>
+
+One last topic that I have to talk about before we&apos;re done with this
+lecture and plugins is just to beware of the plug in. Plugins can add
+bloat to your project with a lot of additional code that you may not
+need. All of the features, plugged features that are programmed into the
+plugin, but you may be only using one or two. That&apos;s something to be
+aware of. Without modification, plugins can make your site look generic,
+so if you&apos;re not updating the CSS file or adding your own styles to it,
+then it could look the same as everybody else&apos;s website.
+
+Plugins can turn us into lazy designers looking for a quick fix. Rather
+than actually trying to solve our interaction design problem, we go look
+for a plugin that looks cool and interesting. That may not really be the
+right fit for a project just to avoid having to do some custom code.
+Watch out for that.
+
+Also, plugins can be poorly written. They can have all bugs built into
+them because they&apos;re made by other developers. You don&apos;t really know.
+You really have to test them out and research them, find out who else is
+using them, what problems if they had, what sorts of things work well
+with them. It&apos;ll take time to do the research, but probably less time
+than actually writing the code yourself from scratch if it&apos;s an
+extensive plugin. It&apos;s worth it to make sure that the plugin you&apos;re
+using is really worthwhile.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. looking to the future (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image016.webp"
+  title="Looking to the Future"
+  alt="Looking to the Future."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Getting used to using other people&apos;s code now via jQuery plugins is a
+good preparation for the future. If you get deeper into JavaScript
+coding, we might use other repositories of shared code, such as NPM,
+which is the world&apos;s largest software registry. Then having experience
+with jQuery plug ins will really help you out. It&apos;s very common in the
+software development world to be working on modularized blocks of code
+and working with plugins can be seen as an introduction to that way of
+thinking and working where you&apos;re taking functionality and separating
+it out into a separate file and then plugging it in. You have access to
+that. It&apos;s a really great way of thinking and working with JavaScript
+in jQuery in general and getting used to that here will help prepare you
+for a future as a JavaScript developer.
+
+<h3>PDF, FlexSlider Basic START ZIP &amp; FlexSlider Plugin ZIP</h3>
+
+Here is a PDF of the presentation slides used in the lessons for this
+section:
+
+<h4>jQuery Plugins PDF</h4>
+
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/W04DM/pdf-of-presentation" 
+    target="_blank" rel="noreferrer noopener">1.05 jQueryPlugins.pdf (download)</a></li>
+</ul>
+
+Attached is a zip file of the things you need to begin this exercise. A
+<b>zip file</b> is defined as: a computer file whose contents include one
+or more files that are compressed for storage or transmission, often
+carrying the extension .ZIP.
+
+
+<h4>START Files: FlexSlider &amp; jQuery Plugins</h4>
+
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider" 
+    target="_blank" rel="noopener noreferrer">1.05 FlexSliderBasic-START.zip (download)</a></li>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider"
+    target="_blank" rel="noopener noreferrer">1.05 FlexSliderPlugin.zip (download)</a></li>
+</ul>
+
+<h4>Additional Resource:</h4>
+
+<ul>
+  <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/"
+    target="_blank" rel="noopener noreferrer">How to open a zip file for either Mac or PC</a></li>
+</ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-06">1.06 FlexSlider: A jQuery Plugin (6:38)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. flexslider: a jquery plugin (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image017.webp" 
+  title="1.06 FlexSlider: A jQuery Plugin"
+  alt="1.06 FlexSlider: A jQuery Plugin."
+  style="border: 2px solid black; width:40%;" />
+</p>
+
+Now that we&apos;ve talked about jQuery plug-ins a bit, let&apos;s take a look
+at one that we can use to add a significant amount of interface options
+to our page.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. basic flexslider (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image018.webp"
+  title="Basic FlexSlider"
+  alt="Basic FlexSlider."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+The FlexSlider is a good one to look at. Partially because we&apos;ve been
+working on image sliders, so, we come to this with the context of having
+created some sliders on our own, so, we can see what this particular
+plug-in has offered that&apos;s different from what we coated ourselves in
+the previous lessons. That&apos;s fun.
+
+The other thing that&apos;s nice about FlexSlider, it&apos;s called FlexSlider
+because it&apos;s a responsive slider.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 19/20. responsive kittens for sale (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image003.png?raw=true"
-  style="width:35%"
+<img src="./images/image019.webp?raw=true"
+  style="width:45%"
+  title="Responsive Kittens for Sale Web Page, #1"
+  alt="Responsive Kittens for Sale Web Page, #1." />
+<img src="./images/image020.webp?raw=true"
+  style="width:45%"
+  title="Responsive Kittens for Sale Web Page, #2"
+  alt="Responsive Kittens for Sale Web Page, #2." />
+</p>
+
+I&apos;ve opened up the page over here and you can see if I pull this off
+and resize it, the page is responsive and it squishes and stretches, and
+so, we can actually create a slider that will work for different screen
+sizes using FlexSlider. That&apos;s fun.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. markup for web site (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image021.webp" 
+  title="Markup for Kittens for Sale Web Page"
+  alt="Markup for Kittens for Sale Web Page."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+If you look at the markup, you&apos;ll notice that it&apos;s pretty basic. If
+you download the start files that come with this lesson, I have in here
+some basic markup.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 22/23. responsive kittens for sale (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image022.webp?raw=true"
+  style="width:45%"
+  title="Responsive Kittens for Sale Web Page, #1"
+  alt="Responsive Kittens for Sale Web Page, #1." />
+<img src="./images/image023.webp?raw=true"
+  style="width:45%"
+  title="Responsive Kittens for Sale Web Page, #2"
+  alt="Responsive Kittens for Sale Web Page, #2." />
+</p>
+
+This is where the actual slider will go, and then I&apos;ve just got some
+columns and some articles, and then the styling is all in place on the
+CSS file that includes some media queries for when the screen gets
+larger or smaller. The media queries, will handle the sizing of stuff on
+the page, and there&apos;s just a few rules in there just because this is
+pretty basic, but there we have it. We&apos;ll make a slider about kittens
+because, who doesn&apos;t love kittens? Kittens are awesome.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. responsive media queries (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image024.webp" 
+  title="Responsive Media Queries"
+  alt="Responsive Media Queries."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+We looked at the media queries and they&apos;ll handle the screen if it&apos;s
+wider than 600 pixels. Up to 600 pixels you just get a very basic
+layout, and then once you get larger than that, it will give you a more
+of a layout on the page with the columns. Okay.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. flexslider website (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image025.webp" 
+  title="FlexSlider Website"
+  alt="FlexSlider Website."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+Then the next thing is the FlexSlider Website and the FlexSlider Script.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. flexslider website, #2 (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image026.webp" 
+  title="FlexSlider Website, #2"
+  alt="FlexSlider Website, #2."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+If you go to the FlexSlider Website, which is here, you can download
+FlexSlider or you can click on the Live Demo. It&apos;s posted by
+WooCommerce and they have the basic directions here with some additional
+functionality that we&apos;ll look at, and this is the documentation for how
+to use FlexSlider right here on this page, and you can download the
+files to get started. However, I&apos;ve already provided the same files
+with this lesson, so, you don&apos;t have to go there and download them,
+they&apos;re also included with this lesson.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. flexslider website, #3 (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image027.webp"
+  title="FlexSlider Website, #3"
+  alt="FlexSlider Website, #3."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+Get those files first by either clicking the Download button here or by
+downloading the FlexSlider files of this lesson.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 28. files needed: flexslider website (25) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image028.webp" 
+  title="Files Needed for FlexSlider Website"
+  alt="Files Needed for FlexSlider Website."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+Now, when you get those files, the FlexSlider files, you&apos;re going to
+need to figure out what you need in order to actually make the
+FlexSlider work in your project. This is a little bit confusing,
+especially if you&apos;re not that familiar with this thing. Let me go
+through it carefully, because you&apos;re likely to run into this with other
+plug-ins as well.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 29/30. folder with website and images (26) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image029.webp?raw=true"
+  style="width:45%"
+  title="Folder with website"
+  alt="Folder with website." />
+<img src="./images/image030.webp?raw=true"
+  style="width:45%"
+  title="Folder with images"
+  alt="Folder with images." />
+</p>
+
+Here on the left, I have my folder with my website in it, that&apos;s my
+index page, I&apos;ve got a JavaScript file, I&apos;ve got slides which have
+different slides for the different pictures of the kittens, and I&apos;ve
+got my style-sheet, that&apos;s what&apos;s in my folder.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31/32. unzipped download files (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image031.webp?raw=true"
+  style="width:45%"
+  title="Unzipped download files"
+  alt="Unzipped download files." />
+<img src="./images/image032.webp?raw=true"
+  style="width:45%"
+  title="Other unzipped download files"
+  alt="Other unzipped download files." />
+</p>
+
+Over here, these are the files that got downloaded. When I unzipped the
+FlexSlider folder this is what I got. You might wonder what some of this
+stuff is, bower-components and <b>bower.json</b>. Bower is a build tool
+that&apos;s used to combine stuff together, so, we can ignore those. The
+change-log will show different versions of the program, composer is a
+different build tool, contributing is another file that talks about it.
+If you look in the CSS folder, you&apos;ll see there&apos;s a bunch of 'less'
+files that compile down into basic CSS files, so, we don&apos;t need that.
+The Demo will run to show the Demos of the different versions of the
+FlexSlider, so, you don&apos;t need those files, but you can look at them if
+you want to. Then we&apos;ve got some files down here. We&apos;ve got a less
+version, we&apos;ve got a CSS, we got an rtl.css and rtl-min.css, fonts,
+images, all this stuff.
+
+Really the only things that we need in our folder are the actual plugin
+and we want the minified version, notice here, the non-minified version
+is 57KB, the minified version is less than half of that in size. We want
+people to have to download the smallest file possible. We need the CSS
+file and we&apos;re actually going to need this fonts folder. The fonts
+folder includes a font that as the next button in the previous button
+that will show up on the slider, so, we need that in order for this
+'next' and 'previous' buttons to load properly. We will need that as
+well.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 33/34. flexslider.css, fonts & minified flexslider (27) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image033.webp?raw=true"
+  style="width:45%"
+  title="flexslider.css, fonts and jquery.flexslider-min.js"
+  alt="flexslider.css, fonts and jquery.flexslider-min.js." />
+<img src="./images/image034.webp?raw=true"
+  style="width:45%"
+  title="flexslider.css, fonts and jquery.flexslider-min.js"
+  alt="flexslider.css, fonts and jquery.flexslider-min.js." />
+</p>
+
+I&apos;m going to grab the FlexSlider.css, the fonts, and the minified
+version of FlexSlider. Just those three files, the rest of it I don&apos;t
+need. I&apos;m going to put them into my project folder over here so that I
+have them, and that gets us all the files that we need in order to get
+started for this project.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-07">1.07 About the Minified Version (5:55)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 35. about the minified version (1.07) (27) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image035.webp"
+  title="1.07 About the Minified Version"
+  alt="1.07 About the Minified Version."
+  style="border: 2px solid gray; width:40%;" />
+</p>
+
+And again, I&apos;m just repeating myself here but it&apos;s really important
+that you understand this.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. minified vs non-minified (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image036.png"
+  title="Minified vs. Non-Minified jQuery FlexSlider.js"
+  alt="Minified vs. Non-Minified jQuery FlexSlider.js."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+The Minified version is the same file with all the same with all the
+white space removed and a few other things done to make the file smaller
+and faster to download. Use that version if it&apos;s available for any plug
+in that you want to use. The non-modified version is available if you
+want to see the actual JavaScript or maybe even edited, but you&apos;ll
+probably never want to do that. So, we&apos;ll always use the Minified
+version.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 37. add javascript flexslider files (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image037.webp"
+  title="Add 3 files to project: flexslider.css, jquery.flexslider-min.js and fonts"
+  alt="Add 3 files to project: flexslider.css, jquery.flexslider-min.js and fonts."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+And again, these are the files that we actually need for our project.
+So, we&apos;re going to copy them over and put them into our project folder
+just like you see here and just like we did just a minute ago in the
+previous lesson.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. add 3 files to head of index (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image038.webp"
+  title="Add stylesheet and 2 javascript files to head of index"
+  alt="Add stylesheet and 2 javascript files to head of index."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+Next, it&apos;s about following the directions to make the Flex slider work,
+and you can come back to the Flexslider website and I recommend that
+you do this. Even though I&apos;m going to walk through doing it with you,
+it&apos;s good to sort of come in here and see how these directions are
+written and to understand what the steps are.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 39. link to 3 files and add markup (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image039.webp"
+  title="Link files and add markup"
+  alt="Link files and add markup."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+First, link the files, then add the markup, then hook up your slider,
+and then tailor its units with special stuff down here. And if you&apos;re
+new to this, this may look a little bit confusing and difficult, but
+it&apos;s really not. And, also it may be written differently for different
+plug ins. It&apos;s important to know a little bit about how JavaScript
+works in order to get this stuff to work, right? Once you&apos;ve done it a
+few times for a few different plug ins, you&apos;ll see there&apos;s a lot of
+similarities.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. following directions (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image040.webp"
+  title="Following Directions"
+  alt="Following Directions."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+All right, so let&apos;s go through this together. So, you can see what I
+mean about how to do this.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. styles.css and load jquery (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image041.webp"
+  title="styles.css and load jQuery"
+  alt="styles.css and load jQuery."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 42/43. where to put scripts, css & js (31) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image042.webp?raw=true"
+  style="width:45%"
+  title="Where to put styles and scripts within HTML"
+  alt="Where to put styles and scripts withing HTML." />
+<img src="./images/image043.webp?raw=true"
+  style="width:45%"
+  title="Where to put styles and scripts within HTML"
+  alt="Where to put styles and scripts within HTML." />
+</p>
+
+First, we can look at where these scripts go, and over here, notice this
+one is listing jQuery 1.6.2, that&apos;s a really old version of jQuery. And
+then we&apos;ve got the flexslider JS here, we&apos;ve got the CSS file. I&apos;d
+rather load up the most recent version of jQuery rather than the old
+version of jQuery.
+
+Let&apos;s go over to our files over here. And on our index page, up at the
+top of the page, this is where we want to put a link to the flexslider
+CSS. So, I&apos;m just going to add a link here, link href = &quot;
+flexslider.css&quot;. Don&apos;t forget rel =&quot;stylesheet&quot;, and make sure you
+spell style sheet right. Okay, so that will link that up. You can see
+I&apos;ve got jquery 2.2.4 loaded here, as opposed to the 1.6.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. jquery version to load (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image044.webp"
+  title="jQuery version to load"
+  alt="jQuery version to load."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+But I&apos;m actually going to load the most recent version of jQuery. So,
+I&apos;m going to come back here and I&apos;m going to go and look for jquery
+cdn in google, Google Hosted Libraries. I&apos;m going to go find jquery.
+And here is the latest version of jquery. You&apos;ll notice it&apos;s been
+updated recently to 3.6, okay. So, I&apos;m going to replace this version of
+jquery with that one.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 45. load jquery at bottom of screen (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image045.webp"
+  title="Load jQuery at bottom of screen"
+  alt="Load jQuery at bottom of screen."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+But notice I need to go back and add the <b>defer</b>, I want to put
+<b>defer</b> back in here because really, I want this script to load at the
+bottom of the screen. Okay, now I want to load the jQuery Flexslider
+script.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. add scripts to index.html (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image046.webp"
+  title="Where to add scripts to index.html"
+  alt="Where to add scripts to index.html."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+So, I&apos;m going to put that in here, script src equals quote, and I want
+this one, that&apos;s the plug in. I&apos;m going to load that one next, and
+then I&apos;ve got my script file here and it&apos;s currently empty, but I want
+to load that file last, script as we are seeing, equals quote
+myscript.js. There we go, I&apos;ve got the files loaded. So, what&apos;s the
+next thing that we need to do? If we come back to the directions, it
+says place somewhere in the head of your document.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 47. defer scripts loading; jquery, plugin, my script (33) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image047.webp"
+  title="Defer script load; jQuery libary, then plugins, then my script"
+  alt="Defer script load; jQuery libary, then plugins, then my script."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+The other thing I want to do is I want to put the defer attribute on my
+script. Let&apos;s do that too. Because we want to make sure that it loads
+after the jQuery library. So, I want to put defer here, and defer down
+here. So, that they will load in this order, first this library, then
+the plug in, then my script. And they&apos;ll load after the rest of the
+page is loaded, just to be certain. So, we&apos;ve got that, okay.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 48. add markup with div, flexslider, ul and li images (33) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image048.webp"
+  title="Add Markup container with div, FlexSlider, ul and li images"
+  alt="Add Markup container with div, FlexSlider, ul and li images."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+The next thing we need to do is to add the markup, and this is the
+markup this plug in expects. It expects a <b>div</b> with the class,
+<b>Flexslider</b>, and a <b>ul</b> with the class slides, then list items with
+the images inside of it, and we&apos;ll do that in the next lesson.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-08">1.08 Adding Markup & Hooking Up the Slider  (7:33)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 49. adding markup and hooking up the slider (34) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image049.webp"
+  title="1.08 Adding Markup and Hooking Up the Slider"
+  alt="1.08 Adding Markup and Hooking Up the Slider."
+  style="border: 2px solid gray; width:40%;" />
+</p>
+
+In the last lesson, we got all of our files linked and everything hooked
+up so that it should all be ready to work. You want to make sure that
+your stylesheet loads after the FlexSlider style sheets, that you can
+modify changes there. We&apos;ll get to more on that later.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 50. step 2, add markup div, ul and li images (34) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image050.webp"
+  title="Step 2 FlexSlider, add markup, div, ul and li images"
+  alt="Step 2 FlexSlider, add markup, div, ul and li images."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+Now, we&apos;re ready to actually come down here and make our markup work
+the way it&apos;s supposed to work. If we come back to our slides and our
+directions, it says to make the markup look like this. This is what we
+need to do. This is what this particular script requires. It requires a
+div with the class of FlexSlider and unordered list of the class of
+slides, and then we can actually put our images inside each list item
+for that unordered list.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 51. index.html, div class='flexslider' (35) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image051.webp"
+  title="Add Flexslider class to div and slides class to ul"
+  alt="Add Flexslider class to div and slides class to ul."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+Let&apos;s go over here and set this up the same way. We need a div, we need
+a class, equals FlexSlider on here. This needs a class equals slides.
+Then down here, we can have list items with our different pictures in
+here, and I&apos;m just going to copy this one and paste it. Over here in
+the folder, I have slides and I have seven of them. I have seven kittens
+here. Let&apos;s go ahead and add the six more times. 1,2,3,4,5,6, and then
+just change these numbers, 2, 3, 4, 5, 6, and 7. That will give us seven
+slides with seven kittens, one on each side. That&apos;s great.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. verify classes on div and ul (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image052.webp"
+  title="Add class to div and ul in index.html"
+  alt="Add class to div and ul in index.html."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+Now we&apos;ve got our markup looking the way that it needs to look for our
+project. What&apos;s the next thing that we need to do? We did the markup,
+we got that all in, so that&apos;s great.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 53. step 3, add to head of index.html (36) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image053.webp"
+  title="Step 3, add to head of index.html"
+  alt="Step 3, add to head of index.html."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+Step 3, directions. Hook up the <b>FlexSlider</b>. This thing says to use
+the <b>window.load</b> function. Now, I happen to know that the
+<b>window.load</b> function does not work with the latest version of
+jQuery, but that&apos;s okay. This is what it says down here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. update myscript.js (37) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image054.webp"
+  title="Add functions to MyScript.js"
+  alt="Add functions to MyScript.js."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+
+We could just copy this, <b>window.load</b> function here. This place after
+these links, script type JavaScript. But we&apos;re going to put this not
+inside script tags, but we already have a separate file called
+<b>MyScript</b> that&apos;s linked up here. That&apos;s this one here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 55. on load, run flexslider function (37) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image055.webp"
+  title="MyScript.js: Add Flexslider function"
+  alt="MyScript.js: Add Flexslider function."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+I&apos;m going to put it on there, <b>MyScript</b>. Take <b>FlexSlider</b> and
+make it run. This says jQuery, go get this <b>FlexSlider</b> element, dot
+<b>FlexSlider</b>. Remember, we put that class on the <b>FlexSlider</b> and
+run the <b>FlexSlider</b> function here. Now, this function exists because
+we have the plug-in. The plug-in is defining this function. This is in
+addition to jQuery and it wouldn&apos;t exist otherwise. We&apos;re putting it
+inside window load because we want to make sure all the images offloaded
+before we can actually start making the slider run. So, we want to make
+that happen first. But I happen to know that this isn&apos;t going to work
+because the <b>window.load</b> function is deprecated and they want us to
+use <b>window.on</b> instead. But let&apos;s just test it anyway.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 56/57. example test, verify jquery version # (38) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image056.webp?raw=true"
+  style="width:45%"
+  title="Example test, verify correct jquery.min.js is loaded"
+  alt="Example test, verify correct jquery.min.js is loaded." />
+<img src="./images/image057.webp?raw=true"
+  style="width:45%"
+  title="Inspect jQuery and FlexSlider code"
+  alt="Inspect jQuery and FlexSlider code." />
+</p>
+
+If I come over here and refresh this page, you&apos;ll notice the FlexSlider
+is not here. If I do inspect and then come over to the console, index
+self is not a function. If you&apos;re seeing this stuff where the problem
+is actually in the jQuery library, <b>jquery.min.js:2</b>, function load,
+this is a really good indicator that something&apos;s wrong with jQuery
+itself. It&apos;s not anything we did. It&apos;s actually jQuery. What&apos;s wrong
+here is that the latest version of jQuery does not support this file.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58. jquery snippet (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image058.webp"
+  title="jQuery snippet"
+  alt="jQuery snippet."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 59. load defer jquery in index.html (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image059.webp"
+  title="Load correct version of jQuery defer in index.html"
+  alt="Load correct version of jQuery defer in index.html."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+Now, if I were to go back to my hosted libraries and take this one
+instead, and come back here and replace it, you&apos;ll see that it&apos;ll work
+if I put this up here instead of the newest version. When I put that in
+there, put my defer back in, and now if I go test the page, you&apos;ll see
+that it works. Close this, refresh.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 60. example, test kittens for sale (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image060.webp"
+  title="Example, test Kittens For Sale"
+  alt="Example, test Kittens For Sale."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+Look at that, we have a kitten slider, and it&apos;s working, I get my
+errors, I get these buttons down here, so I&apos;ve got this additional
+functionality, and it&apos;s working. It&apos;s doing everything it&apos;s supposed
+to do.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 61/62. again, validate jquery version (40) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image061.webp?raw=true"
+  style="width:45%"
+  title="index.html load jQuery with correct version"
+  alt="index.html load jQuery with correct version." />
+<img src="./images/image062.webp?raw=true"
+  style="width:45%"
+  title="Run Flexslider from myscript.js"
+  alt="Run Flexslider from myscript.js." />
+</p>
+
+But what if I really want to have the latest version of jQuery? Well,
+this is where knowing a little bit of JavaScript and a little bit of
+jQuery really helps, because I know that this load method here has been
+replaced. It&apos;s been deprecated. You could go look that up on the jQuery
+website if you wanted to.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63/64. again, validate jquery (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image063.webp?raw=true"
+  style="width:45%"
+  title="Load jQuery version"
+  alt="Load jQuery version." />
+<img src="./images/image064.webp?raw=true"
+  style="width:45%"
+  title="Test example Flexslider"
+  alt="Test example Flexslider." />
+</p>
+
+But I&apos;m going to come back here and I&apos;m going to command Z and put
+this back to the version 3.6 and save that.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. test example scroll (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image065.webp"
+  title="Test example scroll"
+  alt="Test example scroll."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+Over here instead of load I&apos;m going to use on, and in here, I&apos;m going
+to put on load as an event and then run the function and watch this.
+That should work. Make sure both files are saved, come back and refresh
+and look at that, it works fine using the on method, the more up-to-date
+method.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 66/67. fonts load and example tests (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image066.webp?raw=true"
+  style="width:45%"
+  title="Verify fonts reside in correct folder"
+  alt="Verify fonts reside in correct folder." />
+<img src="./images/image067.webp?raw=true"
+  style="width:45%"
+  title="Example test fonts and FlexSlider"
+  alt="Example test fonts and FlexSlider." />
+</p>
+
+Okay, great. Now, while we&apos;re here, let me just do one other thing.
+Suppose I forgot something. This is the thing that is often forgotten
+here is what if I forgot to include this fonts folder in my files? I&apos;m
+going to move that to the trash. Come back here and refresh this. Use
+these boxes instead of the arrows.
+
+That&apos;s what that fonts thing is actually doing. It&apos;s just providing
+the fonts there. Could you do something other than those arrows? Yes,
+you can. You can customize the slider so it doesn&apos;t use those arrows.
+But for right now, let&apos;s just leave it at the default, which means I
+want to leave these arrows, that fonts folder back over there because
+the script is making use of that in order to put those arrows on the
+page. There they are, they&apos;re back again. Okay, great. We&apos;ve got the
+basic slider working, now we can talk about what else we need to do with
+it and we&apos;ll do that in the next lesson.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-09">1.09 FlexSlider Rules</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. flexslider rules (1.09) (42) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image068.webp"
+  title="1.09 FlexSlider Rules"
+  alt="1.09 FlexSlider Rules."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+In the last lesson (1.08), we got the Flexslider working, and it&apos;s
+working great. It&apos;s functional. All the pieces are functioning, but
+it&apos;s got some weird issues that we need to fix in terms of the layout
+in the styling.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 69/70. test example kittens for sale (42) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image069.webp?raw=true"
+  style="width:45%"
+  title="Inspect flexslider element style for each image"
+  alt="Inspect flexslider element style for each image." />
+<img src="./images/image070.webp?raw=true"
+  style="width:45%"
+  title="FlexSliderBasic-Start index.html"
+  alt="FlexSliderBasic-Start index.html." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 71/72. flexslider rules in styles.css (43) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image071.webp?raw=true"
+  style="width:45%"
+  title="FlexSlider Rules"
+  alt="FlexSlider Rules." />
+<img src="./images/image072.webp?raw=true"
+  style="width:45%"
+  title="Update styles for flexslider class"
+  alt="Update styles for flexslider class." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 73/74. it should be working, test (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image073.webp?raw=true"
+  style="width:45%"
+  title="It Should Be Working.  If not, fine tune it"
+  alt="It Should Be Working.  If not, fine tune it." />
+<img src="./images/image074.webp?raw=true"
+  style="width:45%"
+  title="Test, example scroll left and right"
+  alt="Test, example scroll left and right." />
+</p>
+
+For example, why is my Flexslider sticking out on the edge over here?
+What&apos;s up with this gap? What if I wanted to change the color of these
+dots down here? These are things that I can adjust if I start poking
+around in the CSS. If I right click on this and choose &quot;Inspect&quot;,
+I&apos;ll get my inspector up over here and I can actually see if I come in
+here to &quot;My Class&quot; Flexslider here that it&apos;s got some margin on it
+here. Let&apos;s see what else does it have here?
+
+If we want to adjust the border, we can make a rule on our own style
+sheet that attaches to dot Flexslider. We don&apos;t want to adjust their
+style sheet. If I wanted to get rid of that border, I could go poking
+around in these files for the jQuery Flexslider CSS. That&apos;s the actual
+minimized file. There was the Flexslider CSS. I could go poking around
+in here and see if I can make changes here, but I don&apos;t want to do that
+because if I ever update this slider script to a newer version, I don&apos;t
+want to lose any changes that I&apos;ve made. This is one of the main
+reasons why I want to make sure that my CSS file loads after their CSS
+file because if I can add a rule on my CSS file that says dot
+Flexslider, then I can override the rule over here.
+
+I want to rule for dot Flexslider, I want to set the margin to this zero
+20 pixels. Zero on the top and bottom, 20 pixels in the left and right,
+border none, border radius zero. That will clear out some of those
+styles and clean-up the styling of the actual Flexslider. Let&apos;s add
+that to ours. How do I know that? Just by poking around in their CSS
+file. I want to make sure I&apos;m on my CSS file.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 75/76. media queries, flexslider styles (44) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image075.webp?raw=true"
+  style="width:45%"
+  title="Verify media queries"
+  alt="Verify media queries." />
+<img src="./images/image076.webp?raw=true"
+  style="width:45%"
+  title="Test, example styles"
+  alt="Test, example styles." />
+</p>
+
+Then somewhere in here you can put it wherever you want, it doesn&apos;t
+really matter. Make sure it goes above the media queries. I&apos;m going to
+make a comment here that says, &quot;Flexslider styles&quot; and in here I can
+make a real dot Flexslider. Margin I want it zero in the top and bottom
+and 20 pixels in left and right, I want <b>border;none</b>. No border at
+all and border radius zero to give it square edges. Just with that one
+rule in place here, if I come back and check my page, you&apos;ll notice the
+Flexslider looks better here. It&apos;s fitting into the space well, and
+I&apos;ve got rid of that gap and all that stuff.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. inspect example site (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image076.webp"
+  title="Inspect example site: Kittens For Sale"
+  alt="Inspect example site: Kittens For Sale."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+Down here, I still want to adjust these buttons a little bit. I mean,
+inspect again. Maybe move my inspector to the side and it&apos;s this thing
+here, dot flex-control-paging li a.flex-active. That&apos;s the class
+that&apos;s changing the colors on these buttons here. That&apos;s the one that
+I want to actually attach to.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 77. border, margin, radius, background-color (45) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image077.webp"
+  alt="styles.css: border, margin, background-color."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+I&apos;m going to come over here, I&apos;m going to add that rule in here. If I
+want a different color, what did I put on my slides over here? I put
+pound B40205, make it match that. What was it? Just color or is it
+background? Background: #B40205. There we go. That will give me a red
+background color. Save that and come back and test it.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 78. inspect styles, font and color  (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image078.webp"
+  alt="Inspect to fine tune style, font and colors."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+You can see my colors now overriding the color that was there before and
+I can go ahead and click on these things and they all work. That&apos;s
+great. You want to put styling on your own style sheet that will
+override styles on the Flexslider&apos;s CSS to customize it, to make it
+look the way you want it to look. Finding out what those styles are, or
+just a matter of using the inspector and hunting around to see what
+rules are being applied that you might want to change to get it to style
+and look the way you want it to look on your page.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-10">1.10 Additional Controls</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. additional controls (1.10) (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image079.webp"
+  title="1.10 Additional Controls"
+  alt="1.10 Additional Controls."
+  style="border: 2px solid gray; width:40%;" />
+</p>
+
+Your slider should be looking good. We&apos;ve gotten everything in place
+and it&apos;s working.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 80/81. flexslider website options (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image080.webp?raw=true"
+  style="width:45%"
+  title="FlexSlider website options"
+  alt="FlexSlider website options." />
+<img src="./images/image081.webp?raw=true"
+  style="width:45%"
+  title="Test, example website"
+  alt="Test, example website." />
+</p>
+
+It&apos;s functional and it looks good and we&apos;ve adjusted the CSS and all
+that kind of fun stuff. That&apos;s really great. It&apos;s a lot easier to do
+this with just a few lines of code, than having to write all of this
+functionality ourselves, especially since you&apos;ve seen how to make a
+slider. We didn&apos;t include this functionality for being able to have
+these buttons down here, being able to go to slides that way. We could
+have done that manually on our own, but with this plug in, it provides
+it for us automatically and that&apos;s great.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 82/83. options and default values for flexslider (47) ~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image082.webp?raw=true"
+  style="width:45%"
+  title="List of FlexSlider Options and their default values"
+  alt="List of FlexSlider Options and their default values." />
+<img src="./images/image083.webp?raw=true"
+  style="width:45%"
+  title="Additional options and default values"
+  alt="Additional options and default values." />
+</p>
+
+Now, what about all these additional options that show up down here at
+the bottom of the screen? There&apos;s all this stuff down here, and we can
+use this to further customize the functionality of our FlexSlider.
+That&apos;s really cool, but how do you do it? It&apos;s not really clear by
+looking at this exactly what you need to do.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 84. flexslider options, default values (47) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image084.webp"
+  title="FlexSlider Options, default values"
+  alt="FlexSlider Options, default values."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+But basically, what we need to do is we need to pass options in to this
+FlexSlider method here, this FlexSlider method here. We pass them in in
+the form of an object because these things here are look like key value
+pairs that you can pass into an object. It would be really nice if they
+made it really clear on exactly how to do this here on the instructions,
+but if you know some JavaScript and you&apos;re familiar with having done
+this kind of thing before, you&apos;ll figure it out pretty quickly. What
+can we do? Let&apos;s take a look at it.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85. flexslider with options (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image085.webp"
+  title="FlexSlider with Options"
+  alt="FlexSlider with Options."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+Just like we did with the custom enemy method in jQuery, where we can
+pass in an object, curly brace, curly brace, and then we can pass in
+these key value pairs to get the slider to do some different things.
+Let&apos;s give that a try. I know we haven&apos;t really talked a lot about
+objects yet, and we will get into that in more depth in a lesson coming
+up. For right now, we&apos;ll just kind of go with it and get used to the
+syntax because we&apos;ll see it a lot, especially with the plugins.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 86/87. update flexslider options (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image086.webp?raw=true"
+  style="width:45%"
+  title="myscript.js flexslider options"
+  alt="myscript.js flexslider options." />
+<img src="./images/image087.webp?raw=true"
+  style="width:45%"
+  title="Example, using FlexSlider"
+  alt="Example, using FlexSlider." />
+</p>
+
+Let&apos;s come over here and inside our script file here, inside our
+parentheses here, we&apos;re going to add a set of curly braces. Then inside
+these curly braces, we can add different settings. What are the settings
+that we can add? Well, there are these settings over here. For example,
+if you wanted to do animations slide you can set it here, set your
+animation fade or slide. By default, it&apos;s doing fade. Over here, when
+we go from slide to slide, it&apos;s fading from slide to slide. It&apos;s doing
+a fade in fade out. But if we wanted to actually do a slide, we can
+change that to animation slide. You can take this, copy it, and then
+come over to your script and stick this in here, and change this to
+slide. Get rid of the comma, because we only have the one here. If I do
+that, you&apos;ll notice over here immediately.
+
+Refresh, when I click on the next thing, instead of fading it&apos;s
+sliding. Look at that, it loops around. You don&apos;t have to do any
+special programming for that, it&apos;s all built right into the plug in.
+You remember what a trouble that was for us to figure out how to do
+manually. Well, here it&apos;s built in, so we don&apos;t have to really even
+worry about that.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 88/89. other flexslider options (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image088.webp?raw=true"
+  style="width:45%"
+  title="FlexSlider with Options"
+  alt="FlexSlider with Options." />
+<img src="./images/image089.webp?raw=true"
+  style="width:45%"
+  title="myscript.js. Set animation: 'slide' and slideshowSpeed: 2000"
+  alt="myscript.js. Set animation: 'slide' and slideshowSpeed: 2000." />
+</p>
+
+What else can we do? Over here, I had slide, you can set the speed,
+slideshow speed. That&apos;s in here. Slideshows speed. Slide, comma, for
+each one of these in here, you have to put a comma at the end, except
+for the last one. I&apos;m not going to set it to seven seconds that would
+be really long. I&apos;m going to set it to two seconds. That will tell us
+how quickly it&apos;s going to slide from slide to slide automatically. One
+two, one two, there we go. Now it&apos;s going rather quickly, that&apos;s
+great.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 90/91. scroll direction: 'vertical' (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image090.webp?raw=true"
+  style="width:45%"
+  title="Set scroll direction vertical"
+  alt="Set scroll direction vertical." />
+<img src="./images/image091.webp?raw=true"
+  style="width:45%"
+  title="Example, verify scroll direction vertical"
+  alt="Example, verify scroll direction vertical." />
+</p>
+
+What else can we do? We could do direction vertical, if you wanted to
+just slide up and down instead, we could do that. Comma, direction,
+vertical. This has to go in quotes because it&apos;s a word that JavaScript
+doesn&apos;t know, but it knows that one there. It knows what 2,000 is. All
+right, now if you do this, after two seconds, it&apos;s going to go
+vertical.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. example, test vertical scroll (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image092.webp"
+  title="Example, test vertical scroll"
+  alt="Example, test vertical scroll."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+We could do reverse true, so we&apos;ll go from top to bottom instead of
+from bottom to top. Reverse true. True is a word that JavaScript knows.
+Now it&apos;s going from the top to the bottom.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. set pauseonhover = true (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image093.webp"
+  title="pauseonHover: true"
+  alt="pauseonHover: true."
+  style="border: 2px solid gray; width:50%;" />
+</p>
+
+Then finally, another one we could do is pause on hover true. Which is
+in here, you can find it in here somewhere pause on hover. There it is.
+We had set this, this is a feature that we had tried to build into our
+own version, that we did build into our own version. That&apos;s true, and
+when you&apos;re hovering over the slides, they&apos;ll stop.
+
+It&apos;s very nice interface on it, right? Now every two seconds, it&apos;s
+going to go unless I hover over the slides, in which case it&apos;s going to
+stop. It won&apos;t because I want to enjoy these kittens, I want to look at
+them for a while, two seconds isn&apos;t really long enough, so I can really
+enjoy them and look at them for as long as I want. Then, when I stop
+hovering on it, and I&apos;ll wait two seconds and it&apos;ll start going again.
+That functionality is built in as well. That&apos;s great.
+
+It gives us a lot of opportunity to build in a lot of extra
+functionality through these additional features that are here. There&apos;s
+a lot of them. Manual controls, controls container. You can do all kinds
+of things. There are arrows. You could swap those arrows out for
+something else, so that it doesn&apos;t look like every Website you go to
+has FlexSlider on it. It could look the same, because they all have the
+same arrows here, left and right arrows. We can get rid of those and do
+something else that would be kind of interesting and fun.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-11">1.11 Advanced FlexSlider</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. advanced flexslider (1.11) (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image094.webp"
+  alt="1.11 Advanced FlexSlider."
+  style="border: 2px solid gray; width:40%;" />
+</p>
+
+Now that you&apos;ve created the basic FlexSlider, with some advanced
+options, we can really do some different things with this FlexSlider.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 95/96. copy flexslider/rename to kittensadvanced (52) ~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image095.webp?raw=true"
+  style="width:45%"
+  title="Copy and rename advancedFlexSlider to KittensAdvanced"
+  alt="Copy and rename advancedFlexSlider to KittensAdvanced." />
+<img src="./images/image096.webp?raw=true"
+  style="width:45%"
+  title="Copy, rename and verify new folder for FlexSlider changes"
+  alt="Copy, rename and verify new folder for FlexSlider changes." />
+</p>
+
+To do that, it&apos;s nice to keep the basic version working the way it is
+working, so that you have a version of that if you want to refer back to
+it. If you want to, you can duplicate that folder and create a new
+folder and change the name to something like KittensAdvanced, or
+something like that. You can see over here; I have actually changed mine
+here. I don&apos;t need that folder anymore, close that one, but I just
+duplicated and called it advancedSlider.
+
+This set of files is currently exactly the same as that set of files.
+But I&apos;ve made a copy so that I have this version if I want to refer
+back to it, but I&apos;m essentially done with it. Now I&apos;m only going to
+work on the advancedSlider version here. I have that version; these
+files open in my code editor.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 97/98. verify right set of files (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image097.webp?raw=true"
+  style="width:45%"
+  title="Use advancedSlider"
+  alt="Use advancedSlider." />
+<img src="./images/image098.webp?raw=true"
+  style="width:45%"
+  title="Verify your working with the right set of files"
+  alt="Verify your working with the right set of files." />
+</p>
+
+I&apos;ve also switched this over here so that it&apos;s pointing to my
+advancedSlider folder here (see top of image), so that I know that I&apos;m
+working with the right set of files. Make sure you&apos;re working with the
+right set of files in your browser. Make sure you&apos;ve got the right set
+of files in your code editor. Over here you can see it says
+advancedSlider there, so this is my advanced slider files.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. update the markup (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image099.webp"
+  alt="Update the Markup."
+  style="border: 2px solid gray; width:40%;" />
+</p>
+
+Great. Now that I&apos;ve got that into place and I&apos;m ready to really do
+some different things with this FlexSlider, the first thing I want to do
+is, I want to have a fancier version where, I actually have some content
+on top of each slide. Like we did with the JavaScript version of the
+slider, where we had a div on top with the heading and a paragraph in
+there. Then these slides, the actual pictures, were background images on
+the slides. I&apos;m also going to have an animated Call the Action button,
+that will drop down and make it really clear that, what you should do is
+adopt one of these kittens on this lovely Kitten page. I need to update
+the markup to go along with this, for my FlexSlider. I will provide some
+snippets with this lesson that you can open and they look like this.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 100. flexslider jquery plugin (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image100.webp"
+  alt="FlexSlider jQuery Plugin."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+There are some snippets here and so I&apos;m basically going to replace my
+slider with this content here. You can type it all out if you wanted to,
+instead of just putting the pictures in.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 101. updated markup adding anchor tags (54) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image101.webp"
+  alt="Add anchor tags with class to markup."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+I have a div, with an h2. The div has a class of slide 1, slide 2, slide
+3, so on and so forth. Then I have the h1 and the h2 and I have an
+anchor tag with the class of CTA for 'Call to Action'. A spin around the
+text, which I explain what that&apos;s going to do in a few minutes, that
+says these kittens are available now. This is going to be like a 'Call
+to Action' button that you can click on to access these kittens. It&apos;s
+not really going anywhere because the link is just set to a pound sign.
+But if this is a real website, that could be a link to a page where you
+could actually adopt this kitten or something like that, that will be
+fun. But rather than make you type all of this stuff out, which is
+tedious, you can actually come to the snippet page and just copy it.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 102/103. flexslider, slides, class (55) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image102.webp?raw=true"
+  style="width:45%"
+  alt="Update index.html with FlexSlider, slides and new class (cta)." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image103.webp?raw=true"
+  style="width:45%"
+  alt="Update index.html with FlexSlider, slides and new class (cta)." />
+</p>
+
+Then come back to your project and on your index file, in place of the
+slider down here, this FlexSlider, we&apos;re just going to paste this one
+in instead. Paste that in and it&apos;s still div class backsliders, still
+your old class slides. All that&apos;s changed is the list items in here.
+
+These divs have a class of slide1, slide 2, slide 3, slide 4 and slide
+5. I dump slide 6 and 7 for now, probably five kittens is enough for
+this slider and that&apos;s great. That gets us started and on our way with
+creating our fancier version of our FlexSlider. In the next lesson,
+we&apos;ll start looking at what we need to do to adjust the styling for
+this.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-12">1.12 Additional Styling (5:47)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 104. additional styling (1.12) (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image104.webp"
+  alt="1.12 Additional Styling for FlexSlider."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+In the last module, we updated the markup for our fancy version of the
+slider, and now we need to do some updating for the actual CSS for the
+display of the slides.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 105/106. styling for flexslider (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image105.webp?raw=true"
+  style="width:45%"
+  alt="Rules for flexslider." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image106.webp?raw=true"
+  style="width:45%"
+  alt="Update styles.css with new rules." />
+</p>
+
+So, I&apos;m going to come back over here to my snippets and I&apos;m just going
+to copy these three rules here. And I&apos;m going to come over and paste
+them into my CSS file over here, styles.css. And I&apos;m going to stick
+them just in my section with the flex slider stuff here. It doesn&apos;t
+really matter where they go, I&apos;m going to put them here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 107. styles.css: slide1-slide5 background (57) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image107.webp"
+  alt="Define background for slide1 thru slide5 in styles.css."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Now, this is really important, the slides the .slide1, .slide2, .slide3,
+that corresponds to these divs, div class slide3, slide4. They&apos;re going
+to get a background image. Each one is going to get a different
+background image, the background image is positioned at the top left and
+said not to repeat.
+
+One thing that&apos;s important about this particular slider that you have
+to remember is that it&apos;s flexible, that&apos;s why it&apos;s called flex
+slider. And it will work for responsive websites and you can make these
+slides bigger or smaller. So, we have to pay attention to the
+proportions of the slides, from their horizontal width to their vertical
+height. What is the proportion there? We want to keep the slides in
+proportion so that if they resize on the screen, they resize
+proportionally. And keeping track of proportions is a little bit tricky
+in CSS currently, there&apos;s some features coming to CSS that will make it
+easier in the long run, but for right now it&apos;s a little clunky and
+unfortunate.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. set position of slides (58) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image108.webp"
+  alt="The position CSS property sets how an element is positioned in a document."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+But basically, what I&apos;ve done here is I&apos;ve said the div that&apos;s inside
+these list items, I&apos;m going to make it a width 100% position relative
+because I&apos;m going to absolutely position some stuff inside of it. And I
+set the padding on the bottom to 50%, and it could be either padding top
+or padding bottom and background size cover. And essentially the height
+of these, and I probably should add in here, height 0.
+
+Because the height is 0 but the padding on the bottom is 50%. These
+images happen to be twice as wide as they are tall. And that&apos;s why the
+padding is bottom 50%. In this case the padding is relative to the
+width. So as wide as these things are, they will always be 50% as high.
+And these images are twice as wide as they are tall. So that actually
+works for these particular images.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 109. kitten01.jpg image dimensions (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image110.webp"
+  alt="Image Dimensions for kitten01.jpg."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+If I come back to the finder and look at these images, if I do CMD+I,
+you can see here that the dimensions of this image is 960 by 480, it&apos;s
+twice as wide as it is tall. But what if that were not the case?
+
+What if you had images that had a different ratio? You want to make sure
+all your images are the same size, but they might have a different ratio
+of height to width, and how do you find out what that is? One easy way
+of doing it is to open the image in Photoshop, if you have access to
+Photoshop. Or if you don&apos;t have access to Photoshop, you could use
+another image editor like GIMP is a good image editor that&apos;s free for
+Mac or Windows or Linux.
+
+But I can go in and find out here what this image size is. And if I want
+to find out what the ratio is, if I change this width to 100, notice
+that the height is 50. So that means the height is 50% of my width.
+Which means I need to set that margin top or margin bottom to 50%.
+Setting it to 100 doesn&apos;t give you a lot of resolution, but if you set
+it to 1000 it would be 50.0%, in this case it&apos;s exactly 50%. But if you
+had a different ratio for images, you might have 67.25 or something like
+that for the height to the width ratio. So that&apos;s a good place to find
+out what that ratio is. So that you would set the ratio By Photoshop.
+And you can set the width to whatever the height is in relation to the
+width. And then I&apos;ve got background size cover.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 110. styling the cta 'call to action' (60) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image110.webp"
+  alt="Styling the CTA 'Call to Action'."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+Then down here I&apos;m setting the H2 to position absolute top 20 pixels,
+left 20 pixels, then I&apos;m setting the color for that. So that&apos;s not too
+fancy. But that&apos;s an important thing to understand with the way that
+this is working.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 111. styling the cta 'call to action' (60) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image111.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+The next thing we need is the styling for the actual call to action
+buttons that are going to show up on the slides. If I save this like
+this, you&apos;ll see if I come back and test it, it&apos;s fine, but the
+call-to-action buttons won&apos;t work very well here. So, there&apos;s my
+call-to-action button there and I need to fix that, but you can see that
+the background images have come in. These images are now in the
+background of my slide, rather than in the foreground. And the
+foreground is an H2 that&apos;s been absolutely positioned here. But now I
+need to style this call to action, and I&apos;ll do that in the next lesson.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-13">1.13. Styling the CTA 'Call To Action'</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 112. styling the cta 'call to action' (61) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image112.webp"
+  alt="1.13. Styling the CTA 'Call to Action'."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+Now we&apos;re down to styling the call to action so that it displays
+properly on the page, and I have a rule for the dot CTA anchor tags,
+there&apos;s a lot of stuff in here, but you&apos;ll see why as we move forward
+and do this, but let&apos;s go ahead and add this rule to our style sheet.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. styling the call to action (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image113.webp"
+  alt="Styling the Call to Action."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 114/115. styling the call to action (62) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image114.webp"
+  style="width:45%;"
+  alt="Call to Action Styling." />
+<img src="./images/image115.webp"
+  style="width:45%;"
+  alt="Styles.css for Call to Action." />
+</p>
+
+If you come over here, you can see that I have it here, it&apos;s a long one
+so, I made it, so you don&apos;t have to tighten it, you can just copy and
+paste it. I&apos;ll explain more about exactly why all these decorations are
+in here, but for right now, let&apos;s just added in over here.
+
+A few things to look at, it&apos;s set to display flex for the call to
+action, and that&apos;s making this anchor tag display flex, so that this
+element class of the span in here can get positioned in the vertical
+center. By setting that to display flex and align-item center, that will
+allow me to put that text in the vertical center of these called
+actions, these called actions are going to be round buttons, and I want
+the text to be in the vertical and horizontal center, so that allows us
+to do that. I&apos;m just setting the height and the width to 25vw, which is
+viewport width, 25 percent of the viewport width, so these buttons will
+scale up and down with the size of the window, and you&apos;ll see that this
+is actually too large for the desktop, we will put in a rule down in the
+media queries to fix that in a minute.
+
+I&apos;m also setting position absolute on these, because they&apos;re going to
+be absolute positioned from the right, and then bottom 100 percent means
+they&apos;re going to be positioned initially off the top of the screen.
+I&apos;m setting bottom 100 percent that&apos;s going to push the bottoms of
+these up to 100 percent, the height of that parent element, and that&apos;s
+going to put them all the way off the top of the screen.
+
+When we come to the slide, they&apos;re going to animate down into the
+screen, you&apos;ll see in a minute as we finish this up. I&apos;m setting a
+background color, border radius 50 percent is what makes them round,
+I&apos;m putting a border on them with the color, and then text-align
+center, puts the text in the horizontal center, some padding,
+text-decoration, none gets rid of the underlying setting, the font
+family, the font size, 4vw is four percent of the viewport width, so
+again, the font it&apos;s going to resize based on how wide the screen is,
+and then also the color for the text. That&apos;s a lot of stuff.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116/117. define class: light (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image116.webp"
+  style="width:45%;"
+  alt="Styles.css: Define new class .light." />
+<img src="./images/image117.webp"
+  style="width:45%;"
+  alt="Utilize class: light in index." />
+</p>
+
+We&apos;re going to do one more rule in here for dot light (.light), and
+I&apos;m setting a color in here, color, and I think I set it to, where did
+I set it to #ededed. The reason for that, it&apos;s a light gray, one of the
+slides is dark, so over here, I have a class of light on slide 4.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 118. styles.css: background slide (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image118.webp"
+  alt="Define different background colors for slides."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+You may have also wondered why on one of the slides I went up here, I
+went kitten 2 to kitten 6, and then four, and then five. Kitten 3, the
+colors on that one just don&apos;t work well with the colors for the text,
+so I swapped it to one of the other ones.
+
+But for number 4 here, I wanted to make this text light, so, I put a
+different color in there and a different class for that one, that&apos;s all
+we need there for that, so that&apos;s really good and should make sense in
+our work.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 119. resize call to action button (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image119.webp"
+  alt="Resize the CTA (call to action) button for tablet-sized browser windows."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+We need a couple more rules that are going to resize these elements for
+desktop and for mobile, so we need to add these rules into the media
+queries at the bottom of the style sheet (styles.css), and we&apos;re just
+setting height, width, and font size.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 120/121. tablet-sized min-width: 600px (64) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image120.webp"
+  style="width:45%;"
+  alt="styles.css: min-width: 600px." />
+<img src="./images/image121.webp"
+  style="width:45%;"
+  alt="CTA: Call To Action anchor tag." />
+</p>
+
+For the tablet-sized versions of the site, which is, screens that are
+600 pixels and wider, I&apos;m just going to set dot CTA with 20vw instead
+of 25, and height, same height, height 20vw. Because up here, it&apos;s
+setting it to 25, and that&apos;s going to get too large as my screen gets
+larger, so I&apos;m going to just shrink it down just a little bit there,
+and then I&apos;m setting the font size to a little bit smaller, I think is
+not what it was, yes, 3vw instead of 4vw, it&apos;s 3vw, and so bringing the
+font size down a little bit, 3vw.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 122/123. desktop with min-width: 1000px (65) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image122.webp"
+  style="width:45%;"
+  alt="styles.css: min-width: 1000px." />
+<img src="./images/image123.webp"
+  style="width:45%;"
+  alt="styles.css: new ID cta with width/height of 150px." />
+</p>
+
+Then, when we get to the full-screen size for desktop, I need this
+again, and I&apos;m just going to set it to a maximum size, because at this
+point the screen isn't going to be flexible anymore, so I want these to
+be set to a specific size, 150px, so it&apos;s not going to be flexible
+anymore, because if, this size or wider, it&apos;s always going to be this
+size, 150px. Font-size to 24 pixels.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 124. kittens for sale example (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image124.webp"
+  alt="Kittens for Sale example."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+That gets all of the styling in place for these, and if we go back and
+review the page, you&apos;ll see that the call to action isn&apos;t on the
+screen at all, it&apos;s going to be up here, I actually noticed down here
+at bottom 100 percent, so it is showing up. But this is the way they&apos;re
+going to look in end here, is round like this.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 125. example: kittens for sale! (66) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image125.webp"
+  alt="Kittens for Sale example, #2."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+If you go to number 4, slide 4, that one should be picking up the light
+class, and I don&apos;t know why it&apos;s not now. You know what, I think I put
+it on the wrong one. Let&apos;s fix that. Over here. Cut it from there and
+stick it on this one. That seems like it should be the right one. It&apos;s
+so cute, it&apos;s that one. I think they&apos;re just #ededed, it should be
+right. It may need to be refreshed properly, but that&apos;s okay. Great, so
+you got that all in place. The last thing we need to do is get this
+animation to work.
+
+<h3>PDF of Presentation</h3>
+
+Here is a PDF of the presentation slides used in the lessons for this
+section: <b>jQuery Plugins and FlexSlider</b>.
+
+<ul>
+  <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.13.FlexSlider.pdf" 
+    target="_blank" rel="noopener noreferrer">
+	1.13 FlexSlider.pdf (download)</a></li>
+</ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-01">2.01 Module 2 Intro to Scroll Effects (0:38)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 126. module 2 intro - scroll effects (67) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image126.webp"
+  title="2.01 Module 2 Intro - Scroll Effects"
+  alt="2.01 Module 2 Intro - Scroll Effects."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+Hello and welcome to our second module. In this lesson, we will look at
+scroll effects. Scroll effects are very popular these days and you see
+them a lot around the Web. Plus, we&apos;ll work on a project that will
+allow you to test your skills by bringing together, a lot of the scripts
+we&apos;ve created so far, all together in one page. And that&apos;s a great way
+to test your skills, and see how you&apos;re doing with this.
+
+Let&apos;s dive in, break out our code editors and our web browsers, and get
+started on this module.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-02">2.02 Introduction to Smooth Scroll with jQuery (4:15)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 127. intro to smooth scroll with jquery (67) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image127.webp"
+  title="2.02 Intro to Smooth Scroll with jQuery"
+  alt="2.02 Intro to Smooth Scroll with jQuery."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+In the first part of this lesson, we&apos;re going to use jQuery to make a
+smooth scroll script so that when you click a link at the top of the
+page, it does a smooth scrolling action further down the page.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 128/129. section one and two example (68) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image128.webp"
+  style="width:45%;"
+  title="Example section one"
+  alt="Example section one." />
+<img src="./images/image129.webp"
+  style="width:45%;"
+  title="Example section two"
+  alt="Example section two." />
+</p>
+
+And I have an example page that you can download with example files and
+I have them open here and you&apos;ll notice if I click section one, it puts
+section one right at the top of the window.
+
+Currently this is just a scrolling page with a bunch of sections on
+here. And this is just basic html. If I click section two it just put
+section two at the top of the page, you can see here the URL has pounds
+second in here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130/131. section links defined (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image130.webp"
+  style="width:45%;"
+  title="href sections defined #first thru #fifth"
+  alt="href sections defined #first thru #fifth." />
+<img src="./images/image131.webp"
+  style="width:45%;"
+  title="Example sections 1st thru 5th"
+  alt="Example sections 1st thru 5th." />
+</p>
+
+If I go into my files and look at this, you can see that my links are
+just linked to these IDs pound first links to section ID first and pound
+second links to section links to the ID second down here, so on and so
+forth. And that&apos;s just basic HTML. But it doesn&apos;t provide a very good
+user experience because when you click on something it just pops to that
+section and you don&apos;t get the sense of it actually traveling there.
+
+An interface element that&apos;s been popular for a long time now is to
+create a smooth scroll effect so that you can get the sense of traveling
+from one place to another place on a web page. And if it happens
+smoothly and quickly without a lot of interference, then it adds to the
+user experience. So, we&apos;re going to do that using jQuery.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 132/133. adjust the header rule styles.css (69) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image132.webp"
+  style="width:40%;"
+  title="Adjust the header rule CSS"
+  alt="Adjust the header rule CSS." />
+<img src="./images/image133.webp"
+  style="width:40%;"
+  title="Updates to styles.css - header and body"
+  alt="Updates to styles.css - header and body." />
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 134. smooth scroller set heading (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image134.webp"
+  title="Smooth Scroller example with set heading"
+  alt="Smooth Scroller example with set heading."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+
+The first thing we need to do is set the header so its position fixed.
+And if you go back to the files, you&apos;ll notice in the style sheet up
+here at the top, I have position fixed commented out. If you remove that
+comment and save it and then come back and refresh the page, you&apos;ll
+notice that now the header is fixed to the top of the window and the
+section one has now bumped up to the top of the window. And that&apos;s
+because the header has now been taken out of the normal flow of the
+document.
+
+When you set something to position fixed, it&apos;s no longer part of the
+normal flow of the document and the document will ignore it because the
+top is set to zero and the left to set to zero. This header is now
+pinned to the top left position of the view port here. And it&apos;s set to
+width 100% so it will stretch across the entire window. Now you can see
+because it&apos;s slightly transparent that the images and every all the
+content is passing beneath this header.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 135/136. padding-top: 200 (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image135.webp"
+  style="width:45%;"
+  title="Add padding-top: 200 to body of style.css"
+  alt="Add padding-top: 200 to body of style.css." />
+<img src="./images/image136.webp"
+  style="width:45%;"
+  title="Smooth Scroller example of padding-top: 200"
+  alt="Smooth Scroller example of padding-top: 200." />
+</p>
+
+But you also notice that it&apos;s covering up part of section one. So, we
+need to go back to our style sheet here and uncomment out this line
+here, remove that comment to set the padding on the body to top 200
+pixels. And that will push that first section down and we need to do
+that because the header is no longer part of the normal flow of the
+document. So, we need to push that first section down, hopes to get
+saved. When you refresh it doesn&apos;t necessarily put the page at the top
+of the window. But now you can see when I load the page fresh, it is
+loading it with 200 pixels padding, which allows this element here to be
+sitting below the header. But the headers out of the normal flow of the
+document. Okay, so with some basic CSS and some basic HTML out of the
+way, we can start working on our script and getting the interactivity to
+work properly.
+
+<h3>Start Files: Smooth Scroll with JavaScript</h3>
+
+Attached is a zip file of the things you need to begin this exercise. A
+<b>zip file</b> is defined as: a computer file whose contents include one
+or more files that are compressed for storage or transmission, often
+carrying the extension .ZIP.
+
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery"
+    target="_blank" rel="noopener noreferrer">
+    2.02 jQueryScrollEffects-START.zip (download)</a></li>
+</ul>
+
+<h3>Additional Resource:</h3>
+
+<ul>
+  <li><a href="https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/" 
+    target="_blank" rel="noopener noreferrer">How to open a zip file for either Mac or PC</a></li>
+</ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-03">2.03 Creating a Click Handler (5:00)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 137/138. creating a click handler (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image137.webp"
+  style="width:45%;"
+  title="2.03 Creating a Click Handler"
+  alt="2.03 Creating a Click Handler." />
+<img src="./images/image138.webp"
+  style="width:45%;"
+  title="Add Easing and Click Handler scripts to end of index"
+  alt="Add Easing and Click Handler scripts to end of index." />
+</p>
+
+We have set up our files, and we&apos;re ready to start working on our
+script, and you&apos;ll notice down here at the bottom of the page, I have
+jQuery linked to a slightly older version of the library. You could hook
+up the 3.6 version here instead if you wanted to, and I have the
+<b>easing</b> plugged in because we&apos;re going to make use of that as well.
+You&apos;re already familiar with that from a previous lesson. If you&apos;ve
+forgotten, you can go back to the previous lessons and review the easing
+plug-in and how that works. Then I have linked here a file called
+<b>smoothscroll.js,</b> which is our JavaScript file, and this is where
+we&apos;re going to write our jQuery code.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 139/140. add click handler to index (71) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image139.webp"
+  style="width:45%;"
+  title="If clicked, run this function"
+  alt="If clicked, run this function." />
+<img src="./images/image140.webp"
+  style="width:45%;"
+  title="smoothscroll.js - click handler function"
+  alt="smoothscroll.js - click handler function." />
+</p>
+I&apos;m going to remove that comment, and add here a click handler, so I&apos;m
+going to use my jQuery object to come in and grab my <b>nav ul li a</b>,
+the anchor tags in the navigation over here at these anchor tags that I
+want to get from up here at the top of the page, <b>nav, ul, li, a</b>. If
+you had another nav element on the page, you might give this an ID, so
+that you would target this very specifically with an ID to get to these
+anchor tags, but this page just has one nav element, so this is specific
+enough for this particular page. But I&apos;m going to add a click handler
+and then, we pass in our function that runs when the element is clicked.
+Then, I want to make a variable that&apos;s going to hold the link that&apos;s
+clicked. This click handler will be applied to all of the anchor tags,
+but you can only click on one of them at a time, so we need to know
+which one was clicked. I&apos;m going to make a variable, var thisSection,
+you could use const as well if you preferred, but I&apos;m just going to
+make var thisSection, and assign it this.attr(href). What that&apos;ll do is
+it&apos;ll get the href of the link that was clicked. Let&apos;s alert that out.
+You can see what it actually does.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 141. example: alert, click handler (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image141.webp"
+  title="Example: alert click handler function"
+  alt="Example: alert click handler function."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+If I come back to my HTML, I&apos;ve put a click handler on all of these
+anchor tags here, but you can only click on one at a time. I should be
+getting pound 1st, pound, 2nd, pound 3rd, pound 4rth, and 5th, and I
+need that href because I need to know which one of these sections I&apos;m
+going to. It&apos;s the ID. It matches the idea of the section. If I come
+back over here, and refresh the page and click one of these links, I
+should get pound 1st, pound 2nd, pound 3rd, pound 4th, and pound 5th.
+You&apos;ll notice it is actually moving the page there as well as it does
+that, but I want to make sure I&apos;m getting those links.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 142. html stop animate (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image142.webp"
+  title="HTML stop animate"
+  alt="HTML stop animate."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Let&apos;s go back to our script. Now, we don&apos;t need this alert here at
+all. That&apos;s not going to help anything, but it just shows us what&apos;s
+going on here. But now, I need to tell my page. I&apos;m going to come in
+here. I&apos;m going to say get the HTML element, and I&apos;m going to use the
+stop method, and I&apos;ll explain what that does in a minute.
+
+The best way to explain it is to see it, so for right now, just put it
+in. Then we&apos;re going to use our custom animate method, and we&apos;re going
+to pass in an object here that&apos;s going to add animation here. We&apos;ll do
+that, and we&apos;ll see, how long is it going to run? We&apos;re going to do it
+over 800 milliseconds. That gives us a sense of what&apos;s going on here
+when we&apos;re going to do that, and we&apos;ll test this in a minute. This is
+going to actually animate our HTML, and in here, we&apos;ll use our
+<b>thisSection</b> thing to tell us where we&apos;re going to animate to, and
+we&apos;ll do that in the next lesson so you see how it all comes together.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-04">2.04 Adding the Animation (6:56)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 143/144. adding the animation (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image143.webp"
+  style="width:45%;"
+  title="2.04 Adding the Animation"
+  alt="2.04 Adding the Animation." />
+<img src="./images/image144.webp"
+  style="width:45%;"
+  title="Adding the animation to smoothscroll.js"
+  alt="Adding the animation to smoothscroll.js." />
+</p>
+
+In the previous module we created a click handler for all the anchor
+tags and then we got the ID of the particular anchor tag that gets
+clicked on because you can only click one at a time. What is the idea
+associated with that or what&apos;s the href associated with that? Which
+points to the idea of the section down below that we&apos;re going to. It&apos;s
+going to be pound (#) 1st or pound 2nd or pound 3rd or pound 4th or
+pound 5^th^ (#1st-#5th). We&apos;ve already seen that.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. animate scroll top (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image144.webp"
+  title="Animate in 8 tens of a second property of scrollTop"
+  alt="Animate in 8 tens of a second property of scrollTop."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+Then we&apos;re going to animate the html. And I&apos;ll show you in a minute
+what this stop thing does, but we&apos;re going to animate and in here we
+pass in a key value pair that we&apos;re going to actually animate. What is
+that key value pair? We&apos;re going to animate over 800 milliseconds here.
+The property that we&apos;re going to animate is <b>scrollTop</b>. Now, what is
+scroll top? Scroll top is an HTML property that you may not be aware of
+and it returns or sets the position that an element is going to be from
+the top of the window.
+
+When we click on a particular link, we want to put the corresponding
+section at the top of the window. So how are we going to do that? We&apos;re
+going to do it with the offset method. The offset method and we want to
+offset top. We&apos;ll set it to offset top. So, dollar sign in parentheses,
+this section and set its offset, to the top over 800 milliseconds. And
+that will actually animate the page to the top of the window.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 145. example: offset scrolltop (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image145.webp"
+  title="Example: offset scrollTop"
+  alt="Example: offset scrollTop."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+If we test this out and if you&apos;re wondering what offset is, you can go
+look it up on the jQuery documentation and see what offset does and how
+it&apos;s used. But essentially it allows us to move a particular element to
+a particular place on the screen. And where are we moving it to? We&apos;re
+moving it to the top. Let&apos;s see what happens if I&apos;m going to get rid
+of the pound second from up here and refresh the page. And then if I
+click 2nd, you can see that it does a smooth scroll right to with that
+section going right up to the top of the window.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 146/147. stop method with example (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image146.webp"
+  style="width:45%;"
+  title="Stop method"
+  alt="Stop method." />
+<img src="./images/image147.webp"
+  style="width:45%;"
+  title="Example, scroll stop method"
+  alt="Example, scroll stop method." />
+</p>
+
+We don't want it to go all the way to the top of the window, we want it
+to stop here and we&apos;ll fix that in a minute. But before we do, what
+I&apos;d like to point out is what this stop method does. So over here I&apos;m
+going to actually set this to a longer period of time. 3000. It&apos;s kind
+of really long, but I&apos;m going to set it to 3000. And if I come back and
+test this again, you&apos;ll notice it&apos;ll take a long time to go to the
+section three, four seconds. But you&apos;ll notice if I press section one
+and before it goes there, if I press section two it&apos;ll stop that
+animation and continue on. It will continue on to the next one that
+I&apos;ve started. So I press section five, it starts, but if I do four
+it&apos;ll actually not finish that first animation and go to the fourth
+section instead. And that&apos;s what this stop method is doing here.
+
+If I take stop out, you&apos;ll notice that the animation start to stack. So
+now, if I come back here and go back up to the top of the page and click
+refresh. If I press 3rd while if I press 4^th^ section and then 2nd
+section and then 4th section, then second section you&apos;ll notice that
+the animation stack and it&apos;s waiting for each animation to complete
+before it goes on to the next one. Which is not really the experience
+that we want to have. We want it to stop that animation. I clicked on
+5th section. And I&apos;ve changed my mind and I want to go to the 2nd
+section. I want it to go there right away without having to wait for it
+to go all the way down to the 5th section. So that&apos;s what this stop
+method is doing for us. Don&apos;t stop. So it will stop the animation
+that&apos;s running and then animate the thing that we&apos;ve clicked on next.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 148/149. top scroll minus 200 (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image148.webp"
+  style="width:45%;"
+  title="Scroll to top minus 200 pixels"
+  alt="Scroll to top minus 200 pixels." />
+<img src="./images/image149.webp"
+  style="width:45%;"
+  title="Example: scroll to top minus 200px"
+  alt="Example: scroll to top minus 200px." />
+</p>
+
+Okay, now the next thing is this there are two minor things we need to
+fix. First of all, I really want it to move to top minus 200 like so.
+Because I really don&apos;t want to go all the way to the top of the page.
+So that&apos;s one. So now if I come back here and test this. Now if I click
+section two instead of going all the way up to the top of the page, it
+goes to 200 pixels down from the top of the page. Which you&apos;ll
+remember, we put 200 pixels padding up there. So that&apos;s now putting it
+in the correct place, so that helps. So that&apos;s one thing, I&apos;m going to
+put this back to 800 because the animation is so slow now.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 150. move animation tag to body (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image150.webp"
+  title="Move animation tag to body"
+  alt="Move animation tag to body."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+Okay, the other thing is I&apos;m going to put a comment here and add body.
+Now, pretty much these days all the browsers will animate the HTML
+element and you won&apos;t run into a problem with this, but there have been
+in the past certain browsers that won&apos;t do that and so you have to
+actually put this animation on the body tag instead. Now in fact, it
+seems like the most updated versions of Safari and Firefox and Chrome
+all handle the HTML just fine. But this is kind of just to fall back
+just in case somebody is using an older browser. I&apos;m not sure when they
+actually fixed up, so we won&apos;t see a difference because of that now,
+but it&apos;s just something to be aware of, Going forward.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-05">2.05 Add Some Easing and a Callback Function</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 151. add some easing and a callback function (2.05) (78) ~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image151.webp"
+  title="2.05 Add Some Easing and a Callback Function"
+  alt="2.05 Add Some Easing and a Callback Function."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+The smooth scroll script is working and that&apos;s great, but because we
+have the easing plugin plugged in, we can give the script a little bit
+more personality by adding some easing.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 152/153. script must follow jquery library load (78) ~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image152.webp"
+  style="width:45%;"
+  title="Add easing script only AFTER jQuery library load"
+  alt="Add easing script only AFTER jQuery library load." />
+<img src="./images/image153.webp"
+  style="width:45%;"
+  title="index.html scripts"
+  alt="index.html scripts." />
+</p>
+
+Let&apos;s go ahead and do that. Over here, just to verify on our index file
+here down at the bottom of the page, you can see I have the jQuery
+library loaded and then I have the easing plugin loaded and then my
+script comes after that. Always, your script has to come after the
+jQuery library and any plugins that you&apos;re using.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 154. easing animation scroll (79) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image154.webp"
+  title="Easing animation scroll to top"
+  alt="Easing animation scroll to top."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Over here, after my 800, I can add a comma and add an easing and I used
+<b>easeOutCirc</b> as my easing here, which gives us a pretty dramatic set
+of easing. If I set that and then while I&apos;m here, I&apos;m just going to
+put a return in here. That opens and then that closes there. I want to
+move that down like so, there we go, <b>easeOutCirc</b>. I think that looks
+a little bit better, a little bit easier to read. We animate this over
+800 milliseconds when we are using <b>easeOutCirc</b>.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 155. example of easing animation scroll (79) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image155.webp"
+  title="Example, easing animation scroll"
+  alt="Example, easing animation scroll."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Let&apos;s go take a look and see how it looks. Now it&apos;s got a nice,
+slightly snappier feel going to the sections, and if it&apos;s still going
+too slowly for you, you could reduce the time further. Come over here
+and set this to instead of 800 set it to 400. We will cut it in half,
+see what happens. You have to find the right setting that you think
+feels good. This feels very snappy because they&apos;re very quickly, but
+does it still give you the sense that you&apos;re traveling to that part of
+the page? Yeah, it does, so that&apos;s nice. Maybe I&apos;ll leave it like
+that.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 156. example, test easing animation scroll (80) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image156.webp"
+  title="Example, test easing animation scroll effect"
+  alt="Example, test easing animation scroll effect."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+This is all working and I could leave the script like this. It&apos;s
+certainly functioning, but I want to do a little bit more with it. What
+I want to do is actually change the highlighting on these links to
+indicate which link I&apos;m actually on when I get to that section. Up
+here, this becomes an indicator of which section I&apos;m looking at along
+with sort of the label on that section. I&apos;m going to do that by adding
+a callback function in here.
+
+After the animation completes, I&apos;m going to run a function in here. In
+this callback function, I&apos;m going to add an alert and, in the alert,
+I&apos;m going to actually alert out the offset, so you can see how far from
+the top of the page the element actually is. How far off the top of the
+window, really, it&apos;s what it is. I&apos;m going to use my jQuery object to
+go get the window and see what it offset, is it offset? I think it&apos;s
+like that offset. We have done that right. Here we go. Let&apos;s see if I
+did that right. I think I did. I come back here, refresh the page, click
+second and I did something wrong there.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-06">2.06 Highlighting Elements</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 157. highlighting elements (2.06) (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image157.webp"
+  title="2.06 Highlighting Elements (Section)."
+  alt="2.06 Highlighting Elements (Section)."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+On the style sheet is a rule, selected, and I might have it commented
+out. Let&apos;s go over and see because if we do, we need to uncomment it
+out.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 158. highlight the clicked link (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image158.webp"
+  title="Highlight the clicked link"
+  alt="Highlight the clicked link."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+We go to Styles, go down here and it&apos;s not commented out, good. I&apos;ve
+got Selected here and it&apos;s set to a color, and it&apos;s got a one second
+transition for transitioning that class there. What we&apos;re going to do
+is we&apos;re going to change the link that we&apos;ve clicked on, we&apos;re going
+to add the class, selected, to it. I need to add a variable, this link,
+and it&apos;s just this, the link that I clicked. The item that I clicked
+and I could just use this down here, but I think it&apos;s a little bit
+helpful to have the variable name. This link is just the thing that
+I&apos;ve clicked, it&apos;s this, so let&apos;s go ahead and add that. On our
+smooth scroll script here at the top, I may add a variable for this link
+equals dollar sign this. Down here, we don&apos;t really need this alert
+anymore. I&apos;m just going to comment it out. I&apos;m going to leave it there
+in case you want to refer to it. That scroll type stuff can be a little
+bit confusing, sometimes it&apos;s helpful to have that in there just to
+remind yourself what the heck scroll top is and how that&apos;s actually
+working.
+
+Now I&apos;m going to say this link, dot attr, amazing class name I figured
+when I put over there. I&apos;m using add class. We&apos;ll use that method. You
+could also use the attr method, but I&apos;m going to just use add class,
+select it.
+
+Now, there&apos;s one small problem here in that this will work the first
+time you click on a link, but it won&apos;t work every time. We&apos;ll see here
+as we use this when I click second, it&apos;ll add the class, and then when
+I click third, it&apos;ll add the class, when I click forth, it&apos;ll add the
+class. It&apos;s working, but what I really wanted to do is remove the class
+from these, and then just put it on the one that I&apos;ve clicked so they
+don&apos;t just all turn pink.
+
+Although you could have an interface that shows which ones if you
+clicked on and it would work for that, but I really wanted to just
+highlight the one that I&apos;ve actually clicked on.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 159/160. get anchor tags: nav ul li a (82) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image159.webp"
+  style="border: 2px solid #000000; width:45%"
+  title="Get anchor tags, navigation line item anchor"
+  alt="Get anchor tags, navigation line item anchor." />
+<img src="./images/image160.webp"
+  style="border: 2px solid #000000; width:45%"
+  title="Example getting anchor tags"
+  alt="Example getting anchor tags." />
+</p>
+
+I&apos;m going to go back to my script, and I&apos;m just going to modify just a
+little bit here by saying, use my jQuery object to go in here and get
+all those anchor tags, nav ul li a. Here I&apos;m going to use attr. Well, I
+don&apos;t think I&apos;m going to do that, I think I want to do something else.
+I want to use actually, I&apos;m going to remove the class attribute. That
+removes the class attribute from all of them, and then just adds it to
+the one that I&apos;ve clicked on. Let&apos;s see if that works.
+
+Come back here, refresh the page, now when I click on that, it adds the
+class there; it removes the class from all of them and then adds it to
+the one that I&apos;ve clicked on. That&apos;s working great.
+
+Now, you could go back at the beginning when the page loads, and just
+add selected to the class of this element, of this first one here.
+Let&apos;s do that, just so that when the page loads, we&apos;re obviously going
+to be up at the top of the page. We might as well have, class equals
+quote, selected, on that first link in the navigation, so that now when
+you load the page from the start. That comes up live because that&apos;s
+what we&apos;re showing; we&apos;re showing Section one, and then we&apos;ll go to
+section two and it will turn off all of them and then add it there, and
+that&apos;s working great. With that, part of the script is finished.
+
+We have a script where we can click on it to animate that section, and
+highlight the correct section. One thing you&apos;ll notice, though, is that
+if you scroll the page, it doesn&apos;t change what&apos;s highlighted up here,
+and to do that, we really need to manage this scroll event so that we
+can handle what happens as we scroll the page and move from one section
+to another. We&apos;re going to deal with that in the next lesson.
+
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation" 
+    rel="noopener noreferrer" target="_blank";>
+    PDF of Presentation: 2.06 jQuerySmoothScroll.pdf (download)</a></li>
+</ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-07">2.07 Introduction to Page Location Tracking</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 161. intro to page location tracking (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image161.webp"
+  title="2.07 Intro to Page Location Tracking"
+  alt="2.07 Intro to Page Location Tracking."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+In this lesson, we&apos;re going to take the files that we already started
+here, and this script is working so that if I click on the section it
+goes to the correct section and it highlights the correct menu item up
+here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 162. example, smooth scroll (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image162.webp"
+  title="Example, smooth scroll"
+  alt="Example, smooth scroll."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+But what it does not do is if I scroll down the page, it doesn&apos;t change
+the highlighting to demonstrate the section that I&apos;m looking at here.
+This may seem like a little thing, a minor detail, and I suppose that it
+is in this page, and we&apos;re going to work on a script to fix this, and
+it may seem that the script we&apos;re creating is awfully complicated to
+fix such a small thing. But what&apos;s really cool is the script that
+we&apos;re going to write that will allow us to change the highlighting
+based on where we are in the page is capturing the scroll of that.
+
+Working with scroll scripts can be challenging because there are some
+difficulties that you have to deal with. But the really cool thing is
+that if we could get these things to highlight, we could do anything on
+the page based on where we are, scroll down the page. If you think about
+that for a second and go look at some of the interesting websites that
+are out there. https://callbruno.com/en
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 163/164. example scroll callbruno.com (85) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image163.webp"
+  style="border: 2px solid #000000; width:45%"
+  title="Example callbruno.com, #1"
+  alt="Example callbruno.com, #1." />
+<img src="./images/image164.webp"
+  style="border: 2px solid #000000; width:45%"
+  title="Example callbruno.com, #2"
+  alt="Example callbruno.com, #2." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 165/166. example callbruno, #3/#4 (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image165.webp"
+  style="border: 2px solid #000000; width:45%"
+  title="Example callbruno.com, #3"
+  alt="Example callbruno.com, #3." />
+<img src="./images/image166.webp"
+  style="border: 2px solid #000000; width:45%"
+  title="Example callbruno.com, #4"
+  alt="Example callbruno.com, #4." />
+</p>
+
+For example, I have one pulled up here, this website here, and as I
+scroll down, different things are happening based on whether I&apos;m
+scrolling. Scroll down, this happens, scroll up this go back out. This
+is capturing the scroll event and doing something on the page based on
+whether or not I&apos;m scrolling. So, I scroll down the page here that
+animation plays differently while I&apos;m scrolling up or scrolling down.
+It&apos;s affected by the scroll.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 167/168. example callbruno.com, #5/#6 (85) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image167.webp"
+  style="border: 2px solid #000000; width:45%"
+  title="Example callbruno.com, #5"
+  alt="Example callbruno.com, #5." />
+<img src="./images/image168.webp"
+  style="border: 2px solid #000000; width:45%"
+  title="Example callbruno.com, #6"
+  alt="Example callbruno.com, #6." />
+</p>
+
+Down here there&apos;s another one such as switch to white, which switched
+based on when and where I was scrolling my scroll up will switch to
+black or dark gray. When I get down here, this set of icons is moving
+based on whether I&apos;m scrolling or not. If we want to be able to do any
+of these types of effects, you need to capture the scroll event, and you
+need to be able to do things with that scroll event when you capture it,
+and that can be a little bit challenging and we&apos;ll get into why in just
+a minute here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 169. example, scroll event, highlight link (86) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image169.webp"
+  title="Example, scroll event, highlight link"
+  alt="Example, scroll event, highlight link."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+But for right now, for this script, all we&apos;re going to do is change the
+highlighting on these links, which seems like a very minor thing. But
+just keep in mind that when we&apos;re done with this script, we will have a
+script that you could use on lots of Web pages to track where you are in
+the page and do lots of different animations or cool effects or other
+things based on where you are on the page. That&apos;s pretty exciting.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170. awwwards.com (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image170.webp"
+  title="awwwards.com"
+  alt="awwwards.com."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+By the way, I should add that I don&apos;t know anything about this Web site
+or this company, I just went to the awards website (awwwards.com) and
+picked the first one that showed up over here. This is a good Web site
+to come to. I think I&apos;ve pointed out in previous lessons, if you want
+to see some interesting interactions that people have created on the
+Web, they often get posted here. This is a good place to come to get
+inspiration about different things that you can do.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 171. window load and scroll listener (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image171.webp"
+  title="Window Load and Scroll listener"
+  alt="Window Load and Scroll listener."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Let&apos;s get started with our script and we&apos;re going to work with the
+same files that we just completed, you don&apos;t need to change anything on
+them. We&apos;re just going to continue to work on the JavaScript file in
+that folder. We&apos;re going to start by adding an event handler that waits
+for the whole page to be loaded. Again, we don&apos;t want anything to
+happen until the whole page is loaded with all the images and everything
+else. Then we&apos;re going to capture the actual scroll with an event
+handler for capturing scroll using jQuery. Let&apos;s go ahead and add these
+to our script here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 172. console.log, scrolling (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image172.webp"
+  alt="Tag console.log as scrolling to section."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Over here on my <b>smoothscroll</b> page here, I&apos;m just going to go down
+here. We&apos;ve got this script is handling this scroll, and I&apos;m going to
+click after that and I&apos;m going to add a jQuery object for window, the
+window object onload, we&apos;re going to run a function. Again, this
+function runs when all of the content of the page is loaded, and in this
+case, that&apos;s important because one of the things we need to keep track
+of is how tall each of these sections are. Well, how tall this section
+is has something to do with how large this picture is. If this picture
+was in here, the section would take up less space because it would end
+here. It wouldn&apos;t be that tall.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 173. on load, scroll function (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image173.webp"
+  alt="On load, scroll function."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+If I want to track which section is on the screen, I need to know how
+big the section is. For me to know how big the section is all of the
+content has to be loaded, including images, provide videos or other
+content. It all has to be loaded before I say, &quot;Well, how tall are
+you?&quot; I need to know how tall you are so I can know whether the
+sections on the page or not. So that&apos;s why I need to make sure I put
+everything inside this window on load call back here to make sure that
+I&apos;m capturing when the window loads, so that everything I do is inside
+of there.
+
+Then I&apos;m going to next add the jQuery object for window, that scroll.
+This event will tell us if the page is scrolling at all, as with a peer
+review or click handler, we&apos;re going to pass in a function that&apos;s
+going to run when the page scrolls. This function runs when the page
+scrolls, and that&apos;s where we&apos;re going to put our script is inside here
+as the page scrolls, and I could just for right now, I could just do
+alert, I could do console.log. You don&apos;t want to do alert because
+you&apos;ll get a ton of alerts scrolling, and save that.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 174. test, scrolling (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image174.webp"
+  alt="Example, test scrolling."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+If I come back to my page now and choose my inspector over your turn on
+my console, keep that a little bit narrower and to refresh the page. As
+I move it, you&apos;ll see this event is firing. It fired 41 times already.
+Any time I move just a tiny little bit, that event for scrolling is
+fiery. This is one of the really big things that you have to pay
+attention to when working with the scroll event, is that it&apos;s going to
+capture every time you scroll the tiny, tiny little bit. If you&apos;re
+doing big things on your page, then you have to be careful about
+overloading your processor, if you want to move stuff around on the
+screen, it&apos;s easy to overload it by firing this event so many times and
+trying to do too many things at once.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-08">2.08 The Crux of the Problem</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 175. the crux of the problem (2.08) (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image175.webp"
+  alt="2.08 The Crux of the Problem."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+Now, we&apos;re going to get to the crux of the problem. What we&apos;re going
+to do is we&apos;re going to look at a couple of variables and watch what
+happens as we scroll on the page.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 176. window scroll event listener code (91) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image176.webp"
+  alt="Window scroll event listener code."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+On your page, you want to add some variables here. You want to add these
+three variables, and then we&apos;re going to set the value of inside the
+scroll event. These are outside the scroll event.
+
+Then inside the scroll event, we&apos;re going to change post position every
+time you scroll the page and change page top, every time we scroll the
+page and then we&apos;ll just console log these two values out here. Let&apos;s
+add this to our file over here. I&apos;m just going to piece these variables
+and you&apos;re going to have to type them, these three variables here. Now
+posts is just going into the index page and finding all of the sections.
+This is going to be an array that holds five sections over here. That&apos;s
+going to have post and this is going to have five sections. Then down
+here, we need to set the values of these. I&apos;m just going to piece them
+in here. I&apos;m going to remove this console log; we don&apos;t need that one
+anymore and put this in instead.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 177. window scroll event listener code (92) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image177.webp"
+  alt="Window scroll event listener code, #1."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+PostPosition is going to go find post zero, the first section on the
+page and get its offset top and then page top is going to go get window
+scrollTop. Then we&apos;re going to console log the two values of these
+things out, so we can see what they are. Save that and then come over to
+your page and with your console log showing over here, refresh the page
+and I&apos;m going to close this down here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 178. window scroll event listener code, #2 (93) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image178.webp"
+  alt="Window scroll event listener code, #2."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+I&apos;ve got something wrong over here. Offset is not a function. Is it
+offset with s? It&apos;s offset with lower-case s. Make sure you do this
+right offset. There we go. Try that again.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 179. example, window scroll listener (93) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image179.webp"
+  alt="Example, window scroll listener."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+There we go. I got zero, for the first one and 200 for the second one.
+Remember, the first one is pageTop. That&apos;s where my Window is. It&apos;s at
+position zero. My first post is 200 pixels down the page and we knew
+that already because when we set up this page in the previous lesson, we
+put padding on the top of 200 pixels, which pushes this down. But now,
+as I scroll the page, notice that the number on the left changes as I
+scroll the page. That&apos;s telling me how many pixels above the top of the
+screen my pages. But the number on the right does not change. That&apos;s
+the position of that top section from the top of the page. By using
+these two numbers, I can know whether a particular section is on the
+screen or not. If I&apos;m scrolled up at the top of the screen and this
+number here, it&apos;s a zero right now, if that number is less than two
+hundred, or less than the height of that element, then I know that
+element is showing on the screen. I need to know how tall this section
+is. But however tall that section is, I know it&apos;s on the screen, if
+this number here is less than the number of how tall that section is.
+
+The first piece that we need to know is where does the section start. It
+starts at 200. Then I need to know how tall is that section. From that,
+I can figure out how much of the page is this section taking up and
+where in my page am I in terms of scrolling. That will help me figure
+this thing out. It&apos;s really important to understand this before we
+continue to get what we&apos;re going for here, because I need to know when
+a particular section is in a particular place on my screen or in my view
+port.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 180/181. example, highlight section (94) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image180.webp"
+  style="border: 2px solid #000000; width:45%"
+  alt="Example, highlight section, #1." />
+<img src="./images/image181.webp"
+  style="border: 2px solid #000000; width:45%"
+  alt="Example, highlight section, #2." />
+</p>
+
+The next thing to pay attention to, let me just go up to the top of the
+page and refresh the page, is notice when I scroll the page, if I scroll
+really quickly and look over here, you&apos;ll notice I&apos;m not hitting every
+pixel. If I scroll slowly, I&apos;m more likely to hit more of the pixels.
+But if I scroll quickly, I might not hit all of the pixels. So, you can
+see in here, 2,351 was registered, 2,347 was registered, 2,343 was
+registered, and then 2,333 was registered. So I&apos;m not hitting every
+single pixel.
+
+What&apos;s important about that is I can&apos;t write a script that says, if
+your X number of pixels down the page do something. I can&apos;t do that
+because while I&apos;m scrolling I might not hit that specific pixel. I
+might but I might not. That&apos;s another thing to be aware of when writing
+scripts that are about the scroll effect or capturing scroll events.
+Then again, we want to watch out for performance because this scroll
+event is firing every time I scroll a tiny little bit. Those are the two
+pieces that make capturing scroll events tricky, the fact that you
+can&apos;t be sure which pixel you going to hit and you have to watch out
+for performance.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-09">2.09 Strategy</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182. strategy (2.09) (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image182.webp"
+  alt="2.09 Strategy."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+Now, the next thing we need to watch out for are what could the user
+possibly be doing on the page when it comes to scrolling?
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 183. scroll down or up (if not at top) (96) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image183.webp"
+  alt="Scroll down or scroll up (if other than top of page)."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+There&apos;s really just two scenarios that we have to pay attention to,
+either the users at the top of the page and scrolling down or somewhere
+on the page and scrolling down, or there&apos;s somewhere further down the
+page, and they&apos;re scrolling back up towards the top of the page. It&apos;s
+only one of those two things. They can only scroll up, and they can only
+scroll down, and they can only scroll up if they&apos;re not at the top.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 184. setting up if/else statement (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image184.webp"
+  alt="Set up if/else statement for scroll event."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+We&apos;re going to use a variable called counter, and then we&apos;re going to
+have an If statement, and the If statement is going to handle the first
+scenario of what happens if we&apos;re scrolling down the page. The Else If
+is going to handle what happens if we&apos;re further down the page and
+scrolling up into a previous section. Let&apos;s go ahead and add this to
+our script over here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 185. add if/else code for scroll (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image185.webp"
+  alt="Add if/else code for scroll."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+I&apos;m going to add a new variable here called Counter for your counter. I
+will set it to zero. Then down here inside my script, I can get rid of
+these things, for now, I don&apos;t really need them. Instead, what I want
+to put here is an If statement if and Else If like so. This one&apos;s going
+to handle the situation of, am I scrolling down? I&apos;m going to select
+that and comment it, and we&apos;re scrolling down and this one&apos;s going to
+handle the case of, am I scrolling up. These are the two scenarios that
+we need to watch out for. We&apos;ve got our basic structure of what&apos;s
+going to happen to handle these two situations of what happens while
+we&apos;re scrolling down and what happens when we&apos;re scrolling up.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 186. what is size of each section element (98) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image186.webp"
+  alt="Identify size of each section element."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+The next thing that we need is we need to know how many pixels down are
+all of the post tops of this for each post. We&apos;ve got all of these
+posts here, we&apos;ve captured them, which are really our section elements.
+We put them in posts, but we want to know where the tops of each of
+those sections are. I&apos;m going to make one more variable here for post
+tops. I&apos;m going to assign it an empty array for now like so. Then what
+I want to do is I want to use a Jacoway method called each to push into
+this array the post top position.
+
+A few minutes ago, we did in here, we had the thing getting the position
+of the first post. Now we want to get the position of all the posts or
+all the sections, each section. We want to get the position of each
+section on the page. We want to find out how far down the page each
+section is. The first section is 200 pixels down. We saw that just a
+minute ago.
+
+But now I need to know where are the rest of them and going to put them
+into this array. I&apos;m going to paste this in. You&apos;re going to have to
+type it, but I&apos;m going to post it in here, paste and posts. I&apos;m going
+to use the each method.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 186. section size, rounded math.floor (99) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image186.webp"
+  alt="Section size, rounded using math.floor."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+In plain JavaScript, we have for each but in jQuery, we have in each
+method that we can pass in a function. I&apos;m going to push the tops and I
+have a <b>Math.floor</b> and you&apos;ll let me take that out just for a
+minute. I&apos;ll take math for it now because that kind of confuses things.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187. section size, no rounding (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image187.webp"
+  alt="Section size, no rounding."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 188. console log, posttops (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image187.webp"
+  alt="console.log, postTops."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Put this in here for a moment, posts each function, post up push. This
+offset top, this refers to the post that&apos;s getting pushed in. This is
+going to go through each one of these posts up here. For each one of
+them, it&apos;s going to take this one to one that it&apos;s on and put its
+offset top and push it into the array post tops. If I just cancel log
+outpost. Tops. That array, it&apos;ll give us a number for where each one of
+these elements is. Make sure you type this in. You can pause this lesson
+and get this typed in because it&apos;s really important to see this. We&apos;re
+going to need this for the rest of our script here. But if I do that and
+then come back to my page and just click refresh. Unexpected token when
+I took out. The math thing, I screwed it up tonight. Push this set too,
+looks great to me.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 189/190. remove if, post option (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image189.webp"
+  style="width:45%;"
+  alt="Remove if statement to test postTops." />
+<img src="./images/image190.webp"
+  style="width:45%;"
+  alt="Remove if statement to test PostTops." />
+</p>
+
+I see, it&apos;s unhappy because we have an unfinished if statement here
+with this stuff and you&apos;re so unhappy about that. I&apos;m just going to
+take this thing and cut it for the moment. Take that out and let&apos;s look
+at just the post option.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 191. example, posttops section sizes (101) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image186.webp"
+  alt="Example, postTops section sizes in pixels."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+If I come back to the page and refresh the page, you&apos;ll see here I get
+an array with five elements in it for each of my five sections, 200,
+700, 1500.6875, and then 21 no 4.56- and 2683.4875. I don&apos;t really need
+all the decimal points, so that&apos;s why I put the <b>Math.floor</b> in
+there.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 192/193. calculate each section size (101) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image192.webp"
+  style="width:45%;"
+  alt="Count section size in pixels and store." />
+<img src="./images/image193.webp"
+  style="width:45%;"
+  alt="Size of each section is identified." />
+</p>
+
+Let&apos;s add the <b>Math.floor</b> back real quick here, I&apos;m going to put
+<b>Math.floor()</b> at the end over here, so it&apos;ll take this whole thing.
+This offset top here and put it into the floor method so that it rounds
+it down. If I save that and then come back and refresh again, now I&apos;m
+just getting whole numbers 200, 700, 1525, 2104, and 2683 and that&apos;s
+good. Great. We&apos;ll pick it up in the next lesson.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-10">2.10 Adding PageTop and If Statements</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 194. adding pagetop and if statements (102) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image194.webp"
+  alt="2.10 Adding PageTop and If Statements."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+I&apos;ve put the window scroll event back in with my IF statements.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 195/196. smoothscroll.js - scroll up/down (102) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image195.webp"
+  style="width:45%;"
+  alt="Lines 29-46 of smoothscroll.js." />
+<img src="./images/image196.webp"
+  style="width:45%;"
+  alt="Lines 24-42 of smoothscroll.js (after update)." />
+</p>
+
+
+We&apos;re going to work on these a little bit now. But before we do, we
+need to add this statement here, page top (<b>pagetop</b>), which is this
+variable up here that we created but have not assigned. We looked at it
+before and we just set it to window scroll top. Here I&apos;m going to set
+it to window scrollTop plus 210. That&apos;s because we know our page over
+here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 197. 24-43 of smoothscroll.js (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image197.webp"
+  alt="Lines 24-43 of smoothscroll.js."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+The first section starts 200 pixels down. I&apos;m going to mark it 200
+pixels down, plus a tiny bit more, an extra 10 pixels about there. That
+will tell me how far down that page is, or really how far from the top
+of the window the section is. Then, in the IF statement I&apos;m going to
+check to see if page top is greater than postTops, square bracket,
+counter plus 1. Remember, postTops has an array with all of the elements
+in the array. The counter starts at zero. Our first section was at 200
+pixels. If this page top is going to be greater than not counter 0, but
+counter 1, which would be over here if we look at this, if that thing
+that&apos;s saying how far we&apos;re scrolling down the page is greater than
+700, then this second section must be up here, must be up towards the
+top of the page if that number is greater than that number.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 198/199. 24-43 of smoothscroll.js & after, 32-50 of smoothscroll.js (103) ~~~~~~~~~-->
+<p align="center">
+<img src="./images/image198.webp"
+  style="width:45%;"
+  alt="24-43 of smoothscroll.js." />
+<img src="./images/image199.webp"
+  style="width:45%;"
+  alt="32-50 of smoothscroll.js." />
+</p>
+
+What I want to do here is, okay, when I get into that place and want to
+increment the counter, counter plus plus then I may just console log
+out. Console dot log, something like tick marks. Counter is now &dollar; curly
+brace counter, something like that or maybe just scrolling down. Let&apos;s
+do that, scrolling down, counter. Something like that. That should be
+cool I think. We can&apos;t do anything with this yet. I&apos;m going to take
+this out and just comment the else if for the moment. Like that to there
+and commented out so it doesn&apos;t cause a problem.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 200/201. log of smoothscroll.js scrolling down (104) ~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image200.webp"
+  style="width:45%;"
+  alt="Log of smoothscroll.js as scrolling down." />
+<img src="./images/image201.webp"
+  style="width:45%;"
+  alt="Log of 2nd section of smooth scroller." />
+</p>
+
+But now while we&apos;re scrolling down, the counters should get incremented
+when we go into the next section. Also, you want to either comment this
+one out or get rid of it. Actually, maybe I&apos;ll leave it there. That&apos;s
+fine. I&apos;ll leave that there for a moment and then come back here and
+I&apos;m going to refresh the page. There&apos;s my array, and when I get down
+to the next section scrolling down, the counter is now one. When I get
+down to the next section, scrolling down the counter is now two.
+Scrolling down the counter is now three. As soon as the section comes up
+here and it&apos;s zero-indexed, so section five, the counter is set to
+four. In section one, the counter is set to zero. Scrolling up won&apos;t
+get me anything yet, but scrolling down should get me the right number.
+It gets a little bit screwed up because we need to fix the else if. But
+you can see that it&apos;s working initially when we scroll down.
+
+As we get past each one of these numbers, it&apos;s reporting that the top
+of the section is 210 pixels from the top of the page which is what I
+want to know. What&apos;s really cool about this is that even though the
+scroll event is capturing every little smidgen that I scroll the page,
+every little tiny bit, I&apos;m actually going to only do something when the
+new section comes into place. That makes the script efficient because I
+don&apos;t have to do something every tiny little bit that I scroll. I only
+have to do something when the section hits the certain part of the page
+place on the window. That&apos;s one of the things that makes this script
+very efficient and very useful and helps address one of the gotchas with
+working with scroll events, which is that you have to be careful not to
+do something every time you scroll a tiny little bit because you can
+overload your CPU.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-11">2.11 Writing the Else/If Statement - Part 1</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 202. writing the else/if statement in smoothscroll.js (105) ~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image202.webp"
+  alt="2.11 Writing the Else/If Statement - Part 1."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Now we&apos;ll handle the 'else if' and we&apos;ll take care of what happens if
+we&apos;re scrolling up the page.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 203/204. before and after else/if statement in smoothscroll.js (105) ~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image203.webp"
+  style="width:45%;"
+  alt="32-50 of smoothscroll.js (before)." />
+<img src="./images/image204.webp"
+  style="width:45%;"
+  alt="32-50 of smoothscroll.js (after)." />
+</p>
+
+It&apos;s not uncommon that out. I&apos;m first going to check to see if counter
+is greater than zero because I would want this else if to take place and
+this is why it&apos;s an an else if and not announce, but I only wanted to
+take place if the counter is greater than zero. And remember the counter
+is only going to be greater than zero if we have scroll down into the
+second section or the third section or the fourth section, because the
+counter only gets implemented when we scroll down into those sections,
+so if the counter is greater than that and ampersand ampersand Yeah.
+PostTops, PageTops is less than PostTops, square bracket counter this
+value, PageTop, this value here, which changes as you scroll the page
+every little bit if it&apos;s less than the PostTops counter.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 205. scroll down, increment, scroll up, decrement (106) ~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image205.webp"
+  alt="Scroll down, increment counter, scroll up, decrement counter."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+
+So like suppose we were down at the bottom of the page and counter was
+set to four for the last section number five. So that would go into the
+array and get that last number which is the 2000 whatever number of
+pixels for that thing there. Okay, so if I go get that number and this
+number is less than that number then I must be scrolling up the page. In
+which case I then want to detriment counter, counter minus minus. And
+then I&apos;m going to do a console log scrolling up and then the counter
+we&apos;ll see what the counter is. All right, let&apos;s go and see what this
+does. I think that hopefully I did that right? I think I did.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 206/207. example, scroll up/down (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image206.webp"
+  style="width:45%;"
+  alt="Example, scroll up/down." />
+<img src="./images/image207.webp"
+  style="width:45%;"
+  alt="Example, scroll up/down." />
+</p>
+
+So now if I come back and refresh this page we&apos;re at the top of the
+page if I scroll down into section two you can see scroll down, this
+becomes a one because we&apos;re zero indexed. We scroll down again, now
+we&apos;re at two for section three, we&apos;re three for section four, four for
+section five. But if I scroll up, you&apos;ll see scrolling up. Now we&apos;re
+coming into section three and then two and then one? So our numbers were
+either scrolling down or were scrolling up. And we can tell which
+section is on the page because of this counter, it&apos;s zero indexed in
+this case for a specific reason that we&apos;ll get to in just a minute. It
+doesn&apos;t have to be you can set it set the first section two and one in
+the second, section two, but we&apos;re going to use the zero indexing for a
+reason.
+
+I have the first section is zero, second section is one and so on. And
+you can see that the script is working. And this is a big deal because
+now we have a script where we can keep track of not only when we&apos;re
+scrolling, but when certain sections are on the page, based on the
+height of that section, that we&apos;re calculating when the page loads,
+including all the images, because they have an effect on the height of
+these elements.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-12">2.12 Writing the Else/If Statement -- Part 2 (5:43)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 208. writing the else/if statement - part 2 (108) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image208.webp"
+  alt="2.12 Writing the Else/If Statement - Part 2."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+If this seems a bit cumbersome and confusing, that&apos;s okay, that&apos;s
+natural. It&apos;s not easy to wrap your head around. However, the hard part
+of the script is over. The rest is fairly easy to do, but the hard part
+of this script is now been finished, that&apos;s nice to know.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 209. scroll up/down & position to section (108) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image209.webp"
+  alt="Are you scrolling up or down and identify where in relation to section you are."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+
+This is where the magic happens, is in the &apos;if &apos; and in the
+&apos;elseif&apos; where we&apos;re tracking whether we&apos;re scrolling down or
+scrolling up, and where we are in the page in relation to our various
+sections of the page.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 210. get posttop for location of section (109) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image210.webp"
+  alt="Get postTop for location of section on scrolling page."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+The next thing we need to do is to take advantage of the script to
+change the highlighting of these actual pieces based on which section
+we&apost;re at. That&apos;s the last part of the script that we need to do, and that
+part is not very difficult at this point. What I&apos;m going to do up here
+at the top is I&apos;m just going to make another variable <b>'var
+allLinks'</b> and that can hold dollar sign, parenthesis, and then what is
+it over here, I&apos;ve got a navigation appears just now, <b>&apos;nav ul li
+a&apos;</b>. I just want to put those anchor tags: <b>&apos;nav ul li a&apos;</b>, into a
+variable called <b>'allLinks'</b> because I&apos;m going to use that to affect
+this.
+
+Then down here I&apos;m going to make another variable called &apos;<b>var</b>
+<b>prevCounter</b>&apos;, and set that to zero. You&apos;ll see why in a minute for
+the previous counter, you&apos;ll see why we need that as we go forward
+here. Add these two variables, one that&apos;s just going to gather all the
+links just for a short cut, we don&apos;t have to take this out every time,
+and then one for previous counter that set to zero.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 211. highlight section you are in (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image211.webp"
+  alt="Highlight the section you are in."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Now to make use of that I&apos;m going to come down here, I&apos;m going to add
+an an extra if statement and I&apos;m going to paste it in here to see that
+you have to watch me type it. I&apos;m going to add another if statement,
+and you&apos;re going to have to type this in. If counter is not the same as
+exclamation point, equals not the same as previous counter, then we want
+to take all links, and remove the class attribute so that I&apos;ll remove
+selected from all of those anchor tags up there. Then we want to take
+the link with <b>eq</b>. <b>eq</b> is a function in jQuery that&apos;s like
+equals.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 212. update class attribute of section (111) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image212.webp"
+  alt="Update class attribute of section."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+I&apos;m going to get the a tag that equals counter. For the first section
+counter would be zero, for the second one or for the first anchor tag,
+if we&apos;re in the first section, the first link that goes with that
+anchor tag is number zero, and the second one is one, and the third one
+is two, and the fourth one is three, and the fifth one is four like
+that. This is why I&apos;m using the zero indexed thing for counters here,
+is because the eq function here in jQuery is a zero indexed function. So
+eq zero will get the first one, you now add the class selected to fill
+them up at the top of the page. Then the first link gets the class
+selected, and then if I&apos;m on the second one, so on and so forth, so
+that the correct one gets to the correct class selected. Then I set
+previous counter to be the same as counter, so now it&apos;s the same. This
+if statement will fire every single time, you scroll just a tiny little
+bit, but it will only do something when you&apos;ve scrolled into a new
+section, either by scrolling up or by scrolling down.
+
+When you scroll down into a new section, the counter gets incremented,
+and then this becomes a true statement so that it does this. But it will
+only do this stuff in here when the counter actually changes. Then once
+it&apos;s changed, these two things are set to be equal, and it won&apos;t fire
+again until you go into another section. That should actually work.
+Let&apos;s see if that works.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 213. highlight necessary section on scroll (112) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image213.webp"
+  alt="Highlight necessary section on scroll."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Come over here, I&apos;m going to just scroll up to the top here, refresh
+the page, and then now as I scroll down into my second section, you can
+see that the class was removed from all of these links and added to that
+one. As we go down into the third section, it now highlights that link
+(3^rd^ section). As they go into the fourth section it highlights that
+link, and then going up that will do the correct thing going up as well.
+This isn&apos;t very exciting to see these changing here. Certainly not
+super exciting, but think about everything else that we could do on the
+page. You could add a class to these elements that make the move when
+they come onto the screen or something like that. You could do really
+anything based on whether when you&apos;re scrolling or where your scrolling
+to. This script gives you a lot of power over that thing, and that&apos;s
+really cool.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-13">2.13 Edge Case Issues</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 214. edge case issues (2.13) (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image214.webp"
+  alt="2.13 Edge Case Issues."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+This script is working and we can leave it the way it is, but there are
+a couple edge case scenarios that are worth mentioning and worth fixing,
+and it complicates the script a little bit, but it&apos;s worth addressing
+and looking at.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 215/216. calculate height of each image (113) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image215.webp"
+  style="width:45%;"
+  alt="Calculate height of each image." />
+<img src="./images/image216.webp"
+  style="width:45%;"
+  alt="Locate section using image height." />
+</p>
+
+
+What I&apos;m going to do here, is I&apos;m going to click this button here,
+which toggles the device toolbar thing here. What I want to point out is
+that the script is responsive, ready in the sense that if I go up to the
+top of my page here and refresh, when the page loads, no matter how wide
+my browser window is, it&apos;s going to calculate how tall each of these
+sections are and it&apos;ll be fine.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 217/218. test scroll position up/down (114) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image217.webp"
+  style="width:45%;"
+  alt="Test scroll section position, #1." />
+<img src="./images/image218.webp"
+  style="width:45%;"
+  alt="Test scroll section position, #2." />
+</p>
+
+
+If I&apos;ve got a narrow browser on a phone or a small tablet or something
+like that, or a wide browser and a screen with a big window, big screen
+on a computer or something like that, then it&apos;ll adjust itself
+accordingly and that&apos;s fine. However, what it won&apos;t do is handles the
+situation well, where somebody resizes their browser window while
+they&apos;re actually looking at the page, because when you resize the
+browser window, the amount of space that these sections will take up
+could potentially change Section 5, your goods from being, short to
+tall. The length of that changes and we need to recalculate the height
+of each section if somebody resizes their browser screen.
+
+The other thing that&apos;s a problem is if somebody refreshes the page
+while they&apos;re scrolled down the page, the page will load, but it will
+load scroll down, but the counter gets at zero, which means the first
+section gets highlighted. Let&apos;s take a look at that real quick.
+
+Now I&apos;m looking at Section 5, but the first section is highlighted, and
+that&apos;s no good. That&apos;s not really great. Now, how often does this
+happen? Probably not terribly often, but even still, it&apos;s the little
+glitchy thing that we could just clean up and make a little bit better.
+That&apos;s what we&apos;re going to do in the last part of the script is to
+handle these two situations for this and while we&apos;re at it, we&apos;re
+going to find a trick that&apos;s actually going to be really useful for
+other scripts, for handling the same things that could happen.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 219.  (115) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image219.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+In order to do this, I want to capture an event that fires when somebody
+resizes the window.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 220/221.  (115) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image220.webp"
+  style="width:45%;"
   alt="." />
-<img src="./images/image004.png?raw=true"
-  style="width:35%"
+<img src="./images/image221.webp"
+  style="width:45%;"
   alt="." />
 </p>
 
-Introduction to jQuery, a little bit of history.
-
-JQuery was originally created by John Resig in 2006, and it became the
-most popular JavaScript library and it&apos;s still a popular JavaScript
-library. In a recent survey, it was found that over 80 percent of
-websites are still using jQuery. It&apos;s less popular today than it was
-back in the early 2010s where it was at its height. But it&apos;s still an
-important tool to learn and good to know.
-
-![](images/image005.png){width="4.0in" height="2.473077427821522in"}
-
-There are some specific advantages that came with jQuery when it was
-invented and some of these advantages exist today, but they are somewhat
-diminished, but let&apos;s talk about them. First of all, it smoothed out
-the differences between browsers. Back in 2006, when jQuery was
-invented, JavaScript was not implemented evenly across browsers and
-jQuery was really great at smoothing out those differences from one
-browser to another. It also simplified common tasks such as traversing
-the DOM. It provided a lot of ways of getting elements on the pages that
-we didn&apos;t have with plain JavaScript back in the late 2000s, or early
-2010s.
-
-It also provided an easier to work with event model for capturing clicks
-and scrolls and other kinds of events that users might use in the
-process of working with the page. Events that users make trigger. So it
-provided this event model that was easier to access and easier to use,
-it was easier to create interactive scripts that could hook into that
-event model in jQuery.
-
-jQuery also provides an effects library that&apos;s very easy to use and
-really exciting and it&apos;s really a cool effects library that provided a
-great way into programming, into creating interactive elements for a
-whole generation of developers.
-
-Then on top of that, there&apos;s a plug-in system for additional
-functionality. You could create plugins that added functionality to
-jQuery and we&apos;ll take a look at this to some extent.
-
-Then finally, last but not least, jQuery provides a simpler syntax and
-that allows us to write shorter and more concise scripts and these were
-all huge advantages to jQuery and contributed to making it the most
-popular JavaScript library.
-
-![](images/image006.png){width="4.0in" height="2.473077427821522in"}
-
-Today, jQuery is less useful than it used to be back in the early days.
-Some of the things that have been smoothed over is that, remember, in
-2009, jQuery came out in 2006. In 2009, the standardizing body decided
-to make JavaScript, the scripting language for the web and at that
-point, a lot of excitement poured into the JavaScript world and there
-was a concerted effort from the people who were making browsers. Web
-browsers like Chrome and Firefox and Safari and Internet Explorer at the
-time, It&apos;s now Edge. But for those companies that were making those,
-whether it&apos;s Apple or Microsoft or whomever, to standardize their
-implementations of JavaScript, that really helped with the development
-of JavaScript plus the release of ES6 or ES 2015 in 2015 really helped
-with a lot of the features of plain vanilla JavaScript so that we don&apos;t
-need as much from jQuery as we once did.
-
-We don&apos;t need to smooth out the differences between different browsers
-as much anymore. The implementations in different browsers are pretty
-much the same now are very similar, we don&apos;t need a lot of that
-anymore. In terms of simplifying common tasks such as traversing the
-DOM, we&apos;ve already explored <b>querySelector</b> and <b>querySelectorAll,</b>
-which are great tools for accessing elements in your DOM that are built
-into plain JavaScript now. Those have really helped minimize the need
-for jQuery to do that kind of thing.
-
-Also in plain JavaScript, we now have the <b>addEventListener</b> method,
-which is great for adding event listeners for all different types of
-events that users might trigger or might be triggered by the system.
-Using that event listener model limits the need for the easier to work
-with event model that jQuery had to offer. The <b>effects</b> library is
-interesting. The jQuery <b>effects</b> library is great, and it&apos;s really
-great to work with and it&apos;s fun to work with, and it&apos;s still useful
-from time to time.
-
-But these days we would much prefer to use CSS to create animation
-because CSS will take advantage of the devices GPU, the graphics
-processing unit, as opposed to the CPU, the central processing unit, and
-that will make your animation smoother and work better, especially for
-older, slower devices, and these kinds of things. Phones, older phones,
-this kind of stuff that the jQuery animations will feel a little bit
-clunky because jQuery is using JavaScript to create those animations.
-The effects library is not as useful today as it once was, although it
-can still be useful.
-
-The two things that are still really useful about jQuery are the plugin
-system for additional functionality. There are thousands of plugins
-written for jQuery and we&apos;ll look at a few of them. But you can explore
-many on your own and the wonderful thing about plugins is that, other
-people have written a whole bunch of code and you can take advantage of
-that and build all kinds of cool things from the code that others have
-written. That also helps prepare you for other types of libraries of
-code, if you get into node and NPM and these kinds of things. Doing this
-stuff with jQuery will help prepare you for that world.
-
-The simpler syntax for shorter, more concise scripts is also still true.
-It&apos;s perhaps less true than it once was, but it&apos;s still true. You&apos;ll
-see, we&apos;ll do some exercises and some examples where you&apos;ll see that
-the scripts are shorter and more concise and if you&apos;re just learning
-programming for the first time, that can be a way into programming. It
-was a way into programming for a lot of people who got into JavaScript
-and jQuery back in the day. It certainly was for me personally, where I
-wanted to do something that was fun and interactive and I could write
-fewer lines of code with jQuery than with JavaScript, so that was a real
-bonus for me as I was learning JavaScript back in the day.
-
-There are a lot of modern considerations to take into account when
-deciding whether or not to use jQuery. Adding JQuery to your project,
-add some weight to the files, and they&apos;ll take longer to load. If
-you&apos;re just doing one simple small thing, it&apos;s probably just not worth
-it to load jQuery to do that. However, if you want to get a simple
-interaction working quickly and easily, or if you want to make use of a
-jQuery plugin, using jQuery could save you a lot of time and really be
-worthwhile. You have to really consider it on a project-by-project
-basis.
-
-### 1.01.jQuery-Start.zip
-
-### https://www.coursera.org/learn/animation-javascript-jquery/supplement/qGouq/start-files-introduction-to-jquery
+Down here after my windows scroll event handler, which is this one here
+(left) and it&apos;s down here, but before the closing of my window load.
+Before this closing thing here, I&apos;m just going to add a new event
+handler down here (right image). It&apos;s going to look like this dollar
+sign <b>window.on</b>, we&apos;re going to use the on method again, but instead
+of looking for load we&apos;re going to look for resize. Then we&apos;re going
+to run a function. In here, I&apos;m just going to console log. Resizing.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-02">1.02 jQuery Libraries (6:00)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 222.  (116) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image222.webp"
+  alt="image222.webp."
+  style="border: 2px solid black; border-radius:15px; width:50%" />
+</p>
 
-![](images/image007.png){width="4.0in" height="2.473077427821522in"}
-
-What is a library anyway?
-
-![](images/image008.png){width="4.0in"
-height="2.2538462379702535in"}
-
-In programming, a library is just a file with a bunch of functions in
-it. Or it could be multiple files that you link up to your project. In
-this case, you link them into your HTML file and then you can just use
-those functions. If you&apos;re not familiar with a lot of programming and
-you haven&apos;t done a lot of this kind of thing, it may seem like an
-unusual or a new concept for you, but just think of it as something as
-simple as that. It&apos;s just a file with functions in it that you can
-access and use in your project. And then once you&apos;ve linked it to your
-project, it&apos;s just a matter of finding out what those functions are and
-how to use them. And that&apos;s really how jQuery works. It&apos;s a file that
-you can add to your project, and when you do you have access to all the
-jQuery functions and all the functions that come along with jQuery.
-
-![](images/image009.png){width="4.0in"
-height="2.2538462379702535in"}
-
-There are two options for plugging in jQuery. The <b>first</b> is you can
-download the file, the actual jQuery library file, and put it in your
-folder with your other Javascript files or other files for your project,
-and then link to that file locally in your project folder. And then when
-you load your web page it will load that file along with all your other
-files.
-
-Or, <b>second</b>, you can hot link to the library on a CDN or Content
-Delivery Network. So what that means is instead of putting the file in
-your project folder, you&apos;re actually linking to the file already out on
-the Internet. And a CDN or Content Delivery Network means that when you
-do that, you&apos;ll actually be getting the file from the closest server to
-you. A CDN has servers all over the globe. And when you go to load a
-particular web page, it&apos;s looking at your IP address and figuring out
-where you are and then getting the file from the closest file server, so
-it will get it the fastest that it can.
-
-![](images/image010.png){width="3.5in"
-height="1.972115048118985in"}![](images/image011.png){width="3.5in"
-height="1.972115048118985in"}
-
-First, we&apos;ll look at downloading jQuery, and to do that, you can go to
-<b>jquery.com</b>, and I have that website pulled up here, and you can
-click the Download jQuery link. So let&apos;s go over here. And I can click
-on download jQuery here. And that will take me to a page that, if
-you&apos;re not used to doing this kind of stuff, will look a little
-confusing. because we&apos;ve got a whole bunch of links here and it&apos;s not
-really clear exactly what it is you should actually be downloading. And
-then they&apos;ve got this stuff with npm and Yarn and Bower, and this
-migrate plugin and all this other stuff on the page. So it can be a
-little bit confusing.
-
-![](images/image012.png){width="5.0in"
-height="2.8173075240594927in"}
-
-The <b>npm, Yarn</b> and <b>Bower</b> are all build tools that you might be
-using if you&apos;re in a particular environment that&apos;s using these build
-tools. But we&apos;re just going to download the actual library file itself.
-And what we want is the compressed version. There will be a compressed
-version and an uncompressed version.
-
-![](images/image013.png){width="5.0in"
-height="2.8173075240594927in"}
-
-The uncompressed version will look like this, and it looks kind of like
-Javascript that you&apos;ve seen before with <b>var</b> and all this kind of
-stuff. The compressed version is going to remove all of the white space
-and sort of compress it down. So it&apos;s not really made for human reading
-at all, it&apos;s made just to be loaded on your computer. But it will be
-smaller. It&apos;ll be a smaller file to download and so what you want is
-the <b>compressed</b> <b>production</b> version of jQuery.
-
-So if you click the shortcut to the compressed version, you&apos;ll get a
-screen full of compressed code which appears as jQuery version 3.7.1.
-Okay, so to download this, if you just right click in the white area
-here and do Save As, and I&apos;m going to save it in my Downloads into my
-jQuery Start folder, and that&apos;s where you should put it as well. So
-I&apos;m going to just put it in here and save this so that now I have a
-copy of jQuery in my jQuery Start folder here.
-
-![](images/image014.png){width="3.0in"
-height="1.474679571303587in"}
-
-Here it is, jQuery 3.7.1 min because the minified version has been
-compressed down. And, you want to get the minified version. This version
-is the size of maybe a medium sized image on your web page (86
-kilobytes). It&apos;s not that big. This is significantly larger
-(un-minified version of 279 kilobytes).
-
-So now we&apos;ve got jQuery, let&apos;s get it plugged into our HTML file.
-We&apos;ll plug it into our HTML file here.
+Now, this event listener will fire while we&apos;re resizing the window and
+up here, I&apos;m going to get rid of some of these other console logs
+comment that went out. I&apos;m going to comment that I don&apos;t need that one
+just so I don&apos;t have those cluttering up my script over here. Great.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-03">1.03 Plugging into jQuery Libraries (5:37)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image015.png){width="4.0in"
-height="2.473077427821522in"}
-
-Plugging in the jQuery library, now we&apos;ve downloaded jQuery, all we
-need to do is add it to our file and I have those files open in my
-visual studio code here.
-
-This is the same file, there&apos;s jQuery, and I want to add jQuery to my
-file here. I can come down here and I can add a script tag script, and
-what I&apos;m going to put in here is &quot;"Source&quot;" SRC equals quote, and then
-I can actually just pick this file from list here, and there we go. Now
-jQuery is plugged in, and if I test this file over here, I come over
-here and open a new tab and do open and go into my jQuery Start folder
-and open this index file, it&apos;ll pop up and it&apos;ll say jQuery is loaded,
-if I were to remove that script, down here you can see if window dot
-jQuery, alert jQuery is loaded.
-
-If I were to remove this script, suppose I comment this out just for a
-minute here, and save this, and then come back and test it, it&apos;ll come
-back and it&apos;ll say jQuery is not uploaded. In order for this script to
-run, it requires jQuery, because we&apos;re testing to see if jQuery is
-here, there we go. Now jQuery is loaded and this statement is true and
-we&apos;re getting this alert box to pop up, so that&apos;s great. We can load
-jQuery by linking it here, downloading it and putting it in our files
-and linking to it. When you do it this way, you have an extra file to
-keep track of, you have to keep track of this jQuery library file and
-make sure that it doesn&apos;t go missing from all your folders and files.
-Not that bigger deal, but it&apos;s one more file to keep track of. Even
-easier is to use a CDN to load jQuery, and the CDN I prefer to use is
-the Google CDN, and I have that pulled up over here, and if you want to
-get to the CDN, the easy way to get to it is just to Google. Google
-jQuery I type CDN there we go, and you&apos;ll see Hosted Libraries on
-Google. That&apos;s this link right here, and over here they&apos;ve got a lot
-of libraries that you can access through Google that they host on their
-CDN, and one of them is jQuery. We can actually go to this link here, to
-jQuery, and you can see that jQuery has three different versions, three
-flavors of jQuery that include different features. The version 1X
-snippet is the oldest version of jQuery and it&apos;s loading 1.12.4. This
-is really the 12th major version of version one, essentially, and then
-we&apos;ve got version 2.2.4, which is the second major version of version a
-two, and in version two, they did a number of things to remove support
-for IE6 because they had basically gone away at that point, so they&apos;ve
-done some different things in these different versions. The most recent
-version, the version that we downloaded is version 3.7.1, so to get the
-same one that we had before, you can just copy this entire script line
-here. Oops, wrong button here. There we go. Just copy that line, and go
-back to our file here, and paste that line in instead, and you&apos;ll see
-if we save this and come back and do testing jQuery, jQuery is loaded.
-Instead of loading from the file that I have locally here, I can now
-delete this file, and it will work just fine. Delete. Now if I was gone,
-but this will work just fine because it&apos;s actually loading jQuery from
-the internet. Of course, if the internet&apos;s down, it&apos;s not going to
-load it, but if the internet&apos;s down, and you going to get to your
-webpage anyway. It&apos;s a little bit easier to use the CDN to load jQuery
-because it&apos;s just one less file and I have to download, keep track of.
-Usually we will be using this method to load jQuery, and there are times
-when you might want the older versions generally will use the newest
-version, but you might want the older versions if you&apos;re using a
-function or method in jQuery that has been deprecated, or if you&apos;re
-using a plug-in that was built using an older version, and it needs some
-functionality from the older version in order to work. But generally
-we&apos;re going to use the newest version of jQuery, version 3.7.1 at the
-time of this recording.
+<!--~~~~~~~~~~~~~~~~~~~~~~ 223.  (116) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image223.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+I&apos;m going to come over here to my page and I&apos;m going to refresh and
+I&apos;m going to resize the window and you can see that while I&apos;m resizing
+the window, that event is firing 138 times there. As I resize the
+window, the event is firing. I don&apos;t really want to capture the event
+of the window while it&apos;s resizing, really what I want to do is I want
+to know when the window is done, resizing when have I finished resizing
+it, when I stop. That&apos;s the event that I want to capture. But the start
+is to an event handled for when it&apos;s resizing and in the next lesson
+will look at what we can do to capture the event for when we&apos;ve stopped
+resizing the window. Because at that point, that&apos;s when I want to
+calculate, how tall are my sections and fix my script up so that it will
+run right at that particular size. We&apos;ll do that in the next lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-04">Module 1.04 Basic jQuery Syntax (5:31)</h2>
+<h2 id="ch2-14">2.14 Resizing Your Windows</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 224. resizing your windows (2.14) (117) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image224.webp"
+  title="2.14 Resizing Your Windows"
+  alt="2.14 Resizing Your Windows."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
 
-![](images/image016.png){width="4.0in"
-height="2.473077427821522in"}
 
-Now that you have jQuery working, let&apos;s do something with it. Do
-something more than just to show that it&apos;s working. We&apos;ll use the same
-file, we&apos;re just going to replace the script down there just so we can
-see that something is happening to our actual web page. If we come back
-over here, we can get rid of this if-else statement. Just delete that
-for a moment and let&apos;s put in a jQuery statement. Try this instead.
-There we go, dollar sign, we&apos;re going to go get the h1 on the page,
-which is this element here, Is jQuery working? We&apos;re going to use the
-CSS method in jQuery, like that. What we&apos;re going to do is we&apos;re going
-to set the color of the h1 to red. If we just do this one line and then
-save it. Then if you come over and run this test in jQuery again,
-you&apos;ll see that it turns the h1 red here. If I inspect this element
-here, you can see that what jQuery has done here is it&apos;s set the style
-color red on the h1. Now before we did the same thing with querySelector
-or querySelectorAll. We&apos;ve done this kind of thing before in previous
-lessons, but now we&apos;re using jQuery to do it. In jQuery you can see we
-have just a really simple syntax here that uses CSS-style selectors to
-access elements on the page. We&apos;ve gotten methods that we have access
-to because the jQuery library is plugged in that we can just use. Now if
-you&apos;re wondering about the dollar sign here. The dollar sign is just a
-shortcut for the word jQuery. I could put the word jQuery there, and
-over here this will run just exactly the same way. It will work fine
-with using the word jQuery instead of the dollar sign. But generally we
-use the dollar sign as a shortcut just because it keeps our script
-shorter, it&apos;s less typing, and why type all those extra characters if
-you can just type one? We can put the single dollar sign in there for
-that reason. This CSS method here is just one of the great many that
-jQuery has to offer that will help us factor web pages. You can come
-back here, you can go and look at the jQuery API documentation here.
-I&apos;ll put this link in for the lessons so you can access it easily. You
-can see that there&apos;s just tons and tons of different methods that you
-have access to as we go through and look at all of these. Here&apos;s the
-CSS one that we were just looking at, but there&apos;s tons of them in here.
-JQuery gives you access to all of these different methods. It&apos;s like
-having a kit that you can use to build things for your web pages just by
-plugging them in and plugging in jQuery and then using these methods, in
-accordance to the way they&apos;re described in the documentation. Let&apos;s
-try something else here. If we come back here and try, let&apos;s try adding
-a few paragraphs. Let&apos;s just add a few paragraphs. One of the nice
-things about jQuery is it allows you to work with collections of things.
-If I come in here and just add a couple of paragraphs to the page. I&apos;m
-just going to copy that and paste it and add a few more here. Now I&apos;ve
-got three paragraphs on the page. Down here, if I change this to P, if
-we were doing this with plain JavaScripts, we would need some loop
-because we would do querySelectorAll or getElementsByTagName or some
-method like that, which would give us an array of items that we would
-then have to loop through to turn them all red. We&apos;ve done that before.
-You&apos;ve done that in some of our previous lessons. Here with jQuery, one
-of the things that makes jQuery shorter and more concise is it&apos;ll work
-with groups of elements. I can just grab the paragraphs and say CSS
-color red. You&apos;ll see over here when I run this page, it&apos;s loading
-these paragraphs and it&apos;s turning them all red without having to do a
-loop. That saves me not a lot of extra lines, but a few extra lines of
-programming. This is the thing that makes jQuery easier to get into for
-people who are new to programming. This whole thing of having to, I take
-this array. Now I&apos;ve got an array and I&apos;m going to loop through it.
-It&apos;s a little bit of a pain. JQuery takes some of that pain away, and
-that&apos;s really a nice feature of jQuery.
+Great, now I want to make it so that when we&apos;re done resizing, we know
+we&apos;re in a place where we can actually change the heights of our
+element to do all that stuff.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-05">1.05 Using jQuery to Access Elements (8:39)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 225. add variable doneresizing (118) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image225.webp"
+  title="Add variable doneResizing"
+  alt="Add variable doneResizing."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
 
-![](images/image017.png){width="4.0in"
-height="2.473077427821522in"}
-
-jQuery selecting elements, download and open the page dot html file and
-your code editor that goes along with this particular lesson and there
-you&apos;ll see some markup and we can use the jquery language to select
-different elements on the page. If we go look at this page really
-quickly here, you&apos;ll see that it just has some content it has some
-different markup with the header in each one in each to summon ordered
-lists. It&apos;s got some ideas and some classes and some links and some
-other content that we can access. And one of the beautiful things about
-jQuery is that you can access any element on the page with jQuery,
-usually in many different ways, it&apos;s the very powerful part of jQuery
-and you can think of it as the query part of jQuery, your query in your
-page, you&apos;re finding elements on the page that you can do things to
-them or with them or for them. And that&apos;s a very powerful thing. So we
-will be using jQuery to go in and access elements on this page and
-we&apos;ll practice that to sort of see, what some of these different
-methods are and some of the different things we have available to us,
-see what they are in jQuery. And that&apos;s really kindaa fun and a very
-powerful thing to be able to do with jQuery. So for example, if we were
-to try to do this, we could go back to our file, we&apos;re going to have to
-add the, at the library again so we need the script here. If we come
-back over to our file, you&apos;ll notice the bottom, we don&apos;t have any
-script tags. So down here after this closing div we need to add the
-jQuery library, so we can use jQuery and then we need to use then we
-need a script tag, which we can open and close. And now if we wanted to
-do something like for example, put a border around this main element
-here, we can very easily just use jQuery object. And type it this way
-it&apos;ll get, there is still some syntax that you have to get used to with
-jQuery, so I recommend typing it this way, so you can kind of get used
-to it. If you do pound maine and then CSS the CSS method that we&apos;ve
-already talked about and we&apos;re just going to do a border here. Border
-two PX color to be X solid read like that I think will work. Is that
-what I had over here I think it is, 2PX solid red. So if we do that and
-save this document here, and then come over to our example page, so
-here&apos;s my page and if I refresh you&apos;ll see I get a border around the
-mean area of the page. So that&apos;s working, so we can access this
-element, we can access all kinds of elements with jQuery. So if I wanted
-to get the elements on the page that have the class special, so if we go
-back to our code here, we should see that we&apos;ve got a class special in
-these two list items. We&apos;ve got a class special up here on this list
-item, so these items should be targeted if we change this to not
-special. And one of the things that&apos;s nice about jQuery is that if you
-just know CSS then how to get these selectors. It&apos;s just using the same
-selectors you&apos;d use in CSS, so I can come over here and try that again
-and you can see those elements are getting the border around them. You
-can also use compound selector, so if I wanted to get specifically the
-age to inside of main we can do that as well so we can do main H two.
-Now this may not seem so special now because we have query selector and
-playing javascript which allows us to use compound selectors like this
-using the CSS index. But, back in the day when jQuery was invented, you
-couldn&apos;t do that stuff in javascript and so it was a lot more
-complicated to be able to get to elements in the patrons playing
-javascript. Now it&apos;s not so hard, but still this is pretty neat to see
-that you can get to these elements, really easily inside of our page and
-you notice I don&apos;t have to do any kind of looping. So even if I was
-using plain javascript, even now with query selector, all I would have
-to have some sort of loop or for each method or something like that, to
-go through and turn each one of these red. Whereas in jQuery I can very
-simply just grab the group and apply the CSS to it and applies it. So
-this thing returns a jQuery object, with these elements inside it and
-then we can apply that CSS to it so that&apos;s pretty nifty. There are more
-that you can try, so for example you can try Multiple selectors, like I
-could say I want the H two and the paragraphs. I recommend trying these
-out I&apos;m not going to make you watch me type them all. I could get the
-even list items, or the first paragraph or the list item that has an a
-northern list inside of it or a list item that contains the word three.
-So there&apos;s like all of these different ways of getting, content on your
-page. Now some things to pay attention to is that, jQuery does change
-over time and some of these that I have on this slide, some of these
-that I have on the slide are are actually deprecating now. So for
-example, even in first we&apos;re not actually supposed to use anymore. If
-you come over to the, documentation, you&apos;ll see that as of jQuery 3.4,
-even the even pseudo classes deprecating what they want you to use
-instead is dot even. So let&apos;s take a look at how you would do that. So
-over here if I did, instead of saying LI colon even, I would do LI and
-then I would do dot even dot CSS like that. And this is called chaining
-in jQuery where you chain one thing to another. And and so I can
-actually do that and let&apos;s come over and see what that gives us.
-Actually give us the even, and notice it&apos;s starting counting with zero,
-So this is number zero. Then within the sub list we&apos;ve got, this would
-be the even ones here, and then we&apos;ve got even one there and then even
-once down here 012 like that. So it&apos;s getting the even elements the
-other one that is not supported anymore is 1st. So you would instead of
-using first colon first you would use first like this, and that will get
-the first list item in a given list. Let&apos;s see what that gives us. So
-that gives us this first one here. Okay, so there we go, that&apos;s how
-some of these different selectors work and I recommend trying some of
-them out. There are so many ways of getting elements on the page with
-jQuery and you&apos;re not going to remember them all. The best thing to do
-is, when you have a page and you have some elements, you need to get to
-be creative, use the documentation for jQuery to help you find the best
-way of getting to that element on the page.
+To do that, I&apos;m going to come back up here at the top of the page and
+then add one more variable var doneResizing.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-06">1.06 jQuery Events (5:55)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 226/227. add resize function with log (118) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image226.webp"
+  style="width:45%;"
+  title="Add resize function"
+  alt="Add resize function." />
+<img src="./images/image227.webp"
+  style="width:45%;"
+  title="Test, resize function with console log"
+  alt="Test, resize function with console log." />
+</p>
 
-![](images/image018.png){width="4.0in"
-height="2.473077427821522in"}
+I&apos;m just going to set out a variable and it&apos;s going to be undefined at
+the moment, but down here, I&apos;m going to insert my resize function here.
+I can get rid of this console log. I don&apos;t need that one. Actually,
+I&apos;m just going to leave it there for a moment because we&apos;re going to
+use the console log anyway.
 
-Let&apos;s look at how we can capture some events in jQuery. jQuery has its
-own special syntax for event handlers. So let&apos;s take a look at how to
-do that. If we come back over to our test page here, you can just
-comment this, I already deleted just to get rid of it. But I&apos;m going to
-target anchor tags on the page. So again, I&apos;m going to type my jQuery
-object, and in there, I&apos;m going to say a. That&apos;s going to go in and
-target all of these anchor tags on the page, all of those and all of
-these, and that&apos;s going to gather all those items and return them in
-this nice little jQuery object here. I&apos;m going to add a click
-handler.click. So this click handler is going to fire when you click on
-any one of those anchor tags, and what I&apos;m going to pass in, make sure
-you type it this way, so you typing from the outside in. I&apos;m going to
-add in here a function like so with parentheses and curly braces. So
-this is an anonymous function. This is a function that&apos;s just going to
-run when this click handler happens. In here, I&apos;m just going to put
-console.log, and in here, I&apos;m going to put this.html. That should put
-in the console the HTML of the link that I clicked. Because it&apos;s going
-to put this in all of the links, I can only click one link at a time. So
-let&apos;s see what this does. If I come back to my example page here and
-refresh it, and then turn on my inspector here, and turn on the console.
-If I click a link, this.html is not a function. I must have done that
-wrong. I know what I did. Come back over to Visual Studio code. I need
-to use my jQuery object. I&apos;m having all sorts of trouble here,
-$(this). All right, so I&apos;m using jQuery to get this, and then I&apos;m
-using a jQuery method called html here that&apos;s going to return the html.
-Lets and see if that works. Test slide again, click a link, and I&apos;m
-getting link one, or if I click sub link one, I get sub link one, or if
-I click link two, I get link two, link four, I get link four. What&apos;s
-going on here is that the click handler, and this is again, in plain
-JavaScript, we would have to use some loop to apply the click handler to
-all of the anchor tags, but here, I can just grab all of them, return
-them in this jQuery object and then I can use this method here, our
-console log just to tell me what is inside of these anchor tags each
-time you click on one. So that&apos;s pretty nifty. The next thing to keep
-in mind is that jQuery really is just plain JavaScript. It isn&apos;t a
-separate thing from JavaScript, it isn&apos;t a separate language, it is
-just JavaScript and you can mix in regular JavaScript with jQuery, and
-that&apos;s why I made the mistake I made a few minutes ago is, I was trying
-to do a combination of the both, but I can just do this.innerHTML. That
-should work exactly the same way, except that this is using plain
-JavaScript here instead of jQuery to do the same thing. So if I come
-back and test this, link one gets me like one, sub link two, sub link
-three, and etc. In summary, you&apos;ve learned a lot of new stuff. You can
-plug jQuery, like plugging the jQuery library either by downloading the
-library and putting it in with your files or you can use the CDN. You
-can use jQuery to capture events and to affect elements in the DOM,
-there&apos;s a lot more to learn, but this is a really good introduction to
-what jQuery does. It&apos;s just more JavaScript, but it makes doing some
-things a little bit easier, and it&apos;s still important to learn actual
-native, regular, plain vanilla JavaScript, especially as the need for
-jQuery in new projects is reduced. But if you get a job and you&apos;re
-working on a project, it&apos;s very likely that you&apos;ll be working with
-Legacy code and you&apos;ll encounter jQuery, or if you&apos;re looking around
-on the Internet, you&apos;re very likely to come up with solutions that are
-jQuery specific. Because it&apos;s been such a popular library, it&apos;s going
-to be around for a long time, and it&apos;s still important to learn how to
-work with it. Learning how to work with jQuery will help you learn how
-to work with JavaScript, so it&apos;s a two-way street. I hope you have fun
-as we go forward with this course, and learn a lot about jQuery, and how
-to use it with different projects.
-
-### 1.06.Introduction-to-jQuery.pdf
+But in here, I&apos;m going to do a set time out in here for this. I&apos;m
+going to a set time and it&apos;s <b>doneResizing</b> and assign it the
+<b>setTimeout</b> function. SetTimeout method here, and remember,
+setTimeout takes a function, like that, and then a comma and then an
+amount of time. Then I said it&apos;s a really short amount of time, like
+half a second, 500 that&apos;s fine. We move that down there and then up
+here, I&apos;m going to do clearTimeout, doneResizing, and then I&apos;m going
+to just move this console log so that it&apos;s in here, just so we can see
+what the heck is going on, console log doneResizing. What&apos;s happening
+here is, remember clearTimeout stops the Timeout from happening. While
+I&apos;m resizing my window, clearTimeout, going to fire, and setTimeout is
+going to stop. As soon as I&apos;m done actually resizing my window, then
+this will stop running, doneResizing will give me 500 milliseconds, and
+then it&apos;ll cancel. I got okay, I&apos;m done resizing and that&apos;s a nice
+cheater&apos;s way of knowing when I finished resizing the window because
+this is going to keep this thing from actually happening until I stop
+resizing the window. Until this method stops happening, which is
+happening while this event is going to be happening while I&apos;m resizing
+the window. But as soon as I&apos;m done, then the set time me out will run
+in a week, 500 milliseconds console log after it&apos;s done resizing, I
+hope. Let&apos;s see if that works if I did it right. If we come back over
+here and refresh my screen here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-07">1.07 Intro to Folding Sidebar Menus Using JS (4:36)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 228/229.  (119) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image228.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image229.webp"
+  style="width:45%;"
+  alt="." />
+</p>
 
-![](images/image019.png){width="4.0in"
-height="2.473077427821522in"}
-
-Folding sidebar menus using JavaScript. You&apos;ve already learned a little
-bit of jQuery, but before we dive more into jQuery, we&apos;re going to do
-this project using plain JavaScript, and then we&apos;ll do the exact same
-project using jQuery. We&apos;re going to do this with a few different
-projects so you can see the difference between jQuery and JavaScript and
-how they work together, and some of the differences between the two. In
-this project, we&apos;re going to have just a simple page and on the side of
-the page, we have a menu, and when you click the menu item, it falls
-down and shows the sub-menu. When you click a sub-menu, well, one is
-already opened, it will close the other ones, that will limit the number
-of options your user has to see, and sometimes that can be really
-helpful for users in terms of cognitive load, you only want them to see
-a certain number of options at once. We&apos;ll look at how to build this in
-plain JavaScript first, and then we&apos;ll do the exact same project using
-jQuery. Just a few notes about the markup. If you look at the markup,
-you&apos;ll notice that the article comes first and the aside comes second.
-This is often important for search engine optimization, we want the
-important content further up the page. We&apos;ll use CSS flexbox with
-row-reverse to display these next to each other, but put the navigation
-on the left. Generally, we want the article higher up on the page. Also
-notice that the navigation is following a very common markup scheme
-inside of a menu. This embedded, unordered list goes entirely inside the
-list item for the parent item. This is important to get in HTML, so
-let&apos;s take a look at this really quickly. I have my page open and you
-can see the article comes first right after my main section opens there.
-Then the navigation is an unordered list with list items, but notice
-this list item is entirely enclosed in the parent list item. This is
-really important to get right, and a lot of web developers get it wrong.
-The only items you&apos;re allowed to have is children of the ordered or
-unordered lists of list items. This unordered list needs to be entirely
-enclosed in this parent list item. These are the items that will show on
-the page, so over here currently without any JavaScript, these items
-will just show in here. That gets us started, and we&apos;re using just a
-little bit of CSS here as demonstrated here on the styles to display
-flex for this main element, but use flex-direction and row-reverse to
-get the navigation on the left and the main content on the right. Great.
-Now, with all that in place, let&apos;s get started with making this project
-work. The basic strategy of the script is that the sub-menu will be
-initially hidden, and then when you click on a parent menu, it will show
-the sub-menu. This will be accomplished by having JavaScript swap these
-two classes on the sub-menu when you click the parent menu. Initially,
-the sub-menus, the unordered lists that are inside the list items that
-are inside the unordered lists, don&apos;t have the hide-menu class on them.
-Our first challenge is to write a loop that adds this class to all the
-sub-menus in the unordered list. You&apos;ll see over here in the styles
-that these two styles are already here. Hide-menu, display: none, and
-show-menu display: block. Your first challenge is to write a little
-script, down here we&apos;ve got script tags. See if you can write a script
-that goes in and applies that sub-menu to that hide-menu class. We want
-to apply that to all of these unordered lists so they have class
-hide-menu on them. See if you can do that, and when we come back in the
-next video, we&apos;ll see how I did that.
-
-### 1.07.JS-Folding-Sidebar-Menu-Start.zip
-
-<h2 id="ch1-08">1.08 Challenge 1 Solution (3:23)</h2>
-
-![](images/image020.png){width="4.0in"
-height="2.473077427821522in"}
-
-Were you successful? Were you able to do it? Let&apos;s do it together. Down
-here, I&apos;m just going to make a variable, var submenus. Then assign that
-to document, dot, querySelector, querySelectorAll, and what I want to
-get are the ul, il, ul. There we go. Because what I want are these
-unordered lists that are inside the list items that are inside the
-parent unordered list. That&apos;s what I want to get here. I&apos;m going to
-get these, all of these and put them in here, and then I just need a
-loop for var i equals 0, I is less than submenus, dot length, i plus,
-plus, curly brace. I put these extra spaces in here, they&apos;re probably
-not necessary, but to me it makes it a little bit easier to see this and
-read what&apos;s going on here. But this should be review for you hopefully
-at this point. Now here what we need to do, is we need to put that
-submenu on each of these. I&apos;m going to say submenus dot square bracket
-i. Each one of these, it&apos;s going to go through each one of these and
-then do className equals hide menu. We got to have that right. Over here
-it&apos;s hide menu. Hide menu, display name, and that should go through and
-put that class on all of those elements. Let&apos;s see if I did that right.
-Over here I&apos;ll go check my document here, and this is exactly what I
-did, className, hide menu. Let&apos;s see if that actually works. We save
-that, come over here and refresh the page and look at that. All those
-menus are hidden, they&apos;re set to display none. I could do &quot;Inspect,&quot;
-and you can come in here and see. Click on this menu here or this one of
-these, one of these menus you can see it&apos;s got hide menu on it. Let&apos;s
-get that class on there. That&apos;s working great. Your next challenge is
-to add a click handler to the main links. These links here have a class
-on them of menu link. We want to gather those, and when you click on
-them, we want something to happen. We we&apos;re going to need an event
-handler for that. For now, just pass the event object and prevent the
-default behavior from that would result from clicking the link. But see
-if you can do that on your own without looking at my solution. But
-we&apos;ll do it together in the next video.
+Now while I&apos;m resizing the screen, nothing&apos;s happening over there in
+the console log, but as soon as I stop, doneResizing. Now, I know that
+when I doneResizing my window, number 2, doneResizing that event fires,
+and now that I&apos;m doneResizing, I can actually figure out, well, how
+tall are my sections and reset my page and do all of that.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-09">1.09 Challenge 2 Solution (7:01)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 230.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image230.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
 
-![](images/image021.png){width="4.0in"
-height="2.473077427821522in"}
-
-Let&apos;s do this together. First we need a variable, var menu links equals
-document.querySelectorAll and what do we want to get? We want to get
-these links here, this class menu link for this one, this one, this one
-down all those. I&apos;m going to come up share the document menu link. So
-we&apos;ll get those document in there, and then we need to loop. Used your
-loop here, so we need a for var i equals 0, or i is less than menu
-links.length, i plus plus. Hopefully you&apos;re getting used to writing
-loops now. Then in here we&apos;re going to put an event listener on each
-one of these. So menu links, square bracket i. addEventListener. When
-you click, we&apos;re going to run an event unit run a function. Not run an
-event, we&apos;re going to run a function. We&apos;ve got this function here
-that runs. Then for right now all I want to do is pass in the event
-property, event object there, and do event.preventDefault. That&apos;s all
-we really need for right now. But I that an event listener for each of
-these, and you can test it by adding console log or an alert or
-something like that large, collect something like that. Now if I go over
-here and test this, when I click on one of these, I get clicked or this
-one. We&apos;ve put an event listener on all of these truth loop. Okay,
-great, so we&apos;ve got that, and that&apos;s working exactly where you wanted
-to work. Hopefully, you got something like this as well. Again, this is
-review, but it&apos;s always good to challenge yourself, and see if you can
-do these small pieces. It&apos;s the best way to learn JavaScript. The next
-thing to get into is this keyword in JavaScript, and if you&apos;ve looked
-up stuff on JavaScript online, you can find that you can find a lot
-about this keyword. It can be pretty confusing. But in the context in
-which we&apos;re going to use it in this course that this keyword is fairly
-simple. It basically means that menu that we clicked on, we&apos;ve add an
-event listener to all the menus. Now when you click on one, we get an
-alert. But you can only click on one menu at a time, so I want to know
-which one I clicked on. I need to know that, and the this keyword can
-help us figure that out. I&apos;m going to make a variable here called
-thisMenu, and I&apos;m going to assign the keyword this to it, which means
-thisMenu, the one that I clicked. Then I&apos;ll console log or alert out
-thisMenu.innerHTML. You&apos;ll see that we can actually get the HTML of the
-menu that we collect. Let&apos;s do that really quickly over here. Instead
-of an alert here, I&apos;m going to say var thisMenu equals this, and this
-is a keyword. That means it refers to the thing that was clicked. Then
-we could do either console log or we could do to learn. I&apos;m just going
-to do an alert. Since we were working with alert, alert
-thisMenu.innerHTML. Instead quotes here because this was JavaScript not
-construe thisMenu.innerHTML. Alright, thisMenu.innerHTML, let see with
-architects. Before I now do this, we can mover test this, refresh the
-page. When I click this menu, I can alert that says Menu 1. It&apos;s
-telling me what&apos;s the inner HTML of the menu that I clicked Menu 2,
-Menu 3, Menu 4 you could do console log 2 either way is fine, great so
-we&apos;ve got that. Now we can get this menu using this keyword. But really
-what we want to get to is the parent ordered list. Over here we&apos;ve
-added a click handler onto when you click one of these links. But really
-what we want to get to is this list item. So that ultimately we can get
-down into the unordered list inside of here. John please take out that
-last part, and record from here. The next challenge is now that we know,
-which menu we&apos;ve clicked on, we want to get to the unordered list
-inside that menu item. In other words, what we want over here is we have
-something that tells us that we&apos;ve clicked on this anchor tag. But
-really what we want to get is this unordered list here, because this is
-the unordered list we added the class, hide menu to. Now we want to
-change the class to show menu. In other words we need to get from this
-link down here. The way we do that is through the parent. We can find
-out, who is the parent of this item. Then on that parent do query
-selector to find the unordered list that&apos;s inside the parent list-item.
-See if you can do that part on your own, going into to try to do that
-challenge on your own, and then on the next video, I&apos;ll show you my
-solution for that.
+Now, that I&apos;ve set it so that I can capture when I&apos;m doneResizing the
+window, what do I actually want to do in here? What I want to do is I
+want to come up here and I want to get these two things because this is
+what setting my postTops. When I get these two things, I&apos;m just going
+to copy them from there and paste them in here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-10">1.10 Challenge 3 Solution (2:46)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 231.  (120) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image231.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
 
-![](images/image022.png){width="4.0in"
-height="2.473077427821522in"}
 
-Were you able to figure that out? Hopefully you were. This is what I
-did, because I want to get, I&apos;m getting this, I&apos;ve got the anchor tags
-as my event listeners for when I click on them, but I want to really get
-to this UR, so, down here what I did instead of just this, I can do this
-dot parent node, parent node dot query selector. You will. And that
-should get me, the actual on ordered list, that&apos;s in the parent of the
-anchor tag that I clicked on. The parent is the list item. So I&apos;m going
-up to the parent list. I have been looking for the UR that&apos;s inside
-that will start them, and let&apos;s leave this. We&apos;ll leave this alert
-here. But you can make it console log if you prefer. It doesn&apos;t really
-matter. I&apos;m going to save that, and then come over here and refresh my
-page. And now when I click on menu one, I&apos;m getting all of these list
-items, it looks kind of messy here, but it is actually working. Or if I
-click on menu two, I&apos;m getting all these list items to B to C. So,
-I&apos;ve got this whole an ordered list that I&apos;m getting here. It might be
-easier to see it if you do it in a console log. So, we can change this
-to council a log and then let&apos;s see what it does. Now, if we view the
-console log, inspect, and I&apos;m going to move this turns bottom,
-actually, it&apos;s whichever the console and when I click that, once I get
-to refresh there we go. So I&apos;m getting the inner HTM out there, so,
-that&apos;s great. So that&apos;s all working really well. Now that you have
-that your next challenge is, now we&apos;ve got that sub menu, your next
-challenge, is how do we change the class in that sub menu to show menu?
-Currently it&apos;s set to hide menu. We wanted to set it to show menu. How
-do we do that? Try to figure out how you can do that on your own, and
-then come and see the answer on the next video. I&apos;ll show you how I did
-it.
+After I&apos;m doneResizing, I&apos;m going to reset this variable post tops and
+I&apos;m going to put each of the posts in here and down here, let&apos;s
+actually console log out, postTops here. Then also up at the top of the
+page where I have postTops console log out here, I&apos;m going to uncomment
+that out and save that, and now we should be able to test this and see
+if it&apos;s working.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-11">1.11 Challenge 4 Solution (2:29)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 232.  (121) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image232.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
 
-![](images/image023.png){width="4.0in"
-height="2.473077427821522in"}
-
-Were you able to figure out the challenge? I hope you were. It
-shouldn&apos;t have been too difficult, but sometimes you have to work
-through these things. What we could do instead, is we could use this
-menu and do ClassName equals &apos;show-menu&apos;. So we&apos;re applying that
-show-menu class to that particular menu. That should work. Let&apos;s go
-over and see what happens when we have refresher page here. Cosine
-inspector. If I click on this, it shows the menu. Now, you&apos;ll notice
-we&apos;re not quite done yet because if I click another one, it&apos;ll show
-that menu and it doesn&apos;t close the menus. We want to be able to open
-the menus and close them. The reason we want to make it so that when you
-click on a menu, if there&apos;s another one that&apos;s opened, it will close
-it before it opens this menu. That&apos;s the next thing that we need to
-figure out how to do. But this little piece of the script is pretty
-simple here. We have a menu that&apos;s using this keyword that says, &apos;&apos;Go
-and get the parent node, go get the unordered list inside that
-parent&apos;&apos;. The parent would be the list item. Go get the unordered list
-inside the list item, and then just change the ClassName from
-&quot;hide-menu&quot; to &quot;show-menu&quot;. That seems pretty straightforward.
-Great. Hopefully, you got that. You got this answer here. We can open
-the pages and we can open the menus, but we can&apos;t close the menus. The
-next challenge is if the menu has the class set &quot;hide-menu&quot;, set it to
-&quot;show-menu&quot;, otherwise, set it to &quot;hide-menu&quot;. This is your
-challenge, is how to make it so that it actually functions properly.
-There are two methods that you can use to help you with this. There&apos;s a
-method called classList and there&apos;s contains that will help you figure
-out whether the menu has &apos;&apos;hide-menu&apos;&apos; or &apos;&apos;show-menu&apos;&apos; wanted.
-See if you can do it on your own. Then if you are successful or not,
-just come back to the next video and we&apos;ll see how I did it.
+Over here, when I refresh the page, it should tell me where it thinks
+the postTops are based on the height of those elements. When I&apos;m done
+resizing, I get new postTops. The first one still at 200, that&apos;s fine.
+That makes sense, but the next one is a much higher number, and so on
+and so forth.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-12">1.12 Challenge 5 Solution (x:xx)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 233/234. test, smooth scroller and resizing functions (121) ~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image233.webp"
+  style="width:45%;"
+  title="Test, resizing function with smoothscroller for vertical image position"
+  alt="Test, resizing function with smoothscroller for vertical image position." />
+<img src="./images/image234.webp"
+  style="width:45%;"
+  title="Test, resizing smooth scroller for vertical image positions"
+  alt="Test, resizing smooth scroller for vertical image positions." />
+</p>
 
-![](images/image024.png){width="4.0in"
-height="2.473077427821522in"}
-
-Were you able to get the answer to this challenge? It&apos;s a little bit
-trickier because this one required you to look some stuff up. We
-haven&apos;t used class list or
-
-contains before. So hopefully you went to the MDN, the Mozilla Developer
-Network which is the authoritative resource on these types of
-technologies, and looked up something like element classless to sort of
-see how it works. And it gives you some examples on here. Also there&apos;s
-another page contains and so you can actually find contains contains.
-Does the dog token list and returns a boolean if true. So token list
-contained so we can combine these two things together to make this work.
-So let&apos;s try it together on our code over here and if you are able to
-get to work that&apos;s great. If not this will help you out. So instead of
-this I&apos;m just going to comment that out. Or you could just delete, but
-in there we&apos;re going to put an if statement if. And what we&apos;re going
-to check for is if this menu.classlist.contains. And we&apos;re going to
-look for hide menu like that. So if this is going to return true or
-false, does it contain hide menu? If it does contain hide menu then
-we&apos;re going to do this. But in there, else if it doesn&apos;t contain it
-then we&apos;re going to do this. But we&apos;re going to do hide menu. And that
-will allow us to open and close the menus. Let&apos;s save this and come
-back and check our page over here. So if we now we should be able to
-open the menu and close the menu. Unfortunately though we can still open
-multiple menus and really what we want to be able to do is to be able to
-when we click on one menu, make sure all the other menus get closed. Any
-other menu that&apos;s open is closed. So we can reduce cognitive load on
-our user and they can they can open only one menu at a time, and be sort
-of presented with only one set of options at a time. So hopefully you
-got something like this on your own. And if you didn&apos;t, hopefully my
-explanation helps. But I recommend if you&apos;re not getting these
-challenges, I recommend going through this lesson a few times to the
-point where you really can&apos;t do them without looking at my answers. It
-will really help you learn javascript and so much more. Okay, so your
-next challenge should not be a too difficult one. But basically what we
-need to do is close all the menus and then run this if statement. So
-before this, if statement happens this if else even happens. We want to
-loop that closes all the all the menus. So see if we can add a lip that
-closes all the menus before showing the sub menu with the parent menu
-being collect.
-
-## Module 1.13. Challenge 6 Solution (x:xx)
-
-![](images/image025.png){width="4.0in"
-height="2.473077427821522in"}
-
-Hopefully, you were able to get this working this way. So that when we
-click on these, they open and we can open them and we can close them.
-But now the challenge is we want to reduce cognitive load by making it
-so that our user isn&apos;t faced with too many menu options at once. So we
-want to only show one menu options at the time. So let&apos;s go over into
-the code and see how we could actually do this here. And really what we
-want to do is we want to duplicate this loop. We want to copy this loop
-and just stick it inside this if statement. So I will make sure that all
-of the menus get closed when you click on one that you&apos;re opening. And
-we&apos;re going to leave the if statements so that if you&apos;re clicking on
-one to close it, it will still work. And if it&apos;s set to class named
-show menu, it&apos;ll cited to hide menu. So that&apos;s why we want to leave
-the if statement here, but that should actually work on this. And if we
-go over and take a look at it and test this, we should see that this is
-working now. So I come back here and refresh this. Now when I click on a
-menu it opens, but when I click another menu it will make sure that one
-is closed and then it will open this one. Plus I could click on menu to
-and close it. So all of the functionality is now working and it&apos;s
-looking pretty good. So hopefully, you came up with this solution as
-well. Maybe you tried it some different ways or did something different
-with it. But this is the solution that I came up with and it&apos;s working
-pretty well. So now the next challenges, since we&apos;re using this loop
-twice, we&apos;re using the loop here as well as up here. And we don&apos;t
-really want to repeat ourselves. So now you&apos;re challenge is, how could
-you make a function that contains this loop and run that function twice?
-We want to run it once when the page loads and run it once down here
-inside the if statement. And the function could be called something like
-hide sub menus or something like that. And, yeah, so see if you can make
-that function and make that work. And in the next video, we&apos;ll look at
-my solution for how I made it work.
+If I make it slightly wider, I&apos;ll get a different set of numbers. But
+you&apos;ll notice this only re-evaluates after I&apos;m done resizing my
+window. That&apos;s really cool, that&apos;s working really well.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-14">1.14 Challenge 7 Solution (2:39)</h2>
+<h2 id="ch2-15">2.15 Resetting the Counter</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 235. resetting the counter (2.15) (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image235.webp"
+  title="2.15 Resetting the Counter"
+  alt="2.15 Resetting the Counter."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
 
-![](images/image026.png){width="4.0in"
-height="2.473077427821522in"}
 
-Everything is working and we can leave the script the way it is. But
-it&apos;s always good to refactor your code and make it better if you can.
-Let&apos;s do that with this final step here, this next step here. We&apos;re
-going to come over here and we&apos;re going to make a function, we&apos;re just
-going to put it here, function hideSubmenus, like that. I&apos;m going to
-move this loop so it&apos;s inside that function. Hopefully, you were able
-to do this on your own. Tab that in. Now, I&apos;ve got a function called
-hideSubmenus. I need to run that function here and run it once here and
-then I&apos;m going to run it again down here. It just makes the code a
-little bit more readable because in here, I can see if it contains hide
-all the submenus and then show this particular menu. Otherwise, if this
-one doesn&apos;t have class list hide menu on it, said it&apos;s a hide menu and
-that should actually work. So let&apos;s just test that really quickly, make
-sure that that works the way we think it should work. Back over here and
-refresh the page and you can see that it&apos;s still working just the way I
-intended it to work. That&apos;s great. Hopefully, you came up with the
-exact same solution that I came up with and we&apos;re able to get it to
-work the way I was able to get it to work. The last challenge for this
-is just to apply our best practices steps that we&apos;ve learned earlier in
-the course. Hopefully, you can do that on your own. But really what
-we&apos;re looking to do is to put the script and do to a separate file, add
-the IIFE, the immediately invoked function expression closure, add the
-use strict directive, change all the variable declarations to const or
-let. We&apos;re using let, if the variable changes like inside the loop over
-here, this need to be let. Then link the script to the head of the page
-and be sure to add the differ property inside the script tags so that it
-loads after the actual content of the page is loaded. So see if you can
-do all of that and then come back to the next video and see if you are
-able to get the same answers I was able to do or that I will show you in
-the next video.
+We&apos;ve solved the first part of our problem with what happens if
+somebody resizes the window. But we haven&apos;t solved the second part of
+what happens if somebody refreshes the page while they&apos;re further down
+the page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-15">1.15 Challenge 8 Solution (3:35)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 236/237. add, test functions refresh while scrolling (122) ~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image236.webp"
+  style="width:45%;"
+  title="Add functions to handle refresh while scrolling"
+  alt="Add functions to handle refresh while scrolling." />
+<img src="./images/image237.webp"
+  style="width:45%;"
+  title="Test, added functions to handle refresh while scrolling"
+  alt="Test, added functions to handle refresh while scrolling." />
+</p>
 
-![](images/image027.png){width="4.0in"
-height="2.473077427821522in"}
+What I want to do for this is I&apos;m going to come down here into my
+script down here. I&apos;m going to piece something in. You&apos;re going to
+have to type it. It&apos;s a little bit long, but you can put it together
+pretty quickly, I think. But rather than watching me type it all that,
+I&apos;m going to put it in first I&apos;m going to get rid of this console log
+here. I don&apos;t really need that to get rid of that. I&apos;m going to move
+this down here. I&apos;m going to piece in this piece of code here.
 
-Our last step is really to just use some best practice work and clean up
-our files and make everything work the way we want it to work here at
-the end. You should be able to do this on your own, but I will show you
-how I did it here. First, I&apos;m going to just make a new file, and you
-call it script.js, that makes sense. Then on this file I&apos;m going to add
-my IIFE immediately invoked function expression, with the parentheses
-and in there at function. The function has its own parentheses in its
-curly braces. Then we add an extra pair of closing parentheses there.
-Then we&apos;re going to click inside of here, down in it or use strict
-directive here, like so. Then in here we&apos;re going to add all of our
-code. We can just take all of the stuff from here, cut it, and paste it
-inside here. Actually I need to move it back a little bit. It gets into
-tuition. I&apos;m just going to shift the tab to move that back. That&apos;s
-looking really good. Okay, great. Now we just need to go through and
-clear up our function declarations and change this to const. Down here,
-because we&apos;re going to loop, this needs to be length, this far needs to
-be length. Then down here, this can be const. Sometimes it&apos;s nice to
-have your mean variables all up here at the top of the page. You can
-define them all at once up here. We can get rid of some extra space in
-here. There we go, hide menu and then this one can be length because
-it&apos;s inside the loop. Here this one can be const. I think that&apos;s it.
-Yeah, that looks really good. We save that file back here and an index
-file. We&apos;d get rid of these script tags from down here, bottom of a
-page. Instead we can put them up here in our head. Script SRC equals
-quote, and I want my scrip file here. I&apos;m going to set it to defer to
-the close script tab. Then always of course, go back and test it to make
-sure that you didn&apos;t screw something up. Sometimes that happens. Sure
-enough, everything&apos;s working the way it&apos;s supposed to be working. You
-can open the menus, you can close the menus. Only one menu can be opened
-at a time, which is exactly what I wanted for this particular project.
-That&apos;s all working great. We were able to get our final script working,
-get everything cleaned up in here. This is how we could do a project
-like this in plain JavaScript. In the next part of this lesson, we will
-look at how to do the exact same script, exact same thing using jQuery.
-You&apos;ll see how much shorter and how much more compact that script is.
+Let&apos;s take it line by line, so this is going to handle what happens if
+somebody refreshes the page while they&apos;re scrolled further down the
+page, I&apos;m going to make a variable (counter). I&apos;m going to take my
+variable pagePosition. Let me make a variable pagePosition, and make it
+equal to window scrollTop plus 210, so we know that that&apos;s going to be
+assigned how far down the screen scrolled plus 210 pixels. I&apos;m going to
+set my counter to zero and then I&apos;m going to use a loop and then I loop
+through my postTops these postTops here that I set that tell me where my
+tops of my pages are the tops of my sections.
 
-### 1.15.Folding-Sidebar-Menus-with-JS.pdf
+I&apos;m going to loop through those and I&apos;m going to check to see if this
+page position is greater than each element in postTops, and if it is,
+I&apos;m going to increment the counter so the counter starts at zero. If
+I&apos;m scrolled at the very top of the page, then page position would be
+zero plus two hundred and ten pixels. I know my first postTop is two
+hundred pixels down, so counter&apos;s going to get incremented from zero to
+one. If I&apos;m in the second one, it&apos;ll get incremented from one to two,
+if I scroll down into the third post, it&apos;s going to get incremented
+from two to three. All and so on and so forth, so I&apos;m checking each one
+of these section tops up here, postTops against how far down I am on the
+page, and the camera will get incremented if the pages scroll down that
+far.
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-16">1.16 Intro to jQuery Sidebar Folding Navigation (4:35)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image028.png){width="4.0in"
-height="2.473077427821522in"}
-
-jquery SideBar Folding Navigation. For this project we&apos;ll use jQuery.
-We did this exact same project using plain JavaScript in the previous
-lesson. But now we&apos;re back to where we started with just these menus
-folded out and we want to do the whole same thing again, except using
-jQuery. This will be a really great way for you to see the difference
-between jQuery and JavaScript, using plain vanilla JavaScript. jQuery is
-JavaScript, but the syntax is slightly different, and you&apos;ll see how
-much shorter this script is when we get done with it, and how easy it is
-to do this interaction using jQuery. Yeah, we&apos;re going to do the exact
-same thing. The only thing that&apos;s different about the start file in
-this case, is that it includes a link to the jQuery library on the CDN.
-Down here at the bottom of the file, this is the only thing that&apos;s
-different, is I&apos;m including this extra script. Remember when this is
-compressed, it&apos;s about 87K or 89K or something like that. Maybe it&apos;s
-worth it for this script, and maybe it&apos;s not. You&apos;d have to decide if
-it&apos;s worth downloading 87K for your client after downloading 87K of
-library to do simple folding menu script. Or if you&apos;d be better off
-just using the JavaScript one that we did in the previous lesson. But
-that&apos;s on there, and that&apos;s ready to go. Let&apos;s go ahead and see what
-we need to do to make this work. First thing we&apos;re going to do, is
-we&apos;re going to set all of those initial list items to not display. In
-the previous version of this project, we had some classes set up for
-Hide menu and Show menu. But here we&apos;re going to use the CSS property
-to set display to none. We&apos;ll see an even easier way in just a minute.
-But let&apos;s do this first so you can see what it does. Down here, I&apos;m
-going to use my jQuery object, and write it like this from the outside.
-I&apos;m going to use my jQuery object like that. I&apos;m going to use quotes
-to say go in and get ul, li, ul. This is the unordered list that&apos;s
-inside the list item that&apos;s inside the unordered list. That&apos;s these
-list items that are inside these unordered list items that are inside
-this unordered list. I&apos;m going to do,.CSS &apos;&apos;display,&apos;&apos;
-&apos;&apos;none&apos;&apos;. You&apos;ll see when I do this over here, if I test the page,
-they all go away, and if I inspect this, you&apos;ll see they have displayed
-style, display none over here. That&apos;s what that is doing. That&apos;s
-great, that&apos;s working just fine in hiding the menus. Now, as it turns
-out, there&apos;s actually an easier way of doing that, because jQuery has a
-bunch of helper functions built in. One of them is hide. Since
-frequently we want to hide things on our page, they created a helper
-function called hide, which holds just hide those elements. That&apos;s even
-easier than using the CSS method here. If I just put hide there, and
-then come back and test it, you&apos;ll see the menus are hidden. Not only
-that, but if I inspect and look in there, you&apos;ll see it&apos;s still says,
-display none there. This is actually doing the exact same thing but
-using the CSS method, but instead we&apos;re using the hide method. That&apos;s
-a convenience function that jQuery has built-in. JQuery is a bunch of
-these built-in for doing common tasks. We&apos;ll see another one of these
-convenient helper functions in just a minute. Great. We&apos;ve got that
-going, and we&apos;re ready to start building in our Click-Handler and doing
-all that fun stuff. We&apos;ll do that in the next video.
-
-### 1.16.jQuery-Folding-Menus-Start.zip
+Now, remember, I want the counter to be zero indexed. If I&apos;m scrolled
+up at the very top of the page, I don&apos;t want the counter to be one. I
+want it to be zero. If I&apos;m on the second one, I don&apos;t want it to be
+two, I want it to be one. If I&apos;m on the third section, I don&apos;t want it
+to be three. I want it to be two. Then I decrement the counter. Finally,
+all I need to do is remove the class from all links and then put the
+appropriate class in the appropriate link. That&apos;s really cool and that
+should work.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-17">1.17 Getting the Next UL (4:40)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 238/239. smooth scroll, vertical image positions (123) ~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image238.webp"
+  style="width:45%;"
+  title="Test, Smooth Scroll and vertical image positions"
+  alt="Test, Smooth Scroll and vertical image positions." />
+<img src="./images/image239.webp"
+  style="width:45%;"
+  title="Test, section position for smooth scrolling"
+  alt="Test, section position for smooth scrolling." />
+</p>
 
-![](images/image029.png){width="4.0in"
-height="2.473077427821522in"}
+Now, if I see this and notice, I do have this inside the resize
+function, which is not great, and we&apos;ll fix that in a minute. But
+we&apos;ll take care of that in a minute. But really, for right now, it&apos;s
+fine if I come over here and refresh the page. You&apos;ll notice he didn&apos;t
+pick the right thing, but if I resize the page. Notice that when I was
+done, it actually picked the correct section that I was on. If I come up
+here and resize the page. Notice it switched this to the correct
+section. Section two I mean. 
 
-Just like we did in the plain Javascript version of this script, we need
-to know which menu was clicked. And so, once again, we&apos;re going to use
-the this keyword in order to get the menu that was clicked. However,
-this time we&apos;re going to wrap it up inside of a jQuery object. So down
-here, you can see we&apos;ve got this, but it&apos;s inside a jQuery object.
-Then we&apos;re going to use the handy next method that jQuery has built in.
-And in the plain Javascript version, remember what we had to do was we
-had to go get that parent object and then find the ul inside the parent.
-But here we can actually use the next method to get the next ul. because
-remember, what users are doing is they&apos;re clicking on this link here,
-this anchor tag. And I want to get the next ul that comes after that.
-And jQuery has this helper function that&apos;s very useful for that. So
-let&apos;s come down here and add that into here. So we&apos;re going to make a
-variable, var thisMenu is assigned. We&apos;re going to use the jQuery
-object to get this. And then we&apos;re going to use the .next method to go
-get the next ul. And that will get the ul that comes up exactly after
-this particular anchor tag that we&apos;ve clicked on here. And just to see
-that this works, I&apos;m going to say, okay, console.log( thisMenu.
-.html()). This html(), this is a jQuery method that will generate the
-html. So let&apos;s see what we get if we test this. If I come over to my
-page and refresh and then turn on my inspector to get the Console log
-here and click on this menu, you can see that I&apos;m getting that html. So
-that&apos;s great, that&apos;s really cool, and that&apos;s working. So that&apos;s all
-working really well and that&apos;s exactly what we want here. However, the
-next thing we need to do is check to see if the menu is showing or
-hidden or not. And we can do that with this sort of function here. We
-could say if this menu is visible, and there&apos;s a method called is in
-jQuery that will allow us to check for something. Here, visible is a
-filter that will allow us to see if a particular element is visible, in
-which case then we can hide it or we could show it. Now, we could do
-this and this works if you wanted to do it this way. And the is method
-is sometimes very helpful in jQuery. However, in this case there is
-another helper function, a convenient helper function that will do the
-same thing in a nice, simple way. And that is toggle, thisMenu.toggle.
-That&apos;s really all we need to do, so that if it&apos;s showing hide it, if
-it&apos;s hiding show it. So let&apos;s go ahead and add that into our script
-over here. So instead of this line, I can just say thisMenu.toggle. Very
-helpful, convenient function in jQuery that you could use in lots of
-situations. And now you&apos;ll notice that we&apos;re back to where we were
-after numerous lines of code before in plain Javascript where we can
-open the menus and we can close the menus. Unfortunately, we can still
-open all the menus and close all the menus, which is not exactly what we
-want. But we&apos;re really close with just a couple lines of jQuery. And
-part of the reason why it&apos;s so short is that we don&apos;t need loops. We
-don&apos;t need to do the loops. We don&apos;t need to do the loops because
-jQuery works with groups of objects like this. And it&apos;s got these
-helper functions built in, so we don&apos;t have to write the if statement
-and do all of that. So that&apos;s super handy. So the last part of the
-script we really need to figure out is how to make it so that when I
-click on one menu, it closes all of the menus and then only opens the
-one that I clicked on. And we&apos;ll do that in the next video.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-18">1.18 The Whole Script (5:59)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image030.png){width="4.0in"
-height="2.473077427821522in"}
-
-To get this final piece of functionality that we want, we need one more
-line in our script. And it&apos;s just a short simple little line that we
-need to add and it will introduce us to yet another convenient function
-built into jQuery which is the nod method here. And what that does is it
-excludes a particular item from a function, we can chain these functions
-together. So here we&apos;re going to say go get all of the unordered lists
-that are inside the list item, that are inside the N word lists, those
-are sub menus. But not the one that we clicked on. And we&apos;re going to
-hide all of the other ones, but not the one that we clicked on. because
-that may be hidden already or we may want to show it, and then we can do
-the menu toggle and it will work. So just one last little line, let&apos;s
-go ahead and put this in over here. So once again I&apos;m going to use my
-jQuery object to go in and get the uL Li uL. The unordered list that are
-inside the list items are inside the an ordered list is our sub menus.
-But not this menu, the one that I clicked on. That one I don&apos;t want to
-be affected by this line at all. And then I&apos;m going to do hide, make
-sure all of those are hidden. And that should actually work just right.
-Let&apos;s save this file and come back and test it. I can open a menu, I
-can open the next menu, I can close the menu. And I&apos;m getting exactly
-the functionality that I had before. I&apos;m doing it with far less code.
-Now, again we&apos;re downloading this entire library. In order to do that
-87K worth of stuff is getting downloaded so that we can write a super
-short script and maybe that&apos;s worth it. And if you&apos;re new to
-JavaScript and you&apos;re new to sort of creating these interactions, you
-might find jQuery much easier way into coding and doing JavaScript. And
-it is just more JavaScript, but it&apos;s a lot more concise. The syntax is
-a lot more concise, mostly because you don&apos;t have to do the loops and
-because they have these convenient helper functions built in that you
-can make use of because you plugged in this library. Okay, the last step
-that we need to do is just make our script file and move this stuff over
-into an external script file. So let&apos;s do that really quickly here. Up
-here I&apos;m just going to quick and add script.js. And then I&apos;m going to
-come back here. Yeah, or actually first I&apos;m going to add my IIFE
-function parentheses, curly braces, and then one more set of parentheses
-in a semi colon. And then I&apos;m going to come in here and add my use
-strict directive, that&apos;s great. And then I&apos;m going to come over here
-and just grab this entire script, it&apos;s not very much, just a few lines
-of script. Cut that and stick it in here, and I can shift him to move
-that back a bit. Close that up. I&apos;ve just got a nice little short
-script here, that&apos;s fine. And really you could probably leave this on
-the other file, it&apos;s so short. But just to practice our best practices
-in here, this can become constant. That&apos;s really the only thing we need
-to take care of here, it&apos;s the only variable, so that&apos;s working fine.
-That&apos;s nice and easy. And then over here we can get rid of this script
-tag entirely. And we can move the link to jQuery up to the top of the
-page inside the head here. Don&apos;t forget to add the defer attribute
-there. And then down here I&apos;m going to add a script tag with src set to
-quote, script.js defer. And that will work, this file has to come after
-that file, even if we&apos;re putting him on the head of the page using the
-defer attribute. Because once again, we need to make sure that we&apos;re
-using these functions from this library here in the script so it has to
-load first. But then we can just test this all out and make sure it all
-works. And it&apos;s working just fine. I can get to my menu items. It&apos;s
-not a very fancy page, but this is a really good example that shows you
-how to actually take a script and do the same thing that we did in plain
-JavaScript, but using jQuery. And using some of the nifty jQuery helper
-functions such as hide, the click handler, the next method, the not
-method, the toggle method, all make it possible for us to write shorter
-strips, along with the fact that you don&apos;t have to do loops. So that
-makes it much shorter and hopefully you&apos;re pretty excited about this. I
-know I am.
-
-### 1.18.Folding-Sidebar-Menus-with-jQuery.pdf
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-19">1.19 JavaScript and jQuery Challenges (1:54)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image031.png){width="4.0in"
-height="2.473077427821522in"}
-
-JavaScript and jQuery challenges. One of the best ways of learning
-JavaScript is through these challenges, and in particular now that
-we&apos;re getting into jQuery it&apos;s really important to get used to the
-jQuery syntax. The way these challenges work is we&apos;ll pose a challenge,
-I&apos;ll put forward a challenge, and I&apos;ll have you do it in both
-JavaScript and jQuery. So this will really help you with the syntax of
-both JavaScript and jQuery, and understanding the differences between
-the two. So I&apos;ll provide you with a challenge like this, and usually
-the challenges start off fairly simple and then they become more complex
-as we move through the challenges. So I&apos;ll give you a challenge like
-this and then on the next slide, if you need to look the solution is on
-the next slide, but hopefully you don&apos;t really need to look at the
-solution. Really try to do the challenges without looking at the
-solution. If you have to look at the solution that&apos;s fine, you can look
-at the solution and hopefully you&apos;ll go ah-ha, I see what I was
-supposed to do and then you can go back and do the challenge without
-looking at the solution. If you want to learn Javascript or jQuery you
-have to get used to the syntax and this is the best way to get there, is
-to really force yourself to do these challenges, and do them several
-times, do them over and over again. Do them today and then do them again
-tomorrow, and tomorrow when you do them hopefully you&apos;ll be able to do
-more of the challenges without looking at the answers. Each challenge
-builds on the next so that they become more complex as they go along,
-and that will really help you learn both JavaScript and jQuery, and help
-you understand the differences between the syntax of how each of them
-work.
-
-### 1.19.JavaScript-and-jQuery-Challenges.pdf
-
-## Module/Week Two:
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-01">2.01 Module 2 Introduction (0:50)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image032.png){width="4.0in"
-height="2.473077427821522in"}
-
-Congratulations, you&apos;ve made it to the 2nd module in our 2^nd^ course
-on JavaScript. In this module, we&apos;ll be working with the jQuery effects
-library, which provides you with a lot of animation effects that you can
-use with all sorts of projects and in your interfaces. We&apos;ll compare
-that to using JavaScript and CSS to create your animations and see how
-the two are different and what are the strengths and pros and cons of
-each as you learn and work on projects. It&apos;s a lot of fun and you&apos;re
-really going to enjoy it. Buckle in and let&apos;s get started with learning
-about the effects library in jQuery.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-02">2.02 Intro to jQuery Effects Library (4:05)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image033.png){width="4.0in"
-height="2.473077427821522in"}
-
-jQuery effects library. We&apos;ll be looking at how to use the effects
-library that&apos;s built into jQuery. But there&apos;s some important things to
-understand about animation in JavaScript versus animation in CSS.
-Generally, it&apos;s better to do animation in CSS if at all possible. When
-the animation is done in CSS, the computer&apos;s GPU can be used to help
-with the processing of the animation, that will make the animation
-smoother and more efficient. You&apos;ll particularly notice this on phones,
-especially older phones. However, the effects library in jQuery is
-really easy to use, and for something minor or if you need something
-really quick, it can be a great option. In this particular lesson,
-we&apos;ll be looking at how to use the effects library in jQuery. I have
-some example files that you can download and when you open them up, they
-look nice. Here&apos;s example 1. We&apos;ll look at how to apply some effects
-using these buttons here. If we go over and look at the HTML involved
-here, I just have some links with these buttons, and then I&apos;ve got this
-box here. I&apos;ve got a little bit of CSS as appear to make it look nice
-and that&apos;s fine. Down here, you&apos;ll notice that I have jQuery plugged
-in so that&apos;s all set and ready to go, and a place for us to put our
-script. Now, the first one that we&apos;re going to look at is the hide
-function which we&apos;ve already looked at before. We&apos;ve seen this hide
-function when we did the sidebar menu exercise. When we did that script,
-you&apos;ve seen this hide function before, but the hide function can also
-do animation. Let&apos;s take a look at how to do that. Over here, what I
-could do is I could type in here, I could go get this first link here.
-I&apos;m going to go get and use my jQuery object. Always type it like that.
-Then I&apos;m going to come in here, I&apos;m going to get hide box, that link.
-I&apos;m going to add a quick add onto it, click. When I click it, I&apos;m
-going to run a function, like so. In that function, what I&apos;m going to
-do is I&apos;m going to get this element again using my jQuery object. This
-element box,
-
-div id pound box. I tell it to, hide. Now if we do it like this, it will
-work, but it won&apos;t do any animation. Let&apos;s try it out. If I come over
-here and refresh this page and click &quot;Hide,&quot; you can see the box goes
-away. But in jQuery, you can actually pass a value in here. There are a
-few keywords that it can use. You can use normal, slow, or fast. You&apos;ll
-see now when I do refresh and click &quot;Hide,&quot; it does an animation as it
-hides that box. You could do slow or fast, or you could put in a number.
-The number is the number of milliseconds. If I put 500, that will be
-half a second, it&apos;s how long the animation will take place. Or if you
-really want to see something to demonstrate how much that affects it,
-you could do 2,002 seconds. That&apos;s a long time for an animation like
-this. Let&apos;s see what that does. There we go. You can see that you can
-affect the speed there.
-
-### 2.02.jQuery-Animation-START.zip
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-03">2.03 Example 1, cont'd (4:36)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image034.png){width="4.0in"
-height="2.473077427821522in"}
-
-In the last video, we saw that we could add a function here that will
-hide the box and animate that. Let&apos;s add a couple more. We&apos;ve got a
-few more buttons here. Let&apos;s do a few more of these. You could copy
-this and paste it or you could type it again. I think it&apos;s always a
-good idea when you&apos;re practicing these stuff to type it again, just see
-you&apos;re getting used to using the jQuery syntax. Now I&apos;m going to do
-pound show box or hashtag if you prefer hash instead. I&apos;m going to add
-the click handler there, like so and then put a function in here. Always
-type from the outside, so you really get used to the syntax and
-understand which thing closes which thing. I&apos;m going to do function
-parentheses, curly braces there and move that down. Then I&apos;m going to
-do again, I&apos;m going to go get my jQuery object and get pound showbox.
-No box, just box of the same box. Instead of hide I&apos;m going to do show.
-Maybe we&apos;ll make this one go for 500 milliseconds. You&apos;ll see that
-will work. Let&apos;s test that. We come over here and refresh this. We can
-hide the box and I can show the box and you can see the difference in
-time. That&apos;s working great. Now toggle will both hide and show. If
-it&apos;s hidden, it&apos;ll show it. If it&apos;s showing it&apos;ll hide it. Let&apos;s do
-that one. Over here again, I&apos;m going to just, now this time just for
-expedience sake, I&apos;m going to copy it. But I really recommend that you
-type it so you get used to that. This is toggle box. It&apos;s this link
-here. It&apos;s this link up here, toggle box. Then down here we&apos;re going
-to do box and instead of show, we&apos;re going to do toggle like that.
-You&apos;ll see over here, if I run this, it will hide it and it will show
-it. This one does both. Remember toggle is a helper function that allows
-us to do both hiding and showing and we&apos;ve seen that before. But now we
-can use it with the effects library and do some animation with it. Now
-one of the really great things about these animations and doing this in
-JavaScript and jQuery is that you have a thing called a callback
-function. What you can do after the 500-year is you can pass in a
-function that runs with its parentheses and curly braces like so. In
-here we could put alert (&apos;done! &apos;) something like that. This function
-will run after this animation has been completed. In fact, I&apos;m going to
-make this a little bit longer so that you can really see that it waits
-and runs after the animation has been completed. This is super useful
-because sometimes you want to have a sequence of animations and when
-that animation is done, you want to do something else, something like
-that. Let&apos;s see how this works. The page does the alert. That&apos;s really
-cool and I could do the other way around as well. Excellent. With that,
-we are able to see that we can make these functions, these animations
-and the animations can have a callback function that runs when the
-animation is complete and this is super useful. Let&apos;s take a look at
-the next example in the next video.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-04">2.04 Example 2 (5:35)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image035.png){width="4.0in"
-height="2.473077427821522in"}
-
-Let&apos;s take a look at Example 2. Open up the Example 2, HTML file and
-you&apos;ll notice that it looks very similar to the first example. We have
-the same styling up at the top of the page, we have a box here, we have
-some navigation, and then we have this div id set to box down here, and
-it&apos;s just an empty div. You can see that it looks very similar here.
-But jQuery has helper functions in for sliding up and sliding down and
-slide toggle. Because again, these are common tasks. These are common
-things that we need to do in interfaces, so they created a method that
-does specifically this. That&apos;s interesting and fun. Let&apos;s take a look
-at what we need in order to do this in our code. The syntax is very
-similar to what we saw before. What we&apos;re going to do is, like we did
-before, we&apos;re going to use our jQuery object to go in and get our link
-here. It&apos;s pound, I&apos;ve got a slideupbox as a link here, so let&apos;s do
-that. slideupbox and we&apos;ll put a click handler on that. We&apos;re looking
-for dot click. Oops, Excel. Then in here we&apos;re going to run a function
-with its own parentheses and curly braces. Then we&apos;re going to put our
-code inside the curly braces there, just the same way we did before.
-Again as before, we&apos;re going to go get our jQuery object and get box,
-because that&apos;s where we&apos;re going to be moving up and down. Then what
-we&apos;re going to use here for a jQuery function is slide up. Again, we
-can put in an amount of time or you could put inside quotes, you can put
-slow or something like that, and that will make that box slide up.
-Let&apos;s go over and give that a try. Hopefully I did that right, I think
-I did. If I refresh this page and click &quot;Slideup,&quot; it does that
-animation. It&apos;s interesting to inspect this. Watch what happens here.
-Actually on the actual box itself. Watch what happens down here, when I
-click slideup. You can see it very quickly went through some settings in
-here, as it did that and ended up with displaying that. That&apos;s
-interesting as well. Great. We can do that. The other ones look very
-similar as you can imagine. We&apos;ve got slideupbox, we&apos;ve got
-slidedownbox, and we&apos;ve got slide toggle and they all work very
-similarly. I can actually copy that, paste it, and I recommend you type
-it actually, but for expedience sake, I&apos;m going to just copy and paste
-it and change this to slidedownbox. This is going to be SlideDown and I
-can choose an amount of time. We&apos;re going to do two seconds, something
-like that. We have a longer time. Now, when you&apos;re working with
-animation, one thing to be aware of is that, there is such a thing as
-easing. An animation can run and it will run for the period of time.
-This animation will run over two seconds, but it can run the exact same
-amount over those two seconds, which is linear easing, meaning that
-it&apos;s the same speed at the beginning as it is at the end or you can
-change the easing such that it goes faster at the beginning and slower
-at the end or slower at the beginning and then speeds up towards the end
-of the animation, or you can actually do easing in and outward. Starts
-slow, speeds up and then end slow or starts fast, slows down and ends
-fast. You can do all of these different types of easing. JQuery has some
-basic easing built-in and you can put in here in quotes, &quot;Swing.&quot; That
-will do a little bit of easing on this item. It&apos;s pretty subtle. You
-might not really see it, but it will actually work. Let&apos;s go ahead and
-take a look at that. Slide up, I&apos;m going to hide this. Slide down. Does
-slide down, but it does a swing animation. It&apos;s not the same speed all
-the way through. You can see the difference. It&apos;s hard to tell, but it
-is there. It&apos;s very subtle. Now, jQuery has built into it just some
-basic easing, but there&apos;s a plug-in and one of the strengths of jQuery
-is the plug-in architecture. We&apos;re going to talk about that in the next
+If I resize the page again. I&apos;m still in
+the second section. But you get the idea it is actually working and
+doing the right thing. I know I went through it quickly, but make sure
+you get all of this in here, the script here, and then this piece is
+just to copy and paste of this piece. A lot of it you can actually copy
+and paste. You have to write the for loop for the first time. But other
+than that, the rest of it is copy and paste. Now, we&apos;re doing a lot of
+this stuff twice, so we&apos;re going to actually take some of this stuff
+out of here and put it into its own function. We&apos;ll do that in the next
 lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-05">2.05 Example 2: Plugin Architecture (8:39)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image036.png){width="4.0in"
-height="2.473077427821522in"}
-
-In the last video, we added some easing to our function, so that now it
-slides up just using the linear easing, but slide down is using the
-swing easing. Easing can give your animations a little bit of
-personality. They can make them seem a little bit less mechanical, when
-the speed of the animation is not always the same all the way through
-the animation. But the easings that are built into jQuery don&apos;t really
-give you a lot of options. They are very basic. There&apos;s amazing plug-in
-over here that we can use, and it allows you to choose different types
-of easings so that you can actually do some different types of things
-with this, and you can go through and try some of these different
-settings here to see what they actually do. Ease-out will affect the
-animation at the end where ease-in will affect the animation at the
-beginning, ease-out-and-in will affect the animation at both ends.
-We&apos;ve got ease-in-and-out. We&apos;ve got a whole bunch of them in here for
-all these different: in ease-out, ease-in all these different animations
-in here. But in order to use this, we have to plugins plug-in. JQuery
-has a plug-in architecture that allows you to add more functionality to
-jQuery. You can see over here on our file that I&apos;ve already added the
-plug-in. The way this works is first we need the jQuery library, then
-you need the plug-in, and then we use it in our script. Down here I&apos;m
-going to do the third animation here for slide toggle, which we&apos;re
-going to use this ID. We&apos;ll grab that ID, and down here instead of
-slide down, we&apos;re going to do slide toggle, which will open it and
-close it. Here we can use some of the other easings that we find on this
-website here. This is where I got the easing plug-in on the CDN that I
-put into here. That&apos;s where that came from, Cloudflare. That comes from
-this website here, but we can use the easings that we see here. If I
-want an easeOutBounce, I can actually use that animation if I want to
-over here. Let&apos;s give that a try. &quot;easeOutBounce&quot;. Make sure you
-spell it right with the capital letters and everything easeOutBounce.
-Make sure you spell it all correct and that you get the correct capital
-letters. Make sure you put it inside the quotes, and so on and so forth.
-If I save that and then come back and look at my example here, and click
-slide toggle, you can see that it does this bounce. Which is pretty
-interesting or you could do easeInBounce to get the bounce on the
-opposite end of the animation, which might look a little weird, but
-let&apos;s give it a try. It&apos;s doing the bounce first and then it&apos;s
-finishing the animation, which looks a little weird, but you get the
-idea and you can try some of these other easings and see what
-personality you can get. I really like the easeOutCirc ones. Where did
-they go. Yeah, easeIn and easeOutCirc. You can give those a try. Let&apos;s
-see what we can do with that. Over here easeInCirc. Again, at two
-seconds, that&apos;s pretty slow. You can even slow down more if you wanted
-to see it. I&apos;ll set that to three seconds. You can see how it changes
-the animation by either slowing it down or speeding it up. I think this
-one&apos;s speeding it up as it gets to the end of the animation. Let&apos;s
-come back and try easeOutCirc. That&apos;s starting fast and ending slow. It
-gives the animation a little bit of personality as it does its thing.
-That&apos;s pretty cool. You could try easeInOutCirc. It&apos;s hard to see, but
-it is doing something there. Try these different animations. You&apos;ll
-notice if you spell them wrong, if I do, easeoutCirc like that, then it
-won&apos;t work quite right at all. If you inspect, you&apos;ll see that I&apos;m
-getting a whole bunch errors there because I&apos;ve spelled that wrong.
-That&apos;s not helpful. Also, if you were to forget this easing library,
-you&apos;ll notice it won&apos;t work. If I just comment this out for a minute
-and try easeOutCirc, even if I spell that right. You&apos;ll notice it
-won&apos;t work or work at all really. If I do, it&apos;s back you&apos;ll see that
-I have a bunch of errors cooking here because it doesn&apos;t know what to
-do about that because it&apos;s not a function. In order for this easing to
-work, you have to really make sure that you have easing plug-in, plugged
-in, and that your spelling these correctly easeOutCirc. Let&apos;s give that
-a try again. You can see that it&apos;s working nicely. Great, so that will
-all work and that&apos;s awesome. One last quick thing here before we&apos;re
-done with this video is you can also add the callback function after the
-easing. I could add a function here and say done, and you&apos;ll see that
-when that easing is finished, when that animation is finished, that
-callback function will fire. Absurd, I think I did. I Just did done but
-I need to do that right, alert, done like that. Now that&apos;ll work, and
-it comes back and it says it&apos;s done. That&apos;s working great. That gives
-us a lot of information about how to work with these built-in
-animations, and we&apos;re going to do more in the next video.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-06">2.06 Example 3: Fading Buttons (4:00)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image037.png){width="4.0in"
-height="2.473077427821522in"}
-
-In Example 3, we&apos;ll look at something that&apos;s similar to the other two,
-but just slightly different. It&apos;s got four buttons and we can use some
-built-in functions in jQuery to fade objects in and out, or to feed them
-to a particular percentage of opacity. Here I have fade out, which will
-fade it out completely. Fade in, will fade it all the way to being
-visible. But then I had fade to 20 percent, which will fade it to 20
-percent opacity, and then fade to 100 percent, which will fade it all
-the way in. Let&apos;s take a look at how we can do that. Over here I have
-Example 3 open and you can see that I have much the same styling up at
-the top of the page, as well as my navigation year and my jQuery
-libraries plugged in. I don&apos;t have the easing plug-in here, but you
-could add it if you wanted to add some easing to these as well. Here
-we&apos;re going to just go ahead and do what we did before with getting our
-link pound fade out box, which is this first link up here, and we&apos;re
-going to add our click handler to it. Click, and then we&apos;re going to
-pass in our anonymous function that runs when you click that thing. In
-here, we&apos;re going to go get our box. Again, we use our jQuery object to
-get pound box. Sometimes students make mistakes here and they forget to
-type the pound. If it&apos;s not working, make sure you have pound box in
-here. That&apos;s a common mistake that I&apos;ve seen. It&apos;s pound box to go
-get this div id box here. Then we&apos;re going to do, I believe the
-function is fade out because we&apos;re fading out the first one. Yeah,
-fade-out. Again, we could put in normal or you could put fast, or you
-could put slow, or you could put a specific number of milliseconds;
-3,003 seconds is a long time, but we can actually give that a try.
-You&apos;ll see that will actually work over here. We can fade the box out.
-Fade out. Over three seconds, it will become invisible. That works, and
-that&apos;s great. We could do fade in as well. I can copy that and paste it
-or just type it again. It&apos;s always a good idea to do that, but we&apos;re
-going to use this ID instead. Instead of fade out, we&apos;re going to fade
-in. I could do three seconds and you could do the easing swing. It&apos;s
-going to go in quotes, &apos;&apos;swing.&apos;&apos; Then you could also add a callback
-function, and that&apos;s parentheses. Inside the curly braces, we can add
-an &apos;&apos;alert&apos;&apos; that says &quot;done.&quot; Now we can fade the box out and we
-can fade the box in. Let&apos;s give that a try. Fade out, and it fades out
-over three seconds. Fade in, it&apos;ll fade in over three seconds. When the
-animation is complete, it runs the alert and says that it&apos;s done.
-That&apos;s great. We can do all of that. Okay, cool. Now we just need to
-add these last two here and we can look at that in the next video.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-07">2.07 Example 3: Fade To (4:07)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image038.png){width="4.0in"
-height="2.473077427821522in"}
-
-In this lesson, we&apos;ll make these last two buttons work. And with that,
-there&apos;s a fade to method that we can use in jQuery. So let&apos;s go see
-how that works. So here, just as we&apos;ve done before, we can add a new
-event handler for when you click the the button has fadeto20box on here.
-I&apos;m going to paste that in just to make sure I spell it right and
-we&apos;ll add a click handler. And again, I recommend typing this just to
-get used to the syntax. And then in here, we&apos;ll add a function that
-runs when you click it, it&apos;s just an anonymous function. And what
-we&apos;re going to do here is once again, we&apos;ll go get pound box. Don&apos;t
-forget the pound sign. And we&apos;re going to use the fade to method. See
-it even comes up here, fade to. And we&apos;re going to fade to, the way
-this works is we&apos;re going to put in the amount of time. So we&apos;ll do,
-again I&apos;ll do 3000, just to kind of slow but gives us a sense of what
-that is. But then the second number it takes is a duration, an amount.
-Takes the duration, that&apos;s the first number. The second number is how
-much it&apos;s going to fade to. We want to do 0.2 like that. And now, that
-should actually work. So let&apos;s go over and check it out. Press refresh
-this and click fade to, it fades down but it doesn&apos;t fade all the way
-down, it fades to 20%. So that&apos;s really pretty cool. So we can do that
-and then we can do the fade to again for the last one. So I&apos;m just
-going to copy this and paste it, and we&apos;re going to use this link fade
-200. So when you click the fade 200, it&apos;s going to fade to one. So the
-opacity is a number between 0 and 1, 0 is completely transparent, 1 is
-completely opaque and that should work just fine. So let&apos;s give it a
-try over here and refresh. I can fade down to 20% and then I can fade up
-to 100%, or I could fade out entirely And I can fade in entirely. So all
-of these buttons are working. This one has the callback function and the
-swing animation on it. And if you wanted to do some of the other
-easings, you would have to go get that easing plug in and stick it here
-after jQuery loads. But before we run our script, the order in which
-things loads matters because of the way that the functions build on each
-other. So we need to have jQuery. In order to use jQuery, we would need
-to have the easing plug-in in in order to use the using plug in. Using
-plug in has to come after jQuery. So all of this stuff has to go in
-order on your page for it to work properly. We can have the callback
-functions and all that kind of fun stuff. And then in the next example,
-an example for, we&apos;ll look at some custom animations where you can do
-some different kinds of things. In examples 1, 2 and 3, we&apos;ve used some
-of the built-in convenience functions that jQuery has built into it. For
-fading in and out, for sliding up and down, for hiding and showing, and
-toggling, slide toggle and doing all these kinds of things that we
-commonly need to do. But sometimes you need to do a custom function, and
-we&apos;ll take a look at that in the next part of this lesson.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-08">2.08 Example 4: Custom Animations -- Part 1 (4:20)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image039.png){width="4.0in"
-height="2.361538713910761in"}
-
-Next, for example 4, we&apos;re going to look at some of the custom
-animations
-
-you can use in jQuery and over here I have
-
-my example for file open, and you&apos;ll notice that the HTML and the CSS
-have changed
-
-just a little bit. There are more links here and my box now has some
-content inside the div box here, and you&apos;ll see that my stylings is a
-little bit different up here, if you look at the actual page, it looks
-like this now. We&apos;re going to make each of these buttons work so we can
-see how some custom animations work in jQuery. To do this, we&apos;ll use
-the animate method in jQuery, and you&apos;ll see that it allows us to
-animate some, not all, but some of the CSS properties that we have come
-to know and love over the years in working with CSS. That gives us a lot
-of power, because we can actually use these CSS properties to animate
-all different things not just sliding up and down or showing and hiding
-and doing this kind of stuff. That&apos;s pretty cool. Let&apos;s give it a try
-and see what it does over here. Down here I&apos;m going to add in my
-script. I&apos;m going to go get my jQuery objects and I&apos;m going to get
-this first link up here, growbox, pound, growbox, and I&apos;m going to add
-a click event handler on there, and then I&apos;m going to pass in a
-function that runs when you click it, and everything&apos;s going to go
-inside these curly brackets here. At this point I want to affect box,
-pound box, don&apos;t forget the pound sign. We&apos;re going to do the animate
-function in jQuery. This will animate the box. The way we&apos;re going to
-do this here is we&apos;re going to pass in an object. We have not yet
-worked with objects in JavaScript, they&apos;re coming, we&apos;re going to get
-to them later in our instruction about JavaScript, but will see them pop
-up a few times and this is one of those times. I&apos;ll explain it a little
-bit now, but we&apos;ll get into objects in more detail a bit later, and an
-object is an alternative way of storing data in JavaScript, and it comes
-with a key value pair. We define an object with the curly braces, and
-then we have a key value pair. In this case, the key is width, that&apos;s
-the CSS property we&apos;re animating, and then the value is 710px, and
-you&apos;ll notice that the value goes inside quotes, but the key does not.
-That&apos;s a distinguishing aspect of objects in JavaScript in general and
-also in jQuery. Let&apos;s go ahead and give this a try. We&apos;re going to
-animate in here. We&apos;re going to pass in an object open and closing
-curly brace and we&apos;re going to put in width, colon, and then in
-&quot;710px&quot;. That will move the box. It&apos;ll change the width of the box to
-710 pixels. Let&apos;s give that a try. If I come over here and test this,
-refresh grow box, and you can see it sets it so that it 710 pixels. I
-knew it was 710 pixels to end right here, It all ends up in, looks nice.
-That&apos;s cool. All right. We were able to pass that in and do that one.
-Let&apos;s take a look at growing the text and affecting the actual text
-inside the box in the next video.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-09">2.09 Example 4: Custom Animations - 2 (5:59)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image040.png){width="4.0in"
-height="2.361538713910761in"}
-
-For this next example, we will start with our jQuery object again as
-always, and then go and get the element that we want to get, which in
-this case is pound grow box. Because we&apos;re getting on and we grow text.
-It&apos;s always good to copy and paste just to make sure you&apos;re getting
-exactly the right thing, and then we&apos;ll do click parentheses and a
-semicolon. That click handler will run when we click on grow text. Then
-we&apos;re going to come in your add a function that runs when we click on
-that, on secret square braces. I want curly braces. Move that down and
-
-then once again, I&apos;m going to go get my box, pound box inside quotes
-there. I&apos;m going to run the animate. The custom animate function here
-and again, we&apos;re going to pass in with curly braces, not square
-brackets, curly braces and object. What are we going to do here? We&apos;re
-going to do font in quotes. No, this one looks like this. We come over
-here. Font size. We&apos;re using the JavaScript version of font size rather
-than the CSS version, which is font dash size. We can&apos;t have the dash
-in there because JavaScript will think that looks like a minus sign, and
-so it&apos;s trying to subtract size from font and it&apos;s not going to work.
-Instead what we want is font, size, colon and then I can set it to say
-24 px or something like that and that should change the font size.
-Let&apos;s give it a try. Over here. I can grow the box and I can grow the
-text. Did I do something wrong? Maybe I did. Let&apos;s see, inspect,
-console maybe I just forgot to refresh. Grow the box grow the text.
-There we go. That&apos;s working just fine and you can try a different size
-text if you wanted to do 36 pixels or 40 or whatever you want to do
-that&apos;ll be a little bit more dramatic. Grow the box, grow the text and
-that&apos;s working great. Okay, cool. We could also move the box. Let&apos;s
-give that one a try. With move box, what we&apos;re going to do, we&apos;re
-actually going to change the position of the box, and in order to do
-that, we need to set some positioning for box. In our CSS over here for
-box, we need to add position absolute, and then we want to set the left
-position, left 50 px. Why is it 50 pixels? Because everything else is,
-is indented 50 pixels in here. I think I have that, yes, he said padding
-50 pixels. If I don&apos;t set left 50 pixels, let&apos;s take a look at this
-really quickly. If I reset that, that puts that in the right place. But
-if I didn&apos;t put the 50 pixels in there, left 50 pixels, maybe it won&apos;t
-actually do anything, okay, well actually maybe be fine. But still I
-want to set the left 50 pixels so that I&apos;m moving from this position,
-left 50 pixels. Because we&apos;re going to change the left property when we
-move the box. Down here again, I&apos;m just going to copy this for the sake
-of making it a little bit quicker and down here instead of grow text,
-I&apos;m going to move box. Move box, animate and then here I&apos;m going to
-change the left property, left, and I&apos;m going to do plus equals 300 px,
-so that we&apos;ll add 300 pixels to the 50 pixels that&apos;s already there.
-Plus equals, we&apos;ll add 300 pixels to the 50 pixels. It&apos;s already there
-and it&apos;ll move it left 50 pixels, I mean to 350 pixels from the
-left-hand side. Let&apos;s see if that works. Move box and look at that. It
-moves it exactly where I wanted it to go and that&apos;s really cool. You
-can set how long you want that animation take. You can make it go longer
-if you wanted to and after the animate, after the object here, I could
-add in a comma and say, I want this to run over five seconds, something
-like that, and that will animate over five seconds. Let&apos;s see what that
-does. Five seconds is really slow, but it is animating and that&apos;s
-pretty cool. Okay, great. We&apos;re able to adjust the amount of time and
-the amount that it moves in, what it does with the actual animation, all
-with custom animation.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-10">2.10 Doing All Animations at Once (6:30)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image041.png){width="4.0in"
-height="2.361538713910761in"}
-
-For next button on Example 4, we want to actually make all of these
-animations happen at the same time. They&apos;re all going to move forward
-at the same time. We will change both the width, the font, and the left
-positioning of three of these. We&apos;re going to change all of them at
-once. We can do that by just passing in these different properties into
-our object all at once, separating them with commas. Let&apos;s go ahead and
-do that, because that&apos;s pretty interesting to be able to see that
-actually work. Down here, once again, I&apos;m going to use my jQuery object
-to go get this pound, but what I want is do all. I&apos;m going to get pound
-do all. Then I&apos;m going to add a click handler. Click for when you click
-the do all button, and then we&apos;re going to run a function, when that
-button is clicked, and here we have it. Here now, we want to effect a
-Parentheses pound box, like so. Again, we&apos;re going to do the animate
-method. We&apos;re going to pass in our object, so we do the curly braces.
-First we want with, 710 pixels, so I put that in here. With, 710 pixels
-and then a comma. Then we want font size, 36 pixels, I put that in
-there. Then a comma. Then we want left plus equals 300. We&apos;ll put that
-in there. You&apos;ll see now there&apos;s some extra spaces at the end. It
-doesn&apos;t really matter, it&apos;s fine, but you&apos;ll see with all of those in
-there, that now when I come over and test this thing, I also want to put
-in an amount of time, that will be really helpful. After the curly
-brace, put a comma, and then I&apos;m going to put 1500. It&apos;s going to take
-a second-and-a-half to do all of these. Let&apos;s come back over here and
-refresh this. When I click Do All, it should do all of those things.
-Pretty cool. It runs all of the milliwatts. Now, the last button is to
-do them in a sequence. First we want to grow the box, then we want to
-grow the text, then we want to move the box. We want to do each one of
-these in a sequence. We can do that with callback functions. Each one of
-these animations can have its own callback functions that when it
-finishes it calls the next one and when that one finishes it calls the
-next one. It can be confusing for the syntax in order to get this to
-work, but once you understand it and know how to do it and mess with it
-a little bit, it&apos;s not too hard. Let&apos;s do this again. I&apos;m going to
-start with this one. I&apos;m going to copy that and stick it down here.
-Instead of getting that button, I&apos;m going to get this one sequence.
-When you click the button Sequence, it&apos;s going to take box and it&apos;s
-going to animate the width to 710 pAx. I&apos;m going to put a comma.
-Another comma, yeah, I&apos;m going to put a comma, and then I&apos;m going to
-put say 1500 for how long that animation should take place. I&apos;m going
-to put another comma, and I&apos;m going to add a function. It&apos;s really
-easy to get confused here because we&apos;re going to put everything into
-this function here. I&apos;m going to make sure I click between those curly
-braces, move that down. Then I&apos;m gonna go get this one, font-size 36.
-I&apos;m going to put a comma here and I&apos;m going to put 1500 seconds in
-there. The 1500 milliseconds, that&apos;s 1.5 seconds. 1500 milliseconds in
-there, and then a comma and another function, parentheses, curly braces.
-It&apos;s really easy to lose track of this stuff. You have to be really
-careful with it, but then I&apos;m going to put the next one inside these
-curly braces. I move that down, and I&apos;m going to do this one here. Now
-change that to 1500. There we go. That&apos;s the last one. It doesn&apos;t get
-a callback function. I&apos;ve got a callback function inside a function
-that happens when I click. Let&apos;s see if that works. If I come over here
-and test this, refresh, if I did it right, sequence, it should do that
-one and that finishes. It does that, and then it moves it, and
-everything is working all in a sequence. That&apos;s pretty cool. With the
-JavaScript effects library, we can do all kinds of really interesting
-things. You can animate all kinds of different CSS properties. However,
-it is better to do the animations in CSS with transitions or keyframe
-animations in CSS, and then apply those classes, but sometimes using the
-effects library in JavaScript is still useful. Especially if you&apos;re
-doing something fairly quick, there&apos;s not a lot of reason not to use
-it. We&apos;ll see an example of when is a good place to use this effects
-library coming up when we create a tabbed interface.
-
-### Additional Resources
-
-Here are resources related to these lessons:
-
--   [jQuery Easing Plugin](https://gsgd.co.uk/sandbox/jquery/easing/)
-
--   [jQuery Easing](https://cdnjs.com/libraries/jquery-easing)
-
-### PDF of Presentation
-
-Here is a PDF of the presentation slides used in the videos for this
-section: <b>Intro to jQuery Effects Library</b>.
-
-[WEB1091_M02_jQuery Effects Library.pdf]{.underline}
-
-[PDF File]{.underline}
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-11">2.11 Intro to Tabbed Interface Using jQuery (x:xx)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image042.png){width="4.0in"
-height="2.361538713910761in"}
-
-Tabbed interface, using jQuery. We&apos;re going to create this tabbed
-interface, and this is a really good project to see the jQuery effects
-library in practice. We&apos;ve looked at how to use the jQuery effects
-library, and now we&apos;re going to use it a little bit in this project.
-This is a really good project for seeing how that affects library can be
-effective without adding a lot of extra weight to a project. We&apos;re not
-going to do anything too intensive with it, but it&apos;s a nice use of
-effects library. Then we&apos;ll actually remake the same project using
-plain JavaScript, so you can see the difference between the two, and
-compare the code between the two versions. Let&apos;s get started and see
-what this is going to look like. If we go and look at the markup file
-over here, you&apos;ll see that the way it&apos;s setup is we have a div called
-tabs with an idea of tabs, and in here we have an unordered list. These
-things are going to be the actual tabs that you click on. Then the href
-for these links to the id&apos;s for these pieces of content down here, and
-this is the content that will be on each tab. This is typical for the
-setup for this type of interface, is that you would have an unordered
-list that makes the tabs, and the tabs themselves would have id&apos;s that
-match the href&apos;s for them up here. That&apos;s the basic markup that we&apos;re
-going to be using, and it should really work well for us. From there we
-need to add some basic styling because currently in the page, if you
-open up the start files in the browser, they look like this, so there&apos;s
-very little styling here. I&apos;ve done just a tiny little bit on my style
-sheet, so you can come over here and see styles.css. I&apos;ve got this
-reset rule, which is not great to use for production websites. But for
-this, it&apos;s just taking margin and padding off of everything. Then
-we&apos;re just adding some padding to the body and setting the background
-color and the font and the color. Let&apos;s add a few rules here to make
-sure that we get this thing all in place. The first rule I&apos;m going to
-add is for the tabs themselves, so this is the entire interface really.
-I&apos;m just going to give it a width of 400 pixels and set margin to auto
-so that it centers on the screen. With those two pieces in place, you
-come over and refresh this, and you can see now it&apos;s looking like this,
-so we&apos;ve got that. Then for the actual tabs, for the unordered list,
-I&apos;m going to get rid of the bullets and set them to display flex, so
-they go next to each other. So tabs, #tabs &gt; ul. I&apos;m going to say
-list-style-type, but not to scaling none and then display flex. I can
-take there we go. Now you might wonder about this angle bracket in here,
-and when I saved my file. Visual Studio code got rid of my space, I like
-the spaces in there. You might wonder about the single bracket, and what
-this does is it makes sure that the unordered list, that&apos;s inside the
-tabs directly, the direct descended is targeted. In other words, the
-only unordered lists it would be selected as an unordered lists, it&apos;s a
-direct descending, a direct child of tabs. It&apos;s possible that inside my
-tab-content here, maybe I&apos;d want to have an unordered list of things. I
-might want ul with some list items. Example 1, something like this, li.
-Example 2, something like that. But I didn&apos;t want
-
-this unordered list to get targeted by my rules, I only want this one
-because this is actual content in my tab. That&apos;s why I&apos;m using the
-angle bracket here, is that it will only target the specific selector
-for my element tabs that are there. That will actually work for that,
-great. We&apos;ve got that in place, and now my tabs are lining up next to
-each other, still doesn&apos;t look very good, but we&apos;re getting there.
-Great. We&apos;ll continue with the styling in the next video.
-
-### Start Files: Creating a Tabbed Interface with jQuery
-
-Attached is a zip file of the the things you need to begin this
-exercise. A <b>zip file</b> is defined as: a computer file whose contents
-include one or more files that are compressed for storage or
-transmission, often carrying the extension .ZIP.
-
-[WEB1091_jQuery-Tabs-Start]{.underline}
-
-[ZIP File]{.underline}
-
-<b>Additional Resource:</b>
-
--   [How to open a zip file for either Mac or
-    PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-12">2.12 Styling the Anchor Tags (x:xx)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image043.png){width="4.0in"
-height="2.361538713910761in"}
-
-The next rule styles the actual anchor tags that are inside the list
-items that are inside the unordered list that are inside the tabs. And
-again I&apos;ve got the angle brackets to very specifically get the elements
-I specifically want. And this is a longer rule so I&apos;m going to paste it
-in but you&apos;re going to have to type it so, I&apos;m going to come over here
-and I&apos;ll add it here and again you&apos;re going to have to type it. But
-first thing I want the anchor tags to display block elements not in line
-elements. Remember anchor tags by default in line elements and I want
-them to displace block and what that does is it makes the entire area of
-the tab clickable not just the text. Plus it makes padding and margin a
-little bit easier to work with unblock elements because they don&apos;t all
-affect in line elements quite the same way. I&apos;m setting the height 30
-pixels and the line nine to 30 pixels and that puts the text in the
-vertical center. As long as it doesn&apos;t wrap around margin on the right
-to pixels to create a little bit of a gap and then I&apos;m just setting a
-background color, the color of the actual font color and then the text
-decoration. I&apos;m getting rid of the underlining putting some padding on
-the left and right. So zero 15 pixels that would be zero on the top and
-bottom and 15 pixels and left and right. And then I&apos;m doing some border
-radius where I&apos;m putting the border giving a little three pixel radius
-on the top left and top right of each tab. So with that in place you&apos;ll
-see over here if you save that, you&apos;ll see that the tabs are starting
-to display the way we want them to display and they&apos;re looking like
-tabs. So that&apos;s great that&apos;s coming along really nicely. We have a few
-more rules that we need to adhere to make our make our interface look
-that we wanted to look. So I&apos;m going to add these two rules here,
-you&apos;re going to have to type them in. But this is again going to target
-the dives that are specifically these dips the dips that are labeled tab
-one tattoo because again I could add a dip in here as part of my content
-and I don&apos;t want that to be affected. But I want just these gifts here
-
-the ones that are tab one tattoo and tab three to be affected by this
-rule. And basically what I&apos;m doing here is I&apos;m setting them so they
-don&apos;t display initially at all. So that hides them all entirely and
-then I&apos;m just giving them a little bit of padding and setting the
-background color. But then the first one I want the first one to display
-is block and set its background color. So what that will do,
-
-you&apos;ll see when we come over here is currently all of these all of our
-tabs are showing and really I just want the first one to show. So when I
-refresh this you&apos;ll see that the first tab is showing but the other
-tabs are not and I&apos;m not going to have styling for these list items in
-here. So I&apos;m going to go in and take them out just because I don&apos;t
-need that stuff in there. That was just to demonstrate that those won&apos;t
-get targeted by the other rule. I take that stuff out for now, that&apos;s
-great. And then I&apos;ve got a couple other really minor rules for styling
-that will just kind of fix up the way we want our taps to look and
-everything to look for this project, switch back to the styles and add
-two more rules you have to add in here. The 1st 1 is styling the anchor
-tags again, this is getting our first tab up at the top of the page and
-I&apos;m just changing its color and changing it&apos;s background so it matches
-our interface. And then I&apos;m just giving a little bit of styling to the
-paragraphs to make them look a little bit better. And so there&apos;s this
-one isn&apos;t super critical but it&apos;s kind of nice to add in there to make
-our paragraphs look a little bit better here. So now we have the actual
-interface it doesn&apos;t function but this is the interface that we want
-for our tabs. And the reason why I showed you the styling is again
-because javascript is very much tied to the browser and tied to
-adjusting the styling. It&apos;s important to understand how the styling
-works and that when you&apos;re making an interface like this, you want to
-get the styling for the widget or the element or the interface element
-to work properly before you start working on the javascript. So here we
-have three dips but two of them are set to display none and one of them
-is set to display block. We have unordered list and they&apos;re all styled
-here but the first one has a background color kind of matches this thing
-so it really starts to look like a tap and we want to get that styling
-in place. The next step will be to add the j query to make the thing
-actually work and we&apos;ll start working on that in the next video.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-13">2.13 Tab Styling and Colors (x:xx)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image044.png){width="4.0in"
-height="2.361538713910761in"}
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-14">2.14 Clicking and Fading Tabs (x:xx)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image045.png){width="4.0in"
-height="2.361538713910761in"}
-
-All of the backgrounds to default color. Now we need to turn the
-background in the color of the font for the one that we&apos;ve clicked on.
-Again, you can only click on one tab at a time so which one did you
-click on? You clicked on this one. We&apos;re going to use this keyword,
-dollar sign this and then we&apos;re basically going to do a CSS command
-like this here so I&apos;m going to copy that and paste it here but the
-colors are going to be different. The background is going to be, eaeaea
-I think, and the color is going to be 333, like that and that should
-work. Let&apos;s save that. When I come over to my tab interface here and
-click &quot;Refresh&quot;, now when I click on &quot;Brownies&quot;, you can see
-they&apos;re all turning to dark gray and then this one, the one I clicked
-on is turning white gray, so it makes it look like this tab is active.
-Now we&apos;ve activated the tab, but we haven&apos;t actually changed the tab
-content. That&apos;s what we&apos;re going to do next, is change the tab content
-so that when we click on this to correct tab content shows up here. How
-are we going to do that? Well, when we click on one of these, there&apos;s
-an href attribute associated with this link, with each one of these
-links. We know that the href attribute that&apos;s associated with these
-links is also associated with the content below, because that&apos;s how we
-had our markup setup over here. Remember up here, we set these href&apos;s
-here to link to these id&apos;s down here. Really what I need to do is find
-out what href I clicked on when I clicked on one of these. We can do
-that very easily down here, again, using this keyword. I&apos;m going to
-make a variable var, this tab. I&apos;m going to assign it a value it can be
-var it can be constant I&apos;ll just use const for now. I&apos;m going to use
-the, this keyword I&apos;m going to use in our jQuery object and I&apos;m going
-to use.attr, which is the attribute method in jQuery that allows me to
-get a particular attribute on an element and what attribute do you want,
-I want the href. Just to see what&apos;s gong on with this, if I do alert
-this tab and see what I get. When I do this, you come back here and
-refresh the page. If I click on &quot;Brownies&quot; I&apos;m getting pound tabs 2,
-if I click on &quot;Cotton Candy&quot;, I&apos;m getting pant tabs 3. If I click on
-&quot;cupcakes&quot;, I&apos;m getting pan tabs 1, that&apos;s getting me the correct
-tab, which is exactly what I want. Now that we have that working and
-we&apos;re able to click on these and swap out the correct information
-there. What do we want to do? How do we want to actually handle this
-content here? What I want to do s actually want to fade out this content
-that&apos;s showing for the tab that&apos;s selected and then when that&apos;s done,
-fading out, fade in the new content and that fade, that animation is
-going to be handled by the jQuery effects library and it&apos;s very simple
-and it&apos;s going to happen very quickly. It&apos;s going to happen in 200
-milliseconds, so a split second. But that fade is important to the
-interface because it gives the user a clue that the information is
-actually changing. Because the information in these tabs doesn&apos;t look
-all that different in this content areas. We want to do that in
-animations that we can actually show the user that when they click the
-tabs, it is actually changing and getting some different information in
-there. That&apos;s what we&apos;ll do in the next video and we&apos;ll finish this
-thing up and you&apos;ll see how the interface looks when we&apos;re done.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-15">2.15 Whole Script (7:40)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image046.png){width="4.0in"
-height="2.361538713910761in"}
-
-Now we need to fade out the current tab that is showing. We can get rid
-of this alert. You can either just come edit it out if you don&apos;t want
-it there or you can delete it, but we don&apos;t need that anymore. What I
-need to do is I need to get the particular tab that&apos;s currently
-showing, and we can do that using jQuery. Remember in jQuery, there&apos;s
-always so many different ways of getting to elements on the page and in
-this case, I think the most effective way is to use tabs, angle bracket,
-div:visible. We&apos;ve talked about this filter before briefly, and it will
-give us whichever one is currently set to display block. That&apos;s the
-current one that we need to set, and we&apos;re just going to set it
-to.fadeOut over 200 milliseconds. That will fade out the current one
-that&apos;s showing. The other ones are all set to display none. That will
-feed, &lbrack;inaudible&rbrack; and now they&apos;re all set to display none. What do we
-need to do once we&apos;ve finished fading this one out? Once this animation
-is finished, we need to take the one that we&apos;ve clicked on and feed it
-back in. That&apos;s what we need to do next. What we need here is a
-callback function. Remember that&apos;s how the callback functions work.
-Once this is done fading out, we want to add a callback function, with
-its parentheses, and its current devices in here. I&apos;m going to click
-Enter to move that down, just to make some space. Then I&apos;m going to
-say, okay, I want this one, the one that I have currently clicked on, I
-want this tab to get faded in. The way we&apos;re going to do is we&apos;re
-going to make use of our variable that we&apos;ve already created here. We
-can use our jQuery object to get this tab. We know that this thing is
-going to hold in either pound tab dash 1 or pound tab dash 2 because
-that&apos;s what we found when we did this alert. You get this one and then
-we can do.fadeIn over 200 milliseconds. We&apos;ll fade that one in. Great.
-Now we have a nice simple little script that allows us to capture these
-elements and use the jQuery effects library to feed them in and out.
-This isn&apos;t particularly heavy duty effects libraries stuff. It&apos;s not
-going to look terrible on mobile or anything like that. We&apos;re just
-doing something very simple here. This is a really good use of the
-effects library. Let&apos;s see if this actually works. Come over here,
-refresh the page. When I click on Brownies, it feeds the first one out
-and feeds the next one in, and that&apos;s working perfectly. Because of the
-animation, it&apos;s giving us a sense that the content is actually
-changing. That&apos;s a really good use of animation there and the effects
-library. That&apos;s working great. Let&apos;s just review the whole script.
-Here we&apos;re loading the jQuery library. Then in our script, we&apos;re
-getting those anchor tags and adding clickHandler to notice that a
-function runs when they&apos;re clicked. In the tabs we are changing all of
-them to be the default background color, the unselected color for both
-the background and the color of the text, then the one we clicked on
-we&apos;re changing so that it shows the correct color in text for that one.
-We figure out, well which link did we click on, and then we&apos;re going to
-take the corresponding div that goes with that, fade out the one that&apos;s
-currently showing, and take the corresponding div and feed it back in.
-That&apos;s the entire script. It&apos;s a nice simple script and does a nice
-job of making use of our effects library in jQuery to build something
-simple and effective that you could use in lots of websites. Again, in
-summary, this is a great use of jQuery, and maybe if this is the only
-thing you&apos;re putting in your webpage, you&apos;d use jQuery. It&apos;s not
-really worth it because you&apos;re downloading the entire library just to
-make these little tabs. We&apos;ll see how to do the same tabs in plain
-JavaScript, but it&apos;s working really great, and if you are using jQuery
-for other things on your website, then this would be really good use for
-it as well. The last thing to do here is just, put the script in a
-separate link file, add the IIFE immediately invoked function expression
-closure, and use strict directive, and link it in the head of the page
-with the deferred property and do all that stuff. Let&apos;s just go do that
-really quickly. Well, we&apos;re here. Here, I can just make a new file
-called script.js. On that file I can add my function parentheses, curly
-braces, and an extra set of parenthesis at the end to make it run. Then
-inside the curly braces, I&apos;m going to use strict directive semicolon,
-and then I&apos;m going to come back here and just copy this script from
-here. Already use const for the one variable that I have, so I don&apos;t
-really have to do anything with that. That&apos;s all fine, and that should
-be all good there. Then back here I can just get rid of the stuff.
-Instead, I&apos;m going to move these things up to the top of the page, cut
-them from here, and stick them in the head, but again, you have to add
-the defer attribute here, like that. Then for this script here, I&apos;m
-just going to link to my script tags. I mean just SRC equals quote,
-script.js, and then don&apos;t forget, difer, and then this thing down here
-can go up. There we go. That should all work. Let&apos;s just test it really
-quickly and make sure it works. Refresh, and it&apos;s working great. We&apos;ve
-got a nice, clean, simple script that we can use using jQuery.
-
-### PDF of Presentation
-
-Here is a PDF of the presentation slides used in the videos for this
-section: <b>Creating a Tabbed Interface with jQuery</b>.
-
-[WEB1091_M02_Tab Interface with jQuery.pdf]
-
-[PDF File]
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-16">2.16 Getting the CSS Ready (5:53)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image047.png){width="4.0in"
-height="2.361538713910761in"}
-
-Now that you&apos;ve created the tabbed interface using J query, we&apos;re
-going to create that exact same tabbed interface using plain JavaScript.
-And that way you can compare the syntax between the two and understand
-the difference between playing vanilla javascript and J query and making
-use of the J query library. So when we&apos;re done, the interface is going
-to look exactly the same and function exactly the same as it did before
-using J query except now we&apos;re going to be using plain JavaScript. To
-get started I have my files open in visual studio code and you can
-notice that it&apos;s a little bit different in the setup and then I&apos;ve
-added these classes class, visible, class hidden, class hidden here. And
-we&apos;re going to basically be making use of classes because we don&apos;t
-have the J Query effects library at our disposal. We&apos;re going to have
-to make use of CSS and classes to do the animation and do the hiding and
-showing of things. And we&apos;ll use javascript to trigger the changing of
-these classes. So we&apos;ve got these pieces here. And then the first thing
-we&apos;re going to need to do is work on our CSS a little bit. First over
-here, I should open up this file here. So I&apos;m just going to make a new
-tab and open this file. You can see that it looks the same as the
-previous one. I found it a little bit of the styling in here already.
-But the first thing we need to do is get these things styled and the
-styling forgetting these things. Style is exactly the same that we did
-for the J query tabs. So you could actually go to that project and get
-that same styling from there. But over here, I&apos;m just going to come in
-and just add, I&apos;m just going to paste it in here. But this is the exact
-same rules from the previous version. We&apos;re setting for the ordered
-list inside the tabs and again we&apos;re using the ankle bracket because we
-want to target those elements specifically and we&apos;re setting them to
-display flex so they go next to each other. And then down here for the
-anchor tags were setting to display block height, 30 pixels, line
-height, 30 pixels which puts the text in the vertical center margin on
-the right to pixels and setting the background color and all that stuff
-is exactly the same along with the border radius and all that. So that
-should all work to get our basic tabs to look the way we want them to
-look on our design. And that&apos;s really critical to kind of get started
-with their. The rest of the styling that we need is a little bit
-different. And basically what we&apos;re doing here is I&apos;m making these
-dips that&apos;s these dips down here. They&apos;re going to be set with padding
-15 pixels and a background color that&apos;s that lighter gray. And then the
-transition is what&apos;s going to actually handle the fading in and fading
-out of the opacity and we&apos;ll see how that works in the script. But this
-is where the actual animation is going to take place is here in CSS. So
-that&apos;s a little bit different. Then I have a class of active on the
-current tab up here that&apos;s selected and that&apos;s going to get the
-background color that matches that background color and the color of the
-text. And you can see over on the html if you go look that the current
-tab cupcakes is active, it has the class active on here. So in our
-JavaScript will be moving that class active to each of these will be
-removing it from here and adding in each of these as you click on them
-to change them. And then we&apos;ve got a few helper classes down here that
-will be using hidden to set elements to display, not visible to display
-block and visually hidden. Which is going to be the opacity and that&apos;s
-what gets animated down. So you&apos;ll see how this all works in the
-JavaScript. But for right now we need to add this over onto our CSS and
-you&apos;re going to have to type it in. I&apos;m going to paste it so you
-don&apos;t have to watch me type it because it&apos;s not that interesting to
-watch me type this, but I&apos;m going to paste it in here. But you can
-pause the video and go in and add this yourself. So just pause the video
-here and add these rules on your CSS tabs, angle bracket div set the
-pattern to 15 pixels, the background color and transition. We&apos;re going
-to be transitioning the opacity over 200 milliseconds using linear
-easing. So it&apos;s going to be the same speed all the way through. And
-then the active class on the tabs gets its background color in the color
-and then we need these three little helper rules down at the bottom
-here. So I&apos;m going to save that. And of course, visual studio code
-likes to have them formatted this way. I kind of prefer these all in one
-line myself because there&apos;s just one declaration in each. Little easier
-to read. But that&apos;s okay. Well that visual studio code have its way
-with it. Okay, great. So now we should have the look that we need for
-our tabs. If I come over here and refresh, it looks just like it did
-before. None of this is actually functioning yet. But the look is the
-same as what we had in the original in the original version of the Jacob
-version, and we&apos;ll start working on the JavaScript in the next video.
-
-### Start Files: Creating a Tabbed Interface with JavaScript
-
-Attached is a zip file of the the things you need to begin this
-exercise. A <b>zip file</b> is defined as: a computer file whose contents
-include one or more files that are compressed for storage or
-transmission, often carrying the extension .ZIP.
-
-[WEB1091_js-tabs-start]
-
-[ZIP File]
-
-### <b>Additional Resource:</b>
-
--   [How to open a zip file for either Mac or
-    PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-17">2.17 Making the Tabs Work (6:52)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image048.png){width="4.0in"
-height="2.361538713910761in"}
-
-Hopefully, you got all this CSS in place and now you&apos;re ready to start
-working on the JavaScript. I have a linked script file here, and it&apos;s
-linked at the bottom of this file, you can see down here. I&apos;ve got my
-script file linked. I&apos;m going to go to that script file and just work
-directly in here. I&apos;m going to use var for right now, and later go in
-and clean up, and add Latin concentrate. But you could use Latin
-concentrate from the beginning here, but the first thing I want to do,
-is get all of my tabs and put them in a variable. I&apos;m going to make a
-variable var tabs, and set that equals to document.query selectorAll.
-What do I want to get in here? I want to get very specifically the pound
-tabs, angle bracket, ul, angle bracket, LI, angle bracket a. Those
-elements. Using the elements that I want to get and assign to my tabs
-variable. Then I want to add a click handler to all of them, so I&apos;m
-going to use a loop for, var i equals zero, or i is less that
-tabs.length, i plus plus, curly braces and then down here I&apos;m going to
-say, okay, tabs square bracket i, so each tab as we go through this
-loop, I&apos;m going to add an event listener and the event listener is
-going to listen for a click. Right?, and then when the click happens, we
-could run a function. We could do an anonymous function like this, and
-put everything inside of here. But in this case, it&apos;ll be a little bit
-cleaner to make a separate function, so I&apos;m going to have a function
-down here. Function, select tab. I&apos;ll leave it select tab and
-parentheses, curly braces. Instead of an anonymous function, I&apos;m going
-to run select tab, so I can just copy that and still be here. When you
-do this, you don&apos;t put in the parentheses up here, if you put in the
-parentheses, it&apos;ll run right away, and I don&apos;t want it
-
-to run right away. &lbrack;inaudible&rbrack;. I just put the name of this function
-here and that will run this function down here. That&apos;s going to get us
-started with getting our tabs, the next thing we need to do is figure
-out what we need to do in here. What do we need to do in here? The first
-thing I&apos;m going to do is, I&apos;m going to pass in the event object here,
-so I can do event.preventDefault. What that will do is make it, so that
-when you click on the tabs over here, you don&apos;t get the little hash
-showing up at the end of the URL. I don&apos;t really want that to happen.
-Prevent default will keep that hash from showing up when I do that, so
-that&apos;s great. Then I need a little bit of a loop, I mean I just do a
-four loop. Basically what I want to do is I want to go through and
-remove an index, I want to remove, any class that&apos;s on any of these
-links. This one has the class of active on it. I want to remove the
-class of active from all of these and then add it to the one that I
-clicked, so it gets the correct class on there. I&apos;m going to use a loop
-to do that. In jQuery, we didn&apos;t really need to use loops because we
-could apply things to groups of elements using your jQuery object, but
-in plain JavaScript, we need to loop through and do this. Here I&apos;m
-going to add var i equals zero where i is less than tabs dot length,
-We&apos;re using the same variable that we created up here to the global
-scope there and then i plus, plus. Then I&apos;m going to go through and
-say, okay, tabs, square bracket, i dot removeAttribute, class. That&apos;ll
-remove the class attribute from each tab, that&apos;ll get rid of all the
-class attributes. Then after I&apos;m done with that loop, I want to add it
-to the one that I clicked on and I could use this keyword here, but
-it&apos;s easier and better to use the event object that have already passed
-in and used with the prevent default. Can use it again, your event dot
-target. That will get this item event.target.className equals active,and
-that will put the active class on the one that I clicked, so I&apos;m
-removing from all of them and then putting it on the one that I clicked.
-What we did in one line of jQuery, writing a little function here to do
-in plain JavaScript, but that should work, let&apos;s go over and test it.
-If I refresh this and click &apos;&apos;Brownies&apos;&apos;, you can see it&apos;s getting
-the correct class on there. If I inspect, and look at my elements here,
-you can see that one has the class of active on it. But then when I
-click on these, that class goes away on that one, but now it&apos;s been
-added here, so that one has class of active. We can see it moving around
-that class actives to each one of these. Okay, great, so we&apos;ve done
-half our project. We&apos;ve made it so that you can click on these tabs and
-have the correct classes. It looks like it&apos;s doing that, now we have to
-actually make the content work. We&apos;ll do that in the next video.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-18">2.18 New Tab and Old Tab (7:20)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image049.png){width="4.0in"
-height="2.361538713910761in"}
-
-Now that we have the actual tabs working properly, we have to do
-something with our actual tab content to get it display, we have to do
-something with the new tab that we&apos;ve clicked on and the old tab that
-is going to go away. So we&apos;re going to do that here. The first thing
-we&apos;re going to do is we&apos;re going to make a variable here, for this tab
-and we&apos;re going to make that equal to event that target. Again, the one
-that we clicked on, event target.get attribute. We want to get the eight
-track attribute so that will get the treff of the length that we collect
-and put it into this step, okay? And then we want to actually go and get
-that element. So I&apos;m going to have another variable bar this content
-and that&apos;s going to be equals document.query selector. Because we know
-that this tab is going to return the HF attribute is going to return
-either a pound-wander Pantech-two. And then so we want to go get that
-div for whichever one was clicked and again only one of these can be
-clicked. So if you click on brownies it&apos;s going to get the class
-active, then we&apos;re going to say okay, go get tabs to and that&apos;s going
-to be this one down here, so that&apos;s what&apos;s going to happen there to go
-get those two things. So we&apos;ve got those two things and we&apos;re going to
-just hold off on those for a minute and let them do their own thing in a
-minute. But now we need to do something with the old tab and get its
-content, so we know what we&apos;re, what we&apos;re going to do with that one.
-So here&apos;s what we will do, we will add another variable var old content
-and I&apos;m going to have that, equal document.query selector(&apos;).visible,
-now in j query we had the colon visible filter that would get visible
-tabs. But here since we&apos;re not using j query, what we&apos;re doing instead
-is each of these tabs has a class of either hidden, hidden or visible on
-it. So the one that&apos;s visible. So basically what we&apos;re going to do is
-we&apos;re going to swap these classes around, so that when we click on one
-of the tabs this one is visible, will get this one and that&apos;s going to
-be the old one and we&apos;re going to change it to hidden while the other
-ones become visible. But we have to do kind of an intermediary step to
-get the animation and fading and fading out, that we&apos;ll take a look at
-and see how that works okay. But essentially that&apos;s what we&apos;re going
-to do, is we&apos;re going to get those elements and and work with that, now
-that we&apos;ve got this element, the one that we&apos;ve the old one. What
-we&apos;re going to do is we&apos;re going to set its class name to visually
-hidden. And over here in our styles we remember that visually hidden
-will set its capacity to zero. And that will ttrigger this animation
-which change the changes that opacity down to zero over 200
-milliseconds. That will actually fade it out when we do that, so over
-here we&apos;re going to do old content. Old content.class name equals what
-&apos;&apos;visually hidden&apos;&apos;, make sure it matches how you spelled visually
-hidden over here. I&apos;m just going to check and make sure yeah I just did
-it all over your case, one word visually hidden. So that&apos;s going to
-that&apos;s going to set that one to visually hidden. So that&apos;s going to
-trigger that animation and hide it while it&apos;s well on the screen there,
-it will run for 200 milliseconds and visually set it down to capacity
-zero. It&apos;s still on the screen, but it&apos;s just been transitioned down
-to the capacity of zero, so you can&apos;t see it anymore. So then what we
-need to do is we actually need to add an event listener to this old
-content. And when that animation that transition has finished, we need
-to do something with it, we&apos;re going to take it off, we&apos;re going to
-set it back to its basically display none at that point. And so in j
-query, we have these great callback functions after the effects library
-does its effects that we can use. But here we don&apos;t have that instead
-what we&apos;re going to use as an event listener. So I&apos;m going to put an
-event listener on old content to out event listener and the event that
-we&apos;re going to listen for is transition. And this be sure you get this
-right transition and it&apos;s not transitioned. Its transition and the end
-of the transition and make sure you get that right. Because when I&apos;ve
-done this assignment with students in the past that&apos;s frequently where
-things go wrong, people put transitioned, which kind of makes sense. But
-it&apos;s actually transition yet. Okay, so once this content the transition
-has ended, so transition and we&apos;re listening for that end of that CSS
-transition, it&apos;s pretty cool that we can do this in javascript is
-listen for the end of the transition, a CSS transition. We&apos;re going to
-run a function that&apos;s curly braces and a semi colon. And in this
-function we&apos;re just going to set the class name on this too after it&apos;s
-transitioned so that it&apos;s invisible. We&apos;re just going to set the class
-name old content that class name equals hidden, because now we can just
-say display blocking on and we&apos;ve transitioned it down to capacity
-zero. Now we can just set it so displaying nine instead of display block
-at that point.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-19">2.19 Handling the Switch (4:50)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image050.png){width="4.0in"
-height="2.361538713910761in"}
-
-We&apos;ve taken care of the old content, so we have said it. We&apos;ve taken
-the old content. What was the element that had visible on it? And we&apos;ve
-set its class individually hidden and that fades it out. That sets it
-down so its capacity is at zero over 200 milliseconds. When that
-transition has ended, we&apos;re going to run a function to set it, so that
-it&apos;s completely hidden. And that just sets it to display none, so that
-it&apos;s off the off the dumb entirely. Now, what we want to do is for the
-new content. We need to handle the new content. Which is this tab, the
-tab that we clicked in, the content that goes with it. We need to set it
-to be visible, but with the opacity at zero. And then after a very short
-set time out, we&apos;ll talk about set time every minute. But after a very
-short wait, we&apos;re going to change its capacity to one, so that it fades
-in. So let&apos;s do that really quickly here. So let&apos;s do that here.
-We&apos;re going to come down here and we already have a variable this
-content so we can use that. This content. This is our new content.
-We&apos;re going to set its class name. &lbrack;SOUND&rbrack;. We&apos;re going to give it
-to classes. Were going to give it the class of visible &lbrack;SOUND&rbrack;. I
-think I spell that right. Hopefully. And visually hidden. And hopefully
-I spelled that right. Of course, you could go over to the styles. And
-make sure you copy and paste to make sure that they&apos;re spelled right.
-That&apos;s always the best way to make sure your spelling things right. I
-think I did do it right. And visually hidden. So visible will set it to
-display block, so that it&apos;s on the page. But visually hidden will set
-it so that it&apos;s capacity is at zero. And then we need to wait just a
-split second. And then get rid of the visually hidden class, so that the
-opacity comes up to 100%. And to make it wait, we&apos;re going to use a
-method in Javascript that we haven&apos;t talked about yet. And we&apos;ll get
-more into this in a future lesson, but this is a good place to introduce
-it. We&apos;re going to use set time out. And set time out well, wait a
-certain amount of time to do something. And basically what we can do is
-we can pass it to function. That&apos;s going to run, over a certain amount
-of time. I was just going to wait a split second like 20 milliseconds.
-Very short amount of time just to let that thing come on the page, get
-the class set and then remove the class. So this function will run. This
-callback function will run after 20 milliseconds. So I&apos;m just going to
-click in the curly braces there. What am I going to do here? I&apos;m going
-to do this content. Got class list. Done. I move, I think that works. I
-think I did that right. Visually hidden. You can spell that, right? So
-that should wait 20 milliseconds and remove the visually hidden class on
-their. Alright, we&apos;re ready to give this a try. You&apos;ll notice that
-there&apos;s a terrible bug that we need to fix. But it should be mostly
-working and then we&apos;ll fix the bug. So let&apos;s give this a try real
-quick here. Refresh the page and if I spelled everything right. It&apos;s
-fading that one in and switching my tab, click on that one and it works,
-it&apos;s great. But then if I click another one again. I start getting this
-kind of weird thing going on. What the heck is up with that? That is not
-what I was expecting at all. Alright, cool. I&apos;m going to refresh this,
-so I don&apos;t have that going on. Okay, we&apos;re going to fix this and look
-at sort of the solution for fixing that in the next video.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-20">2.20 Fixing a Bug (6:19)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image051.png){width="4.0in"
-height="2.361538713910761in"}
-
-We got our tabbed interface working, but you probably noticed that we
-had a pretty severe bug. Where it works once clicking on the tabs, but
-once we click on them a second time, we get this weird flashing thing
-going on. So what&apos;s going on with that? Well, the real problem has to
-do with this transition and EventListener, because we&apos;ve added the
-transition and EventListener. And it works when you click on the links
-the first time, it&apos;s looking for that transition end. But that
-EventListener&apos;s getting added onto old content each time you click on
-it. So all of a sudden when you&apos;re clicking on it a second time, it&apos;s
-firing a second time and running again and it ends up in this weird loop
-where it&apos;s doing this kind of thing. So what do we do about that? What
-we can do is at the end of this EventListener down here after the
-function. So this function opens here and closes at this curly brace
-here after this function for it that runs when the transition it. We can
-put a comma and another object, so another set of curly braces in there.
-And there&apos;s actually three settings that we can add to the
-AddEventListener that will help us work with these different pieces
-here. And what they are are capture, False, once:true, and
-passive:false. The only one we really care about here is this once:true.
-What once:true does is it says add this EventListener once, and then
-when you&apos;re done with it, remove it, so that will get rid of that. Get
-rid of that problem, capture and passive, they&apos;re all false by default.
-If you don&apos;t put this thing in here at all, then they&apos;re all here but
-they&apos;re all false by default. So we&apos;re leaving these two as false but
-we&apos;re making this one true, we have to put these two in if we&apos;re going
-to just change this one. So we pass in this little object here that has
-capture:false, once:true, passive:false. And if we save that and come
-back and refresh the page over here. Now you&apos;ll notice that I can click
-on it and it will run, but it&apos;s dispensing of that EventListener after
-the first time. So now when I click on it again, it&apos;s just doing it
-properly. It&apos;s getting rid of the old EventListener and adding the new
-one and only gets added once. So that&apos;s working perfectly fine, that&apos;s
-great. So now at this point we have a working functional script over
-here. We can look at the script and it&apos;s a lot more complicated than
-the jQuery version. I think we can all agree that this script is a lot
-more complicated in the jQuery version. And part of your decision as to
-which one you would want to use if you wanted to include such an
-interface on a project of one sort or another is, is it worth including
-the entire jQuery library in order to have a shorter script here? Or is
-it better to have the longer script and make use of CSS and do this kind
-of stuff? Now we can do a few more things to make this a little bit
-better, and to make it a little bit more efficient and perhaps a little
-bit shorter and easier to read and all that stuff. So we&apos;re going to
-add those things in next. The first thing of course, is to just do our
-best practices and add in here our IIFE, our immediately invoked
-function expression, (function( ){}();. And then in here we can put our
-use strict directive, like so. And then we can just make some room here
-and we can move this whole script into there. Like that, and I&apos;m just
-going to tab everything in. And of course we can go through and we can
-change var to const if you didn&apos;t do that right from the beginning,
-that could be const. This one has to be let because it&apos;s inside of a
-loop. Down here this one needs to be let. And then these can be const
-here, that one, that one, that one can be const. And I think that&apos;s it
-for that stuff, so that should all work. Let&apos;s just test it and make
-sure I didn&apos;t mess anything up there. I think it will work, yep, that
-works fine, I didn&apos;t break anything, so that&apos;s cool, okay. But there
-are a few more things that I want to show you that we can do with this
-script to make it a little bit better and a little bit more modern. And
-there are things that we&apos;re going to talk about in more detail in a
-later lesson. But I think it&apos;s kind of good to introduce them in these
-small projects that you can kind of get used to them before we talk
-about the theories behind them and really delve into them in more depth.
-I think it&apos;s nice to sort of come into that kind of conversation with a
-little bit of experience with them. So we&apos;ll look at those features of
-Javascript next.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-21">2.21 Cleaning Up the Code (7:26)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image052.png){width="4.0in"
-height="2.361538713910761in"}
-
-As mentioned in the previous video, this script is definitely longer and
-more complex than what we would see in it with the jQuery script.
-There&apos;s some things about it that are always going to be a little bit
-confusing inherited this transition and thing with that capture in once
-and for, all that stuff down there, as well as using set-time-out to
-have to wait a split-second before swapping the classes to get the
-transition to work properly. But there are few things that we can do to
-clean up the code a little bit and make it a little bit better. Again,
-you don&apos;t have to do any of this, you could leave the script the way it
-is, it works fine, the way it is. These are just some things that are
-worth looking at and thinking about in terms of syntax for JavaScript.
-We&apos;ll get into these features in more depth later. This is just a good
-opportunity to introduce them. One of them is the for each method which
-can work on arrays. Tabs is an array because it&apos;s going in and getting
-all of these tabs, and there&apos;s just three of them, but it&apos;s an array.
-The for loop is fine. It works fine, but it&apos;s a little bit hard to read
-and a little bit cumbersome. The forEach method is a little bit nicer.
-Let&apos;s just try that and see how that looks instead. What we would do is
-we would say tabs.forEach like this. This is the forEach method. The
-forEach method, again, it&apos;s an array method, so it works on arrays. We
-do tabs.forEach, and we pass in a Callback function that runs. This
-function takes a variable that&apos;s going to work on each element and tabs
-and you can call it Eachtab, where you can call it tab. I&apos;m just going
-to call and tab. It&apos;s going to do something with tab. It&apos;s going to go
-through each of the tabs and do something with tab. What are we going to
-do here? We&apos;re going to say, okay tab.addEventListener, and we&apos;re
-going to do click. Then we&apos;re going to run this selectTab down here.
-This piece of code is doing exactly the same thing as this for loop
-here. You could either comment this out or deleted altogether and just
-use the forEach method here that will allow us to add an EventListener
-to each tab. I just think it&apos;s a little bit easier to read. Again,
-we&apos;ll get into this more later, but this is a good place to introduce
-it. We can do the same thing down here in place of this for loop down
-here as well. We get even just paste this in, but instead of adding an
-event listener, we can just do this instead. But instead of tabs dash,
-the square bracket i, it&apos;s just tab, tab.removesAttribute class. Again,
-we&apos;re just replacing this for loop with that. That should work just as
-well as before. Let&apos;s go over just test this really carefully here. If
-I refresh this and test it, you can see that it&apos;s working exactly the
-same as it did before, and that&apos;s great. You can get rid of these
-things here. Now, even further in JavaScript, there is now a, something
-called an era of function. And if you&apos;ve looked up I JavaScript online,
-you&apos;ve probably come across arrow functions before. Again, we&apos;re going
-to get more into arrow functions and talk about them in more in depth in
-a future lesson. But this is a good place to introduce them because we
-could even further clarify these little functions here with arrow
-functions. The way they work is like this, you get rid of the word
-function, and instead over here you put what they call an arrow, which
-is really just an equals sign integrator that sign in here. If you&apos;re
-passing in only one variable, you can get rid of the parentheses. Now we
-have tab.forEach tab, and then this becomes the function that runs. Now,
-we could do the same thing down here. Again, we&apos;re going to do this in
-more depth leader to talk about arrow functions and when do you use them
-and when not to use them and what they&apos;re good for, but this is a good
-place for them. It just gives us a really clear tabs.forEach tab, we&apos;re
-going to do this thing. You could even move this up, so it&apos;s all on one
-line, practically made it so it becomes a short and clear. That really
-helps with the clarity of the script. I&apos;m going to get rid of this just
-to make it a little bit shorter. That space there, up here, I&apos;ll get
-rid of this. It should work just the same as it did before. Again, you
-don&apos;t have to do any of this stuff if you don&apos;t want to descrip work
-perfectly fine before. There&apos;s nothing wrong with using the for loop
-and now using the forEach or using the arrow functions. But it just
-seemed like this would be a good place to introduce those ideas. Just to
-summarize up the lesson, what we&apos;ve done here is we&apos;ve created a
-typical interface on it, a tabbed interface, and we&apos;ve done it with
-plain JavaScript. It&apos;s a little bit different than the version that we
-did a jQuery, and ultimately, you have to decide whether including the
-jQuery library and doing the shorter script is worth it for making this
-thing. It&apos;s not that long, it&apos;s not that bad, it&apos;s certainly a lot
-less code to download in the entire jQuery library. On the other hand,
-if you&apos;re using jQuery for other things in your project already, then
-using it for the tabs doesn&apos;t actually add any extra weight, and it
-works really well and it&apos;s short and quick in and right to the point.
-This is a really great example of the difference between JavaScript and
-jQuery. And you get jQuery is just more JavaScript, but there are
-differences with the width syntax works and you can write shorter, more
-efficient scripts with jQuery. That helps you get used to working with
-JavaScript and more excited about learning it, then by all means, use
-the jQuery. If you prefer to really learn the plain vanilla JavaScript
-because jQuery is starting to get phased out, then this is a really good
-example of the work you need for it with plain JavaScript.
-
-### PDF of Presentation
-
-Here is a PDF of the presentation slides used in the videos for this
-section: <b>Creating a Tabbed Interface with JavaScript.</b>.
-
--   
--   
-
-WEB1091_M02_JS Tabbed Interface.pdfPDF File
-
-## Module Three:
-
-![](images/image053.png){width="4.0in"
-height="2.361538713910761in"}
-
-Welcome to the third module in our second course in JavaScript. In this
-module, you&apos;ll create some scripts that are useful and that you can put
-on actual webpages. Plus they&apos;ll build your skills and you&apos;ll get
-better at working with JavaScript and jQuery, they provide a lot of
-practice. Let&apos;s dive in and start working on these scripts. I think
-you&apos;re going to get a lot out of them and I look forward to going
-through them with you.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3-01">3.01 Basic Slider (6:27)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image054.png){width="4.0in"
-height="2.361538713910761in"}
-
-jQuery Image Slider, version 1, the basic slider. Learning JavaScript
-and learning jQuery is most fun when you&apos;re actually working on
-projects that you could actually use. In this lesson, we&apos;re going to
-make a basic image slider that you could put on any website, and that&apos;s
-pretty exciting and pretty awesome to be able to make something that you
-can actually use. Plus, along the way, you&apos;ll learn some new things
-about jQuery and some new things about JavaScript and get a lot of
-practice. Really this is a great way to learn JavaScript and jQuery.
-Let&apos;s move forward and see how this project works here. The final
-project you&apos;ll have just a simple little slideshow where the images
-will slide from left to right or they&apos;ll come in from the right-hand
-side and slide over to the left-hand side as you go to the next image
-and then the other way round as you go to the previous image. We&apos;ll see
-how that actually works and how it comes out as we move along here. In
-the start folders, you download the files that go with the assignment.
-In the Start Folder, you&apos;ll find there&apos;s an index HTML file, we&apos;ve
-got a script file, and we&apos;ve got a folder with some slides with some
-images that I took up at Bodie National Park which is an old abandoned
-ghost town. It&apos;s a pretty interesting place. Great place to take a lot
-of great photos. I took some photos up there, so we&apos;ll use some of
-those for this project and that&apos;s fun. If we come over and look at the
-index file, you&apos;ll notice that we have a div with an ID of slider, and
-then an unordered list with list items for each of the images for the
-slides in the slideshow. This is actually a fairly common setup that you
-will find for image slider scripts that you might find around the web.
-Then I&apos;ve just got some links for the previous and next buttons. If we
-come over here and actually look at that HTML, you&apos;ll see that that&apos;s
-what it looks like here. I&apos;m loading my normalized script. I&apos;ve got my
-CSS. I&apos;ve got jQuery loaded here. I&apos;m loading an easing plugin that
-we&apos;ll talk about in a bit. Then we&apos;ve got our script file here, and
-then we&apos;ve got our slides. That&apos;s all there. I&apos;ve got a script file
-here which is empty. It&apos;s where we&apos;re going to write our JavaScript,
-and then we&apos;ve got some styles that we&apos;ll talk about in just a minute
-here. The important way to think about this or the important strategy
-here is that the images are all going to be lined up in a row. What we
-have as the actual window, the slider div, is going to have overflow
-hidden on it so that you can&apos;t see the other images, and it&apos;s going to
-be set to position relative so that we can absolutely position the
-string of images, the strip of images inside that window. The current
-image will be displaying and when you click &quot;Next&quot;, the next image
-will slide in or if you click &quot;Previous&quot;, the previous image will
-slide in. That strip will basically slide back and forth left and right
-as we move through the slides. Now, one thing to check out is the way
-that the styling works, and it&apos;s really important to understand the way
-HTML and CSS works because it&apos;s these tools that will provide the basic
-content and structure for our pages, and even though we&apos;re learning
-JavaScript, and that has to do with the behavior, the behavior very much
-is affected by the layout and the content of the pages. If we come over
-here and look at this, the overflow hidden on this slider element here,
-which is, again, if we go back to the index here, it&apos;s this div here.
-If I come and look at the page, it&apos;s this div here that has the picture
-in it. That div has overflow hidden on it and it is showing only the
-slide that is in the window and the width of it is set to the same width
-as the actual images. The height is set to the same height and then
-it&apos;s set to position relative so we can use absolute positioning. If
-you know some CSS and you know about positioning, you know that when you
-set a parent to relative positioning, then the child set to absolute
-positioning is going to be set in relation to that parent element.
-Position 0, top zero, left zero puts that thing inside this container
-here. Then display flex is what makes all the images go into a row. Top
-zero, left zero puts that in the top left corner. Now, if I were to go
-in and mess with this just a little bit, you can see what it will do.
-For example, if I take overflow hidden out of my slider declaration
-here. Let&apos;s do this just to see what happens. If I come over here to my
-styles and remove overflow hidden just temporarily, I&apos;m going to just
-comment this out, like so and save this. When I come back and refresh
-this, you&apos;ll see that the other slides are all lined up. Each one is on
-there next to each other and they&apos;re all lined up here. They&apos;re all in
-a row just lined up waiting. Just because of overflow hidden, we&apos;re not
-seeing them. We&apos;re only seeing what&apos;s actually in the window. We want
-to go back and put overflow hidden back so we&apos;re not seeing those
-additional slides. We&apos;re only seeing the one that&apos;s actually in the
-window. It&apos;s important to understand that that&apos;s how this project is
-set up because it has an effect on how we write our JavaScript.
-
-### Start Files: jQuery Image Sliders
-
-Attached is a zip file of the the things you need to begin this
-exercise. A <b>zip file</b> is defined as: a computer file whose contents
-include one or more files that are compressed for storage or
-transmission, often carrying the extension .ZIP.
-
--   
--   
-
-WEB1091_Slider-V1-StartZIP File
-
-### <b>Additional Resource:</b>
-
--   [How to open a zip file for either Mac or
-    PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3-02">3.02 Making the Script General (5:41)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image055.png){width="4.0in"
-height="2.361538713910761in"}
-
-One thing we want to do as we&apos;re working on our scripts is we want to
-make them as general as possible, so that if we were to add more images
-into our slider then our script to be able to handle them. I&apos;m going to
-use some variables to keep track of some things like, well, how many
-images do I actually have in my slider? I know right now that it&apos;s
-five, and I could just leave it at that, for image count, but I could
-just set image count to five. It really rather have it actually find out
-what is the length of my element here. Then I also want to find out how
-wide is my image, and I&apos;m going to assume that all my images are the
-same width because the slider won&apos;t look right if they&apos;re not anyway.
-I&apos;m going to assume that all these images are the same width, but I
-need to find out how wide is one of them. Let&apos;s go ahead and add these
-two variables to our script over here. I&apos;m going to come back to Visual
-Studio code and go to my script file, and here I can just add in const.
-What did I set this for? I set this variable to image count. How many
-images do I have? I&apos;m going to set variable image count, I&apos;m going to
-make it equal to m, I&apos;m going to use my jQuery object to go in and find
-out how long my script is. It&apos;s &quot;#slider ul li&quot; dot length, and that
-will actually go in to my document over here and look for this slider
-element, and then go and find the list items, and we&apos;ll find out how
-many are there. That should return to me, a five. It should give me five
-there. Then I&apos;m going to have a variable const imageWidth, and I&apos;m
-going to use my jQuery object for that, and I&apos;m going to put in here
-&quot;#slider, ul li :first img&quot; dot width, and that should give me a
-number that tells me how wide might first image is. Let&apos;s see what that
-does, alert imageWidth. Save that, come back here and refresh the page,
-and I&apos;m getting 400. It&apos;s telling me that it&apos;s 400 pixels wide. Now,
-before I move on, I&apos;m looking at my slide here and realize I&apos;m using
-this first pseudo-class here to get the first list item. What that does
-is it goes into the DOM here, and it looks at the first one of these
-list items and then gets the image. Now, as it turns out, jQuery has
-deprecated this first pseudo-class. If you look this up on the jQuery
-website, it&apos;ll say deprecated. They don&apos;t want to use this, instead,
-they want to use the first method. Let&apos;s actually do that really
-quickly. I&apos;ll just do first, jQuery colon first, and look up. I want to
-look up this one here. You will see as if jQuery 3.4, the first
-pseudo-class is deprecated. Remove it from your selectors in filter
-results using dot first instead. It&apos;s important when you&apos;re using a
-library like jQuery to stay up on sort of the latest trends with
-language as best you can, it&apos;s not always easy to, this one slipped by
-me when I made this slide, but I&apos;m aware of it now. I&apos;m going to fix
-it here in the video really easily here. I&apos;m just going to come over
-here and get rid of first here, and instead use first like that. That
-should give me the same result, let&apos;s just check really quickly. If I
-come over here and refresh the page, I&apos;m still getting 400, that&apos;s
-great. It is important to sort of pay attention to these things as you
-can. I should add, while this still works currently in the current
-version of jQuery, it might not work in future versions of jQuery. Since
-I&apos;m loading this version of jQuery up at this project, unless I update
-my link to jQuery to a newer version, it will continue to work. This is
-actually fine to use for now with the current version of jQuery that we
-have, but going forward, we should use the dot first method instead. I
-just wanted to show you that.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3-03">3.03 Window Load Function (7:20)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image056.png){width="4.0in"
-height="2.361538713910761in"}
-
-The next thing to consider is when resources are going to load, and in
-this case, this seems to be working just fine. If I click refresh, it&apos;s
-giving me a 400 here but it&apos;s loading these images. Now, I have this
-file local on my computer, and that&apos;s all well and good and fine. It&apos;s
-going to load it really quickly since it&apos;s local on my hard drive.
-However, if I were actually putting this on the internet, it&apos;s possible
-that, that request to find out how wide the images are, we&apos;d run before
-the images are downloaded and I could get a zero there, and I don&apos;t
-want that. I want to make sure I&apos;m getting the actual images. What I
-want to do to prevent that problem from happening is I want to add an
-EventListener that checks to see when all of the assets for the page
-have downloaded and it&apos;s not going to run the script until they&apos;re all
-downloaded. We can use the on method in jQuery and the on method in
-jQuery is similar to the addEventListener method that we have in plain
-JavaScript and then you pass in a particular event that you&apos;re looking
-for.Then it&apos;ll run a function when that event happens. Here we&apos;re
-going to put the on method on the window object and the window itself.
-We&apos;re looking for a load event and this callback function will run when
-load is completed, meaning all of the images for the page have
-downloaded. That will keep the script from running until the images are
-actually there. Again, all we&apos;re working locally on our hard drive, not
-such a big deal, but if you put this script up on the internet, you
-don&apos;t want your slider to think that your images are zero pixels wide,
-because that will screw up the whole script and that would be bad.
-Let&apos;s go ahead and add this onto our script and we&apos;re going to put
-everything inside this window load function for our page. Over here I&apos;m
-going to add my jQuery object and I&apos;m going to pass in the window
-object and I don&apos;t have to put that in quotes because it is an object,
-the window is an object that jQuery recognizes. I&apos;m going to use on and
-I&apos;m going to look for the load event, and then I&apos;m going to run a
-callback function. Then everything&apos;s going to go inside of these curly
-braces here. I can actually move all of this up, Cut it from there, and
-Paste it in here like that. While I&apos;m here, this function here, will
-work as a closure for the page for this function.This thing is all in
-its own closure, we can add our use strict directive, right here. We
-don&apos;t need to make a separate IIFE, the Immediately Invoked Function
-Expression. We don&apos;t need that because we want this function to run
-when the page has loaded all its files. When it has, then we can say,
-okay, now you can run, and we&apos;re going to set up these variables in
-alert. This should show absolutely no difference at this point over here
-in the front page of Sunni Islam as a tactic. We should still be getting
-400 but you can see that the image started actually coming in because
-before that alert ran.That&apos;s one thing that&apos;s slightly different is
-that it&apos;s actually loading the images first. Because we are loading
-from our hard drive, it&apos;s not that big of a deal, but it&apos;s still a
-really good idea to do it this way. Next, we&apos;re going to add a few more
-variables to our project. We need to know the total width of our whole
-slider. For that we&apos;re going to take the image count and multiply it by
-the width of each image. That will give us our total width plus we&apos;ll
-add a px to the end of that. Let&apos;s go ahead and add that to our script
-now. I&apos;m going to get rid of this alert and just to const total width,
-and this is going to be equal to image width times image count. Doesn&apos;t
-matter which way around it goes right, it&apos;s going to come up and same
-thing.
-
-Then we&apos;re going to add onto that a px at the end of there, that&apos;s
-going to put that in there.Then let&apos;s just alert out total width which
-is to see what we&apos;re getting here. I&apos;m going to come back here and now
-when I refresh, I&apos;m getting 2,000 pixels because I&apos;ve got five images,
-each of them is 400 pixels wide, that&apos;s 2,000 pixels. That&apos;s adding up
-and doing that properly, which is great. Next I&apos;m going to need a
-variable for left position.This variables can be changed in the process
-of running the script I&apos;m going to set it with the keyword let and I&apos;m
-going to have a counter that&apos;s also going to change. Then I&apos;m going to
-set the width of my slider UL to be that total width. We&apos;ll talk about
-that in just a minute here, let&apos;s go ahead and add these in. Let
-position equals zero, let counter equals zero, then I&apos;m going to use my
-jQuery object to go in and say, Okay pound slider ul.css. Your width is
-going to be total width, did I do that right? I&apos;m going to go check my
-slide over here and make sure I did that right. A width needs to go in
-quotes, left position we just change that. Left position and width needs
-to go in quotes, and there we go. Let&apos;s, stop the video here and then
-we&apos;ll talk about this more in the next video.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3-04">3.04 Click Handler for Next Button (8:05)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image057.png){width="4.0in"
-height="2.361538713910761in"}
-
-<h2 id="ch3-05">3.05 Next Click Handler with If Statement (3:03)</h2>
-
-![](images/image058.png){width="4.0in"
-height="2.361538713910761in"}
-
-In the previous video, we got our click handler working. So that you can
-click on the the button, and the images will move forward and the slider
-will function. But when you get to the end of the strip slides right
-outside the slider window. Which is not really what we want. So what we
-need is an if statement to make this work. We&apos;re going to add an if
-statement to check to see, if the counter is the same as image count.
-And if it is, then we&apos;re going to set that counter back to zero. And
-that will put the strip right back to the beginning. So what we want is
-remember image count saying how many images we have. So it&apos;s five. So
-we want a number that&apos;s either, we want countered either be zero, one,
-two, three or four. As soon as it hits five, then we&apos;re out of range
-and we want to put it back to the beginning. So let&apos;s go ahead and add
-this if statement into our script over here, to handle that. So down
-here, I&apos;m going to increment the counter and then check to see if the
-counter is the same as image count. If it is, feminists at the counter
-back to zero equals the same as you could also do triple equals. Which
-would be exactly the same as, in this case I&apos;m not really worried about
-type coercion. But you might want to be extra careful and triple equals
-in there, and there we go. So now if we come back and test this, refresh
-the page, when I click next, it&apos;ll go all the way through my slides.
-And when I get to the last one it goes back to the beginning. And that
-will continue to work, as we go forward through the script. Great. So
-now your job is to think about what you could do to create the click
-handler for the previous button. Because currently this button doesn&apos;t
-have anything going on with it here. It doesn&apos;t have any event listener
-at all. So we need to add an event listener for this. That will make the
-slides trip go, the other way. Now, the way to think about this, is to
-start with thinking about what happens if you&apos;re at the end. Website
-went too far. There we go. If we&apos;re at the end of the strip and we
-click previous, we want to document the counter. And move the strip the
-other direction. So think about what you could do, to create your own
-event listener for the previous click button. And then we&apos;ll take a
-look at it together in the next video and see if you got the same answer
-I got.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3-06">3.06 Challenge Solution (5:03)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image059.png){width="4.0in"
-height="2.264957349081365in"}
-
-In the last lesson, we created the Click Event Handler for the Next
-button and it&apos;s your job to create the Click Event Handler for the
-previous button. Hopefully you were able to do that, or at least tried.
-The only way you&apos;re going to learn JavaScript is to push yourself to do
-these things without just looking at the answers and try to do it. Even
-if you&apos;re unsuccessful, that&apos;s a success because it makes you think
-about it, it makes you work with the syntax. Try to do it on your own
-and then look and see if you got the same answer I did, or if you&apos;ve
-got stuck that&apos;s fine. You can look in, see what I did. Hopefully then
-it&apos;ll make sense and you&apos;ll have an aha moment. But you won&apos;t have
-the aha moment if you don&apos;t even try, if you just look at the answer
-without trying. This is the answer I came up with. I have an event
-handler looking for that Previous button and click on that Previous
-button. Then I&apos;m going to take the counter and decremented. Here the if
-statement is going to change so that if the counter is less than 0, then
-I&apos;m going to set the counter to image count minus 1. I don&apos;t want to
-set it to five and want to set it to four because remember our counter
-needs to be a zero, a one, a two, a three or a four for our five images.
-Those are the five numbers at the counter should be a zero, a one, a
-two, a three or a four. If the counter is less than 0, then it&apos;s out of
-range. Then we want to put it in range by putting it at the end of the
-strip. The really way to think about it is to think about it from the
-right end of the strip, the right-hand end or a fifth image, so that if
-we&apos;re on the fifth image, we&apos;re going to decrement to four and then
-we&apos;re going to decrement it to three and then to two, and then to one
-and then when we get to under zero, we&apos;re going to set it back to the
-last image. Then we&apos;re going to leave the left position. These two
-pieces stay exactly the same. In fact, we could actually make the
-script, make this event handler by copying and pasting this one, because
-a bunch of it is the same, the last two bits, you&apos;re going to have to
-type that again. We can just copy this and paste it. Then what we&apos;re
-changing here is instead of next, we&apos;re changing this to previous.
-Ideally we want to do less typing if we can. The character instead of
-getting incremented, gets decremented minus minus. Then instead of
-setting counter, checking to see if it&apos;s the same as image count,
-we&apos;re going to see, is it less than zero? If it&apos;s less than zero, then
-we&apos;re going to set it to image count minus one. Remember we&apos;re talking
-about an array here. We want our counter to be a zero, a one, a two, a
-three or a four. But when it&apos;s five, that&apos;s too high. Image count is
-going to be five in this case because we have five images. There we go.
-Then these two remain the same. Let&apos;s test it and see if that works.
-Come back here, refresh the page. Our next button works, our previous
-button works. If I go all the way to the end, I can go all the way to
-the beginning. If I&apos;m somewhere in the middle here and I click
-&quot;Previous&quot; and then click &quot;Previous&quot; again, it will go all the way
-to the end and there we go. I can go next and previous and I can go.
-Basically this is a strip of photos that&apos;s moving back and forth inside
-of this window. That&apos;s working great. Here you have a basic image
-slider that you could style and work with images on your website for any
-website you want. You just want to make sure that your images are all
-set up to be the same size to begin with and it&apos;ll just work. You could
-have as many of them in there as you want or as few of them in there as
-you want. That&apos;s really great. We are able to get all that work. Now it
-might seem weird that the images, when it gets to the beginning here, it
-moves the whole strip over to the end. Wouldn&apos;t it be nice if it
-wrapped around instead? That&apos;s what we&apos;re going to do in the next
-project. We&apos;re going to take this script and push it further so that we
-can actually make it so that it wraps all the way around. We&apos;ll take a
-look at that in the next project.
-
--   <b>3.06.jQuery-Image-Slider-Version-1.pdf</b>
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3-07">3.07 Strategy for Version 2 (4:08)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image060.png){width="4.0in"
-height="2.264957349081365in"}
-
-jQuery Image Slider Version 2. In this version, we&apos;re going to take the
-slide show that we already have, the slider that we have, where the
-image is sliding in. The one that goes to the end and then brings you
-back to the beginning and works as a strip. We&apos;re going to take this
-thing and make it so that it wraps around so it feels a little bit more
-natural. And I think that will be kind of a nice effect if this thing
-wraps around like that. So we&apos;re going to take the same set as files
-that we&apos;ve already worked on and we&apos;re going to rework them to create
-this next version of the slideshow. And by the way, this is a really
-great way to learn JavaScript, is to make a small project and then look
-at it and go, what could what could I do to make this a little bit
-better and work on ways of revising it to improve it and make it a
-little bit better. And this is a great way to learn JavaScript in a
-great way to challenge yourself to take on new coding challenges and
-learn new things. So what&apos;s our basic strategy here? How is this going
-to work? How are we going to make it wrap around? What we&apos;re going to
-do is we&apos;re going to basically clone the entire strip of slides. So
-that if we look at this top picture here, if you click the next button
-all the way till you get to the last slide in the strip of slides,
-we&apos;re going to clone the entire unordered list, the UL. Which is the
-unordered list with all the slides in it. We&apos;re going to clone it and
-tack it on the end. So that when you click next again, this one slides
-into place and it&apos;s on the first slide. Then, we can remove the one,
-remove the unordered list that was there before and it will go away, and
-we&apos;re right back where we started with a strip of slides on the first
-slide and we can keep going forward. And then if you click the reverse,
-the previous button, it&apos;s just going to do the same thing in reverse.
-Instead of tacking it on at the end here, it&apos;ll tack it on at the
-beginning. So that way, we will always have kind of an unending loop of
-slides, whether you&apos;re going forward or backwards through the slides.
-That&apos;s the basic strategy that we&apos;re going to use to make this thing
-work. So the first thing we can do is to start to work on the next click
-handler and make it different, a little bit different from what we had
-before. We&apos;re going to add an else statement in. The if statement is
-going to handle the cloning of that unordered list. And what happens
-when we get to the end? But the else is going to handle what happens if
-we&apos;re just on a slide in between, in which case we&apos;re just going to
-move forward in our slides. So this is the exact same code that we had
-before. We&apos;re just going to move it so that it&apos;s inside of an else
-statement. So let&apos;s go over to our files. And here, I have, nothing has
-really changed here. This is the exact same set of files that I had at
-the end of the previous script, the previous version of this slider. And
-in here, I&apos;m going to just come down to my next click handler. I&apos;m
-going to add an else in here. Else like that. I&apos;m going to move this
-stuff Into the else. We&apos;re going to do something very different here,
-and we&apos;ll take a look at what&apos;s next in the next video.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3-08">3.08 Cloning the Unordered List (4:58)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image061.png){width="4.0in"
-height="2.264957349081365in"}
-
-The next thing what we are going to do, is we are going to clone the on
-ordered list. Using the j query clone method, you can see here, we have
-got a clone method that allow us to take that entire un ordered list to
-make a clone of it. And then we are going to append it to the slider
-that will put it at the end of the element slider. So what that will do
-if we come over and look at our code here, if I look at my index here is
-it will take this entire a northern list and make a copy of it, and
-stick it right here like that. That is going to end up looking like that
-when it is done when it is done cloning and appending. That is what it
-is going to do sort of in code rather than physically adding the html
-like I just did there. So it is going to add that on there, it is going
-to clone it, and then appended to the slider and then I need to set the
-CSS of that of that second. A new ordered list. The last one I am going
-to set the left to image with plus pixels so it is going to be
-positioned right here because, this is our little window. So it is going
-to say, okay left, since the images 400 pixels wide, it is going to set
-the left at 400 pixels. That will put the corner, the left corner right
-up against the edge here, which is exactly where we want it to be. So
-that is what is going to happen here, as we work on this and make this,
-make this go here. Also, you might be wondering how would I know about
-clone or something like that? You can go to the J Query, the J query
-documentation really easily jake wearing clone, jaqui clone and the A P
-J query. Com has all the documentation for all the different things that
-you can use with J query, and it is really just a matter of looking
-through and seeing what the different functions are, and what they do
-and looking them up. And it is kind of fun to pour through the
-documentation sometimes and see the different examples of things that
-you can do. So that is the way that would work. Okay, let us go ahead
-and add this to our script. So I am going to go back to my script file
-here, and you can leave the counter in if you want. All this stuff is
-going to come before the counter. We are going to do the counter thing
-at the very end. So you can leave the counter in if you want or you can
-take it out and put it back in at the end. It does not really matter.
-But I mean you use my J Query object to go get pound slider, and get the
-U L. The site pound cider in ordered list. And then I am going to clone
-it dot clone. And that will make a clone of that annoy ordered list. And
-then I need to append append that clone. Two slider, pound slider. Do
-not forget the pound sign, send it to pound slider. And that will
-actually make when when we get to the last slide that will make a clone
-of it and put it on there. And then, I need to set the position for that
-one. So I am going to say again, I am going to get my j query object
-town slider. You will but I want to get the last one. Now I have to so I
-want to get last. We are going to use this last method again, I am going
-to get the last one, and I am going to set at CSS, and I am going to set
-the left position left. And what am I going to set it to you? I am going
-to set it to image with, yes. Image with plus I probably need pixels on
-there. Right, image with plus PX, right image with plus quote PX. And
-that will put it in exactly the correct spot here on the page. That will
-put it so it shows up at the end. Okay? So now it is shown up on the
-end, and in the next video will actually handle the animation.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3-09">3.09 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Setting the Left Position (4:56)</h2>
-
-![](images/image062.png){width="4.0in"
-height="2.264957349081365in"}
-
-Before I do the animation, I want to set the variable left position
-equal to a value where I&apos;m going to move that first unordered list to.
-In this case, the unordered list is 2,000 pixels wide. That&apos;s total
-width because the images are 400 pixels each and there&apos;s five of them.
-So that&apos;s 2,000 pixels. So I&apos;m going to move the left position to
-minus 2,000 pixels. What that&apos;ll do is it&apos;ll move that entire first
-unordered list where it sets the correct position for that first
-unordered list, so that it&apos;s entirely off the left side of my slider
-window. Let&apos;s go ahead and do that first. I&apos;m going to put in left
-position equals and then use my tick marks and a negative sign because
-it&apos;s going to be minus and then total width is going to evaluate to
-2,000 pixels. Because remember, total width is the image width times the
-image count plus px. That&apos;s going to say minus 2,000 pixels right
-there. Great. That puts that into their correct place. We&apos;ve got that
-variable set. Now what we need to do is animate both unordered lists.
-I&apos;m going to animate the first one and the last one. They&apos;re going to
-animate at the same time. They both move at once, at the same speed into
-the correct positions. In this list, the first line moves, the second
-unordered list, the last one, the one that we added with our cloned
-unordered list. It&apos;s going to move that to left zero. So that it&apos;s
-moving it from the left side of that window. If we come back up here to
-here, it&apos;s moving it from this left corner of the window into its space
-here. So that&apos;s going to put that into the correct place, whereas the
-second one is going to move from this space all the way out, so that at
-this point, it&apos;s at minus 2000 pixels, which will put this edge right
-at this edge here. You can see you&apos;re on getting slider. You&apos;re at
-last, the last one, animating it. I&apos;m animating the left property to
-zero. So that will put it right, so that the first image is right in
-position inside my slider at 700 using easeInQuad, whereas the first one
-gets animated to left position. We just set that to minus 2,000 pixels
-also at the same speed using the same easing. So they move together.
-Let&apos;s go ahead and add this into our script over here. I&apos;m going to
-say, get my pound slider ul.last. This one. I&apos;m going to animate it.
-How am I going to animate it? I&apos;m going to animate the left property to
-zero. That one goes to zero. Left goes to zero. I&apos;m going to just use
-the same easing and everything else that I had down here. I can even
-just copy and paste that to move that into place. That moves that one. I
-can copy this line and paste it here, but now I&apos;m going to move the
-first one, animate left, and it&apos;s going to get moved to left position.
-There we go. That will move both strips at the same times. Can animate
-them into their correct place. Then the last thing that we need to do is
-remove this one. We&apos;ll look at that in the next video.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3-10">3.10 Adding a Callback Function (7:35)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image063.png){width="4.0in"
-height="2.264957349081365in"}
-
-So far, in our next click handler, we&apos;ve checked to see if the counter
-equals the image count. If it does, we have cloned the unordered list
-and then added it to our slider and then set it&apos;s position into the
-correct place. Then we animated the two unordered lists at the same
-time, the first one and the last one. We animated the last one, it&apos;s
-left position &lbrack;NOISE&rbrack; writes that the first picture is inside the
-window and we animated the first one off the left side of the slider.
-Then the last thing we need to do is after this animation is completed,
-I want to remove it from the DOM altogether. The key word there is after
-this animation is completed. That means I need a callback function. In
-here, after the easeInQuad, you&apos;re going to put a comma, and add a
-function like so and it&apos;s wrapping around funny and includes this
-explorer here, so you can see it better. But this function is a callback
-function that runs when this animation has completed and that&apos;s what I
-want to do here. I&apos;m going to click inside of there and move that down.
-Then I can say, I want to actually remove this first one, so I can say
-dollar sign, get my jQuery object and say here, pound slider
-ul.first.remove.That will take it off the DOM entirely. You can see here
-at my slide, that&apos;s what I have here, pound slider first remove, so
-that will take it off and then once that&apos;s off, I can set my counter to
-zero, and everything&apos;s back where it should be. Make sure you have down
-here counter equals 0. If you took it off before, make sure it&apos;s there
-now. We&apos;ve got that in place. We can even put a space there and make it
-so it&apos;s nice and clear what&apos;s going on. You could add some comments if
-you need to. Sometimes it helps make sure this thing is running as a
-callback function and that these two are running at the same time. Then
-moment of truth, we get to test it and see if this script is actually
-working properly for the next button. Click &quot;Refresh&quot;. When I click
-&quot;Next&quot;, &quot;Next&quot;, &quot;Next&quot;, &quot;Next&quot;. Now, it should without wrapping
-or it should wrap around and put the next one and let&apos;s see if I did it
-right. Something went haywire. Let&apos;s see where we did wrong. Let&apos;s see
-if we can figure this out because it&apos;s very common to make a mistake in
-your code like this.
-
-It&apos;s important to be able to develop the skills to troubleshoot and
-figure out what&apos;s going on with it. This is a really good example of
-something that can go terribly wrong, because you can tell the script is
-not working properly at all. I&apos;m looking at my script and it looks like
-I look at it in Logically, it seems like it&apos;s setup right. It must have
-some error in here somewhere. The way to solve this problem is to come
-back here and refresh the page and then inspect and use the inspector
-and see if you can see what&apos;s going on. If I come down here and look at
-my slider, and I go to next. When I get to the end, something weird was
-going on here, it&apos;s working, right but I&apos;m going to make sure
-everything is saved properly over here. Save this, come back, refresh.
-Let&apos;s just see. If I look at my slider here, when I get to the end,
-something is going really haywire there. What&apos;s going on? Now, I look
-over here and my slider doesn&apos;t have any unordered list in it at all.
-What the heck is up with that? The way to solve this, way I go about
-solving this, is to come back here and start by commenting this out.
-I&apos;m going to just comment this out and see, is this part of the script
-working? Is it cloning and doing what it&apos;s supposed to do properly
-here? I&apos;m going to just do that and I&apos;m going to come over and refresh
-and watch my HTML here, because remember, JavaScript is just
-manipulating the HTML. Let&apos;s see what happens here. That goes, and it
-goes, and it goes, and it goes when it gets to the last one, it&apos;s not
-cloning properly. It&apos;s not cloning my thing properly. Something&apos;s
-wrong with my line with the cloning. If I come back and look at this,
-unlike append, this should be append to. I&apos;m using the wrong method
-here. That should be append to. You may have caught that if you&apos;re
-looking at my slide carefully and thought, &quot;oh boy, you made a mistake
-there&quot;. Maybe you even caught that before I did. That should be append
-to. It wasn&apos;t cloning properly, so wasn&apos;t getting added properly. Then
-none of this was working right. Let&apos;s turn that back on and see if that
-solves the problem. Come back here. But the inspector is your friend.
-It&apos;ll really help you solve these types of problems, because you&apos;ll be
-able to watch, hear, and see what&apos;s going on. Next. Then now, when I
-click next again, you&apos;ll see it should add an unordered list and then
-remove one. It&apos;ll add one, and then it removes it. It adds one onto the
-end, animates into place and then removes the first one and now we&apos;re
-back to the beginning. I should be able to move through this very easily
-each time. Each time when you get to the end, it very quickly adds an
-unordered list and then removes one. That&apos;s really cool. We&apos;re able to
-get that to work and not without any problems, but, and that&apos;s pretty
-typical and par for the course. It&apos;s great when you see me make those
-mistakes because I will make them and you&apos;ll make them too. Don&apos;t feel
-badly about it. But now the question is, can you do the previous button?
-Link yourself, see if you can do that one, try it on your own and then
-we would come back. You&apos;ll see my solution for it in the next video.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3-11">3.11 Previous Button Click Handler -- Part 1 (7:27)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image064.png){width="4.0in"
-height="2.264957349081365in"}
-
-In the last lesson, we figured out how to get the next click handler to
-function properly. We ran into a few problems but that&apos;s pretty normal
-and we managed to fix them and we got it working. So now we want to get
-the previous click handler to work and hopefully you tried to do that
-and we&apos;re able to do that on your own. And if you weren&apos;t, don&apos;t feel
-bad, it&apos;s not easy. This is a tough problem because you have to really
-understand this stuff and think about it the right way. So let&apos;s do it
-together and sort of see how it&apos;s actually going to work. So the script
-I came up with looks like this. What&apos;s going to happen here is when you
-click the previous link, the counter is going to get documented. And
-then we&apos;re going to check to see if the counter is less than 0, which
-means we&apos;ve run through all of our images. So that&apos;s the same as
-before. And then we&apos;re going to set the counter to image count -1. So
-we&apos;ve got five images and so we&apos;re going to set the counter back to 4.
-Remember our counter is always going to be a 0, 1, 2, 3 or 4, any of
-those five values, so we set it to image count minus one, so it&apos;s now a
-four, then we&apos;re going to clone are a nor did less than dependent to
-the slider, just like we did before. But here it will be helpful to go
-back and look at our diagram, once again. Looking at our diagram, this
-is our situation in this part down here are strip is at this position
-and we&apos;ve clicked the previous button. What we want to do is we want to
-add the new strip and depended on this side, instead of appending it on
-that side, we want to append it on this side of our slider window and
-when you click the previous button, this one is going to move in from
-this position here. And really we&apos;re tracking the corner this corner
-here. So this corner is going to go from -2000 pixels to -1600 pixels.
-2000 because our images 400 pixels wide, we&apos;ve got five of them here.
-So it&apos;s going to go from 2000 pixels to -2000 to -1600. And that will
-push this first picture into our slider. And then this one is going to
-go from 0 pixels to 400 pixels to move that there. So hopefully the
-diagram helps with sort of thinking about how this works and doing this
-kind of thing. And maybe you drew your own diagram and trying to solve
-this problem. Okay, let&apos;s go back to our slide with our answer. Here we
-are with our script here. So again, we&apos;re hopeful that image in your
-mind helps you. I know it helps me because I&apos;m a visual person. But
-we&apos;re going to clone our own ordered list like we did in the previous
-one, but I&apos;m going to set that last one that I&apos;ve added into my dom,
-the one that I&apos;ve appended to, the slider, I&apos;m going to set the left
-to minus total width again. So that sets its left corner at that -2000
-pixel mark, right? And we&apos;re going to set left position to minus
-counter times image width. So remember the counter got set to 4 here
-because its image count minus 1. Image count is 5, we&apos;ve got five
-images subtract when you get 4. So counter is 4. 4 times 400 gives us
-1600 right? 1600 pixels, -1600 pixels. And remember we&apos;re moving our
-strip from -2000 pixels to -1600 pixels to move that left edge, that&apos;s
-way over off the side there into the correct position. So that&apos;s what
-that left position is going to be set for. So then we can take that last
-one and move it into the correct place. That moves that strip onto the
-screen and then we take the first one and move it so it&apos;s off the
-screen. And then we can, with our callback function, remove that first
-one. So let&apos;s go ahead and do this on our script over here. So down
-here in the previous counter, we&apos;re going to do the same thing we did
-before and add the else and move this stuff in here. So that&apos;s all
-going to happen deals. We&apos;re going to document the counter and then
-we&apos;re going to set the counter to image count -1. So that all stays the
-same. Then we&apos;re going to do the thing that we did with the cloning up
-here so I can actually copy this. And paste it in here. But the position
-is going to be a little bit different here. This position, the last one
-is not going to be set to image with instead it&apos;s going to be set to
-get my tick marks. Minus I&apos;m going to put that in the tick marks,
--&dollar;{Total width}. I want to set it to minus total whip, right left minus
-total width. Then I&apos;m going to set the left position to counter times
-image with plus the PX. A negative with a negative number there. So
-let&apos;s put that in next. So that&apos;s really this line from up here. I&apos;m
-going to put that in down here. But instead of just minus total width,
-it&apos;s going to be counter. What did I put now, I&apos;ve forgotten. It&apos;s
-minus then the counter times image width, that&apos;s what it is counter
-times not total with but image width, there we go. Plus PX when you need
-a PX, on the end of that I believe, yep, there we go. Okay great so then
-we just need to get these two pieces in here and we&apos;ll do this in the
-next video.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3-12">3.12 Previous Button Click Handler -- Part 2 (5:17)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image065.png){width="4.0in"
-height="2.264957349081365in"}
-
-In the last lesson, we worked out the logic of how the previous click
-handler is going to work and where we left off was actually moving
-animating these strips into place. So that&apos;s what we need to do here.
-So we&apos;re going to take an ordered list that we cloned in there and
-animate it into its position. And again, what we&apos;re doing is we&apos;re
-moving it from this position here, removing it from this position into
-here. And the corner we&apos;re tracking is this corner over here. So this
-corner when we added it to our done, is set to minus 2000 pixels because
-these are 400 pixels wide and there&apos;s five of them. So it&apos;s eight
-minus 2000 pixels. So we&apos;re going to move it from minus 2000 pixels to
-minus 1600 pixels which will move it over 400 pixels which will push the
-right side of this into our slider. And you can see that&apos;s what&apos;s
-happening here. We have our last element, we&apos;re animating to left
-position, and left position is now minus1600 pixels over 700 using quad.
-So let&apos;s go ahead and add this line into our script over here and
-really you could actually come up here and copy this one. And stick it
-in here. But instead of left 0, we&apos;re moving to LeftPosition. Which is
-that minus 1600 pixels, the counter which is four times imageWidth which
-is 400 that&apos;s 1600, with the minus sign in front of it and with the px
-that&apos;s going to move that into the correct place. So that gets that one
-into the correct place. The other one, the first one, this one here,
-I&apos;m sorry this one here first can actually copy this whole thing
-because we are going to remove it, we can come down here and we can add
-that in here. But instead of moving it to LeftPosition, it&apos;s going to
-be moved to imageWidth which up here the top of our script, imageWidth
-is the width of that image. So we&apos;re going to need a px on there,
-imageWidth let&apos;s do our tick marks And then I can do &dollar;{ imageWidth} px
-like so. I believe is that what I had over here. I have plus px I&apos;m
-adding it on there, you can do it either way with the template literally
-you could add the px In there like that. And then we are doing it over
-700 milliseconds is in quad and then we&apos;ve got a callback function
-again to actually remove that first one from the list. Let&apos;s see if it
-works. I&apos;m going to save this, come back here, refresh it, we know the
-next one works but does the previous one work? There&apos;s our first slide
-and boom it works. There&apos;s our 5th, 4th, third, second first and once
-again we can go around that way. If you choose the inspector, you can
-see it actually working. I&apos;ve got my slider here, I&apos;ve got my
-unordered list inside of there, click next, you can see that&apos;s going to
-minus 400 click previous. It&apos;s going to zero when I click previous
-again, you&apos;ll see it, add the unordered list, move it into place and
-then remove the other unaltered list. So that&apos;s actually working
-exactly the way it&apos;s supposed to. So that&apos;s great, very cool. So
-that&apos;s all working the way it&apos;s supposed to. There you go. Now you
-have a slider that will work in a looping kind of way rather than just a
-strip that moves back and forth. It seems a little bit more complicated
-and it is a little bit more complicated. But these types of projects in
-these types of lessons are really helpful for thinking about different
-ways and different kinds of things that you can use on your websites.
-And build that will make use of J query, make use of the built in
-effects library and teach you how to handle and think about these
-different types of situations that come up
-
-### 3.12.jQuery-Image-Slider-Version-2.pdf
-
-### https://www.coursera.org/learn/animation-javascript-jquery/supplement/w6Y8l/pdf-of-presentation 
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3-13">3.13 Slider Using JavaScript (6:04)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image066.png){width="4.0in"
-height="2.264957349081365in"}
-
-Slider, using JavaScript. In the previous lesson, we worked on making a
-Slider using jQuery, we did a couple versions of it. Here, we&apos;re going
-to do the same thing using plain JavaScript without jQuery, just so you
-can compare the syntax and see how different it is. There will be a few
-little minor differences in the script, but it&apos;s very similar to what
-we saw with jQuery. So that will be pretty exciting. Here, the animation
-is going to take place in CSS and we&apos;ll be using JavaScript to trigger
-the animation. In the end, you should get a slide that looks like this.
-It&apos;s a little bit different in that the the slides are going to have
-some actual content on them. The pictures will actually be in the
-background of the slide, and then they&apos;re going to have little bit of a
-title and some text on them. So let&apos;s take a look at how that set up.
-The basic strategy is the same and that we&apos;re going to have a parent
-window that has overflow hidden set on it. And that&apos;s going to act like
-a window for these slides and the slides are all set up, in this case I
-have them floated. But they&apos;re all set up to float next to each other
-so that they end up in one long strip. And as you click on the buttons
-either left and right, the strip of slides moves in and out of the
-parent window showing only one image at a time. There&apos;s our basic
-strategy, very similar to what we had with the jQuery version. Now the
-HTML is a little bit different in this case, because instead of the list
-items just having a picture in it, like what we had for the jQuery
-slider, the list items have a div inside of it. And the div is going to
-have an h2 and paragraph inside of it to create some content on that
-slide. The actual picture will be in the background of the list item, so
-that the list item is actually showing the picture as a background
-image. Now let&apos;s take a look at the CSS for the wrapper. The wrapper
-has a width of 1000 pixels and it&apos;s set to a height of 358 pixels which
-is really the size of my pictures. And I&apos;m setting margin auto on it to
-sort of center it on the on screen. And then position relative because
-we&apos;re going to absolutely position that string of pictures inside this
-window. This is the window that&apos;s going to show only one image. And
-then overflow hidden so you don&apos;t see the other pictures. And we can
-come over to our code over here and see this markup in place. So you can
-see here I have my div with the slider wrapper. I have an unaltered list
-with the list item. The list item has the div with the content which
-includes an h2 in a picture. And I&apos;ve got a bunch of these list items
-in here. On the CSS, you can see that I have slider up here set to with
-the 1000 pixels and the height for the picture. And then margin auto to
-center at position relative and overflow hidden. Down here as you look
-down through the CSS here, you&apos;ll see this is where the background
-images are. It&apos;s on the list items. So the first list item gets this
-background image, second one gets that one. The images are here in the
-folder. So I have all of my images here. So everything will sort of line
-up and go into place that way. The actual animation is happening in CSS.
-So you&apos;ll see this transition left 700 milliseconds cubic-bezier with a
-bunch of numbers in here. And I&apos;ll tell you about where those come from
-in a minute. But we can see this in our CSS over here, right here. Using
-this transition we&apos;re going to transition the left property over 700
-milliseconds. That&apos;s the same as what we had in the jQuery version. But
-this cubic-bezier, where is that coming from? What I used to create
-those is this little web tool called CSS Easer or Ceasar, it&apos;s an
-animation tool. And you can see here, here&apos;s linear animation. If I
-click left, it just moves it at the same speed and you can pick one of
-these built in options here to see what it looks like. We can change the
-amount of time. So that&apos;s starting slow and ending fast. Whereas if you
-were to do easeOutCirc it would be the other way around, start fast and
-slow. And then down here you can see the CSS that you actually need for
-this transitional. But instead of transitioning all, I&apos;m just
-transitioning left. But you can see that that&apos;s the code that we need
-in order to do this. And you can even customize this. You can drag these
-handles and create your own custom using to do whatever you want it to
-do. And it will adjust these numbers accordingly. So that&apos;s where that
-comes from. So that&apos;s going to create the actual animation for the
-slides. So each time a slide moves, this transition is going to take
-effect. Or each time we change the position of the slide, the left
-position, this animation is going to take effect. And that&apos;s where we
-we&apos;ll see the actual animation for our slider.
-
-### Start Files: JavaScript Image Sliders
-
-### 3.13.JS-Slider-V3.zip
-
-https://www.coursera.org/learn/animation-javascript-jquery/supplement/VwcVt/start-files-javascript-image-sliders
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3-14">3.14 CSS for Slides and Adding Variables (8:01)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image067.png){width="4.0in"
-height="2.264957349081365in"}
-
-We have a little bit more CSS to talk about before we start working on
-our JavaScript. And the first thing is the actual slides themselves. So
-the list items that are inside the unordered list that are inside the
-slide wrapper, which are these elements here in my index page. These
-list items here. So these are my actual slides. And I want to set some
-styling for those. First of all, I&apos;m going to make sure the background
-image covers the entire list item. So even if they were to get a little
-bit cropped or something like that, then that&apos;s fine. I want to make
-sure the image covers the whole thing because it&apos;s a background image,
-as we see over here. And as we mentioned before, each slide, each list
-item gets its own background image. So those images go in the background
-and they cover the background of that list item. And then they&apos;re set
-to position relative because the content that&apos;s inside these slides,
-this div with the H2 and paragraph is going to be absolutely positioned.
-Basically this div here. It&apos;s going to be absolutely positioned here.
-So that it gets positioned on the slide inside of the background there
-on top of the background. So that gets, so these are set to position
-relative because those divs are positioned absolutely. And then then we
-set the width of the slide and the height of the slide and I have them
-floated left, so they all go in a line next to each other. And that
-should make them all work pretty well there. Okay, so we&apos;ve got all of
-that in place and working. And now we&apos;re ready to start working on our
-actual JavaScript. And for our JavaScript, in the j query version of
-this, we used the on method to make sure that the window has loaded. We
-did an on load method, and that was an event listener in j query to
-check to make sure that all those images have loaded. Here, we&apos;re just
-going to add an event listener with the add event listener event and the
-event listener method and put it right on the window. And we&apos;re going
-to check for the load event. And that will also do the same thing where
-it&apos;s going to check to make sure that all the assets have loaded before
-it runs the callback function. Which is the anonymous function you see
-on that first line of the script there. And everything is going to
-happen inside of that anonymous function that runs after the page has
-loaded. So let&apos;s go ahead and add that event listener to our script
-first. Come over to my script file and I&apos;m going to add a window, if I
-could type it, window.addEventListener. And I&apos;m looking for a load
-event, comma, I&apos;m going to run a function that runs when the page has
-loaded all of its content. So we&apos;re going to run that function and in
-here I&apos;m going to add a number of variables. And a lot of these
-variables are going to look familiar, because it&apos;s very similar to what
-we did with our j query version of the script. Also, this function here
-will function as a closure for this whole script. So I don&apos;t have to
-worry about adding an IIFE immediately invoked function expression,
-because this function will make sure all the variables, everything in
-here are local to this function. And nothing will be leaking into the
-global scope. So we don&apos;t need to worry about doing that for the script
-either, because we&apos;re putting it in this event listener for when the
-page loads. So what do I need to know? I need to know, how many slides
-do I have? How wide is each slide? What is the total width of the
-slider? And then I need to get some dumb elements that I&apos;m going to
-work with on my page, the actual slider element itself. This is just
-kind of make some shortcuts. If I make a variable called slider,
-
-I don&apos;t have to type document.querySelector every single time I want to
-work with the slider, same thing with the next button and the previous
-button. So let&apos;s go ahead and add these in over here. I&apos;m going to go
-back to my script over here and I&apos;m just going to paste this in.
-You&apos;re going to have to type it, but I&apos;m going to paste it in. I&apos;m
-going to make a variable called slide count, and I&apos;m going to use query
-selector all to go and get the length of how many list items do I
-actually have? If I were to do an alert here, you&apos;d find it, you&apos;d get
-the number of list items that I have coming up. Let&apos;s do that real
-quick alert. Again, I&apos;m having trouble typing today, slideCount. If I
-were to come back and refresh this, I should be getting a five. I&apos;ve
-got five slides. So that&apos;s working. The next thing I need to know is
-how wide is each slide? And there&apos;s a property in JavaScript called
-offset width. So I can go get this wrapper and say, well how wide is my
-slider wrapper? And that&apos;s how wide my width of my slides are going to
-be. So I can go and get that next over here. Oops. How wide is each
-slide? So I&apos;ve got that. The next thing I&apos;m going to need is the total
-slider width, which is going to be the slide count and it&apos;s the slide
-with with the pixels. And then I need my dom elements, which are these.
-The slider itself, the next button and the previous button. And you can
-get rid of some of the space in here if you don&apos;t want it or even get
-rid of the comments if you don&apos;t want it. It does take up kind of a lot
-of room, but I don&apos;t need this alert anymore. I can get rid of that.
-There we go. So now we&apos;re set up with some basic variables here. We&apos;re
-going to need a few more variables to get before we really get started
-with our next click handler. First, let&apos;s put in some questions here.
-Okay, here are a few more variables that we need. We need to know, we
-need to use the LET keyword, because these variables are going to
-change. We need to get the left position and set it to 0. We need a
-counter, and then we want to set the slider style width to the total
-width. So let&apos;s go ahead and set those as well over here. And again,
-I&apos;m going to paste these in. You&apos;re going to have to type them. So
-setting slider style.width, that&apos;s the total width. We&apos;ll actually set
-the width of that element, and we&apos;ll talk about that and look at it a
-little bit more in the next video.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3-15">3.15 Adding More Variables (5:49)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image068.png){width="4.0in"
-height="2.264957349081365in"}
-
-In our last video, we got some basic variables in place for our slider
-and they&apos;re very similar to the variables that you saw for the jQuery
-version of the slider. But now we&apos;re using plain JavaScript, so the
-syntax is slightly different. It&apos;s a little bit longer, but it&apos;s not
-too bad. Here we&apos;ve set the slider style width to total width and
-remember total width is the slide count times the slide with the px at
-the end. We&apos;re setting that locally in the style here and over here, if
-I come in and look at my slider and refresh this, and then click
-&quot;Inspect&quot;. I should see in here for the unordered list and actual
-number of pixels here, UL style with 5,000 pixels, because I&apos;ve got
-five slides and they&apos;re 1,000 pixels wide, so that&apos;s 5,000 pixels. The
-reason why I want to set that here is just in case I add more slides to
-my slider. I could add more if I wanted to or remove some if I wanted to
-and I want to keep the script as general as possible. Over in the css
-for this, in here I have probably, I think I have 5,000 pixels set here,
-I have it set here. I could remove that from here if I wanted to know. I
-don&apos;t really need it here, it&apos;s getting set on that element manually
-with an inline style and JavaScript is setting that, so I don&apos;t really
-need it here. Really I don&apos;t want it here I want it to be handled by
-the script because I want to be able to add or remove elements here and
-the script is going to override that anyway, so it&apos;s not even really
-necessary to have it there. That&apos;s a nice thing to pay attention to and
-to realize that I can take that out of there. The next thing we need to
-do is set up our event handler for when you click the next button. The
-first thing we&apos;ll do is handle an event for what happens when you click
-the link will pass in the event object and prevent default so that you
-don&apos;t get the little hashtag for clicking the next link up in the URL.
-It&apos;s nice. We will increment the counter and then we&apos;re going to have
-any if and else for if the counter is equal to the slide count, in which
-case we&apos;ll set the counter to zero, we&apos;ll set the left position to
-zero, and then we&apos;ll move the slider into position. Otherwise, we&apos;re
-going to just move the slider to the next slide. Let&apos;s go ahead and set
-up this event listener on our next button. Go back to my script here and
-now I can just use the handy shortcut next because I know that that is
-actually from here it&apos;s going in and getting my button pound next.
-Next, add EventListener. I&apos;m listening for a click and I&apos;m going to
-run a function when you get a click, like so. Then I&apos;m going to pass in
-evt. Sometimes people put in event, I usually use event because it&apos;s
-very clear that&apos;s what that is. Sometimes people just put an e for
-event, but e sometimes also stands for error, so I don&apos;t want it to
-stand for errors. I&apos;m going to put evt, which is of a nice compromise
-between the full word event and using the shortcut e. This is just a
-variable so you could put whatever you want. You could make a cheese if
-you wanted to do or llamas or chickens or something else. It&apos;s just a
-variable, but it represents that event object that we&apos;re passing into
-this function. The event that happens when you click on this next button
-here. Down in here we&apos;re going to do evt.preventDefault. That&apos;s
-because these buttons over here are really just links. If you click on
-the link without that, then this pound sign ends up in the URL, this
-hash and I don&apos;t really like that. The event prevent default, keeps
-that from happening, evt prevent default passing in that thing. Then
-we&apos;re going to have an if statement, if will handle what happens if the
-counter has gotten to the end of the line and in else. We also need to
-increment the counter. Counter is the same as slide count equals, equals
-the same as. Read that as the same as. Don&apos;t forget, we need to
-increment the counter, counter plus, plus. It&apos;s the same as counter
-equals counter plus one. Just a nice little shortcut there. Then if
-counter is the same as slide count, then we&apos;re going to do something in
-here and then we&apos;ve got an else in there. Then we&apos;ll pick up the rest
-of this next EventListener in the next video.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3-16">3.16 Event Handler for the Next Button (7:11)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image069.png){width="4.0in"
-height="2.264957349081365in"}
-
-If we&apos;ve reached the end of our strip and the counter is the same as
-the slide counter, then the first thing I want to do is set that counter
-back to zero. Then I want to set this variable left position and make
-sure it&apos;s set to zero, left position. It was set to zero initially, but
-I just want to make sure it gets set to zero again and of course I
-misspelled position there. Left position, there we go. I&apos;m going to
-make sure that gets set to zero. Then I&apos;m going to take my
-slider.style.left and set it equal to left position and that will put it
-into the correct position on the page. Now remember over here on the
-styles, when we talk about slider, we&apos;re talking about this unordered
-list here and it has the transition on it, so that&apos;s going to take care
-of the animation, I don&apos;t have to do the animation over here. All I
-have to do is set that position left and CSS will handle the animation.
-That&apos;s one thing that&apos;s different between the JavaScript version and
-the jQuery version. In the jQuery version, we&apos;re using the jQuery
-animate method, which is using the built-in effects library for doing
-the animation. Here, we&apos;re just setting the CSS position of the CSS
-property to left position, which in this case is zero, and then we let
-CSS handle the animation. Because CSS uses the GPU instead of the CPU,
-it&apos;s nice and buttery smooth. It&apos;ll work well on older devices that
-don&apos;t have a faster processor. In newer device the jQuery will work
-fine, but older devices, the CSS in particular will work a little bit
-better and be a little bit smoother, but I think it&apos;s even smoother on
-newer devices, honestly. That takes care of the if statement here. For
-the else, we need to increment the slide forward, if we&apos;re not at the
-end, we&apos;re just going to move that slide forward. I&apos;m going to set
-left position here. Left position, I&apos;ve spelled it properly. I&apos;m going
-to use a pair of tech marks and I&apos;m going to set it to a &apos;negative
-number&apos;, and what I want it to go to whatever the counter is times the
-slide width. I&apos;m going to put in here dollar sign curly brace counter.
-If I&apos;m clicking it the first time that counters going to go from zero
-to one, that&apos;s going to be one, and then when I multiply it times slide
-width. Of course, I want to add a px in here. I believe the slide with
-doesn&apos;t have the px. No, it&apos;s just the width, so I need the px in
-there. That sets that left position there. Then I just need this, same
-thing and setting that left property to what the left position should
-be. That should, in theory work. Let&apos;s go check it out, refresh, see if
-I did it right. Notice it&apos;s nice and smooth with the animation. When I
-get to the end, it goes back to the beginning. We have a script that&apos;s
-working and this is perfectly fine the way it is, but it could be
-simplified a little bit. If we look at this, you&apos;ll notice this line is
-the same as this line, and really, if I set the counter to zero, I
-don&apos;t need to explicitly set left position to zero because this will do
-the same thing. If I could set counter to zero, zero times slide width
-px, is going to be zero, I don&apos;t really need this line either. In fact,
-my if statement could get much shorter, It could just be if counter is
-zero, counter is the same so I can set counter to zero, and then I
-don&apos;t really need an else because this is going to happen no matter
-what. If you wanted to make the script even shorter, you could put these
-on one line, I think Visual Studio Code is going to scream at me when I
-try to do this and put those back in two lines as soon as I save this.
-But you could even just put this all in one line. It makes this really
-nice and short and compact where setting the event prevent default, we
-increment the counter. If the counter is the same as slide count, we set
-the counter to zero and then we set the left position to whatever the
-counter is times the slide width. If it&apos;s zero, then it&apos;s going to be
-zero, and that&apos;s fine. If it&apos;s one, then it&apos;s going to be one times
-side width 1,000 pixels minus 1,000 pixels, so on and so forth. Then we
-set the slider style left to left position and let the CSS do the
-animation, Save that, and come over here and you&apos;ll notice it should
-work exactly the same way. If I click &quot;Next&quot;, it&apos;s going all the way
-to the end, and then back to the beginning. That&apos;s great, now we&apos;ve
-got that in place and that&apos;s all working and that&apos;s awesome. Your
-chore is to do the previous EventListener. This one&apos;s not as hard as
-the, the jQuery one, but it&apos;s very similar to what we have here, except
-we&apos;re using the previous link and we&apos;re decrementing the counter but
-other than that it&apos;s very similar, see if you can do it on your own.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3-17">3.17 Solution for the Previous Button Challenge (4:05)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image070.png){width="4.0in"
-height="2.264957349081365in"}
-
-In the previous video, we completed the event handler for the next
-button. Your challenge was to write the event handler for the previous
-button. Hopefully, you gave it a try and were able to do it. If not,
-let&apos;s do it together here. But it&apos;s good to at least try, even if you
-tried and got stuck and couldn&apos;t quite get it to work, then that&apos;s
-fine. We want to make sure we try these things because that&apos;s the way
-you learn JavaScript, and then now we&apos;ll try to do it together. The
-first thing I&apos;m going to do is just copy this entire event listener and
-paste it. A lot of it&apos;s the same. I&apos;m going to say next, instead of
-next, it&apos;s going to be previous to go with my previous variable here,
-which is getting my prev element from my HTML. Over here in the HTML,
-you can see that I set the previous button to id prev. I&apos;m getting
-previous, click evt.PreventDefault. Instead of incrementing the counter,
-we&apos;re going to decrement it minus minus. Now I need to think about
-this. If the counter is equal to, is less than 0, probably. What do I
-want to set it to? So if the counter is less than 0, I want to set the
-counter to slideCount minus one. Remember, slideCount will give me a
-full number of slides. In this case, there&apos;s five, so that&apos;s going to
-be five. But I want my counter to be a zero, a one, a two, a three, or a
-four, those five numbers. So if counter is set to that. Then the left
-position is going to be the same, this is going to be the same, this is
-going to be the same. It should be all I need to do to make this work.
-Let&apos;s see if it works. I&apos;m going to save that and come back to my
-slider and refresh. The next button should still work. Previous button
-works. If I click Previous again, it goes to the end of the slides, and
-then it will backup through my slides. When I get to the first slide, if
-I click &quot;Previous&quot;, it goes to the end, click Next and it goes to the
-beginning.
-
-So now I have a slider that is working that&apos;s going from side to side,
-and it&apos;s moving the strip along back and forth through here. That&apos;s
-it. You&apos;ve completed this project. Here on this slide, you can see the
-full script with everything in it that we needed. You can see I left the
-else statements in here, I don&apos;t really need this, this is actually the
-longer version of it. But that&apos;s pretty cool. We&apos;ve got a full version
-of that script and you could use this on your websites and compare this
-to what we did with the jQuery versions. Now if you want a challenge,
-try to make the version of the JavaScript slider work where the slides
-don&apos;t go all the way back to the beginning or go all the way back to
-the end when you get to the end, make it so that it wraps around to the
-second version of the jQuery script but just with JavaScript. Hopefully,
-that will work. Okay. With all that, hopefully, this is a great project
-for you and you&apos;ve learned a lot about JavaScript along the way.
-
-### 3.17.JavaScript-Image-Slider.pdf
-
-### https://www.coursera.org/learn/animation-javascript-jquery/supplement/KxM2A/pdf-of-presentation 
-
-## Module Four:
-
-## ![](images/image071.png){width="4.0in" height="2.264957349081365in"}
-
-Hello, you&apos;ve made it to the 4th module in our second course on
-JavaScript and jQuery. Congratulations, you&apos;ve learned a lot of
-JavaScript and a lot of useful jQuery for all of your interactive
-projects. I think it&apos;s a lot of fun and I hope you&apos;ve enjoyed the ride
-so far. In this module, we&apos;re going to get into timers and recursion.
-These are very useful tools that will open up a whole world of
-possibilities for JavaScript and jQuery, and for your interactive
-projects. Breakout your code editor in your web browser, and let&apos;s get
-started on learning about timers and recursion in JavaScript and jQuery.
-
-### 4.00.JS-Timers-Examples.zip
-
-### https://www.coursera.org/learn/animation-javascript-jquery/supplement/ceV5m/start-files-introduction-to-timers-recursion 
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch4-01">4.01 Example Script #1 -- Part 1 (5:37)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image072.png){width="4.0in"
-height="2.264957349081365in"}
-
-JavaScript timers and recursion. I have a few scripts that we can look
-at that will explain how timers and recursion can work in JavaScript and
-these are really fun methods to play with because you can do a lot of
-really interesting things with them. Occasionally, you do want something
-to run after a certain amount of time has happened or on some interval.
-This is where we can really get into how to do that with JavaScript.
-Let&apos;s take a look at this first script here. I have the example files
-open in my code editor here. I&apos;m looking at the example 1 and this is
-the script here, it&apos;s a very short script. I&apos;m going to close my
-explorer here just so you can just see this line without it rapping. But
-best thing to do is to actually see the script run. I&apos;m going to come
-over here and just open the example 1 script here and you&apos;ll notice
-that after a certain amount of time, the script starts adding paragraphs
-to this web page. If I view the inspector and look at the body here and
-my div, you can see that this div, it&apos;s adding another paragraph, every
-1.5 seconds it adds another paragraph. If I want to stop the script, I
-can click the link, &quot;Stop the script,&quot; and it will stop adding
-paragraphs. Let&apos;s deconstruct how this works just a little bit here.
-That&apos;s the full script. Essentially, there are two functions in
-JavaScript that allow us to set timers. One is setTimeout() and the
-other one is setInterval(). Each of these functions takes a callback
-function and an amount of time. For setTimeOut() or for setInterval(),
-you will run a function and then you&apos;d put a comma and then the amount
-of time that you want to have a lapse before it runs or on the interval.
-For example, down here I have setTimeout wake-up. So it&apos;d run this
-function wake up after eight hours or setInterval eat meal, after every
-four hours I&apos;m getting eat a meal, something like that. Now, you can&apos;t
-pass in eight hours and four hours, you pass in a number that represents
-milliseconds but it&apos;s that basic idea. Let&apos;s take a look at our script
-here. We have a timer that is a variable and it&apos;s assigned the
-setInterval() function. If you remember, this is called a function
-expression because in JavaScript, JavaScript treats functions as
-first-class citizens within JavaScript. You can assign a function to a
-variable just the same way you could assign a string to a variable or a
-number to a variable or anything else to a variable, any other piece of
-data, you can assign a function to a variable. That&apos;s one of the things
-that&apos;s very powerful about JavaScript, it allows us to assign functions
-to variables. I&apos;ve assigned this set interval method to the variable
-timer and then the set interval method has a function in it and the
-function simply says, take the div.innerHTML, and plus equal the
-content. We&apos;ll take some content and add it into the div and then
-we&apos;ll do that every 1,500 milliseconds or every 1.5 seconds. That&apos;s
-how this is adding the content onto the page is that timer loads, and
-set interval immediately starts running and starts doing its thing and
-adding this content in the page. Let&apos;s go look at the script again in
-the actual file over here. I have the content here, which is adding
-another paragraph, it&apos;s just a string here and then setInterval runs
-and it says take this div, theDiv, getElementByID, theDiv, which is this
-div here. It&apos;s got some default content and it&apos;s going to set its
-innerHTML to content. In 1.5 seconds, the content is going to get
-switched to a paragraph and it&apos;s going to add that. It&apos;s going to set
-the innerHTML to that content. Then in another 1.5 seconds, then what&apos;s
-going to happen is the content plus equals is going to take the content
-and add it again. Now, there&apos;s two paragraphs in the content and it&apos;s
-going to change the innerHTML and div to having the two paragraphs so
-the two paragraphs are on the page, and so on and so forth until the
-page is completely full with the paragraphs. We&apos;ll talk about the clear
-interval method in the next video.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch4-02">4.02 Example Script #1 -- Part 2 (4:13)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image073.png){width="4.0in"
-height="2.264957349081365in"}
-
-We&apos;re looking at the first example in our timers and recursion examples
-here. We&apos;ve already talked about how this example is using setInterval
-to keep adding content into the div and then adding these paragraphs
-onto the page. We have setInterval assigned to this variable timer, and
-down here I have an event listener that when you click this button,
-document get on it by ID stop. It&apos;s got an EventListener and when you
-click on it, it runs a function, and the function runs this method,
-clear interval and I&apos;m passing in timer. Timer holds the set interval
-thing here. That&apos;s what allows me to stop the script. Up here, when I
-refresh my page, it&apos;ll automatically start adding content into that
-div. When I click stop the script, then that EventListener fires and it
-runs a function with clear interval in it and then stops that script. It
-clears the interval timer. Now, we don&apos;t need to use the function
-expression here. If I were to remove this, the page would still work and
-that it would still run set interval and start adding div to the
-content. If I save that and come back here and refresh, you&apos;ll see it
-will continue to work in terms of adding that in there but the stop
-script function won&apos;t work. In order to stop the script, I have to have
-this thing set to some variable so that I can pass that variable into
-clear interval over here. The other option would be to put setInterval
-inside there, but then you need something to get it started. In order to
-clear the interval, I need to assign my setInterval two timer, is really
-that bottom line here in order to make that work. Hopefully that makes
-sense and we can see how that&apos;s working. Now there&apos;s one other thing
-that I&apos;d like to be clear about with this script before we finish. If I
-go back here and refresh the page and right-click and choose inspect,
-what I would like you to really notice here is that notice all of these
-paragraphs are highlighting every time the script runs in my inspector
-here, and that&apos;s because of the way the script is running. It&apos;s not
-just adding a paragraph to what was there before. It&apos;s replacing the
-entire contents of the div with all of the paragraphs every second and a
-half. That&apos;s something to pay attention to because it might not be the
-best in terms of performance to replace all of the contents, and we
-could make it so that it&apos;s just adding to the div with an append
-method, we could append to the div a new paragraph every second and a
-half, and that might be a better way of running the script. But I
-thought that it was interesting to point out that what&apos;s happening here
-is that every second and a half, our variable, the content is getting an
-extra paragraph in it. The first time it runs as one paragraph in it,
-the second time it runs, it&apos;s got two paragraphs in it. The third time
-it runs, it&apos;s got three paragraphs in it, and so on. Then each time
-setInterval runs, it&apos;s taking however many paragraphs are there and
-putting them inside the div using innerHTML. So it&apos;s an important way
-of understanding how this one works. In the next video, we&apos;ll take a
-look at the next example.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch4-03">4.03 Example Script #2 (2:55)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image074.png){width="4.0in"
-height="2.264957349081365in"}
-
-Let&apos;s take a look at example 2. In this example, the script is going to
-
-run exactly one time. Let&apos;s just see what it does. Let&apos;s just run it
-first. I&apos;m going to come over here and I change this to example2.html.
-When I refresh the page, we have a square in the page. After a certain
-amount of time, it resizes the square and changes its background color.
-That&apos;s it. That&apos;s all this one&apos;s going to do. If I refresh the page,
-it&apos;ll do it again. After certain amount of time, it resizes the page.
-Let&apos;s take a look at what&apos;s going on with this example. I&apos;m going to
-go over to my code examples here and turn on my explorer and get example
-2. Done with example 1. Down here I have a div with a class of one on
-it. That class is setting that div to be a 100 pixels tall by 100 pixels
-wide with the background color of red. Notice the transition is here on
-the classes. Transitional two seconds, transitional two seconds. Set
-timeout runs. It runs a function. Since we&apos;re running this function
+<h2 id="ch2-16">2.16 resetPagePosition Function</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 240. resetpageposition function (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image240.webp"
+  title="2.16 resetPagePosition Function"
+  alt="2.16 resetPagePosition Function."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+Our script is getting pretty long, and we&apos;re repeating ourselves in a
+few places.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 241/242. smoothscroll.js: load, resize (125) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image241.webp"
+  style="width:45%;"
+  title="smoothscroll.js: On load function"
+  alt="smoothscroll.js: On load function." />
+<img src="./images/image242.webp"
+  style="width:45%;"
+  title="smoothscroll.js: On resize function"
+  alt="smoothscroll.js: On resize function." />
+</p>
+
+What I&apos;m going to do here is make a new function. I&apos;m going to leave
+it inside the window on load function that we have up here at the top.
+We look up of this one here, window load function, which closes way down
+here. But I&apos;m going to put it after the window resize on resize
+function, so I&apos;m going to put it after here, in fact, I&apos;m going to get
+rid of a little bit of space there, and there we go. I&apos;m going to add
+in here a function resetPagePosition.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 243/244. doneresizing and resetpageposition (125) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image243.webp"
+  style="width:45%;"
+  title="doneResizeing (sp?), postTops, and pagePosition"
+  alt="doneResizeing (sp?), postTops, and pagePosition." />
+<img src="./images/image244.webp"
+  style="width:45%;"
+  title="doneResizeing (sp?), postTops, and pagePosition"
+  alt="doneResizeing (sp?), postTops, and pagePosition." />
+</p>
+I&apos;m going to put all of this stuff that comes inside this set time out
+here. The post tops, we&apos;ve done resizing and this function here, but
+post tops all the way down to this and selected thing here. The set time
+out function is going to end here, but all of the guts inside of there
+with post tops and everything, all of that, I&apos;m just going to cut and
+stick it inside this function instead. You might have to select it and
+shift to get it to line up for it.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 245. resetpageposition (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image245.webp"
+  title="resetPagePosition"
+  alt="resetPagePosition."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Now I have a function called <b>resetPageposition</b>, and I&apos;m going to
+run that function here, <b>resetPagePosition</b>. When my time out function
+runs, it&apos;s going to run <b>resetPagePosition</b>, this function here,
+which is all the stuff that we had in there. When we&apos;re done resizing,
+we&apos;re going to do all this stuff that we just wrote. That&apos;s cool.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 246. posttops and resetpageposition (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image246.webp"
+  title="postTops and resetPagePosition"
+  alt="postTops and resetPagePosition."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+But I&apos;m also going to run it up at the top of the page here,
+<b>resetPagePosition</b>, and then I can get rid of this thing. You comment
+this out, <b>console.log</b>, <b>postTops</b>. I&apos;m going to create my
+variable <b>postTops</b>, but then inside here I&apos;m going to adjust my
+<b>postTops</b> based on when the page loads. This function is going to run
+twice. It&apos;s going to run when the page loads and it&apos;s going to run any
+time you resize the screen.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 247. reset array posttops (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image247.webp"
+  title="Reset array postTops"
+  alt="Reset array postTops."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+When the page loads we want to do all of these things. We want to get
+it. We want to make sure postTops is emptied out, put the tops of all of
+our posts in there, and again, we&apos;re setting this again here to an
+empty array because we want to make sure it gets zeroed out right away.
+
+Then I want to put all of these things in here and then I want to set my
+page position to wherever I am on the page, set my calendar year, and
+figure out where I am on the page and the color that links the correct
+thing. That should all work. Now, if I go over here and test this after
+saving that. Hopefully, I did it right. &quot;Refresh. &quot; Notice second
+section, it should have maybe first section, second section, third
+section. We&apos;re searching. Now, if I refresh the page while I&apos;m down
+the page, No, it didn&apos;t work right there. Third section, second
+section, seems to be a little bit off. I don&apos;t know. Yeah, it seems to
+be working. I&apos;m up here at the top of the page if I click &quot;Refresh.&quot;
+I&apos;m at the top of the page. If I go down to the second option and click
+&quot;Refresh,&quot; the second section becomes highlighted. We go down to the
+third section and click &quot;Refresh.&quot;
+
+Now into the second section. It&apos;s on the cusp there, maybe that&apos;s why.
+Now, I&apos;m not sure why it&apos;s a little bit off. But it&apos;s pretty close.
+Again, this is an edge-case scenario, but it&apos;d be nice if it worked
+exactly right. If I resize my screen, it should, when I&apos;m done
+resizing, choose the correct section. Separate sections on the screen.
+It does seem to be mostly working. Section, refresh the page, that
+section got highlighted, so that&apos;s correct.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 248/249. reload index.html (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image248.webp"
+  style="width:45%;"
+  title="Reload index.html"
+  alt="Reload index.html." />
+<img src="./images/image249.webp"
+  style="width:45%;"
+  title="Reload index.html, again"
+  alt="Reload index.html, again." />
+</p>
+
+The last thing we could do here is on our Index page. Since it&apos;s being
+added programmatically, we don&apos;t need class selected here at all
+because that should get added automatically when the page loads. If I go
+back up here to the top and click &quot;Refresh,&quot; it&apos;s automatically
+adding that.
+
+My other script should work to where if I click on the next section that
+you go down to the correct section. You can see that it&apos;s slightly
+refreshing that, and the reason I think it&apos;s doing that is that it
+could be in some cases, actually reloading the page.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 250. function remove attributes when change sections (129) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image250.webp"
+  title="Add to function to remove/update attributes when change sections"
+  alt="Add to function to remove/update attributes when change sections."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+One way to keep that from happening is in our script up here at the top.
+The script here. I mean down here at the end, return false, and I&apos;ll
+make it so that it clicking these links. It&apos;ll perform the same thing
+as event prevent default, return false, or keep the registration of the
+click of these links and keep those hashtags from showing up in the
+address bar. If I do that and then come back here, if I remove this hash
+second, scroll up to the top of the page, click &quot;Enter,&quot; and then now
+if I click these, it should go to the correct thing. We&apos;re not getting
+the house up there. If I scroll down manually, it&apos;s highlighting the
+correct section. That&apos;s really great.
+
+This is a really good script that you could use for all kinds of things,
+and it might need a little bit of refining on that last bit that I
+showed you. But it&apos;s really pretty exciting. We&apos;re going to do one
+last lesson on this where we just look at the different pieces and
+review what we&apos;ve done.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-17">2.17 Reviewing the Whole Script</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 251. reviewing the whole script (2.17) (130) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image251.webp"
+  title="2.17 Reviewing the Whole Script"
+  alt="2.17 Reviewing the Whole Script."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+This is quite an extensive script. We&apos;ve done a lot here. I just want
+to go through it once quickly, to review what we&apos;ve done.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 252. smoothscroll.js - section tabs classes (130) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image252.webp"
+  title="smoothscroll.js - section tabs and classes"
+  alt="smoothscroll.js - section tabs and classes."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+We started with the smooth scroll script, which handles what happens
+when you click on one of the section tabs, and it gets the 'href' of
+that section, and then animates to that section on the page minus 200
+pixels, because we&apos;re starting on page 200 pixels from the top of the
+window. We&apos;re doing that using the ease in plug in, and then when
+we&apos;re done doing that, we want to remove all of the classes from all
+the anchor tags, and then put the correct one on the correct tag.
+
+Maybe we should actually even remove this part of the script, I think
+possibly because now we have the other part that&apos;s handling this.
+That&apos;s something to consider. But that&apos;s what that first part of that
+script does.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 253. smoothscroll.js - on load (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image253.webp"
+  title="smoothscroll.js - on load"
+  alt="smoothscroll.js - on load."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+The second part of the script, is handling when the page loads in all
+the images and everything loads. We&apos;re creating some variables, getting
+our sections, setting a counter, in a previous counter and that&apos;s
+doneResizing variable here as well as the postTops.
+
+Then we run resetPagePosition, and reset page position is looking at how
+far down the page each element is, that we&apos;re tracking and puts that
+into an array and then figures out how far down the page we&apos;re actually
+scrolled, and so on and so forth. Also, it will handle the situation for
+when it&apos;ll recalculate those things when we resize the screen but that
+happens later, so we set all that page position stuff.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 254. smoothscroll.js - identify section on scroll (132) ~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image254.webp"
+  title="smoothscroll.js - identify the section your in while scrolling"
+  alt="smoothscroll.js - identify the section your in while scrolling."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+The magic of the script is actually happening here. When you scroll the
+page we&apos;re capturing that scroll event, and as we scroll the page,
+we&apos;re checking to see if we go into each section. When we do we
+increment the counter. That counter only gets incremented when we go
+into the section, and we&apos;re watching for the change in that counter,
+because when that counter changes, when it&apos;s different from previous
+counter, then we can do something on the page, and that&apos;s pretty cool.
+
+Then we set previews counter to counter, and we&apos;re ready for the next
+change. This script is the heart of the whole thing in terms of figuring
+out everything that should happen there on the page.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 255. smoothscroll.js - on resize & cleartimeout (133) ~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image255.webp"
+  title="smoothscroll.js - on resize"
+  alt="smoothscroll.js - on resize."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Then finally, we have the 'window on resize', and we&apos;re using
+clearTimeout to keep the setTime out from happening until we&apos;re
+actually done resizing.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 256. smoothscroll.js - resetpageposition (133) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image256.webp"
+  title="smoothscroll.js - resetPagePosition"
+  alt="smoothscroll.js - resetPagePosition."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+It&apos;s clearing done resizing while we&apos;re resizing, and then as soon as
+we&apos;re done, it waits half a second, and runs this reset page position
+again, which we already talked about, which sets the tops of all of our
+pages, of all of our sections and figures out how far down the page we
+are and sets the styling for the links appropriately.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 257/258. smoothscroll.js - update class attributes (134) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image257.webp"
+  style="width:45%;"
+  title="Identify and comment out class attributes"
+  alt="Identify and comment out class attributes." />
+<img src="./images/image258.webp"
+  style="width:45%;"
+  title="Comment out class attributes"
+  alt="Comment out class attributes." />
+</p>
+
+The only thing I can think to do is maybe to remove these two pieces
+here. I&apos;m going to take those out just for a minute to see, if that
+makes our script function just slightly better. Now when we get to this
+function, then we could get rid of this callback function entirely if
+this works.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 259/260. test, smooth scroll section (134) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image259.webp"
+  style="width:45%;"
+  title="Test Smooth Scroll section"
+  alt="Test Smooth Scroll section." />
+<img src="./images/image260.webp"
+  style="width:45%;"
+  title="Test Smooth Scroll section"
+  alt="Test Smooth Scroll section." />
+</p>
+
+But let&apos;s see if this does what we wanted to do here, and then come
+back here to the top of the page, refresh the page, and now when I click
+second section, because the second section and because the other script
+is controlling. I&apos;m this far down the page, I have to highlight the
+correct script. The other script is actually handling the changing of
+the highlighting here, and I actually don&apos;t need that in the other
+script. I think the two are affecting each other a little bit, so now
+both scripts are working.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 261/262. comment out callback function (135) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image261.webp"
+  style="width:45%;"
+  title="Identify and comment out callback functions"
+  alt="Identify and comment out callback functions." />
+<img src="./images/image262.webp"
+  style="width:45%;"
+  title="Identify and comment out callback functions"
+  alt="Identify and comment out callback functions." />
+</p>
+
+You could come back here, and take out this callback function entirely
+all the way down to there, and have a slightly shorter script, assuming
+it didn&apos;t screw something up there. I think I did the right thing out
+of there. Let&apos;s just check. You can go to the third section, I can go
+to the site for a section, I can go through a section, and then I can
+also do it manually. It should work where if you refresh the page, it
+should highlight the correct section, although it seems that might need
+a little bit of work in some cases. Section 3, refresh. In Section 4,
+refresh. That seems to be working now. Section 5, refresh. Seems to be
+working. Great, so everything&apos;s working the way it&apos;s supposed to, and
+you have a script that you could use to create all interesting
+interactions as you scroll down the page, all done in JQuery. We&apos;ll do
+the same script, and play JavaScript.
+
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation"
+    target="_blank" rel="noopener noreferrer">
+	2.17 jQueryPage-Location-Tracking.pdf (download - 28 pgs).</a></li>
+</ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-18">2.18 Introduction to Scroll Effects with JS</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 263. intro to scroll effects with js (2.18) (136) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image263.webp"
+  title="2.18 Intro to Scroll Effects with JavaScript"
+  alt="2.18 Intro to Scroll Effects with JavaScript."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+<p>Scroll effects with Javascript in this lesson. We are going to do the
+same thing, that we just did with the previous lesson on school effects
+using jQuery.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 264/265. scroll effects with plain js (136) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image264.webp"
+  style="width:45%;"
+  title="Scroll Effects with JavaScript"
+  alt="Scroll Effects with JavaScript." />
+<img src="./images/image265.webp"
+  style="width:45%;"
+  title="Example scroll effects with javascript"
+  alt="Example scroll effects with javascript." />
+</p>
+
+Only this one, we are going to use plain JavaScript instead. And that
+will allow you to compare the syntax between jQuery and JavaScript and
+improve your JavaScript script skills. Also, this is a fairly
+complicated script. It is a little hard to wrap your head around. So,
+doing it twice will actually help you, and I think you will see that
+there&apos;s a lot of similarities between the JavaScript version, and the
+jQuery version.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 266/267. index.html and style.css (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image266.webp"
+  style="width:45%;"
+  title="Scroll Effects with JavaScript"
+  alt="Scroll Effects with JavaScript." />
+<img src="./images/image267.webp"
+  style="width:45%;"
+  title="Example scroll effects with javascript"
+  alt="Example scroll effects with javascript." />
+</p>
+
+The second thing I want you to notice is that, or to remember is that
+this header is fixed at the top of the page and the CSS. So, the content
+slides beneath it, and we have got some padding on the body here to push
+the content of the page down, and we can see that in the html over here
+in the CSS where the body has some padding on the top of 200 pixels, and
+the header is set to position fixed. Top zero with 100%. And, these
+things will make make it, so, that the header stays fixed up at the top
+of the page. But, the contents of the page is starting 200 pixels down
+here for the far Section one. So, that is important to remember. Okay,
+great, so with those basic pieces in mind we are ready to get started
+with our JavaScript, and the first thing we want to do is gather all of
+these links in our navigation.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 268. script.js navlinks add event listener (137) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image268.webp"
+  title="script.js navLinks, addEventListener"
+  alt="script.js navLinks, addEventListener."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+Come over to our script.js file, ignore this smooth scroll function for a
+moment. We will get to that in a while but come on over here, and then,
+we just need a variable constant. Now, navLinks is assigned documents,
+query selector all, and what do I want to get? I am going to get these
+links over here, nav ul l I a I want to get all of those anchor tags
+that are in there in the un ordered list, and side list items there. So,
+nab U L L I A. If you had other links on the page, inside of a
+navigation like this, you would have to give this knave an ID. And then,
+call it by D to make sure you are getting just these here. But that will
+get those and then we want to loop through them, and put a click handler
+on each one.
+
+And we could use a traditional for loop. We could do that, that would be
+fine, we could do that, I kind of like that for each method in
+JavaScript that we can use with arrays because nah Vilnyx is now an
+array of elements in array of anchor tags, so, I kind of like that
+better. So, I am going to just do knave links, .forEach like so,
+and, as always we want to type from the inside out,
+and so, that we understand exactly what we are doing here for each takes
+a function that is going to run each time that we for each one of these
+links. So, up here inside here, you need to pass in a variable, whoops,
+no quotes because it is a variable each like each think, and so as for
+each runs, its going to pass each one of these anchor tags into each
+link here, and I can just simply do each link, add event, listener, I am
+going to listen for a click, and then I am going to run a function
+think. So now, I could go ahead, and put my code right inside these
+curly braces here and run forward with that. But instead, what I want to
+do instead is I want to make a separate function function, smooth
+scroll, do, smooth scrolling, and the year I am going to pass in the
+event object and you event not prevent default, so you do not register
+the clicks on the links and this could be the word of and, or it could
+just be E or E V T a lot of times people will do that, E V T. 
+
+Thank you, so I am going to leave an event just because I think it is helpful, and
+that is a little bit more letters but it is just a variable. And then,
+up here instead of running this function, I am going to run smooth
+scroll here as a named function, and notice it does not get the
+parentheses up here. The parentheses do not go here because, this is
+just a pointer to this function down here. We do not want to actually
+run the function here. We want to put a pointer to this function here,
+and when you click it, if we put the parentheses there, then it will run
+right away, and not even wait for the click. So, we want to just put the
+pointer debt to this function down here, and let it run that way.
+
+<h3>Start Files: Smooth Scroll with JavaScript --</h3>
+
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript"
+    target="_blank" rel="noopener noreferrer">
+	2.18 Scroll-Effects-START.zip (download)</a></li>
+</ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-19">2.19 Getting the Target -- Part 1 (4:50)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 269. getting the target - part 1 (2.19) (139) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image269.webp"
+  title="2.19 Getting the Target - Part 1"
+  alt="2.19 Getting the Target - Part 1."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+Next, we want to get the href of the link that we clicked, the one that
+we clicked on, and we could use the this keyword, but in some cases,
+event.target is a little bit more direct and explicit.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 270. example, getting the target smoothscroll (139) ~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image270.webp"
+  title="Example, Getting the Target Smoothscroll"
+  alt="Example, Getting the Target Smoothscroll."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+So event.target get attribute href, we&apos;ll find out which link we
+clicked. And if we go back to our code over here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 271. match link with href # link (140) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image271.webp"
+  title="Match link with href pound link (#first - #fifth)"
+  alt="Match link with href pound link (#first - #fifth)."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+When you click on one of these links, first, second, third or fourth,
+you&apos;re getting this href pound first or pound second or pound third,
+pound forth and fifth. Which again match the IDs down here (bottom of
+code above) for our sections. So the idea is that if we can get this,
+then we can find out, okay, which section
+document.querySelector(targetID). So this is going to hold either pound
+first, pound, second, pound third, pound fourth or pound fifth. So in
+targetAnchor, I&apos;m going to get my targetID. Here I call the variable
+targetSection.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 272/273. targetanchor and targetsection (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image272.webp"
+  style="width:45%;"
+  title="Scroll Effects with JavaScript"
+  alt="Scroll Effects with JavaScript." />
+<img src="./images/image273.webp"
+  style="width:45%;"
+  title="Example Scroll Effects with JavaScript"
+  alt="Example Scroll Effects with JavaScript." />
+</p>
+
+TargetSection and it&apos;s going to go get that targetID. When you click on
+one of those, the event.target can only click on one link at a time,
+even though we put the event listener in all of them, you can only click
+one link at a time. Which one did you click get the href that goes with
+that one, put it in targetID and then we can go get that section and
+that&apos;s our targetSection there.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 274. getboundingclientrect().top, .bottom (141) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image274.webp"
+  title="getBoundingClientRect().top, .bottom, .left &amp; .right"
+  alt="getBoundingClientRect().top, .bottom, .left &amp; .right."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+To test this out let&apos;s run a console log here, console.log and pass
+into the console log as a statement that looks like this. So we&apos;re
+going to say **targetSection.getBoundingClientRect().top**. This method,
+**getBoundingClientRect**, we&apos;ll get me the shape of that box that section
+is in and .top will tell me what the top edges, .bottom would give me
+the bottom edge. We can get the left and we can get the right, but that
+will get me that kind of thing.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 275. test, inspect smooth scroller (141) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image275.webp"
+  title="Test, inspect smooth scroller"
+  alt="Test, inspect smooth scroller."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Let&apos;s actually save this and see if I&apos;m doing my job well over here by
+coming over here and inspect this. And when I click one of these
+sections, I should get in the console here, miss my console. There we
+go. When I click on one of these. Refreshments page, click on one of
+these, I&apos;m getting a number of pixels from the top of the screen that
+that item is, with all its decimal points. 200, getting these different
+positions here. And notice it&apos;s not going to that point on the page and
+that&apos;s because we have the event to prevent default in there.
+
+So now it&apos;s no longer going down to those sections, it&apos;s just
+registering out, how many pixels down the page those items are. So we
+have some links working where we can click on them and find out, how far
+down the page each of those sections are. We don&apos;t really need all the
+decimal points. All these places be on the decimal point, we can just
+round this down. So we&apos;ll do that in the next lesson and assign this
+value to a variable that we can actually use rather than just have it
+spit out in the console. Well, we&apos;ll do that in the next lesson.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-20">2.20 Getting the Target - Part 2 (5:15)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 276. getting the target - part 2 (2.20) (142) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image276.webp"
+  title="2.20 Getting the Target -- Part 2"
+  alt="2.20 Getting the Target -- Part 2."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 277. script.js - tops of sections when clicked (143) ~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image277.webp"
+  title="script.js - getBoundingClientRect when clicked"
+  alt="script.js - getBoundingClientRect when clicked."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+This statement is generating the tops of each section when I click on
+them, so I want assign that to a variable.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 278. script.js - section top - 200 px (143) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image278.webp"
+  title="script.js - get section top minus 200px"
+  alt="script.js - get section top minus 200px."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+So instead of console.log here, I&apos;m going to take that out, check out
+the path to see at the end and instead I&apos;m going to create a variable
+here, &apos;const original&apos;, you know, &apos;Top&apos; and assign it,
+&apos;target.Section&apos;, Bounding.Rect Top&apos;. Now, I really don&apos;t need it to
+have all of the decimal points that we&apos;re showing up on the page, so I
+can round that down here. I can put, <b>Math.floor</b>, parentheses and put
+the other parentheses over here and then really what I want is 200
+pixels down the page, so I&apos;m going to subtract 200 &apos;minus 200&apos;, just
+remember, that&apos;s my First Section, starts with 200 pixels down the
+page, so we really want our, when we see scroll, we want it to smooth
+scroll to this position, 200 pixels down, not all the way up at the top
+of the window, because that wouldn&apos;t really help us.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 279. test, script.js section position (144) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image279.webp"
+  title="script.js - get section top minus 200px"
+  alt="script.js - get section top minus 200px."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Now, that we have this variable value in this variable here, we can use
+it using the window &apos;Scroll by&apos; method. This is the method that&apos;s
+going to provide the smooth scrolling magic, and it takes as an argument
+an object, and again, we haven&apos;t really talked in depth about objects
+yet. You&apos;ve seen them a few times in the lesson where we talk about
+them in depth is coming up soon and probably ready for it now that
+you&apos;ve seen them a few times. But this object is going to take three
+parameters. It&apos;s going to take the top parameter, which is going to be
+our variable here, &apos;originalTop&apos;. That&apos;s to copy and paste, you
+don&apos;t spell it. That&apos;s one. It&apos;s going to take the &apos;left&apos; variable,
+the &apos;left&apos; property, which is just zero. We&apos;re not doing anything
+special with that, and then we have a &apos;behavior&apos; property, which is
+going to be set to &apos;smooth&apos;.
+
+If I see that and test it, I believe it will work before I try it, I&apos;m
+just going to &apos;console.log&apos;, &apos;originalTop&apos;, just so you can see
+what&apos;s in that variable, each time we click, one of these links should
+be what we saw before.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 280/281. test, smooth scroll and refresh (145) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image280.webp"
+  style="width:45%;"
+  title="Test, smooth scroll and refresh commands"
+  alt="Test, smooth scroll and refresh commands." />
+<img src="./images/image281.webp"
+  style="width:45%;"
+  title="Test, smooth scroll and refresh commands"
+  alt="Test, smooth scroll and refresh commands." />
+</p>
+
+Let&apos;s go ahead and test this. If I refresh my page, starting up stride
+up here at the top of the page, &apos;refresh&apos; and I click &apos;Second
+Section&apos;, you can see it does a smooth scroll down there and I&apos;m
+getting the number of pixels there. The First Section is working, too,
+so they can go to whichever section, and you can tell when I&apos;m going up
+the page, notice it&apos;s got a negative number. For how many pixels it&apos;s
+moved up for that &apos;four original top there&apos;. That&apos;s working great.
+
+You will notice a few things about the script, though. One is that
+we&apos;re not setting the amount of time like we could do with the jquery
+version, nor do we have an opportunity to set the easing. We could
+probably with a bit more work, we could make use of that. We could do
+that by using some &lbrack;inaudible&rbrack; animations to do this, instead of this
+method here with the scroll, the &apos;scrollBy&apos; method, we could probably
+do this in a different way. The other thing that&apos;s important to note is
+that not all browsers support this behavior &apos;smooth&apos;. Safari does not
+yet, so if I test this in Safari, here I am on the same page in Safari
+and I click on &apos;Third Section&apos;, it just pops to the 3rd Section, it&apos;s
+going to the right location. It&apos;s not going all the way up to the top
+of the window, but the behavior &apos;smooth&apos; is not working. That&apos;s a bit
+of a problem, and we&apos;ll talk about it more in the next lesson.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-21">2.21 Smooth Scroll Polyfill (4:45)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 282. smooth scroll polyfill (2.21) (146) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image282.webp"
+  title="2.21 Smooth Scroll Polyfill"
+  alt="2.21 Smooth Scroll Polyfill."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+In the last lesson (2.20), we noticed that the Smooth Scroll was working
+fine here in Chrome, but it&apos;s not working properly in Safari. What can
+we do about that? What we can do is we can use what&apos;s called a
+<b>Polyfill</b>. A <b>polyfill</b> is a term that was created by a developer
+named Remy Sharp.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 283/284. what is a polyfill? some examples (146) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image283.webp"
+  style="width:45%;"
+  title="What is a Polyfill?"
+  alt="What is a Polyfill?" />
+<img src="./images/image281.webp"
+  style="width:45%;"
+  title="Some Examples of Polyfill"
+  alt="Some Examples of Polyfill." />
+</p>
+
+If you go just google &apos;who invented <b>polyfill</b>?&apos; or &apos;where did the
+Polyfill name come from?&apos;, Remy Sharp has written on his blog, in 2010,
+an article about how he came up with the name <b>polyfill</b>. That&apos;s
+where it came from. But really, what a <b>polyfill</b> is, it&apos;s a shim or
+some piece of script that&apos;s made to help browsers that are not
+compliant yet with standards work and those browsers will use that extra
+script to make it work. These days, most of the browsers are pretty up
+to date in standards and there&apos;s very little need for <b>polyfills</b>,
+but it&apos;s a worthwhile concept to know about and it&apos;s worth figuring
+out how to use them.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 285/286. smooth scroll behavior polyfill (147) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image285.webp"
+  style="width:45%;"
+  title="Smooth Scroll behavior polyfill"
+  alt="Smooth Scroll behavior polyfill." />
+<img src="./images/image286.webp"
+  style="width:45%;"
+  title="window.scrollBy behavior smooth"
+  alt="window.scrollBy behavior smooth." />
+</p>
+
+As it turns out, somebody wrote a <b>polyfill</b> for this particular
+thing, and it&apos;s over here on GitHub. It&apos;s this &apos;iamdustan&apos;
+character, and GitHub wrote this smooth scroll polyfill. You could
+download this file here by clicking the download zip, here. I also have
+the same file already in the folder over here, so if you were to
+download that, it would be here. It&apos;s the same file here. I have this
+file in my folder, here. All we need to do is link to it. Here, on the
+page, at the bottom of the page, here, I want to link to that file,
+script src=&quot;smoothscroll.js&quot; that one there.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 287. src='smoothscroll.js' before script.js (147) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image287.webp"
+  title="Define and run smoothscroll.js before script.js"
+  alt="Define and run smoothscroll.js before script.js."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+There we go. I want to put it before my script, so it loads first. Just
+by plugging that in, it&apos;ll now work in Safari. If I go back and test
+Safari again, refresh this page, refresh button&apos;s over here in Safari,
+scroll to the top of the page, second section, now it&apos;s actually
+working in Safari, the same as it worked in Chrome. That&apos;s pretty cool.
+Understanding, sometimes, developers create these additional scripts
+that you can use and just get access to is really helpful. We&apos;ve now
+finished the smooth scroll part of the script, and it&apos;s working great,
+as you can see.
+
+The one thing we haven&apos;t done is made it so that the different links
+highlight as you click on the different sections. But that&apos;s going to
+get fixed when we do the next script and we make them highlight based on
+where down the page we are. We don&apos;t need to make them highlight when
+we&apos;re actually clicking on them because it&apos;ll do it automatically with
+the second part of the script.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 288. window scrollby behavior smooth (148) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image288.webp"
+  title="Window scrollby behavior smooth"
+  alt="Window scrollby behavior smooth."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+This is a really great little script. You can see that it&apos;s fairly
+short. It doesn&apos;t have all the features that the other one had and that
+we aren&apos;t setting &lbrack;inaudible&rbrack; and we aren&apos;t setting the amount of
+time for the actual animation, but you could do that if you wanted to
+work on it further. You could add some CSS animations and instead of
+using the scroll button method, you could actually hook in and apply
+those CSS properties as we go to those points in the page. You can do
+that on your own. For now, we&apos;re going to go forward and do the second
+part of this script, which is the part where when we scroll down the
+page manually, it changes the highlighting in the navigations. We&apos;ll
+again be working with scrolling and capturing the scrolling.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-22">2.22 Checking the Load (6:48)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 289. checking the load (2.22) (149) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image289.webp"
+  title="2.22 Checking the Load"
+  alt="2.22 Checking the Load."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+We have the script that does the smooth scroll, and now we&apos;re going to
+do the second part of the script, which again is going to take place
+inside of an event and it&apos;s going to make sure that all of the images
+and everything have loaded onto the page. The reason for that is we need
+to calculate the height of each section and the height of each section
+is going to depend on the images in that section. So if the images
+haven&apos;t loaded then the height will be different. We want to make sure
+everything&apos;s loaded before we actually start calculating things like
+the height of each section.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 290. window scrollby original top (149) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image290.webp"
+  title="Window scrollby original top"
+  alt="Window scrollby original top."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+This is exactly the same as what we did in the jQuery version, except
+the syntax just a little bit different. Because instead of using the
+jQuery object, we&apos;re going to put an event listener on the window at
+event listener and we&apos;re going to say,&quot; load.&quot; You&apos;re going to run a
+function like so. It doesn&apos;t look that different from jQuery at this
+point. It&apos;s fairly similar. Remember, in jQuery we would use the jQuery
+object to get the window and we&apos;d use the on method and we would check
+for load and then run function. A little bit shorter, a little bit more
+compact, but not really all that different. We&apos;re going to use this one
+down here with clean JavaScript window out of industry. Look. What are
+we going to put in there?
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 291. posts = queryselectorall 'section' (150) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image291.webp"
+  title="posts = document.querySelectorAll('section');"
+  alt="posts = document.querySelectorAll('section');"
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+We&apos;re going to put some variables. First, I&apos;m just going to paste
+these in, you&apos;re going to have to type up. I have a variable called
+post that goes into my document query selectAll and gets all the
+sections, because that&apos;s what I&apos;m going to be scrolling to, is the
+different sections of the page. I&apos;m going to put that into posts and
+then I&apos;ve got my arrayed four post tops and you already know what
+that&apos;s going to be. That&apos;s going to be used to hold the number of
+pixels down from the top of the page. Each section is page top, which is
+going to change as we scroll down the page. It&apos;s going to have a number
+that represents how far above the top of the viewport the pages. Then
+we&apos;ve got the counter in the previous counter and we&apos;ll use done
+resizing later for our script that deals with what happens if people are
+resizing their window. So we&apos;ll do that again as well.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 292.  (151) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image292.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Now, one thing you might notice here, is that the counter is being set
+to one, and the previous count is being set to one instead of zero.
+That&apos;s because on this script, we&apos;re going to have our sections
+indexed at one instead of indexed at zero. In the jQuery version, we use
+zero indexing because we use the E Q method, which uses zero indexing to
+change the properties on each of the navigation items. But here we&apos;re
+going to use a different method, so we don&apos;t need the zero indexing, we
+can index it once. The counter starts at one and the previous counter
+starts at one, and each section will be, the first section will be one
+and the second section will be two, third section three, fourth section
+four and fifth section 5. In some ways, that&apos;s actually a little bit
+easier. You don&apos;t have to deal with the zero indexing and the cognitive
+work that provides. But we&apos;ve got this here and we&apos;re ready to go
+forward with the next part.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 293/294.  (152) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image293.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+<img src="./images/image294.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+</p>
+
+Now, we use this method in the previous script, getBoundingClientRect at
+top. We use that to find the top of the particular element in the
+previous script and we&apos;re going to use that again. But let&apos;s cancel
+log it out, so when you cancel that log and surround that with
+parentheses. Really what I want to do, is I want to get posts. I want to
+get the first posts, so I&apos;m going to do posts square brackets, zero.get
+pounding Plan Recto. Let&apos;s come to log that out.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 295.  (152) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image295.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+If I go over here to my page and I turn on my inspector, you&apos;re going
+to switch it over and looking at my cancel, make sure you scroll up here
+at the top and then refresh the page. It&apos;s telling me minus 508 pixels,
+I think because it should be a 200. Cancel log posts zero. John and Joe
+cut out that last bit of going to the page and having it not work and
+pick it up from here.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 296/297.  (153) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image296.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+<img src="./images/image297.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+</p>
+
+When I go back to the Web page and refresh, you&apos;ll notice that I get a
+200 here, because I know that this first post starts 200 pixels down the
+page, so that&apos;s working. But notice if I scroll down the page a little
+bit and refresh, you get a minus 71 or minus 397. It&apos;s telling me where
+on the page that element is, but really what I want to know, I want to
+know exactly what the number is. I want that 200 to stay constant for
+that, because I want to know when the page loads how far down is the top
+of each of these sections. I don&apos;t want it to change. I&apos;m going to
+need to do something to adjust that number and fix that, and we&apos;ll take
+care of that in the next lesson.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-23">2.23 Top Posts (5:35)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 298. top posts (2.23) (153) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image298.webp"
+  title="2.23 Top Posts"
+  alt="2.23 Top Posts."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+In the last lesson, we saw that we could use the
+<b>getBoundingClientRect().top</b> to get the top of any particular element
+on the page. In this case, the first element, the first section, we&apos;re
+getting here posts, zero.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 299.  (154) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image299.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:45%;" />
+</p>
+
+But we don&apos;t want where it is anywhere on the page. We want to get the
+distance. It is from the top of the window, from when the page loads and
+have that be consistent. We can do that by adding to it
+<b>window.pageYOffset</b>. That&apos;s the amount of pixels the window has
+scrolled past the viewport, and by adding that back on there, we will
+always get 200 pixels. Let&apos;s go ahead and give that a try.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 300/301.  (154) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image300.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+<img src="./images/image301.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+</p>
+
+At the end here, we need to add plus window.pageYOffset. This one, not X
+but Y. It should be a plus window <b>pageYOffset</b>. Now, let&apos;s save that
+and then come over here. I&apos;m going to make sure I&apos;m scrolled up to the
+top of the window. Click, &quot;Refresh&quot; and you can see I get 200 there.
+If I scroll the page down and refresh again, you can see that I get 200
+there. I always get 200 for that first post.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 302.  (155) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image302.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Great. Now, that we&apos;ve got that, the next thing we need to do is round
+it down using our <b>Math.floor</b>, because some of these will generate a
+whole bunch of partial points past decimal point that we don&apos;t need. We
+can just round it down to the nearest pixel, and then put all of those
+into an array, just like we did in the previous script. We already have
+our <b>postTops</b> array created here. It&apos;s empty. But we can push into
+it our posts, and we can do that with the <b>forEach</b> method. Again, we
+can do <b>posts.forEach</b>. I really like this method because it&apos;s nice
+and clean and simple to read. It&apos;s a little bit shorter. You could use
+a for-loop, certainly. That would be fine to use a standard for-loop.
+But I like this method, so I&apos;m going to use it. I&apos;m going to pass in a
+function.
+
+Then remember, this function is going to pass in a variable post.
+Because this is a variable, you can call it whatever you want. I think
+post makes sense. Then in here, I&apos;m going to say, I&apos;m going to push
+<b>postTops.push</b>. What am I going to push here? I&apos;m going to push this
+whole thing, so I can copy and paste that in here. But not post zero. I
+just want my variable post, this variable here. Because it&apos;s going to
+go through each of these posts, and do each post. It&apos;s going to push
+the first post in, the second post in and so on. I&apos;ve made a little
+extra room here because I also need to put in here, <b>Math.floor()</b>,
+and the second parentheses will close here like so. <b>Math.floor</b> will
+take this, round it down and then it gets pushed into postTops.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 303.  (156) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image303.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Then, of course, we want to cancel log out postTops just to see what the
+heck is going on. We don&apos;t need this one anymore. In fact, I&apos;m just
+going to cut that from there. Stick it down here and change this to
+postTops. Now, we should be able to see when we go back to our page over
 here.
 
-What this function is doing is it&apos;s setting the class attribute to two,
-but it&apos;s not doing it for 2,000 milliseconds for two seconds. As soon
-as this class gets attached to it, then this class becomes active. The
-animation happens in the size and all that in the background color,
-everything gets transitioned. That&apos;s pretty neat. Again, I&apos;m going to
-come over here, I&apos;m going to run it. It doesn&apos;t seem very exciting.
-But when you think about what&apos;s going on here, it really is pretty cool
-in that CSS is handling all of the animation. That makes it nice and
-smooth and work really nicely, first of all. Second of all, one thing
-that&apos;s really nice is that you can use JavaScript to add a class or
-change a class on an element and when it gets that class, it then
-applies all of the and declarations or rules within that class, within
-what you&apos;ve assigned to that element. That&apos;s really pretty cool
-because it means you could have elements on your web-page and then after
-a certain amount of time or when a user does something, you can apply a
-class to it and change that element based on the styling associated with
-that class. It could have an animation in there and that&apos;s really
-pretty cool.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch4-04">4.04 Example Script #3: Recursion (5:25)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image075.png){width="4.0in"
-height="2.264957349081365in"}
-
-Next, let&apos;s take a look at example three, which uses recursion. As I
-said before, set timeout runs only one time. But when you use it in a
-recursive fashion, you can get it to repeat and this can be very
-powerful technique in JavaScript. Let&apos;s go take a look at the actual
-example file and see what happens when we run it. If I come in here and
-change this example two to example three and run it here. You&apos;ll notice
-it waits a certain amount of time and then it starts this pulsating div
-that&apos;s set to a circle, the different background color here. This
-circle is getting larger and smaller as the script runs that&apos;s pretty
-cool. Let&apos;s go take a look at the JavaScript that makes this work. If I
-come back here, I can close example two and look at example three. You
-can see again I have a div with the class of one on it. Down here, I&apos;ve
-got, get element the div, I&apos;ve got a variable called current class,
-which is set to one. Then I&apos;ve got a function called &apos;&apos;Class
-rotator&apos;&apos; and this function class rotator, checks to see if the
-current class is the same as one. I&apos;m going to set timeout and I&apos;m
-going to run a function that&apos;s going to run after two seconds. In this
-function, I&apos;m going to take the div and set the class name to two. Then
-I&apos;m going to set current class up here to two. If it&apos;s set to one, set
-it to two. If it&apos;s not set to one, then it must be two in which case I
-should set it to one and set current class to one and run it over two
-seconds. But notice that this function is running class rotator.
-Recursive function is a function that calls itself and this is an
-example of a function that calls itself. It calls itself here, and it
-calls itself here. To kick off that function entirely, we have to run it
-once down here. When the page loads, it runs this once, but then when it
-runs itself, it either runs itself again here or it runs itself again
-here, depending on what&apos;s going on with the if statement and the set
-timeout. Now, recursion is a very powerful thing and it&apos;s easy with
-recursion to get confused or to do something that will cause your script
-to run out of memory and to run crazy and wild. For example, if I took
-class rotator here and just stuck it outside of the set timeout, it
-would run very quickly and it would keep running itself and then it
-would start to get stacked up and eventually you&apos;d run out of memory.
-You&apos;d get a heap overflow error showing that basically JavaScript has
-run out of memory. That can happen very easily when you&apos;re working with
-recursive scripts but when handled properly, recursion can be a very
-powerful feature. Not only that, it can be the preferred way of actually
-working with data and working with set timeout or set interval. If, for
-example, you&apos;re going out to the world and getting a piece of data from
-somewhere and then doing something when it comes back. Usually recursion
-is the better way to go because you can wait until it&apos;s come back
-before you try to do something with it. Whereas if you use set interval,
-then you&apos;re more likely to try to do something before you get your data
-back. Set interval will run every x amount of seconds. set timeout will
-wait at least two seconds, but maybe longer, depending on where
-something is in the stack of things to run with JavaScript. We will get
-more into the event loop in JavaScript and talk more about how that
-works and why it is like that in a later lesson. But for right now, I
-just want you to bask in the glory of looking at what happens with this.
-Because I think it&apos;s really interesting, I&apos;ve got two classes and this
-function is calling itself, but it&apos;s only calling itself after two
-seconds is lapsed, either here or here. That gives us this very
-interesting pulsating, creepy circle that feels like it&apos;s breathing on
-our web page and you can do more stuff with that if you wanted to. With
-these techniques, we can do a lot of really interesting things. You
-could do interesting things with games, you could do interesting things
-with other types of scripts where you want them to run automatically on
-some timer.
-
-### 4.04.JavaScript-Timers-and-Recursion.pdf
-
-https://www.coursera.org/learn/animation-javascript-jquery/supplement/aBaZP/pdf-of-presentation
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch4-05">4.05 Converting a Slider (2:55)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image076.png){width="4.0in"
-height="2.264957349081365in"}
-
-Spiders on a timer. Putting slides on a timer. In this lesson, we&apos;ll
-convert one of the slide shows that we did in the previous module, so
-that it runs on a timer without having to click the Next and Previous
-buttons so that it runs automatically and you could pick any of the
-three that we did in the previous lesson, or if you figured out how to
-take the JavaScript only one and make it run on a never ending loop. You
-could use that one, you could use any of them. So I&apos;m going to use this
-slider here that loops around and goes in any direction this way. But
-I&apos;m going to make this one run on a timer. Now, before you follow my
-lesson and follow these videos showing you how to do it, I strongly
-encourage you to try to do it for yourself. It&apos;s not that hard and see
-if you can actually figure it out. So if you can get, one of your
-sliders to work on a timer. To do that, get rid of the buttons, delete
-the buttons off the screen. You can delete the CSS that has to do with
-the buttons off the files, and then modify the script that&apos;s using set
-interval or set timeout using recursion, either one of them, you can
-make it work either way. So Use one of those two methods and see if you
-can create your slider so that it works. As an added challenge, make it
-so that when the user hovers their mouse over the slides, the slider
-stops. It stops doing its automatic moving forward of the slides and
-then when they move their mouse off of it, it starts again. That&apos;s a
-fun challenge and it&apos;s also happens to be a fairly useful interface
-technique because if you have a slider on a web page, it&apos;s very
-possible that if you&apos;ve got content or things in the slides that you
-want people to look at or read or do something with, its annoying when
-the slide just automatically changes before you&apos;re done. So It&apos;s nice
-if while your mouse is hovering over that element that it pauses the
-slider and then when you roll your mouse off, the timer can kick back in
-and it&apos;ll continue with the slides. See if you can do that on your own
-and if you get stuck or you want to see my solution, continue on with
-this presentation and with these videos.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch4-06">4.06 Putting Slides on a Timer Solution -- Part 1 (5:57)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image077.png){width="4.0in"
-height="2.264957349081365in"}
-
-Hopefully you are successful at creating your slider on a timer and were
-able to do that on your own. But if you weren&apos;t or if you want to see
-how I did it, I&apos;ll show you how I did it here. To start with, I&apos;m
-going to go into my files and I&apos;m going to remove this paragraph at the
-bottom as the previous and next buttons because we don&apos;t really need
-those anymore. I&apos;m just going to come in here to my files here and go
-down and remove that there. Also, I might as well go over to my styles
-and remove the styles that have to do the links because I&apos;m not going
-to use them anymore. I just think it&apos;s a good idea to remove
-unnecessary code if you&apos;re not using it, you don&apos;t really have to,
-it&apos;s not going to hurt anything if you leave it there, but I just think
-it&apos;s a good idea. Now our slides will not have buttons attached to
-them, it&apos;s just going to be an empty slider, so we don&apos;t have a thing
-that we can click on. The next thing we need to do is remove the click
-handlers. For the next click handler, I&apos;m just going to remove the
-first line here and the last line of the click handler, and leave the
-guts. For the previous click handler, we can just remove it entirely.
-Let&apos;s go over here and do that next. Done with this file, we can go
-into our script and I&apos;m going to remove this line for my next click
-handler and the closing one down here. Then I don&apos;t need the previous
-one at all so I can just get rid of all of this down to here, actually
-down to that one there, I think. This is closing or window on event
-handler for when the page loads, so we want to keep that. Now I&apos;m left
-with just the guts of my next link tenure, I&apos;ve got just the guts of
-that there. The next thing I need to do here is create my function that
-will create my setInterval, I&apos;m going to use setInterval for this, but
-you could also use setTimeout with recursion if you wanted to, but I&apos;m
-going to use setInterval here. I&apos;m going to go ahead and add my
-setInterval method and pass in the anonymous function and set it to
-3,000 milliseconds, three seconds. It seems long enough for slides.
-Let&apos;s go ahead and put that in. I&apos;m just going to put it here,
-setInterval like that. I pass in a function and then I&apos;m going to say
-over 3,000 milliseconds and that will run.
-
-Then all I need to do is I need to stick the guts of this stuff inside
-here. If I move that down and then come in take all of this stuff, down
-to here, cut it and stick it in there, that will just work. Now
-setInterval is going to run this function and it&apos;s going to do the
-counter, and then it&apos;s going to check my if statements, and it&apos;s going
-to do this every three seconds so that it will move the slides forward
-every three seconds. When it gets to the end of this slide deck, it&apos;ll
-wrap around to the beginning. Let&apos;s test it. Have to wait three seconds
-for the first one to go and there it goes. Here we are in the last slide
-and a shared wraparound to the first slide. If you inspect and look at
-the body here, look in the slider, you&apos;ll see the unordered list is
-moving along and changing its position here. When it gets to the end,
-you&apos;ll see the new one gets added in, moved into place, and then the
-old one gets taken out right there, so that&apos;s working perfectly. Great,
-we&apos;ve got that. Now, think about what you could do to make it work so
-that if you hover over this, it will stop sliding the slides while
-you&apos;re hovering your mouse over the slider. That&apos;s your next
-challenge.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch4-07">4.07 Putting Slides on a Timer Solution -- Part 2 (7:22)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image078.png){width="4.0in"
-height="2.264957349081365in"}
-
-Did you successfully complete the challenge? Remember again, the
-challenge was to make it so that when the mouse hovers over the slider,
-the slider stops. Let&apos;s see if we can actually make that work. What
-I&apos;m going to do here is currently I have set interval running this
-anonymous function and it runs it over 3 thousand seconds. What I&apos;m
-going to do instead is I&apos;m going to make a function down here, function
-called, Slider. I&apos;m going to put the guts of this anonymous function,
-this one here, inside of that function instead. I&apos;m going to take all
-of this stuff that I had moved into there, all the way down to here.
-I&apos;m going to cut it. Now we&apos;re back to just set interval with the
-anonymous function in it and comma 3 thousand back to where we were
-before. I&apos;m going to put all that stuff in here instead, inside of this
-function here. I&apos;ve got my counter and all of this stuff inside here.
-Then here I&apos;m going to say run slider, and this is a reference to my
-function slider. Do not put the parenthesis in here, If you put the
-parentheses in here it won&apos;t wait 3 thousand seconds, it&apos;ll just go
-right away. We want to wait 3 thousand seconds and then run Slider, so
-then it&apos;s going to go find the function Slider and run. That should
-work in terms of exactly the same thing that we had before. This should
-just run. Let&apos;s just test that really quickly, if I come over here and
-refresh the screen, it should wait three seconds and then start running
-the slider, and that works the same way it did before. The difference
-now is that I can now set my set interval here. I can assign that to a
-variable. I could put, &quot;let my slider equal set Interval slider.&quot; Then
-I can actually create an eventListener that will do something when the
-mouse hovers over it. I&apos;m going to make an eventListener for when you
-hover over this element on my page here, when you hover over the slider
-here. Down here I&apos;m going to do document dot getElementByID, Slider,
-dot addEventListener, and when the addEventListener runs. I&apos;m going to
-be looking for mouse over, when you mouse over. I&apos;m looking for that
-event, and then I&apos;m going to run a function. What&apos;s an extra set of
-curly braces? again,I keep doing that, I&apos;m going to run a function
-there when you mouse over that element, the Slider. What function am I
-going to run in here? Well, I&apos;m going to say, clear interval, mySlider,
-and that will stop it from running. That&apos;s great, that stops it. I
-hope, let&apos;s test it. If I refresh this and then stick my mouse over
-there, it should stop the Slider, it should not run anymore. Now I&apos;ve
-cleared my interval and it&apos;s not going to advance the slides. Now I
-need one that will actually advance the slides when I roll off. Coming
-back here, I can actually copy this. Get interval, slider
-addEventLstener, mouse out. I&apos;m going to run a function, and what am I
-going to run? I&apos;m going to say Slider. I&apos;m going to just do this
-again, so I can actually just copy that. This is why I used Let up there
-instead of constants because a reassigning this variable. In order to
-reassign it, I need to be able to set it to Let up there. Now if I set
-that to set interval slider, when I mouse out, sliders now going to have
-set interval on it again and that should run. Let&apos;s test that and see.
-Come back here and refresh it, now if I wait three seconds, mySlider
-should start going, and it does. If I roll over this slider, it should
-stop. Now set interval has been cleared and it&apos;s no longer advancing
-the slides. But then if I roll off of it and wait three seconds, it
-should start back up again. Look at that, it&apos;s working perfectly.
-Hopefully you were able to solve those two challenges. If not, I
-recommend going through this a few times, do it on your own a few times.
-Create your own Slider, or create your own script where you can play
-around with set interval and set timeout. Another thing to try is I&apos;m
-using set interval here, but could you do the same thing with recursion
-and set timeout instead? That would be an interesting thing to try to
-do. The best way to learn JavaScript is to keep practicing with it and
-to keep challenging yourself by making small experiments, taking a small
-script that you have, and then extend on it and see if you can make it
-do a little bit more. What else could you do? Could you make it so that
-it has the buttons for advancing the slides manually, but it goes
-automatically when you&apos;re not using the buttons. But then when you do
-use the buttons, it moves it manually. That would be an interesting
-modification to the script. Maybe you can come up with other ideas and
-other things that you could do.
-
-### 4.07.Slider-on-a-Timer.pdf
-
-### <https://www.coursera.org/learn/animation-javascript-jquery/supplement/CLVGu/pdf-of-presentation> 
-
-### 4.07.Rotator-START.zip
-
-### <https://www.coursera.org/learn/animation-javascript-jquery/supplement/ZnbZ4/start-files-recursive-content-rotator> 
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch4-08">4.08 Project Set-up (6:51)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image079.png){width="4.0in"
-height="2.264957349081365in"}
-
-In this project we&apos;ll look at creating a content rotator and we&apos;ll use
-jQuery, and we&apos;ll use timers and recursion. This is a fun project, I
-hope you enjoy it. The finished version of the project will give you a
-quote that rotates around two different quotes after a period of time.
-And this is potentially very useful you could put this on a website to
-rotate customer testimonials and or that kind of thing. In fact I came
-up with this script, I wrote this script myself because a client needed
-on his website to to make something that rotated testimonials and this
-is way back in the early 2010s. So a lot of these scripts hadn&apos;t been
-written were easily accessible at that point, so I had to write one
-myself. It was kind of fun to do, I really enjoyed putting the script
-together. The website I was building for him was in WordPress and I
-wanted something super simple that he could just put in paragraphs and
-they would just automatically get rotated around and make it easy that
-way. And this script really did the trick, so that was kind of a fun,
-simple little project. And it generates a project that you could use for
-lots of websites, so let&apos;s take a look at how this is set up so we can
-actually work with it. The project setup is really simple, we have a
-page with a div with four quotes in it and you could add quotes or
-remove quotes and put in more if you wanted to. And basically &lbrack;COUGH&rbrack;
-the quotes will all get set so that they&apos;re hidden so that the div is
-empty to begin with. Then the first paragraph fades in over two seconds,
-it stays on the screen for seven seconds so you can read it and then it
-fades out over two seconds. Then the next paragraph fades in, waits
-seven seconds and then fades out. After the last paragraph fades out we
-want to go back and fade in the first paragraph and repeat the process
-indefinitely, so this is a really great job for recursion. We&apos;ll also
-be making use of the jQuery affects library a little bit along with some
-of the other features we&apos;ve talked about in this course. So I hope you
-have fun with it and end up with a script that you could use for
-something, it&apos;s pretty fun. To start with recursion can be hard to wrap
-your head around, it can be really hard to think about while you&apos;re
-trying to puzzle it out and make it all work. So I have here this
-diagram that can help us sort of simplify it and think about exactly how
-this is going to work. So when the script starts it&apos;s going to set a
-counter to one and then it&apos;s going to run a function called content
-rotator. And then on the right here I have that function content rotator
-and it starts, it fades in the first paragraph or it fades in paragraph
-that matches the counter number to begin with it&apos;s counter number one.
-And then it asks, is it the last paragraph on the page? If it is then
-we&apos;re going to wait seven seconds, fade the paragraph out and set the
-counter back to one. If it&apos;s not then we&apos;re going to wait seven
-seconds fade the paragraph counter out and then increment the counter.
-And then we run this function again, we run content rotator again and
-that&apos;s where the recursion comes in. So this function is going to call
-itself and we&apos;ll be using a set time out. So can you spot here where
-set time out happens? We&apos;re going to fade the paragraph in and then
-we&apos;re going to wait seven seconds, so there&apos;s a set time out where we
-wait for seven seconds and then we&apos;re going to fade the paragraph out.
-So that&apos;s where the set time out will go, is when we&apos;re waiting seven
-seconds. Let&apos;s get started on the script, the first thing to note on
-this script and I have my files open here in Visual Studio Code here.
-And the first thing to note is that in the CSS I have all the paragraphs
-inside my container, so here&apos;s my div id container, they&apos;re all set to
-display none. Now, when you look at this it might look a little bit
-weird because of these things here, but this is just an html entity
-that&apos;s creating a curly quote. So that&apos;s the left double quote and
-then this one over here creates the right double quote and then this one
-in here creates an mdash. In design typography is very important and
-rather than just, I could just put the straight up and down quotes but
-those don&apos;t look as good. And since I want this to look a little bit
-nicer, I&apos;m putting in the curly quotes and the mdash, which is the
-longer dash rather than the end dash or the hyphen. And if you take a
-typography course at some point you&apos;ll learn all about these different
-glyphs that we can use when we&apos;re creating content. The quote button on
-the American keyboard anyway, can really represents six different
-possible characters. There&apos;s the straight up and down, double quote,
-the left curly quote, the right curly quote and then the same thing for
-the single quotes. There&apos;s a straight up and down single quote, left,
-single curly quote and right single curly quotes, that&apos;s six characters
-in one key. And other languages may have other characters associated
-with that as well but for English it&apos;s actually six characters. Okay,
-so we&apos;ve got that all set up, we have our jQuery library loaded down
-here and we have a script a rotator.js and that&apos;s where we&apos;re going to
-do our work over here is on the rotator.js. We&apos;ve got our IIFE, our
-immediately invoked function expression set up to keep everything out of
-the global scope and we&apos;ve got our use strict directive in there. Okay,
-we&apos;re all set and ready to start working on our script.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch4-09">4.09 Starting the Script (4:56)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image080.png){width="4.0in"
-height="2.264957349081365in"}
-
-Here we go to write our script and get our content rotator to work.
-First thing I need is a variable. Let counter and I&apos;m going to sign the
-value of one and then I&apos;m going to make a function called content
-rotator. Like so and we&apos;ll do stuff in here, do stuff and then I&apos;m
-going to call that function content rotator to get it started, and make
-it work. There we go. So this will get us started with our function and
-our counter are variable ,and we&apos;ll get our file all set up, and ready
-to go properly here. Our next job is to get our first paragraph and
-faded in. We&apos;ll use our counter to do that. And the CSS and child
-filter to allow us to get the first paragraph because remember currently
-all the paragraphs are set to display none. So we can use our J query
-object to go get that first paragraph and faded in. So let&apos;s do that.
-So down your inside content rotator. Here. We want to do we want to use
-rj Query object to go get I&apos;m going to use my tick marks to say pound
-container, P and child parentheses. Now, if I were to put a one in here
-that would go get the first paragraph. If I were to get a two, that
-would get second paragraph, that would get a third paragraph. So on and
-so forth, you might wonder why didn&apos;t start my counter with zero. And
-frequently we do when we&apos;re working with a raise because the first
-element in the array zero indexed.
-
-But the 10th child pseudo selector is actually indexed with one. So one
-will get me my first my first paragraph, but I don&apos;t want to put a one
-in there. I want to put the variable counter so I can do my template
-literal like so and put the word counter. And that will go get counter
-which is a one in this case the first time this runs. So that goes and
-gets that first paragraph and gets it in there and then we can do fade
-in 2,000 because remember this is RJ. Query this is RJ. Query effects
-library here. So we can actually feed in that first paragraph there.
-Save that and I&apos;m going to come over, and give it a try over here.
-Oops, that&apos;s not what I meant to do. Who can this file here? When I
-open it it fades the paragraph in great. So that&apos;s working perfectly so
-far. Now that I have faded the paragraph in. I need to wait seven
-seconds and this is going to happen after the two second fade in.
-Remember with J query we have a callback function that we can use with
-our fate in helper method that will allow us to do something after it
-has faded in. So after that animation has run, we want to run that
-callback function. So feed in comma function. We want to run this
-function after the phaeton is complete, and that&apos;s where we&apos;re going
-to put the rest of our script is going to go between these two curly
-braces here. Everything else we do is going to go inside this callback
-function. So after we faded in, we&apos;re going to run a function and that
-function will set it to wait seven seconds, and then check to see if
-we&apos;re on the last paragraph or not.
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch4-10">4.10 The If/Else Statement -- Part 1 (6:20)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 81. the if/else statement - part 1 (4.1) (xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image081.png?raw=true"
-  style="width:40%"
-  title="4.10 The Else/If Statement, Part 1"
-  alt="4.10 The Else/If Statement, Part 1." />
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 304.  (156) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image304.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
-Now that we&apos;ve faded in the first paragraph, and after that two second
-fadeIn has taken place, we&apos;re going to run a callback function. Inside
-that callback function, we&apos;re going to check to see if this is the last
-paragraph or not. Let&apos;s get that if statement in place, and then we&apos;ll
-go forward from there. If fade that in, now we&apos;re going to do an if, if
-parentheses, and we&apos;ll do something in there, and then we&apos;ve got an
-else, we will do something in there. Do something else. Now, what am I
-checking? I&apos;m going to use my jQuery object, and the this keyword, this
-paragraph. Is a jQuery function that will return true or false, if
-something in there is true. If this is, and then I&apos;m going to say, if
-this is in here, and I can&apos;t remember, do I need to go and jQuery
-object for this? I don&apos;t think I do. I think I can just put
-&quot;#container p: last-child.&quot; Is it the last one? Is it the last
-paragraph? I think I&apos;ve done that right. We&apos;ll test it in a minute
-here. But it looks I&apos;ve got that right. If it&apos;s the last child, we&apos;re
-going to do something, and then if it&apos;s not, we&apos;re going to do
-something else. What we&apos;re going to do is wait seven seconds and then
-run the contentRotator again, or reset, anad also increment the counter,
-or reset the counter. Let&apos;s go back over to our slides here. We&apos;re
-going to wait seven seconds, fade the paragraph out, set the counter
-back to one, and run contentRotator again, if we&apos;re on the last
-paragraph, if we&apos;re not, we&apos;re going to wait seven seconds, fade the
-paragraph out, increment the counter and run contentRotator again. The
-only real difference between these two is what happens with the counter.
-Hopefully that makes sense. Also, you&apos;ll see here where the recursion
-is taking place. Let&apos;s work with the else statement first, because I
-think that one&apos;s a little bit easier. Let&apos;s have the setTimeout
-function in there, and then we&apos;ll go forward with that. Down here,
-we&apos;re going to say, setTimeout, and that&apos;s going to run a function
-after seven seconds, and I like to put a little extra space in here just
-to make it so it&apos;s really clear what&apos;s going on there. We&apos;re going to
-run a function after seven seconds. Then we&apos;re going to put the next
-piece inside here. What we&apos;re going to do is after seven seconds,
-we&apos;re going to take this same thing here, and just copy that. Come down
-here and paste it. We&apos;re going to take that same thing, and we&apos;re
-going to run fadeOut over two seconds, and that will fade that paragraph
-out after seven seconds. Now, when the contentRotator starts, it checks
-to see if it&apos;s the last child, if it&apos;s not, it&apos;s going to wait seven
-seconds, after those seven seconds are over, it&apos;s going to fade that
-thing out, over two seconds. When it&apos;s done fading out, we need another
-callback function. I&apos;m going to stick another function in here like so.
-It gets confusing, because when we have a callback inside of a callback,
-now, sometimes this is referred to as callback hell. But this is the way
-we need to get this thing to work well. We actually have a callback
-inside of callback inside of a callback. We&apos;re doing all of these
-layers of callbacks here, because we&apos;re feeding in, we&apos;re waiting
-seven seconds, we&apos;re fading out, we&apos;re doing three things, so we need
-to let those three things stack up there. Now in here what we&apos;re going
-to do is increment the counter, counter++, and run contentRotator again.
-ContentRotator runs itself with the counter is set to two, it&apos;ll check
-to see if it&apos;s the last child, if it&apos;s not, it&apos;ll do this, it&apos;ll
-increment the counter, and it&apos;ll do it again, and it&apos;ll keep going
-around. Great. We&apos;ll finish out this part up here in the next video.
-
+If I refresh, I&apos;m getting the same numbers that I got before in the
+jQuery version. This is the exact same thing I&apos;m getting of the top of
+my posts. Hopefully, this is starting to feel a little bit familiar. It
+really helps with the script, because it&apos;s confusing. Capturing and the
+scroll of it is confusing. It helps to do it a couple of times. Here
+we&apos;re doing it with plain JavaScript instead. But really, all the steps
+are the same, and it&apos;s the same process. It&apos;s just the syntax, that&apos;s
+a little bit different.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch4-11">4.11 The Else/If Statement -- Part 2 (5:49)</h2>
+<h2 id="ch2-24">2.24 Add an Event Listener (5:42)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 82. the else/if statement -- part 2 (4.11) (xx) ~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image082.png?raw=true"
-  style="width:40%"
-  title="4.11 The Else/If Statement, Part 2"
-  alt="4.11 The Else/If Statement, Part 2." />
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 305. add an event listener (2.24) (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image305.webp"
+  title="2.24 Add an Event Listener"
+  alt="2.24 Add an Event Listener."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
-In the last video, we set our setTimeout to wait seven seconds and then
-fade out the paragraph that&apos;s in there over two seconds and when
-that&apos;s done, increment the counter and run content rotator again. Now
-we just have to handle the case of what happens if we&apos;re on the last
-paragraph. If we&apos;re on the last paragraph, we want to do pretty much
-the same thing and I could just copy and paste this and stick it in here
-and make minor changes. Since it&apos;s so important to understand this,
-I&apos;m actually going to type it again, so in here I&apos;m going to add
-setTimeout again and setTimeout runs a function over a certain amount of
-time, in this case, seven seconds, like so. It&apos;s going to run this
-function over seven seconds. It&apos;s going to wait seven seconds before it
-does this function. In here and this part I will copy and paste just to
-make sure I get it right. Just this piece here. I&apos;m going to say, okay,
-go into my container and get that p: nth-child counter, which in this
-case it&apos;s the last one. In this case, it should be counter should be
-four if it&apos;s our last child on her thing with four paragraphs in here.
-Get that one and then I&apos;m going to do fade out over two seconds, 2,000.
-When those two seconds are over, I&apos;m going to run another callback
-function. Again, I have to wait until those two seconds are over before
-I can do this, and here the one thing that&apos;s different from what I did
-below is the counter gets set to one, so I&apos;m setting it back to my
-first paragraph. Then I&apos;ll run content rotator again and now content
-rotator will run another time, but now with the paragraph set to one, so
-that should all work if we did all this right. Let&apos;s go over and test
-it out. If I come back to my page over here and click &quot;Refresh&quot;, you
-can see that it fades in the first paragraph of over two seconds. Then
-it&apos;s going to wait for seven seconds because it takes you seven seconds
-to read that sentence and then it&apos;ll fade it out and fade in the next
-one, and then it will fade that one out, and fade in the next one. That
-one&apos;s on the screen for seven seconds. If you wanted to test this a
-little bit faster, you can change the 7,000 to say 3,000 or something
-like that and it would run a little bit faster just to test it. I really
-want to let it sit there for seven seconds. That&apos;s enough time to
-really read these things and then it comes back to the first one and
-it&apos;s going back around and around and around and this will just
-continue forever. In summary, hopefully through this project, you saw
-that you can use callback functions, timers, and recursions to make
-something like this content rotator work without a tremendous amount of
-code, especially in combination with jQuery and the built-in effects
-library, like the fade in and fade out. Although it would be interesting
-to make the same script work without jQuery, that would be a good
-challenge for you. See if you can do that or what else could you make
-work with this script? The script is fading content in and out and
-we&apos;re right now we&apos;re fading in and out paragraphs on our HTML here,
-but it really could be anything, and I could add paragraphs. That&apos;s
-another thing is that this will handle an unlimited number of
-paragraphs. I could just keep adding paragraphs in here in the script
-tool, just work, that&apos;s kind of nice, but what if it wasn&apos;t
-paragraphs, whatever it was, pictures or block quotes or other types of
-content that got rotated in and out. You could rotate anything and
-you&apos;ll see how you would need to modify the script to make that work.
-Other things that are exciting about recursion in general. Or yeah, the
-way recursion works is that you could make a recursive function that
-takes parameters and you could run that recursive function passing in
-different parameters each time it runs. That makes recursion very
-interesting and very different than just a simple loop, because you
-could run the same program, but the program could do something different
-each time that it runs and that&apos;s very interesting to think about.
-Think about what you can do with that. There&apos;s a lot of really fun
-projects you could make where using recursion, where after a certain
-amount of time, the function runs itself again, but with a different set
-of parameters. You could even use the random function to pass in random
-parameters so that you don&apos;t know what you&apos;re going to get each time
-the function runs itself and that can be very interesting.
-
-### 4.11.Content-Rotator.pdf
-
-### https://www.coursera.org/learn/animation-javascript-jquery/supplement/BHs7K/pdf-of-presentation 
-
+In the last module, we put all the tops of our posts or our sections
+really into post tops, and we can alert our council logged that out so
+we know where they all are.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch4-12">Module 4.12 Course Summary (0:52)</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 306.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image306.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
 
-Congratulations for making it to the end of our second course on
-JavaScript in our four-course specialization. You&apos;ve learned a lot of
-JavaScript so far, as well as tackling jQuery and jQuery animation and
-animation using CSS and JavaScript, we&apos;ve created some fun interactive
-elements you can put on real websites. I think you&apos;ve learned a lot and
-you should be really proud of yourself. Congratulations for making it
-this far, and I look forward to seeing you in our third course on
-JavaScript. We will get even deeper into the jQuery library, jQuery
-plugins, we&apos;ll create some more sophisticated scripts and some more
-complex scripts so that you can really develop your skills and get
-better at JavaScript. I look forward to seeing you there.
-
+Again, we&apos;re putting all of this inside the window load event because
+we want to make sure that the page loads so that we get the correct
+numbers for those tops of those posts, because if we don&apos;t get the
+correct numbers then, nothing&apos;s going to line up properly, it won&apos;t
+work. We want to make sure that all the images load because that&apos;s
+going to affect how tall each section is and where the top of the next
+section starts. That&apos;s why we&apos;re putting everything inside of the
+window function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ XXX/XXX.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--
-<p align="center" width="100%">
-<img src="./images/imageXXX.png?raw=true"
-  style="width:50%"
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 307.  (158) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image307.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Now we&apos;re at the point where we&apos;re ready to start working with our
+scroll event. We need to add an event listener for capturing scroll
+effects. I&apos;m just going to comment that out for now. But we can add
+that list of recapturing scroll of effects. Again, I&apos;m going to attach
+it to the window, <b>window.addEventListener</b>, and we&apos;re listening for
+scroll event, then we&apos;re going to run a function, and all of our stuff
+will go inside of here. Now, this looks very similar to the jQuery
+version of the scroll event.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 308.  (159) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image308.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+In jQuery, we did it like this. We used the jQuery objects to grab our
+window and then we use the on method to capture scroll, and then run a
+function. Again, it looks very similar, but just slightly different, the
+jQuery version is a few characters shorter, so that makes learning this
+stuff a little bit easier, I think, in jQuery. But the plain JavaScript
+syntax is not that much longer and you don&apos;t have to download the
+entire jQuery library to use it, or force your users to download the
+entire jQuery library to use it. That&apos;s nice.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 309.  (159) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image309.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Then we&apos;re going to put into this variable pagetop. Pagetop it&apos;s going
+to equal this thing, <b>window.pageYOffset</b>. Again, what that does is
+it, <b>window.pageYOffset</b> tracks how far off the top of the window or
+page is scrolled.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 310.  (160) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image310.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+I can, <b>console.log</b>, put <b>pageTop</b> and we should be seeing those
+pixels change as we scroll down the page. Let&apos;s test that and see.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 311/312.  (160) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image311.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+<img src="./images/image312.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
--->
+
+I come back here and refresh my page. Now as I scroll down the page, you
+can see those pixels are going up. Again as before, with the jQuery
+version, we&apos;re capturing every little bit that scrolls, but we&apos;re not
+necessarily capturing every single pixel. The slower we scroll, the more
+pixels will capture. But the faster we scroll, the fewer pixels will
+capture. But that event is firing every time we scroll a little bit. We
+get up to the top of the page, we should be getting a zero. When we get
+down to the bottom of the page, we should be getting a number that
+represents the full height of the entire window.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ XXX/XXX.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--
-<p align="center" width="100%">
-<img src="./images/imageXXX.png?raw=true"
-  style="width:35%"
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 313.  (161) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image313.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+That&apos;s working great, and really what I want to do is I want to track
+not the very top of the window, but the start of this first thing or
+maybe a little bit down from it. I want to push down a little bit from
+there. Really what I want to do is I want to come back and add 250 to
+this. It had 210 in the other one, but I&apos;m going to do 250 here. I
+think it&apos;s a little bit better. I&apos;m going to add 250 there.
+
+It&apos;s worth noting that the strategy for this script is exactly the same
+as what we did for the jQuery script. When this number the <b>pagetop</b>
+number, is greater than the number of the second section for
+<b>postTops</b>, where that one starts, then we must be viewing that second
+section on the screen, and if it&apos;s greater than the number for the top
+of the third section, then we must be viewing that section on the
+screen, and so on. That strategy is exactly the same.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 314.  (162) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image314.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+As before, you can either be scrolling down the page, starting at the
+top, or going down. Or you could be somewhere in the middle of the page
+and scrolling up. Those are really your only two options, because this
+page doesn&apos;t scroll left and right. Those are the two conditions that
+we need to watch out for, while we&apos;re handling our scroll effect.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-25">2.25 The Magic Conditionals (5:58)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 315. the magic conditionals (2.25) (162) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image315.webp"
+  title="2.25 The Magic Conditionals"
+  alt="2.25 The Magic Conditionals."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+To handle those two situations of scrolling up and scrolling down, I
+need an if and an else if, just as I did in the jQuery version and I&apos;m
+going to piece this in here.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 316.  (163) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image316.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+You&apos;re going to have to type it, but I&apos;m going to paste it in here,
+because it&apos;s actually exactly the same as what we had in the previous
+script. In fact, I don&apos;t think it&apos;s different really, even at all.
+I&apos;m going to comment out this console log call there. We don&apos;t really
+need that now. But here I&apos;m seeing if pagetop is greater than the
+<b>postTops</b> <b>counter</b>.
+
+The <b>counter</b> starts at one, so if it&apos;s greater than the first
+element inside <b>postTops</b>, the <b>counter</b> is going to get
+incremented. If we&apos;re on the first section, we go into the second
+section, this <b>counter</b> would be one, and so now we&apos;re in that second
+section, then we should increment the counter and we must be scrolling
+down. Then when we go into the third section, we&apos;ll increment the
+<b>counter</b> again and so on and so forth as we get down to the bottom of
+the page.
+
+Then the else if, we&apos;re going to check to see if the <b>counter</b> is
+greater than one, not greater than zero this time, but greater than one,
+is a greater than one, because one is our first section, and if
+<b>pagetop</b> is less than <b>postTops</b> counter minus one. If it&apos;s less
+than that, then we must be scrolling up if both of these are true, in
+which case will decrement the counter.
+
+Let&apos;s give this a try. This should be showing us in our console over
+here. You come back. Let&apos;s go up to the top of the page, click
+&quot;Refresh&quot; and then scroll down the page. When I get to that second
+section, and that second section it&apos;s 250 pixels from the top of the
+screen. The down says scrolling down too. It&apos;s into the 250 pixels that
+did it. Should be doing it. There, I see what I did wrong.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 317.  (164) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image317.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Over here. I put the plus 250 in the wrong place. Should be here. Plus
+250, there we go. Lets try that. Scroll to the top of the page, there we
+go. Now when I get to section two, scrolling down too, when that is 250
+pixels from the top of the page, it hits it and says okay.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 318/319.  (164) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image318.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
-<img src="./images/imageXXX.png?raw=true"
-  style="width:35%"
+<img src="./images/image319.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
--->
 
-<h6>Last Updated 3/9/2024 at 10:29pm</h6>
+We must be looking in section two, and this will get to 250, we&apos;ve got
+three, four, five, and then when we go up, we get four, three, two, one.
+That&apos;s working great, so I can tell this thing is firing, not I&apos;m not
+getting calls for every single little imaging that I scroll. I&apos;m only
+getting calls when that section comes into the page, and that&apos;s the
+beauty of the script. I think it&apos;s really wonderful. I love it. That&apos;s
+what we were able to do with the jQuery version as well, and that&apos;s
+what makes the script very powerful, because only when those things
+happen, we&apos;re going to make other things happen on the page. Not for
+every single pixel that we scroll.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 320.  (165) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image320.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Just as before, we want to see if the <b>counter</b> is not the same as the
+previous <b>counter</b>. Because if it isn&apos;t, then we&apos;ve moved into a new
+section, and the first thing we want to do is remove all of the classes
+from those links at the top of the page, which is that class selected
+that should be on one of them. But we want to make sure it isn&apos;t done
+any of them will remove that class attribute from everything, just to be
+clear that everything has no class on it up there.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 321.  (166) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image321.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Let&apos;s go ahead and add this if statement over here. Down here I&apos;m
+going to add an if. If <b>counter</b> is not the same as <b>prevCounter</b>.
+If they&apos;re not the same. Then again, I&apos;m going to use my <b>forEach</b>
+and I already have up here at the top of the page, I already have
+<b>navLinks</b> gathering all these, so we&apos;ve already got this variable so
+we can just use it again.
+
+Just like before, I&apos;m going to just do now <b>navLinks</b> for each
+function, curly braces, each links. It&apos;s going to go through each links
+of <b>navLinks</b>, and what is it going to do here, we&apos;re going to say,
+each link, <b>removeAttribute</b>, this one here, which attribute are you
+removing class. That&apos;ll remove the class attribute from each of those.
+Great. We&apos;ll stop this lesson here, but in the next one will put the
+correct class on the correct link. We&apos;ll put the selected class on the
+most correct so that it can get highlighted properly. Put a semicolon
+there before we go.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-26">2.26 Changing the Next Link (5:56)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 322. changing the next link (2.26) (167) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image322.webp"
+  title="2.26 Changing the Next Link"
+  alt="2.26 Changing the Next Link."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+We took the class attribute off of all the links, now we need to add it
+to the correct link.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 323.  (167) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image323.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+So I&apos;m going to add a variable, <b>const thisLink</b>, I want to add it to
+the link that I clicked on. I&apos;m going to get the correct link here by
+using a query selector, so I&apos;m going to say <b>document.querySelector</b>,
+QuerySelector. And, this is a little tricky this querySelector, what
+we&apos;re going to use is <b>nav ul, li a</b>.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 324.  (168) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image324.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+But we want <b>li:nth-child()</b> because over here, in our HTML remember,
+we want to get, If we clicked on this one, we want to get the first list
+item&apos;s anchor tag, or the second list item&apos;s anchor tag or the third
+list item&apos;s anchor tag. Remember the list items are all siblings, the
+anchor tags are cousins, because there&apos;s only one anchor tag in each
+list item, but the list items are all sibling. So there&apos;s this is the
+first one, second, one, third, fourth one, fifth one. So over here I
+want to get <b>nav ul li nth-child</b>, and if I were to put in a one that
+would get the first link, the two would get the second link, the three
+would get the third link and so on. So this is why we&apos;re using 1, 2, 3,
+4 and 5 four our counters instead of 0, 1, 2, 3 and 4, in the script.
+
+And the jQuery script, we use the <b>EQ method</b> to find the the first,
+second, third and fourth link but that&apos;s zero indexed. So the first one
+and that one is 0, or is the first one and this one is 1, so that&apos;s why
+our counter&apos;s a little bit different in the script. But, we could have
+probably used the nth=child method in the jQuery version and had to be
+the same now that I think about it. And that would be another way
+because remember in jQuery there&apos;s about 100 ways of getting to each
+element on the page, so we could have done it this way as well there.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 325.  (169) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image325.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+But what I want to do is I want to change this so I&apos;m using not my up
+and down quotes, oops. Yeah yeah I know it&apos;s a problem. I want to use
+my tick marks, so that in here I can pass in <b>&dollar;{counter}</b>, and that
+will get me the correct link there.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 326.  (169) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image326.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+From there it&apos;s simple, now I can use <b>thisLink.className =
+&apos;selected&apos;</b>, which is if I&apos;ve selected right. And then of course we
+want to say <b>prevCounter</b>, is now assigned the same value as counter,
+because now we&apos;re ready to go into the next section.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 327/328.  (170) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image327.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+<img src="./images/image328.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+</p>
+
+So if I save that and test it, assuming I did it all right, it should
+work let&apos;s see. Refresh the page, start up here at the top, now look at
+that it&apos;s already working second, third, fourth, the fifth sections so
+that&apos;s working perfectly fine. It&apos;s nice and smooth, because the
+animation is happening within the CSS, and the JavaScript is super
+efficient, because it&apos;s only calling these, as you move into these
+sections. And not only that, but when you click on these, it&apos;ll
+actually highlight their correct section, as you&apos;re going to and even
+sort of highlight in between, it&apos;s that fast. So that&apos;s working really
+great, I&apos;m really pleased with the way that works.
+
+Over here in my console log, I can see where I&apos;m scrolling up and
+scrolling down and these numbers must be coming in, when I&apos;m clicking
+on one of these links, I must have left a console log open in that
+script as well.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 329.  (171) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image329.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+We could go over and clear out these console logs, we don&apos;t really need
+them all. They&apos;re handy to have while we&apos;re making the script but, we
+don&apos;t really need this one or this one, or up here and I must have one
+up here somewhere as well here it is original top. So I don&apos;t need
+those or you could just to keep them all together and that&apos;s great, and
+the script is working.
+
+The last thing that we need to do is take care of the situation,
+there&apos;s edge cases of what happens if somebody is resizing the window,
+or if they refresh the page while you&apos;re scrolled down the page. And so
+we&apos;ll take care of that in the next lesson, and then we&apos;re done with
+this script and you&apos;ll have two versions of it, one that works with
+jQuery, and one that works with plain Vanilla JavaScript.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-27">2.27 Resizing Function (5:07)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 330. resizing function (2.27) (172) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image330.webp"
+  alt="2.27 Resizing Function."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+Just as we did before, I want to add an event listener that captures
+when I&apos;m resizing my Window. So over here I&apos;m going to get rid of a
+little bit of spacing in here just because, I want to be able to see
+everything here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 331.  (172) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image331.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+All right, so I want to add this event listener after the event listener
+for my scroll function here, so I want to add it after that, but before
+my event listener for when the Window loads. So when I added in here,
+make sure you&apos;re putting it in the right place because that&apos;s really
+important.
+
+And here I&apos;m just a Window.outevent listener and I&apos;m going to look for
+a resize event. Eminent type functioning, that&apos;s going to run when the
+Window resize is semi code and we will put stuff in here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 332.  (173) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image332.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+Now remember when we were doing JQuery, we used our JQuery object to get
+the Window and we use the on method to then capture the resize event and
+run a function. That&apos;s how we did it with JQuery.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 333.  (173) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image333.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+So here the syntax is slightly different but not that different. We&apos;re
+just adding an event listener to the Window and resizing it for when we
+resize. So it&apos;s not that different it&apos;s a little bit different and the
+JQuery is a little bit shorter but that&apos;s okay.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 334/335.  (174) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image334.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+<img src="./images/image335.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+</p>
+
+Once we&apos;re in here, what we&apos;re going to do is we&apos;re going to use this
+variable that we left up here doneResizing and we&apos;re going to say done
+resizing=, yeah, I&apos;m doing this wrong. I need to do, a clear time out.
+Clear time out, done resizing. And then I need my done resizing=set
+timeout.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 336.  (174) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image336.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+That&apos;s what we&apos;re set time out and set time out runs a function, after
+comma a certain period of time, 500. This is exactly the same as what we
+had before, and basically what&apos;s going to happen is this going to
+capture while we&apos;re resizing. But clear time out is going to keep keep
+this thing from actually doing anything until we&apos;re done resizing. So
+we only want to capture this when we&apos;re done actually resizing the
+Window console.log time resizing. Which will happen 500 half a second
+after we&apos;re done actually resizing the Window.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 337.  (175) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image337.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+So let&apos;s just test that really quickly over here. I&apos;m going to refresh
+the page and I&apos;m going to click this button here to get into resize
+mode and then I can resize this Window up and down and sideways and do
+all this stuff, but it&apos;s not going to actually do anything until I let
+go and stop resizing. In that case it&apos;ll say done resizing, at the end
+of that done resizing.
+
+What am I going to put inside there, that&apos;s going to run while when
+I&apos;ve done resizing, I&apos;m going to add my function. Research age
+position. That&apos;s what I call it. Yeah, that&apos;s the same function we had
+before in the JQuery version. So, I&apos;m going to come down here, I&apos;m
+going to have to function reset page position () currently braces and we
+will go on from there and we&apos;ll build that up in the next lesson to
+finish the script off. But this is really all exactly the same as what
+we did in the for the jQuery version.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-28">2.28 Finalizing the Script (10:01)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 338. finalizing the script (2.28) (176) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image338.webp"
+  title="2.28 Finalizing the Script"
+  alt="2.28 Finalizing the Script."
+  style="border: 2px solid black; border-radius:15px; width:40%;" />
+</p>
+
+We&apos;re down to the end of this lesson and we just need to fill out this
+resetPagePosition function.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 339/340.  (176) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image339.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+<img src="./images/image340.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+</p>
+
+We&apos;re going to start by coming here and copy this (left image). And
+stick it in here (right image). I also want to make sure postTops gets
+reassigned an empty array. Just to be absolutely certain postTops is
+empty.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 341.  (177) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image341.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+And then, I&apos;m going to go through each of my posts and push into there,
+at the top of that postTops. So, that makes sure that again, if I&apos;m
+resizing my window and recapturing where the tops of each of those
+sections, is because they may have changed based on how wide the window
+is once I&apos;ve finished resizing it.
+
+The next thing I want to do, is, create a variable called PagePosition
+and again set it to the window offset 250 pixels (const pagePosition =
+window.pageYOffset=250). Then, I&apos;m going to set the counter to zero
+(counter=0). It has to do with this next piece of code that we&apos;re going
+to write here. I want to go through the postTops array for each. And
+having to run a function here.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 341.  (178) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image341.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:50%;" />
+</p>
+
+For each of the posts that are in there, for each post in postTops, and
+really, this is the actual number that represents the top of the post.
+For each post, I want to do an if statement. If pagePosition is greater
+than the post, that number for how far down the page that is, if that&apos;s
+true then, I want to increment counter ++.
+
+Now think about this for a second, pagePosition is going to be at least
+250 pixels. If I&apos;m scrolled up at the very top of the window, it&apos;s
+going to be at least 250. This first post, we know is 200. So, even if
+I&apos;m scrolled very much to the top of the window, counter is going to
+get incremented from 0 to 1. If I&apos;m in the second post, if I&apos;m
+scrolled further down and I&apos;m in the second post, somewhere below the
+first post and in the second post, then it&apos;s going to get incremented,
+not once but twice. Because, it&apos;s going to go through posts each time.
+So, it&apos;s going to check, is it larger than the first post? Yes. Is it
+larger than the second post? Yes. So, then it&apos;s going to get
+incremented twice.
+
+If we&apos;re scrolled further down the page inside the third post, then
+this is going to go and it&apos;s going to say, am I larger than the first
+post? Yes, am I larger than the second post? Yes. Am I larger than the
+third post? Yes. And counter is going to get incremented to 3. So, each
+time I go into a post, it&apos;s going to get incremented and then it&apos;s
+going to check the fourth post. Is it larger than that? No. So, if
+statement is not going to run, it&apos;s not going to get incremented.
+Counters can end up being the number that matches how far down the page
+we are and which post is actually showing. It&apos;s a little tricky but
+hopefully it makes sense.
+
+The next thing we need to do is remove the class from each link and we
+did that up here. We already have that up here. This for each year. So,
+I&apos;m just going to copy that one. And come down here and paste that in.
+Make sure you put it in the right place. This is closing out this for
+each group here, knave links for each, I&apos;m just going to remove the
+class.
+
+Once we remove the class, we&apos;re just going to do this same thing here.
+So, the correct link gets highlighted. So, it&apos;s kind of a long
+function, where it looks long and we could probably shorten it up. This
+could all go in one line really. Kind of a long line, but not that bad.
+This could probably go all in one line. You could add some comments and
+you&apos;re saying exactly what does what, but that kind of shortens it up a
+little bit, makes it a little bit more compact. Maybe be helpful with
+some comments, I don&apos;t know.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 342/343.  (179) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image342.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+<img src="./images/image343.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+</p>
+
+All right great. So now that we&apos;ve got this, the last thing we need to
+do, we&apos;re already running it, we&apos;re already running this function
+here. We need to run it again up at the top of the page. And we can run
+it instead of this stuff, we can get rid of this all together because
+we&apos;re because this is going to include doing that, so we don&apos;t need to
+do that again, we can just run it here. And that should work. Let&apos;s go
+over and test it out really quickly.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 344/345.  (180) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image344.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+<img src="./images/image345.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+</p>
+
+Come back to my page over here and I&apos;m going to make sure I&apos;m scrolled
+up to the very top. I&apos;m going to refresh and then I&apos;m going to resize
+the screen. I guess I should scroll down. So, if I scroll down to
+section three here and resize the screen down. When I&apos;d done resizing,
+it should give me the correct location for that. Here we go now. Section
+five, there is fifth section is showing. Scale it down again. Now, I&apos;m
+in the fourth section. So, that&apos;s actually working. If I&apos;m down the
+page, say here, section three and I refresh, the third section should
+come up highlighted. If I&apos;m showing the second section and I refresh,
+the second section should come up highlighted. So, this part of the
+script seems to be working a little bit better without jQuery.
+
+I think the JavaScript version is a little bit smoother and a little bit
+cleaner. J query sometimes with, it&apos;s just not quite as smooth as plain
+JavaScript. So, I think I actually like this version of the script a
+lot. This is a script you could use to do all kinds of really cool
+effects based on where you&apos;re scrolling on the page and we have it both
+in jQuery and in vanilla JavaScript.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 346.  (180) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image346.webp"
+  alt="."
+  style="border: 2px solid black; border-radius:15px; width:35%;" />
+</p>
+
+It should be pointed out that frequently people will use plugins to do
+this kind of thing or libraries. There&apos;s some good ones out there.
+There&apos;s one called Animate On Scroll. Animate On Scroll, this library
+here. And you could plug this in and do some, and it gives you access to
+all kinds of really cool effects that you can use while you&apos;re
+animating, while you&apos;re scrolling the page. But, I think it&apos;s really
+helpful to have a foundational understanding of how this kind of thing
+actually works. And before just jumping into using a library or if you
+want to do your own thing, I think it&apos;s helped.
+
+This script is really great, and I think really you could do a lot with
+it without even going to a library, like Animated On Scroll. But,
+that&apos;s up to you.
+
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation"
+    target="_blank" rel="noopener noreferrer">
+	PDF of Presentation: 2.28 JavaScript-Scroll-Effect.pdf (download)</a></li>
+</ul>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-29">2.29 Scription Site Introduction (5:54)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 347/348. scription site intro - building html and css (181) ~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image347.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  title="2.29 Scription Site Introduction"
+  alt="2.29 Scription Site Introduction." />
+<img src="./images/image348.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  title="Building HTML and CSS"
+  alt="Building HTML and CSS." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 349.  (182) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image349.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Scription site, part 1, building the HTML and CSS. In this lesson we&apos;re
+going to look at building a web page that looks like this and it&apos;s a
+long scrolling page. This page is going to have a number of interactive
+elements in it. And you&apos;ll be able to use a lot of the skills you&apos;ve
+gained so far in this course by creating these interactive elements.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 350. slider using flex slider (183) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image350.webp"
+  style="width:50%;"
+  title="Slider using flex slider"
+  alt="Slider using flex slider." />
+</p>
+
+This will be a slider using flex slider up here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 351.  (183) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image351.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Further down the page we will have tabbed interface, content rotator, so
+you&apos;ll get to use some of these different scripts, including the smooth
+scroll script and some of these other scripts that we&apos;ve created on
+this page.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 352.  (184) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image352.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+For this first lesson for building the HTML and CSS. It&apos;s not required
+that you do this, you this is optional. But remember that JavaScript and
+jQuery are manipulating the HTML and CSS and I think it&apos;s to your
+benefit to build this page and see how the HTML and CSS come together.
+
+We&apos;re going to put it together mostly by copying and pasting snippets,
+so it won&apos;t be quite so tedious with having to type it all on one hand,
+although you could type it if you really want to understand the html and
+CSS, I certainly would applaud you for doing that, but it&apos;s not really
+necessary. I think just by copying & pasting the html in place, you&apos;ll
+get a lot out of understanding how this page is built and how it all
+comes together. And then you can take on the challenge of adding the
+interactive elements because you&apos;ll understand how the HTML and CSS
+come together.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 353/354.  (184) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image353.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+<img src="./images/image354.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+</p>
+
+We&apos;ll be copying and pasting from snippets and I have some snippets
+over here so you can see that will be sort of copying and pasting these
+to build up our html. I&apos;ve got more snippets for the CSS so you&apos;ll see
+how that all comes together. Okay so we&apos;ve got that and that&apos;s really
+cool.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 355/356.  (185) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image355.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+<img src="./images/image356.webp"
+  style="border: 2px solid black; border-radius:15px; width:45%;"
+  alt="." />
+</p>
+
+There are a few things to pay attention to before we really start. There
+are some start files with description. Start files include the basic
+html file and the CSS file, the link to an empty JavaScript file on the
+html file. There are links to normalize CSS script and what that does is
+it ensures that styling is the same or very similar between browsers,
+normalizes the differences between different browsers.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 357.  (185) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image357.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Then you&apos;ll see that there are links to the google fonts that we&apos;re
+going to use on our own style sheet. jQuery and the jQuery easing plugin
+that we are already familiar and style sheet has some different sections
+for different parts of the page and some media queries from screen
+sizes.
+
+The site will be constructed with this mobile first approach where
+we&apos;ll be adding layout for the larger screens in the media queries. The
+page will be responsive but it&apos;s not RESPONSIVE.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 358/359.  (186) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image358.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image359.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+You can see here is the link for the normal script and the google fonts.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 360/361.  (186) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image360.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image361.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Our stylesheet, we&apos;ve got links for jQuery easing and on the style
+sheet we have some sections that we can put our different pieces in. So
+those are all in place and ready to go along with some media queries for
+the bottoms of the page and getting it all into place that way.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 362.  (187) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image362.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+And then on the JavaScript we have a script file with some comments for
+where you&apos;re going to put your scripts but you&apos;ll be adding that in a
+later lesson for here, you&apos;re just going to build up this html and CSS.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 363.  (187) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image363.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Now we&apos;re ready to get started and the first thing we need to do is put
+our basic site structure in place. So this is the basic structure of the
+page. We&apos;ve got a header and then we&apos;ve got a dip for the slider and
+then we&apos;ve got a section for each part of the page as you scroll down
+the page.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 364/365.  (188) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image364.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image365.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+So going back to our design here, if we look at this, you&apos;ll see up
+here, this is going to be the header with the navigation. And we&apos;ve got
+this will be for the flex slider here and then that&apos;s a section,
+that&apos;s a section, that&apos;s a section, that&apos;s a section and that&apos;s a
+section, so we&apos;ll be put and then the footer. So we&apos;ve got all of
+those pieces in there.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 366/367.  (188) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image366.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image367.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+So to get that going, we&apos;re going to start adding this HTML to our page
+over here so we can go ahead and add that into our body here. Yeah,
+boom, done.
+
+So this is how this page is going to come together a lot of copy and
+paste and you just have to be careful to paste things into the correct
+place. But if you go wrong, don&apos;t worry about it at the end, I will
+give you my finished file so you could do this without going through
+this. But I think it&apos;s helpful to go through it anyway.
+
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/KrJDR/start-files-scription-site"
+    target="_blank" rel="noopener noreferrer">
+	2.29 Start Files:  Scription Site (download)</a></li>
+</ul>
+
+<ul>
+  <li>Start Files: 2.29 Scription-Part1-START.zip</li>
+  <li>Scription: 2.29 Scription-Part1-Snippet.zip</li>
+  <li>Start Files: 2.29 Scription-Part2-START.zip</li>
+  <li>Scription: 2.29 Scription-Part2-Snippet.zip</li>
+  <li>Flex Files: 2.29 Flexslider-files.zip</li>
+</ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-30">2.30 Header HTML (5:09)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 368. header html (2.30) (189) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image368.webp"
+  style="width:50%;"
+  title="2.30 Header HTML"
+  alt="2.30 Header HTML." />
+</p>
+
+Inside the header, you&apos;re going to have a div with the logo in it and
+the H 1 for the page. It&apos;s important for pages to have a main heading
+because google pays a lot of attention to that.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 369/370.  (190) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image369.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image370.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+And then we&apos;ve got our navigation and again, this is on the snippet, so
+you don&apos;t have to type it, it&apos;s all here, you just come in here and
+copy this and paste it. So we&apos;re going to come over here and it&apos;s
+going to go inside the header there like that. So it&apos;s all displayed
+properly there. Great. So that the HTML for the header is done, we can
+save that and let&apos;s see what we need to do next.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 371/372.  (190) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image371.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image372.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 373.  (191) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image362.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+The HTML for the slider is set up ready for us to use flex slider. And
+we&apos;ll be using the your challenge will be to implement the more complex
+flex slider where you put the pictures of what&apos;s going to go on the
+slide in the background and then put a div on top. So I have this set up
+with just one slide so that the page looks good. But then later you can
+add flex slider but you&apos;ll have the right markup in place to make it
+easier to add flex slider later.
+
+So let&apos;s go ahead and take a look at how to put that in there over
+here. It&apos;s on the snippets, we can just copy this piece here and then
+come over to our layout, our page here and stick that stuff inside the
+slider Div. There we go. Easy enough.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 374/375.  (191) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image374.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image375.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+And then we&apos;ve got the overview section. And there&apos;s a lot more HTML
+that can be shown here on this slide. But it&apos;s all in the snippets and
+basically we have an article with an H2 and some paragraphs and then
+we&apos;ve got a section with some articles in it. And what we&apos;re going for
+is something like this, come over here and scroll up on this thing. So
+we&apos;ve got an article with some paragraphs in it. And then we&apos;ve got a
+section with some articles in it. So this section is going to come over
+here and take care of that, okay?
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 376/377.  (192) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image376.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image377.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+So let&apos;s go ahead and put that in. Its on the snippets. This whole big
+chunk here, and you click in your to command A and command C. And then
+come over to your file and that&apos;s going to go inside the overview
+section, paste. There&apos;s nothing too fancy in here. There&apos;s no reason
+to make you go in and type all of this. It&apos;s just articles and
+paragraphs with each threes. But it&apos;s important to recognize the
+structure. So we have a section that&apos;s going to have this whole thing.
+So we&apos;ve got a section inside of a section here. And it&apos;s important to
+recognize when you&apos;re making mark up for things that you&apos;re looking
+at, your design and trying to figure out. Okay, how do I need to break
+this down into smaller sub pieces.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 378/379.  (193) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image378.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image379.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Next comes the download section. And again, there&apos;s more actual markup
+than fits in the picture here in the right. But we&apos;ve got an article
+with a div and an ordered list and then we&apos;ve got another article
+within H3 and a div with an ordered list. And ultimately, this is an
+ordered list that has the class. Each feature is going to get animated.
+So that will be part of your challenge later will be to animate that
+annoy ordered lists, that it works in place and I&apos;ll show you the
+finished version later and how it&apos;s supposed to look. But for right
+now, we can just get the markup going in place over here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 380.  (193) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image380.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+I&apos;m going to come over here and come down and just put it all this
+here. I&apos;m just going to come in here, command A command C to copy it.
+And then come back to my code and put all of that over here, and it&apos;s
+going to go inside the download section here. So it&apos;s just going to go
+there. Just paste it all in. Perfect. Nothing too fancy. It seems really
+long. But will be this is all of our content for our page. Okay, great.
+We&apos;re coming along really well here. And we&apos;ll stop this lesson here
+and then we&apos;ll pick up putting in the rest of the HTML out in the next
+lesson.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-31">2.31 Pricing HTML (6:16)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 381. pricing html (2.31) (194) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image376.webp"
+  style="width:40%;"
+  title="2.31 Pricing HTML"
+  alt="2.31 Pricing HTML." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 382.  (194) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image377.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+We will continue placing HTML into our index file and if you thought the
+other sections had a lot of content, this one has even more.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 383.  (195) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image383.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+This one is going to represent the tabs that show up in this tab section
+here, and it&apos;s kind of an indicator of how powerful tabs are because
+we&apos;ve got content here. And then, we&apos;ve got the same amount of content
+in each one of these tabs, and it really adds up to a lot of content.
+But when you use tabs properly, you&apos;re really reducing the cognitive
+load of your user because you&apos;re not giving them all of the information
+at once. And they can click on the correct tab that applies to them, and
+you&apos;ll be adding that script later as part of your challenge.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 384.  (196) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image384.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+But for right now we just need to get the actual HTML in place which I
+have here. I have it in pieces here. So first we&apos;ll just add the
+structure for the tabs.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 385/386.  (196) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image385.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image386.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+So I&apos;m going to put this in over here. And it goes down here inside the
+pricing section, Here, and each one of these tabs is going to get
+content in here, so I&apos;ve got tab 1, tab 2, and tab 3, and each one of
+those is going to get a pile of content.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 387/388.  (197) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image387.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image388.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+So if we come back here you can see this is all of the content just for
+a tab 1, so I&apos;m going to select all of this and all of this. So you
+have to be really careful to put it in the right place. So here, this is
+all going inside of this container for tab 1 here, so make sure you&apos;re
+in the right place and paste it in there.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 389/390.  (197) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image389.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image390.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+And then, scroll down and the next one is going to go here inside tab 2,
+let&apos;s put that in tab 2 content, copy all of that, that&apos;s a lot of
+content.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 391/392.  (198) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image391.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image392.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+And then, tap 3 content, same thing, tab that in and then come over here
+and come back and grab the next pile of content for tab 3, that&apos;s a lot
+of content. And tabs are really efficient at making sure you&apos;re not
+showing too much content at once when they&apos;re used properly. So there
+we go.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 393.  (199) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image393.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+So we&apos;ve got all of this stuff in here, we&apos;re already up to over 300
+lines of code under HTML file. Okay great. So we&apos;ve got all of our tabs
+in place and then the next section we need to do, we need to work on is
+the, I have their pricing section content here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 394.  (199) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image394.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+And then, the listen section and this is going to get a rotator, and you
+can see ID rotator. We&apos;re going to rotate block quotes. For right now,
+we&apos;ve just got one block quote in, but later when you make that work
+you can add some more block quotes.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 395/396.  (199) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image395.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image396.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+So let&apos;s come over to our snippets and here&apos;s our listen section. Yeah
+and again just to go over to our design and see what that looks like.
+That&apos;s this section down here, it&apos;s going to have this piece and this
+piece of continue which will use our rotator content rotator to actually
+rotate that around.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 397.  (200) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image397.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+So you&apos;ll get lots of practice putting this together, so that&apos;s going
+to go inside this listen section here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 398.  (200) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image398.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+And then finally after that, we have our team which isn&apos;t too long,
+that&apos;s going to be next.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 399/400.  (201) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image399.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image400.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Not quite the last thing but we&apos;ll get that next and put that in our
+team.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 401/402.  (201) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image401.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image402.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+And then we&apos;ll go and get the footer content and copy that and put it
+into the footer. You&apos;ve probably never built an HTML page quite so
+fast. And it&apos;s great to be able to copy and paste this stuff in, but I
+recommend taking a few minutes to look at how the pages structured, how
+the content is structured. And how the page is using best practices and
+semantic markup to make sure that things that are articles are marked,
+articles, things that are lists are marked lists. Headings, have the
+correct headings on them have the correct levels of headings on them and
+all of this kind of stuff.
+
+We want to make sure that everything is marked up properly because
+Google will be looking at it and scanning it over and using this kind of
+information to make your page findable. So it&apos;s really important to
+make sure that you&apos;re using semantic markup properly, and with that we
+have all of our HTML in place.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 403.  (202) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image403.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+If you were to come over and load up the page over here, you would see
+it doesn&apos;t look very good, but it&apos;s readable, without any styling at
+all you could read the page if you had to without any styling at all.
+And that&apos;s kind of the purpose of semantic markup, is that if for some
+reasons, the styling doesn&apos;t work or somebody&apos;s working in some real
+low quality browser, the pages still readable and the information is
+still accessible.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-32">2.32 Beginning Styling (6:37)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 404. beginning styling (2.32) (202) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image404.webp"
+  style="width:40%;"
+  title="2.32 Beginning Styling"
+  alt="2.32 Beginning Styling." />
+</p>
+
+In the last lesson (2.31), we finished with the html, and now we are
+going to start styling, and getting the styling in place.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 405/406.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image405.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image406.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+And, I have a new set of snippets, so, you make sure you open this
+because we are also going to copy, and paste the styling into place, so,
+it goes fairly quickly. But hopefully you have got all of this in place.
+And, what I recommend you do is we are going to do a mobile first
+approach.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 407.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image407.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+What I recommend you do is right-click on the page and choose, inspect
+and then make sure this little button 'Responsive' is toggled here. This
+button when it is toggled on, you can actually set aside through yours
+for your page here, and I am going to set it to like iPhone 6, 7 and
+eight that seems like a good size to set to begin with.
+
+And yeah, so, there we are and hopefully that is all working well if I
+got the yes, if you port things set there. Okay, good, so we should be
+all set with that and from here we can go over, and start working on
+some styling for the page here.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 408.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image408.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Now, I have some initial basic resets. The normalized CSS helps smooth
+out differences between browsers, but I have often found it helpful to
+change some default styling on some elements to help speed up
+development. Removing padding and margin from a bunch of elements helps
+removing bullets from a new ordered lists, and ordered lists if they
+happen to be inside of Nab elements often helps the asterix on the box.
+
+Sizing means that I am going to switch everything from using box sizing,
+content box to box sizing border box. If you do not know the difference
+between those two, I recommend that you look it up and become familiar
+with it. The short answer is that in CSS when you have the width of an
+element set, suppose I have a section and I set it to 500 pixels wide.
+If I add padding, if I had border, if I had margin it is going to add to
+the width of that element. The 500 pixels is the width of the content.
+So, when we switch it to box sizing border box, when I set the width of
+the elements of 500 pixels that will include the padding, and the
+border, not just the content. And, so that is usually pretty helpful to
+have set, and we will just set it that way for everything for images.
+
+I am going to set the max within those 200, and I like to set them to
+display block images by default are in line elements, but we rarely use
+them in line. So, I think it is helpful to set them to display block. I
+am also going to get rid of the ugly underlines on links. I do not
+really like the way they look all style weeks differently, and I am
+using some variables for the colors of the page. So, if you wanted to
+change the colors of the page, you could just change them here once and
+it will change it throughout the, throughout the whole page.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 409.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image409.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+If we come over and look at the design here, you can see if I move up
+over here that I have got. This is the color scheme that I am working
+with. I created a color scheme. So, these are the colors that I am
+actually working with to create all of my colors on the page. And, it is
+helpful when you are designing to start with the color scheme, you may
+not stick with it exactly, but it is helpful to do that.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 410/411.  (2) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image410.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image411.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+All right, so you can come over to our snippets here, and copy this
+first snippet which has all the basic styling on it, and paste it in
+over here on our style sheet.
+
+We are going to start working on the stylesheet, and I am going to go
+all the way up to the top, and put this stuff into the basics reset
+section here, save that. And, visual studio code does not like my
+shorthand styling for things, which drives me nuts, but I have yet to
+figure out how to get it to not do this. So, I really prefer it not to,
+but that is okay.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 412.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image412.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+It is fine, it will space everything out a little bit further and, it is
+always a good idea each step along the way to come back, and see how
+this is affecting the look of our page, and already it is already kind
+of affecting the look of our page. It is making it look worse, and
+generally reset to do. They will make your page look worse, because you
+are taking styling out, you are resetting it to a basic, and then you
+are going to add more styling back to make it look better. All right,
+there we are with the resets.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 413/414.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image413.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image414.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 415.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image415.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+That is great, next, we can add some basic typography. Again, I am using
+some google fonts, and they are loaded already in the html. They are
+loading from google, and setting some color some sizes, and that kind of
+stuff. And, you will see that this will quickly start to bring some
+life, and breathe some life back into the page as we had this stuff back
+in.
+
+So, let us go over to our snippets and add these rules here, and
+there&apos;s more than what I showed on the pages. Rules for the footer, and
+for the button as well. So, we will add those in under basic typography.
+And, I do like to do things in this order, where I sort of set some
+basic settings for the page basic resets typography and maybe some,
+basic page section stuff. That is going to get inherited across the
+entire page.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 416.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image416.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Let us go take a look at what that looks like, those rules applied.
+Boom, already starting to look a little bit better once we get a font in
+there, and some and some stuff working along and going along, that is
+great. All right, we will continue with the styling in the next lesson.
+
+<h2 id="ch2-33">2.33 Styling That Attaches to Whole Page (5:03)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 417. styling that attaches to whole page (2.33) (2xx) ~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image417.webp"
+  style="width:40%;"
+  title="2.33 Styling That Attaches to Whole Page"
+  alt="2.33 Styling That Attaches to Whole Page." />
+</p>
+
+Next, we&apos;ll apply some styling that will attach to the whole page and
+there&apos;s just a few rules here, but they&apos;ll actually make quite a big
+difference.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 418/419.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image418.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image419.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+So let&apos;s go over and grab these three rules.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 420.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image420.webp"
+  style="width:40%;"
+  alt="." />
+</p>
+
+Paste them on our style sheet here inside the basic sections section.
+And you&apos;ll see just with these little bit of rules over here, it&apos;s
+going to make a big difference. Currently, we&apos;ve got no padding here,
+everything&apos;s running right up against the edge, it&apos;s kind of a mess.
+It doesn&apos;t look that great yet, but I&apos;m going to scroll up to the top
+here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 421.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image421.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+And if I refresh, you&apos;ll see immediately we&apos;re starting to get some
+spacing between the sections and a little bit more. It&apos;s getting a
+little bit better, a little bit more readable coming along. And as you
+work down the page, starting with these basic sections and stuff further
+down the page is inherits, then you need fewer and fewer rules as you go
+down the page. You&apos;ll see as it sort of works out that way.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 422/423.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image422.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image423.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Headers are always a pain in the neck. They always have a lot of styling
+in them to kind of get things to look right. And sort of copy all of
+this stuff and I&apos;m going to go ahead and paste that in the header and
+they had her section year.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 424/425.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image424.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image425.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+There&apos;s a lot to look at in these header styles so it&apos;s worth spending
+a few minutes on this. I changed my background color for that for my
+head are here to a great, but you could try a different background
+color. This is one of my other colors with some transparency. 2.75 gives
+it a little bit of transparency, but you could own comment this out if
+you wanted to see how it looks.
+
+The header is going to be set to position fixed so that the header stays
+up at the top of the page no matter what as you scroll down the page.
+And then setting the top 0 and left 0, and then with 100% and I&apos;m
+making sure it stays on top of the z-index at the dent.
+
+The logo is going to be set to position relative because I&apos;m going to
+do some absolute positioning for the H1 inside that logo down there, so
+that&apos;s such a relative positioning margin. Auto is going to center that
+give it a width and set the margin on the bottom.
+
+When you hover over the logo, it&apos;s going to turn the pointer to a
+cursor because ultimately that&apos;s going to be a link, something that we
+can click on. And it&apos;s going to activate a smooth scroll effect that
+you&apos;ll put in later when you&apos;re completing the interactive challenges
+part of this lesson. But you can see basically everything&apos;s kind of
+coming into place here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 426.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image426.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+I&apos;ve got the the rules for the navigation in here we&apos;re displaying. It
+is flex, a display method that allows you to get things to line up next
+to each other in a row, which is what we want for our navigation. And
+then the anchor tags are set to display block. And that&apos;s because
+anchor tags by default, in line elements and usually in navigation you
+want them to be block elements and then I&apos;m setting my colors and my
+font size and that kind of fun stuff.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 427.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image427.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+So with all that in place, we should go over and take a look and see
+what all this magic does to the head header of our of our page here.
+Boom, look at that, all that styling, got that all into place. The
+navigation could maybe be a little bit better for mobile. I&apos;m kind of
+squeezing it all in here. You could replace it and put a hamburger menu
+and have a drop down menu. But that&apos;s a lot more work and I wanted to
+make the project feel a little bit, otherwise it was going to be a lot
+of work if I added that for you and I didn&apos;t want to do that. But
+you&apos;ll notice now the header is fixed so the header will stay there as
+I scroll down the page and if you wanted to try the greenish background,
+you can put that in if you wanted to. I kind of liked the gray in the
+end. I kind of liked it that way. All right, so the headers in place and
+we&apos;re ready to see what we need to do for the next section.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-34">2.34 Slider Styling (5:04)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 428. slider styling (2.34) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image428.webp"
+  style="width:40%;"
+  title="2.34 Slider Styling"
+  alt="2.34 Slider Styling." />
+</p>
+
+Continuing with our styling, we&apos;ll add some styling for the slider.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 429/430.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image429.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image430.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+These styles, again, are only snippets. It puts the image for the slider
+in the background of this element.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 431/432.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image431.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image432.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Let&apos;s go ahead, come down here, and add this. I&apos;m just going to copy
+all of this, select it all, copy it, and then come over and add this
+into the section for the slider here. There&apos;s a lot going on here, and
+if you&apos;re not that familiar with CSS, I recommend poking around with
+this. What happens if you remove some of these declarations? And see how
+it looks, see how it changes it. The angle brackets ( '&gt;') here
+indicate that I&apos;m applying this to the direct child. This makes sure
+that if I have another div that&apos;s further down the chain, that it
+doesn&apos;t get that styling attached to it. But the best thing to do if
+you&apos;re not really sure about how this is working is to mess around with
+it, play around with the settings. Even if you screw it up entirely, you
+can just delete it, and then paste it back in again from the snippets.
+Don&apos;t worry about messing it up. With that in place, let&apos;s go see if
+our slider is displaying properly.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 433/434.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image433.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image434.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+There we have it. For the mobile version, we&apos;re going to have this
+called action stretch across the entire slide. It&apos;ll look better for
+the desktop version because you saw over here it&apos;s going to look a
+little bit different.
+
+When we get to desktop, it&apos;s going to look like this instead. I&apos;ve
+left off this thing, I&apos;ve actually decided to put that in. But it&apos;s
+going to look like this with our called action here instead. We&apos;ve got
+that in place and we&apos;re ready to go on to the next part.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 435.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image435.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+We don&apos;t need to do much for the overviews settings because a lot of it
+is set nicely already by the styles we&apos;ve already added. This is what I
+meant by, as you go down the page, you need to do less styling, because
+a lot of things get inherited. We just need a few rules to sort out some
+of these things, and set the the overview section to display the grid,
+so that it looks right there.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 436/437.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image436.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image437.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Let&apos;s go ahead and add these rules for the overview section. Just a few
+of them here. We just need to stick in over here inside the overview.
+I&apos;m going to save that.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 438.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image438.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Then when we come back and refresh the page. We&apos;ve got our description
+and we&apos;ve got an overview here with our columns of stuff. It looks
+really good, it looks really nice. You can imagine seeing this on your
+phone, it should look pretty nice. Again, we&apos;re doing the mobile first,
+because we&apos;ll be adding the desktop view in later. Then next, we&apos;ve
+got to look at the desktop, the download section.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 439/440.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image439.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image440.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Download styles, let&apos;s add those. There are a lot of rules for the
+download section. Some of these are specifically in place because of the
+JavaScript you&apos;ll be adding later. Again, I recommend adjusting the
+settings and removing declarations to see what happens. Only a few of
+the roles are shown over here, but I&apos;ve got a lot more on here.
+There&apos;s a whole big chunk for the download section. It&apos;s a lot. Let&apos;s
+just grab it all. Again, the best thing to do is to mess with it, and
+see what happens if you mess around with it. If you screwed up, just
+paste it back in again, it&apos;s not a big deal.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 441.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image441.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+We put that in. I&apos;m not going to go through and describe all of these,
+but they&apos;re all in here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 442.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image442.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Let&apos;s go take a look and see what that did to our page. Download
+section. This thing here is going to be an element. I&apos;ll show you the
+finished version that animates, and moves these things up and down, or
+moves them up into place, and highlight them as they go by. You&apos;ll be
+adding that scripture, you&apos;ll have a challenge to add that script on
+your own in a future lesson here. Great, we&apos;re coming along.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-35">2.35 Pricing Styles (4:00)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 443. pricing styles (2.35) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image443.webp"
+  style="width:40%;"
+  title="3.35 Pricing Styles"
+  alt="3.35 Pricing Styles." />
+</p>
+
+We&apos;re going to continue adding styling to our page and the next section
+is the pricing styles.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 444/445.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image444.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image445.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+And that&apos;s going to set us up to get our tabs working the way we need
+them to work when we add the the tapped script later, you&apos;ll be able to
+add that later to make that work. So most of that content is going to be
+hidden because we&apos;re only showing the first tab and the other tabs are
+going to be set to display none.
+
+There&apos;s only a few of the rules shown here, but there&apos;s a lot more
+over here on the snippets down your pricing section styles, you can see
+there&apos;s a big old chunk of styles here. And again, if you&apos;re not sure
+what these do recommend playing around with them and inspecting your
+page, take something out, see what happens, change the values mess
+around with it. It doesn&apos;t matter if you screwed up, it&apos;s totally
+fine.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 446/447.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image446.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image447.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+I&apos;m going to go ahead and add those here under the pricing style
+section, And you&apos;ll see once we get that in and save it and then come
+back here and refresh the page. I&apos;m going to scroll down to the pricing
+section here and click refresh and just like magic.
+
+Look at that, we have a tabbed interface. These tabs don&apos;t work because
+we haven&apos;t done anything with them yet. And now we&apos;re I&apos;m getting
+those things up there in the header, I don&apos;t really want those there.
+But we&apos;ll get that to work later, that would be great if we get that to
+work. But we&apos;ve got all of that content designed and looking pretty
+good. Now, we just need to go on to the next section.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 448/449.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image448.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image449.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Let&apos;s get these styles for the listen section. It&apos;s not that many
+here, it&apos;s just a few. We&apos;ll add more, you&apos;ll add some more later.
+When you do the JavaScript to make the actual content rotator work,
+we&apos;ll add a few more, but we&apos;ll get those into place and then let&apos;s
+come back over here. And put these in just to kind of get that to
+display properly, save that.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 450.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image450.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+And then let&apos;s take a look and see how that is actually coming through.
+Refresh this scroll down and here&apos;s our listen section, looks nice for
+mobile.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 451/452.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image451.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image452.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Next, we&apos;ve got the our team section, let&apos;s go ahead and add that.
+There isn&apos;t going to be any interactive elements for the rest of the
+page.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 453/454.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image453.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image454.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+So these styles will just stay the way they are and we&apos;re not going to
+do anything interactive with these last two sections, there our team
+part and the footer. And again, if you&apos;re not sure what these rules are
+doing or recommend playing around with them, take some time with it to
+see what they actually do, save that. Let&apos;s come back and see how the
+rest of our page shapes up.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 455/456.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image455.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image456.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+There&apos;s the our team section for mobile and the footer and now we&apos;ve
+got the entire mobile version of this page set. The next thing we need
+to do is, add will adjust styling in the media queries for when the page
+gets larger, so we&apos;ll do that next.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-36">2.36 Tablet Styles (6:46)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 457. tablet styles (2.36) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image457.webp"
+  style="width:40%;"
+  title="2.36 Tablet Styles"
+  alt="2.36 Tablet Styles." />
+</p>
+
+You&apos;ve finished the styling for the mobile version, and now it&apos;s time
+to get the styling in place for the tablet version.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 458/459.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image458.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image459.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+So to get ready for that, come over here to your view, switch this to be
+responsive and make the screen just a little bit larger than 670 pixel
+over here. I&apos;ve forgotten now, 760 pixels. Honestly, I probably could
+do a little bit more for the styling in between these sizes, somewhere
+in 61, sure, that&apos;s fine. But at this point, we&apos;re getting to a point
+where our layout just doesn&apos;t look quite as good at this size, we could
+do a better job.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 460/461.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image460.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image461.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+We can add a media query, adjust our layout a little bit based on the
+size here. Again, we&apos;ll just copy and paste our styles in place so you
+can get a sense of how that could work. Once you&apos;ve got that set up,
+let&apos;s go in and add some styles for immediate query. Again, Visual
+Studio is going to mess up my formatting for these, but that&apos;s okay.
+When I&apos;m putting stuff inside the media, I like things to line up all
+in one long line rather than to expand the output visuals to you. It&apos;s
+not going to cooperate with me in that, but that&apos;s okay.
+
+So I&apos;m going to add 760 media query styling for the slider and for the
+overview to make those two areas look a little bit better.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 462.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image462.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+I&apos;m going to copy that. Come over here and scroll down and you can see
+I have a media query here for 760 pixels, so these rules are going to go
+between these two curly braces in here. I&apos;m going to paste those in,
+and even tap them in a little bit there. When I click save, it&apos;s going
+to expand more, which drives me nuts, but that&apos;s right.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 463.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image463.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+But if I come back and look at that, if I come back here and refresh up
+at the top of my page, you&apos;ll see it&apos;s adjusted this down here, it&apos;s
+made some adjustments to this area. Basically, what I&apos;m doing here is
+I&apos;m just overriding some of the styles that are up above with some
+slightly new versions, set overview to display Fleck&apos;s, for example, so
+that I can get this entire section here, so I can get this card sitting
+next to these columns rather than just one column. By the time I get to
+760 pixels, I&apos;ve got enough room for some additional columns.
+
+It&apos;s a lot easier to add layout as the screen gets wider than it is to
+take it away as the screen gets smaller. So that&apos;s where we start with
+mobile first, is that we can easily just add layer by just tying this
+section to the split flex and just add a few rules to add some layout as
+the screen gets wider.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 464/465.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image464.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image465.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 466.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image466.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Okay, great. we&apos;ve got that into place. I have a few more rules for the
+download and pricing style sections. Again, they&apos;re just giving me some
+lay up by satting display, flex and flex wrap, setting the article to
+flex 1, just giving me some layout since I&apos;ve got enough screen space
+to do it here. All of these are actually just providing a little bit of
+layout using the flex parts model here, flex parts layout model. Again,
+these are going to go into the 760 media query.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 467.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image467.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+So just after these rules here, but this is the closing of the media
+career, that curly brace, don&apos;t lose that. It can screw things up, it
+goes after that one. I wish that it didn&apos;t. Do this thing where it
+piles them all up. In fact, I&apos;m going to leave those like that and not
+save it until we and get the next set, which is for the lesson and our
+team.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 468/469.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image468.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image469.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Then we&apos;ll do a few minor changes for the footer as well. So it&apos;s
+great to put all of these in. Again, if you&apos;re not sure what these do,
+I really recommend coming in and messing around with them, see what they
+do when you take them out, see what happens.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 470/471.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image470.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image471.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+We got that and then we&apos;ve got the ones for the footer as well.
+Hopefully, and I realized that by copying and pasting the stuff in you
+probably just copying and pasting without really understanding and
+following along. But hopefully, some of this sinks in a little bit in
+terms of seeing the page come together so that when you start doing the
+interaction design stuff, it&apos;ll make more sense. That&apos;s my hope. But
+if it doesn&apos;t feel like it seems like it&apos;s doing that and that&apos;s
+fine, you could skip to the end. I will provide this file before you&apos;re
+finished when we&apos;re done.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 472/473.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image472.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image473.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+You can see I&apos;ve added a little bit of layout here. Down here, I have
+added a little bit lay. Pricing is over here and my tabs are on this
+side instead of one on top of the other.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 474.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image474.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+This is now on the left instead of on top, and then we&apos;ve got a quote
+here which will use content rotator for.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 475/476.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image475.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image476.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Your team has been reconfigured to make that look a little bit better,
+and in the footer set up to look a little bit better. By the way, in the
+footer, I have the names of all the different people who provided these
+images taken off on splash. Great, we&apos;ve got the 760 media query done,
+let&apos;s go ahead next and work on the next media query for the full
+desktop size.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-37">2.37 Media Query for 1020 Pixels Wide (4:56)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 477. media query for 1020 pixels wide (2.37) (2xx) ~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image477.webp"
+  style="width:40%;"
+  title="2.37 Media Query for 1020 Pixels Wide"
+  alt="2.37 Media Query for 1020 Pixels Wide." />
+</p>
+
+The next breakpoint for my media query is 1020 pixels.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 478/479.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image478.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image479.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+When I get my screen that wide, I want to make further adjustments to
+the layout. And we&apos;re really getting much closer to the design that you
+saw over here on my Adobe XD file. At that point I have one more but
+plan, we&apos;re getting a lot closer to that.
+
+So come over to your thing here and set this so that it&apos;s 1020 pixels
+wide or a little bit wider and I might need to move my with this thing
+down or maybe make this a little bit smaller here. 1020 1021 that&apos;s
+plenty. There we go. At this point, like if you look at this, the visual
+relationships just aren&apos;t as good as they could be. Like this is too
+wide in here, I&apos;ve got too much space in here and this is kind of
+scrunched in year now. This is where I want to make some adjustments
+here to this looks kind of funny, maybe it&apos;s narrow enough and wide
+enough now that I can get all these three things kind of in a row here.
+So, we just want to make some adjustments to how these different
+elements layout and the space available for them to make them look a
+little bit better. And this is all just part of what you do as a
+designer.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 480/481.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image480.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image481.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+I&apos;m going to come in here, I&apos;m going to grab these rules here for the
+body, the header and the slider styles just got some basic styling
+changes that I want to make happen here and we will put those inside of
+the large tablet size 1020 pixels. Stick them in there.
+
+Okay that&apos;s going to take care of those elements the body, the header
+and the slider. I&apos;ll get slightly different layout different, slightly
+different padding, you can tell all this stuff has to do pretty much
+with layout with 33% padding 30. It&apos;s all having things to do with
+layout in here that I&apos;m applying to these elements. And again, if you
+want to mess around with it, feel free.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 482/483.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image482.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image483.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Well, these ones for the pricing Tableaus in I mean add that&apos;s the
+pricing and the downloads.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 484/485.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image484.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image485.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+This one is the listen and teams. You don&apos;t need to do anything for the
+footer. It&apos;ll just get wider. Listen styles tab those in. Now when I
+say this is all going to get expanded sadly, but there we go. Maybe like
+reading it that way for the media queries. I like them all in one line.
+I find it there&apos;s usually just one or two declarations. Not that much
+going on. This one had more, but I prefer to put them on one line.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 486/487.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image486.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image487.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Let&apos;s go take a look and see what all that did for our 1020 version of
+our page refresh. Now, this is now taking up a third of the width of the
+page. My logo&apos;s over here. My navigation is lined up down here. The
+spacing looks nicer for this down here. This is all in one line, like I
+was mentioning before, that makes sense. This is all set and ready to be
+animated, which is kind of cool over here, we&apos;ve got less space for
+this thing and more space for the tabs makes sense now that we&apos;ve got
+more room for that. It&apos;s just a matter of coming up with the right
+proportions down here. This has been made smaller and this takes up more
+space in the size of the font has been adjusted. This is looking
+slightly different with the picture over here now, so that&apos;s all-in-one
+row and the footer stays the same. There we go.
+
+The 1020 media query is done and our page is really coming together.
+I&apos;m going to look at the next one in the next lesson.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-38">2.38 Media Query for 1200 Pixels Wide</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 488. media query for 1200 pixels wide (2.38) (2xx) ~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image488.webp"
+  style="width:40%;"
+  title="2.38 Media Query for 1200 Pixels Wide"
+  alt="2.38 Media Query for 1200 Pixels Wide." />
+</p>
+
+The media query for 1200 pixels wide is for when somebody is viewing
+this website on a nice large desktop in their browsers, nice and wide,
+and they&apos;ve got lots of screen real estate, in which case we can really
+kind of optimize our layout for that look.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 489.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image489.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+So let&apos;s go ahead and add these rules in over there and you need to set
+your width here for me to do it.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 490.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image490.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+I&apos;m going to need to move this thing down to the bottom here and I&apos;m
+going to shrink that down a little bit. And then set this to 1200, maybe
+1201 like that, because now I&apos;ve got a lot of room so I can really do
+some nice stuff here. I&apos;m going to put these into three columns instead
+of two. This is too wide over here, I can shrink that one down, just
+make minor changes in here. Some of them don&apos;t need much, this one
+doesn&apos;t need a lot of change, but just making some minor changes to
+kind of make the stuff look a little bit better on the wider screen. So
+let&apos;s go over and add those rules that we have on our snippets and
+they&apos;re here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 491/492.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image491.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image492.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+I want to cut this set first. I&apos;m giving sections 50 pixels padding, so
+now I&apos;ve got a lot of room, I can actually space things out, give them
+a little bit of room to breathe, all that kind of stuff. It all just has
+to do with providing some better spacing in here, and when you&apos;re a
+designer, spacing is really important because it really helps
+communicate. So you want to get that kind of stuff just right as much as
+possible.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 493/494.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image493.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image494.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+And then we&apos;ve got a few more here for the overview, download and
+pricing styles. I want to switch to here and add those in. Again, the
+angle brackets are there to make sure that only articles that are direct
+descendant of the overview section. So it won&apos;t apply to an article
+inside of an article, it will only apply to those parent level ones, and
+that&apos;s kind of helpful to be aware of.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 495/496.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image495.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image496.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Okay, continue on here and get the last piece for this one. And finally,
+put that in here. The footer gets some new styling at 1200 pixels to
+adjust for that.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 497/498.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image497.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image498.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+And then finally, we&apos;ve got one little rule that goes in the 1500 or
+larger media query, and it has to do with the fact that the header is
+set to fixed positioning, but I want to make sure it gets centered in
+the screen. If my screen is larger than 1500 pixels, which would be
+really large, and I can&apos;t even demonstrate that here in this lesson,
+but you&apos;ll have to trust me that it works. Or try it out or if you&apos;ve
+got a nice big monitor you&apos;ll see the difference. Take it out and see
+what it looks like without it and then put it back in.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 499/500.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image499.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image500.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+So now I&apos;ve got that all sort of sorted out. And in there, I can come
+over and take a look at my page. You can see this got reconfigured even
+smaller to fit a little bit better. Down here, I&apos;ve given 50 pixels
+padding on the edges, 50 pixels padding. I&apos;ve got some room here. It&apos;s
+nice to have some room. And so since I&apos;ve got some room, I might as
+well use it to give myself some white space, make the page a little bit
+easier to read, make it a little bit nicer.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 501/502.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image501.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image502.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Down here, again, adding some room, 50 pixels padding around these
+things. 50 pixels padding around this element here. Give it a little bit
+of breathing room.
+
+Same thing down here. Now I&apos;ve got some extra padding in here. Give it
+a little bit of breathing room, extra padding here to give it a little
+bit of breathing room.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 503/504.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image503.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image504.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+I bumped up the sizing of this quote a lot. I mean, really make it stand
+out. I got the room now, might as well, right? Down here, the team
+hasn&apos;t changed too much, just some extra spacing there, and then the
+footer got cleaned up with a little bit of extra room and kind of
+cleaning that up.
+
+And now we have the entire style of the entire page put into place, and
+hopefully, it came together. Okay, for you, I recommend playing around
+with it, seeing what sort of different kinds of things you can do with
+it. You can always come back to my version. I will give you this version
+as something that you can download and so you can get my version anyway,
+so there&apos;s no reason why you shouldn&apos;t play around with this and mess
+around with it, come up with your own styling and see what you can do
+with it. It&apos;s always fun to do that.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-39">2.39 Scription Site: Building Interactive Elements Challenges</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 505. scription site: building interactive elements challenges (2xx) ~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image505.webp"
+  style="width:40%;"
+  title="2.39 Scription Site: Building Interactive Elements Challenges"
+  alt="2.39 Scription Site: Building Interactive Elements Challenges." />
+</p>
+
+In the previous lesson, we did the HTML and CSS to create this fictional
+web page for scription, and this fictional company, and it looks really
+nice, and I hope you like it and perhaps you did this or perhaps you&apos;re
+working with my files, and either way, you&apos;ve got a nice foundation on
+which you can actually build in some interactive elements. This is your
+opportunity to show all the great things you&apos;ve learned in our
+JavaScript specialization and to do some challenges to build some
+interactive elements in here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 506.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image506.webp"
+  style="width:40%;"
+  alt="." />
+</p>
+
+Let&apos;s take a look at what some of these different interactive elements
+are. If I come over to this tab here and I will provide this page for
+you, so that you can see what you&apos;re supposed to be doing.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 507.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image507.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Here I have the scription web site with all of the interactive elements
+put in it. You can see that it&apos;s got a flex slider and it&apos;s running
+and doing its thing and it&apos;s functional, and you can click on the
+different links here, different pieces here. It&apos;s stuff set that up, so
+that&apos;s all working.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 508.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image508.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+You&apos;ll notice that I&apos;ve got a nice, smooth scroll script working here
+and it moves down to each section as we go down here, when we get down
+to the download section.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 509/510.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image509.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image510.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Of all of the challenges, this is the toughest one, because this is the
+one that doesn&apos;t match exactly what we&apos;ve done in the other lessons,
+you&apos;re going to have to figure out this one on your own. These list of
+items moves up and pops into place and highlights the top item. To give
+you a sense of all the features this piece of software has to offer over
+here, this would be a lesson, but it&apos;s really just a picture of a
+lesson. No big deal.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 511/512.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image511.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image512.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+We go into pricing, and sure enough, you have tabs, you know how to make
+a tabs interface, you do it with JQuery, you do it with JavaScript,
+either one. I leave it up to you to choose which one you want to use.
+Tabs interface.
+
+Turn to the listen section (right). You will see that we have the
+content rotator, you know how to put any content rotator. We&apos;ve done
+that script. It&apos;s your job to add all of these scripts together to make
+them all look right on the page. Our team doesn&apos;t have anything
+interactive on it and the footer doesn&apos;t, but we can go all the way
+back up to the top of the page by clicking the logo. These are all of
+the pieces for you to build in, and it should be pretty fun.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 513.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image513.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Let&apos;s take a quick look at the challenges as they&apos;re laid out here.
+We&apos;ve got all of that done, and that&apos;s our introduction, we want to
+make sure that you link to a script file to make sure there are no
+variables in the global scope, so each script needs to be in IIFE
+closure or some other function that will keep the variable from creeping
+into the global scope.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 514.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image514.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+The first challenge is the smooth scroll. Again, when the user clicks
+the links in the navigation, it should scroll to the correct point on
+the page. In addition, when the user clicks on a logo, it should scroll
+to the very top of the page. See if you can figure it out. It&apos;s just a
+very small change from what we&apos;ve done in the past with the smooth
+scroll script. It&apos;s really just the easy part of the smooth scroll
+script where it&apos;s scrolling down to the correct part of the page,
+we&apos;re not doing any of the page tracking stuff that was much harder. So
+that&apos;s challenge one.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 515.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image515.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Some hints for this, see if you can modify the JQuery smooth scroll
+script from the first lesson module to make it work. You might find it
+easiest to use two click handlers, one that targets the links in the
+navigation and one that targets the logo. I also made the animation feel
+snappy. I set it at 600 milliseconds and I used the easeinCirc easing.
+
+The easing plugin is already included on the page, so you don&apos;t even
+have to add that. Be sure to put the entire script inside of an IIFE,
+immediately invoked function expression so that no variables end up in
+the global scope.
+
+Also, make sure that all the variables are declared with either const or
+let const as preferred only use let if the value of the variable needs
+to change in the course of writing the script, and the way to do that is
+just to set everything to const and then if it breaks, find which one is
+breaking and change that one to let. Usually it&apos;s const.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 516.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image516.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Challenge 2, add the Flexslider. For this challenge, turn the image at
+the top of the page into a flexslider. To do this, go back to the
+Flexslider lesson for a reminder on how the Flexslider works. Add the
+link to the Flexslider the CSS to the index file at the markup for the
+additional slides, the index file. By the way, I&apos;ve provided some
+additional snippets so that adding this markup will be easier.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 517.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image517.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Here are all the list items that you need for the Flexslider and I will
+provide this file for you so you can just paste this right in. You
+don&apos;t have to do a lot of tedious typing and all that stuff, which is
+what I did when I made this. I&apos;m saving you the pain that I went
+through by providing you with these snippets. You&apos;ll add the additional
+markup, add the link to the Flexslider JS script to the bottom of the
+index file. I provided with this lesson, again, the download for the
+Flexslider&apos;s files. You&apos;ll need those in order to make this work.
+
+Adjust the styling in the CSS file and add appropriate script to the JS
+file to initialize the slider. I did modify the slider a little bit with
+some of the features that we saw in the other slider.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 518.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image518.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Notice that I also got rid of the arrows that point left and right.
+That&apos;s a setting, so you can just turn them off by just setting it to
+false. I got rid of that because they look okay on the desktop version,
+although they don&apos;t really go with the style of the site. But they
+really look terrible on the mobile version. I decided I didn&apos;t want
+them anymore. I didn&apos;t really need that particular item in there. I did
+that as well.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 519.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image519.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Once you get the Flexslider done, you can go on to, Challenge 3, add the
+tabs. For this challenge add the script to make the tabs work in the
+pricing section. You need to learn how to make the tabs. In the second
+course, you learned how to make the tabs earlier on in this course and
+in the previous course.
+
+The only real adjustments you need to make to the jQuery, of the
+JavaScript for this version of the script is the background color
+settings. Other than that, it&apos;s really a copy and paste of the script.
+You could use the plain JS version of the script. You could use that
+version but if you do, you&apos;ll need to add a few styles to the
+style-sheet to make that version work and you can go back and look at
+that version of that script to see what styles you would need to add.
+That&apos;s Challenge 3, to get that to work.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 520.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image520.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Challenge 4, is the content rotator. Add the content rotator for the
+client quotes to this challenge. To do this, you&apos;ll need to add more
+markup for the additional quotes which are provided in the snippets. You
+also need to modify the script so that they&apos;re rotating block quotes
+instead of paragraphs. You&apos;ll also need to add these two rules to the
+style-sheet in the listen section, set their rotator min-height, and set
+the block-quote to display none initially so they don&apos;t come up showing
+at all.
+
+Also, in the 1020px style-sheet, you&apos;ll change the min-height for the
+rotator to 550 pixels. Once you get those pieces in place, you can go
+ahead and work on the content rotator. You can pause this lesson here,
+we&apos;ll come back to it to see exactly what you need to do in order to
+get that to work.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 521.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image521.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Challenge 5, this is really the toughest challenge because you have not
+seen this one before. But you have all of the pieces you need in order
+to make the script work, so see if you can do it, see if you can figure
+it out from scratch. Check out how the feature is supposed to work by
+looking at the finished example and see if you can make the element
+function.
+
+There are a few ways to write the script. You can either use the
+set-interval method or you could use set-timeout and recursion. You
+might also find the clone method helpful and ultimately that&apos;s what I
+did. When the page loads, I make a copy of that unordered list that is
+rotating into place. I clone it and put it at the bottom and then I move
+them both up together. When the top one moves off the screen, I remove
+it and then clone it at the bottom. This is very similar to what we did
+in our own spider script that we wrote with jQuery. It&apos;s a very similar
+technique. See if you can make it work. With that, I&apos;ll let you go
+forward and see what you can do with this and I hope you post on the
+discussion boards what you found successful and help out others who are
+working on this project. Hopefully, it&apos;s a lot of fun.
+
+<h3>Scription Finished Version</h3>
+
+Here is a [link](https://cpe-web-assignments.ucdavis.edu/scription/) to
+the finished version of the Scription Site Honor&apos;s Assignment.
+
+<https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/PEs9J/scription-finished-version>
+
+<h3>PDF of Presentations</h3>
+
+Here is a PDF of the presentation slides used in the lessons for this
+section:
+
+<https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/gpBsr/pdf-of-presentations>
+
+-   <b>2.39 ScriptionSite-Part1-HTML-CSS.pdf</b>
+
+-   <b>2.39 ScriptionSite-Part2-InteractionChallenges.pdf</b>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-01">3.01 Module 3 Intro (0:37)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 522. module 3 intro (3.01) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image522.webp"
+  style="width:40%;"
+  title="3.01 Module 3 Introduction"
+  alt="3.01 Module 3 Introduction." />
+</p>
+
+Hello, welcome to the third module and our third course on JavaScript.
+In this module, we&apos;re going to introduce objects and we&apos;ll do a lot of
+practice with them so you can get good at the syntax, and get
+comfortable with working with them. Plus, we&apos;re going to introduce a
+game that we&apos;re going to work on in our fourth module, and see how we
+can take a more complex script and break it down. It&apos;s really
+interesting content and I think you&apos;re going to get a lot out of it. I
+look forward to doing it with you. Let&apos;s get started.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-02">3.02 Introduction to Objects and Data in JS (5:52)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 523.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image523.webp"
+  style="width:40%;"
+  alt="." />
+</p>
+
+Let&apos;s talk about a few of the familiar pieces we have with the
+JavaScript language.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 524.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image524.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+You&apos;re already familiar with variables. That&apos;s a data structure that
+can hold a variable. We have the var cheese and it can hold a value like
+yummy or we have an array, that&apos;s another data structure that we&apos;re
+familiar with. And an array can have, here we have var animals and it
+can have several animals in the array. So we&apos;re familiar with those in
+JavaScript.
+
+One thing the JavaScript does not have is associative arrays. Other
+languages, some languages like PHP have associative arrays. And an
+associative array as seen above is an array that has a key value pair
+for each element of the array. So we have a variable person and in PHP
+recognized variable because it starts with the dollar sign. But we have
+variable <b>person</b> and it&apos;s an array, and in the array we have key
+value pairs. The key is <b>firstname</b> and the <b>lastname</b> is and then
+there&apos;s the <b>firstname</b> value which is John. And then we have another
+key which is <b>lastname</b>, which has the value Smith in there. Well we
+can do the same thing with JavaScript but not with the arrays. Instead
+we&apos;ll use <b>objects</b>.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 525.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image525.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+This is the object literal in JavaScript. Here I have a variable person
+and it&apos;s assigned an object, and the object consists of key value
+pairs. Sometimes these are referred to as members and sometimes they&apos;re
+referred to as properties. The <b>firstname</b> property of <b>person</b>
+where the <b>lastname</b> property of <b>person</b>. And then <b>firstname</b>
+has a value which is John and the <b>lastname</b> is a value which is
+Smith. And <b>age</b> another property with the value of 25.
+
+The way you would access these in JavaScript is typing the name of the
+variable <b>person</b> and then a period or dot and then the key, the
+property first name. And that will give you the value John. Frequently
+you&apos;ll see <b>objects</b> organized like this. <b>var person</b> and then
+you&apos;ll have the <b>firstname</b> on its own line. The first each member of
+the object, each key value pair. Each property will have a line inside
+the object. And notice that <b>firstname</b> doesn&apos;t have quotes around it
+and but John does. And this is how you will frequently see <b>objects</b>
+listed in JavaScript is in this sort of format, because it&apos;s easier to
+read.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 526.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image526.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Now notice here again, I&apos;m going to point this out because this is
+really important. The key in the object first name does not get quotes
+around it, but the value does unless the value is a number like 25.
+Here, we have aged 25, and JavaScript knows what a 25 is. The other
+thing to notice here is that each key value pair is followed by a comma
+except for the last one. And that&apos;s really kind of important as well.
+So you&apos;ll have key value pairs and one on each line, one key value pair
+in each line followed with a comma.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 527.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image527.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Now it&apos;s really important to get in the habit of actually typing this.
+And to do this now just to demonstrate, you could come over to a new
+browser tab, open up, choose, inspect, right? Click and choose inspect
+and open up your console log here, you get to the console log here. And
+the practice typing this var person equals Jose and that goes in quotes.
+And it&apos;s really important to type this and to do this even with these
+very basic exercises, just because the way you learn JavaScript is by
+actually typing it.
+
+You&apos;re not going to learn it unless you actually type it and really see
+and feel and get some muscle memory in around the actual syntax. And
+then we have a comma there and then age 25 or whatever you want to put
+in for an age. And remember that one does not get a comma, we just close
+the object and that object has been defined.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 528.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image528.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+And now I could access person.firstname and you can see it even fills it
+out for me, I can press tab and it&apos;ll return Jose. You want to practice
+this as much as you can, and get used to using these data structures.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 529.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image529.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+One more thing about objects before we close out this lesson is that you
+can also create an object like this. Here I have person, a variable
+person and I&apos;ve assigned it using the new keyword, new object with a
+capital O. And that will create a new object. And then I can create
+members of that object very easily by just typing person dot and then a
+key like first name and then assign it a value like so. And you can
+create objects this way, but it&apos;s much more common to see them created
+the other way using the object literal. It&apos;s shorter syntax, is a
+little bit easier to follow, but you can create objects this way as
+well.
+
+<h3>Start Files: Working with Objects in JavaScript</h3>
+
+Attached is a zip file of the the things you need to begin this
+exercise. A <b>zip file</b> is defined as: a computer file whose contents
+include one or more files that are compressed for storage or
+transmission, often carrying the extension .ZIP.
+
+-   <b>3.02 jsonExample.html.zip -- download to unzip</b>
+
+<https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/tTx6B/start-files-working-with-objects-in-javascript>
+
+<h3>Additional Resource:</h3>
+
+-   [How to open a zip file for either Mac or
+    PC](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/)
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-03">3.03 Objects Can Contain Arrays and Other Objects (5:04)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 530. objects can contain arrays and other objects (3.03) (2xx) ~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image530.webp"
+  style="width:40%;"
+  title="3.03 Objects Can Contain Arrays and Other Objects"
+  alt="3.03 Objects Can Contain Arrays and Other Objects." />
+</p>
+
+The object data format in JavaScript is very flexible because objects
+can contain arrays and other objects.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 531.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image531.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Here you can see we have an object called person and we&apos;ve expanded it
+a bit so it has first name and last name, but it also has an array for
+pets. So, pets is holding a value that&apos;s an array. It has another
+object as a member of this object. The phone number is an object, so
+it&apos;s an object inside of an object and inside phone number it has its
+own key value pairs. And then we can access these different values
+through similar methods that we used before down here.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 532.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image532.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+I recommend typing this out and seeing if you can get it to work exactly
+the way this works. I&apos;m going to do that over here and you&apos;re not
+going to have to watch me type it out because that&apos;s kind of painful.
+I&apos;m just going to paste it in here. But you can see I&apos;ve created this
+object and now I could access elements of this object by doing
+<b>person.firstname</b> or <b>person.pets</b> square bracket two. Well get me
+a chicken, <b>person.pets&lbrack;2&rbrack;</b>. It gets me the chicken or I could do a
+<b>person.phonenumber</b> and then within phone number I could have work
+(<b>person.phonenumber.work</b>) and that will get me the work phone
+number. We can access all the data inside of this object.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 533.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image533.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+You can even update data very easily with this and we&apos;ll talk more
+about this later but it&apos;s possible to update data if I did
+<b>person.firstname</b> equals Jose. I need to go in quotes So you can now
+see that person. If I just do person you&apos;ll see I get the whole object
+here and that first name is set to Jose. So we can actually work with
+the data inside the object and we can update it or we can access the
+data that&apos;s inside the object and the object can have other objects. It
+can have a raise. All kinds of fun stuff can go in there and that&apos;s a
+really important thing to understand about objects as a data structure.
+They&apos;re very flexible and very useful for working with in this way.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 534.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image534.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Another thing that&apos;s interesting about objects is that they can contain
+functions as one of the values of one of their properties and that may
+seem like a weird thing, but remember in JavaScript functions are first
+class. So wherever you can put data you can put a function.
+
+Here you can see I have an object for a <b>person</b> with <b>firstname</b>
+and <b>lastname</b>. And then I have a <b>greeting</b> which is a function
+which has a value, which is a <b>function()</b>. And the function, all that
+function does is <b>console.log("Hello!")},</b> it doesn&apos;t do anything
+very interesting, but we can access that value. We can access that
+function by doing <b>person.greeting();</b> and then putting the
+parentheses after greeting after that property. And it will run that
+function that&apos;s in that assigned to that greeting key there. So let&apos;s
+do this really quickly because this is kind of interesting.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 535.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image535.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+If you come back over here to your tab, we can clear out the <b>console</b>
+here and I&apos;m just going to paste this in just so that it&apos;s there and
+it&apos;s all all done. But now I could type <b>person.greeting();</b> and you
+can see I get hello. So it&apos;s actually running this <b>function</b>, this
+anonymous <b>function</b> that&apos;s assigned to <b>greeting</b> here. And
+remember when we put a <b>function</b> as a member of an <b>object</b>, this
+<b>hello function</b> belongs to <b>person</b>. Remember what we call that,
+that&apos;s called a <b>method</b>. So, it&apos;s really kind of amazing that you
+can assign a <b>method</b>, creative <b>function</b>, create a <b>method</b> that
+belongs to an <b>object</b> and then access that <b>method</b> through the
+<b>object</b>, like this <b>person.greeting</b>. And that&apos;s a really cool
+feature of JavaScript in <b>objects</b>.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-04">3.04 Functions Inside Objects Equals Methods (6:14)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 536. functions inside objects equals methods (3.04) (2xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image536.webp"
+  style="width:40%;"
+  title="3.04 Functions Inside Objects Equals Methods"
+  alt="3.04 Functions Inside Objects Equals Methods." />
+</p>
+
+Let&apos;s take this idea a little bit further.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 537.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image537.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+We can put <b>functions</b> inside <b>objects</b>, which again are called
+<b>methods</b>. But also we can use the <b>'this'</b> keyword, to reference
+other <b>objects</b> or other <b>keys</b> within the <b>object</b>. And that&apos;s
+pretty handy, this can be pretty helpful from time to time. So, here we
+have <b>person</b> and we have a property called <b>firstname</b>, which has a
+value, John a property called <b>lastname</b>, which has a value Smith and
+a property called <b>greeting</b> that holds a <b>function</b>. And this
+function is going to just do a <b>console.log</b>, but the <b>console.log</b>
+is going to say hello this dot <b>firstname</b>. So that&apos;s going to go
+into the <b>firstname</b> property and get the value and put it there. And
+this dot <b>lastname</b> so that&apos;s going to go into the last new property
+and get its value and put it there. So, we should get hello John Smith
+out of this. And, the "<b>this</b>" keyword can be somewhat confusing in
+javascript, but it refers to this <b>object</b>, this <b>person</b>, that&apos;s
+the context in which this makes sense here.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 538.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image538.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+So, let&apos;s give this a try over here. And it will say hello John Smith.
+This is referring to this <b>firstname</b> and this <b>lastname</b>. And
+remember that this is a key word here in javascript, so that&apos;s
+important.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 539.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image539.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+The next thing to talk about is the <b>object constructor</b>. This will
+push our <b>objects</b>, even further into something even more useful. And
+what an <b>object constructor</b> does, is it creates a <b>use function</b> to
+create an <b>object</b> that could be like a reusable template that you
+could use over and over again.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 540. objects can contain functions (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image540.webp"
+  style="width:50%;"
+  title="Objects can contain functions"
+  alt="Objects can contain functions." />
+</p>
+
+<p>So here, if you look at this, what we have here on this screen, we have a <b>function</b> 
+<b>person</b>, and when you create <b>constructive functions</b>, the standard is to make 
+the first letter of the name of that constructor a capital letter. So it&apos;s a person 
+with a capital P. And we&apos;re going to pass in some values first, <b>last age</b> and 
+<b>eye color</b>. And you could have other values if you wanted to as well. <b>Height, 
+weight, hair color</b>, I don&apos;t know whatever other things you want to use to describe 
+that person and notice we&apos;re using the this keyword.</p>
+
+<p>This, dot <b>firstname</b> creates a <b>firstname</b>, <b>property</b> on <b>person</b> 
+and it&apos;s going to be assigned whatever gets passed in, as the value for first when the 
+<b>object</b> is in and the same thing for <b>lastname</b>, <b>age</b> and <b>eyecolor</b>. 
+So, let&apos;s give this a try to see how it works and recommend, typing this out because 
+we&apos;re starting to have seen a number of different ways of using objects now and if
+you&apos;re not typing them, you&apos;re not going to get comfortable with them or 
+remember them.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 541.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image541.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+I&apos;m going to go over here to my tab here, and I&apos;m just going to paste
+it in but you should definitely type it. Type this whole thing out here.
+And once I put this in here and press return, or enter on my keyboard, I
+can then make a copy of this person used this as a template. So I could
+say something like, bar my mother, and I can assign it using the new
+keyword new person noticed with the capital P. And then in here I&apos;m
+going to put in, <b>firstName</b> &apos;&apos;Mary&apos;&apos;, <b>lastName</b> "Mead",
+<b>age</b> 60, and then <b>eyeColor</b> "brown". Now I have a copy of this
+<b>object</b> in <b>myMother</b> and I can access its values by typing
+<b>myMother</b> dot <b>firstName</b>. It&apos;s that 2nd one there. Now we had
+<b>firstName</b> with the capital in there.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 542.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image542.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+So there we go, we can actually access these values for this <b>object</b>
+here and I can make another <b>object</b>. <b>myFather</b>, equals <b>new
+Person</b>. George Mead 85. Great, I know something like that. And now I
+can access <b>myFather</b>. Right, <b>lastName</b>. And you&apos;ll see that I get
+"Mead".
+
+I can use this <b>constructor function</b>, to create <b>objects</b> that are
+reusable <b>objects</b>, and can have different values each time you create
+a new <b>object</b> from that <b>constructive function</b>. And this is a very
+powerful pattern, that you&apos;ll see frequently in, more sophisticated,
+more complex javascript programming.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-05">3.05 Putting Objects and Functions Together (5:18)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 543. putting objects and functions together (3.05) (2xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image543.webp"
+  style="width:40%;"
+  title="3.05 Putting Objects and Functions Together"
+  alt="3.05 Putting Objects and Functions Together." />
+</p>
+
+Putting objects and functions together, this is a really powerful
+pattern, and it&apos;s used frequently in more sophisticated JavaScript
+programming, and we&apos;re not going to do anything in this course that&apos;s
+going to really make use of a pattern like this.
+
+But I want to show it to you as we&apos;re talking about <b>objects</b>, so you
+can start to think about ways in which you can use <b>objects</b> and
+<b>functions</b> together that are very powerful.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 544.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image544.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Here on the left, you can see that we have a <b>function</b> called
+<b>printableMessage</b>, and in that <b>function</b> there&apos;s a variable
+called <b>message</b> which is, set to the value of &apos;hello&apos;. Then we have
+another <b>function</b> in here called <b>printMessage</b>, which all it does
+is print out that value that&apos;s inside the message variable. But I have
+another function called <b>setMessage</b>, which takes a <b>parameter</b>, and
+what that <b>parameter</b> will do is it&apos;ll change the value, of
+<b>message</b>, at least temporarily, you&apos;ll see in a minute, and then
+what&apos;s really important here is that this <b>function</b> returns an
+<b>object</b>, and the <b>object</b> that it returns has two members as the
+<b>function</b> <b>printMessage</b> is returned, and the <b>function</b>
+<b>setMessage</b> is returned.
+
+We can actually use this thing as a factory to create different values
+for these <b>variables</b> within this <b>function</b>. We&apos;ve talked a bit
+before about <b>closures</b>, and really any function in JavaScript is a
+<b>closure</b>. However, we&apos;ve talked about <b>scoping closures</b>, and this
+is a really good example of the power of a <b>closure</b>, because we can
+actually assign <b>variables</b> that hold <b>printableMessage</b>, and we can
+do different things with them without actually affecting what&apos;s inside
+this <b>closure</b>.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 545.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image545.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Let&apos;s see how this works, and again, I strongly recommend that you
+actually type this out into an HTML file or else in script tags. You can
+see that it gets defined here. That will get to find, <b>printMessage.</b>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 546.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image546.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Now I can make a <b>variable var</b> <b>awesome1</b>, equals printable
+<b>message{}</b> there, and I can do, <b>awesome1</b>. <b>PrintMessage{},</b> and
+it should run that function in there and give me hello, but I could also
+make another variable var <b>awesome2</b>, and assign it also that same
+function <b>PrintMessage</b>, like that. I have assigned that the same
+<b>function</b> and here I can do, <b>awesome2.setMessage</b>, I&apos;m going to
+put in a new message, <b>greetings</b> like so. What that will do, is
+it&apos;ll go in run this <b>function</b> and say, new message greeting, a sign
+message greeting, so that when I run print message, it&apos;s going to
+actually print that message.
+
+<p>Now if I do, <b>awesome2.printMessage</b>, I get <b>greetings</b>, however,
+again, if I do </b>awesome1.printMessage</b>, I still get hello. That&apos;s
+really interesting that I can actually use this pattern here to set
+different values and then access those values in different ways through
+different variables. It&apos;s a very powerful pattern and worth being aware
+of, even though we&apos;re not going to do this thing a lot in this course.
+But as we&apos;re talking about objects, it&apos;s important to talk about how
+objects and functions together in JavaScript are very powerful, and give
+you this opportunity to create things that are reusable modules. That&apos;s
+a a key thing in any programming language is to be able to do that.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-06">3.06 Data Formats - XML (3:47)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 547. data formats - xml (3.06) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image547.webp"
+  style="width:40%;"
+  alt="3.06 Data Formats - XML." />
+</p>
+
+<p>The next thing to talk about in our journey with Objects, is to talk
+about data formats and to talk about data. Here, we&apos;re seeing a data
+format called XML.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 548.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image548.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+If you look at it, it should look fairly familiar in the sense that we
+have data that has been described using tags, and the tags look a little
+bit like what you would see with HTML, except unlike HTML, where you
+have certain set tags that browsers understand, you can use any tag you
+want in XML as long as you open it and close it properly. You can
+actually create whatever tags you want that will help describe your
+data.
+
+XML was and is a very popular format, has been for a long time. It has
+certain advantages. One of the advantages is that, because you&apos;re using
+tags to describe the data, it provides structure for the data, that is
+easily understood. However, XML has largely been eclipsed by another
+data format called JSON, which stands for JavaScript Object Notation.
+
+Over here, we have a level graph here, about the popularity of these.
+You can see JSON&apos;s going off the chart here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 549.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image549.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+This comes from this article over here, &quot;The Rise of JSON.&quot; This is
+interesting, about how JSON has become very popular. You&apos;ll also notice
+this name, Douglas Crockford, was involved with the invention of this
+data format JSON. We&apos;ve talked about him before. XML is a valuable
+format for data, but it&apos;s being largely replaced by JSON.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 550.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image550.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+If we look at JSON and Objects now, on the left you&apos;ll see something
+that is JSON formatted strings. This is data in JSON format, again,
+JavaScript Object Notation. On the right, you&apos;re seeing a JavaScript
+<b>object</b> and you should notice that the two of these things look very
+similar to each other.
+
+The differences are; that on the left, the whole thing is a <b>string</b>.
+You&apos;ll notice that there&apos;s a quote mark right at the very top, and a
+quote mark right at the bottom. Then inside there, we&apos;ve got the curly
+braces with the key-value pairs. You&apos;ll notice that with JSON, both the
+keys and the values are inside quotes, whereas in the Object, only the
+values are inside quotes. This is an important difference between the
+two, but other than that, they&apos;re very similar to each other in the way
+they look and the way they act. We are familiar with this format right
+from the beginning if you&apos;re already using Objects.
+
+To take a JSON string of data and turn it into an object in JavaScript,
+is a trivial matter, as we&apos;ll see in just a minute because this is
+something that happens a lot. A lot of times you&apos;re going to have data
+in JSON format, and then you&apos;re going to convert that data into an
+object that you can manipulate and use within your JavaScript program.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-07">3.07 Example File (7:17)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 551.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image551.webp"
+  style="width:40%;"
+  alt="." />
+</p>
+
+With this lesson, there is a example file, so I recommend you open up
+that example file in Visual Studio Code or whichever code editor you&apos;re
+using and work with that to see what you can do with that file, with
+some JSON data.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 552.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image552.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+I have that file open over here. In it is just a variable called JSON
+with a string of JSON data.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 553.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image553.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+We can do something with this, we could say <b>var user</b> equals
+JSON.parse(json). Now let&apos;s see what happens. I&apos;m going to
+console.log. I&apos;m just going to console.log the json variable up there,
+and that should just give me my string of data.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 554/555.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image554.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image555.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Let&apos;s see what happens if I do that. If I go over to here, and then to
+my file here and click refresh, you can see I&apos;m just getting my string
+of data. This is my raw data coming in here. Usually you&apos;re not going
+to have your raw data built into a file. You&apos;re going to be getting it
+from some external source, maybe from a database or from some 3rd party
+API. We&apos;ll be talking about those later in this course. But for right
+now, I&apos;ve just built a little bit of JSON in here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 556/557.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image556.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image557.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Next, I&apos;m going to come to logout user and you&apos;ll see I&apos;m going to
+actually do a whole separate. When you see you can see both next to each
+other. There&apos;s a user see that, and then come back here and refresh
+this and you&apos;ll see. The first one is just the data, it&apos;s just the raw
+data. The 2nd one has been turned into an object. This is now an object,
+so that&apos;s what this parse method does here is it takes the json. This
+parse method here takes that JSON and JSON.parse will take that JSON and
+parse it and stick it into user. Now, it&apos;s an object that I can
+actually do some things with.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 558.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image558.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+What can I do with it? I can do a number of things with it. I can access
+the data so I could use user.last_name or user.social media&lbrack;0&rbrack; to get
+into those elements and see what data is in there or
+user.phone_numbers.mobile to get inside the objects, inside the object.
+We can also change the values of an object. We talked about this a
+little bit before, but I can just assign a new value. If I cancel log
+user out again, you actually see that it&apos;s there. You can delete
+values. I could say delete user phone numbers home. I&apos;ve done the cord
+cutting thing and I&apos;ve gotten rid of my home phone number. Perhaps I
+want to delete that from my object, from my data. If I can&apos;t log out
+users, you&apos;ll see that it&apos;s gone. I could add objects, add values too
+to the objects so I could have user.social_media&lbrack;3&rbrack; wordpress.com, if
+that&apos;s a new social media place that want to add to my object, and
+you&apos;ll see that each of these things works and runs in there. I
+recommend trying some of these things out.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 559/560.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image559.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image560.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+If you go over here, and just add some calls to the console log, you can
+comment these out. If you don&apos;t want to actually see them right now and
+try some different ones, console.log. First user, first_name. It should
+work if I come back here and refresh this, I&apos;m getting Joe. You can go
+through and try some of these different pieces here. I strongly
+recommend that you do this just so you can see what happens when you&apos;re
+working with data that comes in from JSON. You can do all the same
+things because it&apos;s an <b>object</b>. Just practice working with objects.
+
+One thing students tell me when I&apos;m teaching JavaScript is I didn&apos;t
+spend enough time on objects. Really, the truth is they didn&apos;t spend
+enough time on objects. I&apos;ll tell you to do this stuff. But if you
+don&apos;t do it, you won&apos;t get used to it and you won&apos;t get good at
+working with JavaScript and objects.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 561.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image561.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+The last thing here is occasionally you need to take an object and
+convert it back into JSON or convert it into JSON. You can do that by
+simply using the <b>JSON.stringify method</b> with the JSON <b>object</b>,
+<b>JSON.stringify(USER)</b>. You might wonder, when would you want to do
+that. Suppose you want to create an API, and you want people to access
+your data. You might need to take some data that&apos;s in some sort of
+object and turn it back into JSON. Or perhaps you want to send that JSON
+data to something else, maybe a database or something like that. It is
+possible to take data that is in JSON format in an object, and turn it
+into a JSON string using the stringify method so you could go back and
+forth between JSON and an object.
+
+In this lesson we&apos;ve learned a lot about objects and some of it takes
+some practice. We&apos;ll be working with objects more in the course. But
+really to get to more sophisticated use of objects, we would need to be
+building bigger, more sophisticated programs and we&apos;re going to have
+time to build in this course. But I want to at least introduce you to
+the topics.
+
+## PDF of Presentations
+
+Here is a PDF of the presentation slides used in the lessons for this
+section:
+
+<b>Objects and Data in JavaScript</b>.
+
+<https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0RJjt/pdf-of-presentations>
+
+-   <b>3.07.Objects-&-Data-in-JS.pdf</b>
+
+-   <b>3.07.JavaScript-Object-Challenges.pdf</b>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-08">3.08 Intro to Pig Dice Game (5:44)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 562.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image562.webp"
+  style="width:40%;"
+  alt="." />
+</p>
+
+This is a game of luck created that we can create in JavaScript and I
+didn&apos;t invent this game.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 563.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image563.webp"
+  style="width:40%;"
+  alt="." />
+</p>
+
+You can look it up in the Internet and see other all variations of this
+game. In fact, at the end of this lesson, I&apos;m hoping you can make some
+of your own variations of this game and make it more interesting than my
+variation of this game. We&apos;ve been working in this course and really
+for the whole specialization at creating Java scripts. You&apos;ve learned a
+lot about JavaScript so far. If you&apos;ve been following along and doing
+the exercises and really working through everything. But most of the
+scripts we&apos;ve worked on are fairly short and have a very limited scope.
+
+Now, as we get into working with data with JavaScript and we start
+thinking about creating more sophisticated applications or scripts are
+going to become longer. We really need to think about how we&apos;re going
+to go about building them more carefully.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 564.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image564.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Let&apos;s start with this game of Pig. In the first place to start is with
+the rules and the game of pig rules. The rules that we&apos;re going to
+start with is that there are two players and each player takes turns
+rolling a pair of dice. The total of the current players&apos; roll is added
+to their score unless either die comes up as a one. If that happens,
+this player&apos;s turn is over and it becomes the other player&apos;s turn.
+After each roll, the current player can either roll again with the hope
+of adding to their score and assuming a one was not rolled, they can
+roll again. Or if the player feels that luck is running thin for them
+they can pass to the other player.
+
+In our version of the game, the first player to get to thirty points or
+higher wins. If a player roles two one&apos;s snake eyes that player&apos;s
+current score gets zeroed out and they have to start over from scratch,
+accumulating points from zero. Those are the rules that we&apos;re going to
+play with, and the first thing to do is to really think about these
+rules, to review them carefully, and think about the different things
+you would need to make this game actually work in JavaScript. Before we
+get into that, I want to also add that generally as programmers or in
+these lessons generally, I present how to make these types of things in
+a logical, a linear fashion. But it&apos;s really important to understand
+that for myself as a developer, that&apos;s not how I develop them. I don&apos;t
+just start at the beginning on line one of my program and type on
+through to the end of the program with all the lines. As you get into
+larger programs and more complex programs and programs that have
+functions, they interact with each other. It&apos;s even less likely to be a
+linear start to finish process.
+
+What we need to do here, what I really want you to get out of this is to
+recognize that even though, yes, we&apos;re going to go through and build
+this pig game and yes, it&apos;s going to be presented in a logical, linear
+way because otherwise, it would be really confusing. It&apos;s really
+important for you to understand that that&apos;s not how the game was
+created. That&apos;s not how I created it. To really think about the process
+needed in order to go about creating something more complex like this.
+It&apos;s a creative process and it&apos;s a circular process. You have to go
+over things multiple times. It&apos;s more like vacuuming the rug where you
+go over it than it is mowing the lawn where you go over it once and then
+go on to the next row. That&apos;s going to be the process we go through
+here. I strongly recommend that you do these steps in that you think
+about this as thoroughly as you can before going into the lesson where
+we actually build the game.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 565.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image565.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+With that said, do this with nothing more than those rules, that set of
+rules, nothing more than the rules on that previous slide. What do you
+notice about the game from a programming perspective? Get a piece of
+paper, get a pen. Pause this lesson and jot down everything you can
+think of. What data needs to be managed in the game? What will you need
+to be able to keep track of during the game? What images are needed, if
+any? What flow control structures, sequence, selection, loop, do you
+think you&apos;ll need, and for which parts? What else comes to mind? Just
+with nothing other than the rules. Sit down and take a few minutes to
+think about this and to see what you can get, I&apos;ll go back to the
+rules.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 564.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image564.webp"
+  style="width:40%;"
+  alt="." />
+</p>
+
+Here&apos;s the rules here. I mean, in the lesson here, and you should go do
+that, take a few minutes to really try to map out what you think this
+game consists of without actually seeing the game just based on the
+rules.
+
+-   <b>3.08. Intro to Pig Dice Game Diagrams</b>
+
+Here are the diagrams for the pig game to help you.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 566.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image566.webp"
+  style="width:65%;"
+  alt="." />
+</p>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-09">3.09 Play the Game of Pig (5:04)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 567. play the game of pig (3.09) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image567.webp"
+  style="width:40%;"
+  title="3.09 Play the Game of Pig"
+  alt="3.09 Play the Game of Pig." />
+</p>
+
+Okay, now hopefully you&apos;ve taken a few minutes and jotted down some
+notes just based on the rules. If you are creating a game from scratch
+and you didn&apos;t have an example to go from of that game, that&apos;s all you
+would have. You would have to start with that.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 568.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image568.webp"
+  style="width:40%;"
+  alt="." />
+</p>
+
+Now, here we&apos;re a little bit lucky in that this game already exists. So
+we can actually reverse engineer it a little bit. We can actually go
+play the game and take further notes based on what we observe while
+playing the game. So I will provide a URL for this game.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 569.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image569.webp"
+  style="width:40%;"
+  alt="." />
+</p>
+
+It&apos;s the cpe-web-assignments.ucdavis.edu/pig-js. So you can actually go
+to this website and play this game following the rules that I have. And
+I recommend that you do this a few times. Play the game, pick the player
+see what happens when you click the different buttons.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 570.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image570.webp"
+  style="width:40%;"
+  alt="." />
+</p>
+
+What happens if you click Quit? What happens if you click Roll the dice?
+Inspect the screen, use your inspector to inspect sort of what the
+different elements are in the screen. And see if you can reverse
+engineer of this game by just playing it a little bit and seeing what
+happens as you play the game and how it actually works.
+
+Play the game a few times, spend maybe five minutes playing the game and
+right down spend five minutes writing down some items that you might
+match what notes you took earlier. What items match what you took
+earlier in your notes? What pieces of functionality can you identify?
+Really look at it and think about, okay, what&apos;s going on here? There&apos;s
+a button. What can you observe? There&apos;s a button when you click it,
+what happens? How does that happen? Use that <b>inspector</b> to see what
+the different parts of the page are. What happens in each part of those
+pages as you&apos;re playing the game. Anything else you can notice, take
+five minutes, just take five minutes and really write this out as best
+you can to think about this.
+
+The number one thing students tell me that are new to JavaScript and new
+to programming is that they can understand the script as we&apos;re putting
+them together and they make sense and they can read them but they don&apos;t
+know where to start. If they were to write something from scratch, they
+wouldn&apos;t even know where to begin. So really this process is to help
+you with that. We&apos;ve done some other things in this specialization,
+such as the challenges which build one, upon the next, upon the next,
+trying to make you take baby steps as you move forward through the
+challenges to build something a little bit more complex. And now we&apos;re
+at a point where we&apos;re going to make a more complex script. And we
+really need to think about, what are our strategies for doing that?
+Okay, so take these five minutes, and go through, and write down
+whatever notes you can think of that match what you thought from looking
+at the rules, does it match? Are there things that are different than
+you thought? Are there things that you&apos;re noticing that you didn&apos;t
+notice before, since you have the advantage of having a existing version
+to deconstruct? What do you notice there?
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 571.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image571.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Pause the lesson and do this before going on to the next part of the
+lesson. Okay, hopefully you did that and you took some time, and wrote
+down what you needed, and you went through the game, and you played it a
+few times, and you&apos;ve observed some stuff. Now, it&apos;s time to put on
+your thinking cap and think about how would you go about creating this
+game using JavaScript? What would you do? You&apos;ve got some notes to
+review and you&apos;ve played around with the game.
+
+So, where would you start if you&apos;re going to create this game? How
+would you go about it? What do you think is the hardest part? What are
+some of the functions you might need to create in the game? What else do
+you notice? What else is worth mentioning? Really think about this. And
+what I recommend you do is stop here before going on and take a break
+from this lesson. Go ride a bicycle, go take a walk, go do something
+else. Something that will allow you to sort of chew on this for a little
+while and then come back to it in an hour, or in a couple of hours, or
+in the afternoon, or in the morning, or tomorrow, or something like
+that. Give it some time, really percolate on this, and think about how
+you would go about creating this program before going on with this
+lesson.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-10">3.10 Version One (4:05)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 572. version one (3.10) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image572.webp"
+  style="width:40%;"
+  title="3.10 Version One"
+  alt="3.10 Version One." />
+</p>
+
+In this next part of this lesson, I&apos;m going to talk about my thought
+process for how I go about solving these types of problems. And your
+thought process in your problem solving process may be different from
+mine and that&apos;s totally okay.
+
+I just want to present my thought process because I think it will help
+with understanding how to go about taking a bigger problem and breaking
+it down into pieces, and that&apos;s something that a lot of people just
+don&apos;t have a lot of practice with. So you have to practice doing this
+to get good at it. This is not something you just know because you&apos;re
+born knowing how to do it, it&apos;s something that you, it&apos;s a skill that
+you developed by practicing it. Hopefully you went off and thought about
+that and thought about how you would go forward, and at the end of this
+you&apos;ll have a sense of how you think about this differently from how I
+think about it.
+
+So I&apos;m going to show you some diagrams here that will walk through how
+I think about it, and you can create your own diagrams and you can just
+draw them on pieces of paper. It&apos;s a good idea to do that, to help you
+sort of think out the steps that you would need in order to do this.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 573.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image573.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+The first diagram demonstrates what I think of as the core of this game.
+And usually for me, when I start a new project, when I start a new
+challenge, I start with one of two things, either the hardest part, the
+thing that I think is going to be the absolute hardest part to solve,
+because if I have a project that I want to do and there&apos;s a difficult
+piece to it and I don&apos;t know what that hardest part is going to be. If
+I don&apos;t know if I&apos;m going to be able to solve the hardest part of
+that, then I want to solve that first before spending time on the easier
+parts because I don&apos;t want to waste my time. That&apos;s one strategy. The
+second strategy is what is the core, what is the absolute most essential
+part of the program that you want to create? What is the absolute
+colonel core of it? And that was my approach with this game.
+
+When I think about this game, the core action of this game is a roll of
+the dice. A player rolls the dice and something happens. So and then
+decisions are made in the game based on what happens there. So what this
+diagram shows is that we start with the roll of the two dice. The two
+dice are rolled and then numbers come up and something, we&apos;re going to
+have a decision tree here. What happens? Either one is rolled, either
+two ones are rolled or no ones are rolled. So if no ones are rolled, if
+that&apos;s true I can take the sum of those dice, of those to die of those
+two dice and add that value to my score. And then I can decide do I roll
+again.
+
+If I decide to roll again I can roll the dice again and I can go through
+that process again and eventually win the game. And otherwise if I roll
+the dice and a one is rolled, I can check and see if I can see one die a
+one while the other one isn&apos;t. If both the dice are ones then I zero
+out my players score and my turn is over. If neither of the dice are
+ones that I don&apos;t zero at the score, I just end my turn, and that
+describes the process of a single throw, which to me, is the cornerstone
+of this game.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-11">3.11 Version Two (2), Three (3), & Four (4) (6:51)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 574. version two, three and four (3.11) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image574.webp"
+  style="width:40%;"
+  title="3.11 Version Two, Three, &amp; Four"
+  alt="3.11 Version Two, Three, &amp; Four." />
+</p>
+
+Having done the first version of my diagram, I start to think, well,
+wait a minute here, I need to keep track of the score. And somebody has
+won because the game is going to end, it&apos;s not just about the throws at
+a certain point, you&apos;re going to stop throwing dice or switching turns.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 575.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image575.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+And when that happens, you&apos;re going to check to see if some sort of
+winning condition has been met. So here you can see in this diagram
+I&apos;ve updated a little bit to check on that winning condition. I rolled
+the two dice, again check to see if anyone&apos;s have been rolled and if
+none of them have, I can add the sum to my score. And then I can check
+to see, okay, what is that total score? And has the winning condition
+met? In this case with our rules, with our set. Do I have a score
+that&apos;s greater than 30 and if yes, then end the game is over. The game
+is going to totally be over. If no, I can decide whether or not we going
+to roll again and if yes, I can roll again and no, then my turn is over,
+but the game is not over.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 576.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image576.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+That brings me to version 3 of my diagram here. And here in version 3
+you can see that I start by throwing my dice and I roll the two dice if
+no one&apos;s are rolled and then I add that some and I checked the winning
+condition. And if the winning condition is not met, I now have a new
+function called setup turn if I choose to roll again. So now I&apos;m
+introducing a new function in here because before in version 2 there was
+a problem. In that when I end here, if the winning condition is met,
+this end is representing both the winning condition having been met and
+setting up a new turn for the other player if in fact it&apos;s their turn
+to roll or I pass or something like that.
+
+So both situations are handled here and I really need to separate those
+out. Here I&apos;ve got a new function called set up new turn (right on
+image). If the winning condition is not met and I choose to roll again,
+I&apos;m going to set up a new turn. Conversely, if I roll a one and my turn
+is over, I&apos;m going to change a player and then set up a new turn for
+that player. So that&apos;s looking a little bit cleaner. And now you have a
+second function here called set up turn function. And in this function
+I&apos;m going to send a message in the game div to roll the dice for the
+current player. I&apos;m getting out of button to roll the dice for the
+action div. And then when that button is clicked, that&apos;s when I run
+this throw dice function that I have on the left. Now I&apos;ve got a little
+helper function there that&apos;s going to set up a turn. And I&apos;ve started
+splitting this out into some different versions, into some different
+pieces here.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 577.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image577.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Version 3 is still feeling a little bit complex to me so I decided I
+wanted to modularize it a little bit more. Now I have a function that&apos;s
+much cleaner and you can see just by the diagram how much simpler and
+more clean than it is. And basically what I&apos;ve done here is I&apos;ve
+separated out the winning condition function into its own separate
+function that will check to see if I have achieved a winning condition.
+This truly represents a throw within the game. You throw the dice, you
+check to see if a one is rolled, if not you can add to the score and
+decide whether or not to roll again. If you decide to roll again, you
+can set up a new turn and then check to see if you&apos;ve hit the winning
+condition or not. If not you can change the player and then set up a new
+turn and then also check to see if you&apos;ve hit the winning condition or
+not.
+
+This is a much cleaner, much easier to follow diagram that gives you a
+sense of what that function looks like. And then we can go on and see
+what the check for the win condition is. I start and is the current
+players score greater than the game end? If yes, you set the score area
+with the message for that, win for that player. You can empty out the
+action area and add a button for starting a new game. If no, you can set
+the score area with the current score and then you&apos;re all set for the
+next turn. That&apos;s what the winning condition would look like.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 578.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image578.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Now we&apos;ve got three functions that are working together. One that
+represents kind of the guts of the game, the throw of the dice. One that
+is about setting up the turn for the next player or for the same player
+setting up that next turn, getting that next turn ready, getting our
+board ready. And one for checking the winning condition. And these three
+functions are going to work together to create this game.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 579.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image579.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+In summary, one approach to thinking about a game, or about creating a
+more complex script is to start at the most difficult part of the script
+or the core functionality of the script and work from the inside out.
+And that&apos;s what I&apos;ve done here. I started with the core functionality
+of what is the core functionality, it&apos;s throwing the dice. And I worked
+out from there to think about the score, and to think about changing
+players, and to think about other aspects perhaps of the game. And I
+think doing this will really help you and get better at solving
+programming problems and taking larger programming problems and breaking
+them down into smaller pieces.
+
+Look for ways to simplify the bigger problems and break them out into
+modular pieces as much as you can. And to really think about which
+functionality you need for each piece.
+
+## PDF of Presentions
+
+-   <b>3.11.Intro-to-Pig-Dice-Games.pdf</b>
+
+> https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ucp5v/pdf-of-presentations
+>
+> <https://d3c33hcgiwev3.cloudfront.net/wRpMd6i4TaiaTHeouG2osQ_7c411f98779849398ce95c23f23fedf1_WEB1092_M03_Introduction-to-Pig-Dice-Game.pdf?Expires=1704585600&Signature=dokAhbfdxI3qs5xjHcknMvZaX3kGHaQXYpYx2bHBBs6aaQ7SGPsvdCoVyqRrWHZhy3ZByrVjrK7dn7-D0N1FPTVv2GCEyv8zc3dUaTwu2RJbwQQxQyXm79L-bvq92s77lcIpJbGPtkHECDJeUIF1YbpMtLKeYoyoBovQ1WOm8Lg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-01">4.01 Module 4 Introduction (0:43)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 580. module 4 introduction (4.01) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image580.webp"
+  style="width:40%;"
+  title="4.01 Module 4 Introduction"
+  alt="4.01 Module 4 Introduction." />
+</p>
+
+Hello and congratulations to making it to the fourth module and our
+third course in JavaScript. In this module, we&apos;re going to build the
+game that we started designing and planning in the third module. I think
+you&apos;ll get a lot out of doing that. It&apos;s a fun game and at the end,
+there are lots of ways you can take this game and expand on it or change
+the rules or do something different with it. Let&apos;s dive in, break out
+our code editors and our web browsers and have a lot of fun with this
+project. We&apos;ve had a lot of fun creating the material for you and I
+think you&apos;ll get a lot out of it. Let&apos;s get to it.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-02">4.02 Intro to the Game of Pig (6:30)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 581. intro to the game of pig (4.02) (293) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image581.webp"
+  style="width:40%;"
+  title="4.02 Intro to the Game of Pig"
+  alt="4.02 Intro to the Game of Pig." />
+</p>
+
+<p>Game of pig built in JavaScript.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 582/583. game of pig, the basic game (294) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image582.webp"
+  style="width:45%;"
+  title="Game of Pig"
+  alt="Game of Pig." />
+<img src="./images/image583.webp"
+  style="width:45%;"
+  title="The Basic Game"
+  alt="The Basic Game." />
+</p>
+
+This is just a very basic version of the game with very little styling,
+so we can really just make it work. You can go back later, and add some
+better graphics, and better styling on your own if you want to. In fact,
+I hope you actually expand on this game quite a bit, and make it your
+own. There are lots of ways to do that we&apos;ll talk about later.
+
+The other thing that&apos;s important to mention here is that the way I&apos;m
+going to show you how to build it is in a very linear way, starting from
+the beginning and going to the end. But from the previous lesson,
+hopefully you got that that&apos;s not the way I actually develop it or the
+way many developers work, it&apos;s that they just start at the top and go
+to the bottom. Usually you work from the inside out, and start with core
+functionality and work out from there. That&apos;s the easiest way to start
+thinking about how are you going to solve real problems that are
+programming problems. I&apos;m presenting it in this linear way because
+otherwise it would be really confusing. But it&apos;s important to realize
+that it&apos;s not developed that way, and that people don&apos;t necessarily
+think in this very linear way.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 584. index.html - working game (295) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image584.webp"
+  style="width:50%;"
+  title="index.html - Working Game"
+  alt="index.html - Working Game." />
+</p>
+
+I have my file open here in visual studio code. This is the index file
+here with all of the basic pieces of the HTML that are needed here to
+make the game work.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 585. index.html - with empty script (295) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image585.webp"
+  style="width:50%;"
+  title="index.html with empty script"
+  alt="index.html with empty script." />
+</p>
+
+We&apos;ve got an empty script tacked down here. This is where we&apos;re going
+to be working. This is in this part of the page. Then also we have the
+images of the dice that will be pulling up. This could go into a folder,
+but at this point, I just have them in the main folder and that&apos;s fine.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 586.  (296) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image586.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Then over here, I have the page loaded up so we can actually test the
+page here, and see how things are working as we go along, and work on
+the page here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 587.  (296) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image587.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+The first thing we need to do in our code editor, is create some
+variables that we&apos;re going to use to access different areas of the
+page, so it&apos;s really these variables here. I&apos;m going to have
+<b>startGame</b>, is going to be <b>document.getElementById</b> on it by the
+<b>startgame</b>.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 588.  (297) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image588.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+It&apos;s this button right here. Then I have <b>gameControl</b>, which is this
+whole div, the <b>gameControl</b> div. Then I have <b>game</b>, this is where
+the game is actually going to take place. If you go back to the previous
+lesson, and pull up the game and play it, and inspect it, you&apos;ll see
+that that&apos;s where the game takes place.
+
+<b>score</b> which calls the element id 'score'. Then I have <b>actionArea</b>
+which is get element by id of <b>actions</b>, and it doesn&apos;t really matter
+if these are out of order here, but you can put them in a different
+order. But let&apos;s just <b>get.ElementById</b>, I&apos;m just getting these
+id&apos;s for each of these elements. Make sure you get this code in here
+first, because these are the different parts of the board that we&apos;re
+going to need for our script.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 589. keeping track of game data (298) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image589.webp"
+  style="width:50%;"
+  title="Keeping Track of Game Data"
+  alt="Keeping Track of Game Data." />
+</p>
+
+The next thing that you&apos;re going to need is an <b>object</b> to keep track
+of the data in the game. This is a perfect use for an <b>object</b>. We
+don&apos;t have to use an <b>object</b>. We could use variables for this, but
+this is a perfect use for an <b>object</b>, and allows us to practice what
+we&apos;ve learned so far with <b>objects</b>, and using <b>objects</b> to manage
+data.
+
+Here I have an <b>object</b> called <b>gameData</b>. This <b>object</b> has a
+number of members in it. The first three hold arrays, the first one
+holds the <b>filenames</b> of all the individual pictures of the dice.
+<b>1die.jpg</b> is going to have the die with the one dot on it, and so on
+and so forth. The player&apos;s, <b>player1</b> and <b>player2</b> so those are
+two <b>players</b>, so we'll be switching back and forth between those.
+Then we&apos;ve got <b>score</b>, that&apos;s going to keep track of the scores,
+the first zero is going to be for <b>player1</b>, and the second zero is
+going to be for <b>player2</b>. Each time you roll the dice, you&apos;re going
+to take the number that comes up for that die, and stick it into roll1,
+and then the second die will get <b>roll2</b>, and then <b>rollSum</b> will be
+the combination of both of those added together.
+
+<b>index</b> is interesting because we&apos;re going to use <b>index</b>.
+<b>index</b> is either going to be a zero, or a one. <b>Player 1</b> is going
+to be zero, and <b>player 2</b> is going to be one. When <b>index</b> is one,
+we&apos;re going to use that, number one, to go into the player&apos;s array,
+and get <b>player2</b>. Or will be using <b>index1</b> to go into the
+<b>score</b> and update the <b>score</b> of that second zero in there, and the
+first zero would be <b>index</b> 0. That&apos;s why we have <b>index</b> here.
+This is going to change based on which player we&apos;re working with as we
+go through the game.
+
+Then we&apos;ve got the <b>gameEnd</b>, which I have currently set to 29 so
+that you can play the game really fairly quickly, and see how it works.
+Or later you could bump that up to 100 or something like that, to a
+score that&apos;s maybe a little bit more reasonable for the game.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 590.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image590.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+But let&apos;s go ahead and get this into our script file. I&apos;m not pasted
+in, you&apos;re going to have to type it, but I&apos;m going to pasted in here
+so that I&apos;ve got all of these things in here. Make sure you put a comma
+at the end of each one except for the last one.
+
+I&apos;ve got all my die&apos;s in here, notice the comma at the end, but no
+comma there, comma at the end here, and make sure everything is right,
+and labeled properly. We&apos;re on our way to creating the pig game.
+
+-   Start Files: Game of Pig <b>4.02 Pig-START.zip</b>
+
+> <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eu5vr/start-files-game-of-pig>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-03">4.03 Start the Game (7:50)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 591. start the game (4.03) (300) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image591.webp"
+  style="width:40%;"
+  title="4.03 Start the Game"
+  alt="4.03 Start the Game." />
+</p>
+
+Next we&apos;re going to start the game. And again when I was developing
+this, I started with what happens when somebody throws the dice? But, I
+think for the purposes of building our game from start to finish, it
+helps to just start at the top and start at the beginning.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 592. test, game of pig (300) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image592.webp"
+  style="width:40%;"
+  title="Test, Game of Pig"
+  alt="Test, Game of Pig." />
+</p>
+
+So, when somebody clicks this button here, we want to start the game. I
+need to add a click handler for this button. I&apos;m going to add an event
+handler for clicking to the start game button.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 593. start the game (301) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image593.webp"
+  style="width:50%;"
+  title="Start the Game"
+  alt="Start the Game." />
+</p>
+
+So let&apos;s do that first, we have our start game button defined here,
+which goes in and gets this button here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 594.  (301) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image594.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+So, we&apos;re going to add in our script start game out event listener, and
+we&apos;re looking for a click, and we&apos;re going to run a function. Like so,
+and then we&apos;re going to put what happens in that function here. And we
+are going to do something with the, I&apos;m going to just put a comment in
+here now. Change index, or randomly select index whatever we want to put
+in there, just we&apos;re going to have to handle that. But before I do
+that, I want to first just sort of get the correct html on the page.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 595.  (302) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image595.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+So, up here at the top of my page in this section called game control
+here, I want to get now that I&apos;ve clicked the button. I don&apos;t really
+need it anymore, and I don&apos;t need to start game text anymore. So when
+you use the inner html to change that game control there, so I can set
+game control dot enter html. And I&apos;m going to put in just an h2, the
+game has started kind of thing. So let&apos;s do that,
+<b>gameControl.innerHTML</b> equals. And I&apos;m just going to use single
+quotes here, h2, the game has started. You can make those title cases if
+you wanted to might have done that on my my picture there.
+
+Then I want to add to that a button and I could just continue this
+string here, gameControl.innerHTML plus equals. Don&apos;t forget the plus,
+because that&apos;s going to add to the string that we already have here.
+And the buttons can say, do you want to quit? And I&apos;m going to close
+button, and I believe I need to give that button an id. Yeah, we&apos;ll
+just give it an id, id equals sore quote. Notice I&apos;m using single
+quotes here and then double quotes there. Alternatively, you could use
+the tick marks on either end as well. Make sure you get your html right,
+okay. So we&apos;re going to add that in there, that&apos;s great.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 596.  (303) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image596.webp"
+  style="width:65%;"
+  alt="." />
+</p>
+
+And now I just need an event listener for when somebody clicks the quick
+button. So I&apos;m going to say, document can I get element by id,
+quit.AddEventListener, when you click that we&apos;re going to run a
+function, like so. And what&apos;s going to happen in that function? We&apos;re
+just going to do location.reload. And that refreshes the page, and then
+you go back to the way the page was before. Okay, great, so when you
+click the button, these things will happen and we&apos;ll get that working.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 597/598.  (303) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image597.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image598.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Let&apos;s just test this much and see if it works. If I come over here,
+click refresh, when I click that I get the game has started, when I
+click do you want to quit? It just refreshes the page, and puts it back
+so that&apos;s working just fine the way it is. When the test is frequently
+as we can there.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 599.  (304) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image599.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Now, the last bit is I also want to set that game index, the game data
+index, I want to set that so that we can see that we&apos;re getting a
+random player. So game data, is this object here. And so I&apos;m going to
+actually say, gameData.index this element, this can equal,
+<b>Math.round</b>. And that will actually round that, I&apos;m sorry
+<b>Math.random</b>. That will actually generate a random number, between 0
+and 1. And I want to round it, because I wanted to round up to either 1
+or down to 0, because I want index to be 0 or 1. So I can do that on the
+same line here, by putting <b>Math.round</b>, and then surrounding that. So
+<b>Math.random</b> will pick a random number from 0 to 1. And
+<b>Math.round</b> will round it up or round it down. Let&apos;s add a console
+log so that we can really see what that&apos;s doing console.log
+gameData.index, what is the value there and we&apos;ll test that and see.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 600/601.  (305) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image600.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image601.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+So let&apos;s come over here and I&apos;m going to refresh the page to turn on
+my inspector so I can get to the console log, console and randomly and I
+got a 0. If I click want to quit, and pick again I&apos;m getting 0 each
+time here, there we go. Now I got a 1, so it&apos;s either a 0 or a 1
+that&apos;s coming up and I&apos;m getting 1 a bunch of times. So each time you
+start the game, you&apos;re either getting a 0 or 1, so that will pick one
+player or the other. So hopefully, you can see here that index being a 0
+or 1 is going to choose player 1 or play or 2. This is 0, this is 1,
+okay, great. We&apos;ve got a good start at making our big game. Let&apos;s keep
+going in the next lesson.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-04">4.04 Set Up the Turn (6:39)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 602. set up the turn (4.04) (305) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image602.webp"
+  style="width:40%;"
+  title="4.04 Set Up the Turn"
+  alt="4.04 Set Up the Turn." />
+</p>
+
+The next thing we need to do is set up the turn.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 603. example, set up the turn (306) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image603.webp"
+  style="width:50%;"
+  title="Example, Set Up the Turn"
+  alt="Example, Set Up the Turn." />
+</p>
+
+We&apos;re going to create a <b>function</b> for that and remember, we&apos;re
+going to have three basic functions in this game. One of them is
+<b>setupTurn</b> we&apos;re going to have one for rolling the dice and then
+we&apos;ll have one for checking the winning condition. It&apos;s really the way
+these three functions work together that are going to determine how this
+game works.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 604/605.  (306) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image604.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image605.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+The first thing we&apos;re going to do really is the <b>setUpTurn</b> function,
+and in that function we&apos;ll take game and we&apos;re going to set it
+innerHTML to roll the dice for the correct player and we&apos;ll fill that
+in as we go here. Then we&apos;re going to get that action area, we&apos;re
+going to set it HTML with a button that allows us to roll the dice and
+then we&apos;ll have an event with Center for that button, so that when you
+click, it will actually roll the dice. At this point, we&apos;re just
+putting a console log in there just to make sure that the buttons are
+working. Let&apos;s go ahead and add this to our code over here. Down here,
+we&apos;ve got my start game event listener after the start game was then
+last minute ad function set up turn.
+
+The first thing I&apos;m going to do here is <b>game.innerHTML</b> equals, and
+I&apos;m going to use my tick marks here and in there, I&apos;m going to put in
+a paragraph. You have to use the tick marks because I&apos;m going to
+include a variable in here in a minute. Roll the dice for player, acts
+something like that is what that&apos;s going to say.
+
+But who is player X? Instead of player X, I&apos;m going to have a dollar
+sign and curly braces, and in there I&apos;m going to put my game data,
+players, and the index because that&apos;s going to tell me which player I
+had selected, whatever value got set here for game day to index. It&apos;s
+going to be game data.players.
+
+Remember, players is an array, that&apos;s going to have square brackets and
+I put the index in there and that will go in and index is going to be
+there is zero or one. That should go into my game data, find players,
+and get either zero or one based on which number was rolled here. I&apos;m
+sorry, this needs to be game data.index, there we go. Because I need to
+go back into that object game data.index. Game data players, game
+data.index, and then I&apos;ll get that player.
+
+Then we have action area.innerHTML, and this one can just be a straight
+up stream. I&apos;m just going to use the single quotes here and put in a
+button with an idea set to roll, and I&apos;m going to say sometimes it&apos;s
+helpful to close that right away button like so and then it&apos;s going to
+say, &quot;Roll the dice.&quot; There we go. We&apos;ve got a button that gets added
+into to inner team up for the action area. We&apos;ve got a button in the
+action and now we need to have a click handler for that. I&apos;m going to
+have document.getelementbyID. Roll.outeventlistener, click.
+
+When we click that something&apos;s going to happen, we&apos;re going to run a
+function like so. What are we going to do in here for? Right now, all
+we&apos;re going to do in here is console.log roll the dice and will replace
+this console log in a few minutes, but that&apos;ll give us a sense of
+whether or not this is actually working. Now, when we&apos;ve selected the
+player of here, we now need to set up the term. I&apos;m going to run set up
+the term here, and we can leave this in here for now just for a moment
+to see if that&apos;s going to work. But we&apos;re going to run set up the term
+there so that we can get ready to roll the dice and see how that works.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 606.  (308) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image606.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Let&apos;s test it. If we come over here and refresh the page, randomly
+picked the first player, roll the dice for player two, I get a button,
+when I click it says, &quot;Roll the dice.&quot; If I click, do I want to quit,
+it will go back and I could start again. At this point, just rolling the
+dice will just keep giving me more of these, but that&apos;s working
+perfectly. We&apos;re rolling the dice, we&apos;ve set up our turn and we&apos;re
+ready to roll the dice.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-05">4.05 Throwing the Dice (9:57)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 607. throwing the dice (4.05) (308) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image607.webp"
+  style="width:40%;"
+  title="4.05 Throwing the Dice"
+  alt="4.05 Throwing the Dice." />
+</p>
+
+Throwing the dice. This is the core function in this program, and it&apos;s
+the big function, it&apos;s going to take us some time to get this function
+all working properly.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 608. example, throwing the dice (309) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image608.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+But we&apos;re going to get it started here. At this point, what we&apos;re
+doing is we&apos;re going to clear out that <b>actionArea</b>, anything that&apos;s
+in that <b>actionArea</b> we&apos;re just going to clear it out, and then
+we&apos;re going to record the two rolls of each die. Record those rolls
+into our <b>gameData</b> object. Then set the innerHTML for the message
+that&apos;s going to go to the player about what was rolled, and also show
+those two dice. Then we&apos;ll also sum up the total of those two dice and
+put that into the <b>rollSum</b> property in the <b>gameData object</b>.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 609.  (309) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image609.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Let&apos;s go ahead and get this started because this is an important one to
+do. I&apos;m going to add a function, function <b>throwDice(){}</b>, and then
+in here, first thing I&apos;m going to do is set the
+&quot;<b>actionArea.innerHTML</b>&quot; equals. Then clear out that <b>actionArea</b>.
+Then I need to set my values for my dice up here, roll 1 and roll 2.
+<b>GameData.roll1</b> is going to be equal to, and again, I&apos;m going to do
+<b>Math.random</b>. That will generate a random number between zero and
+one. But if I multiply it by six, and then I need to round it down,
+<b>Math.round,</b> actually I want to do with that floor. Then I want to
+add one to it. Because what this will generate is a random number
+that&apos;s basically between 0-5. I want a random number because my dice
+are 1, 2, 3, 4, 5, and 6.
+
+Now, you might wonder here, well, why couldn&apos;t I use <b>Math.ceiling</b>?
+I could do <b>Math.random</b> times 5, and that would give me a 0-5, and
+then round it up using <b>Math.ceiling</b>, or <b>Math.ceil</b>. It gets
+rounded up from 0-1 to 1-2, 2-3, and so on and so forth. If it&apos;s a
+partial number, then it&apos;ll get rounded up.
+
+But there&apos;s a very small error that could happen with that, which is,
+if you remember what <b>Math.random</b> does, is it generates a number
+between zero and one, but it&apos;s zero <b>inclusive</b>. It&apos;s very, very
+unlikely. But possible that you could roll a 0.00000, in which case,
+<b>Math.ceil</b> will not round that up to one, so you could potentially
+get a 0, 1, 2, 3, 4, 5, or 6 if you were to follow that methodology. We
+don&apos;t want a zero, we want it always to be a 1, 2, 3, 4, 5, or 6 to
+match our numbers up there for our dice.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 610.  (310) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image610.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+That&apos;s our roll 1. Roll 2 is exactly the same thing, we&apos;re going to
+generate a new random number for that. Then we need to set a message on
+our screen. We&apos;re going to put a message inside this game div here, and
+that game div is going to say, <b>game.innerHTML</b>. We can just use game
+because we define this variable up here that&apos;s going to go get that
+thing. Game.innerHTML equals, and I&apos;m going to use my tick marks again
+because I&apos;m going to use my variable in here. Open and close the P.
+Especially when you&apos;re working with HTML inside of tick marks like
+this, make sure you open and close it properly because your code editor
+won&apos;t do the auto closing thing for you in this case, probably, unless
+you&apos;ve got some plugin that does it. I don&apos;t know of any, but there
+might be some.
+
+Roll the dice for player x. Again, player x is going to be a variable.
+Which variable is it going to be? Dollar sign, curly braces. It&apos;s
+really just going to be this one again. This will be player 1, or player
+2 here, that gets put in there.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 611.  (311) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image611.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+The next thing we need are the actual pictures of the dice. That&apos;s
+going to go inside the same div, so I&apos;m going to do game.innerHTML,
+plus equals, to add to it, and again I&apos;m going to use my tick marks,
+like so, the semicolon and in here I&apos;m going to put in an image tag,
+img src equals quote quote, like so. That&apos;s going to be this. Then to
+get to one of my images, it would be something like die 1, die 2,
+whatever that is, but it&apos;s really going to be a variable. It&apos;s going
+to be dollar sign, curly braces <b>gameData</b>. which element do I want up
+here? I want my dice element,.dice square bracket, and which one do I
+want? Well, it depends on what I rolled here for roll 1, we set roll 1
+here. That&apos;s going to be gameData.roll1. Actually I need to subtract
+one from it, minus one. Because remember, this is going to be a 1, 2, 3,
+4, 5, or 6. If I roll a one, I need element zero from this array up
+here. I need to subtract one there, gameData.roll1 minus 1. I think
+that&apos;s right. I prefer to have double quotes here I think. Quote there,
+double quotes, add an extra one for me.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 612.  (312) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image612.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+There we go. That will put in our source and really be good to have an
+attribute as well for good HTML equals &quot;die&quot;. You could even do this
+thing again if you wanted to, I&apos;m just going to leave it like that,
+that&apos;s fine. We&apos;ve added that image and that&apos;s the image for our
+first roll. We need an image for our second roll, which is going to look
+exactly like this, except, that this is now roll 2. Then the last thing
+that we need to do is add up these two rolls together and put them in
+their sum total. <b>GameData.rollSum</b>, that one there, is going to equal
+<b>gameData.roll1</b> plus <b>gameData.roll2</b>, and that will add those up
+and put them in there. Great. We&apos;re going to test this in the next
+lesson.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-06">4.06 Test Throwing the Dice (5:22)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 613. test throwing the dice (4.06) (313) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image613.webp"
+  style="width:40%;"
+  title="4.06 Test Throwing the Dice"
+  alt="4.06 Test Throwing the Dice." />
+</p>
+
+You&apos;ve started your dice throwing function, so let&apos;s test it and see
+if it works.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 614. test throwing (313) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image614.webp"
+  style="width:50%;"
+  title="Test Throwing"
+  alt="Test Throwing." />
+</p>
+
+All we really need to do to test it, is replace the console log in the
+set up the turn function, and replace it with the throw the dice
+function. Let&apos;s take a look and see how that works.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 615.  (314) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image615.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+All I need is to take this function here and copy it, and put it up
+here. Actually there&apos;s another console log up here, let me just stick
+it in there, throw the dice. It goes here. Instead of this console log,
+roll the dice, it goes here. Make sure you put it in the right place,
+don&apos;t make my mistake. In the setup, the turn functioning, we throw the
+dice, so that one starts set up the turn, set up the turn, throws the
+dice once the turn has been set up, and you click the &quot;roll&quot; the
+button thing there. Let&apos;s see what that gives us. Let&apos;s save this and
+come over here and test it.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 616.  (314) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image616.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Now, if I refresh and randomly pick a player that can roll the dice,
+oops, error, file not found, 6die.jpgalt. I can see right here that I
+forgot to close mine. This is very easy to have that happen when you&apos;re
+working with HTML inside of the string.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 617.  (315) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image617.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+I can see right here what&apos;s gone wrong. I can see that I forgot to
+close something so it thinks that my whole image has this name on here,
+which is incorrect. Let&apos;s go back over here. It&apos;s in here I forgot to
+put a quote here. It&apos;s in one double quote, and I&apos;ll add two, but you
+have to delete one of them there. There we go, save that.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 618/619.  (315) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image618.webp"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image619.webp"
+  style="width:45%;"
+  alt="." />
+</p>
+
+Roll the dice. Now, I&apos;ve got two dice and it showed up and I can say,
+&quot;Do you want to quit?&quot; and start again, Roll the dice and make it two
+different dice. You have to refresh the page or click, &quot;do you want to
+quit? each time to get this to work. If you wanted to go even further,
+you could come in and add a console log, and see what gameData.rollSum
+some has in it or would any other variable in there has if you&apos;re just
+curious to see what&apos;s in there, you can save that.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 620.  (316) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image620.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+Up here, maybe I don&apos;t need this one anymore. The one that&apos;s giving me
+one and two, you just comment it out or you can delete it, you do
+whatever you want to it. We don&apos;t need that one or two showing up
+anymore. Let&apos;s go back and give that a try again. If I refresh,
+randomly start the game, roll the dice, and you can see I rolled two
+sixes again, that&apos;s something and got 12. Unfortunately, to do it again
+at this point, you have to click the button or just click refresh. In
+here I got 5, 1 plus 4 is 5.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 621.  (317) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image621.webp"
+  style="width:50%;"
+  alt="." />
+</p>
+
+I&apos;m going to move this inspector to the side and it&apos;s going to be
+easier to see what&apos;s going on if it&apos;s there. That&apos;s all working and
+working really nicely. Now we have a dice game where we can throw the
+dice, and two dice are roll and randomly we generate those two images
+and display them on the page, and that&apos;s fine.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 622. example add the selection statements (317) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image622.webp"
+  style="width:50%;"
+  title="Example, Add the Selection Statements"
+  alt="Example, Add the Selection Statements." />
+</p>
+
+Now, the next thing to do is to figure out, what do we do from here? We
+need an if statement. You need some if statement that says, if two 1s
+came up, in other words, if the rolled sum is a two, then we&apos;re going
+to do one thing. That&apos;s going to start at zero. If one of the two like
+in this case here. If one of the two dice came up a one, then we do
+something else, we need to swap. &lbrack;inaudible&rbrack;.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-07">4.07 Add the Selection Statements (3:37)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 623. add the selection statements (4.07) (318) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image623.webp"
+  style="width:40%;"
+  title="4.07 Add the Selection Statements"
+  alt="4.07 Add the Selection Statements." />
+</p>
+
+<p>We&apos;re going to add if statements into our throw dysfunction here.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 624. roll a two? or not? (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image624.webp"
+  style="width:50%;"
+  title="Roll a two? Or not"
+  alt="Roll a two? Or not." />
+</p>
+
+<p>So if the first one is if game data don&apos;t roll some is the same as
+exactly the same as two. The only way you get a two is if you&apos;ve rolled
+to once, if it&apos;s exactly the same as a two, then we&apos;re going to say
+something like console log, snake eyes. We&apos;ll fill this out later with
+more specific instructions.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 625. test, game of pig (319) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image625.webp"
+  style="width:50%;"
+  title="Test, Game of Pig"
+  alt="Test, Game of Pig." />
+</p>
+
+<p>But for right now I just want to know, I just want to capture that
+situation and then we&apos;ve got an else if. Yeah and we want to check two
+values. We want to check the value of roll one and the value of roll two
+and if either one of them comes up a one, we want to do.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 626. test, game of pigs (319) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image626.webp"
+  style="width:50%;"
+  title="Test, Game of Pig"
+  alt="Test, Game of Pig." />
+</p>
+
+<p>So that will come back true if either one of them is a one. So the way
+to do that is to say if game data dot roll one is the same as one or
+there&apos;s two pipes, game data dot roll two is the same as what. If that
+situation occurs, then console dot log one her A1 was rolled, your turn
+is over and then we&apos;ve got the else. And for that, we can just copy
+this, paste it and saying the game continues, Roll again or pass and
+we&apos;ll deal with that separately.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 627/628. test, game of pig (320) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image627.webp"
+  style="width:45%;"
+  title="Test, game of pig"
+  alt="Test, game of pig." />
+<img src="./images/image628.webp"
+  style="width:45%;"
+  title="Test, game of pig"
+  alt="Test, game of pig." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 629. test, game of pig (320) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image629.webp"
+  style="width:40%;"
+  title="Test, game of pig"
+  alt="Test, game of pig." />
+</p>
+
+<p>So now we&apos;ve got three situations to deal with here. Let&apos;s just make
+sure that this all works the way we expected to and come back here and
+refresh this, pick my player, roll the dice. I got an eight. The game
+continues roll again or pass. I got two fives. The game continues roll
+again or pass. I&apos;m not getting anything. Okay, here I got a one, a one
+was world, your turn is over. You can keep going along and seeing that
+these numbers add up correctly and that it&apos;s doing the right thing
+until you&apos;ve gotten all of those things checked.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-08">4.08 Snake Eyes! (7:11)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 630. snake eyes! (4.08) (321) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image630.webp"
+  style="width:40%;"
+  title="4.08 Snake Eyes!"
+  alt="4.08 Snake Eyes!" />
+</p>
+<p>Let&apos;s handle Snake Eyes first.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 631. snake eyes! (321) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image631.webp"
+  style="width:50%;"
+  title="Snake Eyes!"
+  alt="Snake Eyes!" />
+</p>
+
+<p>We&apos;ll fill out each of these if statements, but we&apos;ll do Snake Eyes
+first. If we get a 2, let&apos;s deal with that.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 632. add to the innerhtml of the game (322) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image632.webp"
+  style="width:50%;"
+  title="Add to the innerHTML of the game"
+  alt="Add to the innerHTML of the game." />
+</p>
+
+<p>First thing we&apos;re going to do is add to the innerHTML of the game, and
+say something that tells us that we got snake eyes. Let&apos;s do that, so
+we can alert the player that they got snake eyes. So in here,
+game.innerHTML +=, += because we&apos;re going to add to it, and something
+like, Snap, let&apos;s close paragraph first. Correct, good practice there,
+Snap, You got snake eyes! Something like that. So, it&apos;s going to just
+put a paragraph in there, that has that.</p>
+
+<p>The next thing that happens is that the score for that player gets
+zeroed out. So <b>gameData.score, &lbrack;gameData.index&rbrack;</b>, Is going to be
+set to 0. We set that back to 0 gameData.score. So, that means we&apos;re
+going up into this gameData finding the score for whichever player it
+is. If index is 0 will set this one 0, if index is 1 will set this one
+to 0. So, we&apos;re setting it to 0 there because we&apos;re zeroing out their
+score because that&apos;s what happens if you roll to ones as you lose all
+the points you&apos;ve gotten so far.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 633. snake eyes! (323) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image633.webp"
+  style="width:50%;"
+  title="Snake Eyes!"
+  alt="Snake Eyes!" />
+</p>
+
+<p>Then we need to switch players and we could do this with an if
+statement, if index is 0 set it to 1. If it&apos;s 1 set it to 0, we could
+do an if else statement there, but there&apos;s kind of a nice shortcut way
+of doing that. And that&apos;s using what&apos;s called the <b>ternary
+operator</b>. We see it over here, so I&apos;m going to set
+<b>gameData.index</b>.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 634. gamedata.index true or false? (323) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image634.webp"
+  style="width:50%;"
+  title="gameData.index, true or false"
+  alt="gameData.index, true or false." />
+</p>
+
+<p>So, what happens here in <b>ternary operator</b> is we evaluate whether or
+not this is true <b>gameData.index</b>. And remember in JavaScript 0 is
+false and the <b>gameData.index</b> is either going to be 0 or 1. So if
+it&apos;s 0, then it&apos;s false, in which case will set it to 1. If index is
+true, if it&apos;s set to 1 then it&apos;s true, in which case will set it to 0.
+So, that&apos;s kind of a nice one line way of doing an if else, when
+you&apos;re choosing between two things, you can only choose between two
+things. If we had three players, this wouldn&apos;t work, because we would
+have to do some if else statements for that. But with two players we can
+just say it&apos;s either a 0 or 1. If it&apos;s a 1 change it to 0, if it&apos;s 0
+change it to 1 like that. So, it&apos;s kind of a nice one line way of doing
+this and our function is getting quite long.</p>
+
+<p>So, anything we can do to shorten it up is kind of nice. So gameData, .index? And 
+then in parentheses I&apos;m going to put gameData.index = 0. Because if this is true, 
+I want to set it to 0 or we use a colon here, gameData.index, = 1 because if it&apos;s 
+false, if that&apos;s 0, I want to set it to 1.</p>
+
+<p>And then what we&apos;re going to do is we&apos;re going to wait a couple of seconds 
+because we want this. Snap snake eyes is rolled on the screen for a minute or not a whole 
+minute but a few seconds, so that whoever is playing the game can actually see it up 
+here. So I&apos;m going to use setTimeout to just wait two seconds before I run setUpTurn 
+again. Run the setup turn function again which will put us back with the correct player. 
+So, let&apos;s go ahead and add that setTimeout there. SetTimeout(setUpTurn, after two 
+seconds, 2000 milliseconds) and that should work.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 635. test, game data roll (324) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image635.webp"
+  style="width:50%;"
+  title="Test, game data roll"
+  alt="Test, game data roll." />
+</p>
+
+<p>Now, if we wanted to test this before we go forward, it might be a good
+idea to do that. What we can do is we could just come in here just
+temporarily set gameData.rollSum == 2. So no matter what we roll in this
+rollUp here, this things can get set back down to 2. And then this thing
+should run and change my player, wait two seconds and set up the turn.
+That way, we don&apos;t have to sort of keep playing and rolling until we
+try to get two 1s to pop up randomly in order to test this. So let&apos;s
+throw that in there and see what happens here.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 636. roll the dice as player 1 (325) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image636.webp"
+  style="width:50%;"
+  title="Roll the dice as player 1"
+  alt="Roll the dice as player 1." />
+</p>
+
+<p>If I come over here and test this, I can run my first player, roll the dice, it comes 
+up with 11. But then it waits 2 seconds and it says roll the dice for player 2, 
+let&apos;s try that again.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 637. roll the dice as player 2 (325) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image637.webp"
+  style="width:50%;"
+  title="Roll the dice as player 2"
+  alt="Roll the dice as player 2." />
+</p>
+
+<p>Roll the dice for player 2, I roll the dice, I actually got to 1 that
+time, but it&apos;s switched into 2, 2 announces roll the dice for player 1.
+So you can see that it&apos;s actually changing the player, waiting 2
+seconds and changing the player, so that&apos;s actually working, which is
+great. Now remove console gamedata.rollsum = 2 which was hard-coded for
+testing the switch players function.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-09">4.09 A "1" Was Rolled (5:19)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 638. a "1" was rolled (4.09) (326) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image638.webp"
+  style="width:40%;"
+  title="4.09 A "1" was rolled"
+  alt="4.09 A "1" was rolled." />
+</p>
+
+<p>The next thing we&apos;re going to look at is if a one has been rolled.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 639. again, a "1" was rolled (326) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image639.webp"
+  style="width:50%;"
+  title="Again, a "1" is rolled"
+  alt="Again, a "1" is rolled." />
+</p>
+
+<p>To start with, we&apos;re going to swap the players right off the die. If
+anyone was rolled, either of the two dice comes up a one, then we&apos;re
+going to swap the player. Let&apos;s do that first because that&apos;s just
+using the ternary operator again.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 640. ternary operator (327) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image640.webp"
+  style="width:50%;"
+  alt="Ternary operator." />
+</p>
+
+<p>Let&apos;s come back here and get this ternary operator here. You can just
+copy and paste it and stick it down here in place of that console log.
+Again, what that does is it sees what the value of index is and it
+determines if this statement comes back, true or not. Remember, index is
+either going to be a zero or a one. If it&apos;s a zero, it&apos;s false. If
+it&apos;s a one, it&apos;s true because remember truthy and falsy in JavaScript,
+so a zero in JavaScript is falsy. If it&apos;s false, then it&apos;s going to do
+this. It&apos;s going to switch it to one. If it&apos;s true, then it&apos;s going
+to switch it to a zero.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 641. ternary operator in mdn (327) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image641.webp"
+  style="width:50%;"
+  title="MDN's ternary operator"
+  alt="MDN's ternary operator." />
+</p>
+
+<p>I have a page loaded from the MDN Web docs that will talk more about the
+ternary operator. If you&apos;re more curious about this particular
+expression in JavaScript or this operator in JavaScript, it&apos;s worth
+taking a look at this page here. We&apos;ve got that.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 642. test, set the game index (328) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image642.webp"
+  style="width:50%;"
+  title="Test, set the game index"
+  alt="Test, set the game index." />
+</p>
+
+<p>The next thing we need to do is just set the game index. We&apos;re going to
+add to that instead of adding, you rolled snake eyes, we&apos;re going to
+say sorry, one of your rolls was the one switching to the other player.
+Let&apos;s go ahead and put that thing in there and then we&apos;ll set up the
+turn again. That&apos;s basically all we need for this else if here. In
+here, <b>game.innerHTML</b> plus equals. We&apos;re going to use our tick
+marks, again, the semicolon, and in here, we&apos;re going to add a
+paragraph P.</p>
+
+<p>You rolled a one switching to other player and really other
+players going to be a variable dollar sign, carry braces, and really
+what we want is this one here. This is the reason why we wanted to do
+this line first because we just switched that index. If we were on
+player 1, now the index is set to the other player. If we were on player
+1, this will just say player 2, if we were on player 2 here, this will
+say player 1. That goes back and forth. Then down here we just need to
+set time out and runs out of time again. That will work, that should
+work just fine.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 643/644. test, roll the dice (329) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image643.webp"
+  style="width:45%;"
+  title="gameData.roll"
+  alt="gameData.roll." />
+<img src="./images/image644.webp"
+  style="width:45%;"
+  title="gameData.roll"
+  alt="gameData.roll." />
+</p>
+
+<p>Again, we can test it up here by forcing one of these roles, gameData.roll1. I&apos;m 
+going to set that equal to one. Just to test it. It&apos;s not perfect, but I just want 
+to see it without having to roll a bunch of times until I get a one. That certainly comes 
+up more frequently than rolling two once. Let&apos;s refresh this. Roll the dice for
+player 1, you roll the one. I didn&apos;t roll the one, but because we set it to say one 
+of those dice, it&apos;s going to be one, it&apos;s doing it automatically. Roll the dice 
+for player 2, you roll the one switching the player 1, and now roll the dice for player 1, 
+roll the dice. You roll the one switching for player 2, roll the dice. You roll the one
+switching for player 1.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 645. test, game of pig; roll the dice (329) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image645.webp"
+  style="width:50%;"
+  title="Test, game of pig; roll the dice"
+  alt="Test, game of pig; roll the dice." />
+</p>
+
+<p>You can see it switching back and forth now and working perfectly every
+time. That&apos;s exactly what we want there. We want to come back and
+remove this gamedata = 1 because that will really screw things up later
+if we forget to do that. Great. We&apos;ve gotten both the situations for
+what happens if you roll two once or if either of the dice come up with
+one, we&apos;ve gotten this sussed out. Next, we need to figure out the
+else, which is what happens when we want to continue the game and
+continue moving on with the game.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-10">4.10 The Else Statement (6:36)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 646. the else statement (4.10) (330) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image646.webp"
+  style="width:40%;"
+  title="4.10 The Else Statement"
+  alt="4.10 The Else Statement." />
+</p>
+
+<p>The next thing we need to look at is the final else statement which will
+happen if you throw the dice and no one&apos;s are rolled.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 647. the else statement (330) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image647.webp"
+  style="width:50%;"
+  title="The Else Statement"
+  alt="The Else Statement." />
+</p>
+
+<p>And basically, what we need to do is we need to update the score for whichever 
+player had them. We&apos;re going to take the score they had before and add the 
+<b>rollSum</b> to it in order to update that score. So let&apos;s do that first.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 648. gamedata.score and gamedata.index (328) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image648.webp"
+  style="width:50%;"
+  title="gameData.score and gameData.index"
+  alt="gameData.score and gameData.index." />
+</p>
+
+<p>So, when you get rid of this, And say <b>gameData.score</b>, And the <b>score</b> 
+is going to be for the <b>gameData.player</b>. I want to visit <b>GameData.index</b>, 
+that&apos;s what I do square bracket. Okay, <b>score</b> for a <b>gameData.index</b>. 
+So that&apos;s either going to get me up here on score. That&apos;s going to get me 
+either this one or this one, one of those two <b>gameData.index</b>. And that&apos;s 
+going to = the <b>gameData.score</b>, it&apos;s really this line again. + <b>gameData.rollSum&lbrack;&rbrack;</b>. Like that, I believe. Let me check over here 
+and make sure I did that, right? <b>gameData.index + gameDtaa.rollSum</b>, correct. 
+Okay from there, what we need is to set the action area and create two buttons in there.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 649. two buttons, roll again & passing (331) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image649.webp"
+  style="width:50%;"
+  title="Two buttons; roll again and passing"
+  alt="Two buttons; roll again and passing." />
+</p>
+
+<p>That action area is going to get set with two buttons, one for rolling again or for 
+passing. So, let&apos;s go ahead and do that and that&apos;s just simple HTML they were 
+letting javascript generate there. So actionArea.innerHTML = open and close, quote there 
+and I&apos;m going to have a button close button. Well, color, roll again, And it&apos;s 
+going to have an id = &quot;rollagain&quot;, something like that. So there&apos;s that, 
+or we&apos;re going to do another button, open and close it, And in there put Pass and 
+that what&apos;s going to have an id, id = &quot;pass&quot;. So, you notice how I do 
+that from the inside out for even typing this stuff because that will keep me from 
+making mistakes. That will help me from making mistakes, I might still make mistakes, 
+but that&apos;ll help, okay?</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 650. roll again code in index.html (332) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image650.webp"
+  style="width:50%;"
+  alt="getElementByID(roll again)." />
+</p>
+
+<p>So we&apos;re going to set that and then we need two event listeners for each of those 
+things. So, I&apos;m going to have an event listener <b>document.getElementById(roll 
+again).</b> And that&apos;s going to have an <b>addEventListener</b>, and listening for 
+a click. And when you click the button we&apos;re going to run a function.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 651. setupturn, swap players (333) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image651.webp"
+  style="width:50%;"
+  title="setUpTurn, swap players"
+  alt="setUpTurn, swap players." />
+</p>
+
+<p>And for now we&apos;re just going to put in here, setUpTurn, we&apos;re going to
+run that function again. Great, so if you roll again, when you click
+that button to roll again, you just set up to turn again and the player
+hasn&apos;t changed or anything. However, we&apos;re going to have another one
+of these and I can just copy this and paste it and change this to pass.</p>
+
+<p>And we&apos;re going to run setUpTurn again, but before we do that we&apos;re
+just going to swap the player. So we can just copy that ternary operator
+and stick it in here. And that will allow me to swap the player to the
+other player. Cool, the last thing we&apos;re going to need in here is
+we&apos;re going to need something that checks the winning condition.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 652. game of pig; start game (334) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image652.webp"
+  style="width:50%;"
+  title="Start the Game of Pig"
+  alt="Start the Game of Pig." />
+</p>
+
+<p>So, we&apos;ll check the winning condition in here as well, but we&apos;ll do
+that later. For right now let&apos;s just test this out and see if it works.
+Come over here, refresh the page, pick my player when I roll the dice, I
+get it a 2 in a 6, that adds up to 8. I don&apos;t have any scoring going on
+down here yet, but I can choose roll again.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 653/654. game of pig; roll dice (334) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image653.webp"
+  style="width:45%;"
+  title="Game of Pig; roll the dice"
+  alt="Game of Pig; roll the dice." />
+<img src="./images/image654.webp"
+  style="width:45%;"
+  title="Game of Pig; roll the dice"
+  alt="Game of Pig; roll the dice." />
+</p>
+
+<p>And it says roll the dice for player 1 and now I got a 1 and a 3 year old one, 
+switching to player 2. Roll the dice, I got a 2 and a 4, I can click roll again and 
+I&apos;m still on player 2 and I can roll the dice again.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 655/656. game of pig; roll dice (335) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image655.webp"
+  style="width:45%;"
+  title="Game of Pig; roll the dice"
+  alt="Game of Pig; roll the dice." />
+<img src="./images/image656.webp"
+  style="width:45%;"
+  title="Game of Pig; roll the dice"
+  alt="Game of Pig; roll the dice." />
+</p>
+
+<p>Now, I got a 5 and a 5, and I could pass if I wanted to, if I click pass it sets up 
+the turn but changes it to player 1 because of that ternary operator. And I can roll 
+the dice for player 1 and I got a 6 that I could choose roll again. So that&apos;s all 
+working great, it&apos;s working perfectly fine just the way it is, excellent. 
+Let&apos;s stop there and we&apos;ll pick it up in the next lesson.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-11">4.11 Checking for a Win (6:02)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 657. 3rd major function checks for winning condition (335) ~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image657.webp"
+  style="width:50%;"
+  title="4.11 3rd Major Functions Checks for Winning Condition"
+  alt="4.11 3rd Major Functions Checks for Winning Condition." />
+</p>
+
+<p>The third major function we need is the function that checks for a winning condition.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 658. checking for a win (336) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image658.webp"
+  style="width:50%;"
+  title="Checking for a win"
+  alt="Checking for a win." />
+</p>
+
+<p>Has the player scored enough points to actually win the game? Let&apos;s make a 
+function for that called <b>checkWinningCondition</b> and add that to our functions 
+down here.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 659/660. within throwdice check winning conditions (336) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image659.webp"
+  style="width:45%;"
+  title="function throwDice"
+  alt="function throwDice." />
+<img src="./images/image660.webp"
+  style="width:45%;"
+  title="Check Winning Condition"
+  alt="Check Winning Condition." />
+</p>
+
+<p>So this really long function, <b>throwDice</b> goes all the way down to this closing 
+curly brace here.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 661. add if..else for winning conditions (337) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image661.webp"
+  style="width:50%;"
+  title="Add if..else for winning conditions"
+  alt="Add if..else for winning conditions." />
+</p>
+
+<p>Let&apos;s add another function down here. Function <b>checkWinningCondition</b>. And 
+this function is going to have an <b>if else</b> statement in it. The if statement is 
+going to handle with what happens if you have actually achieved the winning conditions. 
+So if winning condition met or else show current score. If we haven&apos;t won, we at 
+least ought to know how close we are to winning? So it&apos;s going to do those two things.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 662. check player score against gameend (337) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image662.webp"
+  style="width:50%;"
+  title="Is player score (gameData.score) greater than gameData.gameEnd?"
+  alt="Is player score (gameData.score) greater than gameData.gameEnd?" />
+</p>
+
+<p>To check the winning condition, we just need to get this players score. Get that 
+players score and see if it&apos;s greater than <b>gameData.gameEnd.</b> If that&apos;s 
+true, then we need to do some things. We want to set the score area of the page to say 
+this particular player, player one wins. Player x wins with x points, something like 
+that. But player x is going to be variable. So we&apos;re going to do &dollar;{}. And 
+in there we&apos;re going to say, where&apos;s my player thing when I switch players? 
+It&apos;s up here. So play, that&apos;s going to be their player winner, player two wins 
+with x points. And in there goes this game data score index, this thing here because 
+that&apos;s the score that we got.</p>
+
+<p>What else do we need to do? I&apos;m going to clear out the action area and then we 
+make a, get element by Id quit. I mean that button that&apos;s up at the top of the 
+page, I&apos;m going to set its innerHTML to start a new game. So let&apos;s just do 
+that. ActionArea = &quot; &quot;. We&apos;re just clearing it out, that&apos;s all 
+we&apos;re doing there. And then we&apos;re going to say 
+document.getElementById(&quot;quit&quot;) that button there. I mean I&apos;d say it&apos;s 
+innerHTML. It&apos;s going to be start a New Game, something like that. Once we&apos;ve won, 
+we can start a new game. Cool, so that&apos;s the if statement that we&apos;ll check to see. 
+If the game has won, we will start a new game. And the next lesson, we&apos;ll fill out 
+the show current score section of this <b>function</b>.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-12">4.12 Show the Current Score (8:33)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 663. show the current score (4.12) (338) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image663.webp"
+  style="width:40%;"
+  title="4.12 Show the Current Score"
+  alt="4.12 Show the Current Score." />
+</p>
+
+<p>Okay, so now we need to show the current score, and make sure that that gets filled 
+out properly, if we haven&apos;t won the game, so let&apos;s go over and add this.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 664. showing the current score (339) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image664.webp"
+  style="width:50%;"
+  title="Showing the Current Score"
+  alt="Showing the Current Score." />
+</p>
+
+<p>We&apos;re going to set the score areas innnerHTML to a paragraph that shows the 
+scores of both players. So we can say <b>score.innerHTML</b> = and I&apos;m going to 
+just put in here some tick marks and a paragraph. Like so, and then in here I&apos;m 
+going to say something this score for player one 1 is x, and the score for player 2, 
+is y something like that. Now player 1 is going to to be replaced with the variable, 
+Curly braces, and again, player 1 is this thing here in players index. Well, I just 
+need players <b>gameData.players&lbrack;0&rbrack;</b>, is going to be something. And 
+what score is that going to be? This is going to be a variable here, curly braces, and
+again add the dollar sign. And in there we&apos;re going to say, 
+<b>gameData.score&lbrack;0&rbrack;</b>. So that&apos;s the first player&apos;s score, and then
+we&apos;re going to do the same thing down here, For a player two, Except that&apos;s 
+going to be 1, And this is going to be the same thing down here, Except that&apos;s 
+going to be 1.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 665. function checkwinningcondition (340) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image665.webp"
+  style="width:50%;"
+  title="function checkWinningCondition"
+  alt="function checkWinningCondition." />
+</p>
+
+<p>Now you could even make it stand out a little bit more by putting a strong tag around 
+each of these things. And you could do much better than this for coming up with sort of 
+a nicer interface for this. But, But this will take care of us for the moment. There we 
+go. So we&apos;re going to put that into the score and, then we&apos;re ready to continue 
+I believe that&apos;s all we need let&apos;s just see over here, yep. Players&lbrack;0&rbrack;
+player&lbrack;1&rbrack; looks good, that all looks good all right great, so what do we 
+need to do to get this to work?</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 666. function checkwinningcondition (340) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image666.webp"
+  style="border: 2px solid #000000; width:50%"
+  title="function checkWinningCondition"
+  alt="function checkWinningCondition." />
+</p>
+
+We need to run this function, Here, check winning condition, It&apos;s not
+the only place we need to run it, but let&apos;s start with that. Let&apos;s put
+it there.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 667/668. test score 0 to 8 (341) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image667.webp"
+  style="border: 2px solid #000000; width:45%"
+  title="Test score console.log 0 to 8"
+  alt="Test score console.log 0 to 8." />
+<img src="./images/image668.webp"
+  style="border: 2px solid #000000; width:45%"
+  title="Again, test score console log 0 to 8"
+  alt="Again, test score console log 0 to 8." />
+</p>
+
+Let&apos;s test this, make sure you save the file and then we&apos;re going to
+come over here, and refresh my page, and start my game, roll the dice
+for player 1. So now I&apos;ve got eight and I&apos;ve got no player 2 is
+running here, and you can see that the score got added up, player 2 has
+8 points. I can click roll again and it takes me to set up the term,
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 669/670. test score 0 to 15, then 0 to 25 (341) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image669.webp"
+  style="width:45%;"
+  title="Test Game of PIG, score 0 to 15"
+  alt="Test Game of PIG, score 0 to 15." />
+<img src="./images/image670.webp"
+  style="width:45%;"
+  title="Test Game of PIG, score 0 to 25"
+  alt="Test Game of PIG, score 0 to 25." />
+</p>
+
+and I can roll the dice for player 2, again and I&apos;ve got 15. Okay so 2
+two is 15, I could roll again, roll the dice again takes me to set up
+turn. Now I&apos;ve got 25, and if I get five or more this we should have
+the end of the game and that should trigger it so let&apos;s see what
+happens.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 671. test game player 2 wins with 33 (342) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image671.webp"
+  style="border: 2px solid #000000; width:50%"
+  title="Test Game of PIG, player 2 wins with 33 points"
+  alt="Test Game of PIG, player 2 wins with 33 points." />
+</p>
+
+Roll the dice, and player 2 wins with 33 points, and now up here I have
+started new game, it still says roll again or pass so that&apos;s something
+that needs to be dealt with.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 672. test start game of pig with console.log (342) ~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image672.webp"
+  style="width:50%;"
+  title="Test Game of PIG, with console.log of score"
+  alt="Test Game of PIG, with console.log of score." />
+</p>
+
+But, We can start a new game up here, what happens if I click roll
+again? Now I&apos;ve got an error up here, so that&apos;s something that we need
+to deal with here. Roll the dice, what if I choose pass? If I choose
+pass it says roll the dice for player 1, roll the dice, and now I got a
+one so it&apos;s going to wait two seconds and set up for a player 2 and I
+can roll the dice for player 2. So there are a couple of things that we
+want to fix here, and one of them that&apos;s less obvious because we
+haven&apos;t done it yet, but if you roll two ones, you also need to fix
+that there as well. So that because that&apos;s going to change the score,
+so we want to show the score if you roll two ones.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 673. function: checkwinningcondition (343) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image673.webp"
+  style="width:50%;"
+  title="Run function: checkWinningCondition"
+  alt="Run function: checkWinningCondition." />
+</p>
+
+So let&apos;s go back to our code over here, And I want to run
+<b>checkWinningCondition</b>, Up here, if you roll two ones I&apos;m going to
+run it here as well, because that&apos;s not going to have a win when
+you&apos;re not going to get a win if you roll two ones, but the score is
+going to change. So if you roll two ones then that player score get
+zeroed out and you want to be able to see that, so we&apos;ll put
+<b>checkWinningCondition</b> there as well, actually we&apos;ll put it before
+this set time out. Doesn&apos;t actually matter, the set time out will wait
+two seconds anyway, but I&apos;m going to put it before that, there we go,
+so that helps.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 674. if win, set action area (344) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image674.webp"
+  style="width:50%;"
+  title="Set action area when you win"
+  alt="Set action area when you win." />
+</p>
+
+The other thing we need to do down here is that, if you&apos;ve won the game
+I was setting the action area, actually this is what I&apos;m missing
+.innerHTML, that&apos;s what I was missing from before,
+<b>actionArea.innerHTML</b> set that to blank, so that that will get rid of
+those buttons that I had there by accident.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 675. test game of pig (344) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image675.webp"
+  style="width:50%;"
+  title="Test Game of Pig"
+  alt="Test Game of Pig." />
+</p>
+
+Now there&apos;s one more thing that we can do to make this work a little
+bit better but let&apos;s just test this again, just to make sure it&apos;s all
+working, right? Roll the dice, roll again, Roll again and that&apos;s
+working and then okay, we got switched to the other player, whoops get
+switched back, poor player 1 is still at 0. We&apos;re rolling lots of 1s
+here, just by pure random luck, It be kind of nice if we roll the
+double 1. All right finally, player 1 is on the board, sorry, player 1,
+And if we roll again, no, got switched again, there we go. Player one
+got snake eyes so he got set back to 0, player 1&apos;s having a bad game
+and player 2 wins. And then we don&apos;t have the buttons there because we
+cleared that out properly, the only thing you can do is start a new
+game. So that&apos;s all working perfectly fine, so that&apos;s great. We will
+stop this lesson here but in the last lesson we will talk about some
+things that we could do to clean up a little more, just this final
+cleanup stuff.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-13">4.13 Final Clean-Up (8:08)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 676. final clean-up (4.13) (345) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image676.webp"
+  style="width:40%;"
+  title="4.13 Final Clean-Up"
+  alt="4.13 Final Clean-Up." />
+</p>
+
+Okay the game is working and that&apos;s great, and everything is working
+the way it should. So that&apos;s excellent. But there&apos;s one thing that I
+would like you to notice which is that when you roll the dice for the
+player, when you roll again it&apos;s going to set up turn which says roll
+the dice for player 1. But it&apos;ll be kind of nice if hopes I get snake
+eyes there, it&apos;ll be kind of nice if when I roll the dice again if I
+click roll again, it just rolls them again. I don&apos;t really need to go
+back to the setup turn at this point, I could just roll the dice again.
+So what can we do about that?
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 677. replace setup turn with throw dice (346) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image677.webp"
+  style="width:40%;"
+  title="Replace function setup turn with throw dice"
+  alt="Replace function setup turn with throw dice." />
+</p>
+
+What if down here, in here when we go to roll again instead of doing
+setup turn we just run this <b>function</b>. Throw the dice instead of
+setup turn here. I think that will work, so let&apos;s go back and test
+that. Now, when I start the game and I rolled the dice for a player 2,
+hope I get snake eyes again. There we go. Now when I click roll again it
+just rolls again, and you can see that the score is getting added
+nicely. It&apos;s a bit smoother so that works great, okay?
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 678/679. find and cleanup where possible (346) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image678.webp"
+  style="width:45%;"
+  title="Using best practices, cleanup where possible"
+  alt="Using best practices, cleanup where possible." />
+<img src="./images/image679.webp"
+  style="width:45%;"
+  title="Using best practices, cleanup where possible"
+  alt="Using best practices, cleanup where possible." />
+</p>
+
+A couple other things to clean up this thing here is really long, and
+you could turn it into a separate little helper function. I don&apos;t know
+if it&apos;s really necessary, but you could make a function called show
+current score and make sure you put it in the winning condition, and you
+could move it also into the IF statement for the throw dice. Yeah, we
+could put it in a couple of different places here. Let&apos;s do this just
+to see just kind of little helper function here. I&apos;m going to say
+function, <b>showCurrentScore</b>, and it&apos;s really just going to be this
+stuff just because it&apos;s kind of long. And then, really all we need to
+do is run this function here, <b>showCurrentScore</b>.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 680/681. change to showcurrentscore (347) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image680.webp"
+  style="width:45%;"
+  title="Change checkWinningCondition to showCurrentScore"
+  alt="Change checkWinningCondition to showCurrentScore." />
+<img src="./images/image681.webp"
+  style="width:45%;"
+  title="Change checkWinningCondition to showCurrentScore"
+  alt="Change checkWinningCondition to showCurrentScore." />
+</p>
+
+Now, we don&apos;t need to run check winning condition up when you run snake
+eyes because you&apos;re not going to win there, but we need to run show
+current score. Instead of <b>checkWinningCondition</b>, we can change this
+to <b>showCurrentScore</b>. And that makes a bit more sense because that&apos;s
+what we&apos;re doing it. We&apos;re showing the current score, nobody&apos;s going
+to win when they rolled two ones that&apos;s going to zero out their score.
+And we want to show the current score, but we don&apos;t really need to
+check the winning condition. We don&apos;t need to do the top part of this
+IF statement here, we just need to do this bottom part which is showing
+the current score. So, that&apos;s a little bit cleaner and a little bit
+nicer like that.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 682/683. best practices throw dice function (347) ~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image682.webp"
+  style="width:45%;"
+  title="Optimize JavaScript functions using best practices"
+  alt="Optimize JavaScript functions using best practices." />
+<img src="./images/image683.webp"
+  style="width:45%;"
+  title="If function is used more than once, split off"
+  alt="If function is used more than once, split off." />
+</p>
+
+I think the next thing I wanted to talk about is this throw dice
+function is really long. Now, you could potentially break out these IF
+statements into separate little helper functions to get it to be a
+little bit shorter.
+
+Since none of this stuff is going to be used more than once, there&apos;s
+not really a huge reason to do so. I&apos;m going to leave it the way it is.
+But you could think about what you would do to create little helper
+functions and run them in these if/else statements, basically pull the
+guts out and put them in their own separate functions. And you might
+want to try it just to kind of get used to working with that kind of
+idea, and it would help make that throw dice function a little bit
+shorter, which would be kind of nice as well.
+
+You could also make a separate function that just contains the whole
+selection statement, if/else, if and the else statement and make that
+into a separate function that runs here.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 684/685. script.js with all functions (348) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image684.webp"
+  style="width:45%;"
+  title="Separate JS code into script.js for best practices"
+  alt="Separate JS code into script.js for best practices." />
+<img src="./images/image685.webp"
+  style="width:45%;"
+  title="Move all functions into one script file for ease"
+  alt="Move all functions into one script file for ease." />
+</p>
+
+<p>The next thing to do is to apply some of our best practices to this, which would be to 
+create a separate script file because now we got a bunch of JavaScript at the bottom of 
+the page. It&apos;s probably a good idea to make a new file here and call it script.js. 
+And on that file we could take all of our script from the top here, all the way down to 
+the bottom of the script tag here, cut it and stick it on that script tag over there. 
+And in fact, I&apos;m going to put in my immediately invoked function here. I&apos;m 
+going to have parentheses and in there, I&apos;m going to run a function which has its 
+own parentheses, in its own curly braces and a set of parentheses after that, in a 
+semicolon. And then, I&apos;m going to click between the curly braces and move that down 
+and add my <b>use strict</b> directive to make sure I didn&apos;t screw up in any of my
+variables and then paste everything here.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 686. change vars to const in javascript (349) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image686.webp"
+  style="width:50%;"
+  title="Update all var to const to speed things up"
+  alt="Update all var to const to speed things up." />
+</p>
+
+<p>So that puts everything in there, and then you could go through, and you could change 
+all of these <b>vars</b> to <b>const</b>. And in fact in this entire <b>script</b>, all of the 
+<b>var</b> declarations can be <b>const</b>. I think even the game data where the actual data 
+changes, but the actual function, the actual variable doesn&apos;t change. That can be 
+a constant as well.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 687. differ script.js (349) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image687.webp"
+  style="width:50%;"
+  title="Use the differ attribute with script.js"
+  alt="Use the differ attribute with script.js." />
+</p>
+
+<p>So we saved that, and then we come over here, and we move this up, and
+we&apos;re going to link to <b>src="script.js"</b>. And you could move this up
+to the top of the page with the <b>differ</b> attribute on there as well.
+So that&apos;s all working. That&apos;s good. We&apos;ve done all of the cleanup
+stuff. We have one last thing to talk about, but I&apos;m going to do that
+in the next lesson, and you&apos;ve got a working game here.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-14">4.14 Extending the Game (6:21)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 688. extending the game (module 4.14) (350) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image688.webp"
+  title="4.14 Extending the Game"
+  alt="4.14 Extending the Game."
+  style="border: 2px solid #000000; width:40%;" />
+</p>
+
+<p>Extending the game.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 689. easy ways to extend the game (350) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image689.webp"
+  title="Easy ways to extend the game"
+  alt="Easy ways to extend the game."
+  style="border: 2px solid #000000; width:50%;" />
+</p>
+
+<p>Now you have a pig day scheme that works and functions and it&apos;s pretty
+basic and that&apos;s great because we were able to plan and strategize a
+way of making a few different functions work together, to come together
+to make a game. That&apos;s definitely more complex than any of the scripts
+that we&apos;ve done in the first course of the the second course of the
+specialization. It&apos;s a good medium place to be in terms of creating
+more complicated scripts. But the game itself could be extended in lots
+of different ways, and my hope is that you will take this and run with
+it and do some interesting things with it. I&apos;ve given you some ideas
+for some things you could do that are not too hard and some that are
+more challenging if you really want to try to do them.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 690. easy ways to extend the game (351) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image690.webp"
+  title="Easy ways to extend the game"
+  alt="Easy ways to extend the game."
+  style="border: 2px solid #000000; width:50%;" />
+</p>
+
+<p>The first is when you roll a one, it zeros out the cumulative score for
+that turn. If you think about this game the way it is now over here,
+when you play this game, there&apos;s no reason to ever click pass, really.
+You&apos;re just going to roll again until you get a one. There&apos;s no
+strategic reason to ever click pass. But what if you roll the one, you
+lose all of the points that you gained during that turn.</p>
+
+<p>Remember, rolling two ones loses all the points you&apos;ve got in the game so far,
+but rolling one one could lose all the points you&apos;ve gained for the
+turn. If you&apos;ve got a couple of big rolls in there, you&apos;ve rolled the
+nine, you&apos;ve this 12 or whatever. Now pass could be strategically
+something that you want to do. Again, it&apos;s still just dumb luck as to
+whether you&apos;re going to win or lose, but pass could be more strategic.
+If you were going to do that, if you were going to add that feature into
+this game, what would you need to do? What would you need to add? I
+don&apos;t think it would be all that difficult. I think you could go back
+to your object up here, and you could create another variable that says,
+turn some, or something like that, and each time a value gets added to
+the turn some, you can increase that variable. If a one is rolled,
+you&apos;re going to subtract that from that player&apos;s score. They lose
+those points for that turn.</p>
+
+<p>Just by adding one more property into the game data, you could add that feature 
+in fairly easily. You just have to remember to update the rules. But that&apos;s 
+just one way of updating the scheme. There are other easy ways you could make some 
+better graphics or better interface, make it look nicer, make it clear whose turn 
+it is and what the score is. None of this stuff is working terribly well over here
+for what I have so far. It&apos;s okay but it&apos;s not. It&apos;s certainly not
+great. You can make it much better. That&apos;s something you can do that
+doesn&apos;t even involve a lot of programming that&apos;s really just design
+work.</p>
+
+<p>You can create form fields for the players name so that instead of
+player 1 and good player 2. When you start the game, when you click,
+Start. Instead of randomly pick a player, you could actually enter and
+you get to form fields here. Player 1 and player 2. Add those form
+fields in there. Again, you could replace these things here with the
+names that somebody types into the field so that it&apos;s not just player 1
+player 2. You could do that thing, that would be more challenging, but
+would be a fun thing to do. You could replace the dice with cards.
+There&apos;s no reason why it has to be dice.</p>
+
+<p>You could make a cool card game. There&apos;s no reason that it has to be
+1-6. You could have 20 possible cards for each person and have more
+values. What would you need to change in order to do that? You could
+allow the player to set a threshold for what wins the game. Right now
+it&apos;s up to 30, which isn&apos;t very much, and you could just manually up
+it to 100. But what if when you start the game, you have a field that
+says or it could you even be a drop down field for 30, 50 or 100,
+whatever you want, and the player picks what the threshold for winning
+is going to be for that game. You could do that. That would be an easy
+thing to add into the game. Again, it&apos;s just updating the data in that
+game data object at the top of the game.</p>
+
+<p>Then there&apos;s some more challenging ways to extend the game. You get add
+more players. Where if you had three players or four players or what if
+you could choose how many players you wanted to have playing the game.
+What would you have to add in order to do that, that&apos;s a little bit
+more complex because now that game index thing at the top of the page
+needs to be different. This needs to work differently because it&apos;s not
+going to just be a zero or one in or ternary operators are no longer
+going to work because those will only handle two values, either one or
+zero. But you can certainly do it. That wouldn&apos;t be that hard. That
+would be something more to do.</p>
+
+<p>You could add more dice. What if you add more than two dice? What if you
+had three or four, you could add other conditions that affect the game
+score. What if somebody rolls two sixs&apos; is what happens then? Maybe
+their score doubles? I don&apos;t know. You could do all fun things with
+these. There are lots of other ways that you could think of to come up
+with extending this game. That&apos;s your next job, is to really think
+about some things that you could do to extend this game and make it a
+more interesting better game. I look forward to seeing what people post
+on the discussion board. I&apos;ll check in from time to time and see what
+excellent versions people have made of the big game.</p>
+
+<ul>
+  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/QxK0k/pdf-of-presentation"
+    target="_blank" rel="noopener noreferrer">
+    4.14 Game-of-Pig.pdf (download)</a></li>
+</ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-15">Course Summary (0:57)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 691. course summary: interactivity with javascript and jquery (353) ~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image691.webp"
+  title="4.15 Course Summary: Interactivity with JavaScript and jQuery"
+  alt="4.15 Course Summary: Interactivity with JavaScript and jQuery."
+  style="border: 2px solid #000000; width:40%;" />
+</p>
+
+<p>Congratulations for making it to the end of our third course on
+JavaScript and therefore, of course, specialization. We&apos;ve done a lot.
+You&apos;ve learned a lot of JavaScript so far. In the first course we
+covered a lot of basics, a lot of basic syntax. We did a lot of
+challenges to get good at that syntax, and the second course, we
+introduced <b>jQuery</b> and we created some great interface elements that
+are very simple and easy to integrate into web pages. In this course,
+we&apos;ve gotten even deeper into it with <b>jQuery plug-ins</b> and we even
+created a game.</p>
+
+<p>So with all of this, you&apos;ve really developed a lot of JavaScript skills
+so far. We have a fourth course in the specialization, and in that
+course, we&apos;ll get even more complex scripts, and I promise you&apos;re
+going to learn even more JavaScript and you&apos;ll get even better at it
+and you&apos;ll get more practice. So I look forward to seeing you there.</p>
+
+<p>.the end...</p>
+
+<h6>Last Updated 3/06/2024 11:08pm</h6>
