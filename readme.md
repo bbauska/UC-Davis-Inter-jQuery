@@ -6231,90 +6231,99 @@ lesson.
   alt="." />
 </p>
 
-We will continue placing HTML into our index file and if you thought the
-other sections had a lot of content, this one has even more.
+<p>We will continue placing HTML into our index file and if you thought the
+other sections had a lot of content, this one has even more.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 383.  (195) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 383. scription tab section (195) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image383.webp"
   style="width:50%;"
-  alt="." />
+  title="Scription Tab Section"
+  alt="Scription Tab Section." />
 </p>
 
-This one is going to represent the tabs that show up in this tab section
+<p>This one is going to represent the tabs that show up in this tab section
 here, and it&apos;s kind of an indicator of how powerful tabs are because
 we&apos;ve got content here. And then, we&apos;ve got the same amount of content
 in each one of these tabs, and it really adds up to a lot of content.
 But when you use tabs properly, you&apos;re really reducing the cognitive
 load of your user because you&apos;re not giving them all of the information
 at once. And they can click on the correct tab that applies to them, and
-you&apos;ll be adding that script later as part of your challenge.
+you&apos;ll be adding that script later as part of your challenge.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 384.  (196) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 384. html tab structure (196) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image384.webp"
   style="width:50%;"
-  alt="." />
+  title="HTML Tab Structure"
+  alt="HTML Pricing Structure." />
 </p>
 
-But for right now we just need to get the actual HTML in place which I
+<p>But for right now we just need to get the actual HTML in place which I
 have here. I have it in pieces here. So first we&apos;ll just add the
-structure for the tabs.
-
+structure for the tabs.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 385/386.  (196) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 385/386. 3 sections, articles with tabs (196) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image385.webp"
   style="width:45%;"
-  alt="." />
+  title="Three sections; pricing, listen and ourteam"
+  alt="Three sections; pricing, listen and ourteam." />
 <img src="./images/image386.webp"
   style="width:45%;"
-  alt="." />
+  title="Tabs under article for Personal, Education and Professional"
+  alt="Tabs under article for Personal, Education and Professional." />
 </p>
 
-So I&apos;m going to put this in over here. And it goes down here inside the
+<p>So I&apos;m going to put this in over here. And it goes down here inside the
 pricing section, Here, and each one of these tabs is going to get
 content in here, so I&apos;ve got tab 1, tab 2, and tab 3, and each one of
-those is going to get a pile of content.
+those is going to get a pile of content.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 387/388.  (197) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 387/388. 3 articles & tab 1 content (197) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image387.webp"
   style="width:45%;"
-  alt="." />
+  title="Tab 1 Contnet"
+  alt="Tab 1 Content." />
 <img src="./images/image388.webp"
   style="width:45%;"
-  alt="." />
+  title="Content included for tab 1"
+  alt="Content included for tab 1." />
 </p>
 
-So if we come back here you can see this is all of the content just for
+<p>So if we come back here you can see this is all of the content just for
 a tab 1, so I&apos;m going to select all of this and all of this. So you
 have to be really careful to put it in the right place. So here, this is
 all going inside of this container for tab 1 here, so make sure you&apos;re
-in the right place and paste it in there.
+in the right place and paste it in there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 389/390.  (197) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 389/390. tabs 2 and 3, articles for each (197) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image389.webp"
   style="width:45%;"
-  alt="." />
+  title="Article 2 and 3 with tabs"
+  alt="Article 2 and 3 with tabs." />
 <img src="./images/image390.webp"
   style="width:45%;"
-  alt="." />
+  title="Tab 2 Content"
+  alt="Tab 2 Content." />
 </p>
 
-And then, scroll down and the next one is going to go here inside tab 2,
+<p>And then, scroll down and the next one is going to go here inside tab 2,
 let&apos;s put that in tab 2 content, copy all of that, that&apos;s a lot of
-content.
+content.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 391/392.  (198) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 391/392. tabs 3, container & section (198) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image391.webp"
   style="width:45%;"
-  alt="." />
+  title="Tab 3, container and section"
+  alt="Tab 3, container and section." />
 <img src="./images/image392.webp"
   style="width:45%;"
-  alt="." />
+  title="Tab 3 Content"
+  alt="Tab 3 Content." />
 </p>
 
 And then, tap 3 content, same thing, tab that in and then come over here
@@ -6324,11 +6333,12 @@ showing too much content at once when they&apos;re used properly. So there
 we go.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 393.  (199) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 393. define html section/tabs (199) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image393.webp"
   style="width:50%;"
-  alt="." />
+  title="Define HTML Section/Tabs"
+  alt="Define HTML Section/Tabs." />
 </p>
 
 So we&apos;ve got all of this stuff in here, we&apos;re already up to over 300
@@ -6336,11 +6346,12 @@ lines of code under HTML file. Okay great. So we&apos;ve got all of our tabs
 in place and then the next section we need to do, we need to work on is
 the, I have their pricing section content here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 394.  (199) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 394. example, listen section html (199) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image394.webp"
   style="width:50%;"
-  alt="." />
+  title="Example, Listen Section HTML"
+  alt="Example, Listen Section HTML." />
 </p>
 
 And then, the listen section and this is going to get a rotator, and you
@@ -6348,14 +6359,16 @@ can see ID rotator. We&apos;re going to rotate block quotes. For right now,
 we&apos;ve just got one block quote in, but later when you make that work
 you can add some more block quotes.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 395/396.  (199) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 395/396. listen section with test scription (199) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image395.webp"
   style="width:45%;"
-  alt="." />
+  title="Listen Section"
+  alt="Listen Section." />
 <img src="./images/image396.webp"
   style="width:45%;"
-  alt="." />
+  title="Test Listen Section"
+  alt="Test Listen Section." />
 </p>
 
 So let&apos;s come over to our snippets and here&apos;s our listen section. Yeah
@@ -6364,34 +6377,38 @@ That&apos;s this section down here, it&apos;s going to have this piece and this
 piece of continue which will use our rotator content rotator to actually
 rotate that around.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 397.  (200) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 397. section id = listen (200) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image397.webp"
   style="width:50%;"
-  alt="." />
+  title="Add section id='listen'"
+  alt="Add section id='listen'." />
 </p>
 
 So you&apos;ll get lots of practice putting this together, so that&apos;s going
 to go inside this listen section here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 398.  (200) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 398. example, our team section html and footer html (200) ~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image398.webp"
   style="width:50%;"
-  alt="." />
+  title="Example, Our Team Section HTML and Footer HTML"
+  alt="Example, Our Team Section HTML and Footer HTML." />
 </p>
 
 And then finally after that, we have our team which isn&apos;t too long,
 that&apos;s going to be next.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 399/400.  (201) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 399/400. our team section id='ourteam' (201) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image399.webp"
   style="width:45%;"
-  alt="." />
+  title="Our Team Section"
+  alt="Our Team Section." />
 <img src="./images/image400.webp"
   style="width:45%;"
-  alt="." />
+  title="Add to section id='ourteam'"
+  alt="Add to section id='ourteam'." />
 </p>
 
 Not quite the last thing but we&apos;ll get that next and put that in our
