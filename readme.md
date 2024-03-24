@@ -1,7 +1,7 @@
 ---
 title: "#3 - University of California @Davis Interactivity with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "2/16/2024 2+am"
+date last editted: "3/23/2024 9+pm"
 output: 
   markdown:
     with some style
@@ -511,7 +511,7 @@ Be sure to read the Coursera guidelines and the Coursera Honor Code here:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. course intro (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image003.webp" 
+  <img src="./images/image003.png" 
   title="1.01 Course Introduction"
   alt="1.01 Course Introduction."
   style="border: 2px solid #000000; width:40%;" />
@@ -535,7 +535,7 @@ JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. module 1 intro (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image004.webp" 
+  <img src="./images/image004.png" 
   title="1.02 Module 1 Introduction"
   alt="1.02 Module 1 Introduction."
   style="border: 2px solid #000000; width:40%;" />
@@ -558,7 +558,7 @@ elements on web pages and that&apos;s really pretty fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. intro to jquery plugins (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image005.webp" 
+  <img src="./images/image005.png" 
   title="1.03 Intro to jQuery Plugins"
   alt="1.03 Intro to jQuery Plugins."
   style="border: 2px solid #000000; width:40%;" />
@@ -568,7 +568,7 @@ Just as a quick recap, we&apos;ve learned a lot of JavaScript so far.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. recap: javascript (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image006.webp" 
+  <img src="./images/image006.png" 
   title="Recap: JavaScript"
   alt="Recap: JavaScript."
   style="border: 2px solid #000000; width:40%;" />
@@ -586,7 +586,7 @@ write the scripts that you want to do for your web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. recap: jquery (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image007.webp" 
+  <img src="./images/image007.png" 
   title="Recap: jQuery"
   alt="Recap: jQuery."
   style="border: 2px solid #000000; width:40%;" />
@@ -599,7 +599,7 @@ helps and that makes things a little bit easier and a little bit better for all 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. introducing: plugins (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image008.webp" 
+  <img src="./images/image008.png" 
   title="Introducing: Plugins"
   alt="Introducing: Plugins."
   style="border: 2px solid #000000; width:40%;" />
@@ -624,7 +624,7 @@ powerful and really great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. adding functionality (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image009.webp" 
+  <img src="./images/image009.png" 
   title="Adding Functionality"
   alt="Adding Functionality."
   style="border: 2px solid #000000; width:40%;" />
@@ -647,7 +647,7 @@ the tabbed interface rather than across the tab? You could do that thing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 10. using plugins and essential steps (1.04) (13) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image010.webp"
+  <img src="./images/image010.png"
   title="1.04 Using Plugins and Essential Steps"
   alt="1.04 Using Plugins and Essential Steps."
   style="border: 2px solid #000000; width:40%;" />
@@ -662,7 +662,7 @@ and effort as it takes to write the whole script yourself.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 11. using plugins and essential steps, #2 (13) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image011.webp" 
+  <img src="./images/image011.png" 
   title="Using Plugins and Essential Steps, #2"
   alt="Using Plugins and Essential Steps, #2."
   style="border: 2px solid #000000; width:50%;" />
@@ -707,7 +707,7 @@ there&apos;s any CSS files, those are included as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. documentation mish-mash (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image012.webp"
+  <img src="./images/image012.png"
   title="Documentation Mish-Mash"
   alt="Documentation Mish-Mash."
   style="border: 2px solid #000000; width:50%;" />
@@ -733,7 +733,7 @@ different, but it&apos;s the same basic steps each time.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 13. gotchas and rookie mistakes (1.05) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image013.webp"
+  <img src="./images/image013.png"
   title="Gotchas and Rookie Mistakes"
   alt="Gotchas and Rookie Mistakes."
   style="border: 2px solid #000000; width:40%;" />
@@ -741,7 +741,7 @@ different, but it&apos;s the same basic steps each time.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. gotchas and rookie mistakes, #2 (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image014.webp" 
+  <img src="./images/image014.png" 
   title="Gotchas and Rookie Mistakes, #2"
   alt="Gotchas and Rookie Mistakes, #2."
   style="border: 2px solid #000000; width:50%;" />
@@ -833,7 +833,7 @@ to do it again. You want to make sure you put it on your CSS file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. 5 items of beware the plugin (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image015.webp" 
+  <img src="./images/image015.png" 
   title="5 Items of Beware the Plugins"
   alt="5 Items of Beware the Plugins."
   style="border: 2px solid #000000; width:50%;" />
@@ -865,7 +865,7 @@ using is really worthwhile.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. looking to the future (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image016.webp"
+  <img src="./images/image016.png"
   title="Looking to the Future"
   alt="Looking to the Future."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -922,7 +922,7 @@ carrying the extension .ZIP.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. flexslider: a jquery plugin (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image017.webp" 
+  <img src="./images/image017.png" 
   title="1.06 FlexSlider: A jQuery Plugin"
   alt="1.06 FlexSlider: A jQuery Plugin."
   style="border: 2px solid black; width:40%;" />
@@ -934,7 +934,7 @@ to our page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. basic flexslider (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image018.webp"
+  <img src="./images/image018.png"
   title="Basic FlexSlider"
   alt="Basic FlexSlider."
   style="border: 2px solid gray; width:50%;" />
@@ -951,11 +951,11 @@ because it&apos;s a responsive slider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 19/20. responsive kittens for sale (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image019.webp?raw=true"
+<img src="./images/image019.png?raw=true"
   style="width:45%"
   title="Responsive Kittens for Sale Web Page, #1"
   alt="Responsive Kittens for Sale Web Page, #1." />
-<img src="./images/image020.webp?raw=true"
+<img src="./images/image020.png?raw=true"
   style="width:45%"
   title="Responsive Kittens for Sale Web Page, #2"
   alt="Responsive Kittens for Sale Web Page, #2." />
@@ -968,7 +968,7 @@ sizes using FlexSlider. That&apos;s fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. markup for web site (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image021.webp" 
+  <img src="./images/image021.png" 
   title="Markup for Kittens for Sale Web Page"
   alt="Markup for Kittens for Sale Web Page."
   style="border: 2px solid gray; width:50%;" />
@@ -980,11 +980,11 @@ some basic markup.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 22/23. responsive kittens for sale (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image022.webp?raw=true"
+<img src="./images/image022.png?raw=true"
   style="width:45%"
   title="Responsive Kittens for Sale Web Page, #1"
   alt="Responsive Kittens for Sale Web Page, #1." />
-<img src="./images/image023.webp?raw=true"
+<img src="./images/image023.png?raw=true"
   style="width:45%"
   title="Responsive Kittens for Sale Web Page, #2"
   alt="Responsive Kittens for Sale Web Page, #2." />
@@ -1000,7 +1000,7 @@ because, who doesn&apos;t love kittens? Kittens are awesome.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. responsive media queries (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image024.webp" 
+  <img src="./images/image024.png" 
   title="Responsive Media Queries"
   alt="Responsive Media Queries."
   style="border: 2px solid gray; width:50%;" />
@@ -1013,7 +1013,7 @@ of a layout on the page with the columns. Okay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. flexslider website (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image025.webp" 
+  <img src="./images/image025.png" 
   title="FlexSlider Website"
   alt="FlexSlider Website."
   style="border: 2px solid gray; width:50%;" />
@@ -1023,7 +1023,7 @@ Then the next thing is the FlexSlider Website and the FlexSlider Script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. flexslider website, #2 (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image026.webp" 
+  <img src="./images/image026.png" 
   title="FlexSlider Website, #2"
   alt="FlexSlider Website, #2."
   style="border: 2px solid gray; width:50%;" />
@@ -1039,7 +1039,7 @@ they&apos;re also included with this lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. flexslider website, #3 (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image027.webp"
+  <img src="./images/image027.png"
   title="FlexSlider Website, #3"
   alt="FlexSlider Website, #3."
   style="border: 2px solid gray; width:50%;" />
@@ -1050,7 +1050,7 @@ downloading the FlexSlider files of this lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 28. files needed: flexslider website (25) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image028.webp" 
+  <img src="./images/image028.png" 
   title="Files Needed for FlexSlider Website"
   alt="Files Needed for FlexSlider Website."
   style="border: 2px solid gray; width:50%;" />
@@ -1065,11 +1065,11 @@ plug-ins as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 29/30. folder with website and images (26) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image029.webp?raw=true"
+<img src="./images/image029.png?raw=true"
   style="width:45%"
   title="Folder with website"
   alt="Folder with website." />
-<img src="./images/image030.webp?raw=true"
+<img src="./images/image030.png?raw=true"
   style="width:45%"
   title="Folder with images"
   alt="Folder with images." />
@@ -1082,11 +1082,11 @@ got my style-sheet, that&apos;s what&apos;s in my folder.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31/32. unzipped download files (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image031.webp?raw=true"
+<img src="./images/image031.png?raw=true"
   style="width:45%"
   title="Unzipped download files"
   alt="Unzipped download files." />
-<img src="./images/image032.webp?raw=true"
+<img src="./images/image032.png?raw=true"
   style="width:45%"
   title="Other unzipped download files"
   alt="Other unzipped download files." />
@@ -1118,11 +1118,11 @@ well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 33/34. flexslider.css, fonts & minified flexslider (27) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image033.webp?raw=true"
+<img src="./images/image033.png?raw=true"
   style="width:45%"
   title="flexslider.css, fonts and jquery.flexslider-min.js"
   alt="flexslider.css, fonts and jquery.flexslider-min.js." />
-<img src="./images/image034.webp?raw=true"
+<img src="./images/image034.png?raw=true"
   style="width:45%"
   title="flexslider.css, fonts and jquery.flexslider-min.js"
   alt="flexslider.css, fonts and jquery.flexslider-min.js." />
@@ -1138,7 +1138,7 @@ started for this project.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 35. about the minified version (1.07) (27) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image035.webp"
+  <img src="./images/image035.png"
   title="1.07 About the Minified Version"
   alt="1.07 About the Minified Version."
   style="border: 2px solid gray; width:40%;" />
@@ -1165,7 +1165,7 @@ version.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 37. add javascript flexslider files (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image037.webp"
+  <img src="./images/image037.png"
   title="Add 3 files to project: flexslider.css, jquery.flexslider-min.js and fonts"
   alt="Add 3 files to project: flexslider.css, jquery.flexslider-min.js and fonts."
   style="border: 2px solid gray; width:50%;" />
@@ -1178,7 +1178,7 @@ previous lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. add 3 files to head of index (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image038.webp"
+  <img src="./images/image038.png"
   title="Add stylesheet and 2 javascript files to head of index"
   alt="Add stylesheet and 2 javascript files to head of index."
   style="border: 2px solid gray; width:50%;" />
@@ -1192,7 +1192,7 @@ written and to understand what the steps are.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 39. link to 3 files and add markup (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image039.webp"
+  <img src="./images/image039.png"
   title="Link files and add markup"
   alt="Link files and add markup."
   style="border: 2px solid gray; width:50%;" />
@@ -1209,7 +1209,7 @@ similarities.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. following directions (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image040.webp"
+  <img src="./images/image040.png"
   title="Following Directions"
   alt="Following Directions."
   style="border: 2px solid gray; width:50%;" />
@@ -1220,7 +1220,7 @@ mean about how to do this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. styles.css and load jquery (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image041.webp"
+  <img src="./images/image041.png"
   title="styles.css and load jQuery"
   alt="styles.css and load jQuery."
   style="border: 2px solid gray; width:50%;" />
@@ -1228,11 +1228,11 @@ mean about how to do this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 42/43. where to put scripts, css & js (31) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image042.webp?raw=true"
+<img src="./images/image042.png?raw=true"
   style="width:45%"
   title="Where to put styles and scripts within HTML"
   alt="Where to put styles and scripts withing HTML." />
-<img src="./images/image043.webp?raw=true"
+<img src="./images/image043.png?raw=true"
   style="width:45%"
   title="Where to put styles and scripts within HTML"
   alt="Where to put styles and scripts within HTML." />
@@ -1253,7 +1253,7 @@ I&apos;ve got jquery 2.2.4 loaded here, as opposed to the 1.6.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. jquery version to load (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image044.webp"
+  <img src="./images/image044.png"
   title="jQuery version to load"
   alt="jQuery version to load."
   style="border: 2px solid gray; width:50%;" />
@@ -1268,7 +1268,7 @@ jquery with that one.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 45. load jquery at bottom of screen (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image045.webp"
+  <img src="./images/image045.png"
   title="Load jQuery at bottom of screen"
   alt="Load jQuery at bottom of screen."
   style="border: 2px solid gray; width:50%;" />
@@ -1281,7 +1281,7 @@ script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. add scripts to index.html (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image046.webp"
+  <img src="./images/image046.png"
   title="Where to add scripts to index.html"
   alt="Where to add scripts to index.html."
   style="border: 2px solid gray; width:50%;" />
@@ -1297,7 +1297,7 @@ says place somewhere in the head of your document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 47. defer scripts loading; jquery, plugin, my script (33) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image047.webp"
+  <img src="./images/image047.png"
   title="Defer script load; jQuery libary, then plugins, then my script"
   alt="Defer script load; jQuery libary, then plugins, then my script."
   style="border: 2px solid gray; width:50%;" />
@@ -1312,7 +1312,7 @@ page is loaded, just to be certain. So, we&apos;ve got that, okay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 48. add markup with div, flexslider, ul and li images (33) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image048.webp"
+  <img src="./images/image048.png"
   title="Add Markup container with div, FlexSlider, ul and li images"
   alt="Add Markup container with div, FlexSlider, ul and li images."
   style="border: 2px solid gray; width:50%;" />
@@ -1327,7 +1327,7 @@ the images inside of it, and we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 49. adding markup and hooking up the slider (34) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image049.webp"
+  <img src="./images/image049.png"
   title="1.08 Adding Markup and Hooking Up the Slider"
   alt="1.08 Adding Markup and Hooking Up the Slider."
   style="border: 2px solid gray; width:40%;" />
@@ -1340,7 +1340,7 @@ modify changes there. We&apos;ll get to more on that later.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 50. step 2, add markup div, ul and li images (34) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image050.webp"
+  <img src="./images/image050.png"
   title="Step 2 FlexSlider, add markup, div, ul and li images"
   alt="Step 2 FlexSlider, add markup, div, ul and li images."
   style="border: 2px solid gray; width:50%;" />
@@ -1356,7 +1356,7 @@ for that unordered list.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 51. index.html, div class='flexslider' (35) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image051.webp"
+  <img src="./images/image051.png"
   title="Add Flexslider class to div and slides class to ul"
   alt="Add Flexslider class to div and slides class to ul."
   style="border: 2px solid gray; width:50%;" />
@@ -1373,7 +1373,7 @@ slides with seven kittens, one on each side. That&apos;s great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. verify classes on div and ul (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image052.webp"
+  <img src="./images/image052.png"
   title="Add class to div and ul in index.html"
   alt="Add class to div and ul in index.html."
   style="border: 2px solid gray; width:50%;" />
@@ -1385,7 +1385,7 @@ we got that all in, so that&apos;s great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 53. step 3, add to head of index.html (36) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image053.webp"
+  <img src="./images/image053.png"
   title="Step 3, add to head of index.html"
   alt="Step 3, add to head of index.html."
   style="border: 2px solid gray; width:50%;" />
@@ -1397,7 +1397,7 @@ jQuery, but that&apos;s okay. This is what it says down here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. update myscript.js (37) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image054.webp"
+  <img src="./images/image054.png"
   title="Add functions to MyScript.js"
   alt="Add functions to MyScript.js."
   style="border: 2px solid gray; width:50%;" />
@@ -1411,7 +1411,7 @@ inside script tags, but we already have a separate file called
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 55. on load, run flexslider function (37) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image055.webp"
+  <img src="./images/image055.png"
   title="MyScript.js: Add Flexslider function"
   alt="MyScript.js: Add Flexslider function."
   style="border: 2px solid gray; width:50%;" />
@@ -1431,11 +1431,11 @@ use <b>window.on</b> instead. But let&apos;s just test it anyway.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 56/57. example test, verify jquery version # (38) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image056.webp?raw=true"
+<img src="./images/image056.png?raw=true"
   style="width:45%"
   title="Example test, verify correct jquery.min.js is loaded"
   alt="Example test, verify correct jquery.min.js is loaded." />
-<img src="./images/image057.webp?raw=true"
+<img src="./images/image057.png?raw=true"
   style="width:45%"
   title="Inspect jQuery and FlexSlider code"
   alt="Inspect jQuery and FlexSlider code." />
@@ -1451,7 +1451,7 @@ here is that the latest version of jQuery does not support this file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58. jquery snippet (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image058.webp"
+  <img src="./images/image058.png"
   title="jQuery snippet"
   alt="jQuery snippet."
   style="border: 2px solid gray; width:50%;" />
@@ -1459,7 +1459,7 @@ here is that the latest version of jQuery does not support this file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 59. load defer jquery in index.html (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image059.webp"
+  <img src="./images/image059.png"
   title="Load correct version of jQuery defer in index.html"
   alt="Load correct version of jQuery defer in index.html."
   style="border: 2px solid gray; width:50%;" />
@@ -1473,7 +1473,7 @@ that it works. Close this, refresh.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 60. example, test kittens for sale (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image060.webp"
+  <img src="./images/image060.png"
   title="Example, test Kittens For Sale"
   alt="Example, test Kittens For Sale."
   style="border: 2px solid gray; width:50%;" />
@@ -1485,11 +1485,11 @@ to do.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 61/62. again, validate jquery version (40) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image061.webp?raw=true"
+<img src="./images/image061.png?raw=true"
   style="width:45%"
   title="index.html load jQuery with correct version"
   alt="index.html load jQuery with correct version." />
-<img src="./images/image062.webp?raw=true"
+<img src="./images/image062.png?raw=true"
   style="width:45%"
   title="Run Flexslider from myscript.js"
   alt="Run Flexslider from myscript.js." />
@@ -1503,11 +1503,11 @@ website if you wanted to.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63/64. again, validate jquery (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image063.webp?raw=true"
+<img src="./images/image063.png?raw=true"
   style="width:45%"
   title="Load jQuery version"
   alt="Load jQuery version." />
-<img src="./images/image064.webp?raw=true"
+<img src="./images/image064.png?raw=true"
   style="width:45%"
   title="Test example Flexslider"
   alt="Test example Flexslider." />
@@ -1518,7 +1518,7 @@ this back to the version 3.6 and save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. test example scroll (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image065.webp"
+  <img src="./images/image065.png"
   title="Test example scroll"
   alt="Test example scroll."
   style="border: 2px solid gray; width:50%;" />
@@ -1532,11 +1532,11 @@ method.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 66/67. fonts load and example tests (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image066.webp?raw=true"
+<img src="./images/image066.png?raw=true"
   style="width:45%"
   title="Verify fonts reside in correct folder"
   alt="Verify fonts reside in correct folder." />
-<img src="./images/image067.webp?raw=true"
+<img src="./images/image067.png?raw=true"
   style="width:45%"
   title="Example test fonts and FlexSlider"
   alt="Example test fonts and FlexSlider." />
@@ -1562,7 +1562,7 @@ it and we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. flexslider rules (1.09) (42) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image068.webp"
+  <img src="./images/image068.png"
   title="1.09 FlexSlider Rules"
   alt="1.09 FlexSlider Rules."
   style="border: 2px solid gray; width:50%;" />
@@ -1575,11 +1575,11 @@ in the styling.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 69/70. test example kittens for sale (42) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image069.webp?raw=true"
+<img src="./images/image069.png?raw=true"
   style="width:45%"
   title="Inspect flexslider element style for each image"
   alt="Inspect flexslider element style for each image." />
-<img src="./images/image070.webp?raw=true"
+<img src="./images/image070.png?raw=true"
   style="width:45%"
   title="FlexSliderBasic-Start index.html"
   alt="FlexSliderBasic-Start index.html." />
@@ -1587,11 +1587,11 @@ in the styling.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 71/72. flexslider rules in styles.css (43) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image071.webp?raw=true"
+<img src="./images/image071.png?raw=true"
   style="width:45%"
   title="FlexSlider Rules"
   alt="FlexSlider Rules." />
-<img src="./images/image072.webp?raw=true"
+<img src="./images/image072.png?raw=true"
   style="width:45%"
   title="Update styles for flexslider class"
   alt="Update styles for flexslider class." />
@@ -1599,11 +1599,11 @@ in the styling.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 73/74. it should be working, test (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image073.webp?raw=true"
+<img src="./images/image073.png?raw=true"
   style="width:45%"
   title="It Should Be Working.  If not, fine tune it"
   alt="It Should Be Working.  If not, fine tune it." />
-<img src="./images/image074.webp?raw=true"
+<img src="./images/image074.png?raw=true"
   style="width:45%"
   title="Test, example scroll left and right"
   alt="Test, example scroll left and right." />
@@ -1638,11 +1638,11 @@ file. I want to make sure I&apos;m on my CSS file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 75/76. media queries, flexslider styles (44) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image075.webp?raw=true"
+<img src="./images/image075.png?raw=true"
   style="width:45%"
   title="Verify media queries"
   alt="Verify media queries." />
-<img src="./images/image076.webp?raw=true"
+<img src="./images/image076.png?raw=true"
   style="width:45%"
   title="Test, example styles"
   alt="Test, example styles." />
@@ -1660,7 +1660,7 @@ I&apos;ve got rid of that gap and all that stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. inspect example site (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image076.webp"
+  <img src="./images/image076.png"
   title="Inspect example site: Kittens For Sale"
   alt="Inspect example site: Kittens For Sale."
   style="border: 2px solid gray; width:50%;" />
@@ -1674,7 +1674,8 @@ I want to actually attach to.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 77. border, margin, radius, background-color (45) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image077.webp"
+  <img src="./images/image077.png"
+  title="styles.css: border, margin, background-color"
   alt="styles.css: border, margin, background-color."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1687,7 +1688,8 @@ background color. Save that and come back and test it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 78. inspect styles, font and color  (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image078.webp"
+  <img src="./images/image078.png"
+  title="Inspect to fine tune style, font and colors"
   alt="Inspect to fine tune style, font and colors."
   style="border: 2px solid gray; width:50%;" />
 </p>
@@ -1705,7 +1707,7 @@ and look the way you want it to look on your page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. additional controls (1.10) (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image079.webp"
+  <img src="./images/image079.png"
   title="1.10 Additional Controls"
   alt="1.10 Additional Controls."
   style="border: 2px solid gray; width:40%;" />
@@ -1716,11 +1718,11 @@ and it&apos;s working.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 80/81. flexslider website options (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image080.webp?raw=true"
+<img src="./images/image080.png?raw=true"
   style="width:45%"
   title="FlexSlider website options"
   alt="FlexSlider website options." />
-<img src="./images/image081.webp?raw=true"
+<img src="./images/image081.png?raw=true"
   style="width:45%"
   title="Test, example website"
   alt="Test, example website." />
@@ -1737,11 +1739,11 @@ it for us automatically and that&apos;s great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 82/83. options and default values for flexslider (47) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image082.webp?raw=true"
+<img src="./images/image082.png?raw=true"
   style="width:45%"
   title="List of FlexSlider Options and their default values"
   alt="List of FlexSlider Options and their default values." />
-<img src="./images/image083.webp?raw=true"
+<img src="./images/image083.png?raw=true"
   style="width:45%"
   title="Additional options and default values"
   alt="Additional options and default values." />
@@ -1755,7 +1757,7 @@ looking at this exactly what you need to do.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 84. flexslider options, default values (47) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image084.webp"
+  <img src="./images/image084.png"
   title="FlexSlider Options, default values"
   alt="FlexSlider Options, default values."
   style="border: 2px solid gray; width:50%;" />
@@ -1772,7 +1774,7 @@ can we do? Let&apos;s take a look at it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85. flexslider with options (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image085.webp"
+  <img src="./images/image085.png"
   title="FlexSlider with Options"
   alt="FlexSlider with Options."
   style="border: 2px solid gray; width:50%;" />
@@ -1788,11 +1790,11 @@ syntax because we&apos;ll see it a lot, especially with the plugins.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 86/87. update flexslider options (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image086.webp?raw=true"
+<img src="./images/image086.png?raw=true"
   style="width:45%"
   title="myscript.js flexslider options"
   alt="myscript.js flexslider options." />
-<img src="./images/image087.webp?raw=true"
+<img src="./images/image087.png?raw=true"
   style="width:45%"
   title="Example, using FlexSlider"
   alt="Example, using FlexSlider." />
@@ -1820,11 +1822,11 @@ worry about that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 88/89. other flexslider options (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image088.webp?raw=true"
+<img src="./images/image088.png?raw=true"
   style="width:45%"
   title="FlexSlider with Options"
   alt="FlexSlider with Options." />
-<img src="./images/image089.webp?raw=true"
+<img src="./images/image089.png?raw=true"
   style="width:45%"
   title="myscript.js. Set animation: 'slide' and slideshowSpeed: 2000"
   alt="myscript.js. Set animation: 'slide' and slideshowSpeed: 2000." />
@@ -1841,11 +1843,11 @@ great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 90/91. scroll direction: 'vertical' (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image090.webp?raw=true"
+<img src="./images/image090.png?raw=true"
   style="width:45%"
   title="Set scroll direction vertical"
   alt="Set scroll direction vertical." />
-<img src="./images/image091.webp?raw=true"
+<img src="./images/image091.png?raw=true"
   style="width:45%"
   title="Example, verify scroll direction vertical"
   alt="Example, verify scroll direction vertical." />
@@ -1860,7 +1862,7 @@ vertical.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. example, test vertical scroll (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image092.webp"
+  <img src="./images/image092.png"
   title="Example, test vertical scroll"
   alt="Example, test vertical scroll."
   style="border: 2px solid gray; width:50%;" />
@@ -1872,7 +1874,7 @@ Now it&apos;s going from the top to the bottom.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. set pauseonhover = true (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image093.webp"
+  <img src="./images/image093.png"
   title="pauseonHover: true"
   alt="pauseonHover: true."
   style="border: 2px solid gray; width:50%;" />
@@ -1905,7 +1907,8 @@ something else that would be kind of interesting and fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. advanced flexslider (1.11) (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image094.webp"
+  <img src="./images/image094.png"
+  title="1.11 Advanced FlexSlider"
   alt="1.11 Advanced FlexSlider."
   style="border: 2px solid gray; width:40%;" />
 </p>
@@ -1915,11 +1918,11 @@ options, we can really do some different things with this FlexSlider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 95/96. copy flexslider/rename to kittensadvanced (52) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image095.webp?raw=true"
+<img src="./images/image095.png?raw=true"
   style="width:45%"
   title="Copy and rename advancedFlexSlider to KittensAdvanced"
   alt="Copy and rename advancedFlexSlider to KittensAdvanced." />
-<img src="./images/image096.webp?raw=true"
+<img src="./images/image096.png?raw=true"
   style="width:45%"
   title="Copy, rename and verify new folder for FlexSlider changes"
   alt="Copy, rename and verify new folder for FlexSlider changes." />
@@ -1941,11 +1944,11 @@ files open in my code editor.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 97/98. verify right set of files (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image097.webp?raw=true"
+<img src="./images/image097.png?raw=true"
   style="width:45%"
   title="Use advancedSlider"
   alt="Use advancedSlider." />
-<img src="./images/image098.webp?raw=true"
+<img src="./images/image098.png?raw=true"
   style="width:45%"
   title="Verify your working with the right set of files"
   alt="Verify your working with the right set of files." />
@@ -1960,7 +1963,8 @@ advancedSlider there, so this is my advanced slider files.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. update the markup (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image099.webp"
+  <img src="./images/image099.png"
+  title="Update the Markup"
   alt="Update the Markup."
   style="border: 2px solid gray; width:40%;" />
 </p>
@@ -1979,7 +1983,8 @@ snippets with this lesson that you can open and they look like this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 100. flexslider jquery plugin (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image100.webp"
+  <img src="./images/image100.png"
+  title="FlexSlider jQuery Plugin"
   alt="FlexSlider jQuery Plugin."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -1990,7 +1995,8 @@ instead of just putting the pictures in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 101. updated markup adding anchor tags (54) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image101.webp"
+  <img src="./images/image101.png"
+  title="Add anchor tags with class to markup"
   alt="Add anchor tags with class to markup."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2009,12 +2015,14 @@ tedious, you can actually come to the snippet page and just copy it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 102/103. flexslider, slides, class (55) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image102.webp?raw=true"
+<img src="./images/image102.png?raw=true"
   style="width:45%"
+  title="Update index.html with FlexSlider, slides and new class (cta)"
   alt="Update index.html with FlexSlider, slides and new class (cta)." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/image103.webp?raw=true"
+<img src="./images/image103.png?raw=true"
   style="width:45%"
+  title="Update index.html with FlexSlider, slides and new class (cta)"
   alt="Update index.html with FlexSlider, slides and new class (cta)." />
 </p>
 
@@ -2034,7 +2042,8 @@ this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 104. additional styling (1.12) (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image104.webp"
+  <img src="./images/image104.png"
+  title="1.12 Additional Styling for FlexSlider"
   alt="1.12 Additional Styling for FlexSlider."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -2045,12 +2054,14 @@ display of the slides.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 105/106. styling for flexslider (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image105.webp?raw=true"
+<img src="./images/image105.png?raw=true"
   style="width:45%"
-  alt="Rules for flexslider." />
+  title="Rules for FlexSlider"
+  alt="Rules for FlexSlider." />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/image106.webp?raw=true"
+<img src="./images/image106.png?raw=true"
   style="width:45%"
+  title="Update styles.css with new rules"
   alt="Update styles.css with new rules." />
 </p>
 
@@ -2062,7 +2073,8 @@ really matter where they go, I&apos;m going to put them here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 107. styles.css: slide1-slide5 background (57) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image107.webp"
+  <img src="./images/image107.png"
+  title="Define background for slide1 thru slide5 in styles.css"
   alt="Define background for slide1 thru slide5 in styles.css."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2087,7 +2099,8 @@ unfortunate.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. set position of slides (58) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image108.webp"
+  <img src="./images/image108.png"
+  title="The position CSS property sets how an element is positioned in a document"
   alt="The position CSS property sets how an element is positioned in a document."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2108,7 +2121,8 @@ works for these particular images.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 109. kitten01.jpg image dimensions (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image110.webp"
+  <img src="./images/image110.png"
+  title="Image Dimensions for kitten01.jpg"
   alt="Image Dimensions for kitten01.jpg."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2139,7 +2153,8 @@ width. And then I&apos;ve got background size cover.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 110. styling the cta 'call to action' (60) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image110.webp"
+  <img src="./images/image110.png"
+  title="Styling the CTA 'Call to Action'"
   alt="Styling the CTA 'Call to Action'."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2150,8 +2165,9 @@ this is working.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 111. styling the cta 'call to action' (60) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image111.webp"
-  alt="."
+  <img src="./images/image111.png"
+  title="Styling the CTA 'Call to Action'"
+  alt="Styling the CTA 'Call to Action'."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -2165,12 +2181,13 @@ background of my slide, rather than in the foreground. And the
 foreground is an H2 that&apos;s been absolutely positioned here. But now I
 need to style this call to action, and I&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-13">1.13. Styling the CTA 'Call To Action'</h2>
+<h2 id="ch1-13">1.13 Styling the CTA 'Call To Action'</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 112. styling the cta 'call to action' (61) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image112.webp"
-  alt="1.13. Styling the CTA 'Call to Action'."
+  <img src="./images/image112.png"
+  title="1.13 Styling the CTA 'Call to Action'"
+  alt="1.13 Styling the CTA 'Call to Action'."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
@@ -2181,18 +2198,21 @@ and do this, but let&apos;s go ahead and add this rule to our style sheet.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. styling the call to action (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image113.webp"
+  <img src="./images/image113.png"
+  title="Styling the Call to Action"
   alt="Styling the Call to Action."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 114/115. styling the call to action (62) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image114.webp"
+<img src="./images/image114.png"
   style="width:45%;"
+  title="Call to Action Styling"
   alt="Call to Action Styling." />
-<img src="./images/image115.webp"
+<img src="./images/image115.png"
   style="width:45%;"
+  title="Styles.css for Call to Action"
   alt="Styles.css for Call to Action." />
 </p>
 
@@ -2233,11 +2253,13 @@ and then also the color for the text. That&apos;s a lot of stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116/117. define class: light (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image116.webp"
+<img src="./images/image116.png"
   style="width:45%;"
+  title="Styles.css: Define new class .light"
   alt="Styles.css: Define new class .light." />
-<img src="./images/image117.webp"
+<img src="./images/image117.png"
   style="width:45%;"
+  title="Utilize class: light in index"
   alt="Utilize class: light in index." />
 </p>
 
@@ -2248,7 +2270,8 @@ slides is dark, so over here, I have a class of light on slide 4.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 118. styles.css: background slide (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image118.webp"
+  <img src="./images/image118.png"
+  title="Define different background colors for slides"
   alt="Define different background colors for slides."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2265,7 +2288,8 @@ our work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 119. resize call to action button (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image119.webp"
+  <img src="./images/image119.png"
+  title="Resize the CTA (call to action) button for tablet-sized browser windows"
   alt="Resize the CTA (call to action) button for tablet-sized browser windows."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2277,11 +2301,13 @@ setting height, width, and font size.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 120/121. tablet-sized min-width: 600px (64) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image120.webp"
+<img src="./images/image120.png"
   style="width:45%;"
+  title="styles.css: min-width: 600px"
   alt="styles.css: min-width: 600px." />
-<img src="./images/image121.webp"
+<img src="./images/image121.png"
   style="width:45%;"
+  title="CTA: Call To Action anchor tag"
   alt="CTA: Call To Action anchor tag." />
 </p>
 
@@ -2296,11 +2322,13 @@ font size down a little bit, 3vw.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 122/123. desktop with min-width: 1000px (65) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image122.webp"
+<img src="./images/image122.png"
   style="width:45%;"
+  title="styles.css: min-width: 1000px"
   alt="styles.css: min-width: 1000px." />
-<img src="./images/image123.webp"
+<img src="./images/image123.png"
   style="width:45%;"
+  title="styles.css: new ID cta with width/height of 150px"
   alt="styles.css: new ID cta with width/height of 150px." />
 </p>
 
@@ -2313,7 +2341,8 @@ size, 150px. Font-size to 24 pixels.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 124. kittens for sale example (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image124.webp"
+  <img src="./images/image124.png"
+  title="Kittens for Sale example"
   alt="Kittens for Sale example."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2325,7 +2354,8 @@ going to look in end here, is round like this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 125. example: kittens for sale! (66) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image125.webp"
+  <img src="./images/image125.png"
+  title="Kittens for Sale example, #2"
   alt="Kittens for Sale example, #2."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -2354,7 +2384,7 @@ section: <b>jQuery Plugins and FlexSlider</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 126. module 2 intro - scroll effects (67) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image126.webp"
+  <img src="./images/image126.png"
   title="2.01 Module 2 Intro - Scroll Effects"
   alt="2.01 Module 2 Intro - Scroll Effects."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -2374,7 +2404,7 @@ started on this module.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 127. intro to smooth scroll with jquery (67) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image127.webp"
+  <img src="./images/image127.png"
   title="2.02 Intro to Smooth Scroll with jQuery"
   alt="2.02 Intro to Smooth Scroll with jQuery."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -2386,11 +2416,11 @@ page, it does a smooth scrolling action further down the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 128/129. section one and two example (68) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image128.webp"
+<img src="./images/image128.png"
   style="width:45%;"
   title="Example section one"
   alt="Example section one." />
-<img src="./images/image129.webp"
+<img src="./images/image129.png"
   style="width:45%;"
   title="Example section two"
   alt="Example section two." />
@@ -2407,11 +2437,11 @@ second in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130/131. section links defined (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image130.webp"
+<img src="./images/image130.png"
   style="width:45%;"
   title="href sections defined #first thru #fifth"
   alt="href sections defined #first thru #fifth." />
-<img src="./images/image131.webp"
+<img src="./images/image131.png"
   style="width:45%;"
   title="Example sections 1st thru 5th"
   alt="Example sections 1st thru 5th." />
@@ -2432,18 +2462,18 @@ user experience. So, we&apos;re going to do that using jQuery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 132/133. adjust the header rule styles.css (69) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image132.webp"
+<img src="./images/image132.png"
   style="width:40%;"
   title="Adjust the header rule CSS"
   alt="Adjust the header rule CSS." />
-<img src="./images/image133.webp"
+<img src="./images/image133.png"
   style="width:40%;"
   title="Updates to styles.css - header and body"
   alt="Updates to styles.css - header and body." />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 134. smooth scroller set heading (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image134.webp"
+<img src="./images/image134.png"
   title="Smooth Scroller example with set heading"
   alt="Smooth Scroller example with set heading."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -2467,11 +2497,11 @@ content is passing beneath this header.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 135/136. padding-top: 200 (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image135.webp"
+<img src="./images/image135.png"
   style="width:45%;"
   title="Add padding-top: 200 to body of style.css"
   alt="Add padding-top: 200 to body of style.css." />
-<img src="./images/image136.webp"
+<img src="./images/image136.png"
   style="width:45%;"
   title="Smooth Scroller example of padding-top: 200"
   alt="Smooth Scroller example of padding-top: 200." />
@@ -2515,11 +2545,11 @@ carrying the extension .ZIP.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 137/138. creating a click handler (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image137.webp"
+<img src="./images/image137.png"
   style="width:45%;"
   title="2.03 Creating a Click Handler"
   alt="2.03 Creating a Click Handler." />
-<img src="./images/image138.webp"
+<img src="./images/image138.png"
   style="width:45%;"
   title="Add Easing and Click Handler scripts to end of index"
   alt="Add Easing and Click Handler scripts to end of index." />
@@ -2538,11 +2568,11 @@ we&apos;re going to write our jQuery code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 139/140. add click handler to index (71) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image139.webp"
+<img src="./images/image139.png"
   style="width:45%;"
   title="If clicked, run this function"
   alt="If clicked, run this function." />
-<img src="./images/image140.webp"
+<img src="./images/image140.png"
   style="width:45%;"
   title="smoothscroll.js - click handler function"
   alt="smoothscroll.js - click handler function." />
@@ -2567,7 +2597,7 @@ You can see what it actually does.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 141. example: alert, click handler (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image141.webp"
+  <img src="./images/image141.png"
   title="Example: alert click handler function"
   alt="Example: alert click handler function."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -2585,7 +2615,7 @@ that, but I want to make sure I&apos;m getting those links.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 142. html stop animate (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image142.webp"
+  <img src="./images/image142.png"
   title="HTML stop animate"
   alt="HTML stop animate."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -2611,11 +2641,11 @@ we&apos;ll do that in the next lesson so you see how it all comes together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 143/144. adding the animation (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image143.webp"
+<img src="./images/image143.png"
   style="width:45%;"
   title="2.04 Adding the Animation"
   alt="2.04 Adding the Animation." />
-<img src="./images/image144.webp"
+<img src="./images/image144.png"
   style="width:45%;"
   title="Adding the animation to smoothscroll.js"
   alt="Adding the animation to smoothscroll.js." />
@@ -2631,7 +2661,7 @@ pound 5^th^ (#1st-#5th). We&apos;ve already seen that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. animate scroll top (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image144.webp"
+  <img src="./images/image144.png"
   title="Animate in 8 tens of a second property of scrollTop"
   alt="Animate in 8 tens of a second property of scrollTop."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -2654,7 +2684,7 @@ that will actually animate the page to the top of the window.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 145. example: offset scrolltop (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image145.webp"
+  <img src="./images/image145.png"
   title="Example: offset scrollTop"
   alt="Example: offset scrollTop."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -2671,11 +2701,11 @@ section going right up to the top of the window.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 146/147. stop method with example (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image146.webp"
+<img src="./images/image146.png"
   style="width:45%;"
   title="Stop method"
   alt="Stop method." />
-<img src="./images/image147.webp"
+<img src="./images/image147.png"
   style="width:45%;"
   title="Example, scroll stop method"
   alt="Example, scroll stop method." />
@@ -2709,11 +2739,11 @@ that&apos;s running and then animate the thing that we&apos;ve clicked on next.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 148/149. top scroll minus 200 (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image148.webp"
+<img src="./images/image148.png"
   style="width:45%;"
   title="Scroll to top minus 200 pixels"
   alt="Scroll to top minus 200 pixels." />
-<img src="./images/image149.webp"
+<img src="./images/image149.png"
   style="width:45%;"
   title="Example: scroll to top minus 200px"
   alt="Example: scroll to top minus 200px." />
@@ -2731,7 +2761,7 @@ put this back to 800 because the animation is so slow now.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 150. move animation tag to body (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image150.webp"
+  <img src="./images/image150.png"
   title="Move animation tag to body"
   alt="Move animation tag to body."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -2751,7 +2781,7 @@ but it&apos;s just something to be aware of, Going forward.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 151. add some easing and a callback function (2.05) (78) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image151.webp"
+  <img src="./images/image151.png"
   title="2.05 Add Some Easing and a Callback Function"
   alt="2.05 Add Some Easing and a Callback Function."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -2763,11 +2793,11 @@ more personality by adding some easing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 152/153. script must follow jquery library load (78) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image152.webp"
+<img src="./images/image152.png"
   style="width:45%;"
   title="Add easing script only AFTER jQuery library load"
   alt="Add easing script only AFTER jQuery library load." />
-<img src="./images/image153.webp"
+<img src="./images/image153.png"
   style="width:45%;"
   title="index.html scripts"
   alt="index.html scripts." />
@@ -2781,7 +2811,7 @@ jQuery library and any plugins that you&apos;re using.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 154. easing animation scroll (79) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image154.webp"
+  <img src="./images/image154.png"
   title="Easing animation scroll to top"
   alt="Easing animation scroll to top."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -2797,7 +2827,7 @@ a little bit better, a little bit easier to read. We animate this over
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 155. example of easing animation scroll (79) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image155.webp"
+  <img src="./images/image155.png"
   title="Example, easing animation scroll"
   alt="Example, easing animation scroll."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -2815,7 +2845,7 @@ that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 156. example, test easing animation scroll (80) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image156.webp"
+  <img src="./images/image156.png"
   title="Example, test easing animation scroll effect"
   alt="Example, test easing animation scroll effect."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -2843,7 +2873,7 @@ second and I did something wrong there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 157. highlighting elements (2.06) (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image157.webp"
+  <img src="./images/image157.png"
   title="2.06 Highlighting Elements (Section)."
   alt="2.06 Highlighting Elements (Section)."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -2855,7 +2885,7 @@ out.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 158. highlight the clicked link (81) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image158.webp"
+  <img src="./images/image158.png"
   title="Highlight the clicked link"
   alt="Highlight the clicked link."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -2897,11 +2927,11 @@ highlight the one that I&apos;ve actually clicked on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 159/160. get anchor tags: nav ul li a (82) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image159.webp"
+<img src="./images/image159.png"
   style="border: 2px solid #000000; width:45%"
   title="Get anchor tags, navigation line item anchor"
   alt="Get anchor tags, navigation line item anchor." />
-<img src="./images/image160.webp"
+<img src="./images/image160.png"
   style="border: 2px solid #000000; width:45%"
   title="Example getting anchor tags"
   alt="Example getting anchor tags." />
@@ -2946,7 +2976,7 @@ to another. We&apos;re going to deal with that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 161. intro to page location tracking (83) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image161.webp"
+  <img src="./images/image161.png"
   title="2.07 Intro to Page Location Tracking"
   alt="2.07 Intro to Page Location Tracking."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -2959,7 +2989,7 @@ here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 162. example, smooth scroll (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image162.webp"
+  <img src="./images/image162.png"
   title="Example, smooth scroll"
   alt="Example, smooth scroll."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -2983,11 +3013,11 @@ are out there. https://callbruno.com/en
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 163/164. example scroll callbruno.com (85) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image163.webp"
+<img src="./images/image163.png"
   style="border: 2px solid #000000; width:45%"
   title="Example callbruno.com, #1"
   alt="Example callbruno.com, #1." />
-<img src="./images/image164.webp"
+<img src="./images/image164.png"
   style="border: 2px solid #000000; width:45%"
   title="Example callbruno.com, #2"
   alt="Example callbruno.com, #2." />
@@ -2995,11 +3025,11 @@ are out there. https://callbruno.com/en
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 165/166. example callbruno, #3/#4 (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image165.webp"
+<img src="./images/image165.png"
   style="border: 2px solid #000000; width:45%"
   title="Example callbruno.com, #3"
   alt="Example callbruno.com, #3." />
-<img src="./images/image166.webp"
+<img src="./images/image166.png"
   style="border: 2px solid #000000; width:45%"
   title="Example callbruno.com, #4"
   alt="Example callbruno.com, #4." />
@@ -3015,11 +3045,11 @@ It&apos;s affected by the scroll.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 167/168. example callbruno.com, #5/#6 (85) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image167.webp"
+<img src="./images/image167.png"
   style="border: 2px solid #000000; width:45%"
   title="Example callbruno.com, #5"
   alt="Example callbruno.com, #5." />
-<img src="./images/image168.webp"
+<img src="./images/image168.png"
   style="border: 2px solid #000000; width:45%"
   title="Example callbruno.com, #6"
   alt="Example callbruno.com, #6." />
@@ -3036,7 +3066,7 @@ a minute here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 169. example, scroll event, highlight link (86) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image169.webp"
+  <img src="./images/image169.png"
   title="Example, scroll event, highlight link"
   alt="Example, scroll event, highlight link."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -3051,7 +3081,7 @@ things based on where you are on the page. That&apos;s pretty exciting.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170. awwwards.com (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image170.webp"
+  <img src="./images/image170.png"
   title="awwwards.com"
   alt="awwwards.com."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -3067,7 +3097,7 @@ inspiration about different things that you can do.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 171. window load and scroll listener (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image171.webp"
+  <img src="./images/image171.png"
   title="Window Load and Scroll listener"
   alt="Window Load and Scroll listener."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -3085,7 +3115,8 @@ to our script here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 172. console.log, scrolling (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image172.webp"
+  <img src="./images/image172.png"
+  title="Tag console.log as scrolling to section"
   alt="Tag console.log as scrolling to section."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3103,7 +3134,8 @@ here. It wouldn&apos;t be that tall.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 173. on load, scroll function (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image173.webp"
+  <img src="./images/image173.png"
+  title="On load, scroll function"
   alt="On load, scroll function."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3129,7 +3161,8 @@ you&apos;ll get a ton of alerts scrolling, and save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 174. test, scrolling (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image174.webp"
+  <img src="./images/image174.png"
+  title="Example, test scrolling"
   alt="Example, test scrolling."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3150,7 +3183,8 @@ trying to do too many things at once.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 175. the crux of the problem (2.08) (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image175.webp"
+  <img src="./images/image175.png"
+  title="2.08 The Crux of the Problem"
   alt="2.08 The Crux of the Problem."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -3161,7 +3195,8 @@ happens as we scroll on the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 176. window scroll event listener code (91) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image176.webp"
+  <img src="./images/image176.png"
+  title="Window scroll event listener code"
   alt="Window scroll event listener code."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3184,7 +3219,8 @@ anymore and put this in instead.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 177. window scroll event listener code (92) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image177.webp"
+  <img src="./images/image177.png"
+  title="Window scroll event listener code, #1"
   alt="Window scroll event listener code, #1."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3198,7 +3234,8 @@ and I&apos;m going to close this down here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 178. window scroll event listener code, #2 (93) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image178.webp"
+  <img src="./images/image178.png"
+  title="Window scroll event listener code, #2"
   alt="Window scroll event listener code, #2."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3209,7 +3246,8 @@ right offset. There we go. Try that again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 179. example, window scroll listener (93) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image179.webp"
+  <img src="./images/image179.png"
+  title="Example, window scroll listener"
   alt="Example, window scroll listener."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3242,11 +3280,13 @@ port.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 180/181. example, highlight section (94) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image180.webp"
+<img src="./images/image180.png"
   style="border: 2px solid #000000; width:45%"
+  title="Example, highlight section, #1"
   alt="Example, highlight section, #1." />
-<img src="./images/image181.webp"
+<img src="./images/image181.png"
   style="border: 2px solid #000000; width:45%"
+  title="Example, highlight section, #2"
   alt="Example, highlight section, #2." />
 </p>
 
@@ -3274,7 +3314,8 @@ for performance.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 182. strategy (2.09) (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image182.webp"
+  <img src="./images/image182.png"
+  title="2.09 Strategy"
   alt="2.09 Strategy."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -3284,7 +3325,8 @@ possibly be doing on the page when it comes to scrolling?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 183. scroll down or up (if not at top) (96) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image183.webp"
+  <img src="./images/image183.png"
+  title="Scroll down or scroll up (if other than top of page)"
   alt="Scroll down or scroll up (if other than top of page)."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3298,7 +3340,8 @@ scroll down, and they can only scroll up if they&apos;re not at the top.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 184. setting up if/else statement (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image184.webp"
+  <img src="./images/image184.png"
+  title="Set up if/else statement for scroll event"
   alt="Set up if/else statement for scroll event."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3312,7 +3355,8 @@ our script over here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 185. add if/else code for scroll (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image185.webp"
+  <img src="./images/image185.png"
+  title="Add if/else code for scroll"
   alt="Add if/else code for scroll."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3330,7 +3374,8 @@ we&apos;re scrolling down and what happens when we&apos;re scrolling up.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 186. what is size of each section element (98) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image186.webp"
+  <img src="./images/image186.png"
+  title="Identify size of each section element"
   alt="Identify size of each section element."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3358,7 +3403,8 @@ to use the each method.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 186. section size, rounded math.floor (99) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image186.webp"
+  <img src="./images/image186.png"
+  title="Section size, rounded using math.floor"
   alt="Section size, rounded using math.floor."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3370,14 +3416,16 @@ minute. I&apos;ll take math for it now because that kind of confuses things.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 187. section size, no rounding (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image187.webp"
+<img src="./images/image187.png"
+  title="Section size, no rounding"
   alt="Section size, no rounding."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 188. console log, posttops (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image187.webp"
+<img src="./images/image187.png"
+  title="console.log, postTops"
   alt="console.log, postTops."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3397,11 +3445,13 @@ looks great to me.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 189/190. remove if, post option (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image189.webp"
+<img src="./images/image189.png"
   style="width:45%;"
+  title="Remove if statement to test postTops"
   alt="Remove if statement to test postTops." />
-<img src="./images/image190.webp"
+<img src="./images/image190.png"
   style="width:45%;"
+  title="Remove if statement to test PostTops"
   alt="Remove if statement to test PostTops." />
 </p>
 
@@ -3412,7 +3462,8 @@ at just the post option.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 191. example, posttops section sizes (101) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image186.webp"
+  <img src="./images/image186.png"
+  title="Example, postTops section sizes in pixels"
   alt="Example, postTops section sizes in pixels."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3424,11 +3475,13 @@ there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 192/193. calculate each section size (101) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image192.webp"
+<img src="./images/image192.png"
   style="width:45%;"
+  title="Count section size in pixels and store"
   alt="Count section size in pixels and store." />
-<img src="./images/image193.webp"
+<img src="./images/image193.png"
   style="width:45%;"
+  title="Size of each section is identified"
   alt="Size of each section is identified." />
 </p>
 
@@ -3444,7 +3497,8 @@ good. Great. We&apos;ll pick it up in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 194. adding pagetop and if statements (102) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image194.webp"
+  <img src="./images/image194.png"
+  title="2.10 Adding PageTop and If Statements"
   alt="2.10 Adding PageTop and If Statements."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -3453,14 +3507,15 @@ I&apos;ve put the window scroll event back in with my IF statements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 195/196. smoothscroll.js - scroll up/down (102) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image195.webp"
+<img src="./images/image195.png"
   style="width:45%;"
+  title="Lines 29-46 of smoothscroll.js"
   alt="Lines 29-46 of smoothscroll.js." />
-<img src="./images/image196.webp"
+<img src="./images/image196.png"
   style="width:45%;"
+  title="Lines 24-42 of smoothscroll.js (after update)"
   alt="Lines 24-42 of smoothscroll.js (after update)." />
 </p>
-
 
 We&apos;re going to work on these a little bit now. But before we do, we
 need to add this statement here, page top (<b>pagetop</b>), which is this
@@ -3471,7 +3526,8 @@ here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 197. 24-43 of smoothscroll.js (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image197.webp"
+  <img src="./images/image197.png"
+  title="Lines 24-43 of smoothscroll.js"
   alt="Lines 24-43 of smoothscroll.js."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -3491,11 +3547,13 @@ top of the page if that number is greater than that number.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 198/199. 24-43 of smoothscroll.js & after, 32-50 of smoothscroll.js (103) ~~~~~~~~~-->
 <p align="center">
-<img src="./images/image198.webp"
+<img src="./images/image198.png"
   style="width:45%;"
+  title="24-43 of smoothscroll.js"
   alt="24-43 of smoothscroll.js." />
-<img src="./images/image199.webp"
+<img src="./images/image199.png"
   style="width:45%;"
+  title="32-50 of smoothscroll.js"
   alt="32-50 of smoothscroll.js." />
 </p>
 
@@ -3511,11 +3569,13 @@ and commented out so it doesn&apos;t cause a problem.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 200/201. log of smoothscroll.js scrolling down (104) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image200.webp"
+<img src="./images/image200.png"
   style="width:45%;"
+  title="Log of smoothscroll.js as scrolling down"
   alt="Log of smoothscroll.js as scrolling down." />
-<img src="./images/image201.webp"
+<img src="./images/image201.png"
   style="width:45%;"
+  title="Log of 2nd section of smooth scroller"
   alt="Log of 2nd section of smooth scroller." />
 </p>
 
@@ -3551,7 +3611,8 @@ overload your CPU.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 202. writing the else/if statement in smoothscroll.js (105) ~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image202.webp"
+  <img src="./images/image202.png"
+  title="2.11 Writing the Else/If Statement - Part 1"
   alt="2.11 Writing the Else/If Statement - Part 1."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3561,11 +3622,13 @@ we&apos;re scrolling up the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 203/204. before and after else/if statement in smoothscroll.js (105) ~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image203.webp"
+<img src="./images/image203.png"
   style="width:45%;"
+  title="32-50 of smoothscroll.js (before)"
   alt="32-50 of smoothscroll.js (before)." />
-<img src="./images/image204.webp"
+<img src="./images/image204.png"
   style="width:45%;"
+  title="32-50 of smoothscroll.js (after)"
   alt="32-50 of smoothscroll.js (after)." />
 </p>
 
@@ -3583,7 +3646,8 @@ every little bit if it&apos;s less than the PostTops counter.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 205. scroll down, increment, scroll up, decrement (106) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image205.webp"
+  <img src="./images/image205.png"
+  title="Scroll down, increment counter, scroll up, decrement counter"
   alt="Scroll down, increment counter, scroll up, decrement counter."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3601,11 +3665,13 @@ does. I think that hopefully I did that right? I think I did.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 206/207. example, scroll up/down (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image206.webp"
+<img src="./images/image206.png"
   style="width:45%;"
+  title="Example, scroll up/down"
   alt="Example, scroll up/down." />
-<img src="./images/image207.webp"
+<img src="./images/image207.png"
   style="width:45%;"
+  title="Example, scroll up/down"
   alt="Example, scroll up/down." />
 </p>
 
@@ -3634,7 +3700,8 @@ these elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 208. writing the else/if statement - part 2 (108) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image208.webp"
+  <img src="./images/image208.png"
+  title="2.12 Writing the Else/If Statement - Part 2"
   alt="2.12 Writing the Else/If Statement - Part 2."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -3646,7 +3713,8 @@ of this script is now been finished, that&apos;s nice to know.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 209. scroll up/down & position to section (108) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image209.webp"
+  <img src="./images/image209.png"
+  title="Are you scrolling up or down and identify where in relation to section you are"
   alt="Are you scrolling up or down and identify where in relation to section you are."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3659,7 +3727,8 @@ sections of the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 210. get posttop for location of section (109) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image210.webp"
+  <img src="./images/image210.png"
+  title="Get postTop for location of section on scrolling page"
   alt="Get postTop for location of section on scrolling page."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3683,7 +3752,8 @@ and then one for previous counter that set to zero.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 211. highlight section you are in (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image211.webp"
+  <img src="./images/image211.png"
+  title="Highlight the section you are in"
   alt="Highlight the section you are in."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3700,7 +3770,8 @@ equals.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 212. update class attribute of section (111) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image212.webp"
+  <img src="./images/image212.png"
+  title="Update class attribute of section"
   alt="Update class attribute of section."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3731,7 +3802,8 @@ Let&apos;s see if that works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 213. highlight necessary section on scroll (112) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image213.webp"
+  <img src="./images/image213.png"
+  title="Highlight necessary section on scroll"
   alt="Highlight necessary section on scroll."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -3755,7 +3827,8 @@ really cool.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 214. edge case issues (2.13) (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image214.webp"
+  <img src="./images/image214.png"
+  title="2.13 Edge Case Issues"
   alt="2.13 Edge Case Issues."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -3768,11 +3841,13 @@ and looking at.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 215/216. calculate height of each image (113) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image215.webp"
+<img src="./images/image215.png"
   style="width:45%;"
+  title="Calculate height of each image"
   alt="Calculate height of each image." />
-<img src="./images/image216.webp"
+<img src="./images/image216.png"
   style="width:45%;"
+  title="Locate section using image height"
   alt="Locate section using image height." />
 </p>
 
@@ -3787,14 +3862,15 @@ sections are and it&apos;ll be fine.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 217/218. test scroll position up/down (114) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image217.webp"
+<img src="./images/image217.png"
   style="width:45%;"
+  title="Test scroll section position, #1"
   alt="Test scroll section position, #1." />
-<img src="./images/image218.webp"
+<img src="./images/image218.png"
   style="width:45%;"
+  title="Test scroll section position, #2"
   alt="Test scroll section position, #2." />
 </p>
-
 
 If I&apos;ve got a narrow browser on a phone or a small tablet or something
 like that, or a wide browser and a screen with a big window, big screen
@@ -3822,10 +3898,11 @@ going to find a trick that&apos;s actually going to be really useful for
 other scripts, for handling the same things that could happen.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 219.  (115) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 219. on window scroll resize event (115) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image219.webp"
-  alt="."
+  <img src="./images/image219.png"
+  title="On window scroll resize event"
+  alt="On window scroll resize event."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -3833,14 +3910,16 @@ In order to do this, I want to capture an event that fires when somebody
 resizes the window.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 220/221.  (115) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 220/221. on resize event, console log up or down (115) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image220.webp"
+<img src="./images/image220.png"
   style="width:45%;"
-  alt="." />
-<img src="./images/image221.webp"
+  title="On resize window event, console log scrolling up or down with counter"
+  alt="On resize window event, console log scrolling up or down with counter." />
+<img src="./images/image221.png"
   style="width:45%;"
-  alt="." />
+  title="On resize window event, console log 'resizing'"
+  alt="On resize window event, console log 'resizing'." />
 </p>
 
 Down here after my windows scroll event handler, which is this one here
@@ -3852,23 +3931,25 @@ of looking for load we&apos;re going to look for resize. Then we&apos;re going
 to run a function. In here, I&apos;m just going to console log. Resizing.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 222.  (116) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 222. function calculate if scroll down or scroll up (116) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image222.webp"
-  alt="image222.webp."
+  <img src="./images/image222.png"
+  title="Function calculate if scrolling up or scrolling down"
+  alt="Function calculate if scrolling up or scrolling down."
   style="border: 2px solid black; border-radius:15px; width:50%" />
 </p>
 
 Now, this event listener will fire while we&apos;re resizing the window and
 up here, I&apos;m going to get rid of some of these other console logs
 comment that went out. I&apos;m going to comment that I don&apos;t need that one
-just so I don&apos;t have those cluttering up my script over here. Great.
+just so I don&apos;t have those cluttering up my script over here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 223.  (116) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 223. console log, resizing! (116) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image223.webp"
-  alt="."
+  <img src="./images/image223.png"
+  title="Console log, resizing!"
+  alt="Console log, resizing!"
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 I&apos;m going to come over here to my page and I&apos;m going to refresh and
@@ -3889,7 +3970,7 @@ run right at that particular size. We&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 224. resizing your windows (2.14) (117) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image224.webp"
+  <img src="./images/image224.png"
   title="2.14 Resizing Your Windows"
   alt="2.14 Resizing Your Windows."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -3903,7 +3984,7 @@ element to do all that stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 225. add variable doneresizing (118) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image225.webp"
+  <img src="./images/image225.png"
   title="Add variable doneResizing"
   alt="Add variable doneResizing."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -3915,11 +3996,11 @@ then add one more variable var doneResizing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 226/227. add resize function with log (118) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image226.webp"
+<img src="./images/image226.png"
   style="width:45%;"
   title="Add resize function"
   alt="Add resize function." />
-<img src="./images/image227.webp"
+<img src="./images/image227.png"
   style="width:45%;"
   title="Test, resize function with console log"
   alt="Test, resize function with console log." />
@@ -3940,8 +4021,9 @@ half a second, 500 that&apos;s fine. We move that down there and then up
 here, I&apos;m going to do clearTimeout, doneResizing, and then I&apos;m going
 to just move this console log so that it&apos;s in here, just so we can see
 what the heck is going on, console log doneResizing. What&apos;s happening
-here is, remember clearTimeout stops the Timeout from happening. While
-I&apos;m resizing my window, clearTimeout, going to fire, and setTimeout is
+here is, remember clearTimeout stops the Timeout from happening. 
+
+While I&apos;m resizing my window, clearTimeout, going to fire, and setTimeout is
 going to stop. As soon as I&apos;m done actually resizing my window, then
 this will stop running, doneResizing will give me 500 milliseconds, and
 then it&apos;ll cancel. I got okay, I&apos;m done resizing and that&apos;s a nice
@@ -3955,27 +4037,30 @@ hope. Let&apos;s see if that works if I did it right. If we come back over
 here and refresh my screen here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 228/229.  (119) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 228/229. console log, doneresizing (119) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image228.webp"
+<img src="./images/image228.png"
   style="width:45%;"
-  alt="." />
-<img src="./images/image229.webp"
+  title="Console log, doneResizing"
+  alt="Console log, doneResizing." />
+<img src="./images/image229.png"
   style="width:45%;"
-  alt="." />
+  title="Again, console log, doneResizing"
+  alt="Again, console log, doneResizing." />
 </p>
 
 Now while I&apos;m resizing the screen, nothing&apos;s happening over there in
 the console log, but as soon as I stop, doneResizing. Now, I know that
-when I doneResizing my window, number 2, doneResizing that event fires,
-and now that I&apos;m doneResizing, I can actually figure out, well, how
-tall are my sections and reset my page and do all of that.
+when I am doneResizing my window, number 2, doneResizing that event fires,
+and now that I&apos;m doneResizing, I can actually figure out, how
+tall are my sections and reset my page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 230.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 230. posttops and pagetop (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image230.webp"
-  alt="."
+  <img src="./images/image230.png"
+  title="New variables, postTops and pageTop"
+  alt="New variables, postTops and pageTop."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -3986,13 +4071,13 @@ what setting my postTops. When I get these two things, I&apos;m just going
 to copy them from there and paste them in here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 231.  (120) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 231. console log, done resizing! (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image231.webp"
-  alt="."
+  <img src="./images/image231.png"
+  title="Console log, done resizing!"
+  alt="Console log, done resizing!"
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
-
 
 After I&apos;m doneResizing, I&apos;m going to reset this variable post tops and
 I&apos;m going to put each of the posts in here and down here, let&apos;s
@@ -4002,10 +4087,11 @@ that out and save that, and now we should be able to test this and see
 if it&apos;s working.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 232.  (121) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 232. test, console log posttops (121) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image232.webp"
-  alt="."
+  <img src="./images/image232.png"
+  title="Test, console log postTops"
+  alt="Test, console log postTops."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -4018,11 +4104,11 @@ and so forth.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 233/234. test, smooth scroller and resizing functions (121) ~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image233.webp"
+<img src="./images/image233.png"
   style="width:45%;"
   title="Test, resizing function with smoothscroller for vertical image position"
   alt="Test, resizing function with smoothscroller for vertical image position." />
-<img src="./images/image234.webp"
+<img src="./images/image234.png"
   style="width:45%;"
   title="Test, resizing smooth scroller for vertical image positions"
   alt="Test, resizing smooth scroller for vertical image positions." />
@@ -4037,7 +4123,7 @@ window. That&apos;s really cool, that&apos;s working really well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 235. resetting the counter (2.15) (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image235.webp"
+  <img src="./images/image235.png"
   title="2.15 Resetting the Counter"
   alt="2.15 Resetting the Counter."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -4052,11 +4138,11 @@ the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 236/237. add, test functions refresh while scrolling (122) ~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image236.webp"
+<img src="./images/image236.png"
   style="width:45%;"
   title="Add functions to handle refresh while scrolling"
   alt="Add functions to handle refresh while scrolling." />
-<img src="./images/image237.webp"
+<img src="./images/image237.png"
   style="width:45%;"
   title="Test, added functions to handle refresh while scrolling"
   alt="Test, added functions to handle refresh while scrolling." />
@@ -4105,11 +4191,11 @@ should work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 238/239. smooth scroll, vertical image positions (123) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image238.webp"
+<img src="./images/image238.png"
   style="width:45%;"
   title="Test, Smooth Scroll and vertical image positions"
   alt="Test, Smooth Scroll and vertical image positions." />
-<img src="./images/image239.webp"
+<img src="./images/image239.png"
   style="width:45%;"
   title="Test, section position for smooth scrolling"
   alt="Test, section position for smooth scrolling." />
@@ -4140,7 +4226,7 @@ lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 240. resetpageposition function (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image240.webp"
+  <img src="./images/image240.png"
   title="2.16 resetPagePosition Function"
   alt="2.16 resetPagePosition Function."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -4152,11 +4238,11 @@ few places.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 241/242. smoothscroll.js: load, resize (125) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image241.webp"
+<img src="./images/image241.png"
   style="width:45%;"
   title="smoothscroll.js: On load function"
   alt="smoothscroll.js: On load function." />
-<img src="./images/image242.webp"
+<img src="./images/image242.png"
   style="width:45%;"
   title="smoothscroll.js: On resize function"
   alt="smoothscroll.js: On resize function." />
@@ -4173,11 +4259,11 @@ in here a function resetPagePosition.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 243/244. doneresizing and resetpageposition (125) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image243.webp"
+<img src="./images/image243.png"
   style="width:45%;"
   title="doneResizeing (sp?), postTops, and pagePosition"
   alt="doneResizeing (sp?), postTops, and pagePosition." />
-<img src="./images/image244.webp"
+<img src="./images/image244.png"
   style="width:45%;"
   title="doneResizeing (sp?), postTops, and pagePosition"
   alt="doneResizeing (sp?), postTops, and pagePosition." />
@@ -4192,7 +4278,7 @@ shift to get it to line up for it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 245. resetpageposition (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image245.webp"
+  <img src="./images/image245.png"
   title="resetPagePosition"
   alt="resetPagePosition."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4207,7 +4293,7 @@ we&apos;re going to do all this stuff that we just wrote. That&apos;s cool.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 246. posttops and resetpageposition (126) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image246.webp"
+  <img src="./images/image246.png"
   title="postTops and resetPagePosition"
   alt="postTops and resetPagePosition."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4224,7 +4310,7 @@ time you resize the screen.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 247. reset array posttops (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image247.webp"
+  <img src="./images/image247.png"
   title="Reset array postTops"
   alt="Reset array postTops."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4260,11 +4346,11 @@ section got highlighted, so that&apos;s correct.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 248/249. reload index.html (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image248.webp"
+<img src="./images/image248.png"
   style="width:45%;"
   title="Reload index.html"
   alt="Reload index.html." />
-<img src="./images/image249.webp"
+<img src="./images/image249.png"
   style="width:45%;"
   title="Reload index.html, again"
   alt="Reload index.html, again." />
@@ -4284,7 +4370,7 @@ could be in some cases, actually reloading the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 250. function remove attributes when change sections (129) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image250.webp"
+  <img src="./images/image250.png"
   title="Add to function to remove/update attributes when change sections"
   alt="Add to function to remove/update attributes when change sections."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4312,7 +4398,7 @@ review what we&apos;ve done.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 251. reviewing the whole script (2.17) (130) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image251.webp"
+  <img src="./images/image251.png"
   title="2.17 Reviewing the Whole Script"
   alt="2.17 Reviewing the Whole Script."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -4324,7 +4410,7 @@ to go through it once quickly, to review what we&apos;ve done.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 252. smoothscroll.js - section tabs classes (130) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image252.webp"
+  <img src="./images/image252.png"
   title="smoothscroll.js - section tabs and classes"
   alt="smoothscroll.js - section tabs and classes."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4346,7 +4432,7 @@ script does.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 253. smoothscroll.js - on load (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image253.webp"
+  <img src="./images/image253.png"
   title="smoothscroll.js - on load"
   alt="smoothscroll.js - on load."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4367,7 +4453,7 @@ happens later, so we set all that page position stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 254. smoothscroll.js - identify section on scroll (132) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image254.webp"
+  <img src="./images/image254.png"
   title="smoothscroll.js - identify the section your in while scrolling"
   alt="smoothscroll.js - identify the section your in while scrolling."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4388,7 +4474,7 @@ out everything that should happen there on the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 255. smoothscroll.js - on resize & cleartimeout (133) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image255.webp"
+  <img src="./images/image255.png"
   title="smoothscroll.js - on resize"
   alt="smoothscroll.js - on resize."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4401,7 +4487,7 @@ actually done resizing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 256. smoothscroll.js - resetpageposition (133) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image256.webp"
+  <img src="./images/image256.png"
   title="smoothscroll.js - resetPagePosition"
   alt="smoothscroll.js - resetPagePosition."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4416,11 +4502,11 @@ are and sets the styling for the links appropriately.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 257/258. smoothscroll.js - update class attributes (134) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image257.webp"
+<img src="./images/image257.png"
   style="width:45%;"
   title="Identify and comment out class attributes"
   alt="Identify and comment out class attributes." />
-<img src="./images/image258.webp"
+<img src="./images/image258.png"
   style="width:45%;"
   title="Comment out class attributes"
   alt="Comment out class attributes." />
@@ -4435,11 +4521,11 @@ this works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 259/260. test, smooth scroll section (134) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image259.webp"
+<img src="./images/image259.png"
   style="width:45%;"
   title="Test Smooth Scroll section"
   alt="Test Smooth Scroll section." />
-<img src="./images/image260.webp"
+<img src="./images/image260.png"
   style="width:45%;"
   title="Test Smooth Scroll section"
   alt="Test Smooth Scroll section." />
@@ -4457,11 +4543,11 @@ both scripts are working.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 261/262. comment out callback function (135) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image261.webp"
+<img src="./images/image261.png"
   style="width:45%;"
   title="Identify and comment out callback functions"
   alt="Identify and comment out callback functions." />
-<img src="./images/image262.webp"
+<img src="./images/image262.png"
   style="width:45%;"
   title="Identify and comment out callback functions"
   alt="Identify and comment out callback functions." />
@@ -4491,7 +4577,7 @@ the same script, and play JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 263. intro to scroll effects with js (2.18) (136) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image263.webp"
+  <img src="./images/image263.png"
   title="2.18 Intro to Scroll Effects with JavaScript"
   alt="2.18 Intro to Scroll Effects with JavaScript."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -4503,11 +4589,11 @@ using jQuery.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 264/265. scroll effects with plain js (136) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image264.webp"
+<img src="./images/image264.png"
   style="width:45%;"
   title="Scroll Effects with JavaScript"
   alt="Scroll Effects with JavaScript." />
-<img src="./images/image265.webp"
+<img src="./images/image265.png"
   style="width:45%;"
   title="Example scroll effects with javascript"
   alt="Example scroll effects with javascript." />
@@ -4523,11 +4609,11 @@ jQuery version.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 266/267. index.html and style.css (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image266.webp"
+<img src="./images/image266.png"
   style="width:45%;"
   title="Scroll Effects with JavaScript"
   alt="Scroll Effects with JavaScript." />
-<img src="./images/image267.webp"
+<img src="./images/image267.png"
   style="width:45%;"
   title="Example scroll effects with javascript"
   alt="Example scroll effects with javascript." />
@@ -4549,7 +4635,7 @@ these links in our navigation.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 268. script.js navlinks add event listener (137) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image268.webp"
+  <img src="./images/image268.png"
   title="script.js navLinks, addEventListener"
   alt="script.js navLinks, addEventListener."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -4611,7 +4697,7 @@ pointer debt to this function down here, and let it run that way.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 269. getting the target - part 1 (2.19) (139) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image269.webp"
+  <img src="./images/image269.png"
   title="2.19 Getting the Target - Part 1"
   alt="2.19 Getting the Target - Part 1."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -4623,7 +4709,7 @@ event.target is a little bit more direct and explicit.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 270. example, getting the target smoothscroll (139) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image270.webp"
+  <img src="./images/image270.png"
   title="Example, Getting the Target Smoothscroll"
   alt="Example, Getting the Target Smoothscroll."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4634,7 +4720,7 @@ clicked. And if we go back to our code over here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 271. match link with href # link (140) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image271.webp"
+  <img src="./images/image271.png"
   title="Match link with href pound link (#first - #fifth)"
   alt="Match link with href pound link (#first - #fifth)."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4652,11 +4738,11 @@ targetSection.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 272/273. targetanchor and targetsection (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image272.webp"
+<img src="./images/image272.png"
   style="width:45%;"
   title="Scroll Effects with JavaScript"
   alt="Scroll Effects with JavaScript." />
-<img src="./images/image273.webp"
+<img src="./images/image273.png"
   style="width:45%;"
   title="Example Scroll Effects with JavaScript"
   alt="Example Scroll Effects with JavaScript." />
@@ -4671,7 +4757,7 @@ that&apos;s our targetSection there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 274. getboundingclientrect().top, .bottom (141) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image274.webp"
+  <img src="./images/image274.png"
   title="getBoundingClientRect().top, .bottom, .left &amp; .right"
   alt="getBoundingClientRect().top, .bottom, .left &amp; .right."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4688,7 +4774,7 @@ will get me that kind of thing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 275. test, inspect smooth scroller (141) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image275.webp"
+  <img src="./images/image275.png"
   title="Test, inspect smooth scroller"
   alt="Test, inspect smooth scroller."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4716,7 +4802,7 @@ spit out in the console. Well, we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 276. getting the target - part 2 (2.20) (142) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image276.webp"
+  <img src="./images/image276.png"
   title="2.20 Getting the Target -- Part 2"
   alt="2.20 Getting the Target -- Part 2."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -4724,7 +4810,7 @@ spit out in the console. Well, we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 277. script.js - tops of sections when clicked (143) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image277.webp"
+  <img src="./images/image277.png"
   title="script.js - getBoundingClientRect when clicked"
   alt="script.js - getBoundingClientRect when clicked."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4736,7 +4822,7 @@ them, so I want assign that to a variable.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 278. script.js - section top - 200 px (143) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image278.webp"
+  <img src="./images/image278.png"
   title="script.js - get section top minus 200px"
   alt="script.js - get section top minus 200px."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4757,7 +4843,7 @@ of the window, because that wouldn&apos;t really help us.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 279. test, script.js section position (144) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image279.webp"
+  <img src="./images/image279.png"
   title="script.js - get section top minus 200px"
   alt="script.js - get section top minus 200px."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4784,11 +4870,11 @@ be what we saw before.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 280/281. test, smooth scroll and refresh (145) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image280.webp"
+<img src="./images/image280.png"
   style="width:45%;"
   title="Test, smooth scroll and refresh commands"
   alt="Test, smooth scroll and refresh commands." />
-<img src="./images/image281.webp"
+<img src="./images/image281.png"
   style="width:45%;"
   title="Test, smooth scroll and refresh commands"
   alt="Test, smooth scroll and refresh commands." />
@@ -4820,7 +4906,7 @@ of a problem, and we&apos;ll talk about it more in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 282. smooth scroll polyfill (2.21) (146) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image282.webp"
+  <img src="./images/image282.png"
   title="2.21 Smooth Scroll Polyfill"
   alt="2.21 Smooth Scroll Polyfill."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -4835,11 +4921,11 @@ named Remy Sharp.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 283/284. what is a polyfill? some examples (146) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image283.webp"
+<img src="./images/image283.png"
   style="width:45%;"
   title="What is a Polyfill?"
   alt="What is a Polyfill?" />
-<img src="./images/image281.webp"
+<img src="./images/image281.png"
   style="width:45%;"
   title="Some Examples of Polyfill"
   alt="Some Examples of Polyfill." />
@@ -4858,11 +4944,11 @@ out how to use them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 285/286. smooth scroll behavior polyfill (147) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image285.webp"
+<img src="./images/image285.png"
   style="width:45%;"
   title="Smooth Scroll behavior polyfill"
   alt="Smooth Scroll behavior polyfill." />
-<img src="./images/image286.webp"
+<img src="./images/image286.png"
   style="width:45%;"
   title="window.scrollBy behavior smooth"
   alt="window.scrollBy behavior smooth." />
@@ -4880,7 +4966,7 @@ script src=&quot;smoothscroll.js&quot; that one there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 287. src='smoothscroll.js' before script.js (147) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image287.webp"
+  <img src="./images/image287.png"
   title="Define and run smoothscroll.js before script.js"
   alt="Define and run smoothscroll.js before script.js."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4905,7 +4991,7 @@ the second part of the script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 288. window scrollby behavior smooth (148) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image288.webp"
+  <img src="./images/image288.png"
   title="Window scrollby behavior smooth"
   alt="Window scrollby behavior smooth."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4927,7 +5013,7 @@ again be working with scrolling and capturing the scrolling.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 289. checking the load (2.22) (149) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image289.webp"
+  <img src="./images/image289.png"
   title="2.22 Checking the Load"
   alt="2.22 Checking the Load."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -4945,7 +5031,7 @@ the height of each section.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 290. window scrollby original top (149) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image290.webp"
+  <img src="./images/image290.png"
   title="Window scrollby original top"
   alt="Window scrollby original top."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4966,7 +5052,7 @@ we going to put in there?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 291. posts = queryselectorall 'section' (150) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image291.webp"
+  <img src="./images/image291.png"
   title="posts = document.querySelectorAll('section');"
   alt="posts = document.querySelectorAll('section');"
   style="border: 2px solid black; border-radius:15px; width:50%;" />
@@ -4987,10 +5073,11 @@ resizing later for our script that deals with what happens if people are
 resizing their window. So we&apos;ll do that again as well.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 292.  (151) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 292. counter, prevcounter set to 1 each (151) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image292.webp"
-  alt="."
+  <img src="./images/image292.png"
+  title="Set counter and prevCounter = 1"
+  alt="Set counter and prevCounter = 1."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5001,7 +5088,9 @@ indexed at one instead of indexed at zero. In the jQuery version, we use
 zero indexing because we use the E Q method, which uses zero indexing to
 change the properties on each of the navigation items. But here we&apos;re
 going to use a different method, so we don&apos;t need the zero indexing, we
-can index it once. The counter starts at one and the previous counter
+can index it once. 
+
+The counter starts at one and the previous counter
 starts at one, and each section will be, the first section will be one
 and the second section will be two, third section three, fourth section
 four and fifth section 5. In some ways, that&apos;s actually a little bit
@@ -5010,14 +5099,16 @@ work that provides. But we&apos;ve got this here and we&apos;re ready to go
 forward with the next part.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 293/294.  (152) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 293/294. getboundingclientrect.top & log console (152) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image293.webp"
+<img src="./images/image293.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
-<img src="./images/image294.webp"
+  title="getBoundingClientRect.top and log to console"
+  alt="getBoundingClientRect.top and log to console." />
+<img src="./images/image294.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="getBoundingClientRect.top and log to console"
+  alt="getBoundingClientRect.top and log to console." />
 </p>
 
 Now, we use this method in the previous script, getBoundingClientRect at
@@ -5025,14 +5116,15 @@ top. We use that to find the top of the particular element in the
 previous script and we&apos;re going to use that again. But let&apos;s cancel
 log it out, so when you cancel that log and surround that with
 parentheses. Really what I want to do, is I want to get posts. I want to
-get the first posts, so I&apos;m going to do posts square brackets, zero.get
-pounding Plan Recto. Let&apos;s come to log that out.
+get the first posts, so I&apos;m going to do posts square brackets, zero get
+BoundingClientRect.top. Now, let&apos;s come to log that out.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 295.  (152) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 295. console log, -508px (152) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image295.webp"
-  alt="."
+  <img src="./images/image295.png"
+  title="Test console log, -508px"
+  alt="Test console log, -508px."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5044,14 +5136,16 @@ cut out that last bit of going to the page and having it not work and
 pick it up from here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 296/297.  (153) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 296/297. console log, 200 and -71 (153) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image296.webp"
+<img src="./images/image296.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
-<img src="./images/image297.webp"
+  title="Console log, 200px"
+  alt="Console log, 200px." />
+<img src="./images/image297.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Console log, -71px"
+  alt="Console log, -71px." />
 </p>
 
 When I go back to the Web page and refresh, you&apos;ll notice that I get a
@@ -5069,7 +5163,7 @@ care of that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 298. top posts (2.23) (153) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image298.webp"
+  <img src="./images/image298.png"
   title="2.23 Top Posts"
   alt="2.23 Top Posts."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -5080,10 +5174,11 @@ In the last lesson, we saw that we could use the
 on the page. In this case, the first element, the first section, we&apos;re
 getting here posts, zero.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 299.  (154) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 299. example, add window.pageyoffset (154) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image299.webp"
-  alt="."
+  <img src="./images/image299.png"
+  title="Example, Add window.pageYOffset"
+  alt="Example, Add window.pageYOffset."
   style="border: 2px solid black; border-radius:15px; width:45%;" />
 </p>
 
@@ -5094,14 +5189,16 @@ have that be consistent. We can do that by adding to it
 scrolled past the viewport, and by adding that back on there, we will
 always get 200 pixels. Let&apos;s go ahead and give that a try.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 300/301.  (154) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 300/301. console log getboundingclientrect.top + pageyoffset (154) ~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image300.webp"
+<img src="./images/image300.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
-<img src="./images/image301.webp"
+  title="Console log posts, getBoundingClientRect.top + window.pageYOffset"
+  alt="Console log posts, getBoundingClientRect.top + window.pageYOffset." />
+<img src="./images/image301.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Test, console log 200px"
+  alt="Test, console log 200px." />
 </p>
 
 At the end here, we need to add plus window.pageYOffset. This one, not X
@@ -5111,10 +5208,11 @@ top of the window. Click, &quot;Refresh&quot; and you can see I get 200 there.
 If I scroll the page down and refresh again, you can see that I get 200
 there. I always get 200 for that first post.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 302.  (155) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 302. for each post, calculate posttops (155) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image302.webp"
-  alt="."
+  <img src="./images/image302.png"
+  title="For each post, calculate postTops = Math.floor(posts.getBoundingClientRect.top + window.pageYOfset"
+  alt="For each post, calculate postTops = Math.floor(posts.getBoundingClientRect.top + window.pageYOfset."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5144,10 +5242,11 @@ and the second parentheses will close here like so. <b>Math.floor</b> will
 take this, round it down and then it gets pushed into postTops.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 303.  (156) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 303. log to console, calculated posttops (156) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image303.webp"
-  alt="."
+  <img src="./images/image303.png"
+  title="console.log postTops"
+  alt="console.log postTops."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5158,10 +5257,11 @@ postTops. Now, we should be able to see when we go back to our page over
 here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 304.  (156) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 304. test console, for each posttops (156) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image304.webp"
-  alt="."
+  <img src="./images/image304.png"
+  title="Test Console, foreach postTops"
+  alt="Test Console, foreach postTops."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5178,7 +5278,7 @@ a little bit different.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 305. add an event listener (2.24) (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image305.webp"
+  <img src="./images/image305.png"
   title="2.24 Add an Event Listener"
   alt="2.24 Add an Event Listener."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -5188,10 +5288,11 @@ In the last module, we put all the tops of our posts or our sections
 really into post tops, and we can alert our council logged that out so
 we know where they all are.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 306.  (157) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 306. window add event listener, on load function (157) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image306.webp"
-  alt="."
+  <img src="./images/image306.png"
+  title="Window add event listener, on load function"
+  alt="Window add event listener, on load function."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5204,10 +5305,11 @@ going to affect how tall each section is and where the top of the next
 section starts. That&apos;s why we&apos;re putting everything inside of the
 window function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 307.  (158) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 307. on load, event listener (158) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image307.webp"
-  alt="."
+  <img src="./images/image307.png"
+  title="window.addEventListener, load function is executed"
+  alt="window.addEventListener, load function is executed."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5220,10 +5322,11 @@ scroll event, then we&apos;re going to run a function, and all of our stuff
 will go inside of here. Now, this looks very similar to the jQuery
 version of the scroll event.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 308.  (159) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 308. javascript, on load function (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image308.webp"
-  alt="."
+  <img src="./images/image308.png"
+  title="JavaScript, on load funtion"
+  alt="JavaScript, on load funtion."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5236,10 +5339,11 @@ syntax is not that much longer and you don&apos;t have to download the
 entire jQuery library to use it, or force your users to download the
 entire jQuery library to use it. That&apos;s nice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 309.  (159) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 309. posts = document.queryselectorall, section (159) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image309.webp"
-  alt="."
+  <img src="./images/image309.png"
+  title="Define posts = document.querySelectorAll, section"
+  alt="Define posts = document.querySelectorAll, section."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5248,24 +5352,27 @@ to equal this thing, <b>window.pageYOffset</b>. Again, what that does is
 it, <b>window.pageYOffset</b> tracks how far off the top of the window or
 page is scrolled.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 310.  (160) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 310. pagetop = window pageyoffset (160) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image310.webp"
-  alt="."
+  <img src="./images/image310.png"
+  title="pagetop = window.pageYOffset"
+  alt="pagetop = window.pageYOffset."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 I can, <b>console.log</b>, put <b>pageTop</b> and we should be seeing those
 pixels change as we scroll down the page. Let&apos;s test that and see.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 311/312.  (160) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 311/312. test console, scroll counter (160) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image311.webp"
+<img src="./images/image311.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
-<img src="./images/image312.webp"
+  title="Test console, scroll counter"
+  alt="Test console, scroll counter." />
+<img src="./images/image312.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="More test console, scroll counter"
+  alt="More test console, scroll counter." />
 </p>
 
 I come back here and refresh my page. Now as I scroll down the page, you
@@ -5278,10 +5385,11 @@ get up to the top of the page, we should be getting a zero. When we get
 down to the bottom of the page, we should be getting a number that
 represents the full height of the entire window.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 313.  (161) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 313. add +250 to pagetop (161) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image313.webp"
-  alt="."
+  <img src="./images/image313.png"
+  title="Add +250 to pagetop"
+  alt="Add +250 to pagetop."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5300,10 +5408,11 @@ section on the screen, and if it&apos;s greater than the number for the top
 of the third section, then we must be viewing that section on the
 screen, and so on. That strategy is exactly the same.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 314.  (162) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 314. understanding the options (162) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image314.webp"
-  alt="."
+  <img src="./images/image314.png"
+  title="Understanding the Options"
+  alt="Understanding the Options."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5317,7 +5426,7 @@ we need to watch out for, while we&apos;re handling our scroll effect.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 315. the magic conditionals (2.25) (162) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image315.webp"
+  <img src="./images/image315.png"
   title="2.25 The Magic Conditionals"
   alt="2.25 The Magic Conditionals."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -5328,10 +5437,11 @@ need an if and an else if, just as I did in the jQuery version and I&apos;m
 going to piece this in here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 316.  (163) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 316. if, then, else scroll up or down (163) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image316.webp"
-  alt="."
+  <img src="./images/image316.png"
+  title="If, then, else scroll up or down"
+  alt="If, then, else scroll up or down."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5365,10 +5475,11 @@ section, and that second section it&apos;s 250 pixels from the top of the
 screen. The down says scrolling down too. It&apos;s into the 250 pixels that
 did it. Should be doing it. There, I see what I did wrong.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 317.  (164) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 317. add +250 in correct spot (164) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image317.webp"
-  alt="."
+  <img src="./images/image317.png"
+  title="Add +250 to window.pageYOffset equals pagetop"
+  alt="Add +250 to window.pageYOffset equals pagetop."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5377,14 +5488,16 @@ Over here. I put the plus 250 in the wrong place. Should be here. Plus
 go. Now when I get to section two, scrolling down too, when that is 250
 pixels from the top of the page, it hits it and says okay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 318/319.  (164) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 318/319. test, console log scrolling up/down count (164) ~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image318.webp"
+<img src="./images/image318.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
-<img src="./images/image319.webp"
+  title="Test console, log scrolling up/down with counter"
+  alt="Test console, log scrolling up/down with counter." />
+<img src="./images/image319.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Test console, log scrolling up/down with counter"
+  alt="Test console, log scrolling up/down with counter." />
 </p>
 
 We must be looking in section two, and this will get to 250, we&apos;ve got
@@ -5398,10 +5511,11 @@ what makes the script very powerful, because only when those things
 happen, we&apos;re going to make other things happen on the page. Not for
 every single pixel that we scroll.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 320.  (165) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 320. example, changing the nav links (165) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image320.webp"
-  alt="."
+  <img src="./images/image320.png"
+  title="Example, Changing the Nav Links"
+  alt="Example, Changing the Nav Links."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5413,10 +5527,11 @@ that should be on one of them. But we want to make sure it isn&apos;t done
 any of them will remove that class attribute from everything, just to be
 clear that everything has no class on it up there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 321.  (166) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 321. if counter <> prevcounter, update class (166) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image321.webp"
-  alt="."
+  <img src="./images/image321.png"
+  title="If counter <> prevCounter, update class attribute for each link"
+  alt="If counter <> prevCounter, update class attribute for each link."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5441,7 +5556,7 @@ there before we go.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 322. changing the next link (2.26) (167) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image322.webp"
+  <img src="./images/image322.png"
   title="2.26 Changing the Next Link"
   alt="2.26 Changing the Next Link."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -5450,10 +5565,11 @@ there before we go.
 We took the class attribute off of all the links, now we need to add it
 to the correct link.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 323.  (167) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 323. remove class attribute for each link (167) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image323.webp"
-  alt="."
+  <img src="./images/image323.png"
+  title="navLinks for each function, each link remove attribute class"
+  alt="navLinks for each function, each link remove attribute class."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5463,16 +5579,17 @@ using a query selector, so I&apos;m going to say <b>document.querySelector</b>,
 QuerySelector. And, this is a little tricky this querySelector, what
 we&apos;re going to use is <b>nav ul, li a</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 324.  (168) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 324. #first-#fifth sections in html (168) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image324.webp"
-  alt="."
+  <img src="./images/image324.png"
+  title="Tags #first-#fifth sections in HTML"
+  alt="Tags #first-#fifth sections in HTML."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
 But we want <b>li:nth-child()</b> because over here, in our HTML remember,
-we want to get, If we clicked on this one, we want to get the first list
-item&apos;s anchor tag, or the second list item&apos;s anchor tag or the third
+we want to get the first list item&apos;s anchor tag, or the second list 
+item&apos;s anchor tag or the third 
 list item&apos;s anchor tag. Remember the list items are all siblings, the
 anchor tags are cousins, because there&apos;s only one anchor tag in each
 list item, but the list items are all sibling. So there&apos;s this is the
@@ -5491,10 +5608,11 @@ the same now that I think about it. And that would be another way
 because remember in jQuery there&apos;s about 100 ways of getting to each
 element on the page, so we could have done it this way as well there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 325.  (169) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 325. query selector 'nav ul li:nth-child, counter (169) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image325.webp"
-  alt="."
+  <img src="./images/image325.png"
+  title="thisLink = document querySelector('nav ul li:nth-child, counter a')"
+  alt="thisLink = document querySelector('nav ul li:nth-child, counter a')."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5503,10 +5621,11 @@ and down quotes, oops. Yeah yeah I know it&apos;s a problem. I want to use
 my tick marks, so that in here I can pass in <b>&dollar;{counter}</b>, and that
 will get me the correct link there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 326.  (169) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 326. thislink classname = 'selected' (169) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image326.webp"
-  alt="."
+  <img src="./images/image326.png"
+  title="thisLink className = 'selected', prevCounter = counter"
+  alt="thisLink className = 'selected', prevCounter = counter."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5515,14 +5634,16 @@ From there it&apos;s simple, now I can use <b>thisLink.className =
 want to say <b>prevCounter</b>, is now assigned the same value as counter,
 because now we&apos;re ready to go into the next section.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 327/328.  (170) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 327/328. test console, scroll up/down with counter (170) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image327.webp"
+<img src="./images/image327.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
-<img src="./images/image328.webp"
+  title="Test Console, Scroll up/down with count"
+  alt="Test Console, Scroll up/down with count." />
+<img src="./images/image328.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Test Console, Scroll up/down with count"
+  alt="Test Console, Scroll up/down with count." />
 </p>
 
 So if I save that and test it, assuming I did it all right, it should
@@ -5543,7 +5664,7 @@ script as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 329.  (171) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image329.webp"
+  <img src="./images/image329.png"
   alt="."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -5566,7 +5687,7 @@ jQuery, and one that works with plain Vanilla JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 330. resizing function (2.27) (172) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image330.webp"
+  <img src="./images/image330.png"
   alt="2.27 Resizing Function."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -5578,7 +5699,7 @@ everything here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 331.  (172) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image331.webp"
+  <img src="./images/image331.png"
   alt="."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -5595,7 +5716,7 @@ Window resize is semi code and we will put stuff in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 332.  (173) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image332.webp"
+  <img src="./images/image332.png"
   alt="."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -5606,7 +5727,7 @@ run a function. That&apos;s how we did it with JQuery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 333.  (173) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image333.webp"
+  <img src="./images/image333.png"
   alt="."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -5618,10 +5739,10 @@ JQuery is a little bit shorter but that&apos;s okay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 334/335.  (174) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image334.webp"
+<img src="./images/image334.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
-<img src="./images/image335.webp"
+<img src="./images/image335.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
@@ -5634,7 +5755,7 @@ timeout.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 336.  (174) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image336.webp"
+  <img src="./images/image336.png"
   alt="."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -5651,7 +5772,7 @@ after we&apos;re done actually resizing the Window.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 337.  (175) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image337.webp"
+  <img src="./images/image337.png"
   alt="."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -5676,7 +5797,7 @@ we did in the for the jQuery version.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 338. finalizing the script (2.28) (176) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image338.webp"
+  <img src="./images/image338.png"
   title="2.28 Finalizing the Script"
   alt="2.28 Finalizing the Script."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
@@ -5688,10 +5809,10 @@ resetPagePosition function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 339/340.  (176) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image339.webp"
+<img src="./images/image339.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
-<img src="./images/image340.webp"
+<img src="./images/image340.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
@@ -5703,7 +5824,7 @@ empty.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 341.  (177) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image341.webp"
+  <img src="./images/image341.png"
   alt="."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -5724,7 +5845,7 @@ having to run a function here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 341.  (178) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image341.webp"
+  <img src="./images/image341.png"
   alt="."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
@@ -5777,10 +5898,10 @@ some comments, I don&apos;t know.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 342/343.  (179) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image342.webp"
+<img src="./images/image342.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
-<img src="./images/image343.webp"
+<img src="./images/image343.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
@@ -5795,10 +5916,10 @@ over and test it out really quickly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 344/345.  (180) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image344.webp"
+<img src="./images/image344.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
-<img src="./images/image345.webp"
+<img src="./images/image345.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
@@ -5824,7 +5945,7 @@ in jQuery and in vanilla JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 346.  (180) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image346.webp"
+  <img src="./images/image346.png"
   alt="."
   style="border: 2px solid black; border-radius:15px; width:35%;" />
 </p>
@@ -5854,11 +5975,11 @@ that&apos;s up to you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 347/348. scription site intro - building html and css (181) ~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image347.webp"
+<img src="./images/image347.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="2.29 Scription Site Introduction"
   alt="2.29 Scription Site Introduction." />
-<img src="./images/image348.webp"
+<img src="./images/image348.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Building HTML and CSS"
   alt="Building HTML and CSS." />
@@ -5866,7 +5987,7 @@ that&apos;s up to you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 349.  (182) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image349.webp"
+<img src="./images/image349.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -5879,7 +6000,7 @@ gained so far in this course by creating these interactive elements.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 350. slider using flex slider (183) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image350.webp"
+<img src="./images/image350.png"
   style="width:50%;"
   title="Slider using flex slider"
   alt="Slider using flex slider." />
@@ -5889,7 +6010,7 @@ This will be a slider using flex slider up here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 351.  (183) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image351.webp"
+<img src="./images/image351.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -5901,7 +6022,7 @@ this page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 352.  (184) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image352.webp"
+<img src="./images/image352.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -5923,10 +6044,10 @@ come together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 353/354.  (184) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image353.webp"
+<img src="./images/image353.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
-<img src="./images/image354.webp"
+<img src="./images/image354.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
@@ -5939,10 +6060,10 @@ cool.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 355/356.  (185) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image355.webp"
+<img src="./images/image355.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
-<img src="./images/image356.webp"
+<img src="./images/image356.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   alt="." />
 </p>
@@ -5956,7 +6077,7 @@ normalizes the differences between different browsers.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 357.  (185) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image357.webp"
+<img src="./images/image357.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -5973,10 +6094,10 @@ page will be responsive but it&apos;s not RESPONSIVE.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 358/359.  (186) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image358.webp"
+<img src="./images/image358.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image359.webp"
+<img src="./images/image359.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -5985,10 +6106,10 @@ You can see here is the link for the normal script and the google fonts.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 360/361.  (186) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image360.webp"
+<img src="./images/image360.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image361.webp"
+<img src="./images/image361.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6000,7 +6121,7 @@ the bottoms of the page and getting it all into place that way.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 362.  (187) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image362.webp"
+<img src="./images/image362.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6011,7 +6132,7 @@ later lesson for here, you&apos;re just going to build up this html and CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 363.  (187) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image363.webp"
+<img src="./images/image363.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6025,10 +6146,10 @@ the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 364/365.  (188) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image364.webp"
+<img src="./images/image364.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image365.webp"
+<img src="./images/image365.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6042,10 +6163,10 @@ those pieces in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 366/367.  (188) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image366.webp"
+<img src="./images/image366.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image367.webp"
+<img src="./images/image367.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6078,7 +6199,7 @@ this. But I think it&apos;s helpful to go through it anyway.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 368. header html (2.30) (189) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image368.webp"
+<img src="./images/image368.png"
   style="width:50%;"
   title="2.30 Header HTML"
   alt="2.30 Header HTML." />
@@ -6090,10 +6211,10 @@ because google pays a lot of attention to that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 369/370.  (190) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image369.webp"
+<img src="./images/image369.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image370.webp"
+<img src="./images/image370.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6107,17 +6228,17 @@ save that and let&apos;s see what we need to do next.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 371/372.  (190) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image371.webp"
+<img src="./images/image371.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image372.webp"
+<img src="./images/image372.png"
   style="width:45%;"
   alt="." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 373.  (191) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image362.webp"
+<img src="./images/image362.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6137,10 +6258,10 @@ slider Div. There we go. Easy enough.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 374/375.  (191) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image374.webp"
+<img src="./images/image374.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image375.webp"
+<img src="./images/image375.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6156,10 +6277,10 @@ here and take care of that, okay?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 376/377.  (192) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image376.webp"
+<img src="./images/image376.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image377.webp"
+<img src="./images/image377.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6178,10 +6299,10 @@ this down into smaller sub pieces.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 378/379.  (193) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image378.webp"
+<img src="./images/image378.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image379.webp"
+<img src="./images/image379.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6198,7 +6319,7 @@ now, we can just get the markup going in place over here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 380.  (193) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image380.webp"
+<img src="./images/image380.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6218,7 +6339,7 @@ lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 381. pricing html (2.31) (194) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image376.webp"
+<img src="./images/image376.png"
   style="width:40%;"
   title="2.31 Pricing HTML"
   alt="2.31 Pricing HTML." />
@@ -6226,7 +6347,7 @@ lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 382.  (194) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image377.webp"
+<img src="./images/image377.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6236,7 +6357,7 @@ other sections had a lot of content, this one has even more.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 383. scription tab section (195) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image383.webp"
+<img src="./images/image383.png"
   style="width:50%;"
   title="Scription Tab Section"
   alt="Scription Tab Section." />
@@ -6253,7 +6374,7 @@ you&apos;ll be adding that script later as part of your challenge.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 384. html tab structure (196) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image384.webp"
+<img src="./images/image384.png"
   style="width:50%;"
   title="HTML Tab Structure"
   alt="HTML Pricing Structure." />
@@ -6265,11 +6386,11 @@ structure for the tabs.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 385/386. 3 sections, articles with tabs (196) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image385.webp"
+<img src="./images/image385.png"
   style="width:45%;"
   title="Three sections; pricing, listen and ourteam"
   alt="Three sections; pricing, listen and ourteam." />
-<img src="./images/image386.webp"
+<img src="./images/image386.png"
   style="width:45%;"
   title="Tabs under article for Personal, Education and Professional"
   alt="Tabs under article for Personal, Education and Professional." />
@@ -6282,11 +6403,11 @@ those is going to get a pile of content.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 387/388. 3 articles & tab 1 content (197) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image387.webp"
+<img src="./images/image387.png"
   style="width:45%;"
   title="Tab 1 Contnet"
   alt="Tab 1 Content." />
-<img src="./images/image388.webp"
+<img src="./images/image388.png"
   style="width:45%;"
   title="Content included for tab 1"
   alt="Content included for tab 1." />
@@ -6300,11 +6421,11 @@ in the right place and paste it in there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 389/390. tabs 2 and 3, articles for each (197) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image389.webp"
+<img src="./images/image389.png"
   style="width:45%;"
   title="Article 2 and 3 with tabs"
   alt="Article 2 and 3 with tabs." />
-<img src="./images/image390.webp"
+<img src="./images/image390.png"
   style="width:45%;"
   title="Tab 2 Content"
   alt="Tab 2 Content." />
@@ -6316,11 +6437,11 @@ content.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 391/392. tabs 3, container & section (198) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image391.webp"
+<img src="./images/image391.png"
   style="width:45%;"
   title="Tab 3, container and section"
   alt="Tab 3, container and section." />
-<img src="./images/image392.webp"
+<img src="./images/image392.png"
   style="width:45%;"
   title="Tab 3 Content"
   alt="Tab 3 Content." />
@@ -6335,7 +6456,7 @@ we go.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 393. define html section/tabs (199) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image393.webp"
+<img src="./images/image393.png"
   style="width:50%;"
   title="Define HTML Section/Tabs"
   alt="Define HTML Section/Tabs." />
@@ -6348,7 +6469,7 @@ the, I have their pricing section content here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 394. example, listen section html (199) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image394.webp"
+<img src="./images/image394.png"
   style="width:50%;"
   title="Example, Listen Section HTML"
   alt="Example, Listen Section HTML." />
@@ -6361,11 +6482,11 @@ you can add some more block quotes.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 395/396. listen section with test scription (199) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image395.webp"
+<img src="./images/image395.png"
   style="width:45%;"
   title="Listen Section"
   alt="Listen Section." />
-<img src="./images/image396.webp"
+<img src="./images/image396.png"
   style="width:45%;"
   title="Test Listen Section"
   alt="Test Listen Section." />
@@ -6379,7 +6500,7 @@ rotate that around.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 397. section id = listen (200) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image397.webp"
+<img src="./images/image397.png"
   style="width:50%;"
   title="Add section id='listen'"
   alt="Add section id='listen'." />
@@ -6390,7 +6511,7 @@ to go inside this listen section here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 398. example, our team section html and footer html (200) ~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image398.webp"
+<img src="./images/image398.png"
   style="width:50%;"
   title="Example, Our Team Section HTML and Footer HTML"
   alt="Example, Our Team Section HTML and Footer HTML." />
@@ -6401,11 +6522,11 @@ that&apos;s going to be next.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 399/400. our team section id='ourteam' (201) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image399.webp"
+<img src="./images/image399.png"
   style="width:45%;"
   title="Our Team Section"
   alt="Our Team Section." />
-<img src="./images/image400.webp"
+<img src="./images/image400.png"
   style="width:45%;"
   title="Add to section id='ourteam'"
   alt="Add to section id='ourteam'." />
@@ -6416,10 +6537,10 @@ team.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 401/402.  (201) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image401.webp"
+<img src="./images/image401.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image402.webp"
+<img src="./images/image402.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6442,7 +6563,7 @@ have all of our HTML in place.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 403.  (202) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image403.webp"
+<img src="./images/image403.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6459,7 +6580,7 @@ still accessible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 404. beginning styling (2.32) (202) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image404.webp"
+<img src="./images/image404.png"
   style="width:40%;"
   title="2.32 Beginning Styling"
   alt="2.32 Beginning Styling." />
@@ -6470,10 +6591,10 @@ going to start styling, and getting the styling in place.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 405/406.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image405.webp"
+<img src="./images/image405.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image406.webp"
+<img src="./images/image406.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6486,7 +6607,7 @@ approach.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 407.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image407.webp"
+<img src="./images/image407.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6505,7 +6626,7 @@ some styling for the page here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 408.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image408.webp"
+<img src="./images/image408.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6540,7 +6661,7 @@ it will change it throughout the, throughout the whole page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 409.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image409.webp"
+<img src="./images/image409.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6554,10 +6675,10 @@ not stick with it exactly, but it is helpful to do that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 410/411.  (2) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image410.webp"
+<img src="./images/image410.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image411.webp"
+<img src="./images/image411.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6576,7 +6697,7 @@ but that is okay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 412.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image412.webp"
+<img src="./images/image412.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6592,10 +6713,10 @@ there we are with the resets.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 413/414.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image413.webp"
+<img src="./images/image413.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image414.webp"
+<img src="./images/image414.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6603,7 +6724,7 @@ there we are with the resets.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 415.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image415.webp"
+<img src="./images/image415.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6625,7 +6746,7 @@ entire page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 416.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image416.webp"
+<img src="./images/image416.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6639,7 +6760,7 @@ great. All right, we will continue with the styling in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 417. styling that attaches to whole page (2.33) (2xx) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image417.webp"
+<img src="./images/image417.png"
   style="width:40%;"
   title="2.33 Styling That Attaches to Whole Page"
   alt="2.33 Styling That Attaches to Whole Page." />
@@ -6651,10 +6772,10 @@ difference.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 418/419.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image418.webp"
+<img src="./images/image418.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image419.webp"
+<img src="./images/image419.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6663,7 +6784,7 @@ So let&apos;s go over and grab these three rules.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 420.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image420.webp"
+<img src="./images/image420.png"
   style="width:40%;"
   alt="." />
 </p>
@@ -6677,7 +6798,7 @@ here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 421.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image421.webp"
+<img src="./images/image421.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6691,10 +6812,10 @@ down the page. You&apos;ll see as it sort of works out that way.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 422/423.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image422.webp"
+<img src="./images/image422.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image423.webp"
+<img src="./images/image423.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6706,10 +6827,10 @@ they had her section year.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 424/425.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image424.webp"
+<img src="./images/image424.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image425.webp"
+<img src="./images/image425.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6740,7 +6861,7 @@ coming into place here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 426.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image426.webp"
+<img src="./images/image426.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6755,7 +6876,7 @@ font size and that kind of fun stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 427.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image427.webp"
+<img src="./images/image427.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6778,7 +6899,7 @@ we&apos;re ready to see what we need to do for the next section.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 428. slider styling (2.34) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image428.webp"
+<img src="./images/image428.png"
   style="width:40%;"
   title="2.34 Slider Styling"
   alt="2.34 Slider Styling." />
@@ -6788,10 +6909,10 @@ Continuing with our styling, we&apos;ll add some styling for the slider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 429/430.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image429.webp"
+<img src="./images/image429.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image430.webp"
+<img src="./images/image430.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6801,10 +6922,10 @@ in the background of this element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 431/432.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image431.webp"
+<img src="./images/image431.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image432.webp"
+<img src="./images/image432.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6826,10 +6947,10 @@ our slider is displaying properly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 433/434.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image433.webp"
+<img src="./images/image433.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image434.webp"
+<img src="./images/image434.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6846,7 +6967,7 @@ that in place and we&apos;re ready to go on to the next part.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 435.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image435.webp"
+<img src="./images/image435.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6860,10 +6981,10 @@ so that it looks right there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 436/437.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image436.webp"
+<img src="./images/image436.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image437.webp"
+<img src="./images/image437.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6875,7 +6996,7 @@ I&apos;m going to save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 438.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image438.webp"
+<img src="./images/image438.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6889,10 +7010,10 @@ got to look at the desktop, the download section.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 439/440.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image439.webp"
+<img src="./images/image439.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image440.webp"
+<img src="./images/image440.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6909,7 +7030,7 @@ paste it back in again, it&apos;s not a big deal.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 441.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image441.webp"
+<img src="./images/image441.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6919,7 +7040,7 @@ but they&apos;re all in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 442.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image442.webp"
+<img src="./images/image442.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -6935,7 +7056,7 @@ your own in a future lesson here. Great, we&apos;re coming along.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 443. pricing styles (2.35) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image443.webp"
+<img src="./images/image443.png"
   style="width:40%;"
   title="3.35 Pricing Styles"
   alt="3.35 Pricing Styles." />
@@ -6947,10 +7068,10 @@ is the pricing styles.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 444/445.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image444.webp"
+<img src="./images/image444.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image445.webp"
+<img src="./images/image445.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6971,10 +7092,10 @@ fine.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 446/447.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image446.webp"
+<img src="./images/image446.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image447.webp"
+<img src="./images/image447.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -6993,10 +7114,10 @@ good. Now, we just need to go on to the next section.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 448/449.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image448.webp"
+<img src="./images/image448.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image449.webp"
+<img src="./images/image449.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7010,7 +7131,7 @@ display properly, save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 450.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image450.webp"
+<img src="./images/image450.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7021,10 +7142,10 @@ mobile.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 451/452.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image451.webp"
+<img src="./images/image451.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image452.webp"
+<img src="./images/image452.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7035,10 +7156,10 @@ page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 453/454.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image453.webp"
+<img src="./images/image453.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image454.webp"
+<img src="./images/image454.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7052,10 +7173,10 @@ rest of our page shapes up.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 455/456.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image455.webp"
+<img src="./images/image455.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image456.webp"
+<img src="./images/image456.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7069,7 +7190,7 @@ gets larger, so we&apos;ll do that next.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 457. tablet styles (2.36) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image457.webp"
+<img src="./images/image457.png"
   style="width:40%;"
   title="2.36 Tablet Styles"
   alt="2.36 Tablet Styles." />
@@ -7080,10 +7201,10 @@ to get the styling in place for the tablet version.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 458/459.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image458.webp"
+<img src="./images/image458.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image459.webp"
+<img src="./images/image459.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7098,10 +7219,10 @@ do a better job.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 460/461.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image460.webp"
+<img src="./images/image460.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image461.webp"
+<img src="./images/image461.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7120,7 +7241,7 @@ overview to make those two areas look a little bit better.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 462.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image462.webp"
+<img src="./images/image462.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7133,7 +7254,7 @@ to expand more, which drives me nuts, but that&apos;s right.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 463.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image463.webp"
+<img src="./images/image463.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7155,17 +7276,17 @@ the screen gets wider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 464/465.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image464.webp"
+<img src="./images/image464.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image465.webp"
+<img src="./images/image465.png"
   style="width:45%;"
   alt="." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 466.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image466.webp"
+<img src="./images/image466.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7180,7 +7301,7 @@ these are going to go into the 760 media query.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 467.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image467.webp"
+<img src="./images/image467.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7194,10 +7315,10 @@ team.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 468/469.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image468.webp"
+<img src="./images/image468.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image469.webp"
+<img src="./images/image469.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7209,10 +7330,10 @@ do when you take them out, see what happens.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 470/471.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image470.webp"
+<img src="./images/image470.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image471.webp"
+<img src="./images/image471.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7229,10 +7350,10 @@ finished when we&apos;re done.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 472/473.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image472.webp"
+<img src="./images/image472.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image473.webp"
+<img src="./images/image473.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7243,7 +7364,7 @@ side instead of one on top of the other.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 474.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image474.webp"
+<img src="./images/image474.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7253,10 +7374,10 @@ here which will use content rotator for.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 475/476.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image475.webp"
+<img src="./images/image475.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image476.webp"
+<img src="./images/image476.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7272,7 +7393,7 @@ desktop size.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 477. media query for 1020 pixels wide (2.37) (2xx) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image477.webp"
+<img src="./images/image477.png"
   style="width:40%;"
   title="2.37 Media Query for 1020 Pixels Wide"
   alt="2.37 Media Query for 1020 Pixels Wide." />
@@ -7282,10 +7403,10 @@ The next breakpoint for my media query is 1020 pixels.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 478/479.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image478.webp"
+<img src="./images/image478.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image479.webp"
+<img src="./images/image479.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7311,10 +7432,10 @@ designer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 480/481.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image480.webp"
+<img src="./images/image480.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image481.webp"
+<img src="./images/image481.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7333,10 +7454,10 @@ want to mess around with it, feel free.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 482/483.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image482.webp"
+<img src="./images/image482.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image483.webp"
+<img src="./images/image483.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7346,10 +7467,10 @@ pricing and the downloads.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 484/485.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image484.webp"
+<img src="./images/image484.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image485.webp"
+<img src="./images/image485.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7363,10 +7484,10 @@ going on. This one had more, but I prefer to put them on one line.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 486/487.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image486.webp"
+<img src="./images/image486.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image487.webp"
+<img src="./images/image487.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7391,7 +7512,7 @@ I&apos;m going to look at the next one in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 488. media query for 1200 pixels wide (2.38) (2xx) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image488.webp"
+<img src="./images/image488.png"
   style="width:40%;"
   title="2.38 Media Query for 1200 Pixels Wide"
   alt="2.38 Media Query for 1200 Pixels Wide." />
@@ -7404,7 +7525,7 @@ kind of optimize our layout for that look.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 489.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image489.webp"
+<img src="./images/image489.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7414,7 +7535,7 @@ your width here for me to do it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 490.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image490.webp"
+<img src="./images/image490.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7432,10 +7553,10 @@ they&apos;re here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 491/492.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image491.webp"
+<img src="./images/image491.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image492.webp"
+<img src="./images/image492.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7450,10 +7571,10 @@ possible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 493/494.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image493.webp"
+<img src="./images/image493.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image494.webp"
+<img src="./images/image494.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7467,10 +7588,10 @@ that&apos;s kind of helpful to be aware of.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 495/496.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image495.webp"
+<img src="./images/image495.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image496.webp"
+<img src="./images/image496.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7481,10 +7602,10 @@ adjust for that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 497/498.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image497.webp"
+<img src="./images/image497.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image498.webp"
+<img src="./images/image498.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7500,10 +7621,10 @@ what it looks like without it and then put it back in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 499/500.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image499.webp"
+<img src="./images/image499.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image500.webp"
+<img src="./images/image500.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7518,10 +7639,10 @@ easier to read, make it a little bit nicer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 501/502.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image501.webp"
+<img src="./images/image501.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image502.webp"
+<img src="./images/image502.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7536,10 +7657,10 @@ bit of breathing room.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 503/504.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image503.webp"
+<img src="./images/image503.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image504.webp"
+<img src="./images/image504.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7563,7 +7684,7 @@ with it. It&apos;s always fun to do that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 505. scription site: building interactive elements challenges (2xx) ~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image505.webp"
+<img src="./images/image505.png"
   style="width:40%;"
   title="2.39 Scription Site: Building Interactive Elements Challenges"
   alt="2.39 Scription Site: Building Interactive Elements Challenges." />
@@ -7580,7 +7701,7 @@ interactive elements in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 506.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image506.webp"
+<img src="./images/image506.png"
   style="width:40%;"
   alt="." />
 </p>
@@ -7591,7 +7712,7 @@ you, so that you can see what you&apos;re supposed to be doing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 507.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image507.webp"
+<img src="./images/image507.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7604,7 +7725,7 @@ that&apos;s all working.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 508.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image508.webp"
+<img src="./images/image508.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7615,10 +7736,10 @@ to the download section.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 509/510.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image509.webp"
+<img src="./images/image509.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image510.webp"
+<img src="./images/image510.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7633,10 +7754,10 @@ lesson. No big deal.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 511/512.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image511.webp"
+<img src="./images/image511.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image512.webp"
+<img src="./images/image512.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -7656,7 +7777,7 @@ the pieces for you to build in, and it should be pretty fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 513.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image513.webp"
+<img src="./images/image513.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7670,7 +7791,7 @@ into the global scope.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 514.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image514.webp"
+<img src="./images/image514.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7687,7 +7808,7 @@ that&apos;s challenge one.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 515.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image515.webp"
+<img src="./images/image515.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7711,7 +7832,7 @@ breaking and change that one to let. Usually it&apos;s const.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 516.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image516.webp"
+<img src="./images/image516.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7725,7 +7846,7 @@ additional snippets so that adding this markup will be easier.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 517.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image517.webp"
+<img src="./images/image517.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7745,7 +7866,7 @@ some of the features that we saw in the other slider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 518.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image518.webp"
+<img src="./images/image518.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7760,7 +7881,7 @@ that as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 519.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image519.webp"
+<img src="./images/image519.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7782,7 +7903,7 @@ That&apos;s Challenge 3, to get that to work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 520.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image520.webp"
+<img src="./images/image520.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7804,7 +7925,7 @@ get that to work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 521.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image521.webp"
+<img src="./images/image521.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7852,7 +7973,7 @@ section:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 522. module 3 intro (3.01) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image522.webp"
+<img src="./images/image522.png"
   style="width:40%;"
   title="3.01 Module 3 Introduction"
   alt="3.01 Module 3 Introduction." />
@@ -7871,7 +7992,7 @@ look forward to doing it with you. Let&apos;s get started.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 523.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image523.webp"
+<img src="./images/image523.png"
   style="width:40%;"
   alt="." />
 </p>
@@ -7881,7 +8002,7 @@ JavaScript language.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 524.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image524.webp"
+<img src="./images/image524.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7908,7 +8029,7 @@ we&apos;ll use <b>objects</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 525.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image525.webp"
+<img src="./images/image525.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7935,7 +8056,7 @@ read.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 526.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image526.webp"
+<img src="./images/image526.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7951,7 +8072,7 @@ in each line followed with a comma.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 527.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image527.webp"
+<img src="./images/image527.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7973,7 +8094,7 @@ the object and that object has been defined.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 528.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image528.webp"
+<img src="./images/image528.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -7984,7 +8105,7 @@ this as much as you can, and get used to using these data structures.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 529.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image529.webp"
+<img src="./images/image529.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8021,7 +8142,7 @@ transmission, often carrying the extension .ZIP.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 530. objects can contain arrays and other objects (3.03) (2xx) ~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image530.webp"
+<img src="./images/image530.png"
   style="width:40%;"
   title="3.03 Objects Can Contain Arrays and Other Objects"
   alt="3.03 Objects Can Contain Arrays and Other Objects." />
@@ -8032,7 +8153,7 @@ can contain arrays and other objects.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 531.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image531.webp"
+<img src="./images/image531.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8048,7 +8169,7 @@ through similar methods that we used before down here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 532.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image532.webp"
+<img src="./images/image532.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8067,7 +8188,7 @@ number. We can access all the data inside of this object.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 533.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image533.webp"
+<img src="./images/image533.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8086,7 +8207,7 @@ They&apos;re very flexible and very useful for working with in this way.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 534.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image534.webp"
+<img src="./images/image534.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8109,7 +8230,7 @@ do this really quickly because this is kind of interesting.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 535.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image535.webp"
+<img src="./images/image535.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8131,7 +8252,7 @@ feature of JavaScript in <b>objects</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 536. functions inside objects equals methods (3.04) (2xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image536.webp"
+<img src="./images/image536.png"
   style="width:40%;"
   title="3.04 Functions Inside Objects Equals Methods"
   alt="3.04 Functions Inside Objects Equals Methods." />
@@ -8142,7 +8263,7 @@ Let&apos;s take this idea a little bit further.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 537.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image537.webp"
+<img src="./images/image537.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8166,7 +8287,7 @@ the context in which this makes sense here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 538.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image538.webp"
+<img src="./images/image538.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8179,7 +8300,7 @@ important.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 539.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image539.webp"
+<img src="./images/image539.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8192,7 +8313,7 @@ could use over and over again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 540. objects can contain functions (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image540.webp"
+<img src="./images/image540.png"
   style="width:50%;"
   title="Objects can contain functions"
   alt="Objects can contain functions." />
@@ -8216,7 +8337,7 @@ remember them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 541.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image541.webp"
+<img src="./images/image541.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8235,7 +8356,7 @@ going to put in, <b>firstName</b> &apos;&apos;Mary&apos;&apos;, <b>lastName</b> 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 542.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image542.webp"
+<img src="./images/image542.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8256,7 +8377,7 @@ more complex javascript programming.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 543. putting objects and functions together (3.05) (2xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image543.webp"
+<img src="./images/image543.png"
   style="width:40%;"
   title="3.05 Putting Objects and Functions Together"
   alt="3.05 Putting Objects and Functions Together." />
@@ -8273,7 +8394,7 @@ can start to think about ways in which you can use <b>objects</b> and
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 544.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image544.webp"
+<img src="./images/image544.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8302,7 +8423,7 @@ this <b>closure</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 545.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image545.webp"
+<img src="./images/image545.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8313,7 +8434,7 @@ see that it gets defined here. That will get to find, <b>printMessage.</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 546.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image546.webp"
+<img src="./images/image546.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8344,7 +8465,7 @@ a a key thing in any programming language is to be able to do that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 547. data formats - xml (3.06) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image547.webp"
+<img src="./images/image547.png"
   style="width:40%;"
   alt="3.06 Data Formats - XML." />
 </p>
@@ -8355,7 +8476,7 @@ format called XML.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 548.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image548.webp"
+<img src="./images/image548.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8379,7 +8500,7 @@ You can see JSON&apos;s going off the chart here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 549.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image549.webp"
+<img src="./images/image549.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8392,7 +8513,7 @@ format for data, but it&apos;s being largely replaced by JSON.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 550.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image550.webp"
+<img src="./images/image550.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8423,7 +8544,7 @@ object that you can manipulate and use within your JavaScript program.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 551.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image551.webp"
+<img src="./images/image551.png"
   style="width:40%;"
   alt="." />
 </p>
@@ -8435,7 +8556,7 @@ some JSON data.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 552.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image552.webp"
+<img src="./images/image552.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8445,7 +8566,7 @@ with a string of JSON data.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 553.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image553.webp"
+<img src="./images/image553.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8457,10 +8578,10 @@ and that should just give me my string of data.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 554/555.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image554.webp"
+<img src="./images/image554.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image555.webp"
+<img src="./images/image555.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -8475,10 +8596,10 @@ now, I&apos;ve just built a little bit of JSON in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 556/557.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image556.webp"
+<img src="./images/image556.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image557.webp"
+<img src="./images/image557.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -8495,7 +8616,7 @@ actually do some things with.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 558.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image558.webp"
+<img src="./images/image558.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8518,10 +8639,10 @@ recommend trying some of these things out.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 559/560.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image559.webp"
+<img src="./images/image559.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image560.webp"
+<img src="./images/image560.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -8543,7 +8664,7 @@ working with JavaScript and objects.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 561.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image561.webp"
+<img src="./images/image561.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8585,7 +8706,7 @@ section:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 562.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image562.webp"
+<img src="./images/image562.png"
   style="width:40%;"
   alt="." />
 </p>
@@ -8596,7 +8717,7 @@ didn&apos;t invent this game.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 563.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image563.webp"
+<img src="./images/image563.png"
   style="width:40%;"
   alt="." />
 </p>
@@ -8618,7 +8739,7 @@ to go about building them more carefully.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 564.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image564.webp"
+<img src="./images/image564.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8669,7 +8790,7 @@ we actually build the game.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 565.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image565.webp"
+<img src="./images/image565.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8688,7 +8809,7 @@ rules.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 564.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image564.webp"
+<img src="./images/image564.png"
   style="width:40%;"
   alt="." />
 </p>
@@ -8704,7 +8825,7 @@ Here are the diagrams for the pig game to help you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 566.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image566.webp"
+<img src="./images/image566.png"
   style="width:65%;"
   alt="." />
 </p>
@@ -8714,7 +8835,7 @@ Here are the diagrams for the pig game to help you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 567. play the game of pig (3.09) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image567.webp"
+<img src="./images/image567.png"
   style="width:40%;"
   title="3.09 Play the Game of Pig"
   alt="3.09 Play the Game of Pig." />
@@ -8727,7 +8848,7 @@ would have. You would have to start with that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 568.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image568.webp"
+<img src="./images/image568.png"
   style="width:40%;"
   alt="." />
 </p>
@@ -8739,7 +8860,7 @@ playing the game. So I will provide a URL for this game.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 569.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image569.webp"
+<img src="./images/image569.png"
   style="width:40%;"
   alt="." />
 </p>
@@ -8751,7 +8872,7 @@ see what happens when you click the different buttons.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 570.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image570.webp"
+<img src="./images/image570.png"
   style="width:40%;"
   alt="." />
 </p>
@@ -8794,7 +8915,7 @@ to deconstruct? What do you notice there?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 571.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image571.webp"
+<img src="./images/image571.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8824,7 +8945,7 @@ lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 572. version one (3.10) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image572.webp"
+<img src="./images/image572.png"
   style="width:40%;"
   title="3.10 Version One"
   alt="3.10 Version One." />
@@ -8853,7 +8974,7 @@ sort of think out the steps that you would need in order to do this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 573.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image573.webp"
+<img src="./images/image573.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8896,7 +9017,7 @@ of this game.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 574. version two, three and four (3.11) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image574.webp"
+<img src="./images/image574.png"
   style="width:40%;"
   title="3.11 Version Two, Three, &amp; Four"
   alt="3.11 Version Two, Three, &amp; Four." />
@@ -8909,7 +9030,7 @@ a certain point, you&apos;re going to stop throwing dice or switching turns.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 575.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image575.webp"
+<img src="./images/image575.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8929,7 +9050,7 @@ but the game is not over.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 576.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image576.webp"
+<img src="./images/image576.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8963,7 +9084,7 @@ pieces here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 577.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image577.webp"
+<img src="./images/image577.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -8994,7 +9115,7 @@ next turn. That&apos;s what the winning condition would look like.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 578.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image578.webp"
+<img src="./images/image578.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9009,7 +9130,7 @@ functions are going to work together to create this game.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 579.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image579.webp"
+<img src="./images/image579.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9042,7 +9163,7 @@ functionality you need for each piece.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 580. module 4 introduction (4.01) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image580.webp"
+<img src="./images/image580.png"
   style="width:40%;"
   title="4.01 Module 4 Introduction"
   alt="4.01 Module 4 Introduction." />
@@ -9063,7 +9184,7 @@ think you&apos;ll get a lot out of it. Let&apos;s get to it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 581. intro to the game of pig (4.02) (293) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image581.webp"
+<img src="./images/image581.png"
   style="width:40%;"
   title="4.02 Intro to the Game of Pig"
   alt="4.02 Intro to the Game of Pig." />
@@ -9073,11 +9194,11 @@ think you&apos;ll get a lot out of it. Let&apos;s get to it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 582/583. game of pig, the basic game (294) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image582.webp"
+<img src="./images/image582.png"
   style="width:45%;"
   title="Game of Pig"
   alt="Game of Pig." />
-<img src="./images/image583.webp"
+<img src="./images/image583.png"
   style="width:45%;"
   title="The Basic Game"
   alt="The Basic Game." />
@@ -9105,7 +9226,7 @@ think in this very linear way.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 584. index.html - working game (295) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image584.webp"
+<img src="./images/image584.png"
   style="width:50%;"
   title="index.html - Working Game"
   alt="index.html - Working Game." />
@@ -9118,7 +9239,7 @@ make the game work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 585. index.html - with empty script (295) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image585.webp"
+<img src="./images/image585.png"
   style="width:50%;"
   title="index.html with empty script"
   alt="index.html with empty script." />
@@ -9131,7 +9252,7 @@ but at this point, I just have them in the main folder and that&apos;s fine.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 586.  (296) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image586.webp"
+<img src="./images/image586.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9142,7 +9263,7 @@ the page here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 587.  (296) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image587.webp"
+<img src="./images/image587.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9156,7 +9277,7 @@ page, so it&apos;s really these variables here. I&apos;m going to have
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 588.  (297) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image588.webp"
+<img src="./images/image588.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9177,7 +9298,7 @@ going to need for our script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 589. keeping track of game data (298) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image589.webp"
+<img src="./images/image589.png"
   style="width:50%;"
   title="Keeping Track of Game Data"
   alt="Keeping Track of Game Data." />
@@ -9220,7 +9341,7 @@ score that&apos;s maybe a little bit more reasonable for the game.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 590.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image590.webp"
+<img src="./images/image590.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9243,7 +9364,7 @@ and labeled properly. We&apos;re on our way to creating the pig game.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 591. start the game (4.03) (300) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image591.webp"
+<img src="./images/image591.png"
   style="width:40%;"
   title="4.03 Start the Game"
   alt="4.03 Start the Game." />
@@ -9256,7 +9377,7 @@ helps to just start at the top and start at the beginning.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 592. test, game of pig (300) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image592.webp"
+<img src="./images/image592.png"
   style="width:40%;"
   title="Test, Game of Pig"
   alt="Test, Game of Pig." />
@@ -9268,7 +9389,7 @@ handler for clicking to the start game button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 593. start the game (301) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image593.webp"
+<img src="./images/image593.png"
   style="width:50%;"
   title="Start the Game"
   alt="Start the Game." />
@@ -9279,7 +9400,7 @@ which goes in and gets this button here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 594.  (301) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image594.webp"
+<img src="./images/image594.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9294,7 +9415,7 @@ that, I want to first just sort of get the correct html on the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 595.  (302) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image595.webp"
+<img src="./images/image595.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9321,7 +9442,7 @@ okay. So we&apos;re going to add that in there, that&apos;s great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 596.  (303) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image596.webp"
+<img src="./images/image596.png"
   style="width:65%;"
   alt="." />
 </p>
@@ -9336,10 +9457,10 @@ click the button, these things will happen and we&apos;ll get that working.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 597/598.  (303) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image597.webp"
+<img src="./images/image597.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image598.webp"
+<img src="./images/image598.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -9352,7 +9473,7 @@ as we can there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 599.  (304) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image599.webp"
+<img src="./images/image599.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9374,10 +9495,10 @@ gameData.index, what is the value there and we&apos;ll test that and see.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 600/601.  (305) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image600.webp"
+<img src="./images/image600.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image601.webp"
+<img src="./images/image601.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -9397,7 +9518,7 @@ going in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 602. set up the turn (4.04) (305) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image602.webp"
+<img src="./images/image602.png"
   style="width:40%;"
   title="4.04 Set Up the Turn"
   alt="4.04 Set Up the Turn." />
@@ -9407,7 +9528,7 @@ The next thing we need to do is set up the turn.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 603. example, set up the turn (306) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image603.webp"
+<img src="./images/image603.png"
   style="width:50%;"
   title="Example, Set Up the Turn"
   alt="Example, Set Up the Turn." />
@@ -9422,10 +9543,10 @@ game works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 604/605.  (306) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image604.webp"
+<img src="./images/image604.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image605.webp"
+<img src="./images/image605.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -9483,7 +9604,7 @@ there so that we can get ready to roll the dice and see how that works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 606.  (308) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image606.webp"
+<img src="./images/image606.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9500,7 +9621,7 @@ ready to roll the dice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 607. throwing the dice (4.05) (308) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image607.webp"
+<img src="./images/image607.png"
   style="width:40%;"
   title="4.05 Throwing the Dice"
   alt="4.05 Throwing the Dice." />
@@ -9512,7 +9633,7 @@ all working properly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 608. example, throwing the dice (309) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image608.webp"
+<img src="./images/image608.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9528,7 +9649,7 @@ put that into the <b>rollSum</b> property in the <b>gameData object</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 609.  (309) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image609.webp"
+<img src="./images/image609.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9563,7 +9684,7 @@ match our numbers up there for our dice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 610.  (310) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image610.webp"
+<img src="./images/image610.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9588,7 +9709,7 @@ really just going to be this one again. This will be player 1, or player
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 611.  (311) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image611.webp"
+<img src="./images/image611.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9612,7 +9733,7 @@ double quotes, add an extra one for me.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 612.  (312) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image612.webp"
+<img src="./images/image612.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9633,7 +9754,7 @@ lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 613. test throwing the dice (4.06) (313) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image613.webp"
+<img src="./images/image613.png"
   style="width:40%;"
   title="4.06 Test Throwing the Dice"
   alt="4.06 Test Throwing the Dice." />
@@ -9644,7 +9765,7 @@ if it works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 614. test throwing (313) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image614.webp"
+<img src="./images/image614.png"
   style="width:50%;"
   title="Test Throwing"
   alt="Test Throwing." />
@@ -9656,7 +9777,7 @@ function. Let&apos;s take a look and see how that works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 615.  (314) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image615.webp"
+<img src="./images/image615.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9673,7 +9794,7 @@ come over here and test it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 616.  (314) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image616.webp"
+<img src="./images/image616.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9685,7 +9806,7 @@ working with HTML inside of the string.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 617.  (315) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image617.webp"
+<img src="./images/image617.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9698,10 +9819,10 @@ have to delete one of them there. There we go, save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 618/619.  (315) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image618.webp"
+<img src="./images/image618.png"
   style="width:45%;"
   alt="." />
-<img src="./images/image619.webp"
+<img src="./images/image619.png"
   style="width:45%;"
   alt="." />
 </p>
@@ -9716,7 +9837,7 @@ curious to see what&apos;s in there, you can save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 620.  (316) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image620.webp"
+<img src="./images/image620.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9732,7 +9853,7 @@ here I got 5, 1 plus 4 is 5.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 621.  (317) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image621.webp"
+<img src="./images/image621.png"
   style="width:50%;"
   alt="." />
 </p>
@@ -9745,7 +9866,7 @@ and display them on the page, and that&apos;s fine.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 622. example add the selection statements (317) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image622.webp"
+<img src="./images/image622.png"
   style="width:50%;"
   title="Example, Add the Selection Statements"
   alt="Example, Add the Selection Statements." />
@@ -9762,7 +9883,7 @@ something else, we need to swap. &lbrack;inaudible&rbrack;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 623. add the selection statements (4.07) (318) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image623.webp"
+<img src="./images/image623.png"
   style="width:40%;"
   title="4.07 Add the Selection Statements"
   alt="4.07 Add the Selection Statements." />
@@ -9772,7 +9893,7 @@ something else, we need to swap. &lbrack;inaudible&rbrack;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 624. roll a two? or not? (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image624.webp"
+<img src="./images/image624.png"
   style="width:50%;"
   title="Roll a two? Or not"
   alt="Roll a two? Or not." />
@@ -9786,7 +9907,7 @@ more specific instructions.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 625. test, game of pig (319) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image625.webp"
+<img src="./images/image625.png"
   style="width:50%;"
   title="Test, Game of Pig"
   alt="Test, Game of Pig." />
@@ -9799,7 +9920,7 @@ and if either one of them comes up a one, we want to do.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 626. test, game of pigs (319) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image626.webp"
+<img src="./images/image626.png"
   style="width:50%;"
   title="Test, Game of Pig"
   alt="Test, Game of Pig." />
@@ -9815,11 +9936,11 @@ we&apos;ll deal with that separately.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 627/628. test, game of pig (320) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image627.webp"
+<img src="./images/image627.png"
   style="width:45%;"
   title="Test, game of pig"
   alt="Test, game of pig." />
-<img src="./images/image628.webp"
+<img src="./images/image628.png"
   style="width:45%;"
   title="Test, game of pig"
   alt="Test, game of pig." />
@@ -9827,7 +9948,7 @@ we&apos;ll deal with that separately.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 629. test, game of pig (320) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image629.webp"
+<img src="./images/image629.png"
   style="width:40%;"
   title="Test, game of pig"
   alt="Test, game of pig." />
@@ -9846,7 +9967,7 @@ until you&apos;ve gotten all of those things checked.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 630. snake eyes! (4.08) (321) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image630.webp"
+<img src="./images/image630.png"
   style="width:40%;"
   title="4.08 Snake Eyes!"
   alt="4.08 Snake Eyes!" />
@@ -9855,7 +9976,7 @@ until you&apos;ve gotten all of those things checked.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 631. snake eyes! (321) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image631.webp"
+<img src="./images/image631.png"
   style="width:50%;"
   title="Snake Eyes!"
   alt="Snake Eyes!" />
@@ -9866,7 +9987,7 @@ first. If we get a 2, let&apos;s deal with that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 632. add to the innerhtml of the game (322) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image632.webp"
+<img src="./images/image632.png"
   style="width:50%;"
   title="Add to the innerHTML of the game"
   alt="Add to the innerHTML of the game." />
@@ -9891,7 +10012,7 @@ the points you&apos;ve gotten so far.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 633. snake eyes! (323) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image633.webp"
+<img src="./images/image633.png"
   style="width:50%;"
   title="Snake Eyes!"
   alt="Snake Eyes!" />
@@ -9906,7 +10027,7 @@ operator</b>. We see it over here, so I&apos;m going to set
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 634. gamedata.index true or false? (323) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image634.webp"
+<img src="./images/image634.png"
   style="width:50%;"
   title="gameData.index, true or false"
   alt="gameData.index, true or false." />
@@ -9940,7 +10061,7 @@ seconds, 2000 milliseconds) and that should work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 635. test, game data roll (324) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image635.webp"
+<img src="./images/image635.png"
   style="width:50%;"
   title="Test, game data roll"
   alt="Test, game data roll." />
@@ -9957,7 +10078,7 @@ throw that in there and see what happens here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 636. roll the dice as player 1 (325) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image636.webp"
+<img src="./images/image636.png"
   style="width:50%;"
   title="Roll the dice as player 1"
   alt="Roll the dice as player 1." />
@@ -9969,7 +10090,7 @@ let&apos;s try that again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 637. roll the dice as player 2 (325) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image637.webp"
+<img src="./images/image637.png"
   style="width:50%;"
   title="Roll the dice as player 2"
   alt="Roll the dice as player 2." />
@@ -9986,7 +10107,7 @@ testing the switch players function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 638. a "1" was rolled (4.09) (326) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image638.webp"
+<img src="./images/image638.png"
   style="width:40%;"
   title="4.09 A "1" was rolled"
   alt="4.09 A "1" was rolled." />
@@ -9996,7 +10117,7 @@ testing the switch players function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 639. again, a "1" was rolled (326) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image639.webp"
+<img src="./images/image639.png"
   style="width:50%;"
   title="Again, a "1" is rolled"
   alt="Again, a "1" is rolled." />
@@ -10009,7 +10130,7 @@ using the ternary operator again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 640. ternary operator (327) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image640.webp"
+<img src="./images/image640.png"
   style="width:50%;"
   alt="Ternary operator." />
 </p>
@@ -10026,7 +10147,7 @@ to switch it to a zero.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 641. ternary operator in mdn (327) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image641.webp"
+<img src="./images/image641.png"
   style="width:50%;"
   title="MDN's ternary operator"
   alt="MDN's ternary operator." />
@@ -10039,7 +10160,7 @@ taking a look at this page here. We&apos;ve got that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 642. test, set the game index (328) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image642.webp"
+<img src="./images/image642.png"
   style="width:50%;"
   title="Test, set the game index"
   alt="Test, set the game index." />
@@ -10066,11 +10187,11 @@ work just fine.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 643/644. test, roll the dice (329) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image643.webp"
+<img src="./images/image643.png"
   style="width:45%;"
   title="gameData.roll"
   alt="gameData.roll." />
-<img src="./images/image644.webp"
+<img src="./images/image644.png"
   style="width:45%;"
   title="gameData.roll"
   alt="gameData.roll." />
@@ -10088,7 +10209,7 @@ switching for player 1.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 645. test, game of pig; roll the dice (329) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image645.webp"
+<img src="./images/image645.png"
   style="width:50%;"
   title="Test, game of pig; roll the dice"
   alt="Test, game of pig; roll the dice." />
@@ -10107,7 +10228,7 @@ continue moving on with the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 646. the else statement (4.10) (330) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image646.webp"
+<img src="./images/image646.png"
   style="width:40%;"
   title="4.10 The Else Statement"
   alt="4.10 The Else Statement." />
@@ -10118,7 +10239,7 @@ happen if you throw the dice and no one&apos;s are rolled.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 647. the else statement (330) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image647.webp"
+<img src="./images/image647.png"
   style="width:50%;"
   title="The Else Statement"
   alt="The Else Statement." />
@@ -10130,7 +10251,7 @@ player had them. We&apos;re going to take the score they had before and add the
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 648. gamedata.score and gamedata.index (328) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image648.webp"
+<img src="./images/image648.png"
   style="width:50%;"
   title="gameData.score and gameData.index"
   alt="gameData.score and gameData.index." />
@@ -10147,7 +10268,7 @@ Okay from there, what we need is to set the action area and create two buttons i
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 649. two buttons, roll again & passing (331) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image649.webp"
+<img src="./images/image649.png"
   style="width:50%;"
   title="Two buttons; roll again and passing"
   alt="Two buttons; roll again and passing." />
@@ -10166,7 +10287,7 @@ but that&apos;ll help, okay?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 650. roll again code in index.html (332) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image650.webp"
+<img src="./images/image650.png"
   style="width:50%;"
   alt="getElementByID(roll again)." />
 </p>
@@ -10178,7 +10299,7 @@ a click. And when you click the button we&apos;re going to run a function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 651. setupturn, swap players (333) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image651.webp"
+<img src="./images/image651.png"
   style="width:50%;"
   title="setUpTurn, swap players"
   alt="setUpTurn, swap players." />
@@ -10198,7 +10319,7 @@ we&apos;re going to need something that checks the winning condition.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 652. game of pig; start game (334) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image652.webp"
+<img src="./images/image652.png"
   style="width:50%;"
   title="Start the Game of Pig"
   alt="Start the Game of Pig." />
@@ -10212,11 +10333,11 @@ down here yet, but I can choose roll again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 653/654. game of pig; roll dice (334) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image653.webp"
+<img src="./images/image653.png"
   style="width:45%;"
   title="Game of Pig; roll the dice"
   alt="Game of Pig; roll the dice." />
-<img src="./images/image654.webp"
+<img src="./images/image654.png"
   style="width:45%;"
   title="Game of Pig; roll the dice"
   alt="Game of Pig; roll the dice." />
@@ -10228,11 +10349,11 @@ I&apos;m still on player 2 and I can roll the dice again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 655/656. game of pig; roll dice (335) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image655.webp"
+<img src="./images/image655.png"
   style="width:45%;"
   title="Game of Pig; roll the dice"
   alt="Game of Pig; roll the dice." />
-<img src="./images/image656.webp"
+<img src="./images/image656.png"
   style="width:45%;"
   title="Game of Pig; roll the dice"
   alt="Game of Pig; roll the dice." />
@@ -10248,7 +10369,7 @@ Let&apos;s stop there and we&apos;ll pick it up in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 657. 3rd major function checks for winning condition (335) ~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image657.webp"
+<img src="./images/image657.png"
   style="width:50%;"
   title="4.11 3rd Major Functions Checks for Winning Condition"
   alt="4.11 3rd Major Functions Checks for Winning Condition." />
@@ -10258,7 +10379,7 @@ Let&apos;s stop there and we&apos;ll pick it up in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 658. checking for a win (336) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image658.webp"
+<img src="./images/image658.png"
   style="width:50%;"
   title="Checking for a win"
   alt="Checking for a win." />
@@ -10270,11 +10391,11 @@ down here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 659/660. within throwdice check winning conditions (336) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image659.webp"
+<img src="./images/image659.png"
   style="width:45%;"
   title="function throwDice"
   alt="function throwDice." />
-<img src="./images/image660.webp"
+<img src="./images/image660.png"
   style="width:45%;"
   title="Check Winning Condition"
   alt="Check Winning Condition." />
@@ -10285,7 +10406,7 @@ curly brace here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 661. add if..else for winning conditions (337) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image661.webp"
+<img src="./images/image661.png"
   style="width:50%;"
   title="Add if..else for winning conditions"
   alt="Add if..else for winning conditions." />
@@ -10299,7 +10420,7 @@ least ought to know how close we are to winning? So it&apos;s going to do those 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 662. check player score against gameend (337) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image662.webp"
+<img src="./images/image662.png"
   style="width:50%;"
   title="Is player score (gameData.score) greater than gameData.gameEnd?"
   alt="Is player score (gameData.score) greater than gameData.gameEnd?" />
@@ -10330,7 +10451,7 @@ the show current score section of this <b>function</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 663. show the current score (4.12) (338) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image663.webp"
+<img src="./images/image663.png"
   style="width:40%;"
   title="4.12 Show the Current Score"
   alt="4.12 Show the Current Score." />
@@ -10341,7 +10462,7 @@ out properly, if we haven&apos;t won the game, so let&apos;s go over and add thi
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 664. showing the current score (339) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image664.webp"
+<img src="./images/image664.png"
   style="width:50%;"
   title="Showing the Current Score"
   alt="Showing the Current Score." />
@@ -10363,7 +10484,7 @@ going to be 1.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 665. function checkwinningcondition (340) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image665.webp"
+<img src="./images/image665.png"
   style="width:50%;"
   title="function checkWinningCondition"
   alt="function checkWinningCondition." />
@@ -10379,7 +10500,7 @@ need to do to get this to work?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 666. function checkwinningcondition (340) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image666.webp"
+<img src="./images/image666.png"
   style="border: 2px solid #000000; width:50%"
   title="function checkWinningCondition"
   alt="function checkWinningCondition." />
@@ -10391,11 +10512,11 @@ it there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 667/668. test score 0 to 8 (341) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image667.webp"
+<img src="./images/image667.png"
   style="border: 2px solid #000000; width:45%"
   title="Test score console.log 0 to 8"
   alt="Test score console.log 0 to 8." />
-<img src="./images/image668.webp"
+<img src="./images/image668.png"
   style="border: 2px solid #000000; width:45%"
   title="Again, test score console log 0 to 8"
   alt="Again, test score console log 0 to 8." />
@@ -10409,11 +10530,11 @@ running here, and you can see that the score got added up, player 2 has
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 669/670. test score 0 to 15, then 0 to 25 (341) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image669.webp"
+<img src="./images/image669.png"
   style="width:45%;"
   title="Test Game of PIG, score 0 to 15"
   alt="Test Game of PIG, score 0 to 15." />
-<img src="./images/image670.webp"
+<img src="./images/image670.png"
   style="width:45%;"
   title="Test Game of PIG, score 0 to 25"
   alt="Test Game of PIG, score 0 to 25." />
@@ -10427,7 +10548,7 @@ happens.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 671. test game player 2 wins with 33 (342) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image671.webp"
+<img src="./images/image671.png"
   style="border: 2px solid #000000; width:50%"
   title="Test Game of PIG, player 2 wins with 33 points"
   alt="Test Game of PIG, player 2 wins with 33 points." />
@@ -10439,7 +10560,7 @@ that needs to be dealt with.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 672. test start game of pig with console.log (342) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image672.webp"
+<img src="./images/image672.png"
   style="width:50%;"
   title="Test Game of PIG, with console.log of score"
   alt="Test Game of PIG, with console.log of score." />
@@ -10458,7 +10579,7 @@ so we want to show the score if you roll two ones.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 673. function: checkwinningcondition (343) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image673.webp"
+<img src="./images/image673.png"
   style="width:50%;"
   title="Run function: checkWinningCondition"
   alt="Run function: checkWinningCondition." />
@@ -10477,7 +10598,7 @@ so that helps.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 674. if win, set action area (344) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image674.webp"
+<img src="./images/image674.png"
   style="width:50%;"
   title="Set action area when you win"
   alt="Set action area when you win." />
@@ -10491,7 +10612,7 @@ those buttons that I had there by accident.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 675. test game of pig (344) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image675.webp"
+<img src="./images/image675.png"
   style="width:50%;"
   title="Test Game of Pig"
   alt="Test Game of Pig." />
@@ -10517,7 +10638,7 @@ cleanup stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 676. final clean-up (4.13) (345) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image676.webp"
+<img src="./images/image676.png"
   style="width:40%;"
   title="4.13 Final Clean-Up"
   alt="4.13 Final Clean-Up." />
@@ -10535,7 +10656,7 @@ So what can we do about that?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 677. replace setup turn with throw dice (346) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image677.webp"
+<img src="./images/image677.png"
   style="width:40%;"
   title="Replace function setup turn with throw dice"
   alt="Replace function setup turn with throw dice." />
@@ -10551,11 +10672,11 @@ nicely. It&apos;s a bit smoother so that works great, okay?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 678/679. find and cleanup where possible (346) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image678.webp"
+<img src="./images/image678.png"
   style="width:45%;"
   title="Using best practices, cleanup where possible"
   alt="Using best practices, cleanup where possible." />
-<img src="./images/image679.webp"
+<img src="./images/image679.png"
   style="width:45%;"
   title="Using best practices, cleanup where possible"
   alt="Using best practices, cleanup where possible." />
@@ -10574,11 +10695,11 @@ do is run this function here, <b>showCurrentScore</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 680/681. change to showcurrentscore (347) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image680.webp"
+<img src="./images/image680.png"
   style="width:45%;"
   title="Change checkWinningCondition to showCurrentScore"
   alt="Change checkWinningCondition to showCurrentScore." />
-<img src="./images/image681.webp"
+<img src="./images/image681.png"
   style="width:45%;"
   title="Change checkWinningCondition to showCurrentScore"
   alt="Change checkWinningCondition to showCurrentScore." />
@@ -10598,11 +10719,11 @@ nicer like that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 682/683. best practices throw dice function (347) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image682.webp"
+<img src="./images/image682.png"
   style="width:45%;"
   title="Optimize JavaScript functions using best practices"
   alt="Optimize JavaScript functions using best practices." />
-<img src="./images/image683.webp"
+<img src="./images/image683.png"
   style="width:45%;"
   title="If function is used more than once, split off"
   alt="If function is used more than once, split off." />
@@ -10628,11 +10749,11 @@ into a separate function that runs here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 684/685. script.js with all functions (348) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image684.webp"
+<img src="./images/image684.png"
   style="width:45%;"
   title="Separate JS code into script.js for best practices"
   alt="Separate JS code into script.js for best practices." />
-<img src="./images/image685.webp"
+<img src="./images/image685.png"
   style="width:45%;"
   title="Move all functions into one script file for ease"
   alt="Move all functions into one script file for ease." />
@@ -10652,7 +10773,7 @@ variables and then paste everything here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 686. change vars to const in javascript (349) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image686.webp"
+<img src="./images/image686.png"
   style="width:50%;"
   title="Update all var to const to speed things up"
   alt="Update all var to const to speed things up." />
@@ -10666,7 +10787,7 @@ a constant as well.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 687. differ script.js (349) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image687.webp"
+<img src="./images/image687.png"
   style="width:50%;"
   title="Use the differ attribute with script.js"
   alt="Use the differ attribute with script.js." />
@@ -10683,7 +10804,7 @@ in the next lesson, and you&apos;ve got a working game here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 688. extending the game (module 4.14) (350) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image688.webp"
+  <img src="./images/image688.png"
   title="4.14 Extending the Game"
   alt="4.14 Extending the Game."
   style="border: 2px solid #000000; width:40%;" />
@@ -10693,7 +10814,7 @@ in the next lesson, and you&apos;ve got a working game here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 689. easy ways to extend the game (350) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image689.webp"
+  <img src="./images/image689.png"
   title="Easy ways to extend the game"
   alt="Easy ways to extend the game."
   style="border: 2px solid #000000; width:50%;" />
@@ -10713,7 +10834,7 @@ more challenging if you really want to try to do them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 690. easy ways to extend the game (351) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image690.webp"
+  <img src="./images/image690.png"
   title="Easy ways to extend the game"
   alt="Easy ways to extend the game."
   style="border: 2px solid #000000; width:50%;" />
@@ -10805,7 +10926,7 @@ excellent versions people have made of the big game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 691. course summary: interactivity with javascript and jquery (353) ~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image691.webp"
+  <img src="./images/image691.png"
   title="4.15 Course Summary: Interactivity with JavaScript and jQuery"
   alt="4.15 Course Summary: Interactivity with JavaScript and jQuery."
   style="border: 2px solid #000000; width:40%;" />
@@ -10829,4 +10950,4 @@ and you&apos;ll get more practice. So I look forward to seeing you there.</p>
 
 <p>.the end...</p>
 
-<h6>Last Updated 3/06/2024 11:08pm</h6>
+<h6>Last Updated 3/23/2024 9:11pm</h6>
