@@ -1,7 +1,7 @@
 ---
 title: "#3 - University of California @Davis Interactivity with JavaScript and jQuery"
 author: "bbauska"
-date last editted: "3/23/2024 9+pm"
+date last editted: "3/24/2024 9+pm"
 output: 
   markdown:
     with some style
@@ -5662,10 +5662,11 @@ scrolling down and these numbers must be coming in, when I&apos;m clicking
 on one of these links, I must have left a console log open in that
 script as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 329.  (171) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 329. add event listener, scroll function (171) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image329.png"
-  alt="."
+  title="Add event listener, scroll function"
+  alt="Add event listener, scroll function."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5710,14 +5711,15 @@ my event listener for when the Window loads. So when I added in here,
 make sure you&apos;re putting it in the right place because that&apos;s really
 important.
 
-And here I&apos;m just a Window.outevent listener and I&apos;m going to look for
+And here I&apos;m just a Window.add event listener and I&apos;m going to look for
 a resize event. Eminent type functioning, that&apos;s going to run when the
 Window resize is semi code and we will put stuff in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 332.  (173) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 332. window on resize, function (173) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image332.png"
-  alt="."
+  title="Window on resize, function"
+  alt="Window on resize, function."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5725,10 +5727,11 @@ Now remember when we were doing JQuery, we used our JQuery object to get
 the Window and we use the on method to then capture the resize event and
 run a function. That&apos;s how we did it with JQuery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 333.  (173) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 333. js, window on resize, function (173) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image333.png"
-  alt="."
+  title="JavaScript, Window on resize, function"
+  alt="JavaScript, Window on resize, function."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5737,26 +5740,28 @@ just adding an event listener to the Window and resizing it for when we
 resize. So it&apos;s not that different it&apos;s a little bit different and the
 JQuery is a little bit shorter but that&apos;s okay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 334/335.  (174) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 334/335. done resizing, set timeout (174) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image334.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Done resizing, set timeout"
+  alt="Done resizing, set timeout." />
 <img src="./images/image335.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Done resizing, set timeout"
+  alt="Done resizing, set timeout." />
 </p>
 
 Once we&apos;re in here, what we&apos;re going to do is we&apos;re going to use this
 variable that we left up here doneResizing and we&apos;re going to say done
-resizing=, yeah, I&apos;m doing this wrong. I need to do, a clear time out.
-Clear time out, done resizing. And then I need my done resizing=set
+resizing. Clear time out, done resizing. And then I need my done resizing=set
 timeout.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 336.  (174) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 336. console log, done resizing (174) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image336.png"
-  alt="."
+  title="Console log, done resizing"
+  alt="Console log, done resizing."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5770,10 +5775,11 @@ Window console.log time resizing. Which will happen 500 half a second
 after we&apos;re done actually resizing the Window.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 337.  (175) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 337. function reset page position (175) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image337.png"
-  alt="."
+  title="Function resetPagePosition"
+  alt="Function resetPagePosition."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
