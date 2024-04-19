@@ -41,7 +41,7 @@ identify and articulate how multiple functions work together to create a more co
 program; and identify processes for breaking larger programs into smaller, more 
 manageable pieces.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~ Hoverable Dropdown Menu ~~-->
+<!--~~ tobe Hoverable Dropdown Menu ~~-->
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
 
 ### [**Week 1: jQuery Plugins and Capturing the Scroll Event**](#ch1)
@@ -54,8 +54,9 @@ manageable pieces.</p>
 <!-- -   **1.05.jQueryPlugins.pdf** -->
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/W04DM/pdf-of-presentation" 
+  <li><a href="./pdf/1.05-jQueryPlugins.pdf" 
     target="_blank" rel="noreferrer noopener">
-	1.05 jQueryPlugins.pdf (download)</a></li>
+    1.05 jQueryPlugins.pdf (download)</a></li>
 </ul>
 
 <!--
@@ -63,12 +64,12 @@ manageable pieces.</p>
 -   **1.05.FlexSliderPlugin.zip**
 -->
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider" 
+  <li><a href="./zip/1.05-FlexSliderBasic-START.zip" 
     target="_blank" rel="noopener noreferrer">
-	1.05 FlexSliderBasic-START.zip (download)</a></li>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider"
+    1.05 FlexSliderBasic-START.zip (download)</a></li>
+  <li><a href="./zip/1.05-FlexSliderPlugins.zip" 
     target="_blank" rel="noopener noreferrer">
-	1.05 FlexSliderPlugin.zip (download)</a></li>
+    1.05 FlexSliderPlugin.zip (download)</a></li>
 </ul>
 
 >#### [**1.06 FlexSlider: A jQuery Plugin**](#ch1-06)
@@ -82,9 +83,10 @@ manageable pieces.</p>
 
 <!-- -   **1.13.FlexSlider.pdf** -->
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Hv9Tf/pdf-of-presentation"
+<!--  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Hv9Tf/pdf-of-presentation" -->
+  <li><a href="./zip/1.13-FlexSlider.pdf" 
     target="_blank" rel="noopener noreferrer">
-	1.13 FlexSlider.pdf (download)</a></li>
+    1.13 FlexSlider.pdf (download)</a></li>
 </ul>
 
 ### [**Week 2: Combining Scripts and Skill Building Through Practice**](#ch2)
@@ -93,7 +95,8 @@ manageable pieces.</p>
 
 <!-- -   **2.02.jQueryScrollEffects-START.zip** -->
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery"
+<!--  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery" -->
+  <li><a href="./zip/2.02-jQueryScrollEffects-START.zip" 
     target="_blank" rel="noopener noreferrer">
     2.02 jQueryScrollEffects-START.zip (download)</a></li>
 </ul>
@@ -116,7 +119,8 @@ manageable pieces.</p>
 
 <!-- -   **2.17.jQueryPageLocationTracking.pdf** -->
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation"
+<!--  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation" -->
+  <li><a href="./pdf/2.17-jQueryPageLocationTracking.pdf" 
     target="_blank" rel="noopener noreferrer">
     2.17 jQueryPageLocationTracking.pdf (download)</a></li>
 </ul>
@@ -125,7 +129,8 @@ manageable pieces.</p>
 
 <!-- -   **2.18.ScrollEffects-START.zip** -->
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript"
+<!--  <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript" -->
+  <li><a href="./zip/2.18-ScrollEffects-START.zip" 
     target="_blank" rel="noopener noreferrer">
     2.18 ScrollEffects-START.zip (download)</a></li>
 </ul>
@@ -143,7 +148,8 @@ manageable pieces.</p>
 
 <!-- -   **2.28.PDF-of-Presentation.pdf** -->
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation"
+<!--  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation" -->
+  <li><a href="./zip/2.28-PDF-of-Presentation.pdf" 
     target="_blank" rel="noopener noreferrer">
     2.28 PDF-of-Presentation.pdf (download)</a></li>
 </ul>
@@ -152,16 +158,16 @@ manageable pieces.</p>
 
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/KrJDR/start-files-scription-site">
-    2.29.Scription Site</a></li>
+    2.29 Scription Site</a></li>
 </ul>
 
--   **2.29.Scription-Part1-START.zip**
+-   **2.29 Scription-Part1-START.zip**
 
--   **2.29.Scription-Part1-Snippets.zip**
+-   **2.29 Scription-Part1-Snippets.zip**
 
--   **2.29.Scription-Part2-START.zip**
+-   **2.29 Scription-Part2-START.zip**
 
--   **2.29.Scription-Part2-Snippets.zip**
+-   **2.29 Scription-Part2-Snippets.zip**
 
 -   **2.29.Flexslider-files.zip**
 
@@ -542,7 +548,7 @@ JavaScript.
 </p>
 
 <div align="right">
-  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+  <b><a href="#contents">↥ Back To Top</a></b>
 </div>
 
 Hello and welcome to our first module in our third course on JavaScript.
