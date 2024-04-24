@@ -113,11 +113,6 @@ a:visited {
   background-color: transparent;
   text-decoration: none;
 }
-a:hover {
-  color: #000000;
-  background-color: #ffff00;  /* yellow */
-  text-decoration: underline;
-}
   
 div {
   float: left; 
@@ -156,20 +151,7 @@ p {
   text-align: left;
   margin-left: 15px;
 }
-p#mediasize {
-  font-size: 15px;
-}
-p#mediasize span {
-  font-size: 10px;
-}
-/* first character in paragraph */
-p:first-child:first-letter{
-float:left;
-font-size:400%;
-margin-top:7px;
-margin-right:5px;
-color:#992E00;
-}
+
   
 ul li { 
   padding: 10px;
@@ -228,6 +210,7 @@ details[open] > summary {
 ul, ol {
     list-style-position:inside;
 }
+/*
 .box-wrap p {
     font-family:'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -252,3 +235,4 @@ ul, ol {
     list-style-type: circle;
 }
 }
+*/
