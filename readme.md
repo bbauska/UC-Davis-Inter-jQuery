@@ -6216,14 +6216,16 @@ Inside the header, you&apos;re going to have a div with the logo in it and
 the H 1 for the page. It&apos;s important for pages to have a main heading
 because google pays a lot of attention to that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 369/370.  (190) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 369/370. scription example, header html in index.html (190) ~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image369.png"
   style="width:45%;"
-  alt="." />
+  title="Scription part 1a, header HTML"
+  alt="Scription part 1a, header HTML." />
 <img src="./images/image370.png"
   style="width:45%;"
-  alt="." />
+  title="Scription part 1a, header HTML in index.html"
+  alt="Scription part 1a, header HTML in index.html." />
 </p>
 
 And then we&apos;ve got our navigation and again, this is on the snippet, so
@@ -6233,21 +6235,24 @@ going to go inside the header there like that. So it&apos;s all displayed
 properly there. Great. So that the HTML for the header is done, we can
 save that and let&apos;s see what we need to do next.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 371/372.  (190) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 371/372. example, slider html (190) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image371.png"
   style="width:45%;"
-  alt="." />
+  title="Example, Slider HTML"
+  alt="Example, Slider HTML." />
 <img src="./images/image372.png"
   style="width:45%;"
-  alt="." />
+  title="Slider HTML from scription, part 1a"
+  alt="Slider HTML from scription, part 1a." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 373.  (191) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 373. id slider, class flexslider, slides, slide1 & cta (191) ~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image362.png"
   style="width:50%;"
-  alt="." />
+  title="id slider, class, flexslider, slides, slide1 and cta"
+  alt="id slider, class, flexslider, slides, slide1 and cta." />
 </p>
 
 The HTML for the slider is set up ready for us to use flex slider. And
@@ -6263,14 +6268,16 @@ here. It&apos;s on the snippets, we can just copy this piece here and then
 come over to our layout, our page here and stick that stuff inside the
 slider Div. There we go. Easy enough.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 374/375.  (191) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 374/375. exmaple, overview html, what is scription? (191) ~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image374.png"
   style="width:45%;"
-  alt="." />
+  title="Example, Overview HTML"
+  alt="Example, Overview HTML." />
 <img src="./images/image375.png"
   style="width:45%;"
-  alt="." />
+  title="What is Scription?"
+  alt="What is Scription?" />
 </p>
 
 And then we&apos;ve got the overview section. And there&apos;s a lot more HTML
@@ -6282,14 +6289,16 @@ we&apos;ve got an article with some paragraphs in it. And then we&apos;ve got a
 section with some articles in it. So this section is going to come over
 here and take care of that, okay?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 376/377.  (192) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 376/377. article, class intro and section in overview html (192) ~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image376.png"
   style="width:45%;"
-  alt="." />
+  title="Overview.html - article, class intro and section"
+  alt="Overview.html - article, class intro and section." />
 <img src="./images/image377.png"
   style="width:45%;"
-  alt="." />
+  title="Overview.html - article, class intro and section"
+  alt="Overview.html - article, class intro and section." />
 </p>
 
 So let&apos;s go ahead and put that in. Its on the snippets. This whole big
@@ -6304,14 +6313,16 @@ recognize when you&apos;re making mark up for things that you&apos;re looking
 at, your design and trying to figure out. Okay, how do I need to break
 this down into smaller sub pieces.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 378/379.  (193) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 378/379. example, download html, articles (193) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image378.png"
   style="width:45%;"
-  alt="." />
+  title="Example, Download HTML"
+  alt="Example, Download HTML." />
 <img src="./images/image379.png"
   style="width:45%;"
-  alt="." />
+  title="article, div, h2 download and article, h3, features galore"
+  alt="article, div, h2 download and article, h3, features galore." />
 </p>
 
 Next comes the download section. And again, there&apos;s more actual markup
@@ -6324,11 +6335,12 @@ annoy ordered lists, that it works in place and I&apos;ll show you the
 finished version later and how it&apos;s supposed to look. But for right
 now, we can just get the markup going in place over here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 380.  (193) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 380. index.html - layout sections and footer (193) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image380.png"
   style="width:50%;"
-  alt="." />
+  title="index.html - layout sections and footer"
+  alt="index.html - layout sections and footer." />
 </p>
 
 I&apos;m going to come over here and come down and just put it all this
@@ -6352,11 +6364,12 @@ lesson.
   alt="2.31 Pricing HTML." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 382.  (194) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 382. example, pricing html (194) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image377.png"
   style="width:50%;"
-  alt="." />
+  title="Example, Pricing HTML"
+  alt="Example, Pricing HTML." />
 </p>
 
 <p>We will continue placing HTML into our index file and if you thought the
@@ -6542,14 +6555,16 @@ that&apos;s going to be next.
 Not quite the last thing but we&apos;ll get that next and put that in our
 team.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 401/402.  (201) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 401/402. footer content (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image401.png"
   style="width:45%;"
-  alt="." />
+  title="footer content"
+  alt="footer content." />
 <img src="./images/image402.png"
   style="width:45%;"
-  alt="." />
+  title="footer in index.html"
+  alt="footer in index.html." />
 </p>
 
 And then we&apos;ll go and get the footer content and copy that and put it
@@ -6568,11 +6583,12 @@ information to make your page findable. So it&apos;s really important to
 make sure that you&apos;re using semantic markup properly, and with that we
 have all of our HTML in place.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 403.  (202) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 403. no style scription (202) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image403.png"
   style="width:50%;"
-  alt="." />
+  title="No style Scription"
+  alt="No style Scription." />
 </p>
 
 If you were to come over and load up the page over here, you would see
