@@ -4776,8 +4776,7 @@ going to say **targetSection.getBoundingClientRect().top**. This method,
 **getBoundingClientRect**, we&apos;ll get me the shape of that box that section
 is in and .top will tell me what the top edges, .bottom would give me
 the bottom edge. We can get the left and we can get the right, but that
-will get me that kind of thing.
-
+will get me the four sides of the rectangle or square.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 275. test, inspect smooth scroller (141) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -5744,61 +5743,59 @@ just adding an event listener to the Window and resizing it for when we
 resize. So it&apos;s not that different it&apos;s a little bit different and the
 JQuery is a little bit shorter but that&apos;s okay.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 334/335.  (174) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 334/335. clear time out, initialize done resizing, set timout (174) ~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image334.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="clearTimeOut, initialize doneResizing, and setTimeout, with 500 millisecond delay"
+  alt="clearTimeOut, initialize doneResizing, and setTimeout, with 500 millisecond delay." />
 <img src="./images/image335.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Add event listener for resize scroll effects"
+  alt="Add event listener for resize scroll effects." />
 </p>
 
 Once we&apos;re in here, what we&apos;re going to do is we&apos;re going to use this
-variable that we left up here doneResizing and we&apos;re going to say done
-resizing=, yeah, I&apos;m doing this wrong. I need to do, a clear time out.
-Clear time out, done resizing. And then I need my done resizing=set
-timeout.
+variable that we left up here doneResizing and we&apos;re going to say doneResizing equals 
+clearTimeout, then doneResizing equals setTimeout.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 336.  (174) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 336. script.js - done resizing? (174) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image336.png"
-  alt="."
+  title="window.addEventListener to capture position when done resizing"
+  alt="window.addEventListener to capture position when done resizing."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
-That&apos;s what we&apos;re set time out and set time out runs a function, after
-comma a certain period of time, 500. This is exactly the same as what we
-had before, and basically what&apos;s going to happen is this going to
-capture while we&apos;re resizing. But clear time out is going to keep keep
-this thing from actually doing anything until we&apos;re done resizing. So
-we only want to capture this when we&apos;re done actually resizing the
-Window console.log time resizing. Which will happen 500 half a second
-after we&apos;re done actually resizing the Window.
-
+That&apos;s what we&apos;re setTime out and setTime out runs a function, after a certain 
+period of time, 500 milliseconds (half a second). This is exactly the same as what we
+had before, and basically what&apos;s going to happen is this is going to capture while 
+we&apos;re resizing. But clearTimeout is going to keep this thing from doing anything 
+until we&apos;re done resizing. We only want to capture this when we&apos;re done resizing.
+Logged with console.log 'done resizing'. Which will happen 500 milliseconds, half a second,
+after we&apos;re done resizing the window.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 337.  (175) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 337. script.js - new function to reset page position (175) ~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image337.png"
-  alt="."
+  title="script.js, start new function: resetPagePosition"
+  alt="script.js, start new function: resetPagePosition."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
-So let&apos;s just test that really quickly over here. I&apos;m going to refresh
-the page and I&apos;m going to click this button here to get into resize
-mode and then I can resize this Window up and down and sideways and do
-all this stuff, but it&apos;s not going to actually do anything until I let
-go and stop resizing. In that case it&apos;ll say done resizing, at the end
+Let&apos;s test that over here. I&apos;m going to refresh the page and I&apos;m going to 
+click this button here to get into resize mode and then I can resize this Window up and 
+down and sideways and do all this stuff, but it&apos;s not going to actually do anything 
+until I let go and stop resizing. In that case it&apos;ll say done resizing, at the end
 of that done resizing.
 
-What am I going to put inside there, that&apos;s going to run while when
-I&apos;ve done resizing, I&apos;m going to add my function. Research age
-position. That&apos;s what I call it. Yeah, that&apos;s the same function we had
-before in the JQuery version. So, I&apos;m going to come down here, I&apos;m
-going to have to function reset page position () currently braces and we
-will go on from there and we&apos;ll build that up in the next lesson to
-finish the script off. But this is really all exactly the same as what
-we did in the for the jQuery version.
+What am I going to put inside there, that&apos;s going to run while when I&apos;ve done 
+resizing, I&apos;m going to add my function. resetPagePosition. That&apos;s what I call 
+it. Yeah, that&apos;s the same function we had before in the jQuery version. So, I&apos;m 
+going to come down here, I&apos;m going to have to function resetPagePosition() curly 
+braces and we will go on from there and we&apos;ll build that up in the next lesson to 
+finish the script off. But this is really all exactly the same as what we did in the 
+for the jQuery version.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-28">2.28 Finalizing the Script (10:01)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5814,14 +5811,16 @@ We&apos;re down to the end of this lesson and we just need to fill out this
 resetPagePosition function.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 339/340.  (176) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 339/340. locate page position in scroll (176) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image339.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Locate page position using postTops, getBoundClientRect, pageYOffset"
+  alt="Locate page position using postTops, getBoundClientRect, pageYOffset." />
 <img src="./images/image340.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Locate page posiiton while scrolling"
+  alt="Locate page posiiton while scrolling." />
 </p>
 
 We&apos;re going to start by coming here and copy this (left image). And
@@ -5829,10 +5828,11 @@ stick it in here (right image). I also want to make sure postTops gets
 reassigned an empty array. Just to be absolutely certain postTops is
 empty.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 341.  (177) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 341. reset page position in script.js (177) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image341.png"
-  alt="."
+  title="resetPagePosition of script.js"
+  alt="resetPagePosition of script.js."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5850,10 +5850,11 @@ to write here. I want to go through the postTops array for each. And
 having to run a function here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 341.  (178) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 341. reset page position in script.js (178) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image341.png"
-  alt="."
+  title="resetPagePosition of script.js"
+  alt="resetPagePosition of script.js."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5921,14 +5922,16 @@ we&apos;re because this is going to include doing that, so we don&apos;t need to
 do that again, we can just run it here. And that should work. Let&apos;s go
 over and test it out really quickly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 344/345.  (180) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 344/345. test/inspect, smooth scroller (180) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image344.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Test/Inspect, Smooth Scroller"
+  alt="Test/Inspect, Smooth Scroller." />
 <img src="./images/image345.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Test/Inspect, Smooth Scroller"
+  alt="Test/Inspect, Smooth Scroller." />
 </p>
 
 Come back to my page over here and I&apos;m going to make sure I&apos;m scrolled
@@ -5950,10 +5953,11 @@ lot. This is a script you could use to do all kinds of really cool
 effects based on where you&apos;re scrolling on the page and we have it both
 in jQuery and in vanilla JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 346.  (180) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 346. animate on scroll (aos) library (180) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image346.png"
-  alt="."
+  title="Animate on Scroll (AOS) Library"
+  alt="Animate on Scroll (AOS) Library."
   style="border: 2px solid black; border-radius:15px; width:35%;" />
 </p>
 
@@ -5992,11 +5996,12 @@ that&apos;s up to you.
   alt="Building HTML and CSS." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 349.  (182) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 349. scription html & css code (182) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image349.png"
   style="width:50%;"
-  alt="." />
+  title="Scription HTML &amp; CSS code"
+  alt="Scription HTML &amp; CSS code." />
 </p>
 
 Scription site, part 1, building the HTML and CSS. In this lesson we&apos;re
@@ -6015,11 +6020,12 @@ gained so far in this course by creating these interactive elements.
 
 This will be a slider using flex slider up here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 351.  (183) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 351. example, pricing (183) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image351.png"
   style="width:50%;"
-  alt="." />
+  title="Example, pricing"
+  alt="Example, pricing." />
 </p>
 
 Further down the page we will have tabbed interface, content rotator, so
@@ -6027,11 +6033,12 @@ you&apos;ll get to use some of these different scripts, including the smooth
 scroll script and some of these other scripts that we&apos;ve created on
 this page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 352.  (184) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 352. scription components front page (184) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image352.png"
   style="width:50%;"
-  alt="." />
+  title="Scription components front page"
+  alt="Scription components front page." />
 </p>
 
 For this first lesson for building the HTML and CSS. It&apos;s not required
