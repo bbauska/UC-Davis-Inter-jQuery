@@ -42,48 +42,37 @@ manageable pieces.</p>
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
 
 ### [**Week 1: jQuery Plugins and Capturing the Scroll Event**](#ch1)
->#### [**1.01 Welcome!**](#ch1-01)
->#### [**1.02 Module 1 Introduction**](#ch1-02)
->#### [**1.03 Intro to jQuery Plugins**](#ch1-03)
->#### [**1.04 Using Plugins and Essential Steps**](#ch1-04)
->#### [**1.05 Gotchas and Rookie Mistakes**](#ch1-05)
+>#### [**1.00 Welcome!**](#ch1-01)
+>#### [**1.01 Module 1 Introduction**](#ch1-02)
+>#### [**1.02 Intro to jQuery Plugins**](#ch1-03)
+>#### [**1.03 Using Plugins and Essential Steps**](#ch1-04)
+>#### [**1.04 Gotchas and Rookie Mistakes**](#ch1-05)
 
-<!-- -   **1.05.jQueryPlugins.pdf** -->
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/W04DM/pdf-of-presentation" 
-  <li><a href="./pdf/1.05-jQueryPlugins.pdf" 
+  <li><a href="./pdf/1.04-jQuery-Plugins.pdf" 
     target="_blank" rel="noreferrer noopener">
-    1.05 jQueryPlugins.pdf (download)</a></li>
+    1.04 jQuery Plugins (pdf)</a></li>
+  <li><a href="./zip/1.04-FlexSliderBasic-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+    1.04 FlexSlider Basic START (zip)</a></li>
+  <li><a href="./zip/1.04-FlexSliderPlugins.zip" 
+    target="_blank" rel="noopener noreferrer">
+    1.04 FlexSlider Plugin (zip)</a></li>
 </ul>
 
-<!--
--   **1.05.FlexSliderBasic-Start.zip**
--   **1.05.FlexSliderPlugin.zip**
--->
-<ul>
-  <li><a href="./zip/1.05-FlexSliderBasic-START.zip" 
-    target="_blank" rel="noopener noreferrer">
-    1.05 FlexSliderBasic-START.zip (download)</a></li>
-  <li><a href="./zip/1.05-FlexSliderPlugins.zip" 
-    target="_blank" rel="noopener noreferrer">
-    1.05 FlexSliderPlugin.zip (download)</a></li>
-</ul>
+>#### [**1.05 FlexSlider: A jQuery Plugin**](#ch1-06)
+>#### [**1.06 About the Minified Version**](#ch1-07)
+>#### [**1.07 Adding Markup &amp; Hooking Up the Slider**](#ch1-08)
+>#### [**1.08 FlexSlider Rules**](#ch1-09)
+>#### [**1.09 Additional Controls**](#ch1-10)
+>#### [**1.10 Advanced FlexSlider**](#ch1-11)
+>#### [**1.11 Additional Styling**](#ch1-12)
+>#### [**1.12 Styling the CTA**](#ch1-13)
 
->#### [**1.06 FlexSlider: A jQuery Plugin**](#ch1-06)
->#### [**1.07 About the Minified Version**](#ch1-07)
->#### [**1.08 Adding Markup &amp; Hooking Up the Slider**](#ch1-08)
->#### [**1.09 FlexSlider Rules**](#ch1-09)
->#### [**1.10 Additional Controls**](#ch1-10)
->#### [**1.11 Advanced FlexSlider**](#ch1-11)
->#### [**1.12 Additional Styling**](#ch1-12)
->#### [**1.13 Styling the CTA**](#ch1-13)
-
-<!-- -   **1.13.FlexSlider.pdf** -->
 <ul>
-<!--  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Hv9Tf/pdf-of-presentation" -->
-  <li><a href="./zip/1.13-FlexSlider.pdf" 
+  <li><a href="./zip/1.13-jQuery-FlexSliderPlugin.pdf" 
     target="_blank" rel="noopener noreferrer">
-    1.13 FlexSlider.pdf (download)</a></li>
+    1.13 jQuery FlexSlider Plugin (pdf)</a></li>
 </ul>
 
 ### [**Week 2: Combining Scripts and Skill Building Through Practice**](#ch2)
@@ -92,10 +81,9 @@ manageable pieces.</p>
 
 <!-- -   **2.02.jQueryScrollEffects-START.zip** -->
 <ul>
-<!--  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery" -->
-  <li><a href="./zip/2.02-jQueryScrollEffects-START.zip" 
+  <li><a href="./zip/2.02-jQuery-ScrollEffects-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    2.02 jQueryScrollEffects-START.zip (download)</a></li>
+    2.02 jQuery Scroll Effects START (zip)</a></li>
 </ul>
 
 >#### [**2.03 Creating a Click Handler**](#ch2-03)
@@ -114,22 +102,19 @@ manageable pieces.</p>
 >#### [**2.16 resetPagePosition Function**](#ch2-16)
 >#### [**2.17 Reviewing the Whole Script**](#ch2-17)
 
-<!-- -   **2.17.jQueryPageLocationTracking.pdf** -->
 <ul>
-<!--  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/yRvxe/pdf-of-presentation" -->
-  <li><a href="./pdf/2.17-jQueryPageLocationTracking.pdf" 
+  <li><a href="./pdf/2.17-jQuery-PageLocationTracking.pdf" 
     target="_blank" rel="noopener noreferrer">
-    2.17 jQueryPageLocationTracking.pdf (download)</a></li>
+    2.17 jQuery Page Location Tracking (pdf)</a></li>
 </ul>
 
 >#### [**2.18 Intro to Scroll Effects with JS**](#ch2-18)
 
 <!-- -   **2.18.ScrollEffects-START.zip** -->
 <ul>
-<!--  <li><a href="https://www.coursera.org/learn/interactivity-JavaScript-jquery/supplement/tJhzN/start-files-smooth-scroll-with-JavaScript" -->
-  <li><a href="./zip/2.18-ScrollEffects-START.zip" 
+  <li><a href="./zip/2.18-JS-ScrollEffects-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    2.18 ScrollEffects-START.zip (download)</a></li>
+    2.18 Scroll Effects START (zip)</a></li>
 </ul>
 
 >#### [**2.19 Getting the Target - Part 1**](#ch2-19)
@@ -145,28 +130,30 @@ manageable pieces.</p>
 
 <!-- -   **2.28.PDF-of-Presentation.pdf** -->
 <ul>
-<!--  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation" -->
-  <li><a href="./zip/2.28-PDF-of-Presentation.pdf" 
+  <li><a href="./zip/2.28-JS-ScrollEffects.pdf" 
     target="_blank" rel="noopener noreferrer">
-    2.28 PDF-of-Presentation.pdf (download)</a></li>
+    2.28 JS Scroll Effects (pdf)</a></li>
 </ul>
 
 >#### [**2.29 Scription Site Introduction**](#ch2-29)
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/KrJDR/start-files-scription-site">
-    2.29 Scription Site</a></li>
+  <li><a href="./zips/2.29-ScriptionPart1-START.zip"
+    target="_blank" rel="noopener noreferrer">
+    2.29 Scription Part 1 START (zip)</a></li>
+  <li><a href="./zips/2.29-ScriptionPart1-Snippets.zip"
+    target="_blank" rel="noopener noreferrer">
+    2.29 Scription Part 1 Snippets (zip)</a></li>
+  <li><a href="./zips/2.29-ScriptionPart2-START.zip"
+    target="_blank" rel="noopener noreferrer">
+    2.29 Scription Part 2 START (zip)</a></li>
+  <li><a href="./zips/2.29-ScriptionPart2-Snippets.zip"
+    target="_blank" rel="noopener noreferrer">
+    2.29 Scription Part 2 Snippets (zip)</a></li>
+  <li><a href="./zips/2.29-FlexSliderFiles-START.zip"
+    target="_blank" rel="noopener noreferrer">
+    2.29 FlexSlider Files START (zip)</a></li>
 </ul>
-
--   **2.29 Scription-Part1-START.zip**
-
--   **2.29 Scription-Part1-Snippets.zip**
-
--   **2.29 Scription-Part2-START.zip**
-
--   **2.29 Scription-Part2-Snippets.zip**
-
--   **2.29.Flexslider-files.zip**
 
 >#### [**2.30 Header HTML**](#ch2-30)
 >#### [**2.31 Pricing Styling**](#ch2-31)
