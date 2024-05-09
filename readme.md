@@ -70,9 +70,9 @@ manageable pieces.</p>
 >#### [**1.12 Styling the CTA**](#ch1-13)
 
 <ul>
-  <li><a href="./zip/1.13-jQuery-FlexSliderPlugin.pdf" 
+  <li><a href="./zip/1.12-jQuery-FlexSliderPlugin.pdf" 
     target="_blank" rel="noopener noreferrer">
-    1.13 jQuery FlexSlider Plugin (pdf)</a></li>
+    1.12 jQuery FlexSlider Plugin (pdf)</a></li>
 </ul>
 
 ### [**Week 2: Combining Scripts and Skill Building Through Practice**](#ch2)
