@@ -70,7 +70,7 @@ manageable pieces.</p>
 >#### [**1.12 Styling the CTA**](#ch1-13)
 
 <ul>
-  <li><a href="./zips/1.12-jQuery-FlexSliderPlugin.pdf" 
+  <li><a href="./pdfs/1.12-jQuery-FlexSliderPlugin.pdf" 
     target="_blank" rel="noopener noreferrer">
     1.12 jQuery FlexSlider Plugin (pdf)</a></li>
 </ul>
@@ -130,7 +130,7 @@ manageable pieces.</p>
 
 <!-- -   **2.28.PDF-of-Presentation.pdf** -->
 <ul>
-  <li><a href="./zips/2.28-JS-ScrollEffects.pdf" 
+  <li><a href="./pdfs/2.28-JS-ScrollEffects.pdf" 
     target="_blank" rel="noopener noreferrer">
     2.28 JS Scroll Effects (pdf)</a></li>
 </ul>
