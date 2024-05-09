@@ -13,7 +13,7 @@ output:
 
 <h6 align="center">(by William Mead, Lecturer - University of California @Davis)</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ readme.md of uc-davis-inter-jquery.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ readme.md of inter-jquery.bauska.org (uc davis) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01/02. jquery & uc davis logos (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -43,11 +43,11 @@ manageable pieces.</p>
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
 
 ### [**Week 1: jQuery Plugins and Capturing the Scroll Event**](#ch1)
->#### [**1.00 Welcome!**](#ch1-01)
->#### [**1.01 Module 1 Introduction**](#ch1-02)
->#### [**1.02 Intro to jQuery Plugins**](#ch1-03)
->#### [**1.03 Using Plugins and Essential Steps**](#ch1-04)
->#### [**1.04 Gotchas and Rookie Mistakes**](#ch1-05)
+>#### [**1.00 Welcome!**](#ch1-00)
+>#### [**1.01 Module 1 Introduction**](#ch1-01)
+>#### [**1.02 Intro to jQuery Plugins**](#ch1-02)
+>#### [**1.03 Using Plugins and Essential Steps**](#ch1-03)
+>#### [**1.04 Gotchas and Rookie Mistakes**](#ch1-04)
 
 <ul>
   <li><a href="./pdfs/1.04-jQuery-Plugins.pdf" 
@@ -61,14 +61,14 @@ manageable pieces.</p>
     1.04 FlexSlider Plugin (zip)</a></li>
 </ul>
 
->#### [**1.05 FlexSlider: A jQuery Plugin**](#ch1-06)
->#### [**1.06 About the Minified Version**](#ch1-07)
->#### [**1.07 Adding Markup &amp; Hooking Up the Slider**](#ch1-08)
->#### [**1.08 FlexSlider Rules**](#ch1-09)
->#### [**1.09 Additional Controls**](#ch1-10)
->#### [**1.10 Advanced FlexSlider**](#ch1-11)
->#### [**1.11 Additional Styling**](#ch1-12)
->#### [**1.12 Styling the CTA**](#ch1-13)
+>#### [**1.05 FlexSlider: A jQuery Plugin**](#ch1-05)
+>#### [**1.06 About the Minified Version**](#ch1-06)
+>#### [**1.07 Adding Markup &amp; Hooking Up the Slider**](#ch1-07)
+>#### [**1.08 FlexSlider Rules**](#ch1-08)
+>#### [**1.09 Additional Controls**](#ch1-09)
+>#### [**1.10 Advanced FlexSlider**](#ch1-10)
+>#### [**1.11 Additional Styling**](#ch1-11)
+>#### [**1.12 Styling the CTA**](#ch1-11)
 
 <ul>
   <li><a href="./pdfs/1.12-jQuery-FlexSliderPlugin.pdf" 
@@ -167,15 +167,24 @@ manageable pieces.</p>
 >#### [**2.38 Media Query for 1200 Pixels Wide**](#ch2-38)
 >#### [**2.39 Scription Site: Building Interactive Elements Challenges**](#ch2-39)
 
--   **2.39.Scription-Finished-Version.pdf**
-
--   **2.39.PDF-of-Presentations.pdf**
+<ul>
+  <li><a href="./pdfs/2.39-ScriptionSitePart1-HTML-CSS.pdf" 
+    target="_blank" rel="noopener noreferrer">
+    2.39 Scription Site Part 1 HTML &amp; CSS (pdf)</a></li>
+  <li><a href="./pdfs/2.39-ScriptionSitePart2-InteractionChallenges.pdf" 
+    target="_blank" rel="noopener noreferrer">
+    2.39 Scription Site Part 2 Interaction Challenges (pdf)</a></li>
+</ul>
 
 ### [**Week 3. Intro to Objects and Data in JavaScript**](ch3)
 >#### [**3.01 Module 3 Introduction**](#ch3-01)
 >#### [**3.02 Intro to Objects and Data in JS**](#ch3-02)
 
--   **3.02-START-Files-Working-with-Objects-in-JavaScript.pdf**
+<ul>
+  <li><a href="./zips/3.02-JS-Objects-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+    3.02 JS Objects START (zip)</a></li>
+</ul>
 
 >#### [**3.03 Objects Can Contain Arrays and Other Objects**](#ch3-03)
 >#### [**3.04 Functions Inside Objects Equals Methods**](#ch3-04)
@@ -183,23 +192,42 @@ manageable pieces.</p>
 >#### [**3.06 Data Formats - XML**](#ch3-06)
 >#### [**3.07 Example File**](#ch3-07)
 
--   **3.07-PDF-of-Presentations.pdf**
+<ul>
+  <li><a href="./pdfs/3.07-JS-Object-Challenges.pdf" 
+    target="_blank" rel="noopener noreferrer">
+    3.07 JS Object Challenges (pdf)</a></li>
+  <li><a href="./pdfs/3.07-JS-Objects-Data.pdf" 
+    target="_blank" rel="noopener noreferrer">
+    3.07 JS Object &amp; Data (pdf)</a></li>
+</ul>
 
 >#### [**3.08 Intro to Pig Dice Game**](#ch3-08)
 
--   **3.08-Pig-Dice-Game-Diagrams.pdf**
+<ul>
+  <li><a href="./zips/3.08-PigDiceGame-Diagram.png" 
+    target="_blank" rel="noopener noreferrer">
+    3.08 Pig Dice Game Diagrams (png)</a></li>
+</ul>
 
 >#### [**3.09 Play the Game of Pig**](#ch3-09)
 >#### [**3.10 Version One**](#ch3-10)
 >#### [**3.11 Other Versions**](#ch3-11)
 
--   **3.11-PDF-of-Presentations.pdf**
+<ul>
+  <li><a href="./pdfs/3.11-IntrotoPigDiceGame.pdf" 
+    target="_blank" rel="noopener noreferrer">
+    3.11 Introduction to Pig Dice Game (pdf)</a></li>
+</ul>
 
 ### [**Week 4. Building a Simple Game in JavaScript**](ch4)
 >#### [**4.01 Module 4 Introduction**](#ch4-01)
 >#### [**4.02 Intro to the Game of Pig**](#ch4-02)
 
--   **4.02.START-Files-Game-of-Pig.pdf**
+<ul>
+  <li><a href="./zips/4.02-GameofPig-START.zip" 
+    target="_blank" rel="noopener noreferrer">
+    4.02 Game of Pig START (zip)</a></li>
+</ul>
 
 >#### [**4.03 Start the Game**](#ch4-03)
 >#### [**4.04 Set Up the Turn**](#ch4-04)
