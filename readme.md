@@ -49,13 +49,13 @@ manageable pieces.</p>
 >#### [**1.04 Gotchas and Rookie Mistakes**](#ch1-05)
 
 <ul>
-  <li><a href="./pdf/1.04-jQuery-Plugins.pdf" 
+  <li><a href="./pdfs/1.04-jQuery-Plugins.pdf" 
     target="_blank" rel="noreferrer noopener">
     1.04 jQuery Plugins (pdf)</a></li>
-  <li><a href="./zip/1.04-FlexSliderBasic-START.zip" 
+  <li><a href="./zips/1.04-FlexSliderBasic-START.zip" 
     target="_blank" rel="noopener noreferrer">
     1.04 FlexSlider Basic START (zip)</a></li>
-  <li><a href="./zip/1.04-FlexSliderPlugins.zip" 
+  <li><a href="./zips/1.04-FlexSliderPlugins.zip" 
     target="_blank" rel="noopener noreferrer">
     1.04 FlexSlider Plugin (zip)</a></li>
 </ul>
@@ -70,7 +70,7 @@ manageable pieces.</p>
 >#### [**1.12 Styling the CTA**](#ch1-13)
 
 <ul>
-  <li><a href="./zip/1.12-jQuery-FlexSliderPlugin.pdf" 
+  <li><a href="./zips/1.12-jQuery-FlexSliderPlugin.pdf" 
     target="_blank" rel="noopener noreferrer">
     1.12 jQuery FlexSlider Plugin (pdf)</a></li>
 </ul>
@@ -81,7 +81,7 @@ manageable pieces.</p>
 
 <!-- -   **2.02.jQueryScrollEffects-START.zip** -->
 <ul>
-  <li><a href="./zip/2.02-jQuery-ScrollEffects-START.zip" 
+  <li><a href="./zips/2.02-jQuery-ScrollEffects-START.zip" 
     target="_blank" rel="noopener noreferrer">
     2.02 jQuery Scroll Effects START (zip)</a></li>
 </ul>
@@ -103,7 +103,7 @@ manageable pieces.</p>
 >#### [**2.17 Reviewing the Whole Script**](#ch2-17)
 
 <ul>
-  <li><a href="./pdf/2.17-jQuery-PageLocationTracking.pdf" 
+  <li><a href="./pdfs/2.17-jQuery-PageLocationTracking.pdf" 
     target="_blank" rel="noopener noreferrer">
     2.17 jQuery Page Location Tracking (pdf)</a></li>
 </ul>
@@ -112,7 +112,7 @@ manageable pieces.</p>
 
 <!-- -   **2.18.ScrollEffects-START.zip** -->
 <ul>
-  <li><a href="./zip/2.18-JS-ScrollEffects-START.zip" 
+  <li><a href="./zips/2.18-JS-ScrollEffects-START.zip" 
     target="_blank" rel="noopener noreferrer">
     2.18 Scroll Effects START (zip)</a></li>
 </ul>
@@ -130,7 +130,7 @@ manageable pieces.</p>
 
 <!-- -   **2.28.PDF-of-Presentation.pdf** -->
 <ul>
-  <li><a href="./zip/2.28-JS-ScrollEffects.pdf" 
+  <li><a href="./zips/2.28-JS-ScrollEffects.pdf" 
     target="_blank" rel="noopener noreferrer">
     2.28 JS Scroll Effects (pdf)</a></li>
 </ul>
