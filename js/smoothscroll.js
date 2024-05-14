@@ -1,3 +1,0 @@
-// smoothscroll.js in UC-Davis-Inter-jQuery of github.com/bbauska/
-// Smoothscroll Script...
-
