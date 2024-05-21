@@ -1587,10 +1587,9 @@ it and we&apos;ll do that in the next lesson.
   style="border: 2px solid gray; width:50%;" />
 </p>
 
-In the last lesson (1.08), we got the Flexslider working, and it&apos;s
-working great. It&apos;s functional. All the pieces are functioning, but
-it&apos;s got some weird issues that we need to fix in terms of the layout
-in the styling.
+In the last lesson (1.08), we got the FlexSlider working, and it&apos;s working 
+great. It&apos;s functional. All the pieces are functioning, but it&apos;s got 
+some weird issues that we need to fix in terms of the layout in the styling.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 69/70. test example kittens for sale (42) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1628,32 +1627,30 @@ in the styling.
   alt="Test, example scroll left and right." />
 </p>
 
-For example, why is my Flexslider sticking out on the edge over here?
-What&apos;s up with this gap? What if I wanted to change the color of these
-dots down here? These are things that I can adjust if I start poking
-around in the CSS. If I right click on this and choose &quot;Inspect&quot;,
-I&apos;ll get my inspector up over here and I can actually see if I come in
-here to &quot;My Class&quot; Flexslider here that it&apos;s got some margin on it
-here. Let&apos;s see what else does it have here?
+For example, why is my FlexSlider sticking out on the edge over here? What&apos;s 
+up with this gap? What if I wanted to change the color of these dots down here? 
+These are things that I can adjust if I start poking around in the CSS. If I 
+right click on this and choose &quot;Inspect&quot;, I&apos;ll get my inspector 
+up over here and I can actually see if I come in here to &quot;My Class&quot; 
+FlexSlider here that it&apos;s got some margin on it here. Let&apos;s see what 
+else does it have here?
 
-If we want to adjust the border, we can make a rule on our own style
-sheet that attaches to dot Flexslider. We don&apos;t want to adjust their
-style sheet. If I wanted to get rid of that border, I could go poking
-around in these files for the jQuery Flexslider CSS. That&apos;s the actual
-minimized file. There was the Flexslider CSS. I could go poking around
-in here and see if I can make changes here, but I don&apos;t want to do that
-because if I ever update this slider script to a newer version, I don&apos;t
-want to lose any changes that I&apos;ve made. This is one of the main
-reasons why I want to make sure that my CSS file loads after their CSS
-file because if I can add a rule on my CSS file that says dot
-Flexslider, then I can override the rule over here.
+If we want to adjust the border, we can make a rule on our own style sheet that 
+attaches to dot FlexSlider. We don&apos;t want to adjust their style sheet. If I 
+wanted to get rid of that border, I could go poking around in these files for the 
+jQuery FlexSlider CSS. That&apos;s the actual minimized file. There was the 
+FlexSlider CSS. I could go poking around in here and see if I can make changes 
+here, but I don&apos;t want to do that because if I ever update this slider 
+script to a newer version, I don&apos;t want to lose any changes that I&apos;ve 
+made. This is one of the main reasons why I want to make sure that my CSS file 
+loads after their CSS file because if I can add a rule on my CSS file that says 
+dot FlexSlider, then I can override the rule over here.
 
-I want to rule for dot Flexslider, I want to set the margin to this zero
-20 pixels. Zero on the top and bottom, 20 pixels in the left and right,
-border none, border radius zero. That will clear out some of those
-styles and clean-up the styling of the actual Flexslider. Let&apos;s add
-that to ours. How do I know that? Just by poking around in their CSS
-file. I want to make sure I&apos;m on my CSS file.
+I want to rule for dot FlexSlider, I want to set the margin to this zero 20 pixels. 
+Zero on the top and bottom, 20 pixels in the left and right, border none, border 
+radius zero. That will clear out some of those styles and clean-up the styling 
+of the actual Flexslider. Let&apos;s add that to ours. How do I know that? Just 
+by poking around in their CSS file. I want to make sure I&apos;m on my CSS file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 75/76. media queries, flexslider styles (44) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1667,15 +1664,15 @@ file. I want to make sure I&apos;m on my CSS file.
   alt="Test, example styles." />
 </p>
 
-Then somewhere in here you can put it wherever you want, it doesn&apos;t
-really matter. Make sure it goes above the media queries. I&apos;m going to
-make a comment here that says, &quot;Flexslider styles&quot; and in here I can
-make a real dot Flexslider. Margin I want it zero in the top and bottom
-and 20 pixels in left and right, I want <b>border;none</b>. No border at
-all and border radius zero to give it square edges. Just with that one
-rule in place here, if I come back and check my page, you&apos;ll notice the
-Flexslider looks better here. It&apos;s fitting into the space well, and
-I&apos;ve got rid of that gap and all that stuff.
+Then somewhere in here you can put it wherever you want, it doesn&apos;t really 
+matter. Make sure it goes above the media queries. I&apos;m going to make a 
+comment here that says, &quot;FlexSlider styles&quot; and in here I can make a 
+real dot FlexSlider. Margin I want it zero in the top and bottom and 20 pixels 
+in left and right, I want <b>border;none</b>. No border at all and border radius 
+zero to give it square edges. Just with that one rule in place here, if I come 
+back and check my page, you&apos;ll notice the FlexSlider looks better here. 
+It&apos;s fitting into the space well, and I&apos;ve got rid of that gap and 
+all that stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. inspect example site (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1685,11 +1682,11 @@ I&apos;ve got rid of that gap and all that stuff.
   style="border: 2px solid gray; width:50%;" />
 </p>
 
-Down here, I still want to adjust these buttons a little bit. I mean,
-inspect again. Maybe move my inspector to the side and it&apos;s this thing
-here, dot flex-control-paging li a.flex-active. That&apos;s the class
-that&apos;s changing the colors on these buttons here. That&apos;s the one that
-I want to actually attach to.
+Down here, I still want to adjust these buttons a little bit. I mean, inspect 
+again. Maybe move my inspector to the side and it&apos;s this thing here, dot 
+flex-control-paging li a.flex-active. That&apos;s the class that&apos;s changing 
+the colors on these buttons here. That&apos;s the one that I want to actually 
+attach to.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 77. border, margin, radius, background-color (45) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1700,10 +1697,10 @@ I want to actually attach to.
 </p>
 
 I&apos;m going to come over here, I&apos;m going to add that rule in here. If I
-want a different color, what did I put on my slides over here? I put
-pound B40205, make it match that. What was it? Just color or is it
-background? Background: #B40205. There we go. That will give me a red
-background color. Save that and come back and test it.
+want a different color, what did I put on my slides over here? I put pound B40205, 
+make it match that. What was it? Just color or is it background? Background: 
+#B40205. There we go. That will give me a red background color. Save that and 
+come back and test it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 78. inspect styles, font and color  (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1713,14 +1710,13 @@ background color. Save that and come back and test it.
   style="border: 2px solid gray; width:50%;" />
 </p>
 
-You can see my colors now overriding the color that was there before and
-I can go ahead and click on these things and they all work. That&apos;s
-great. You want to put styling on your own style sheet that will
-override styles on the Flexslider&apos;s CSS to customize it, to make it
-look the way you want it to look. Finding out what those styles are, or
-just a matter of using the inspector and hunting around to see what
-rules are being applied that you might want to change to get it to style
-and look the way you want it to look on your page.
+You can see my colors now overriding the color that was there before and I can 
+go ahead and click on these things and they all work. That&apos;s great. You want 
+to put styling on your own style sheet that will override styles on the 
+FlexSlider&apos;s CSS to customize it, to make it look the way you want it to 
+look. Finding out what those styles are, or just a matter of using the inspector 
+and hunting around to see what rules are being applied that you might want to 
+change to get it to style and look the way you want it to look on your page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-10">1.10 Additional Controls</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1732,8 +1728,8 @@ and look the way you want it to look on your page.
   style="border: 2px solid gray; width:40%;" />
 </p>
 
-Your slider should be looking good. We&apos;ve gotten everything in place
-and it&apos;s working.
+Your slider should be looking good. We&apos;ve gotten everything in place and 
+it&apos;s working.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 80/81. flexslider website options (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1913,14 +1909,13 @@ enjoy them and look at them for as long as I want. Then, when I stop
 hovering on it, and I&apos;ll wait two seconds and it&apos;ll start going again.
 That functionality is built in as well. That&apos;s great.
 
-It gives us a lot of opportunity to build in a lot of extra
-functionality through these additional features that are here. There&apos;s
-a lot of them. Manual controls, controls container. You can do all kinds
-of things. There are arrows. You could swap those arrows out for
-something else, so that it doesn&apos;t look like every Website you go to
-has FlexSlider on it. It could look the same, because they all have the
-same arrows here, left and right arrows. We can get rid of those and do
-something else that would be kind of interesting and fun.
+It gives us a lot of opportunity to build in a lot of extra functionality through 
+these additional features that are here. There&apos;s a lot of them. Manual 
+controls, controls container. You can do all kinds of things. There are arrows. 
+You could swap those arrows out for something else, so that it doesn&apos;t look 
+like every Website you go to has FlexSlider on it. It could look the same, because 
+they all have the same arrows here, left and right arrows. We can get rid of 
+those and do something else that would be kind of interesting and fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-11">1.11 Advanced FlexSlider</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1932,8 +1927,8 @@ something else that would be kind of interesting and fun.
   style="border: 2px solid gray; width:40%;" />
 </p>
 
-Now that you&apos;ve created the basic FlexSlider, with some advanced
-options, we can really do some different things with this FlexSlider.
+Now that you&apos;ve created the basic FlexSlider, with some advanced options, 
+we can really do some different things with this FlexSlider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 95/96. copy flexslider/rename to kittensadvanced (52) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2045,17 +2040,16 @@ tedious, you can actually come to the snippet page and just copy it.
   alt="Update index.html with FlexSlider, slides and new class (cta)." />
 </p>
 
-Then come back to your project and on your index file, in place of the
-slider down here, this FlexSlider, we&apos;re just going to paste this one
-in instead. Paste that in and it&apos;s still div class backsliders, still
-your old class slides. All that&apos;s changed is the list items in here.
+Then come back to your project and on your index file, in place of the slider 
+down here, this FlexSlider, we&apos;re just going to paste this one in instead. 
+Paste that in and it&apos;s still div class backsliders, still your old class 
+slides. All that&apos;s changed is the list items in here.
 
-These divs have a class of slide1, slide 2, slide 3, slide 4 and slide
-5. I dump slide 6 and 7 for now, probably five kittens is enough for
-this slider and that&apos;s great. That gets us started and on our way with
-creating our fancier version of our FlexSlider. In the next lesson,
-we&apos;ll start looking at what we need to do to adjust the styling for
-this.
+These divs have a class of slide1, slide 2, slide 3, slide 4 and slide 5. I dump 
+slide 6 and 7 for now, probably five kittens is enough for this slider and 
+that&apos;s great. That gets us started and on our way with creating our fancier 
+version of our FlexSlider. In the next lesson, we&apos;ll start looking at what 
+we need to do to adjust the styling for this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-12">1.12 Additional Styling (5:47)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2067,9 +2061,9 @@ this.
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
-In the last module, we updated the markup for our fancy version of the
-slider, and now we need to do some updating for the actual CSS for the
-display of the slides.
+In the last module, we updated the markup for our fancy version of the slider, 
+and now we need to do some updating for the actual CSS for the display of the 
+slides.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 105/106. styling for flexslider (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2087,7 +2081,7 @@ display of the slides.
 So, I&apos;m going to come back over here to my snippets and I&apos;m just going
 to copy these three rules here. And I&apos;m going to come over and paste
 them into my CSS file over here, styles.css. And I&apos;m going to stick
-them just in my section with the flex slider stuff here. It doesn&apos;t
+them just in my section with the FlexSlider stuff here. It doesn&apos;t
 really matter where they go, I&apos;m going to put them here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 107. styles.css: slide1-slide5 background (57) ~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2105,8 +2099,8 @@ background image, the background image is positioned at the top left and
 said not to repeat.
 
 One thing that&apos;s important about this particular slider that you have
-to remember is that it&apos;s flexible, that&apos;s why it&apos;s called flex
-slider. And it will work for responsive websites and you can make these
+to remember is that it&apos;s flexible, that&apos;s why it&apos;s called 
+FlexSlider. And it will work for responsive websites and you can make these
 slides bigger or smaller. So, we have to pay attention to the
 proportions of the slides, from their horizontal width to their vertical
 height. What is the proportion there? We want to keep the slides in
@@ -2396,7 +2390,7 @@ section: <b>jQuery Plugins and FlexSlider</b>.
 <ul>
   <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.13.FlexSlider.pdf" 
     target="_blank" rel="noopener noreferrer">
-	1.13 FlexSlider.pdf (download)</a></li>
+	1.13 Flex Slider (pdf)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-01">2.01 Module 2 Intro to Scroll Effects (0:38)</h2>
@@ -6026,11 +6020,11 @@ gained so far in this course by creating these interactive elements.
 <p align="center">
 <img src="./images/image350.png"
   style="width:50%;"
-  title="Slider using flex slider"
-  alt="Slider using flex slider." />
+  title="Slider using FlexSlider"
+  alt="Slider using FlexSlider." />
 </p>
 
-This will be a slider using flex slider up here.
+This will be a slider using FlexSlider up here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 351. example, pricing (183) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
