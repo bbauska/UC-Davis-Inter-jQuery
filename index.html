@@ -22,12 +22,12 @@
   <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 <body>
- <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<script>
+  <script>
   <!-- get the button -->
   var mybutton = document.getElementById("myBtn");
 
@@ -1473,11 +1473,11 @@ rather load up the most recent version of jQuery rather than the old
 version of jQuery.</p>
 
 <p>Let's go over to our files over here. And on our index page, up at the
-top of the page, this is where we want to put a link to the flex slider
+top of the page, this is where we want to put a link to the FlexSlider
 CSS. So, I'm just going to add a link here, link href = "
 flexslider.css". Don't forget rel ="stylesheet", and make sure you spell
 style sheet right. Okay, so that will link that up. You can see I've got
-jquery 2.2.4 loaded here, as opposed to the 1.6.</p>
+jQuery 2.2.4 loaded here, as opposed to the 1.6.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. jquery version to load (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -1487,12 +1487,11 @@ jquery 2.2.4 loaded here, as opposed to the 1.6.</p>
   alt="jQuery version to load."
   style="width:50%" >
 
-<p>But I'm actually going to load the most recent version of jQuery. So,
-I'm going to come back here and I'm going to go and look for jquery cdn
-in google, Google Hosted Libraries. I'm going to go find jquery. And
-here is the latest version of jquery. You'll notice it's been updated
-recently to 3.6, okay. So, I'm going to replace this version of jquery
-with that one.</p>
+<p>But I'm actually going to load the most recent version of jQuery. So, I'm 
+going to come back here and I'm going to go and look for jQuery cdn in google, 
+Google Hosted Libraries. I'm going to go find jQuery. And here is the latest 
+version of jQuery. You'll notice it's been updated recently to 3.6, okay. So, 
+I'm going to replace this version of jQuery with that one.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 45. load jquery at bottom of screen (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -1502,10 +1501,9 @@ with that one.</p>
   alt="Load jQuery at bottom of screen."
   style="width:50%" >
 
-<p>But notice I need to go back and add the <b>defer</b>, I want to put
-<b>defer</b> back in here because really, I want this script to load at
-the bottom of the screen. Okay, now I want to load the jQuery Flexslider
-script.</p>
+<p>But notice I need to go back and add the <b>defer</b>, I want to put <b>defer</b> 
+back in here because really, I want this script to load at the bottom of the screen. 
+Okay, now I want to load the jQuery FlexSlider script.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. add scripts to index.html (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -1515,13 +1513,12 @@ script.</p>
   alt="Where to add scripts to index.html."
   style="width:50%" >
 
-<p>So, I'm going to put that in here, script src equals quote, and I want
-this one, that's the plug in. I'm going to load that one next, and then
-I've got my script file here and it's currently empty, but I want to
-load that file last, script as we are seeing, equals quote myscript.js.
-There we go, I've got the files loaded. So, what's the next thing that
-we need to do? If we come back to the directions, it says place
-somewhere in the head of your document.</p>
+<p>So, I'm going to put that in here, script src equals quote, and I want this 
+one, that's the plug in. I'm going to load that one next, and then I've got my 
+script file here and it's currently empty, but I want to load that file last, 
+script as we are seeing, equals quote myscript.js. There we go, I've got the 
+files loaded. So, what's the next thing that we need to do? If we come back to 
+the directions, it says place somewhere in the head of your document.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 47. defer scripts loading; jquery, plugin, my script (33) ~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -1531,12 +1528,12 @@ somewhere in the head of your document.</p>
   alt="Defer script load; jQuery libary, then plugins, then my script."
   style="width:50%" >
 
-<p>The other thing I want to do is I want to put the defer attribute on my
-script. Let's do that too. Because we want to make sure that it loads
-after the jQuery library. So, I want to put defer here, and defer down
-here. So, that they will load in this order, first this library, then
-the plug in, then my script. And they'll load after the rest of the page
-is loaded, just to be certain. So, we've got that, okay.</p>
+<p>The other thing I want to do is I want to put the defer attribute on my script. 
+Let's do that too. Because we want to make sure that it loads after the jQuery 
+library. So, I want to put defer here, and defer down here. So, that they will 
+load in this order, first this library, then the plug in, then my script. And 
+they'll load after the rest of the page is loaded, just to be certain. So, 
+we've got that, okay.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 48. add markup with div, flexslider, ul and li images (33) ~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -1546,11 +1543,10 @@ is loaded, just to be certain. So, we've got that, okay.</p>
   alt="Add Markup container with div, FlexSlider, ul and li images."
   style="width:50%" >
 
-<p>The next thing we need to do is to add the markup, and this is the
-markup this plug in expects. It expects a <b>div</b> with the class,
-<b>flexslider</b>, and a <b>ul</b> with the class slides, then list
-items with the images inside of it, and we'll do that in the next
-lesson.</p>
+<p>The next thing we need to do is to add the markup, and this is the markup 
+this plug in expects. It expects a <b>div</b> with the class, <b>flexslider</b>, 
+and a <b>ul</b> with the class slides, then list items with the images inside of 
+it, and we'll do that in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-08">1.08 Adding Markup &amp; Hooking Up the Slider (7:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1562,10 +1558,10 @@ lesson.</p>
   alt="1.08 Adding Markup and Hooking Up the Slider."
   style="width:40%" >
 
-<p>In the last lesson, we got all of our files linked and everything hooked
-up so that it should all be ready to work. You want to make sure that
-your stylesheet loads after the FlexSlider style sheets, that you can
-modify changes there. We'll get to more on that later.</p>
+<p>In the last lesson, we got all of our files linked and everything hooked up 
+so that it should all be ready to work. You want to make sure that your stylesheet 
+loads after the FlexSlider style sheets, that you can modify changes there. We'll 
+get to more on that later.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 50. step 2, add markup div, ul and li images (34) ~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -1591,14 +1587,14 @@ for that unordered list.</p>
   alt="Add flexslider class to div and slides class to ul."
   style="width:50%" >
 
-<p>Let's go over here and set this up the same way. We need a div, we need
-a class, equals FlexSlider on here. This needs a class equals slides.
-Then down here, we can have list items with our different pictures in
-here, and I'm just going to copy this one and paste it. Over here in the
-folder, I have slides and I have seven of them. I have seven kittens
-here. Let's go ahead and add the six more times. 1,2,3,4,5,6, and then
-just change these numbers, 2, 3, 4, 5, 6, and 7. That will give us seven
-slides with seven kittens, one on each side. That's great.</p>
+<p>Let's go over here and set this up the same way. We need a div, we need a class, 
+equals FlexSlider on here. This needs a class equals slides. Then down here, we 
+can have list items with our different pictures in here, and I'm just going to 
+copy this one and paste it. Over here in the folder, I have slides and I have 
+seven of them. I have seven kittens here. Let's go ahead and add the six more 
+times. 1,2,3,4,5,6, and then just change these numbers, 2, 3, 4, 5, 6, and 7. 
+That will give us seven slides with seven kittens, one on each side. That's 
+great.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. verify classes on div and ul (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -1608,9 +1604,9 @@ slides with seven kittens, one on each side. That's great.</p>
   alt="Add class to div and ul in index.html."
   style="width:50%" >
 
-<p>Now we've got our markup looking the way that it needs to look for our
-project. What's the next thing that we need to do? We did the markup, we
-got that all in, so that's great.</p>
+<p>Now we've got our markup looking the way that it needs to look for our project. 
+What's the next thing that we need to do? We did the markup, we got that all in, 
+so that's great.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 53. step 3, add to head of index.html (36) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -1620,10 +1616,10 @@ got that all in, so that's great.</p>
   alt="Step 3, Add to head of index.html."
   style="width:50%" >
 
-<p>Step 3, directions. Hook up the <b>FlexSlider</b>. This thing says to
-use the <b>window.load</b> function. Now, I happen to know that the
-<b>window.load</b> function does not work with the latest version of
-jQuery, but that's okay. This is what it says down here.</p>
+<p>Step 3, directions. Hook up the <b>FlexSlider</b>. This thing says to use the 
+<b>window.load</b> function. Now, I happen to know that the <b>window.load</b> 
+function does not work with the latest version of jQuery, but that's okay. This 
+is what it says down here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. update myscript.js (37) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -1633,10 +1629,10 @@ jQuery, but that's okay. This is what it says down here.</p>
   alt="Add functions to MyScript.js."
   style="width:50%" >
 
-<p>We could just copy this, <b>window.load</b> function here. This place
-after these links, script type JavaScript. But we're going to put this
-not inside script tags, but we already have a separate file called
-<b>MyScript</b> that's linked up here. That's this one here.</p>
+<p>We could just copy this, <b>window.load</b> function here. This place after 
+these links, script type JavaScript. But we're going to put this not inside script 
+tags, but we already have a separate file called <b>MyScript</b> that's linked up 
+here. That's this one here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 55. on load, run flexslider function (37) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -6354,6 +6350,7 @@ that's up to you.</p>
   alt="2.29 Scription Site." />
 <img class="border"
   src="./images/image348.png"
+  loading="lazy"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
   title="Scription Site: Part 1 - Building the HTML and CSS"
   alt="Scription Site: Part 1 - Building the HTML and CSS." />
@@ -7798,11 +7795,11 @@ overview to make those two areas look a little bit better.</p>
   alt="Media Queries for Tablet Sized Styles; 760px."
   style="width:50%" />
 
-<p>I'm going to copy that. Come over here and scroll down and you can see I
-have a media query here for 760 pixels, so these rules are going to go
-between these two curly braces in here. I'm going to paste those in, and
-even tap them in a little bit there. When I click save, it's going to
-expand more, which drives me nuts, but that's right.</p>
+<p>I'm going to copy that. Come over here and scroll down and you can see I have 
+a media query here for 760 pixels, so these rules are going to go between these 
+two curly braces in here. I'm going to paste those in, and even tap them in a 
+little bit there. When I click save, it's going to expand more, which drives me 
+nuts, but that's right.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 463. test, scription (226) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7812,20 +7809,18 @@ expand more, which drives me nuts, but that's right.</p>
   alt="Test, Scription."
   style="width:50%" />
 
-<p>But if I come back and look at that, if I come back here and refresh
-up at the top of my page, you'll see it's adjusted this down here, it's
-made some adjustments to this area. Basically, what I'm doing here is
-I'm just overriding some of the styles that are up above with some
-slightly new versions, set overview to display Fleck's, for example, so
-that I can get this entire section here, so I can get this card sitting
-next to these columns rather than just one column. By the time I get to
-760 pixels, I've got enough room for some additional columns.</p>
+<p>But if I come back and look at that, if I come back here and refresh up at the 
+top of my page, you'll see it's adjusted this down here, it's made some adjustments 
+to this area. Basically, what I'm doing here is I'm just overriding some of the 
+styles that are up above with some slightly new versions, set overview to display 
+Fleck's, for example, so that I can get this entire section here, so I can get 
+this card sitting next to these columns rather than just one column. By the time 
+I get to 760 pixels, I've got enough room for some additional columns.</p>
 
-<p>It's a lot easier to add layout as the screen gets wider than it is to
-take it away as the screen gets smaller. So that's where we start with
-mobile first, is that we can easily just add layer by just tying this
-section to the split flex and just add a few rules to add some layout as
-the screen gets wider.</p>
+<p>It's a lot easier to add layout as the screen gets wider than it is to take 
+it away as the screen gets smaller. So that's where we start with mobile first, 
+is that we can easily just add layer by just tying this section to the split 
+flex and just add a few rules to add some layout as the screen gets wider.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 464/465. add download and pricing styles (227) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
@@ -7850,13 +7845,12 @@ the screen gets wider.</p>
   alt="Overview Styles section of styles.css."
   style="width:50%" />
 
-<p>Okay, great. we've got that into place. I have a few more rules for the
-download and pricing style sections. Again, they're just giving me some
-lay up by satting display, flex and flex wrap, setting the article to
-flex 1, just giving me some layout since I've got enough screen space to
-do it here. All of these are actually just providing a little bit of
-layout using the flex parts model here, flex parts layout model. Again,
-these are going to go into the 760 media query.</p>
+<p>Okay, great. we've got that into place. I have a few more rules for the 
+download and pricing style sections. Again, they're just giving me some lay up by 
+satting display, flex and flex wrap, setting the article to flex 1, just giving 
+me some layout since I've got enough screen space to do it here. All of these are 
+actually just providing a little bit of layout using the flex parts model here, 
+flex parts layout model. Again, these are going to go into the 760 media query.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 467. css, download styles (228) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7866,11 +7860,11 @@ these are going to go into the 760 media query.</p>
   alt="CSS, download styles."
   style="width:50%" />
 
-<p>So just after these rules here, but this is the closing of the media
-career, that curly brace, don't lose that. It can screw things up, it
-goes after that one. I wish that it didn't. Do this thing where it piles
-them all up. In fact, I'm going to leave those like that and not save it
-until we and get the next set, which is for the lesson and our team.</p>
+<p>So just after these rules here, but this is the closing of the media career, 
+that curly brace, don't lose that. It can screw things up, it goes after that one. 
+I wish that it didn't. Do this thing where it piles them all up. In fact, I'm going 
+to leave those like that and not save it until we and get the next set, which is 
+for the lesson and our team.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 468/469. 760 media query listen and our team, html & css (228) ~~~~~~~~~~~~~~-->
 <img class="border"
@@ -7887,10 +7881,10 @@ until we and get the next set, which is for the lesson and our team.</p>
   alt="Styles.css for listen and ourteam article, figure, img." />
 <p style="clear: both;"></p>
 
-<p>Then we'll do a few minor changes for the footer as well. So it's great
-to put all of these in. Again, if you're not sure what these do, I
-really recommend coming in and messing around with them, see what they
-do when you take them out, see what happens.</p>
+<p>Then we'll do a few minor changes for the footer as well. So it's great to 
+put all of these in. Again, if you're not sure what these do, I really recommend 
+coming in and messing around with them, see what they do when you take them out, 
+see what happens.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 470/471. 760 media query footer styles (229) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
@@ -7907,14 +7901,13 @@ do when you take them out, see what happens.</p>
   alt="Footer styles in styles.css." />
 <p style="clear: both;"></p>
 
-<p>We got that and then we've got the ones for the footer as well.
-Hopefully, and I realized that by copying and pasting the stuff in you
-probably just copying and pasting without really understanding and
-following along. But hopefully, some of this sinks in a little bit in
-terms of seeing the page come together so that when you start doing the
-interaction design stuff, it'll make more sense. That's my hope. But if
-it doesn't feel like it seems like it's doing that and that's fine, you
-could skip to the end. I will provide this file before you're finished
+<p>We got that and then we've got the ones for the footer as well. Hopefully, 
+and I realized that by copying and pasting the stuff in you probably just copying 
+and pasting without really understanding and following along. But hopefully, some 
+of this sinks in a little bit in terms of seeing the page come together so that 
+when you start doing the interaction design stuff, it'll make more sense. That's 
+my hope. But if it doesn't feel like it seems like it's doing that and that's 
+fine, you could skip to the end. I will provide this file before you're finished
 when we're done.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 472/473. test console, scription pricing (229) ~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7932,9 +7925,9 @@ when we're done.</p>
   alt="Test console, Scrption Pricing." />
 <p style="clear: both;"></p>
 
-<p>You can see I've added a little bit of layout here. Down here, I have
-added a little bit lay. Pricing is over here and my tabs are on this
-side instead of one on top of the other.</p>
+<p>You can see I've added a little bit of layout here. Down here, I have added 
+a little bit lay. Pricing is over here and my tabs are on this side instead of 
+one on top of the other.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 474. test console, scription our team (230) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7944,8 +7937,8 @@ side instead of one on top of the other.</p>
   alt="Test console, Scription Our Team."
   style="width:50%" />
 
-<p>This is now on the left instead of on top, and then we've got a quote
-here which will use content rotator for.</p>
+<p>This is now on the left instead of on top, and then we've got a quote here 
+which will use content rotator for.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 475/476. test console, scription our team (230) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
@@ -7962,12 +7955,11 @@ here which will use content rotator for.</p>
   alt="Test console, Scription Our Team, #2." />
 <p style="clear: both;"></p>
 
-<p>Your team has been reconfigured to make that look a little bit better,
-and in the footer set up to look a little bit better. By the way, in the
-footer, I have the names of all the different people who provided these
-images taken off on splash. Great, we've got the 760 media query done,
-let's go ahead next and work on the next media query for the full
-desktop size.</p>
+<p>Your team has been reconfigured to make that look a little bit better, and 
+in the footer set up to look a little bit better. By the way, in the footer, I 
+have the names of all the different people who provided these images taken off 
+on splash. Great, we've got the 760 media query done, let's go ahead next and 
+work on the next media query for the full desktop size.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-37">2.37 Media Query for 1020 Pixels Wide (4:56)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7996,25 +7988,23 @@ desktop size.</p>
   alt="Test, Scription." />
 <p style="clear: both;"></p>
 
-<p>When I get my screen that wide, I want to make further adjustments to
-the layout. And we're really getting much closer to the design that you
-saw over here on my Adobe XD file. At that point I have one more but
-plan, we're getting a lot closer to that.</p>
+<p>When I get my screen that wide, I want to make further adjustments to the 
+layout. And we're really getting much closer to the design that you saw over here 
+on my Adobe XD file. At that point I have one more but plan, we're getting a lot 
+closer to that.</p>
 
-<p>So come over to your thing here and set this so that it's 1020 pixels
-wide or a little bit wider and I might need to move my with this thing
-down or maybe make this a little bit smaller here. 1020 1021 that's
-plenty. There we go. At this point, like if you look at this, the visual
-relationships just aren't as good as they could be. Like this is too
-wide in here, I've got too much space in here and this is kind of
-scrunched in year now. This is where I want to make some adjustments
-here to this looks kind of funny, maybe it's narrow enough and wide
-enough now that I can get all these three things kind of in a row here.</p>
+<p>So come over to your thing here and set this so that it's 1020 pixels wide or 
+a little bit wider and I might need to move my with this thing down or maybe make 
+this a little bit smaller here. 1020 1021 that's plenty. There we go. At this point, 
+like if you look at this, the visual relationships just aren't as good as they could 
+be. Like this is too wide in here, I've got too much space in here and this is kind of
+scrunched in year now. This is where I want to make some adjustments here to this 
+looks kind of funny, maybe it's narrow enough and wide enough now that I can get 
+all these three things kind of in a row here.</p>
 
-<p>So, we just want to make some adjustments to how these different
-elements layout and the space available for them to make them look a
-little bit better. And this is all just part of what you do as a
-designer.</p>
+<p>So, we just want to make some adjustments to how these different elements 
+layout and the space available for them to make them look a little bit better. 
+And this is all just part of what you do as a designer.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 480/481. 1020 media query body, header & slider styles (232) ~~~~~~~~~~~~~~-->
 <img class="border"
@@ -8031,17 +8021,16 @@ designer.</p>
   alt="1020 media query body, header and slider styles, styles.css." />
 <p style="clear: both;"></p>
 
-<p>I'm going to come in here, I'm going to grab these rules here for the
-body, the header and the slider styles just got some basic styling
-changes that I want to make happen here and we will put those inside of
-the large tablet size 1020 pixels. Stick them in there.</p>
+<p>I'm going to come in here, I'm going to grab these rules here for the body, 
+the header and the slider styles just got some basic styling changes that I want 
+to make happen here and we will put those inside of the large tablet size 1020 
+pixels. Stick them in there.</p>
 
-<p>Okay that's going to take care of those elements the body, the header
-and the slider. I'll get slightly different layout different, slightly
-different padding, you can tell all this stuff has to do pretty much
-with layout with 33% padding 30. It's all having things to do with
-layout in here that I'm applying to these elements. And again, if you
-want to mess around with it, feel free.</p>
+<p>Okay that's going to take care of those elements the body, the header and the 
+slider. I'll get slightly different layout different, slightly different padding, 
+you can tell all this stuff has to do pretty much with layout with 33% padding 30. 
+It's all having things to do with layout in here that I'm applying to these elements. 
+And again, if you want to mess around with it, feel free.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 482/483. 1020 media query download and pricing styles (232) ~~~~~~~~~~~~~~~~-->
 <img class="border"
@@ -8058,8 +8047,8 @@ want to mess around with it, feel free.</p>
   alt="Large tablet size styles, styles.css." />
 <p style="clear: both;"></p>
 
-<p>Well, these ones for the pricing Tableaus in I mean add that's the
-pricing and the downloads.</p>
+<p>Well, these ones for the pricing Tableaus in I mean add that's the pricing 
+and the downloads.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 484/485. download and pricing styles (233) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
@@ -8098,21 +8087,20 @@ going on. This one had more, but I prefer to put them on one line.
   alt="Test console, Scription." />
 <p style="clear: both;"></p>
 
-<p>Let's go take a look and see what all that did for our 1020 version
-of our page refresh. Now, this is now taking up a third of the width of
-the page. My logo's over here. My navigation is lined up down here. The
-spacing looks nicer for this down here. This is all in one line, like I
-was mentioning before, that makes sense. This is all set and ready to be
-animated, which is kind of cool over here, we've got less space for this
-thing and more space for the tabs makes sense now that we've got more
-room for that. It's just a matter of coming up with the right
-proportions down here. This has been made smaller and this takes up more
-space in the size of the font has been adjusted. This is looking
-slightly different with the picture over here now, so that's all-in-one
-row and the footer stays the same. There we go.</p>
+<p>Let's go take a look and see what all that did for our 1020 version of our 
+page refresh. Now, this is now taking up a third of the width of the page. My 
+logo's over here. My navigation is lined up down here. The spacing looks nicer 
+for this down here. This is all in one line, like I was mentioning before, that 
+makes sense. This is all set and ready to be animated, which is kind of cool 
+over here, we've got less space for this thing and more space for the tabs makes 
+sense now that we've got more room for that. It's just a matter of coming up with 
+the right proportions down here. This has been made smaller and this takes up more
+space in the size of the font has been adjusted. This is looking slightly different 
+with the picture over here now, so that's all-in-one row and the footer stays the 
+same. There we go.</p>
 
-<p>The 1020 media query is done and our page is really coming together. I'm
-going to look at the next one in the next lesson.</p>
+<p>The 1020 media query is done and our page is really coming together. I'm going 
+to look at the next one in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-38">2.38 Media Query for 1200 Pixels Wide</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8124,10 +8112,10 @@ going to look at the next one in the next lesson.</p>
   alt="2.38 Media Query for 1200 Pixels Wide."
   style="width:40%" />
 
-<p>The media query for 1200 pixels wide is for when somebody is viewing
-this website on a nice large desktop in their browsers, nice and wide,
-and they've got lots of screen real estate, in which case we can really
-kind of optimize our layout for that look.</p>
+<p>The media query for 1200 pixels wide is for when somebody is viewing this 
+website on a nice large desktop in their browsers, nice and wide, and they've 
+got lots of screen real estate, in which case we can really kind of optimize our 
+layout for that look.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 489. media query for 1200 pixels wide (234) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -8137,8 +8125,8 @@ kind of optimize our layout for that look.</p>
   alt="Media Query for 1200 Pixels Wide."
   style="width:50%" />
 
-<p>So let's go ahead and add these rules in over there and you need to set
-your width here for me to do it.</p>
+<p>So let's go ahead and add these rules in over there and you need to set your 
+width here for me to do it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 490. test console, scription again (235) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -8148,15 +8136,14 @@ your width here for me to do it.</p>
   alt="Test console, Scription."
   style="width:50%" />
 
-<p>I'm going to need to move this thing down to the bottom here and I'm
-going to shrink that down a little bit. And then set this to 1200, maybe
-1201 like that, because now I've got a lot of room so I can really do
-some nice stuff here. I'm going to put these into three columns instead
-of two. This is too wide over here, I can shrink that one down, just
-make minor changes in here. Some of them don't need much, this one
-doesn't need a lot of change, but just making some minor changes to kind
-of make the stuff look a little bit better on the wider screen. So let's
-go over and add those rules that we have on our snippets and they're
+<p>I'm going to need to move this thing down to the bottom here and I'm going to 
+shrink that down a little bit. And then set this to 1200, maybe 1201 like that, 
+because now I've got a lot of room so I can really do some nice stuff here. I'm 
+going to put these into three columns instead of two. This is too wide over here, 
+I can shrink that one down, just make minor changes in here. Some of them don't 
+need much, this one doesn't need a lot of change, but just making some minor 
+changes to kind of make the stuff look a little bit better on the wider screen. 
+So let's go over and add those rules that we have on our snippets and they're
 here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 491/492. 1200 media query for page, header and slider styles (235) ~~~~~~~~~~~~~-->
@@ -8174,13 +8161,12 @@ here.</p>
   alt="Slider styles, background-image." />
 <p style="clear: both;"></p>
 
-<p>I want to cut this set first. I'm giving sections 50 pixels padding, so
-now I've got a lot of room, I can actually space things out, give them a
-little bit of room to breathe, all that kind of stuff. It all just has
-to do with providing some better spacing in here, and when you're a
-designer, spacing is really important because it really helps
-communicate. So you want to get that kind of stuff just right as much as
-possible.</p>
+<p>I want to cut this set first. I'm giving sections 50 pixels padding, so now 
+I've got a lot of room, I can actually space things out, give them a little bit 
+of room to breathe, all that kind of stuff. It all just has to do with providing 
+some better spacing in here, and when you're a designer, spacing is really 
+important because it really helps communicate. So you want to get that kind of 
+stuff just right as much as possible.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 493/494. 1200 media query for overview, download and pricing styles (236) ~~~~~~~~~-->
 <img class="border"
@@ -10425,20 +10411,19 @@ that floor. Then I want to add one to it. Because what this will
 generate is a random number that's basically between 0-5. I want a
 random number because my dice are 1, 2, 3, 4, 5, and 6.</p>
 
-<p>Now, you might wonder here, well, why couldn't I use
-<b>Math.ceiling</b>? I could do <b>Math.random</b> times 5, and that
-would give me a 0-5, and then round it up using <b>Math.ceiling</b>, or
-<b>Math.ceil</b>. It gets rounded up from 0-1 to 1-2, 2-3, and so on and
-so forth. If it's a partial number, then it'll get rounded up.</p>
+<p>Now, you might wonder here, well, why couldn't I use <b>Math.ceiling</b>? I 
+could do <b>Math.random</b> times 5, and that would give me a 0-5, and then 
+round it up using <b>Math.ceiling</b>, or <b>Math.ceil</b>. It gets rounded up 
+from 0-1 to 1-2, 2-3, and so on and so forth. If it's a partial number, then 
+it'll get rounded up.</p>
 
-<p>But there's a very small error that could happen with that, which is, if
-you remember what <b>Math.random</b> does, is it generates a number
-between zero and one, but it's zero <b>inclusive</b>. It's very, very
-unlikely. But possible that you could roll a 0.00000, in which case,
-<b>Math.ceil</b> will not round that up to one, so you could potentially
-get a 0, 1, 2, 3, 4, 5, or 6 if you were to follow that methodology. We
-don't want a zero, we want it always to be a 1, 2, 3, 4, 5, or 6 to
-match our numbers up there for our dice.</p>
+<p>But there's a very small error that could happen with that, which is, if you 
+remember what <b>Math.random</b> does, is it generates a number between zero and 
+one, but it's zero <b>inclusive</b>. It's very, very unlikely. But possible that 
+you could roll a 0.00000, in which case, <b>Math.ceil</b> will not round that up 
+to one, so you could potentially get a 0, 1, 2, 3, 4, 5, or 6 if you were to 
+follow that methodology. We don't want a zero, we want it always to be a 1, 2, 
+3, 4, 5, or 6 to match our numbers up there for our dice.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 610. function setupturn (308) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -10448,23 +10433,20 @@ match our numbers up there for our dice.</p>
   alt="Function setUpTurn."
   style="width:50%" />
 
-<p>That's our roll 1. Roll 2 is exactly the same thing, we're going to
-generate a new random number for that. Then we need to set a message on
-our screen. We're going to put a message inside this game div here, and
-that game div is going to say, <b>game.innerHTML</b>. We can just use
-game because we define this variable up here that's going to go get that
-thing. Game.innerHTML equals, and I'm going to use my tick marks again
-because I'm going to use my variable in here. Open and close the P.
-Especially when you're working with HTML inside of tick marks like this,
-make sure you open and close it properly because your code editor won't
-do the auto closing thing for you in this case, probably, unless you've
-got some plugin that does it. I don't know of any, but there might be
-some.</p>
+<p>That's our roll 1. Roll 2 is exactly the same thing, we're going to generate 
+a new random number for that. Then we need to set a message on our screen. We're 
+going to put a message inside this game div here, and that game div is going to 
+say, <b>game.innerHTML</b>. We can just use game because we define this variable 
+up here that's going to go get that thing. Game.innerHTML equals, and I'm going 
+to use my tick marks again because I'm going to use my variable in here. Open 
+and close the P. Especially when you're working with HTML inside of tick marks 
+like this, make sure you open and close it properly because your code editor 
+won't do the auto closing thing for you in this case, probably, unless you've
+got some plugin that does it. I don't know of any, but there might be some.</p>
 
-<p>Roll the dice for player x. Again, player x is going to be a variable.
-Which variable is it going to be? Dollar sign, curly braces. It's really
-just going to be this one again. This will be player 1, or player 2
-here, that gets put in there.</p>
+<p>Roll the dice for player x. Again, player x is going to be a variable. Which 
+variable is it going to be? Dollar sign, curly braces. It's really just going to 
+be this one again. This will be player 1, or player 2 here, that gets put in there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 611. img src, dice 1 - 6 (309) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -10474,22 +10456,20 @@ here, that gets put in there.</p>
   alt="Image source, dice 1 through 6."
   style="width:50%" />
 
-<p>The next thing we need are the actual pictures of the dice. That's going
-to go inside the same div, so I'm going to do game.innerHTML, plus
-equals, to add to it, and again I'm going to use my tick marks, like so,
-the semicolon and in here I'm going to put in an image tag, img src
-equals quote quote, like so. That's going to be this. Then to get to one
-of my images, it would be something like die 1, die 2, whatever that is,
-but it's going to be a variable. It's going to be dollar sign,
-curly braces <b>gameData</b>. which element do I want up here? I want my
-dice element,.dice square bracket, and which one do I want? Well, it
-depends on what I rolled here for roll 1, we set roll 1 here. That's
-going to be gameData.roll1. Actually I need to subtract one from it,
-minus one. Because remember, this is going to be a 1, 2, 3, 4, 5, or 6.
-If I roll a one, I need element zero from this array up here. I need to
-subtract one there, gameData.roll1 minus 1. I think that's right. I
-prefer to have double quotes here I think. Quote there, double quotes,
-add an extra one for me.</p>
+<p>The next thing we need are the actual pictures of the dice. That's going to 
+go inside the same div, so I'm going to do game.innerHTML, plus equals, to add 
+to it, and again I'm going to use my tick marks, like so, the semicolon and in 
+here I'm going to put in an image tag, img src equals quote quote, like so. 
+That's going to be this. Then to get to one of my images, it would be something 
+like die 1, die 2, whatever that is, but it's going to be a variable. It's going 
+to be dollar sign, curly braces <b>gameData</b>. which element do I want up here? 
+I want my dice element,.dice square bracket, and which one do I want? Well, it 
+depends on what I rolled here for roll 1, we set roll 1 here. That's going to be 
+gameData.roll1. Actually I need to subtract one from it, minus one. Because remember, 
+this is going to be a 1, 2, 3, 4, 5, or 6. If I roll a one, I need element zero 
+from this array up here. I need to subtract one there, gameData.roll1 minus 1. 
+I think that's right. I prefer to have double quotes here I think. Quote there, 
+double quotes, add an extra one for me.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 612. gamedata.rollsum (310) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -10499,17 +10479,15 @@ add an extra one for me.</p>
   alt="gameData.rollSum = gameData.roll1 + gameData.roll2."
   style="width:50%" />
 
-<p>There we go. That will put in our source and really be good to have an
-attribute as well for good HTML equals "die". You could even do this
-thing again if you wanted to, I'm just going to leave it like that,
-that's fine. We've added that image and that's the image for our first
-roll. We need an image for our second roll, which is going to look
-exactly like this, except, that this is now roll 2. Then the last thing
-that we need to do is add up these two rolls together and put them in
-their sum total. <b>GameData.rollSum</b>, that one there, is going to
-equal <b>gameData.roll1</b> plus <b>gameData.roll2</b>, and that will
-add those up and put them in there. Great. We're going to test this in
-the next lesson.</p>
+<p>There we go. That will put in our source and really be good to have an attribute 
+as well for good HTML equals "die". You could even do this thing again if you wanted 
+to, I'm just going to leave it like that, that's fine. We've added that image and 
+that's the image for our first roll. We need an image for our second roll, which 
+is going to look exactly like this, except, that this is now roll 2. Then the 
+last thing that we need to do is add up these two rolls together and put them in
+their sum total. <b>GameData.rollSum</b>, that one there, is going to equal 
+<b>gameData.roll1</b> plus <b>gameData.roll2</b>, and that will add those up and 
+put them in there. Great. We're going to test this in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-06">4.06 Test Throwing the Dice (5:22)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
