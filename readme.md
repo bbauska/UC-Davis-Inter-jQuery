@@ -50,13 +50,13 @@ manageable pieces.</p>
 >#### [**1.04 Gotchas and Rookie Mistakes**](#ch1-04)
 
 <ul>
-  <li><a href="./pdfs/1.04-jQuery-Plugins.pdf" 
+  <li><a href="./pdf/1.04-jQuery-Plugins.pdf" 
     target="_blank" rel="noreferrer noopener">
     1.04 jQuery Plugins (pdf)</a></li>
-  <li><a href="./zips/1.04-FlexSliderBasic-START.zip" 
+  <li><a href="./zip/1.04-FlexSliderBasic-START.zip" 
     target="_blank" rel="noopener noreferrer">
     1.04 FlexSlider Basic START (zip)</a></li>
-  <li><a href="./zips/1.04-FlexSliderPlugins.zip" 
+  <li><a href="./zip/1.04-FlexSliderPlugins.zip" 
     target="_blank" rel="noopener noreferrer">
     1.04 FlexSlider Plugin (zip)</a></li>
 </ul>
@@ -71,7 +71,7 @@ manageable pieces.</p>
 >#### [**1.12 Styling the CTA**](#ch1-11)
 
 <ul>
-  <li><a href="./pdfs/1.12-jQuery-FlexSliderPlugin.pdf" 
+  <li><a href="./pdf/1.12-jQuery-FlexSliderPlugin.pdf" 
     target="_blank" rel="noopener noreferrer">
     1.12 jQuery FlexSlider Plugin (pdf)</a></li>
 </ul>
@@ -82,7 +82,7 @@ manageable pieces.</p>
 
 <!-- -   **2.02.jQueryScrollEffects-START.zip** -->
 <ul>
-  <li><a href="./zips/2.02-jQuery-ScrollEffects-START.zip" 
+  <li><a href="./zip/2.02-jQuery-ScrollEffects-START.zip" 
     target="_blank" rel="noopener noreferrer">
     2.02 jQuery Scroll Effects START (zip)</a></li>
 </ul>
@@ -104,7 +104,7 @@ manageable pieces.</p>
 >#### [**2.17 Reviewing the Whole Script**](#ch2-17)
 
 <ul>
-  <li><a href="./pdfs/2.17-jQuery-PageLocationTracking.pdf" 
+  <li><a href="./pdf/2.17-jQuery-PageLocationTracking.pdf" 
     target="_blank" rel="noopener noreferrer">
     2.17 jQuery Page Location Tracking (pdf)</a></li>
 </ul>
@@ -113,7 +113,7 @@ manageable pieces.</p>
 
 <!-- -   **2.18.ScrollEffects-START.zip** -->
 <ul>
-  <li><a href="./zips/2.18-JS-ScrollEffects-START.zip" 
+  <li><a href="./zip/2.18-JS-ScrollEffects-START.zip" 
     target="_blank" rel="noopener noreferrer">
     2.18 Scroll Effects START (zip)</a></li>
 </ul>
@@ -131,7 +131,7 @@ manageable pieces.</p>
 
 <!-- -   **2.28.PDF-of-Presentation.pdf** -->
 <ul>
-  <li><a href="./pdfs/2.28-JS-ScrollEffects.pdf" 
+  <li><a href="./pdf/2.28-JS-ScrollEffects.pdf" 
     target="_blank" rel="noopener noreferrer">
     2.28 JS Scroll Effects (pdf)</a></li>
 </ul>
@@ -139,19 +139,19 @@ manageable pieces.</p>
 >#### [**2.29 Scription Site Introduction**](#ch2-29)
 
 <ul>
-  <li><a href="./zips/2.29-ScriptionPart1-START.zip"
+  <li><a href="./zip/2.29-ScriptionPart1-START.zip"
     target="_blank" rel="noopener noreferrer">
     2.29 Scription Part 1 START (zip)</a></li>
-  <li><a href="./zips/2.29-ScriptionPart1-Snippets.zip"
+  <li><a href="./zip/2.29-ScriptionPart1-Snippets.zip"
     target="_blank" rel="noopener noreferrer">
     2.29 Scription Part 1 Snippets (zip)</a></li>
-  <li><a href="./zips/2.29-ScriptionPart2-START.zip"
+  <li><a href="./zip/2.29-ScriptionPart2-START.zip"
     target="_blank" rel="noopener noreferrer">
     2.29 Scription Part 2 START (zip)</a></li>
-  <li><a href="./zips/2.29-ScriptionPart2-Snippets.zip"
+  <li><a href="./zip/2.29-ScriptionPart2-Snippets.zip"
     target="_blank" rel="noopener noreferrer">
     2.29 Scription Part 2 Snippets (zip)</a></li>
-  <li><a href="./zips/2.29-FlexSliderFiles-START.zip"
+  <li><a href="./zip/2.29-FlexSliderFiles-START.zip"
     target="_blank" rel="noopener noreferrer">
     2.29 FlexSlider Files START (zip)</a></li>
 </ul>
@@ -168,10 +168,10 @@ manageable pieces.</p>
 >#### [**2.39 Scription Site: Building Interactive Elements Challenges**](#ch2-39)
 
 <ul>
-  <li><a href="./pdfs/2.39-ScriptionSitePart1-HTML-CSS.pdf" 
+  <li><a href="./pdf/2.39-ScriptionSitePart1-HTML-CSS.pdf" 
     target="_blank" rel="noopener noreferrer">
     2.39 Scription Site Part 1 HTML &amp; CSS (pdf)</a></li>
-  <li><a href="./pdfs/2.39-ScriptionSitePart2-InteractionChallenges.pdf" 
+  <li><a href="./pdf/2.39-ScriptionSitePart2-InteractionChallenges.pdf" 
     target="_blank" rel="noopener noreferrer">
     2.39 Scription Site Part 2 Interaction Challenges (pdf)</a></li>
 </ul>
@@ -181,7 +181,7 @@ manageable pieces.</p>
 >#### [**3.02 Intro to Objects and Data in JS**](#ch3-02)
 
 <ul>
-  <li><a href="./zips/3.02-JS-Objects-START.zip" 
+  <li><a href="./zip/3.02-JS-Objects-START.zip" 
     target="_blank" rel="noopener noreferrer">
     3.02 JS Objects START (zip)</a></li>
 </ul>
@@ -193,10 +193,10 @@ manageable pieces.</p>
 >#### [**3.07 Example File**](#ch3-07)
 
 <ul>
-  <li><a href="./pdfs/3.07-JS-Object-Challenges.pdf" 
+  <li><a href="./pdf/3.07-JS-Object-Challenges.pdf" 
     target="_blank" rel="noopener noreferrer">
     3.07 JS Object Challenges (pdf)</a></li>
-  <li><a href="./pdfs/3.07-JS-Objects-Data.pdf" 
+  <li><a href="./pdf/3.07-JS-Objects-Data.pdf" 
     target="_blank" rel="noopener noreferrer">
     3.07 JS Object &amp; Data (pdf)</a></li>
 </ul>
@@ -204,7 +204,7 @@ manageable pieces.</p>
 >#### [**3.08 Intro to Pig Dice Game**](#ch3-08)
 
 <ul>
-  <li><a href="./zips/3.08-PigDiceGame-Diagram.png" 
+  <li><a href="./zip/3.08-PigDiceGame-Diagram.png" 
     target="_blank" rel="noopener noreferrer">
     3.08 Pig Dice Game Diagrams (png)</a></li>
 </ul>
@@ -214,7 +214,7 @@ manageable pieces.</p>
 >#### [**3.11 Other Versions**](#ch3-11)
 
 <ul>
-  <li><a href="./pdfs/3.11-IntrotoPigDiceGame.pdf" 
+  <li><a href="./pdf/3.11-IntrotoPigDiceGame.pdf" 
     target="_blank" rel="noopener noreferrer">
     3.11 Introduction to Pig Dice Game (pdf)</a></li>
 </ul>
@@ -224,9 +224,9 @@ manageable pieces.</p>
 >#### [**4.02 Intro to the Game of Pig**](#ch4-02)
 
 <ul>
-  <li><a href="./zips/4.02-GameofPig-START.zip" 
+  <li><a href="./zip/4.02-GameofPig-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    4.02 Game of Pig START (zip)</a></li>
+    4.02 Game of Pig START (zip download)</a></li>
 </ul>
 
 >#### [**4.03 Start the Game**](#ch4-03)
@@ -308,7 +308,7 @@ jQuery plugins explored in this course into the Scription webpage through a seri
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery"
       target="_blank" rel="noopener noreferrer">
-      2.02 jQueryScrollEffects-START.zip (download)</a></li>
+      2.02 jQuery Scroll Effects START (zip download)</a></li>
 </ul>
 
    3. Creating a Click Handler (5:00)
@@ -924,10 +924,10 @@ carrying the extension .ZIP.
 <h4>START Files: FlexSlider &amp; jQuery Plugins</h4>
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider" 
-    target="_blank" rel="noopener noreferrer">1.05 FlexSliderBasic-START.zip (download)</a></li>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ulu2D/start-files-jquery-plugins-flexslider"
-    target="_blank" rel="noopener noreferrer">1.05 FlexSliderPlugin.zip (download)</a></li>
+  <li><a href="./zip/1.05-FlexSlider-Basic-START.zip" 
+    target="_blank" rel="noopener noreferrer">1.05 Flex Slider Basic START (zip download)</a></li>
+  <li><a href="./zip/1.05-FlexSliderPlugin.zip" 
+    target="_blank" rel="noopener noreferrer">1.05 Flex Slider Plugin (zip download)</a></li>
 </ul>
 
 <h4>Additional Resource:</h4>
@@ -2388,7 +2388,7 @@ Here is a PDF of the presentation slides used in the lessons for this
 section: <b>jQuery Plugins and FlexSlider</b>.
 
 <ul>
-  <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdfs/1.13.FlexSlider.pdf" 
+  <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdf/1.13.FlexSlider.pdf" 
     target="_blank" rel="noopener noreferrer">
 	1.13 Flex Slider (pdf)</a></li>
 </ul>
