@@ -151,7 +151,6 @@ p {
   text-align: left;
   margin-left: 15px;
 }
-
   
 ul li { 
   padding: 10px;
@@ -227,6 +226,7 @@ ul, ol {
       text-rendering: optimizeLegibility;
       font-kerning: normal;
     }
+
     @media print {
       html {
         background-color: white;
@@ -365,5 +365,3 @@ ul, ol {
       vertical-align: middle;
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-
-
