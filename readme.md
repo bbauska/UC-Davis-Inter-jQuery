@@ -216,7 +216,7 @@ manageable pieces.</p>
 <ul>
   <li><a href="./pdf/3.11-IntrotoPigDiceGame.pdf" 
     target="_blank" rel="noopener noreferrer">
-    3.11 Introduction to Pig Dice Game (pdf)</a></li>
+    3.11 Intro to Pig Dice Game (pdf)</a></li>
 </ul>
 
 ### [**Week 4. Building a Simple Game in JavaScript**](ch4)
@@ -226,7 +226,7 @@ manageable pieces.</p>
 <ul>
   <li><a href="./zip/4.02-GameofPig-START.zip" 
     target="_blank" rel="noopener noreferrer">
-    4.02 Game of Pig START (zip download)</a></li>
+    4.02 Game of Pig START (zip)</a></li>
 </ul>
 
 >#### [**4.03 Start the Game**](#ch4-03)
@@ -242,7 +242,11 @@ manageable pieces.</p>
 >#### [**4.13 Final Clean-Up**](#ch4-13)
 >#### [**4.14 Extending the Game**](#ch4-14)
 
--   <b>4.14.PDF-of-Presentation.pdf</b>
+<ul>
+  <li><a href="./zip/4.14-GameofPig.pdf" 
+    target="_blank" rel="noopener noreferrer">
+    4.14 Game of Pig (pdf)</a></li>
+</ul>
 
 >#### [<b>4.15 Course Summary</b>](#ch4-15)
 
