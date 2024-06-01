@@ -21,10 +21,10 @@ output:
   title="jQuery logo"
   alt="jQuery logo."
   style="border: 2px solid #000000; width:400px;" />
-  <img src="./images/image002.png" 
+<img src="./images/image002.png" 
   title="University of California @Davis logo"
   alt="University of California @Davis logo."
-  style="border: 2px solid #000000; width:200px;" />
+  style="border: 2px solid #000000; width:261px;" />
 </p>
 
 <h3>About this Course</h3>
