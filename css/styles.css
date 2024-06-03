@@ -76,7 +76,7 @@ td {
   border-radius: 1px;
 }
 #myBtn:hover {
-  background-color: #555555;  /* very dark gray */
+  background-color: #ffc0cb;  /* pink, was #555555 - very dark gray */
 }
 
 pre {
