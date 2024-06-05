@@ -80,7 +80,6 @@ manageable pieces.</p>
 >#### [**2.01 Module 2 Introduction**](#ch2-01)
 >#### [**2.02 Intro to Smooth Scroll with jQuery**](#ch2-02)
 
-<!-- -   **2.02.jQueryScrollEffects-START.zip** -->
 <ul>
   <li><a href="./zip/2.02-jQuery-ScrollEffects-START.zip" 
     target="_blank" rel="noopener noreferrer">
@@ -111,7 +110,6 @@ manageable pieces.</p>
 
 >#### [**2.18 Intro to Scroll Effects with JS**](#ch2-18)
 
-<!-- -   **2.18.ScrollEffects-START.zip** -->
 <ul>
   <li><a href="./zip/2.18-JS-ScrollEffects-START.zip" 
     target="_blank" rel="noopener noreferrer">
@@ -368,13 +366,12 @@ jQuery plugins explored in this course into the Scription webpage through a seri
 <ul>
   <li>zip_files:
     <ul>
-	  <li>2.29.Scription-Part1-START.zip</li>
-	  <li>2.29.Scription-Part1-Snippets.zip</li>
-	  <li>2.29.Scription-Part2-START.zip</li>
-	  <li>2.29.Scription-Part2-Snippets.zip</li>
-	  <li>2.29.Flexslider-files.zip</li>
-      </li>
-	</ul>
+      <li>2.29.Scription-Part1-START.zip</li>
+      <li>2.29.Scription-Part1-Snippets.zip</li>
+      <li>2.29.Scription-Part2-START.zip</li>
+      <li>2.29.Scription-Part2-Snippets.zip</li>
+      <li>2.29.Flexslider-files.zip</li>
+    </li></ul>
 </ul>
     
   30. Header HTML (5:09)
