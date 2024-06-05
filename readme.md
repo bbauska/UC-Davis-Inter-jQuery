@@ -127,7 +127,6 @@ manageable pieces.</p>
 >#### [**2.27 Resizing Function**](#ch2-27)
 >#### [**2.28 Finalzing the Script**](#ch2-28)
 
-<!-- -   **2.28.PDF-of-Presentation.pdf** -->
 <ul>
   <li><a href="./pdf/2.28-JS-ScrollEffects.pdf" 
     target="_blank" rel="noopener noreferrer">
@@ -308,7 +307,7 @@ jQuery plugins explored in this course into the Scription webpage through a seri
    2. Introduction to Smooth Scroll with jQuery (4:15)
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/ClQ79/start-files-smooth-scroll-with-jquery"
+  <li><a href="./zip/2.02-jQuery-Scroll-Effects-START.zip"
       target="_blank" rel="noopener noreferrer">
       2.02 jQuery Scroll Effects START (zip download)</a></li>
 </ul>
@@ -319,9 +318,9 @@ jQuery plugins explored in this course into the Scription webpage through a seri
    6. Highlighting Elements (5:22)
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/eRvCI/pdf-of-presentation"
+  <li><a href="./pdf/2.06-jQuery-Smooth-Scroll.pdf"
     target="_blank" rel="noopener noreferrer">
-	PDF of Presentation: 2.06 jQuerySmoothScroll.pdf (download)</a></li>
+	2.06 jQuery Smooth Scroll (pdf)</a></li>
 </ul>
   
    7. Introduction to Page Location Tracking (8:00)
@@ -337,13 +336,17 @@ jQuery plugins explored in this course into the Scription webpage through a seri
   17. Reviewing the Whole Script (5:48)
 
 <ul>
-  <li>2.17.jQueryPageLocationTracking.pdf (10 min’s)</li>
+  <li><a href="./pdf/2.17-jQuery-Page-Location-Tracking.pdf"
+    target="_blank" rel="noopener noreferrer">
+	2.17 jQuery Page Location Tracking (pdf)</li>
 </ul>
   
   18. Introduction to Scroll Effects with JS (6:04)
 
 <ul>
-  <li>2.18.ScrollEffects-START.zip</li>
+  <li><a href="./zip/2.18-Scroll-Effects-START.zip"
+    target="_blank" rel="noopener noreferrer">
+    2.18 Scroll Effects START (zip download)</li>
 </ul>
   
   19. Getting the Target - Part 1 (4:50)
@@ -358,7 +361,9 @@ jQuery plugins explored in this course into the Scription webpage through a seri
   28. Finalizing the Script (10:01)
 
 <ul>
-  <li>2.28.PDF of Presentation (10 min’s)</li>
+  <li><a href="./pdf/2.28-JS-ScrollEffects.pdf"
+    target="_blank" rel="noopener noreferrer">
+	2.28 JavaScript Scroll Effects (pdf)</li>
 </ul>
   
   29. Scription Site Introduction (5:54)
@@ -5983,9 +5988,9 @@ it without even going to a library, like Animated On Scroll. But,
 that&apos;s up to you.
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0lQmf/pdf-of-presentation"
+  <li><a href="./pdf/2.28-JS-ScrollEffects.pdf"
     target="_blank" rel="noopener noreferrer">
-	PDF of Presentation: 2.28 JavaScript-Scroll-Effect.pdf (download)</a></li>
+	2.28 JavaScript Scroll Effects (pdf)</a></li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6205,7 +6210,7 @@ this. But I think it&apos;s helpful to go through it anyway.
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/KrJDR/start-files-scription-site"
     target="_blank" rel="noopener noreferrer">
-	2.29 Start Files:  Scription Site (download)</a></li>
+	2.29 Scription Site START (zip)</a></li>
 </ul>
 
 <ul>
@@ -8001,9 +8006,14 @@ section:
 
 <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/gpBsr/pdf-of-presentations>
 
--   <b>2.39 ScriptionSite-Part1-HTML-CSS.pdf</b>
-
--   <b>2.39 ScriptionSite-Part2-InteractionChallenges.pdf</b>
+<ul>
+  <li><a href="./pdf/2.39-ScriptionSite-Part1-HTML-CSS.pdf"
+    target="_blank" rel="noopener noreferrer">
+	2.39 Scription Site Part 1 - HTML &amp; CSS (pdf)</a></li>
+  <li><a href="./pdf/2.39-ScriptionSite-Part2-InteractionChallenges.pdf"
+    target="_blank" rel="noopener noreferrer">
+	2.39 Scription Site Part 2 - Interaction Challenges (pdf)</a></li>
+</ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-01">3.01 Module 3 Intro (0:37)</h2>
@@ -8735,9 +8745,14 @@ section:
 
 <https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/0RJjt/pdf-of-presentations>
 
--   <b>3.07.Objects-&-Data-in-JS.pdf</b>
-
--   <b>3.07.JavaScript-Object-Challenges.pdf</b>
+<ul>
+  <li><a href="./pdf/3.07-JS-Objects-Data.pdf"
+    target="_blank" rel="noopener noreferrer">
+	3.07 JS Objects &amp; Data (pdf)</a></li>
+  <li><a href="./pdf/3.07-JS-Object-Challenges.pdf"
+    target="_blank" rel="noopener noreferrer">
+	3.07 JS Object Challenges (pdf)</a></li>
+</ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-08">3.08 Intro to Pig Dice Game (5:44)</h2>
@@ -9190,7 +9205,11 @@ functionality you need for each piece.
 
 ## PDF of Presentions
 
--   <b>3.11.Intro-to-Pig-Dice-Games.pdf</b>
+<ul>
+  <li><a href="./pdf/3.11-Intro-to-Pig-Dice-Game.pdf"
+    target="_blank" rel="noopener noreferrer">
+	3.11 Intro to Pig Dice Game (pdf)</a></li>
+</ul>
 
 > https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/Ucp5v/pdf-of-presentations
 >
@@ -10955,9 +10974,9 @@ on the discussion board. I&apos;ll check in from time to time and see what
 excellent versions people have made of the big game.</p>
 
 <ul>
-  <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/QxK0k/pdf-of-presentation"
+  <li><a href="./pdf/4.14-GameofPig.pdf" 
     target="_blank" rel="noopener noreferrer">
-    4.14 Game-of-Pig.pdf (download)</a></li>
+    4.14 Game of Pig (pdf)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-15">Course Summary (0:57)</h2>
