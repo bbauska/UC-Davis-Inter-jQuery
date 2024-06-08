@@ -201,9 +201,9 @@ manageable pieces.</p>
 >#### [**3.08 Intro to Pig Dice Game**](#ch3-08)
 
 <ul>
-  <li><a href="./zip/3.08-PigDiceGame-Diagram.png" 
+  <li><a href="./pdf/3.08-PigDiceGame-Diagram.png" 
     target="_blank" rel="noopener noreferrer">
-    3.08 Pig Dice Game Diagrams (png)</a></li>
+    3.08 Pig Dice Game Diagrams (display png)</a></li>
 </ul>
 
 >#### [**3.09 Play the Game of Pig**](#ch3-09)
@@ -4943,7 +4943,7 @@ named Remy Sharp.
   style="width:45%;"
   title="What is a Polyfill?"
   alt="What is a Polyfill?" />
-<img src="./images/image281.png"
+<img src="./images/image284.png"
   style="width:45%;"
   title="Some Examples of Polyfill"
   alt="Some Examples of Polyfill." />
@@ -5680,10 +5680,11 @@ scrolling down and these numbers must be coming in, when I&apos;m clicking
 on one of these links, I must have left a console log open in that
 script as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 329.  (171) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 329. lines 27-47 of script.js (171) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image329.png"
-  alt="."
+  title="Lines 27-47 of script.js"
+  alt="Lines 27-47 of script.js."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5706,6 +5707,7 @@ jQuery, and one that works with plain Vanilla JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 330. resizing function (2.27) (172) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image330.png"
+  title="2.27 Resizing Function"
   alt="2.27 Resizing Function."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
@@ -5715,10 +5717,11 @@ when I&apos;m resizing my Window. So over here I&apos;m going to get rid of a
 little bit of spacing in here just because, I want to be able to see
 everything here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 331.  (172) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 331. lines 28-47 of script.js (172) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image331.png"
-  alt="."
+  title="Lines 28-47 of script.js"
+  alt="Lines 28-47 of script.js."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5732,10 +5735,11 @@ And here I&apos;m just a Window.outevent listener and I&apos;m going to look for
 a resize event. Eminent type functioning, that&apos;s going to run when the
 Window resize is semi code and we will put stuff in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 332.  (173) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 332. lines 37-54 of script.js (173) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image332.png"
-  alt="."
+  title="Lines 37-54 of script.js"
+  alt="Lines 37-54 of script.js."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5743,10 +5747,11 @@ Now remember when we were doing JQuery, we used our JQuery object to get
 the Window and we use the on method to then capture the resize event and
 run a function. That&apos;s how we did it with JQuery.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 333.  (173) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 333. lines 37-52 of script.js (173) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image333.png"
-  alt="."
+  title="Lines 37-52 of script.js"
+  alt="Lines 37-52 of script.js."
   style="border: 2px solid black; border-radius:15px; width:50%;" />
 </p>
 
@@ -5916,14 +5921,16 @@ little bit, makes it a little bit more compact. Maybe be helpful with
 some comments, I don&apos;t know.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 342/343.  (179) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 342/343. 18-37, 22-41 of script.js (179) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image342.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Lines 18-37 of script.js"
+  alt="Lines 18-37 of script.js." />
 <img src="./images/image343.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Lines 22-41 of script.js"
+  alt="Lines 22-41 of script.js." />
 </p>
 
 All right great. So now that we&apos;ve got this, the last thing we need to
@@ -5992,7 +5999,6 @@ that&apos;s up to you.
     target="_blank" rel="noopener noreferrer">
 	2.28 JavaScript Scroll Effects (pdf)</a></li>
 </ul>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-29">2.29 Scription Site Introduction (5:54)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6068,14 +6074,16 @@ comes together. And then you can take on the challenge of adding the
 interactive elements because you&apos;ll understand how the HTML and CSS
 come together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 353/354.  (184) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 353/354. scription part 1a, header, slider.html (184) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image353.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Scription Part 1a"
+  alt="Scription Part 1a." />
 <img src="./images/image354.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Header and Slider.html"
+  alt="Header and Slider.html." />
 </p>
 
 We&apos;ll be copying and pasting from snippets and I have some snippets
@@ -6084,14 +6092,16 @@ to build up our html. I&apos;ve got more snippets for the CSS so you&apos;ll see
 how that all comes together. Okay so we&apos;ve got that and that&apos;s really
 cool.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 355/356.  (185) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 355/356. scription start file, part 1 start (185) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image355.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Scription Start File"
+  alt="Scription Start File." />
 <img src="./images/image356.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
-  alt="." />
+  title="Scription Part 1 start"
+  alt="Scription Part 1 start." />
 </p>
 
 There are a few things to pay attention to before we really start. There
@@ -6101,11 +6111,12 @@ html file. There are links to normalize CSS script and what that does is
 it ensures that styling is the same or very similar between browsers,
 normalizes the differences between different browsers.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 357.  (185) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 357. 13-30 on index.html (185) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image357.png"
   style="width:50%;"
-  alt="." />
+  title="Lines 13-30 on index.html"
+  alt="Lines 13-30 on index.html." />
 </p>
 
 Then you&apos;ll see that there are links to the google fonts that we&apos;re
@@ -6118,26 +6129,30 @@ The site will be constructed with this mobile first approach where
 we&apos;ll be adding layout for the larger screens in the media queries. The
 page will be responsive but it&apos;s not RESPONSIVE.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 358/359.  (186) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 358/359. lines 1-16, lines 20-33 of index.html (186) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image358.png"
   style="width:45%;"
-  alt="." />
+  title="Lines 1-16 of index.html"
+  alt="Lines 1-16 of index.html." />
 <img src="./images/image359.png"
   style="width:45%;"
-  alt="." />
+  title="Lies 20-33 of index.html"
+  alt="Lies 20-33 of index.html." />
 </p>
 
 You can see here is the link for the normal script and the google fonts.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 360/361.  (186) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 360/361. lines 25-44 & 35-54 of styles.css (186) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image360.png"
   style="width:45%;"
-  alt="." />
+  title="Lines 25-44 of styles.css"
+  alt="Lines 25-44 of styles.css." />
 <img src="./images/image361.png"
   style="width:45%;"
-  alt="." />
+  title="Lines 35-54 of styles.css"
+  alt="Lines 35-54 of styles.css." />
 </p>
 
 Our stylesheet, we&apos;ve got links for jQuery easing and on the style
@@ -6145,22 +6160,24 @@ sheet we have some sections that we can put our different pieces in. So
 those are all in place and ready to go along with some media queries for
 the bottoms of the page and getting it all into place that way.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 362.  (187) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 362. lines 1-20 of styles.css (187) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image362.png"
   style="width:50%;"
-  alt="." />
+  title="Lines 1-20 of styles.css"
+  alt="Lines 1-20 of styles.css." />
 </p>
 
 And then on the JavaScript we have a script file with some comments for
 where you&apos;re going to put your scripts but you&apos;ll be adding that in a
 later lesson for here, you&apos;re just going to build up this html and CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 363.  (187) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 363. example, basic html structure (187) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image363.png"
   style="width:50%;"
-  alt="." />
+  title="Example, Basic HTML Structure"
+  alt="Example, Basic HTML Structure." />
 </p>
 
 Now we&apos;re ready to get started and the first thing we need to do is put
@@ -6168,16 +6185,17 @@ our basic site structure in place. So this is the basic structure of the
 page. We&apos;ve got a header and then we&apos;ve got a dip for the slider and
 then we&apos;ve got a section for each part of the page as you scroll down
 the page.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 364/365.  (188) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 364/365. scription web site (188) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image364.png"
   style="width:45%;"
-  alt="." />
+  title="Scription Web Site"
+  alt="Scription Web Site." />
 <img src="./images/image365.png"
   style="width:45%;"
-  alt="." />
+  title="Scription Web Site, cont'd"
+  alt="Scription Web Site, cont'd." />
 </p>
 
 So going back to our design here, if we look at this, you&apos;ll see up
@@ -6187,14 +6205,16 @@ that&apos;s a section, that&apos;s a section, that&apos;s a section and that&apo
 section, so we&apos;ll be put and then the footer. So we&apos;ve got all of
 those pieces in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 366/367.  (188) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 366/367. scription part 1a & lines 18-37 index.html (188) ~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image366.png"
   style="width:45%;"
-  alt="." />
+  title="Scription Part 1a"
+  alt="Scription Part 1a." />
 <img src="./images/image367.png"
   style="width:45%;"
-  alt="." />
+  title="Lines 18-37 of index.html"
+  alt="Lines 18-37 of index.html." />
 </p>
 
 So to get that going, we&apos;re going to start adding this HTML to our page
@@ -6631,14 +6651,16 @@ still accessible.
 In the last lesson (2.31), we finished with the html, and now we are
 going to start styling, and getting the styling in place.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 405/406.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 405/406. scription, part 1a responsive (203) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image405.png"
   style="width:45%;"
-  alt="." />
+  title="Scription, part 1a web site"
+  alt="Scription, part 1a web site." />
 <img src="./images/image406.png"
   style="width:45%;"
-  alt="." />
+  title="Scription Responsive web site"
+  alt="Scription Responsive web site." />
 </p>
 
 And, I have a new set of snippets, so, you make sure you open this
@@ -6647,11 +6669,12 @@ it goes fairly quickly. But hopefully you have got all of this in place.
 And, what I recommend you do is we are going to do a mobile first
 approach.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 407.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 407. responsive scription website (203) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image407.png"
   style="width:50%;"
-  alt="." />
+  title="Responsive Scription Website"
+  alt="Responsive Scription Website." />
 </p>
 
 What I recommend you do is right-click on the page and choose, inspect
@@ -6666,11 +6689,12 @@ all set with that and from here we can go over, and start working on
 some styling for the page here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 408.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 408. example, basic resets (203) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image408.png"
   style="width:50%;"
-  alt="." />
+  title="Example, Basic Resets"
+  alt="Example, Basic Resets." />
 </p>
 
 Now, I have some initial basic resets. The normalized CSS helps smooth
@@ -6701,11 +6725,12 @@ using some variables for the colors of the page. So, if you wanted to
 change the colors of the page, you could just change them here once and
 it will change it throughout the, throughout the whole page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 409.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 409. scription color scheme (203) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image409.png"
   style="width:50%;"
-  alt="." />
+  title="Scription color scheme"
+  alt="Scription color scheme." />
 </p>
 
 If we come over and look at the design here, you can see if I move up
