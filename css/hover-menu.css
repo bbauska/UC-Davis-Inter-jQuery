@@ -2,9 +2,9 @@
   position: relative;
   overflow: hidden;
   margin: 8px;
-  min-width: 340px;
-  max-width: 480px;
-  max-height: 290px;
+  min-width: 340px;  /* 340px */
+  max-width: 480px;  /* 480px */
+  max-height: 290px;  /* 290px */
   width: 100%;
   background: #000;
   text-align: center;
@@ -28,7 +28,7 @@
   position: absolute;
   top: 0;
   left: -120px;
-  width: 120px;
+  width: 180px;  /* 120px */
   height: 100%;
   padding: 8px 4px;
   background: #000;
