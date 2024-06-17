@@ -27,8 +27,8 @@
 .hover-menu div {
   position: absolute;
   top: 0;
-  left: -150px;
-  width: 150px;  /* 120px */
+  left: -120px;  /* -120px */
+  width: 120px;  /* 120px */
   height: 100%;
   padding: 8px 4px;
   background: #000;
@@ -55,7 +55,7 @@
 
 .hover-menu:hover img {
   opacity: 0.5;
-  right: -150px;  /* -120px; */
+  right: -120px;  /* -120px; */
 }
 
 .hover-menu:hover div {
