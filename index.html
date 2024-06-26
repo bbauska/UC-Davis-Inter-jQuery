@@ -332,7 +332,6 @@ for breaking larger programs into smaller, more manageable pieces.</p>
 
 <ul>
   <li><a href="/zip/4.02-GameofPig-START.zip" 
-https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/zip/1.04-FlexsliderBasic-START.zip
     target="_blank" rel="noreferrer noopener"
 	alt="4.02 Game of Pig (download ZIP).">
     4.02 Game of Pig START (download ZIP)</a></li>
@@ -444,7 +443,7 @@ series of challenges.</p>
 </ol>
 
 <ul>
-  <li><a href="/zip/2.02-jQuery-ScrollEffects-START.zip" 
+  <li><a href="/zip/2.02-jQuery-Scroll-Effects-START.zip" 
     alt="2.02 jQuery Scroll Effects START (download ZIP)."
     target="_blank" rel="noopener noreferrer">
     2.02 jQuery Scroll Effects START (download ZIP)</a></li>
@@ -491,7 +490,7 @@ series of challenges.</p>
 </ol>
 
 <ul>
-  <li><a href="/zip/2.18-JS-ScrollEffects-START.zip" 
+  <li><a href="/zip/2.18-JS-Scroll-Effects-START.zip" 
     alt="2.18 JavaScript Scroll Effects START (download ZIP)." 
     target="_blank" rel="noreferrer noopener">
     2.18 JS Scroll Effects START (download ZIP)</a></li>
@@ -1828,7 +1827,7 @@ do that in the next lesson.</p>
   alt="1.08 FlexSlider Rules."
   style="width:40%" >
 
-<p>In the last lesson (1.07), we got the Flexslider working, and it's
+<p>In the last lesson (1.07), we got the FlexSlider working, and it's
 working great. It's functional. All the pieces are functioning, but it's
 got some weird issues that we need to fix in terms of the layout in the
 styling.</p>
@@ -1838,8 +1837,8 @@ styling.</p>
   src="./images/image069.png"
   loading="lazy"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
-  title="Inspect flexslider element style for each image"
-  alt="Inspect flexslider element style for each image." />    
+  title="Inspect FlexSlider element style for each image"
+  alt="Inspect FlexSlider element style for each image." />    
 <img class="border"
   src="./images/image070.png"
   loading="lazy"
@@ -1848,7 +1847,7 @@ styling.</p>
   alt="FlexSliderBasic-Start index.html." />
 <p style="clear: both;"></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 71/72. flexslider rules in styles.css (43) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 71/72. FlexSlider rules in styles.css (43) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
   src="./images/image071.png"
   loading="lazy"
@@ -1859,8 +1858,8 @@ styling.</p>
   src="./images/image072.png"
   loading="lazy"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
-  title="Update styles for flexslider class"
-  alt="Update styles for flexslider class." />
+  title="Update styles for FlexSlider class"
+  alt="Update styles for FlexSlider class." />
 <p style="clear: both;"></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 73/74. it should be working, test (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1878,30 +1877,30 @@ styling.</p>
   alt="Test, example scroll left and right." />
 <p style="clear: both;"></p>
 
-<p>For example, why is my Flexslider sticking out on the edge over here?
+<p>For example, why is my FlexSlider sticking out on the edge over here?
 What's up with this gap? What if I wanted to change the color of these
 dots down here? These are things that I can adjust if I start poking
 around in the CSS. If I right click on this and choose "Inspect", I'll
 get my inspector up over here and I can actually see if I come in here
-to "My Class" Flexslider here that it's got some margin on it here.
+to "My Class" FlexSlider here that it's got some margin on it here.
 Let's see what else does it have here?</p>
 
 <p>If we want to adjust the border, we can make a rule on our own style
-sheet that attaches to dot Flexslider. We don't want to adjust their
+sheet that attaches to dot FlexSlider. We don't want to adjust their
 style sheet. If I wanted to get rid of that border, I could go poking
-around in these files for the jQuery Flexslider CSS. That's the actual
-minimized file. There was the Flexslider CSS. I could go poking around
+around in these files for the jQuery FlexSlider CSS. That's the actual
+minimized file. There was the FlexSlider CSS. I could go poking around
 in here and see if I can make changes here, but I don't want to do that
 because if I ever update this slider script to a newer version, I don't
 want to lose any changes that I've made. This is one of the main reasons
 why I want to make sure that my CSS file loads after their CSS file
-because if I can add a rule on my CSS file that says dot Flexslider,
+because if I can add a rule on my CSS file that says dot FlexSlider,
 then I can override the rule over here.</p>
 
-<p>I want to rule for dot Flexslider, I want to set the margin to this zero
+<p>I want to rule for dot FlexSlider, I want to set the margin to this zero
 20 pixels. Zero on the top and bottom, 20 pixels in the left and right,
 border none, border radius zero. That will clear out some of those
-styles and clean-up the styling of the actual Flexslider. Let's add that
+styles and clean-up the styling of the actual FlexSlider. Let's add that
 to ours. How do I know that? Just by poking around in their CSS file. I
 want to make sure I'm on my CSS file.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1922,12 +1921,12 @@ want to make sure I'm on my CSS file.</p>
 
 <p>Then somewhere in here you can put it wherever you want, it doesn't
 really matter. Make sure it goes above the media queries. I'm going to
-make a comment here that says, "Flexslider styles" and in here I can
-make a real dot Flexslider. Margin I want it zero in the top and bottom
+make a comment here that says, "FlexSlider styles" and in here I can
+make a real dot FlexSlider. Margin I want it zero in the top and bottom
 and 20 pixels in left and right, I want <b>border;none</b>. No border at
 all and border radius zero to give it square edges. Just with that one
 rule in place here, if I come back and check my page, you'll notice the
-Flexslider looks better here. It's fitting into the space well, and I've
+FlexSlider looks better here. It's fitting into the space well, and I've
 got rid of that gap and all that stuff.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. inspect example site (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1969,7 +1968,7 @@ background color. Save that and come back and test it.</p>
 <p>You can see my colors now overriding the color that was there before and
 I can go ahead and click on these things and they all work. That's
 great. You want to put styling on your own style sheet that will
-override styles on the Flexslider's CSS to customize it, to make it look
+override styles on the FlexSlider's CSS to customize it, to make it look
 the way you want it to look. Finding out what those styles are, or just
 a matter of using the inspector and hunting around to see what rules are
 being applied that you might want to change to get it to style and look
@@ -2071,8 +2070,8 @@ syntax because we'll see it a lot, especially with the plugins.</p>
   src="./images/image086.png"
   loading="lazy"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
-  title="myscript.js flexslider options"
-  alt="myscript.js flexslider options." />    
+  title="myscript.js FlexSlider options"
+  alt="myscript.js FlexSlider options." />    
 <img class="border"
   src="./images/image087.png"
   loading="lazy"
@@ -2351,8 +2350,8 @@ display of the slides.</p>
   src="./images/image105.png"
   loading="lazy"
   style="width:45%; float: left; margin-left: 3%; margin-bottom: 1em;"
-  title="Rules for flexslider"
-  alt="Rules for flexslider." />    
+  title="Rules for FlexSlider"
+  alt="Rules for FlexSlider." />    
 <img class="border"
   src="./images/image106.png"
   loading="lazy"
@@ -2856,8 +2855,8 @@ one or more files that are compressed for storage or transmission, often
 carrying the extension .ZIP.</p>
 
 <ul>
-  <li><a href="./zip/2.02-ScrollEffects-START.zip"
-    alt="2.02 Scroll Effects START (download ZIP)."   
+  <li><a href="./zip/2.02-jQuery-Scroll-Effects-START.zip"
+    alt="2.02 jQuery Scroll Effects START (download ZIP)."   
     target="_blank" rel="noopener noreferrer">
     2.02 jQuery Scroll Effects START (download ZIP)</a></li>
 </ul>
@@ -5068,10 +5067,10 @@ run that way.</p>
 <h3>Start Files: Smooth Scroll with JavaScript –</h3>
 
 <ul>
-  <li><a href="./zip/2.18-ScrollEffects-START.zip"
+  <li><a href="./zip/2.18-JS-Scroll-Effects-START.zip"
     alt="2.18 Scroll Effects START (download ZIP)."
     target="_blank" rel="noopener noreferrer">
-    2.18 Scroll Effects START (download ZIP)</a></li>
+    2.18 JS Scroll Effects START (download ZIP)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-19">2.19 Getting the Target – Part 1 (4:50)</h2>
@@ -6607,26 +6606,26 @@ you my finished file so you could do this without going through this.
 But I think it's helpful to go through it anyway.</p>
 
 <ul>
-  <li><a href="./zip/2.29-Scription-Part1-START.zip"
+  <li><a href="./zip/2.29-ScriptionPart1-START.zip"
     target="_blank" rel="noopener noreferrer"
     alt="2.29 Scription Part 1 START (download ZIP).">
     2.29 Scription Part 1 START (download ZIP)</a></li>
-  <li><a href="./zip/2.29-Scription-Part1-Snippet.zip"
+  <li><a href="./zip/2.29-ScriptionPart1-Snippet.zip"
     target="_blank" rel="noopener noreferrer"
     alt="2.29 Scription Part 1 Snippet (download ZIP).">
     2.29 Scription Part 1 Snippet (download ZIP)</a></li>
-  <li><a href="./zip/2.29-Scription-Part2-START.zip"
+  <li><a href="./zip/2.29-ScriptionPart2-START.zip"
     target="_blank" rel="noopener noreferrer"
     alt="2.29 Scription Part 2 START (download ZIP).">
     2.29 Scription Part 2 START (download ZIP)</a></li>
-  <li><a href="./zip/2.29-Scription-Part2-Snippet.zip"
+  <li><a href="./zip/2.29-ScriptionPart2-Snippet.zip"
     target="_blank" rel="noopener noreferrer"
     alt="2.29 Scription Part 2 Snippet (download ZIP).">
     2.29 Scription Part 2 Snippet (download ZIP)</a></li>
-  <li><a href="./zip/2.29-FlexSlider-Files.zip" 
+  <li><a href="./zip/2.29-FlexSliderFiles-START.zip" 
     target="_blank" rel="noopener noreferrer"
     alt="2.29 Flex Slider Files (download ZIP).">
-    2.29 Flex Slider Files (download ZIP)</a></li>	
+    2.29 Flex Slider Files START (download ZIP)</a></li>	
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8498,14 +8497,14 @@ breaking and change that one to let. Usually it's const.</p>
 <img class="displayed"
   src="./images/image516.png"
   loading="lazy"
-  title="Challenge 2 - Add the Flexslider"
-  alt="Challenge 2 - Add the Flexslider."
+  title="Challenge 2 - Add the FlexSlider"
+  alt="Challenge 2 - Add the FlexSlider."
   style="width:50%" />
 
-<p>Challenge 2, add the Flexslider. For this challenge, turn the image at
-the top of the page into a flexslider. To do this, go back to the
-Flexslider lesson for a reminder on how the Flexslider works. Add the
-link to the Flexslider the CSS to the index file at the markup for the
+<p>Challenge 2, add the FlexSlider. For this challenge, turn the image at
+the top of the page into a FlexSlider. To do this, go back to the
+FlexSlider lesson for a reminder on how the FlexSlider works. Add the
+link to the FlexSlider the CSS to the index file at the markup for the
 additional slides, the index file. By the way, I've provided some
 additional snippets so that adding this markup will be easier.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8517,15 +8516,15 @@ additional snippets so that adding this markup will be easier.</p>
   alt="Additional HTML for Scription."
   style="width:50%" />
 
-<p>Here are all the list items that you need for the Flexslider and I
+<p>Here are all the list items that you need for the FlexSlider and I
 will provide this file for you so you can just paste this right in. You
 don't have to do a lot of tedious typing and all that stuff, which is
 what I did when I made this. I'm saving you the pain that I went through
 by providing you with these snippets.</p>
 
-<p>You'll add the additional markup, add the link to the Flexslider JS script to the 
+<p>You'll add the additional markup, add the link to the FlexSlider JS script to the 
 bottom of the index file. I provided with this lesson, again, the download for the
-Flexslider's files. You'll need those in order to make this work.</p>
+FlexSlider's files. You'll need those in order to make this work.</p>
 
 <p>Adjust the styling in the CSS file and add appropriate script to the JS
 file to initialize the slider. I did modify the slider a little bit with
@@ -8555,7 +8554,7 @@ as well.</p>
   alt="Challenge 3 - Add Tabs."
   style="width:50%" />
 
-<p>Once you get the Flexslider done, you can go on to, Challenge 3, add
+<p>Once you get the FlexSlider done, you can go on to, Challenge 3, add
 the tabs. For this challenge add the script to make the tabs work in the
 pricing section. You need to learn how to make the tabs. In the second
 course, you learned how to make the tabs earlier on in this course and
