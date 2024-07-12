@@ -890,6 +890,7 @@ by the plugin documentation. Often, you'll have to use divs or our
 articles or other elements with particular classes that the plugin needs
 in order for it to actually work. Classes or IDs or other, structures
 that the plugin needs to work.</p>
+
 <p><b><mark>Step 2</mark>,</b> you need to make sure jQuery is linked.
 The jQuery libraries linked because if you're using a jQuery plugin,
 then you need to have jQuery decide if you're going to put your scripts
@@ -898,6 +899,7 @@ put them whichever place you want, sometimes the plugin directions will
 tell you to put them in one place or the other. But frequently you can
 make your own decision on this and put it where you want it to go and
 architect your file the way you want it to be structured.</p>
+
 <p><b><mark>Step 3</mark>,</b> is to link the plugin file and when you
 download a plugin, frequently it will come with a compressed version and
 an uncompressed version. The uncompressed version is there for you to
@@ -908,12 +910,14 @@ you want to use the compressed version because it will be smaller, and
 it'll download faster. So, if they provide a compressed one, then you
 should use that, if they don't provide a compressed one, you can
 compress it yourself.</p>
+
 <p><b><mark>Step 4</mark>,</b> link to the plug in CSS file, some of
 the fancier plugins will come with styling that will style the elements
 inside of the plugin. And, this is usually included so that everything
 looks and works the way it's supposed to work within the interface for
 that plugin, so you want to make sure you get that CSS file linked onto
 your page.</p>
+
 <p>Then <b><mark>Step 5</mark></b>, is you need to initialize the setup
 of the plugin in your own script tag, or on your own linked JavaScript
 file. Often, you can set additional options so that when the function is
@@ -5831,17 +5835,20 @@ actually exactly the same as what we had in the previous script. In fact, I don'
 it's different really, even at all. I'm going to comment out this console log call there. 
 We don't really need that now. But here I'm seeing if pagetop is greater than the 
 <b>postTops</b> <b>counter</b>.</p>
+
 <p>The <b>counter</b> starts at one, so if it's greater than the first element inside 
 <b>postTops</b>, the <b>counter</b> is going to get incremented. If we're on the first 
 section, we go into the second section, this <b>counter</b> would be one, and so now 
 we're in that second section, then we should increment the counter and we must be 
 scrolling down. Then when we go into the third section, we'll increment the <b>counter</b> 
 again and so on and so forth as we get down to the bottom of the page.</p>
+
 <p>Then the else if, we're going to check to see if the <b>counter</b> is greater than 
 one, not greater than zero this time, but greater than one, is a greater than one, 
 because one is our first section, and if <b>pagetop</b> is less than <b>postTops</b> 
 counter minus one. If it's less than that, then we must be scrolling up if both of these 
 are true, in which case will decrement the counter.</p>
+
 <p>Let's give this a try. This should be showing us in our console over here. You come 
 back. Let's go up to the top of the page, click "Refresh" and then scroll down the page. 
 When I get to that second section, and that second section it's 250 pixels from the top 
@@ -5914,6 +5921,7 @@ going to add an if. If <b>counter</b> is not the same as
 use my <b>forEach</b> and I already have up here at the top of the page,
 I already have <b>navLinks</b> gathering all these, so we've already got
 this variable so we can just use it again.</p>
+
 <p>Just like before, I'm going to just do now <b>navLinks</b> for each
 function, curly braces, each links. It's going to go through each links
 of <b>navLinks</b>, and what is it going to do here, we're going to say,
@@ -5970,6 +5978,7 @@ in a one that would get the first link, the two would get the second
 link, the three would get the third link and so on. So this is why we're
 using 1, 2, 3, 4 and 5 four our counters instead of 0, 1, 2, 3 and 4, in
 the script.</p>
+
 <p>And the jQuery script, we use the <b>EQ method</b> to find the the
 first, second, third and fourth link but that's zero indexed. So the
 first one and that one is 0, or is the first one and this one is 1, so
@@ -6029,10 +6038,11 @@ sections. And not only that, but when you click on these, it'll actually
 highlight their correct section, as you're going to and even sort of
 highlight in between, it's that fast. So that's working really great,
 I'm really pleased with the way that works.</p>
-Over here in my console log, I can see where I'm scrolling up and
+
+<p>Over here in my console log, I can see where I'm scrolling up and
 scrolling down and these numbers must be coming in, when I'm clicking on
 one of these links, I must have left a console log open in that script
-as well.
+as well.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 329. 28-46 of script.js (172) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6048,6 +6058,7 @@ we don't really need this one or this one, or up here and I must have
 one up here somewhere as well here it is original top. So I don't need
 those or you could just to keep them all together and that's great, and
 the script is working.</p>
+
 <p>The last thing that we need to do is take care of the situation, there's
 edge cases of what happens if somebody is resizing the window, or if
 they refresh the page while you're scrolled down the page. And so we'll
@@ -6083,9 +6094,10 @@ listener for my scroll function here, so I want to add it after that,
 but before my event listener for when the Window loads. So when I added
 in here, make sure you're putting it in the right place because that's
 really important.</p>
-And here I'm just a Window.outevent listener and I'm going to look for a
+
+<p>And here I'm just a Window.outevent listener and I'm going to look for a
 resize event. Eminent type functioning, that's going to run when the
-Window resize is semi code and we will put stuff in here.
+Window resize is semi code and we will put stuff in here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 332. jquery, on resize function (174) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6240,6 +6252,7 @@ and really, this is the actual number that represents the top of the
 post. For each post, I want to do an if statement. If pagePosition is
 greater than the post, that number for how far down the page that is, if
 that's true then, I want to increment counter ++.</p>
+
 <p>Now think about this for a second, pagePosition is going to be at
 least 250 pixels. If I'm scrolled up at the very top of the window, it's
 going to be at least 250. This first post, we know is 200. So, even if
@@ -6250,6 +6263,7 @@ and in the second post, then it's going to get incremented, not once but
 twice. Because, it's going to go through posts each time. So, it's going
 to check, is it larger than the first post? Yes. Is it larger than the
 second post? Yes. So, then it's going to get incremented twice.</p>
+
 <p>If we're scrolled further down the page inside the third post, then
 this is going to go and it's going to say, am I larger than the first
 post? Yes, am I larger than the second post? Yes. Am I larger than the
@@ -6260,12 +6274,14 @@ is not going to run, it's not going to get incremented. Counters can end
 up being the number that matches how far down the page we are and which
 post is actually showing. It's a little tricky but hopefully it makes
 sense.</p>
+
 <p>The next thing we need to do is remove the class from each link and
 we did that up here. We already have that up here. This for each year.
 So, I'm just going to copy that one. And come down here and paste that
 in. Make sure you put it in the right place. This is closing out this
 for each group here, knave links for each, I'm just going to remove the
 class.</p>
+
 <p>Once we remove the class, we're just going to do this same thing
 here. So, the correct link gets highlighted. So, it's kind of a long
 function, where it looks long and we could probably shorten it up. This
@@ -6290,10 +6306,10 @@ some comments, I don't know.</p>
   alt="script.js - 22-41." />
 <p style="clear: both;"></p>
 
-The last thing we need to do, we need to run it again up at the top of the 
+<p>The last thing we need to do, we need to run it again up at the top of the 
 page. And we can run it instead of this stuff, we can get rid of this all together 
 because we're going to include doing that, so we don't need to do that again, we 
-can just run it here. And that should work. Let's go over and test it out really quickly.
+can just run it here. And that should work. Let's go over and test it out really quickly.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 344/345. test console, smooth scroll, first & third sections (181) ~~~~~~~~~~~~~-->
 <img class="border"
@@ -7038,6 +7054,7 @@ semantic markup to make sure that things that are articles are marked,
 articles, things that are lists are marked lists. Headings, have the
 correct headings on them have the correct levels of headings on them and
 all of this kind of stuff.</p>
+
 <p>We want to make sure that everything is marked up properly because
 Google will be looking at it and scanning it over and using this kind of
 information to make your page findable. So it's really important to make
@@ -7107,6 +7124,7 @@ here. This button when it is toggled on, you can actually set aside
 through yours for your page here, and I am going to set it to like
 iPhone 6, 7 and eight that seems like a good size to set to begin
 with.</p>
+
 <p>And yeah, so, there we are and hopefully that is all working well if
 I got the yes, if you port things set there. Okay, good, so we should be
 all set with that and from here we can go over, and start working on
@@ -7127,6 +7145,7 @@ development. Removing padding and margin from a bunch of elements helps
 removing bullets from a new ordered lists, and ordered lists if they
 happen to be inside of Nab elements often helps the asterix on the
 box.</p>
+
 <p>Sizing means that I am going to switch everything from using box
 sizing, content box to box sizing border box. If you do not know the
 difference between those two, I recommend that you look it up and become
@@ -7139,6 +7158,7 @@ set the width of the elements of 500 pixels that will include the
 padding, and the border, not just the content. And, so that is usually
 pretty helpful to have set, and we will just set it that way for
 everything for images.</p>
+
 <p>I am going to set the max within those 200, and I like to set them to
 display block images by default are in line elements, but we rarely use
 them in line. So, I think it is helpful to set them to display block. I
@@ -7181,6 +7201,7 @@ not stick with it exactly, but it is helpful to do that.</p>
 <p>All right, so you can come over to our snippets here, and copy this
 first snippet which has all the basic styling on it, and paste it in
 over here on our style sheet.</p>
+
 <p>We are going to start working on the stylesheet, and I am going to go
 all the way up to the top, and put this stuff into the basics reset
 section here, save that. And, visual studio code does not like my
@@ -11732,7 +11753,7 @@ that are very simple and easy to integrate into web pages. In this
 course, we've gotten even deeper into it with <b>jQuery plug-ins</b> and
 we even created a game.</p>
 
-<p>So with all of this, you've really developed a lot of JavaScript skills
+<p>With all of this, you've really developed a lot of JavaScript skills
 so far. We have a fourth course in the specialization, and in that
 course, we'll get even more complex scripts, and I promise you're going
 to learn even more JavaScript and you'll get even better at it and
@@ -11745,6 +11766,7 @@ you'll get more practice. So I look forward to seeing you there.</p>
 <h6>Last Updated 6/10/2024 10+pm</h6>
 <h6>Last Updated 6/17/2024 Mon 3+pm</h6>
 <h6>Last Updated 6/25/2024 Tue 8+pm</h6>
+<h6>Last Updated 7/12/2024 Fri 1+am</h6>
 
 </body>
 </html>
