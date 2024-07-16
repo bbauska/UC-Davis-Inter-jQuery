@@ -25,6 +25,7 @@
 </head>
 <body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <script src="./js/smoothscroll.js"></script>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -59,6 +60,9 @@
     <h6 style="text-align:center;">(by William Mead, Lecturer - University of California 
     <span class="citation" data-cites="Davis">@Davis</span>)</h6>
   </header>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', smoothscroll);
+  });
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. jquery & javascript logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -1650,8 +1654,8 @@ here. That's this one here.</p>
 <img class="border displayed"
   src="./images/image055.png"
   loading="lazy"
-  title="MyScript.js: Add flexslider function"
-  alt="MyScript.js: Add flexslider function."
+  title="MyScript.js: Add FlexSlider function"
+  alt="MyScript.js: Add FlexSlider function."
   style="width:50%" >
 
 <p>I'm going to put it on there, <b>MyScript</b>. Take <b>FlexSlider</b>
