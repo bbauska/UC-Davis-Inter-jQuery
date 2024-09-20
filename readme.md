@@ -4,6 +4,7 @@ author: "bbauska"
 date prior editted: "3/23/2024 9+pm"
 date last editted: "4/20/2024 2+pm"
 date last editted: "5/09/2024 12+am"
+date last editted: "9/19/2024 10+pm"
 output: 
   markdown:
     with some style
@@ -6494,7 +6495,7 @@ in the right place and paste it in there.</p>
 let&apos;s put that in tab 2 content, copy all of that, that&apos;s a lot of
 content.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 391/392. tabs 3, container & section (198) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 391/392. tabs 3, container & section (199) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image391.png"
   style="width:45%;"
@@ -6526,7 +6527,7 @@ lines of code under HTML file. Okay great. So we&apos;ve got all of our tabs
 in place and then the next section we need to do, we need to work on is
 the, I have their pricing section content here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 394. example, listen section html (199) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 394. example, listen section html (200) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image394.png"
   style="width:50%;"
@@ -6539,7 +6540,7 @@ can see ID rotator. We&apos;re going to rotate block quotes. For right now,
 we&apos;ve just got one block quote in, but later when you make that work
 you can add some more block quotes.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 395/396. listen section with test scription (199) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 395/396. listen section with test scription (200) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image395.png"
   style="width:45%;"
@@ -6557,7 +6558,7 @@ That&apos;s this section down here, it&apos;s going to have this piece and this
 piece of continue which will use our rotator content rotator to actually
 rotate that around.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 397. section id = listen (200) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 397. section id = listen (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image397.png"
   style="width:50%;"
@@ -6568,7 +6569,7 @@ rotate that around.
 So you&apos;ll get lots of practice putting this together, so that&apos;s going
 to go inside this listen section here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 398. example, our team section html and footer html (200) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 398. example, our team section html and footer html (201) ~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image398.png"
   style="width:50%;"
@@ -6579,7 +6580,7 @@ to go inside this listen section here.
 And then finally after that, we have our team which isn&apos;t too long,
 that&apos;s going to be next.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 399/400. our team section id='ourteam' (201) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 399/400. our team section id='ourteam' (202) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image399.png"
   style="width:45%;"
@@ -6594,7 +6595,7 @@ that&apos;s going to be next.
 Not quite the last thing but we&apos;ll get that next and put that in our
 team.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 401/402. footer content (201) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 401/402. footer content (202) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image401.png"
   style="width:45%;"
@@ -6622,7 +6623,7 @@ information to make your page findable. So it&apos;s really important to
 make sure that you&apos;re using semantic markup properly, and with that we
 have all of our HTML in place.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 403. no style scription (202) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 403. no style scription (203) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image403.png"
   style="width:50%;"
@@ -6640,7 +6641,7 @@ still accessible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-32">2.32 Beginning Styling (6:37)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 404. beginning styling (2.32) (202) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 404. beginning styling (2.32) (203) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image404.png"
   style="width:40%;"
@@ -6740,7 +6741,7 @@ actually working with to create all of my colors on the page. And, it is
 helpful when you are designing to start with the color scheme, you may
 not stick with it exactly, but it is helpful to do that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 410/411.  (2) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 410/411. scription part 1b - adding css: basic resets (2) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image410.png"
   style="width:45%;"
@@ -9963,7 +9964,7 @@ something else, we need to swap. &lbrack;inaudible&rbrack;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-07">4.07 Add the Selection Statements (3:37)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 623. add the selection statements (4.07) (318) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 623. add the selection statements (4.07) (315) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image623.png"
   style="width:40%;"
@@ -9973,7 +9974,7 @@ something else, we need to swap. &lbrack;inaudible&rbrack;.
 
 <p>We&apos;re going to add if statements into our throw dysfunction here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 624. roll a two? or not? (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 624. roll a two? or not? (316) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image624.png"
   style="width:50%;"
@@ -9987,7 +9988,7 @@ to once, if it&apos;s exactly the same as a two, then we&apos;re going to say
 something like console log, snake eyes. We&apos;ll fill this out later with
 more specific instructions.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 625. test, game of pig (319) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 625. test, game of pig (316) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image625.png"
   style="width:50%;"
@@ -10000,7 +10001,7 @@ situation and then we&apos;ve got an else if. Yeah and we want to check two
 values. We want to check the value of roll one and the value of roll two
 and if either one of them comes up a one, we want to do.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 626. test, game of pigs (319) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 626. test, game of pigs (317) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image626.png"
   style="width:50%;"
@@ -10016,24 +10017,24 @@ is over and then we&apos;ve got the else. And for that, we can just copy
 this, paste it and saying the game continues, Roll again or pass and
 we&apos;ll deal with that separately.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 627/628. test, game of pig (320) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 627/628. test, game of pig (317) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image627.png"
   style="width:45%;"
-  title="Test, game of pig"
-  alt="Test, game of pig." />
+  title="Test roll 8, game of pig"
+  alt="Test roll 8, game of pig." />
 <img src="./images/image628.png"
   style="width:45%;"
-  title="Test, game of pig"
-  alt="Test, game of pig." />
+  title="Test roll 10, game of pig"
+  alt="Test roll 10, game of pig." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 629. test, game of pig (320) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 629. test, game of pig (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image629.png"
   style="width:40%;"
-  title="Test, game of pig"
-  alt="Test, game of pig." />
+  title="Test roll 4, game of pig"
+  alt="Test roll 4, game of pig." />
 </p>
 
 <p>So now we&apos;ve got three situations to deal with here. Let&apos;s just make
@@ -10047,7 +10048,7 @@ until you&apos;ve gotten all of those things checked.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-08">4.08 Snake Eyes! (7:11)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 630. snake eyes! (4.08) (321) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 630. snake eyes! (4.08) (318) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image630.png"
   style="width:40%;"
@@ -10056,7 +10057,7 @@ until you&apos;ve gotten all of those things checked.</p>
 </p>
 <p>Let&apos;s handle Snake Eyes first.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 631. snake eyes! (321) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 631. snake eyes! (319) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image631.png"
   style="width:50%;"
@@ -10067,7 +10068,7 @@ until you&apos;ve gotten all of those things checked.</p>
 <p>We&apos;ll fill out each of these if statements, but we&apos;ll do Snake Eyes
 first. If we get a 2, let&apos;s deal with that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 632. add to the innerhtml of the game (322) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 632. add to the innerhtml of the game (319) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image632.png"
   style="width:50%;"
@@ -10092,12 +10093,12 @@ to 0. So, we&apos;re setting it to 0 there because we&apos;re zeroing out their
 score because that&apos;s what happens if you roll to ones as you lose all
 the points you&apos;ve gotten so far.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 633. snake eyes! (323) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 633. example, snake eyes! (320) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image633.png"
   style="width:50%;"
-  title="Snake Eyes!"
-  alt="Snake Eyes!" />
+  title="Example, Snake Eyes!"
+  alt="Example, Snake Eyes!" />
 </p>
 
 <p>Then we need to switch players and we could do this with an if
@@ -10107,7 +10108,7 @@ of doing that. And that&apos;s using what&apos;s called the <b>ternary
 operator</b>. We see it over here, so I&apos;m going to set
 <b>gameData.index</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 634. gamedata.index true or false? (323) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 634. gamedata.index true or false? (321) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image634.png"
   style="width:50%;"
@@ -10141,7 +10142,7 @@ again. Run the setup turn function again which will put us back with the correct
 So, let&apos;s go ahead and add that setTimeout there. SetTimeout(setUpTurn, after two 
 seconds, 2000 milliseconds) and that should work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 635. test, game data roll (324) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 635. test, game data roll (322) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image635.png"
   style="width:50%;"
@@ -10158,7 +10159,7 @@ That way, we don&apos;t have to sort of keep playing and rolling until we
 try to get two 1s to pop up randomly in order to test this. So let&apos;s
 throw that in there and see what happens here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 636. roll the dice as player 1 (325) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 636. roll the dice as player 1 (322) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image636.png"
   style="width:50%;"
@@ -10170,7 +10171,7 @@ throw that in there and see what happens here.</p>
 up with 11. But then it waits 2 seconds and it says roll the dice for player 2, 
 let&apos;s try that again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 637. roll the dice as player 2 (325) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 637. roll the dice as player 2 (323) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image637.png"
   style="width:50%;"
@@ -10187,7 +10188,7 @@ testing the switch players function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-09">4.09 A "1" Was Rolled (5:19)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 638. a "1" was rolled (4.09) (326) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 638. a "1" was rolled (4.09) (323) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image638.png"
   style="width:40%;"
@@ -10197,7 +10198,7 @@ testing the switch players function.</p>
 
 <p>The next thing we&apos;re going to look at is if a one has been rolled.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 639. again, a "1" was rolled (326) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 639. again, a "1" was rolled (324) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image639.png"
   style="width:50%;"
@@ -10210,10 +10211,11 @@ anyone was rolled, either of the two dice comes up a one, then we&apos;re
 going to swap the player. Let&apos;s do that first because that&apos;s just
 using the ternary operator again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 640. ternary operator (327) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 640. ternary operator (324) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image640.png"
   style="width:50%;"
+  title="Ternary operator"
   alt="Ternary operator." />
 </p>
 
@@ -10227,7 +10229,7 @@ so a zero in JavaScript is falsy. If it&apos;s false, then it&apos;s going to do
 this. It&apos;s going to switch it to one. If it&apos;s true, then it&apos;s going
 to switch it to a zero.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 641. ternary operator in mdn (327) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 641. ternary operator in mdn (325) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image641.png"
   style="width:50%;"
@@ -10240,7 +10242,7 @@ ternary operator. If you&apos;re more curious about this particular
 expression in JavaScript or this operator in JavaScript, it&apos;s worth
 taking a look at this page here. We&apos;ve got that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 642. test, set the game index (328) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 642. test, set the game index (325) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image642.png"
   style="width:50%;"
@@ -10267,7 +10269,7 @@ say player 1. That goes back and forth. Then down here we just need to
 set time out and runs out of time again. That will work, that should
 work just fine.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 643/644. test, roll the dice (329) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 643/644. test, roll the dice (326) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image643.png"
   style="width:45%;"
@@ -10289,7 +10291,7 @@ for player 2, you roll the one switching the player 1, and now roll the dice for
 roll the dice. You roll the one switching for player 2, roll the dice. You roll the one
 switching for player 1.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 645. test, game of pig; roll the dice (329) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 645. test, game of pig; roll the dice (327) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image645.png"
   style="width:50%;"
@@ -10308,7 +10310,7 @@ continue moving on with the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-10">4.10 The Else Statement (6:36)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 646. the else statement (4.10) (330) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 646. the else statement (4.10) (327) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image646.png"
   style="width:40%;"
@@ -10319,7 +10321,7 @@ continue moving on with the game.</p>
 <p>The next thing we need to look at is the final else statement which will
 happen if you throw the dice and no one&apos;s are rolled.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 647. the else statement (330) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 647. the else statement (328) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image647.png"
   style="width:50%;"
@@ -10348,7 +10350,7 @@ going to = the <b>gameData.score</b>, it&apos;s really this line again. + <b>gam
 and make sure I did that, right? <b>gameData.index + gameDtaa.rollSum</b>, correct. 
 Okay from there, what we need is to set the action area and create two buttons in there.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 649. two buttons, roll again & passing (331) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 649. two buttons, roll again & passing (329) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image649.png"
   style="width:50%;"
@@ -10367,7 +10369,7 @@ that from the inside out for even typing this stuff because that will keep me fr
 making mistakes. That will help me from making mistakes, I might still make mistakes, 
 but that&apos;ll help, okay?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 650. roll again code in index.html (332) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 650. roll again code in index.html (330) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image650.png"
   style="width:50%;"
@@ -10379,7 +10381,7 @@ things. So, I&apos;m going to have an event listener <b>document.getElementById(
 again).</b> And that&apos;s going to have an <b>addEventListener</b>, and listening for 
 a click. And when you click the button we&apos;re going to run a function.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 651. setupturn, swap players (333) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 651. setupturn, swap players (330) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image651.png"
   style="width:50%;"
@@ -10399,7 +10401,7 @@ and stick it in here. And that will allow me to swap the player to the
 other player. Cool, the last thing we&apos;re going to need in here is
 we&apos;re going to need something that checks the winning condition.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 652. game of pig; start game (334) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 652. game of pig; start game (331) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image652.png"
   style="width:50%;"
@@ -10413,7 +10415,7 @@ Come over here, refresh the page, pick my player when I roll the dice, I
 get it a 2 in a 6, that adds up to 8. I don&apos;t have any scoring going on
 down here yet, but I can choose roll again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 653/654. game of pig; roll dice (334) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 653/654. game of pig; roll dice (331) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image653.png"
   style="width:45%;"
@@ -10429,7 +10431,7 @@ down here yet, but I can choose roll again.</p>
 switching to player 2. Roll the dice, I got a 2 and a 4, I can click roll again and 
 I&apos;m still on player 2 and I can roll the dice again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 655/656. game of pig; roll dice (335) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 655/656. game of pig; roll dice (332) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image655.png"
   style="width:45%;"
@@ -10449,7 +10451,7 @@ Let&apos;s stop there and we&apos;ll pick it up in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-11">4.11 Checking for a Win (6:02)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 657. 3rd major function checks for winning condition (335) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 657. 3rd major function checks for winning condition (332) ~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image657.png"
   style="width:50%;"
@@ -10459,7 +10461,7 @@ Let&apos;s stop there and we&apos;ll pick it up in the next lesson.</p>
 
 <p>The third major function we need is the function that checks for a winning condition.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 658. checking for a win (336) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 658. checking for a win (333) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image658.png"
   style="width:50%;"
@@ -10471,7 +10473,7 @@ Let&apos;s stop there and we&apos;ll pick it up in the next lesson.</p>
 function for that called <b>checkWinningCondition</b> and add that to our functions 
 down here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 659/660. within throwdice check winning conditions (336) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 659/660. within throwdice check winning conditions (333) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image659.png"
   style="width:45%;"
@@ -10486,7 +10488,7 @@ down here.</p>
 <p>So this really long function, <b>throwDice</b> goes all the way down to this closing 
 curly brace here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 661. add if..else for winning conditions (337) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 661. add if..else for winning conditions (334) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image661.png"
   style="width:50%;"
@@ -10500,7 +10502,7 @@ going to handle with what happens if you have actually achieved the winning cond
 So if winning condition met or else show current score. If we haven&apos;t won, we at 
 least ought to know how close we are to winning? So it&apos;s going to do those two things.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 662. check player score against gameend (337) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 662. check player score against gameend (334) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image662.png"
   style="width:50%;"
@@ -10531,7 +10533,7 @@ the show current score section of this <b>function</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-12">4.12 Show the Current Score (8:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 663. show the current score (4.12) (338) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 663. show the current score (4.12) (335) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image663.png"
   style="width:40%;"
@@ -10542,7 +10544,7 @@ the show current score section of this <b>function</b>.</p>
 <p>Okay, so now we need to show the current score, and make sure that that gets filled 
 out properly, if we haven&apos;t won the game, so let&apos;s go over and add this.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 664. showing the current score (339) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 664. showing the current score (336) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image664.png"
   style="width:50%;"
@@ -10564,7 +10566,7 @@ we&apos;re going to do the same thing down here, For a player two, Except that&a
 going to be 1, And this is going to be the same thing down here, Except that&apos;s 
 going to be 1.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 665. function checkwinningcondition (340) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 665. function checkwinningcondition (337) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image665.png"
   style="width:50%;"
@@ -10580,7 +10582,7 @@ I believe that&apos;s all we need let&apos;s just see over here, yep. Players&lb
 player&lbrack;1&rbrack; looks good, that all looks good all right great, so what do we 
 need to do to get this to work?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 666. function checkwinningcondition (340) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 666. function checkwinningcondition (337) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image666.png"
   style="border: 2px solid #000000; width:50%"
@@ -10592,7 +10594,7 @@ We need to run this function, Here, check winning condition, It&apos;s not
 the only place we need to run it, but let&apos;s start with that. Let&apos;s put
 it there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 667/668. test score 0 to 8 (341) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 667/668. test score 0 to 8 (338) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image667.png"
   style="border: 2px solid #000000; width:45%"
@@ -10610,7 +10612,7 @@ for player 1. So now I&apos;ve got eight and I&apos;ve got no player 2 is
 running here, and you can see that the score got added up, player 2 has
 8 points. I can click roll again and it takes me to set up the term,
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 669/670. test score 0 to 15, then 0 to 25 (341) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 669/670. test score 0 to 15, then 0 to 25 (338) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image669.png"
   style="width:45%;"
@@ -10628,7 +10630,7 @@ turn. Now I&apos;ve got 25, and if I get five or more this we should have
 the end of the game and that should trigger it so let&apos;s see what
 happens.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 671. test game player 2 wins with 33 (342) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 671. test game player 2 wins with 33 (339) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image671.png"
   style="border: 2px solid #000000; width:50%"
@@ -10640,7 +10642,7 @@ Roll the dice, and player 2 wins with 33 points, and now up here I have
 started new game, it still says roll again or pass so that&apos;s something
 that needs to be dealt with.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 672. test start game of pig with console.log (342) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 672. test start game of pig with console.log (339) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image672.png"
   style="width:50%;"
@@ -10659,7 +10661,7 @@ haven&apos;t done it yet, but if you roll two ones, you also need to fix
 that there as well. So that because that&apos;s going to change the score,
 so we want to show the score if you roll two ones.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 673. function: checkwinningcondition (343) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 673. function: checkwinningcondition (340) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image673.png"
   style="width:50%;"
@@ -10678,7 +10680,7 @@ this set time out. Doesn&apos;t actually matter, the set time out will wait
 two seconds anyway, but I&apos;m going to put it before that, there we go,
 so that helps.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 674. if win, set action area (344) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 674. if win, set action area (341) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image674.png"
   style="width:50%;"
@@ -10692,7 +10694,7 @@ I was setting the action area, actually this is what I&apos;m missing
 <b>actionArea.innerHTML</b> set that to blank, so that that will get rid of
 those buttons that I had there by accident.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 675. test game of pig (344) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 675. test game of pig (341) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image675.png"
   style="width:50%;"
@@ -10718,7 +10720,7 @@ cleanup stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-13">4.13 Final Clean-Up (8:08)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 676. final clean-up (4.13) (345) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 676. final clean-up (4.13) (342) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image676.png"
   style="width:40%;"
@@ -10736,7 +10738,7 @@ click roll again, it just rolls them again. I don&apos;t really need to go
 back to the setup turn at this point, I could just roll the dice again.
 So what can we do about that?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 677. replace setup turn with throw dice (346) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 677. replace setup turn with throw dice (343) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image677.png"
   style="width:40%;"
@@ -10752,7 +10754,7 @@ hope I get snake eyes again. There we go. Now when I click roll again it
 just rolls again, and you can see that the score is getting added
 nicely. It&apos;s a bit smoother so that works great, okay?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 678/679. find and cleanup where possible (346) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 678/679. find and cleanup where possible (343) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image678.png"
   style="width:45%;"
@@ -10775,7 +10777,7 @@ function, <b>showCurrentScore</b>, and it&apos;s really just going to be this
 stuff just because it&apos;s kind of long. And then, really all we need to
 do is run this function here, <b>showCurrentScore</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 680/681. change to showcurrentscore (347) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 680/681. change to showcurrentscore (344) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image680.png"
   style="width:45%;"
@@ -10799,7 +10801,7 @@ IF statement here, we just need to do this bottom part which is showing
 the current score. So, that&apos;s a little bit cleaner and a little bit
 nicer like that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 682/683. best practices throw dice function (347) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 682/683. best practices throw dice function (344) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image682.png"
   style="width:45%;"
@@ -10829,7 +10831,7 @@ You could also make a separate function that just contains the whole
 selection statement, if/else, if and the else statement and make that
 into a separate function that runs here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 684/685. script.js with all functions (348) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 684/685. script.js with all functions (345) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image684.png"
   style="width:45%;"
@@ -10853,7 +10855,7 @@ semicolon. And then, I&apos;m going to click between the curly braces and move t
 and add my <b>use strict</b> directive to make sure I didn&apos;t screw up in any of my
 variables and then paste everything here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 686. change vars to const in javascript (349) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 686. change vars to const in javascript (346) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image686.png"
   style="width:50%;"
@@ -10867,7 +10869,7 @@ all of these <b>vars</b> to <b>const</b>. And in fact in this entire <b>script</
 changes, but the actual function, the actual variable doesn&apos;t change. That can be 
 a constant as well.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 687. differ script.js (349) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 687. differ script.js (346) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image687.png"
   style="width:50%;"
@@ -10884,7 +10886,7 @@ in the next lesson, and you&apos;ve got a working game here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-14">4.14 Extending the Game (6:21)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 688. extending the game (module 4.14) (350) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 688. extending the game (module 4.14) (347) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image688.png"
   title="4.14 Extending the Game"
@@ -10894,7 +10896,7 @@ in the next lesson, and you&apos;ve got a working game here.</p>
 
 <p>Extending the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 689. easy ways to extend the game (350) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 689. easy ways to extend the game (347) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image689.png"
   title="Easy ways to extend the game"
@@ -10914,7 +10916,7 @@ it and do some interesting things with it. I&apos;ve given you some ideas
 for some things you could do that are not too hard and some that are
 more challenging if you really want to try to do them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 690. easy ways to extend the game (351) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 690. easy ways to extend the game (348) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image690.png"
   title="Easy ways to extend the game"
@@ -11006,7 +11008,7 @@ excellent versions people have made of the big game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-15">Course Summary (0:57)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 691. course summary: interactivity with javascript and jquery (353) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 691. course summary: interactivity with javascript and jquery (350) ~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image691.png"
   title="4.15 Course Summary: Interactivity with JavaScript and jQuery"
@@ -11033,3 +11035,4 @@ and you&apos;ll get more practice. So I look forward to seeing you there.</p>
 <p>.the end...</p>
 
 <h6>Last Updated 3/23/2024 9:11pm</h6>
+<h6>Last Updated 9/19/2024 10:35pm</h6>
