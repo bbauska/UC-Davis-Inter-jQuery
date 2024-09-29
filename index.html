@@ -44,11 +44,9 @@
     }
   }
 
-  <!-- when the user clicks on the button, scroll to the top of the document. 0,0 or -->
-  <!-- to table of contents (approx ###), if applicable was; 315 -->
+// when the user clicks on the button, scroll to the table of contents near top of document.
   function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    document.getElementById('table-of-contents').scrollIntoView();
   }
 </script>
   <!-- jQuery -->
@@ -88,8 +86,7 @@ work together to create a more complex program; and identify processes
 for breaking larger programs into smaller, more manageable pieces.</p>
 
 <!-- table of contents -->
-<p id="table-of-contents"></p>
-<h2><a href="#table-of-contents">Table of Contents</a></h2>
+<h2 id="table-of-contents"><a href="#table-of-contents">Table of Contents</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ hoverable dropdown menu ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
