@@ -69,7 +69,7 @@ manageable pieces.</p>
 >#### [**1.09 Additional Controls**](#ch1-09)
 >#### [**1.10 Advanced FlexSlider**](#ch1-10)
 >#### [**1.11 Additional Styling**](#ch1-11)
->#### [**1.12 Styling the CTA**](#ch1-11)
+>#### [**1.12 Styling the CTA**](#ch1-12)
 
 <ul>
   <li><a href="./pdf/1.12-jQuery-FlexSliderPlugin.pdf" 
@@ -475,7 +475,7 @@ You will be able to then extend the script in many creative ways.</p>
   15. Course Summary
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-00">1.00 A Note from UC Davis</h2>
+<h2 id="ch1-00-note">1.00 A Note from UC Davis</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Welcome to this course!</p>
 <p>We are delighted to be a part of your continuing education. This course will 
@@ -2058,13 +2058,13 @@ that&apos;s great. That gets us started and on our way with creating our fancier
 version of our FlexSlider. In the next lesson, we&apos;ll start looking at what 
 we need to do to adjust the styling for this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-12">1.12 Additional Styling (5:47)</h2>
+<h2 id="ch1-11">1.11 Additional Styling (5:47)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 104. additional styling (1.12) (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image104.png"
-  title="1.12 Additional Styling for FlexSlider"
-  alt="1.12 Additional Styling for FlexSlider."
+  title="1.11 Additional Styling for FlexSlider"
+  alt="1.11 Additional Styling for FlexSlider."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
@@ -2201,13 +2201,13 @@ background of my slide, rather than in the foreground. And the
 foreground is an H2 that&apos;s been absolutely positioned here. But now I
 need to style this call to action, and I&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-13">1.13 Styling the CTA 'Call To Action'</h2>
+<h2 id="ch1-12">1.12 Styling the CTA 'Call To Action'</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 112. styling the cta 'call to action' (61) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image112.png"
-  title="1.13 Styling the CTA 'Call to Action'"
-  alt="1.13 Styling the CTA 'Call to Action'."
+  title="1.12 Styling the CTA 'Call to Action'"
+  alt="1.12 Styling the CTA 'Call to Action'."
   style="border: 2px solid black; border-radius:15px; width:40%;" />
 </p>
 
