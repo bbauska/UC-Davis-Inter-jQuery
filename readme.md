@@ -533,13 +533,13 @@ Be sure to read the Coursera guidelines and the Coursera Honor Code here:</p>
     Coursera’s Honor Code</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-01">1.01 Welcome! Course Introduction (0:40)</h2>
+<h2 id="ch1-00">1.00 Welcome! Course Introduction (0:40)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. course intro (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image003.png" 
-  title="1.01 Course Introduction"
-  alt="1.01 Course Introduction."
+  title="1.00 Course Introduction"
+  alt="1.00 Course Introduction."
   style="border: 2px solid #000000; width:40%;" />
 </p>
 
@@ -557,13 +557,13 @@ We&apos;re going to do a lot in this course. Let&apos;s break out our code
 editors and our web browsers and get started and learn even more about
 JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-02">1.02 Module Introduction</h2>
+<h2 id="ch1-01">1.01 Module Introduction</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. module 1 intro (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image004.png" 
-  title="1.02 Module 1 Introduction"
-  alt="1.02 Module 1 Introduction."
+  title="1.01 Module 1 Introduction"
+  alt="1.01 Module 1 Introduction."
   style="border: 2px solid #000000; width:40%;" />
 </p>
 
@@ -580,13 +580,13 @@ you&apos;ve done manually by creating your own sliders is really instructive
 and useful. Plus, you end up with a great tool for creating slider
 elements on web pages and that&apos;s really pretty fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-03">1.03 Introduction to jQuery Plugins (3:49)</h2>
+<h2 id="ch1-02">1.02 Introduction to jQuery Plugins (3:49)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. intro to jquery plugins (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image005.png" 
-  title="1.03 Intro to jQuery Plugins"
-  alt="1.03 Intro to jQuery Plugins."
+  title="1.02 Intro to jQuery Plugins"
+  alt="1.02 Intro to jQuery Plugins."
   style="border: 2px solid #000000; width:40%;" />
 </p>
 
@@ -669,13 +669,13 @@ a lot of features and functionality. What if you want the tabs to run down the s
 the tabbed interface rather than across the tab? You could do that thing.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-04">1.04 Using Plugins and Essential Steps (4:22)</h2>
+<h2 id="ch1-03">1.03 Using Plugins and Essential Steps (4:22)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 10. using plugins and essential steps (1.04) (13) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 10. using plugins and essential steps (1.03) (13) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image010.png"
-  title="1.04 Using Plugins and Essential Steps"
-  alt="1.04 Using Plugins and Essential Steps."
+  title="1.03 Using Plugins and Essential Steps"
+  alt="1.03 Using Plugins and Essential Steps."
   style="border: 2px solid #000000; width:40%;" />
 </p>
 
@@ -755,13 +755,13 @@ see once you work with a few plugins that many of them work pretty much the same
 documentation may look a little bit different; the directions may be written a little bit 
 different, but it&apos;s the same basic steps each time.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-05">1.05. Gotchas and Rookie Mistakes (8:52)</h2>
+<h2 id="ch1-04">1.04 Gotchas and Rookie Mistakes (8:52)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 13. gotchas and rookie mistakes (1.05) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 13. gotchas and rookie mistakes (1.04) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image013.png"
-  title="Gotchas and Rookie Mistakes"
-  alt="Gotchas and Rookie Mistakes."
+  title="1.04 Gotchas and Rookie Mistakes"
+  alt="1.04 Gotchas and Rookie Mistakes."
   style="border: 2px solid #000000; width:40%;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -919,7 +919,7 @@ section:
 
 <ul>
   <li><a href="https://www.coursera.org/learn/interactivity-javascript-jquery/supplement/W04DM/pdf-of-presentation" 
-    target="_blank" rel="noreferrer noopener">1.05 jQueryPlugins.pdf (download)</a></li>
+    target="_blank" rel="noreferrer noopener">1.04 jQueryPlugins.pdf (download)</a></li>
 </ul>
 
 Attached is a zip file of the things you need to begin this exercise. A
@@ -931,10 +931,10 @@ carrying the extension .ZIP.
 <h4>START Files: FlexSlider &amp; jQuery Plugins</h4>
 
 <ul>
-  <li><a href="./zip/1.05-FlexSlider-Basic-START.zip" 
-    target="_blank" rel="noopener noreferrer">1.05 Flex Slider Basic START (zip download)</a></li>
-  <li><a href="./zip/1.05-FlexSliderPlugin.zip" 
-    target="_blank" rel="noopener noreferrer">1.05 Flex Slider Plugin (zip download)</a></li>
+  <li><a href="./zip/1.04-FlexSlider-Basic-START.zip" 
+    target="_blank" rel="noopener noreferrer">1.04 Flex Slider Basic START (zip download)</a></li>
+  <li><a href="./zip/1.04-FlexSliderPlugin.zip" 
+    target="_blank" rel="noopener noreferrer">1.04 Flex Slider Plugin (zip download)</a></li>
 </ul>
 
 <h4>Additional Resource:</h4>
@@ -944,13 +944,13 @@ carrying the extension .ZIP.
     target="_blank" rel="noopener noreferrer">How to open a zip file for either Mac or PC</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-06">1.06 FlexSlider: A jQuery Plugin (6:38)</h2>
+<h2 id="ch1-05">1.05 FlexSlider: A jQuery Plugin (6:38)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. flexslider: a jquery plugin (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image017.png" 
-  title="1.06 FlexSlider: A jQuery Plugin"
-  alt="1.06 FlexSlider: A jQuery Plugin."
+  title="1.05 FlexSlider: A jQuery Plugin"
+  alt="1.05 FlexSlider: A jQuery Plugin."
   style="border: 2px solid black; width:40%;" />
 </p>
 
@@ -1160,13 +1160,13 @@ need. I&apos;m going to put them into my project folder over here so that I
 have them, and that gets us all the files that we need in order to get
 started for this project.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-07">1.07 About the Minified Version (5:55)</h2>
+<h2 id="ch1-06">1.06 About the Minified Version (5:55)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 35. about the minified version (1.07) (27) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 35. about the minified version (1.06) (27) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image035.png"
-  title="1.07 About the Minified Version"
-  alt="1.07 About the Minified Version."
+  title="1.06 About the Minified Version"
+  alt="1.06 About the Minified Version."
   style="border: 2px solid gray; width:40%;" />
 </p>
 
@@ -1349,7 +1349,7 @@ markup this plug in expects. It expects a <b>div</b> with the class,
 <b>Flexslider</b>, and a <b>ul</b> with the class slides, then list items with
 the images inside of it, and we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-08">1.08 Adding Markup & Hooking Up the Slider  (7:33)</h2>
+<h2 id="ch1-07">1.07 Adding Markup & Hooking Up the Slider  (7:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 49. adding markup and hooking up the slider (34) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1584,7 +1584,7 @@ page. There they are, they&apos;re back again. Okay, great. We&apos;ve got the
 basic slider working, now we can talk about what else we need to do with
 it and we&apos;ll do that in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-09">1.09 FlexSlider Rules</h2>
+<h2 id="ch1-08">1.08 FlexSlider Rules</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. flexslider rules (1.09) (42) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1725,7 +1725,7 @@ look. Finding out what those styles are, or just a matter of using the inspector
 and hunting around to see what rules are being applied that you might want to 
 change to get it to style and look the way you want it to look on your page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-10">1.10 Additional Controls</h2>
+<h2 id="ch1-09">1.09 Additional Controls</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. additional controls (1.10) (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1924,7 +1924,7 @@ like every Website you go to has FlexSlider on it. It could look the same, becau
 they all have the same arrows here, left and right arrows. We can get rid of 
 those and do something else that would be kind of interesting and fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-11">1.11 Advanced FlexSlider</h2>
+<h2 id="ch1-10">1.10 Advanced FlexSlider</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. advanced flexslider (1.11) (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
