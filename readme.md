@@ -7533,7 +7533,7 @@ want to mess around with it, feel free.
 Well, these ones for the pricing Tableaus in I mean add that&apos;s the
 pricing and the downloads.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 484/485.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 484/485.  (232) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image484.png"
   style="width:45%;"
@@ -7550,7 +7550,7 @@ reading it that way for the media queries. I like them all in one line.
 I find it there&apos;s usually just one or two declarations. Not that much
 going on. This one had more, but I prefer to put them on one line.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 486/487.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 486/487.  (232) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image486.png"
   style="width:45%;"
@@ -7578,7 +7578,7 @@ I&apos;m going to look at the next one in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-38">2.38 Media Query for 1200 Pixels Wide</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 488. media query for 1200 pixels wide (2.38) (2xx) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 488. media query for 1200 pixels wide (2.38) (233) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image488.png"
   style="width:40%;"
@@ -7591,21 +7591,23 @@ this website on a nice large desktop in their browsers, nice and wide,
 and they&apos;ve got lots of screen real estate, in which case we can really
 kind of optimize our layout for that look.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 489.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 489. example, media query for 1200 pixels wide (233) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image489.png"
   style="width:50%;"
-  alt="." />
+  title="Example, media query for 1200 pixels wide"
+  alt="Example, media query for 1200 pixels wide." />
 </p>
 
 So let&apos;s go ahead and add these rules in over there and you need to set
 your width here for me to do it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 490.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 490. example screen media query 1200 pixels: scription (234) ~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image490.png"
   style="width:50%;"
-  alt="." />
+  title="Example screen media query 1200 pixels: Scription"
+  alt="Example screen media query 1200 pixels: Scription." />
 </p>
 
 I&apos;m going to need to move this thing down to the bottom here and I&apos;m
@@ -7619,14 +7621,16 @@ kind of make the stuff look a little bit better on the wider screen. So
 let&apos;s go over and add those rules that we have on our snippets and
 they&apos;re here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 491/492.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 491/492. media queries for page, header and slider styles (234) ~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image491.png"
   style="width:45%;"
-  alt="." />
+  title="Media queries for page, header and slider styles"
+  alt="Media queries for page, header and slider styles." />
 <img src="./images/image492.png"
   style="width:45%;"
-  alt="." />
+  title="Media queries for page, header and slider styles"
+  alt="Media queries for page, header and slider styles." />
 </p>
 
 I want to cut this set first. I&apos;m giving sections 50 pixels padding, so
@@ -7637,14 +7641,16 @@ designer, spacing is really important because it really helps
 communicate. So you want to get that kind of stuff just right as much as
 possible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 493/494.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~ 493/494. media queries for overview, download and pricing (css) (235) ~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image493.png"
   style="width:45%;"
-  alt="." />
+  title="Media queries for overview, download and pricing from Scription (CSS)"
+  alt="Media queries for overview, download and pricing from Scription (CSS)" />
 <img src="./images/image494.png"
   style="width:45%;"
-  alt="." />
+  title="Media queries for overview, download and pricing from Scription (CSS)"
+  alt="Media queries for overview, download and pricing from Scription (CSS)" />
 </p>
 
 And then we&apos;ve got a few more here for the overview, download and
@@ -7654,28 +7660,32 @@ descendant of the overview section. So it won&apos;t apply to an article
 inside of an article, it will only apply to those parent level ones, and
 that&apos;s kind of helpful to be aware of.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 495/496.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 495/496. media queries for listen and footer styles (css) (235) ~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image495.png"
   style="width:45%;"
-  alt="." />
+  title="Media queries for listen and footer styles from Scription (CSS)"
+  alt="Media queries for listen and footer styles from Scription (CSS)" />
 <img src="./images/image496.png"
   style="width:45%;"
-  alt="." />
+  title="Media queries for listen and footer styles from Scription (CSS)"
+  alt="Media queries for listen and footer styles from Scription (CSS)." />
 </p>
 
 Okay, continue on here and get the last piece for this one. And finally,
 put that in here. The footer gets some new styling at 1200 pixels to
 adjust for that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 497/498.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 497/498. media query: max header width (236) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image497.png"
   style="width:45%;"
-  alt="." />
+  title="Media query: max header width from Scription"
+  alt="Media query: max header width from Scription." />
 <img src="./images/image498.png"
   style="width:45%;"
-  alt="." />
+  title="Media query: max header width from Scription"
+  alt="Media query: max header width from Scription." />
 </p>
 
 And then finally, we&apos;ve got one little rule that goes in the 1500 or
@@ -7687,11 +7697,11 @@ but you&apos;ll have to trust me that it works. Or try it out or if you&apos;ve
 got a nice big monitor you&apos;ll see the difference. Take it out and see
 what it looks like without it and then put it back in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 499/500.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 499/500. title and menu header page (236) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image499.png"
   style="width:45%;"
-  alt="." />
+  alt="Title/menu example using Scription." />
 <img src="./images/image500.png"
   style="width:45%;"
   alt="." />
@@ -7705,14 +7715,16 @@ nice to have some room. And so since I&apos;ve got some room, I might as
 well use it to give myself some white space, make the page a little bit
 easier to read, make it a little bit nicer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 501/502.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 501/502. features and pricing using scription (237) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image501.png"
   style="width:45%;"
-  alt="." />
+  title="Feature example using Scription"
+  alt="Feature example using Scription." />
 <img src="./images/image502.png"
   style="width:45%;"
-  alt="." />
+  title="Pricing in tabs using Scription"
+  alt="Pricing in tabs using Scription." />
 </p>
 
 Down here, again, adding some room, 50 pixels padding around these
@@ -7723,14 +7735,16 @@ Same thing down here. Now I&apos;ve got some extra padding in here. Give it
 a little bit of breathing room, extra padding here to give it a little
 bit of breathing room.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 503/504.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 503/504. our team & footer (237) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image503.png"
   style="width:45%;"
-  alt="." />
+  title="Our Team example using Scription"
+  alt="Our Team example using Scription." />
 <img src="./images/image504.png"
   style="width:45%;"
-  alt="." />
+  title="Footer example using Scription"
+  alt="Footer example using Scription." />
 </p>
 
 I bumped up the sizing of this quote a lot. I mean, really make it stand
@@ -7750,7 +7764,7 @@ with it. It&apos;s always fun to do that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-39">2.39 Scription Site: Building Interactive Elements Challenges</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 505. scription site: building interactive elements challenges (2xx) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 505. scription site: building interactive elements challenges (238) ~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image505.png"
   style="width:40%;"
@@ -11036,3 +11050,4 @@ and you&apos;ll get more practice. So I look forward to seeing you there.</p>
 
 <h6>Last Updated 3/23/2024 9:11pm</h6>
 <h6>Last Updated 9/19/2024 10:35pm</h6>
+<h6>Last Updated 10/13/2024 9:10pm</h6>
