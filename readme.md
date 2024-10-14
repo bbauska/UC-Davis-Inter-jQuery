@@ -5,6 +5,7 @@ date prior editted: "3/23/2024 9+pm"
 date last editted: "4/20/2024 2+pm"
 date last editted: "5/09/2024 12+am"
 date last editted: "9/19/2024 10+pm"
+date last editted: "10/14/2024 4+pm"
 output: 
   markdown:
     with some style
@@ -22,6 +23,7 @@ output:
   title="jQuery logo"
   alt="jQuery logo."
   style="border: 2px solid #000000; width:400px;" />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image002.png" 
   title="University of California @Davis logo"
   alt="University of California @Davis logo."
@@ -981,6 +983,7 @@ because it&apos;s a responsive slider.
   style="width:45%"
   title="Responsive Kittens for Sale Web Page, #1"
   alt="Responsive Kittens for Sale Web Page, #1." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image020.png?raw=true"
   style="width:45%"
   title="Responsive Kittens for Sale Web Page, #2"
@@ -1010,6 +1013,7 @@ some basic markup.
   style="width:45%"
   title="Responsive Kittens for Sale Web Page, #1"
   alt="Responsive Kittens for Sale Web Page, #1." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image023.png?raw=true"
   style="width:45%"
   title="Responsive Kittens for Sale Web Page, #2"
@@ -1095,6 +1099,7 @@ plug-ins as well.
   style="width:45%"
   title="Folder with website"
   alt="Folder with website." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image030.png?raw=true"
   style="width:45%"
   title="Folder with images"
@@ -1112,6 +1117,7 @@ got my style-sheet, that&apos;s what&apos;s in my folder.
   style="width:45%"
   title="Unzipped download files"
   alt="Unzipped download files." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image032.png?raw=true"
   style="width:45%"
   title="Other unzipped download files"
@@ -1148,6 +1154,7 @@ well.
   style="width:45%"
   title="flexslider.css, fonts and jquery.flexslider-min.js"
   alt="flexslider.css, fonts and jquery.flexslider-min.js." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image034.png?raw=true"
   style="width:45%"
   title="flexslider.css, fonts and jquery.flexslider-min.js"
@@ -1258,6 +1265,7 @@ mean about how to do this.
   style="width:45%"
   title="Where to put styles and scripts within HTML"
   alt="Where to put styles and scripts withing HTML." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image043.png?raw=true"
   style="width:45%"
   title="Where to put styles and scripts within HTML"
@@ -1416,6 +1424,7 @@ we got that all in, so that&apos;s great.
   alt="Step 3, add to head of index.html."
   style="border: 2px solid gray; width:50%;" />
 </p>
+
 Step 3, directions. Hook up the <b>FlexSlider</b>. This thing says to use
 the <b>window.load</b> function. Now, I happen to know that the
 <b>window.load</b> function does not work with the latest version of
@@ -1428,7 +1437,6 @@ jQuery, but that&apos;s okay. This is what it says down here.
   alt="Add functions to MyScript.js."
   style="border: 2px solid gray; width:50%;" />
 </p>
-
 
 We could just copy this, <b>window.load</b> function here. This place after
 these links, script type JavaScript. But we&apos;re going to put this not
@@ -1461,6 +1469,7 @@ use <b>window.on</b> instead. But let&apos;s just test it anyway.
   style="width:45%"
   title="Example test, verify correct jquery.min.js is loaded"
   alt="Example test, verify correct jquery.min.js is loaded." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image057.png?raw=true"
   style="width:45%"
   title="Inspect jQuery and FlexSlider code"
@@ -1515,17 +1524,17 @@ to do.
   style="width:45%"
   title="index.html load jQuery with correct version"
   alt="index.html load jQuery with correct version." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image062.png?raw=true"
   style="width:45%"
   title="Run Flexslider from myscript.js"
   alt="Run Flexslider from myscript.js." />
 </p>
 
-But what if I really want to have the latest version of jQuery? Well,
-this is where knowing a little bit of JavaScript and a little bit of
-jQuery really helps, because I know that this load method here has been
-replaced. It&apos;s been deprecated. You could go look that up on the jQuery
-website if you wanted to.
+But what if I really want to have the latest version of jQuery? Well, this is where knowing 
+a little bit of JavaScript and a little bit of jQuery really helps, because I know that this 
+load method here has been replaced. It&apos;s been deprecated. You could go look that up on 
+the jQuery website if you wanted to.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63/64. again, validate jquery (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1533,14 +1542,15 @@ website if you wanted to.
   style="width:45%"
   title="Load jQuery version"
   alt="Load jQuery version." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image064.png?raw=true"
   style="width:45%"
   title="Test example Flexslider"
   alt="Test example Flexslider." />
 </p>
 
-But I&apos;m going to come back here and I&apos;m going to command Z and put
-this back to the version 3.6 and save that.
+But I&apos;m going to come back here and I&apos;m going to command Z and put this back to 
+the version 3.6 and save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. test example scroll (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1550,11 +1560,10 @@ this back to the version 3.6 and save that.
   style="border: 2px solid gray; width:50%;" />
 </p>
 
-Over here instead of load I&apos;m going to use on, and in here, I&apos;m going
-to put on load as an event and then run the function and watch this.
-That should work. Make sure both files are saved, come back and refresh
-and look at that, it works fine using the on method, the more up-to-date
-method.
+Over here instead of load I&apos;m going to use on, and in here, I&apos;m going to put on 
+load as an event and then run the function and watch this. That should work. Make sure both 
+files are saved, come back and refresh and look at that, it works fine using the on method, 
+the more up-to-date method.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 66/67. fonts load and example tests (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1562,6 +1571,7 @@ method.
   style="width:45%"
   title="Verify fonts reside in correct folder"
   alt="Verify fonts reside in correct folder." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image067.png?raw=true"
   style="width:45%"
   title="Example test fonts and FlexSlider"
@@ -1604,6 +1614,7 @@ some weird issues that we need to fix in terms of the layout in the styling.
   style="width:45%"
   title="Inspect flexslider element style for each image"
   alt="Inspect flexslider element style for each image." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image070.png?raw=true"
   style="width:45%"
   title="FlexSliderBasic-Start index.html"
@@ -1616,6 +1627,7 @@ some weird issues that we need to fix in terms of the layout in the styling.
   style="width:45%"
   title="FlexSlider Rules"
   alt="FlexSlider Rules." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image072.png?raw=true"
   style="width:45%"
   title="Update styles for flexslider class"
@@ -1628,6 +1640,7 @@ some weird issues that we need to fix in terms of the layout in the styling.
   style="width:45%"
   title="It Should Be Working.  If not, fine tune it"
   alt="It Should Be Working.  If not, fine tune it." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image074.png?raw=true"
   style="width:45%"
   title="Test, example scroll left and right"
@@ -1665,6 +1678,7 @@ by poking around in their CSS file. I want to make sure I&apos;m on my CSS file.
   style="width:45%"
   title="Verify media queries"
   alt="Verify media queries." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image076.png?raw=true"
   style="width:45%"
   title="Test, example styles"
@@ -1744,6 +1758,7 @@ it&apos;s working.
   style="width:45%"
   title="FlexSlider website options"
   alt="FlexSlider website options." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image081.png?raw=true"
   style="width:45%"
   title="Test, example website"
@@ -1765,6 +1780,7 @@ it for us automatically and that&apos;s great.
   style="width:45%"
   title="List of FlexSlider Options and their default values"
   alt="List of FlexSlider Options and their default values." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image083.png?raw=true"
   style="width:45%"
   title="Additional options and default values"
@@ -1816,6 +1832,7 @@ syntax because we&apos;ll see it a lot, especially with the plugins.
   style="width:45%"
   title="myscript.js flexslider options"
   alt="myscript.js flexslider options." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image087.png?raw=true"
   style="width:45%"
   title="Example, using FlexSlider"
@@ -1848,6 +1865,7 @@ worry about that.
   style="width:45%"
   title="FlexSlider with Options"
   alt="FlexSlider with Options." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image089.png?raw=true"
   style="width:45%"
   title="myscript.js. Set animation: 'slide' and slideshowSpeed: 2000"
@@ -1869,6 +1887,7 @@ great.
   style="width:45%"
   title="Set scroll direction vertical"
   alt="Set scroll direction vertical." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image091.png?raw=true"
   style="width:45%"
   title="Example, verify scroll direction vertical"
@@ -1943,6 +1962,7 @@ we can really do some different things with this FlexSlider.
   style="width:45%"
   title="Copy and rename advancedFlexSlider to KittensAdvanced"
   alt="Copy and rename advancedFlexSlider to KittensAdvanced." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image096.png?raw=true"
   style="width:45%"
   title="Copy, rename and verify new folder for FlexSlider changes"
@@ -1969,6 +1989,7 @@ files open in my code editor.
   style="width:45%"
   title="Use advancedSlider"
   alt="Use advancedSlider." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image098.png?raw=true"
   style="width:45%"
   title="Verify your working with the right set of files"
@@ -6649,8 +6670,8 @@ still accessible.
   alt="2.32 Beginning Styling." />
 </p>
 
-In the last lesson (2.31), we finished with the html, and now we are
-going to start styling, and getting the styling in place.
+In the last lesson (2.31), we finished with the html, and now we are going to start styling, 
+and getting the styling in place.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 405/406. scription, part 1a responsive (203) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -6664,18 +6685,17 @@ going to start styling, and getting the styling in place.
   alt="Scription Responsive web site." />
 </p>
 
-And, I have a new set of snippets, so, you make sure you open this
-because we are also going to copy, and paste the styling into place, so,
-it goes fairly quickly. But hopefully you have got all of this in place.
-And, what I recommend you do is we are going to do a mobile first
-approach.
+And, I have a new set of snippets, so, you make sure you open this because we are also 
+going to copy, and paste the styling into place, so, it goes fairly quickly. But hopefully 
+you have got all of this in place. And, what I recommend you do is we are going to do a 
+mobile first approach.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 407. responsive scription website (203) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 407. responsive scription website, iphone 6/7/8 (203) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image407.png"
   style="width:50%;"
-  title="Responsive Scription Website"
-  alt="Responsive Scription Website." />
+  title="Responsive Scription Website, iphone 6/7/8"
+  alt="Responsive Scription Website, iphone 6/7/8." />
 </p>
 
 What I recommend you do is right-click on the page and choose, inspect
@@ -6690,12 +6710,12 @@ all set with that and from here we can go over, and start working on
 some styling for the page here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 408. example, basic resets (203) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 408. example, basic resets css (203) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image408.png"
   style="width:50%;"
-  title="Example, Basic Resets"
-  alt="Example, Basic Resets." />
+  title="Example, Basic Resets CSS"
+  alt="Example, Basic Resets CSS." />
 </p>
 
 Now, I have some initial basic resets. The normalized CSS helps smooth
@@ -6741,7 +6761,7 @@ actually working with to create all of my colors on the page. And, it is
 helpful when you are designing to start with the color scheme, you may
 not stick with it exactly, but it is helpful to do that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 410/411. scription part 1b - adding css: basic resets (2) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 410/411. scription part 1b - adding css & styles.css (206) ~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image410.png"
   style="width:45%;"
@@ -9164,22 +9184,22 @@ out. Here I&apos;ve got a new function called set up new turn (right on
 image). If the winning condition is not met and I choose to roll again,
 I&apos;m going to set up a new turn. Conversely, if I roll a one and my turn
 is over, I&apos;m going to change a player and then set up a new turn for
-that player. So that&apos;s looking a little bit cleaner. And now you have a
-second function here called set up turn function. And in this function
-I&apos;m going to send a message in the game div to roll the dice for the
-current player. I&apos;m getting out of button to roll the dice for the
-action div. And then when that button is clicked, that&apos;s when I run
-this throw dice function that I have on the left. Now I&apos;ve got a little
-helper function there that&apos;s going to set up a turn. And I&apos;ve started
-splitting this out into some different versions, into some different
-pieces here.
+that player. So that&apos;s looking a little bit cleaner. 
 
+And now you have a second function here called set up turn function. And in this function
+I&apos;m going to send a message in the game div to roll the dice for the current player. 
+I&apos;m getting out of button to roll the dice for the action div. And then when that 
+button is clicked, that&apos;s when I run this throw dice function that I have on the left. 
+Now I&apos;ve got a little helper function there that&apos;s going to set up a turn. And 
+I&apos;ve started splitting this out into some different versions, into some different
+pieces here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 577.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 577. flowchart, version 4: winning condition as a function (288) ~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image577.png"
   style="width:50%;"
-  alt="." />
+  title="Flowchart, Version 4: Break off winning condition as a function"
+  alt="Flowchart, Version 4: Break off winning condition as a function." />
 </p>
 
 Version 3 is still feeling a little bit complex to me so I decided I
@@ -9188,13 +9208,13 @@ much cleaner and you can see just by the diagram how much simpler and
 more clean than it is. And basically what I&apos;ve done here is I&apos;ve
 separated out the winning condition function into its own separate
 function that will check to see if I have achieved a winning condition.
-This truly represents a throw within the game. You throw the dice, you
-check to see if a one is rolled, if not you can add to the score and
-decide whether or not to roll again. If you decide to roll again, you
-can set up a new turn and then check to see if you&apos;ve hit the winning
-condition or not. If not you can change the player and then set up a new
-turn and then also check to see if you&apos;ve hit the winning condition or
-not.
+This truly represents a throw within the game. 
+
+You throw the dice, you check to see if a one is rolled, if not you can add to the score and
+decide whether or not to roll again. If you decide to roll again, you can set up a new turn 
+and then check to see if you&apos;ve hit the winning condition or not. If not you can change 
+the player and then set up a new turn and then also check to see if you&apos;ve hit the winning 
+condition or not.
 
 This is a much cleaner, much easier to follow diagram that gives you a
 sense of what that function looks like. And then we can go on and see
@@ -9206,11 +9226,12 @@ the score area with the current score and then you&apos;re all set for the
 next turn. That&apos;s what the winning condition would look like.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 578.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 578. flowchart, check for a win (289) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image578.png"
   style="width:50%;"
-  alt="." />
+  title="Flowchart, check for a win"
+  alt="Flowchart, check for a win." />
 </p>
 
 Now we&apos;ve got three functions that are working together. One that
@@ -9221,11 +9242,12 @@ board ready. And one for checking the winning condition. And these three
 functions are going to work together to create this game.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 579.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 579. summary, simplify and modularize (290) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image579.png"
   style="width:50%;"
-  alt="." />
+  title="Summary, simplify and modularize"
+  alt="Summary, simplify and modularize." />
 </p>
 
 In summary, one approach to thinking about a game, or about creating a
@@ -9258,12 +9280,12 @@ functionality you need for each piece.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-01">4.01 Module 4 Introduction (0:43)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 580. module 4 introduction (4.01) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 580. module (week) 4 introduction (4.01) (292) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image580.png"
   style="width:40%;"
-  title="4.01 Module 4 Introduction"
-  alt="4.01 Module 4 Introduction." />
+  title="4.01 Module (Week) 4 Introduction"
+  alt="4.01 Module (Week) 4 Introduction." />
 </p>
 
 Hello and congratulations to making it to the fourth module and our
@@ -9279,7 +9301,7 @@ think you&apos;ll get a lot out of it. Let&apos;s get to it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-02">4.02 Intro to the Game of Pig (6:30)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 581. intro to the game of pig (4.02) (293) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 581. intro to the game of pig (4.02) (292) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image581.png"
   style="width:40%;"
@@ -9289,12 +9311,13 @@ think you&apos;ll get a lot out of it. Let&apos;s get to it.
 
 <p>Game of pig built in JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 582/583. game of pig, the basic game (294) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 582/583. game of pig - built in javascript (293) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image582.png"
   style="width:45%;"
-  title="Game of Pig"
-  alt="Game of Pig." />
+  title="Game of Pig - Built in JavaScript"
+  alt="Game of Pig - Built in JavaScript." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image583.png"
   style="width:45%;"
   title="The Basic Game"
@@ -9325,8 +9348,8 @@ think in this very linear way.
 <p align="center">
 <img src="./images/image584.png"
   style="width:50%;"
-  title="index.html - Working Game"
-  alt="index.html - Working Game." />
+  title="Index.html, basic pieces for game to work"
+  alt="Index.html, basic pieces for game to work." />
 </p>
 
 I have my file open here in visual studio code. This is the index file
@@ -9334,49 +9357,49 @@ here with all of the basic pieces of the HTML that are needed here to
 make the game work.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 585. index.html - with empty script (295) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 585. index.html, div id's with empty script (294) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image585.png"
   style="width:50%;"
-  title="index.html with empty script"
-  alt="index.html with empty script." />
+  title="index.html, div id's with empty script"
+  alt="index.html, div id's with empty script." />
 </p>
 
-We&apos;ve got an empty script tacked down here. This is where we&apos;re going
-to be working. This is in this part of the page. Then also we have the
-images of the dice that will be pulling up. This could go into a folder,
-but at this point, I just have them in the main folder and that&apos;s fine.
+We&apos;ve got an empty script tacked down here. This is where we&apos;re going to be 
+working. This is in this part of the page. Then also we have the images of the dice that 
+will be pulling up. This could go into a folder, but at this point, I just have them in 
+the main folder and that&apos;s fine.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 586.  (296) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 586. test, start game of pig (295) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image586.png"
   style="width:50%;"
-  alt="." />
+  title="Test, Start game of pig"
+  alt="Test, Start game of pig." />
 </p>
 
-Then over here, I have the page loaded up so we can actually test the
-page here, and see how things are working as we go along, and work on
-the page here.
+Then over here, I have the page loaded up so we can actually test the page here, and see 
+how things are working as we go along, and work on the page here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 587.  (296) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 587. var startgame, gamecontrol, game, score & actionarea (295) ~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image587.png"
   style="width:50%;"
-  alt="." />
+  title="var startGame, gameControl, game, score and actionArea"
+  alt="var startGame, gameControl, game, score and actionArea." />
 </p>
 
-The first thing we need to do in our code editor, is create some
-variables that we&apos;re going to use to access different areas of the
-page, so it&apos;s really these variables here. I&apos;m going to have
-<b>startGame</b>, is going to be <b>document.getElementById</b> on it by the
-<b>startgame</b>.
-
+The first thing we need to do in our code editor, is create some variables that we&apos;re 
+going to use to access different areas of the page, so it&apos;s really these variables 
+here. I&apos;m going to have <b>startGame</b>, is going to be <b>document.getElementById</b> 
+on it by the <b>startgame</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 588.  (297) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 588. div id, gamecontrol with button startgame (296) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image588.png"
   style="width:50%;"
-  alt="." />
+  title="div id, gamecontrol with button startgame"
+  alt="div id, gamecontrol with button startgame." />
 </p>
 
 It&apos;s this button right here. Then I have <b>gameControl</b>, which is this
@@ -9393,12 +9416,12 @@ id&apos;s for each of these elements. Make sure you get this code in here
 first, because these are the different parts of the board that we&apos;re
 going to need for our script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 589. keeping track of game data (298) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 589. example, keeping track of game data (297) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image589.png"
   style="width:50%;"
-  title="Keeping Track of Game Data"
-  alt="Keeping Track of Game Data." />
+  title="Example, Keeping Track of Game Data"
+  alt="Example, Keeping Track of Game Data." />
 </p>
 
 The next thing that you&apos;re going to need is an <b>object</b> to keep track
@@ -9436,11 +9459,12 @@ that you can play the game really fairly quickly, and see how it works.
 Or later you could bump that up to 100 or something like that, to a
 score that&apos;s maybe a little bit more reasonable for the game.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 590.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 590. array variable, gamedata (298) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image590.png"
   style="width:50%;"
-  alt="." />
+  title="Array variable, gameData"
+  alt="Array variable, gameData." />
 </p>
 
 But let&apos;s go ahead and get this into our script file. I&apos;m not pasted
@@ -9459,7 +9483,7 @@ and labeled properly. We&apos;re on our way to creating the pig game.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-03">4.03 Start the Game (7:50)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 591. start the game (4.03) (300) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 591. start the game (4.03) (299) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image591.png"
   style="width:40%;"
@@ -9472,19 +9496,19 @@ this, I started with what happens when somebody throws the dice? But, I
 think for the purposes of building our game from start to finish, it
 helps to just start at the top and start at the beginning.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 592. test, game of pig (300) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 592. test, click handler - game of pig (299) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image592.png"
-  style="width:40%;"
-  title="Test, Game of Pig"
-  alt="Test, Game of Pig." />
+  style="width:50%;"
+  title="Test, Click Handler - Game of Pig"
+  alt="Test, Click Handler - Game of Pig." />
 </p>
 
 So, when somebody clicks this button here, we want to start the game. I
 need to add a click handler for this button. I&apos;m going to add an event
 handler for clicking to the start game button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 593. start the game (301) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 593. start the game (300) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image593.png"
   style="width:50%;"
@@ -9495,11 +9519,12 @@ handler for clicking to the start game button.
 So let&apos;s do that first, we have our start game button defined here,
 which goes in and gets this button here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 594.  (301) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 594. new script: startgame.addeventlistener() (300) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image594.png"
   style="width:50%;"
-  alt="." />
+  title="New script: startGame.addEventListener()"
+  alt="New script: startGame.addEventListener()" />
 </p>
 
 So, we&apos;re going to add in our script start game out event listener, and
@@ -9510,11 +9535,12 @@ here now. Change index, or randomly select index whatever we want to put
 in there, just we&apos;re going to have to handle that. But before I do
 that, I want to first just sort of get the correct html on the page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 595.  (302) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 595. gamecontrol.innerhtml (301) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image595.png"
   style="width:50%;"
-  alt="." />
+  title="gameControl.innerHTML = h2 and button id"
+  alt="gameControl.innerHTML = h2 and button id." />
 </p>
 
 So, up here at the top of my page in this section called game control
@@ -9537,11 +9563,12 @@ quotes here and then double quotes there. Alternatively, you could use
 the tick marks on either end as well. Make sure you get your html right,
 okay. So we&apos;re going to add that in there, that&apos;s great.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 596.  (303) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 596. event listener for click quit button (302) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image596.png"
   style="width:65%;"
-  alt="." />
+  title="Add event listener for quit button"
+  alt="Add event listener for quit button." />
 </p>
 
 And now I just need an event listener for when somebody clicks the quick
@@ -9552,14 +9579,17 @@ just going to do location.reload. And that refreshes the page, and then
 you go back to the way the page was before. Okay, great, so when you
 click the button, these things will happen and we&apos;ll get that working.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 597/598.  (303) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 597/598. test, game of pig, quit? and start (302) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image597.png"
   style="width:45%;"
-  alt="." />
+  title="Test, Game of Pig, do you want to quit?"
+  alt="Test, Game of Pig, do you want to quit?" />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image598.png"
   style="width:45%;"
-  alt="." />
+  title="Test, Randomly Pick the First Player, and Start the Game"
+  alt="Test, Randomly Pick the First Player, and Start the Game." />
 </p>
 
 Let&apos;s just test this much and see if it works. If I come over here,
@@ -9568,11 +9598,12 @@ click do you want to quit? It just refreshes the page, and puts it back
 so that&apos;s working just fine the way it is. When the test is frequently
 as we can there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 599.  (304) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 599. gamdata index array creation (303) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image599.png"
   style="width:50%;"
-  alt="." />
+  title="gameData index; player 1 or player 2, running score, rolls, etc"
+  alt="gameData index; player 1 or player 2, running score, rolls, etc." />
 </p>
 
 Now, the last bit is I also want to set that game index, the game data
@@ -9590,14 +9621,17 @@ log so that we can really see what that&apos;s doing console.log
 gameData.index, what is the value there and we&apos;ll test that and see.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 600/601.  (305) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 600/601. inspect, console, random start, 0 or 1 (304) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image600.png"
   style="width:45%;"
-  alt="." />
+  title="Inspect, console, random pick who starts game, 0"
+  alt="Inspect, console, random pick who starts game, 0." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image601.png"
   style="width:45%;"
-  alt="." />
+  title="Inspect, console, random pick who starts game, 1"
+  alt="Inspect, console, random pick who starts game, 1." />
 </p>
 
 So let&apos;s come over here and I&apos;m going to refresh the page to turn on
@@ -9613,7 +9647,7 @@ going in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-04">4.04 Set Up the Turn (6:39)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 602. set up the turn (4.04) (305) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 602. set up the turn (4.04) (304) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image602.png"
   style="width:40%;"
@@ -9623,7 +9657,7 @@ going in the next lesson.
 
 The next thing we need to do is set up the turn.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 603. example, set up the turn (306) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 603. example, set up the turn (305) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image603.png"
   style="width:50%;"
@@ -9638,14 +9672,17 @@ we&apos;ll have one for checking the winning condition. It&apos;s really the way
 these three functions work together that are going to determine how this
 game works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 604/605.  (306) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 604/605. set up turn, roll the dice (305) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image604.png"
   style="width:45%;"
-  alt="." />
+  title="Set Up Turn, then Roll the Dice"
+  alt="Set Up Turn, then Roll the Dice." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image605.png"
   style="width:45%;"
-  alt="." />
+  title="New Function: setUpTurn, Roll the Dice"
+  alt="New Function: setUpTurn, Roll the Dice." />
 </p>
 
 The first thing we&apos;re going to do really is the <b>setUpTurn</b> function,
@@ -9699,11 +9736,12 @@ the term here, and we can leave this in here for now just for a moment
 to see if that&apos;s going to work. But we&apos;re going to run set up the term
 there so that we can get ready to roll the dice and see how that works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 606.  (308) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 606. test console, set up turn & roll the dice (306) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image606.png"
   style="width:50%;"
-  alt="." />
+  title="Test Console, Set Up Turn &amp; Roll the Dice"
+  alt="Test Console, Set Up Turn &amp; Roll the Dice." />
 </p>
 
 Let&apos;s test it. If we come over here and refresh the page, randomly
@@ -9716,7 +9754,7 @@ ready to roll the dice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-05">4.05 Throwing the Dice (9:57)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 607. throwing the dice (4.05) (308) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 607. throwing the dice (4.05) (306) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image607.png"
   style="width:40%;"
@@ -9728,11 +9766,12 @@ Throwing the dice. This is the core function in this program, and it&apos;s
 the big function, it&apos;s going to take us some time to get this function
 all working properly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 608. example, throwing the dice (309) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 608. example, throwing the dice (306) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image608.png"
   style="width:50%;"
-  alt="." />
+  title="Example, Throwing the Dice"
+  alt="Example, Throwing the Dice." />
 </p>
 
 But we&apos;re going to get it started here. At this point, what we&apos;re
@@ -9744,11 +9783,12 @@ that&apos;s going to go to the player about what was rolled, and also show
 those two dice. Then we&apos;ll also sum up the total of those two dice and
 put that into the <b>rollSum</b> property in the <b>gameData object</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 609.  (309) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 609. function throwdice (307) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image609.png"
   style="width:50%;"
-  alt="." />
+  title="Function throwDice();"
+  alt="Function throwDice();" />
 </p>
 
 Let&apos;s go ahead and get this started because this is an important one to
@@ -9779,11 +9819,12 @@ get a 0, 1, 2, 3, 4, 5, or 6 if you were to follow that methodology. We
 don&apos;t want a zero, we want it always to be a 1, 2, 3, 4, 5, or 6 to
 match our numbers up there for our dice.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 610.  (310) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 610. function setupturn (308) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image610.png"
   style="width:50%;"
-  alt="." />
+  title="Function setUpTurn"
+  alt="Function setUpTurn." />
 </p>
 
 That&apos;s our roll 1. Roll 2 is exactly the same thing, we&apos;re going to
@@ -9804,11 +9845,12 @@ Which variable is it going to be? Dollar sign, curly braces. It&apos;s
 really just going to be this one again. This will be player 1, or player
 2 here, that gets put in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 611.  (311) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 611. img src, dice 1 - 6 (309) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image611.png"
   style="width:50%;"
-  alt="." />
+  title="Image source, dice 1 through 6"
+  alt="Image source, dice 1 through 6." />
 </p>
 
 The next thing we need are the actual pictures of the dice. That&apos;s
@@ -9828,11 +9870,12 @@ here. I need to subtract one there, gameData.roll1 minus 1. I think
 that&apos;s right. I prefer to have double quotes here I think. Quote there,
 double quotes, add an extra one for me.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 612.  (312) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 612. gamedata.rollsum (310) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image612.png"
   style="width:50%;"
-  alt="." />
+  title="gameData.rollSum = gameData.roll1 + gameData.roll2"
+  alt="gameData.rollSum = gameData.roll1 + gameData.roll2." />
 </p>
 
 There we go. That will put in our source and really be good to have an
@@ -9849,7 +9892,7 @@ lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-06">4.06 Test Throwing the Dice (5:22)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 613. test throwing the dice (4.06) (313) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 613. test throwing the dice (4.06) (311) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image613.png"
   style="width:40%;"
@@ -9860,23 +9903,24 @@ lesson.
 You&apos;ve started your dice throwing function, so let&apos;s test it and see
 if it works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 614. test throwing (313) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 614. example, test throwing (311) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image614.png"
   style="width:50%;"
-  title="Test Throwing"
-  alt="Test Throwing." />
+  title="Example, Test Throwing"
+  alt="Example, Test Throwing." />
 </p>
 
 All we really need to do to test it, is replace the console log in the
 set up the turn function, and replace it with the throw the dice
 function. Let&apos;s take a look and see how that works.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 615.  (314) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 615. order the functions correctly (312) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image615.png"
   style="width:50%;"
-  alt="." />
+  title="Order the functions correctly"
+  alt="Order the functions correctly." />
 </p>
 
 All I need is to take this function here and copy it, and put it up
@@ -9889,11 +9933,12 @@ dice once the turn has been set up, and you click the &quot;roll&quot; the
 button thing there. Let&apos;s see what that gives us. Let&apos;s save this and
 come over here and test it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 616.  (314) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 616. console, inspect log error; missing file (312) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image616.png"
   style="width:50%;"
-  alt="." />
+  title="Console, Inspect log error; missing file"
+  alt="Console, Inspect log error; missing file." />
 </p>
 
 Now, if I refresh and randomly pick a player that can roll the dice,
@@ -9901,11 +9946,12 @@ oops, error, file not found, 6die.jpgalt. I can see right here that I
 forgot to close mine. This is very easy to have that happen when you&apos;re
 working with HTML inside of the string.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 617.  (315) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 617. error found and fixed (313) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image617.png"
   style="width:50%;"
-  alt="." />
+  title="Missing file error, found and fixed"
+  alt="Missing file error, found and fixed." />
 </p>
 
 I can see right here what&apos;s gone wrong. I can see that I forgot to
@@ -9914,14 +9960,17 @@ which is incorrect. Let&apos;s go back over here. It&apos;s in here I forgot to
 put a quote here. It&apos;s in one double quote, and I&apos;ll add two, but you
 have to delete one of them there. There we go, save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 618/619.  (315) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 618/619. inspect console log, roll the dice (313) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image618.png"
   style="width:45%;"
-  alt="." />
+  title="Inspect console log, roll the dice, player 2, 6 and 6"
+  alt="Inspect console log, roll the dice, player 2, 6 and 6." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image619.png"
   style="width:45%;"
-  alt="." />
+  title="Inspect console log, roll the dice, player 1, 6 and 5"
+  alt="Inspect console log, roll the dice, player 1, 6 and 5." />
 </p>
 
 Roll the dice. Now, I&apos;ve got two dice and it showed up and I can say,
@@ -9932,11 +9981,12 @@ you could come in and add a console log, and see what gameData.rollSum
 some has in it or would any other variable in there has if you&apos;re just
 curious to see what&apos;s in there, you can save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 620.  (316) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 620. inspect console log, rolled a 5 (314) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image620.png"
   style="width:50%;"
-  alt="." />
+  title="Inspect console log, rolled a 5"
+  alt="Inspect console log, player 2, rolled a 5." />
 </p>
 
 Up here, maybe I don&apos;t need this one anymore. The one that&apos;s giving me
@@ -9948,11 +9998,12 @@ sixes again, that&apos;s something and got 12. Unfortunately, to do it again
 at this point, you have to click the button or just click refresh. In
 here I got 5, 1 plus 4 is 5.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 621.  (317) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 621. console log, player 2 rolled a 5 (314) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image621.png"
   style="width:50%;"
-  alt="." />
+  title="Console log, player 2, rolled a 5"
+  alt="Console log, player 2, rolled a 5." />
 </p>
 
 I&apos;m going to move this inspector to the side and it&apos;s going to be
@@ -9961,7 +10012,7 @@ working really nicely. Now we have a dice game where we can throw the
 dice, and two dice are roll and randomly we generate those two images
 and display them on the page, and that&apos;s fine.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 622. example add the selection statements (317) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 622. example add the selection statements (315) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image622.png"
   style="width:50%;"
@@ -9988,7 +10039,7 @@ something else, we need to swap. &lbrack;inaudible&rbrack;.
 
 <p>We&apos;re going to add if statements into our throw dysfunction here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 624. roll a two? or not? (316) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 624. roll a two? or not? (315) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image624.png"
   style="width:50%;"
@@ -10037,6 +10088,7 @@ we&apos;ll deal with that separately.</p>
   style="width:45%;"
   title="Test roll 8, game of pig"
   alt="Test roll 8, game of pig." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image628.png"
   style="width:45%;"
   title="Test roll 10, game of pig"
@@ -10289,6 +10341,7 @@ work just fine.</p>
   style="width:45%;"
   title="gameData.roll"
   alt="gameData.roll." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image644.png"
   style="width:45%;"
   title="gameData.roll"
@@ -10387,6 +10440,7 @@ but that&apos;ll help, okay?</p>
 <p align="center">
 <img src="./images/image650.png"
   style="width:50%;"
+  title="getElementByID(roll again)"
   alt="getElementByID(roll again)." />
 </p>
 
@@ -10435,6 +10489,7 @@ down here yet, but I can choose roll again.</p>
   style="width:45%;"
   title="Game of Pig; roll the dice"
   alt="Game of Pig; roll the dice." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image654.png"
   style="width:45%;"
   title="Game of Pig; roll the dice"
@@ -10451,6 +10506,7 @@ I&apos;m still on player 2 and I can roll the dice again.</p>
   style="width:45%;"
   title="Game of Pig; roll the dice"
   alt="Game of Pig; roll the dice." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image656.png"
   style="width:45%;"
   title="Game of Pig; roll the dice"
@@ -10493,6 +10549,7 @@ down here.</p>
   style="width:45%;"
   title="function throwDice"
   alt="function throwDice." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image660.png"
   style="width:45%;"
   title="Check Winning Condition"
@@ -10614,6 +10671,7 @@ it there.
   style="border: 2px solid #000000; width:45%"
   title="Test score console.log 0 to 8"
   alt="Test score console.log 0 to 8." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image668.png"
   style="border: 2px solid #000000; width:45%"
   title="Again, test score console log 0 to 8"
@@ -10632,6 +10690,7 @@ running here, and you can see that the score got added up, player 2 has
   style="width:45%;"
   title="Test Game of PIG, score 0 to 15"
   alt="Test Game of PIG, score 0 to 15." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image670.png"
   style="width:45%;"
   title="Test Game of PIG, score 0 to 25"
@@ -10755,7 +10814,7 @@ So what can we do about that?
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 677. replace setup turn with throw dice (343) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image677.png"
-  style="width:40%;"
+  style="width:45%;"
   title="Replace function setup turn with throw dice"
   alt="Replace function setup turn with throw dice." />
 </p>
@@ -10774,6 +10833,7 @@ nicely. It&apos;s a bit smoother so that works great, okay?
   style="width:45%;"
   title="Using best practices, cleanup where possible"
   alt="Using best practices, cleanup where possible." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image679.png"
   style="width:45%;"
   title="Using best practices, cleanup where possible"
@@ -10797,6 +10857,7 @@ do is run this function here, <b>showCurrentScore</b>.
   style="width:45%;"
   title="Change checkWinningCondition to showCurrentScore"
   alt="Change checkWinningCondition to showCurrentScore." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image681.png"
   style="width:45%;"
   title="Change checkWinningCondition to showCurrentScore"
@@ -10821,6 +10882,7 @@ nicer like that.
   style="width:45%;"
   title="Optimize JavaScript functions using best practices"
   alt="Optimize JavaScript functions using best practices." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image683.png"
   style="width:45%;"
   title="If function is used more than once, split off"
@@ -10851,6 +10913,7 @@ into a separate function that runs here.
   style="width:45%;"
   title="Separate JS code into script.js for best practices"
   alt="Separate JS code into script.js for best practices." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image685.png"
   style="width:45%;"
   title="Move all functions into one script file for ease"
@@ -11050,4 +11113,4 @@ and you&apos;ll get more practice. So I look forward to seeing you there.</p>
 
 <h6>Last Updated 3/23/2024 9:11pm</h6>
 <h6>Last Updated 9/19/2024 10:35pm</h6>
-<h6>Last Updated 10/13/2024 9:10pm</h6>
+<h6>Last Updated 10/14/2024 4:57pm</h6>
