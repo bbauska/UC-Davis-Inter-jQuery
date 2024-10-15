@@ -6765,10 +6765,13 @@ not stick with it exactly, but it is helpful to do that.
 <p align="center">
 <img src="./images/image410.png"
   style="width:45%;"
-  alt="." />
+  title="Scription code, part 1b - adding CSS"
+  alt="Scription code, part 1b - adding CSS." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image411.png"
   style="width:45%;"
-  alt="." />
+  title="Styles.css template/documentation"
+  alt="Styles.css template/documentation." />
 </p>
 
 All right, so you can come over to our snippets here, and copy this
@@ -6783,11 +6786,12 @@ figure out how to get it to not do this. So, I really prefer it not to,
 but that is okay.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 412.  (203) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 412. scription web site, responsive iphone 6/7/8 (207) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image412.png"
   style="width:50%;"
-  alt="." />
+  title="Scription Website, responsive iphone 6/7/8"
+  alt="Scription Website, responsive iphone 6/7/8." />
 </p>
 
 It is fine, it will space everything out a little bit further and, it is
@@ -6799,22 +6803,26 @@ are taking styling out, you are resetting it to a basic, and then you
 are going to add more styling back to make it look better. All right,
 there we are with the resets.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 413/414.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 413/414. example, basic typography (208) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image413.png"
   style="width:45%;"
-  alt="." />
+  title="Example, Basic Typography"
+  alt="Example, Basic Typography." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image414.png"
   style="width:45%;"
-  alt="." />
+  title="Scription Part 1b - Adding CSS"
+  alt="Scription Part 1b - Adding CSS." />
 </p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 415.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 415. scription part 1b - adding css (208) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image415.png"
   style="width:50%;"
-  alt="." />
+  title="Scription Part 1b - Adding CSS"
+  alt="Scription Part 1b - Adding CSS." />
 </p>
 
 That is great, next, we can add some basic typography. Again, I am using
@@ -6832,11 +6840,12 @@ basic settings for the page basic resets typography and maybe some,
 basic page section stuff. That is going to get inherited across the
 entire page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 416.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 416. scription (209) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image416.png"
   style="width:50%;"
-  alt="." />
+  title="Scription"
+  alt="Scription" />
 </p>
 
 Let us go take a look at what that looks like, those rules applied.
@@ -6846,7 +6855,7 @@ great. All right, we will continue with the styling in the next lesson.
 
 <h2 id="ch2-33">2.33 Styling That Attaches to Whole Page (5:03)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 417. styling that attaches to whole page (2.33) (2xx) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 417. styling that attaches to whole page (2.33) (209) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image417.png"
   style="width:40%;"
@@ -6858,23 +6867,27 @@ Next, we&apos;ll apply some styling that will attach to the whole page and
 there&apos;s just a few rules here, but they&apos;ll actually make quite a big
 difference.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 418/419.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 418/419. example, basic page sections (210) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image418.png"
   style="width:45%;"
-  alt="." />
+  title="Snippet, slider styling"
+  alt="Snippet, slider styling." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image419.png"
   style="width:45%;"
-  alt="." />
+  title="Slider Styling"
+  alt="Slider Styling." />
 </p>
 
 So let&apos;s go over and grab these three rules.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 420.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 420. html template (210) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image420.png"
-  style="width:40%;"
-  alt="." />
+  style="width:50%;"
+  title="HTML template"
+  alt="HTML template." />
 </p>
 
 Paste them on our style sheet here inside the basic sections section.
@@ -6884,11 +6897,12 @@ everything&apos;s running right up against the edge, it&apos;s kind of a mess.
 It doesn&apos;t look that great yet, but I&apos;m going to scroll up to the top
 here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 421.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 421. scription part 1 start (211) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image421.png"
   style="width:50%;"
-  alt="." />
+  title="Scription Part 1 Start"
+  alt="Scription Part 1 Start." />
 </p>
 
 And if I refresh, you&apos;ll see immediately we&apos;re starting to get some
@@ -6898,14 +6912,17 @@ work down the page, starting with these basic sections and stuff further
 down the page is inherits, then you need fewer and fewer rules as you go
 down the page. You&apos;ll see as it sort of works out that way.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 422/423.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 422/423. snippet, slider styling (211) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image422.png"
   style="width:45%;"
-  alt="." />
+  title="Snippet, slider styling"
+  alt="Snippet, slider styling." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image423.png"
   style="width:45%;"
-  alt="." />
+  title="Slider Styling"
+  alt="Slider Styling." />
 </p>
 
 Headers are always a pain in the neck. They always have a lot of styling
@@ -6913,14 +6930,17 @@ in them to kind of get things to look right. And sort of copy all of
 this stuff and I&apos;m going to go ahead and paste that in the header and
 they had her section year.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 424/425.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 424/425. css header styles, logo (212) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image424.png"
   style="width:45%;"
-  alt="." />
+  title="CSS Header styles"
+  alt="CSS Header styles." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image425.png"
   style="width:45%;"
-  alt="." />
+  title="CSS logo"
+  alt="CSS logo." />
 </p>
 
 There&apos;s a lot to look at in these header styles so it&apos;s worth spending
@@ -6947,11 +6967,12 @@ you&apos;ll put in later when you&apos;re completing the interactive challenges
 part of this lesson. But you can see basically everything&apos;s kind of
 coming into place here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 426.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 426. css style for header nav ul, li, a (213) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image426.png"
   style="width:50%;"
-  alt="." />
+  title="CSS style for header nav ul, li, a"
+  alt="CSS style for header nav ul, li, a." />
 </p>
 
 I&apos;ve got the the rules for the navigation in here we&apos;re displaying. It
@@ -6962,11 +6983,12 @@ anchor tags by default, in line elements and usually in navigation you
 want them to be block elements and then I&apos;m setting my colors and my
 font size and that kind of fun stuff.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 427.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 427. console test, scription code (213) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image427.png"
   style="width:50%;"
-  alt="." />
+  title="Console test, Scription code"
+  alt="Console test, Scription code." />
 </p>
 
 So with all that in place, we should go over and take a look and see
@@ -6976,8 +6998,9 @@ navigation could maybe be a little bit better for mobile. I&apos;m kind of
 squeezing it all in here. You could replace it and put a hamburger menu
 and have a drop down menu. But that&apos;s a lot more work and I wanted to
 make the project feel a little bit, otherwise it was going to be a lot
-of work if I added that for you and I didn&apos;t want to do that. But
-you&apos;ll notice now the header is fixed so the header will stay there as
+of work if I added that for you and I didn&apos;t want to do that. 
+
+But you&apos;ll notice now the header is fixed so the header will stay there as
 I scroll down the page and if you wanted to try the greenish background,
 you can put that in if you wanted to. I kind of liked the gray in the
 end. I kind of liked it that way. All right, so the headers in place and
@@ -6985,7 +7008,7 @@ we&apos;re ready to see what we need to do for the next section.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-34">2.34 Slider Styling (5:04)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 428. slider styling (2.34) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 428. slider styling (2.34) (214) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image428.png"
   style="width:40%;"
@@ -6995,52 +7018,59 @@ we&apos;re ready to see what we need to do for the next section.
 
 Continuing with our styling, we&apos;ll add some styling for the slider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 429/430.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 429/430. snippet, slider styling (215) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image429.png"
   style="width:45%;"
-  alt="." />
+  title="Snippet, slider styling"
+  alt="Snippet, slider styling." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image430.png"
   style="width:45%;"
-  alt="." />
+  title="Slider Styling"
+  alt="Slider Styling." />
 </p>
 
 These styles, again, are only snippets. It puts the image for the slider
 in the background of this element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 431/432.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 431/432. example, slider styling (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image431.png"
   style="width:45%;"
-  alt="." />
+  title="Section for slider styles"
+  alt="Section for slider styles." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image432.png"
   style="width:45%;"
-  alt="." />
+  title="Slider Styling, again"
+  alt="Slider Styling, again." />
 </p>
 
-Let&apos;s go ahead, come down here, and add this. I&apos;m just going to copy
-all of this, select it all, copy it, and then come over and add this
-into the section for the slider here. There&apos;s a lot going on here, and
-if you&apos;re not that familiar with CSS, I recommend poking around with
-this. What happens if you remove some of these declarations? And see how
-it looks, see how it changes it. The angle brackets ( '&gt;') here
-indicate that I&apos;m applying this to the direct child. This makes sure
-that if I have another div that&apos;s further down the chain, that it
-doesn&apos;t get that styling attached to it. But the best thing to do if
-you&apos;re not really sure about how this is working is to mess around with
-it, play around with the settings. Even if you screw it up entirely, you
-can just delete it, and then paste it back in again from the snippets.
-Don&apos;t worry about messing it up. With that in place, let&apos;s go see if
-our slider is displaying properly.
+Let&apos;s go ahead, come down here, and add this. I&apos;m just going to copy all of this, 
+select it all, copy it, and then come over and add this into the section for the slider here. 
+There&apos;s a lot going on here, and if you&apos;re not that familiar with CSS, I recommend 
+poking around with this. What happens if you remove some of these declarations? And see how
+it looks, see how it changes it. The angle brackets ( '&gt;') here indicate that I&apos;m 
+applying this to the direct child. This makes sure that if I have another div that&apos;s 
+further down the chain, that it doesn&apos;t get that styling attached to it.
+
+But the best thing to do if you&apos;re not really sure about how this is working is to 
+mess around with it, play around with the settings. Even if you screw it up entirely, you
+can just delete it, and then paste it back in again from the snippets. Don&apos;t worry 
+about messing it up. With that in place, let&apos;s go see if our slider is displaying properly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 433/434.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 433/434. responsive with scription/mobile (216) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image433.png"
   style="width:45%;"
-  alt="." />
+  title="Make responsive/mobile with Scription"
+  alt="Make responsive/mobile with Scription." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image434.png"
   style="width:45%;"
-  alt="." />
+  title="Add mobile with Scription"
+  alt="Add mobile with Scription." />
 </p>
 
 There we have it. For the mobile version, we&apos;re going to have this
@@ -7053,11 +7083,12 @@ left off this thing, I&apos;ve actually decided to put that in. But it&apos;s
 going to look like this with our called action here instead. We&apos;ve got
 that in place and we&apos;re ready to go on to the next part.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 435.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 435. example, overview styles (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image435.png"
   style="width:50%;"
-  alt="." />
+  title="Example, overview styles"
+  alt="Example, overview styles." />
 </p>
 
 We don&apos;t need to do much for the overviews settings because a lot of it
@@ -7067,14 +7098,17 @@ a lot of things get inherited. We just need a few rules to sort out some
 of these things, and set the the overview section to display the grid,
 so that it looks right there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 436/437.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 436/437. overview section styles (217) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image436.png"
   style="width:45%;"
-  alt="." />
+  title="Overview Section Styles"
+  alt="Overview Section Styles." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image437.png"
   style="width:45%;"
-  alt="." />
+  title="Styles in styles.css"
+  alt="Styles in styles.css." />
 </p>
 
 Let&apos;s go ahead and add these rules for the overview section. Just a few
@@ -7082,11 +7116,12 @@ of them here. We just need to stick in over here inside the overview.
 I&apos;m going to save that.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 438.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 438. test, overview section scription (217) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image438.png"
   style="width:50%;"
-  alt="." />
+  title="Test, Overview Section Scription"
+  alt="Test, Overview Section Scription." />
 </p>
 
 Then when we come back and refresh the page. We&apos;ve got our description
@@ -7096,14 +7131,17 @@ phone, it should look pretty nice. Again, we&apos;re doing the mobile first,
 because we&apos;ll be adding the desktop view in later. Then next, we&apos;ve
 got to look at the desktop, the download section.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 439/440.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 439/440. download section styles and examples (218) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image439.png"
   style="width:45%;"
-  alt="." />
+  title="Download Section Styles"
+  alt="Download Section Styles." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image440.png"
   style="width:45%;"
-  alt="." />
+  title="Examples, download section styles from Scription"
+  alt="Examples, download section styles from Scription." />
 </p>
 
 Download styles, let&apos;s add those. There are a lot of rules for the
@@ -7116,21 +7154,23 @@ just grab it all. Again, the best thing to do is to mess with it, and
 see what happens if you mess around with it. If you screwed up, just
 paste it back in again, it&apos;s not a big deal.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 441.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 441. styles.css, overview section (218) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image441.png"
   style="width:50%;"
-  alt="." />
+  title="Styles.css, overview section"
+  alt="Styles.css, overview section." />
 </p>
 
 We put that in. I&apos;m not going to go through and describe all of these,
 but they&apos;re all in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 442.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 442. test, download section (219) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image442.png"
   style="width:50%;"
-  alt="." />
+  title="Test, Download Section"
+  alt="Test, Download Section." />
 </p>
 
 Let&apos;s go take a look and see what that did to our page. Download
@@ -7142,7 +7182,7 @@ your own in a future lesson here. Great, we&apos;re coming along.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-35">2.35 Pricing Styles (4:00)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 443. pricing styles (2.35) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 443. pricing styles (2.35) (219) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image443.png"
   style="width:40%;"
@@ -7152,16 +7192,18 @@ your own in a future lesson here. Great, we&apos;re coming along.
 
 We&apos;re going to continue adding styling to our page and the next section
 is the pricing styles.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 444/445.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 444/445. pricing styles and examples (220) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image444.png"
   style="width:45%;"
-  alt="." />
+  title="Pricing Styles"
+  alt="Pricing Styles." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image445.png"
   style="width:45%;"
-  alt="." />
+  title="Example, Pricing Section Styles"
+  alt="Example, Pricing Section Styles." />
 </p>
 
 And that&apos;s going to set us up to get our tabs working the way we need
@@ -7178,14 +7220,17 @@ page, take something out, see what happens, change the values mess
 around with it. It doesn&apos;t matter if you screwed up, it&apos;s totally
 fine.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 446/447.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 446/447. pricing section style (220) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image446.png"
   style="width:45%;"
-  alt="." />
+  title="Make responsive/mobile with Scription"
+  alt="Make responsive/mobile with Scription." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image447.png"
   style="width:45%;"
-  alt="." />
+  title="Add mobile with Scription"
+  alt="Add mobile with Scription." />
 </p>
 
 I&apos;m going to go ahead and add those here under the pricing style
@@ -7200,14 +7245,17 @@ But we&apos;ll get that to work later, that would be great if we get that to
 work. But we&apos;ve got all of that content designed and looking pretty
 good. Now, we just need to go on to the next section.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 448/449.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 448/449. html listen section, css pricing tabs div h4 (221) ~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image448.png"
   style="width:45%;"
-  alt="." />
+  title="HTML listen section"
+  alt="HTML listen section." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image449.png"
   style="width:45%;"
-  alt="." />
+  title="CSS pricing tabs div h4"
+  alt="CSS pricing tabs div h4." />
 </p>
 
 Let&apos;s get these styles for the listen section. It&apos;s not that many
@@ -7217,39 +7265,46 @@ we&apos;ll add a few more, but we&apos;ll get those into place and then let&apos
 come back over here. And put these in just to kind of get that to
 display properly, save that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 450.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 450. scription website, responsive iphone 6/7/8 (222) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image450.png"
   style="width:50%;"
-  alt="." />
+  title="Scription Website, responsive iphone 6/7/8"
+  alt="Scription Website, responsive iphone 6/7/8." />
 </p>
 
 And then let&apos;s take a look and see how that is actually coming through.
 Refresh this scroll down and here&apos;s our listen section, looks nice for
 mobile.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 451/452.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 451/452. make responsive/mobile with scription (222) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image451.png"
   style="width:45%;"
-  alt="." />
+  title="Make responsive/mobile with Scription"
+  alt="Make responsive/mobile with Scription." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image452.png"
   style="width:45%;"
-  alt="." />
+  title="Add mobile with Scription"
+  alt="Add mobile with Scription." />
 </p>
 
 Next, we&apos;ve got the our team section, let&apos;s go ahead and add that.
 There isn&apos;t going to be any interactive elements for the rest of the
 page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 453/454.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 453/454. make responsive/mobile with scription (223) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image453.png"
   style="width:45%;"
-  alt="." />
+  title="Make responsive/mobile with Scription"
+  alt="Make responsive/mobile with Scription." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image454.png"
   style="width:45%;"
-  alt="." />
+  title="Add mobile with Scription"
+  alt="Add mobile with Scription." />
 </p>
 
 So these styles will just stay the way they are and we&apos;re not going to
@@ -7259,14 +7314,17 @@ doing or recommend playing around with them, take some time with it to
 see what they actually do, save that. Let&apos;s come back and see how the
 rest of our page shapes up.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 455/456.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 455/456. scription website, ourteam and footer (223) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image455.png"
   style="width:45%;"
-  alt="." />
+  title="Scription website, ourteam"
+  alt="Scription website, ourteam." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image456.png"
   style="width:45%;"
-  alt="." />
+  title="Scription website, footer"
+  alt="Scription website, footer." />
 </p>
 
 There&apos;s the our team section for mobile and the footer and now we&apos;ve
@@ -7276,7 +7334,7 @@ gets larger, so we&apos;ll do that next.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-36">2.36 Tablet Styles (6:46)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 457. tablet styles (2.36) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 457. tablet styles (2.36) (224) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image457.png"
   style="width:40%;"
@@ -7287,14 +7345,17 @@ gets larger, so we&apos;ll do that next.
 You&apos;ve finished the styling for the mobile version, and now it&apos;s time
 to get the styling in place for the tablet version.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 458/459.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 458/459. test, tablet styles responsive (224) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image458.png"
   style="width:45%;"
-  alt="." />
+  title="Test, Tablet Styles and responsiveness"
+  alt="Test, Tablet Styles and responsiveness." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image459.png"
   style="width:45%;"
-  alt="." />
+  title="Test, Scription Tablet Styles and responsiveness"
+  alt="Test, Scription Tablet Styles and responsiveness." />
 </p>
 
 So to get ready for that, come over here to your view, switch this to be
@@ -7305,14 +7366,17 @@ in 61, sure, that&apos;s fine. But at this point, we&apos;re getting to a point
 where our layout just doesn&apos;t look quite as good at this size, we could
 do a better job.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 460/461.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 460/461. media query for 760px wide (225) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image460.png"
   style="width:45%;"
-  alt="." />
+  title="Example, Media Query for 760 pixels wide"
+  alt="Example, Media Query for 760 pixels wide." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image461.png"
   style="width:45%;"
-  alt="." />
+  title="Media Query Slider"
+  alt="Media Query Slider." />
 </p>
 
 We can add a media query, adjust our layout a little bit based on the
@@ -7327,11 +7391,12 @@ not going to cooperate with me in that, but that&apos;s okay.
 So I&apos;m going to add 760 media query styling for the slider and for the
 overview to make those two areas look a little bit better.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 462.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 462. media queries 760px: tablet size styles (225) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image462.png"
   style="width:50%;"
-  alt="." />
+  title="Media Queries for Tablet Sized Styles; 760px"
+  alt="Media Queries for Tablet Sized Styles; 760px." />
 </p>
 
 I&apos;m going to copy that. Come over here and scroll down and you can see
@@ -7340,11 +7405,12 @@ between these two curly braces in here. I&apos;m going to paste those in,
 and even tap them in a little bit there. When I click save, it&apos;s going
 to expand more, which drives me nuts, but that&apos;s right.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 463.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 463. test, scription (226) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image463.png"
   style="width:50%;"
-  alt="." />
+  title="Test, Scription"
+  alt="Test, Scription." />
 </p>
 
 But if I come back and look at that, if I come back here and refresh up
@@ -7362,21 +7428,25 @@ mobile first, is that we can easily just add layer by just tying this
 section to the split flex and just add a few rules to add some layout as
 the screen gets wider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 464/465.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 464/465. add download and pricing styles (227) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image464.png"
   style="width:45%;"
-  alt="." />
+  title="Add Download and Pricing Styles"
+  alt="Add Download and Pricing Styles." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image465.png"
   style="width:45%;"
-  alt="." />
+  title="Example, Pricing Styles"
+  alt="Example, Pricing Styles." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 466.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 466. overview styles section (227) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image466.png"
   style="width:50%;"
-  alt="." />
+  title="Overview Styles section of styles.css"
+  alt="Overview Styles section of styles.css." />
 </p>
 
 Okay, great. we&apos;ve got that into place. I have a few more rules for the
@@ -7387,11 +7457,12 @@ to do it here. All of these are actually just providing a little bit of
 layout using the flex parts model here, flex parts layout model. Again,
 these are going to go into the 760 media query.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 467.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 467. css, download styles (228) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image467.png"
   style="width:50%;"
-  alt="." />
+  title="CSS, download styles"
+  alt="CSS, download styles." />
 </p>
 
 So just after these rules here, but this is the closing of the media
@@ -7401,14 +7472,17 @@ piles them all up. In fact, I&apos;m going to leave those like that and not
 save it until we and get the next set, which is for the lesson and our
 team.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 468/469.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 468/469. 760 media query listen and our team, html & css (228) ~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image468.png"
   style="width:45%;"
-  alt="." />
+  title="760 media query listen and our team, html"
+  alt="760 media query listen and our team, html." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image469.png"
   style="width:45%;"
-  alt="." />
+  title="Styles.css for listen and ourteam article, figure, img"
+  alt="Styles.css for listen and ourteam article, figure, img." />
 </p>
 
 Then we&apos;ll do a few minor changes for the footer as well. So it&apos;s
@@ -7416,14 +7490,17 @@ great to put all of these in. Again, if you&apos;re not sure what these do,
 I really recommend coming in and messing around with them, see what they
 do when you take them out, see what happens.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 470/471.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 470/471. 760 media query footer styles (229) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image470.png"
   style="width:45%;"
-  alt="." />
+  title="760 Media Query Footer styles"
+  alt="760 Media Query Footer styles." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image471.png"
   style="width:45%;"
-  alt="." />
+  title="Footer styles in styles.css"
+  alt="Footer styles in styles.css." />
 </p>
 
 We got that and then we&apos;ve got the ones for the footer as well.
@@ -7436,38 +7513,45 @@ if it doesn&apos;t feel like it seems like it&apos;s doing that and that&apos;s
 fine, you could skip to the end. I will provide this file before you&apos;re
 finished when we&apos;re done.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 472/473.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 472/473. test console, scription pricing (229) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image472.png"
   style="width:45%;"
-  alt="." />
+  title="Test console, Scription Features and Pricing"
+  alt="Test console, Scription Features and Pricing." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image473.png"
   style="width:45%;"
-  alt="." />
+  title="Test console, Scrption Pricing"
+  alt="Test console, Scrption Pricing." />
 </p>
 
 You can see I&apos;ve added a little bit of layout here. Down here, I have
 added a little bit lay. Pricing is over here and my tabs are on this
 side instead of one on top of the other.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 474.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 474. test console, scription our team (230) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image474.png"
   style="width:50%;"
-  alt="." />
+  title="Test console, Scription Our Team"
+  alt="Test console, Scription Our Team." />
 </p>
 
 This is now on the left instead of on top, and then we&apos;ve got a quote
 here which will use content rotator for.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 475/476.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 475/476. test console, scription our team (230) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image475.png"
   style="width:45%;"
-  alt="." />
+  title="Test console, Scription Our Team"
+  alt="Test console, Scription Our Team." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image476.png"
   style="width:45%;"
-  alt="." />
+  title="Test console, Scription Our Team, #2"
+  alt="Test console, Scription Our Team, #2." />
 </p>
 
 Your team has been reconfigured to make that look a little bit better,
@@ -7479,7 +7563,7 @@ desktop size.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-37">2.37 Media Query for 1020 Pixels Wide (4:56)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ 477. media query for 1020 pixels wide (2.37) (2xx) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 477. media query for 1020 pixels wide (2.37) (231) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image477.png"
   style="width:40%;"
@@ -7489,14 +7573,17 @@ desktop size.
 
 The next breakpoint for my media query is 1020 pixels.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 478/479.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 478/479. example, media query for 1020 pixels wide (231) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image478.png"
   style="width:45%;"
-  alt="." />
+  title="Media Query for 1020 Pixels Wide"
+  alt="Media Query for 1020 Pixels Wide." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image479.png"
   style="width:45%;"
-  alt="." />
+  title="Test, Scription"
+  alt="Test, Scription." />
 </p>
 
 When I get my screen that wide, I want to make further adjustments to
@@ -7513,19 +7600,22 @@ wide in here, I&apos;ve got too much space in here and this is kind of
 scrunched in year now. This is where I want to make some adjustments
 here to this looks kind of funny, maybe it&apos;s narrow enough and wide
 enough now that I can get all these three things kind of in a row here.
+
 So, we just want to make some adjustments to how these different
 elements layout and the space available for them to make them look a
-little bit better. And this is all just part of what you do as a
-designer.
+little bit better. And this is all just part of what you do as a designer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 480/481.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 480/481. 1020 media query body, header & slider styles (232) ~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image480.png"
   style="width:45%;"
-  alt="." />
+  title="1020 media query body, header and slider styles"
+  alt="1020 media query body, header and slider styles." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image481.png"
   style="width:45%;"
-  alt="." />
+  title="1020 media query body, header and slider styles, styles.css"
+  alt="1020 media query body, header and slider styles, styles.css." />
 </p>
 
 I&apos;m going to come in here, I&apos;m going to grab these rules here for the
@@ -7540,27 +7630,33 @@ with layout with 33% padding 30. It&apos;s all having things to do with
 layout in here that I&apos;m applying to these elements. And again, if you
 want to mess around with it, feel free.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 482/483.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 482/483. 1020 media query download and pricing styles (232) ~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image482.png"
   style="width:45%;"
-  alt="." />
+  title="1020 media query download and pricing styles"
+  alt="1020 media query download and pricing styles." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image483.png"
   style="width:45%;"
-  alt="." />
+  title="Large tablet size styles, styles.css"
+  alt="Large tablet size styles, styles.css." />
 </p>
 
 Well, these ones for the pricing Tableaus in I mean add that&apos;s the
 pricing and the downloads.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 484/485.  (232) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 484/485. download and pricing styles (233) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image484.png"
   style="width:45%;"
-  alt="." />
+  title="Download Styles"
+  alt="Download Styles." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image485.png"
   style="width:45%;"
-  alt="." />
+  title="Pricing Styles"
+  alt="Pricing Styles." />
 </p>
 
 This one is the listen and teams. You don&apos;t need to do anything for the
@@ -7570,14 +7666,17 @@ reading it that way for the media queries. I like them all in one line.
 I find it there&apos;s usually just one or two declarations. Not that much
 going on. This one had more, but I prefer to put them on one line.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 486/487.  (232) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 486/487. test console, scription (233) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image486.png"
   style="width:45%;"
-  alt="." />
+  title="Test console, Scription"
+  alt="Test console, Scription." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image487.png"
   style="width:45%;"
-  alt="." />
+  title="Test console, Scription"
+  alt="Test console, Scription." />
 </p>
 
 Let&apos;s go take a look and see what all that did for our 1020 version of
@@ -7598,7 +7697,7 @@ I&apos;m going to look at the next one in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-38">2.38 Media Query for 1200 Pixels Wide</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 488. media query for 1200 pixels wide (2.38) (233) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 488. media query for 1200 pixels wide (2.38) (234) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image488.png"
   style="width:40%;"
@@ -7611,7 +7710,7 @@ this website on a nice large desktop in their browsers, nice and wide,
 and they&apos;ve got lots of screen real estate, in which case we can really
 kind of optimize our layout for that look.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 489. example, media query for 1200 pixels wide (233) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 489. example, media query for 1200 pixels wide (234) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image489.png"
   style="width:50%;"
@@ -7622,7 +7721,7 @@ kind of optimize our layout for that look.
 So let&apos;s go ahead and add these rules in over there and you need to set
 your width here for me to do it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 490. example screen media query 1200 pixels: scription (234) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 490. example screen media query 1200 pixels: scription (235) ~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image490.png"
   style="width:50%;"
@@ -7641,12 +7740,13 @@ kind of make the stuff look a little bit better on the wider screen. So
 let&apos;s go over and add those rules that we have on our snippets and
 they&apos;re here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 491/492. media queries for page, header and slider styles (234) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 491/492. media queries for page, header and slider styles (235) ~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image491.png"
   style="width:45%;"
   title="Media queries for page, header and slider styles"
   alt="Media queries for page, header and slider styles." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image492.png"
   style="width:45%;"
   title="Media queries for page, header and slider styles"
@@ -7661,12 +7761,13 @@ designer, spacing is really important because it really helps
 communicate. So you want to get that kind of stuff just right as much as
 possible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~ 493/494. media queries for overview, download and pricing (css) (235) ~~~~~~~~~~~-->
+<!--~~~~~~~~~~ 493/494. media queries for overview, download and pricing (css) (236) ~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image493.png"
   style="width:45%;"
   title="Media queries for overview, download and pricing from Scription (CSS)"
   alt="Media queries for overview, download and pricing from Scription (CSS)" />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image494.png"
   style="width:45%;"
   title="Media queries for overview, download and pricing from Scription (CSS)"
@@ -7680,12 +7781,13 @@ descendant of the overview section. So it won&apos;t apply to an article
 inside of an article, it will only apply to those parent level ones, and
 that&apos;s kind of helpful to be aware of.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 495/496. media queries for listen and footer styles (css) (235) ~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 495/496. media queries for listen and footer styles (css) (236) ~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image495.png"
   style="width:45%;"
   title="Media queries for listen and footer styles from Scription (CSS)"
   alt="Media queries for listen and footer styles from Scription (CSS)" />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image496.png"
   style="width:45%;"
   title="Media queries for listen and footer styles from Scription (CSS)"
@@ -7696,12 +7798,13 @@ Okay, continue on here and get the last piece for this one. And finally,
 put that in here. The footer gets some new styling at 1200 pixels to
 adjust for that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 497/498. media query: max header width (236) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 497/498. media query: max header width (237) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image497.png"
   style="width:45%;"
   title="Media query: max header width from Scription"
   alt="Media query: max header width from Scription." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image498.png"
   style="width:45%;"
   title="Media query: max header width from Scription"
@@ -7717,14 +7820,17 @@ but you&apos;ll have to trust me that it works. Or try it out or if you&apos;ve
 got a nice big monitor you&apos;ll see the difference. Take it out and see
 what it looks like without it and then put it back in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 499/500. title and menu header page (236) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 499/500. 1200 wide, test console, scription again (237) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image499.png"
   style="width:45%;"
-  alt="Title/menu example using Scription." />
+  title="Test console, 1200 Wide Responsive"
+  alt="Test console, 1200 Wide Responsive." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image500.png"
   style="width:45%;"
-  alt="." />
+  title="Test console, Scription Website"
+  alt="Test console, Scription Website." />
 </p>
 
 So now I&apos;ve got that all sort of sorted out. And in there, I can come
@@ -7735,16 +7841,17 @@ nice to have some room. And so since I&apos;ve got some room, I might as
 well use it to give myself some white space, make the page a little bit
 easier to read, make it a little bit nicer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 501/502. features and pricing using scription (237) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 501/502. test console, scription features galore & tabs (238) ~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image501.png"
   style="width:45%;"
-  title="Feature example using Scription"
-  alt="Feature example using Scription." />
+  title="Test console, Scription Features Galore"
+  alt="Test console, Scription Features Galore." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image502.png"
   style="width:45%;"
-  title="Pricing in tabs using Scription"
-  alt="Pricing in tabs using Scription." />
+  title="Test console, Scription tabs"
+  alt="Test console, Scription tabs." />
 </p>
 
 Down here, again, adding some room, 50 pixels padding around these
@@ -7755,16 +7862,17 @@ Same thing down here. Now I&apos;ve got some extra padding in here. Give it
 a little bit of breathing room, extra padding here to give it a little
 bit of breathing room.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 503/504. our team & footer (237) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 503/504. test console, our team & footer (238) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image503.png"
   style="width:45%;"
-  title="Our Team example using Scription"
-  alt="Our Team example using Scription." />
+  title="Test console, Scription Our Team"
+  alt="Test console, Scription Our Team." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image504.png"
   style="width:45%;"
-  title="Footer example using Scription"
-  alt="Footer example using Scription." />
+  title="Test console, Scription Footer"
+  alt="Test console, Scription Footer." />
 </p>
 
 I bumped up the sizing of this quote a lot. I mean, really make it stand
@@ -7784,7 +7892,7 @@ with it. It&apos;s always fun to do that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-39">2.39 Scription Site: Building Interactive Elements Challenges</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 505. scription site: building interactive elements challenges (238) ~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 505. scription site: building interactive elements challenges (239) ~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image505.png"
   style="width:40%;"
@@ -7801,22 +7909,24 @@ opportunity to show all the great things you&apos;ve learned in our
 JavaScript specialization and to do some challenges to build some
 interactive elements in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 506.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 506. scription site (239) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image506.png"
-  style="width:40%;"
-  alt="." />
+  style="width:50%;"
+  title="Scription Site"
+  alt="Scription Site." />
 </p>
 
 Let&apos;s take a look at what some of these different interactive elements
 are. If I come over to this tab here and I will provide this page for
 you, so that you can see what you&apos;re supposed to be doing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 507.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 507. scription website with flex slider (240) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image507.png"
   style="width:50%;"
-  alt="." />
+  title="Scription Website with flex slider"
+  alt="Scription Website with flex slider." />
 </p>
 
 Here I have the scription web site with all of the interactive elements
@@ -7825,25 +7935,29 @@ and doing its thing and it&apos;s functional, and you can click on the
 different links here, different pieces here. It&apos;s stuff set that up, so
 that&apos;s all working.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 508.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 508. scription website, overview (240) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image508.png"
   style="width:50%;"
-  alt="." />
+  title="Scription website, overview"
+  alt="Scription website, overview." />
 </p>
 
 You&apos;ll notice that I&apos;ve got a nice, smooth scroll script working here
 and it moves down to each section as we go down here, when we get down
 to the download section.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 509/510.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 509/510. scription: highlight as scroll (241) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image509.png"
   style="width:45%;"
-  alt="." />
+  title="Highlight section as scroll by"
+  alt="Highlight section as scroll by." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image510.png"
   style="width:45%;"
-  alt="." />
+  title="Highlight each section as you scroll by it"
+  alt="Highlight each section as you scroll by it." />
 </p>
 
 Of all of the challenges, this is the toughest one, because this is the
@@ -7854,14 +7968,17 @@ you a sense of all the features this piece of software has to offer over
 here, this would be a lesson, but it&apos;s really just a picture of a
 lesson. No big deal.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 511/512.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 511/512. scription/jquery tabs (241) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image511.png"
   style="width:45%;"
-  alt="." />
+  title="Add tabs from Scription and jQuery"
+  alt="Add tabs from Scription and jQuery." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image512.png"
   style="width:45%;"
-  alt="." />
+  title="Scription and jQuery tabs"
+  alt="Scription and jQuery tabs." />
 </p>
 
 We go into pricing, and sure enough, you have tabs, you know how to make
@@ -7877,11 +7994,12 @@ interactive on it and the footer doesn&apos;t, but we can go all the way
 back up to the top of the page by clicking the logo. These are all of
 the pieces for you to build in, and it should be pretty fun.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 513.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 513. introduction (242) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image513.png"
   style="width:50%;"
-  alt="." />
+  title="Introduction"
+  alt="Introduction" />
 </p>
 
 Let&apos;s take a quick look at the challenges as they&apos;re laid out here.
@@ -7891,11 +8009,12 @@ variables in the global scope, so each script needs to be in IIFE
 closure or some other function that will keep the variable from creeping
 into the global scope.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 514.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 514. Challenge 1 - smooth scroll (243) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image514.png"
   style="width:50%;"
-  alt="." />
+  title="Challenge 1 Smooth Scroll"
+  alt="Challenge 1 Smooth Scroll." />
 </p>
 
 The first challenge is the smooth scroll. Again, when the user clicks
@@ -7908,11 +8027,12 @@ script where it&apos;s scrolling down to the correct part of the page,
 we&apos;re not doing any of the page tracking stuff that was much harder. So
 that&apos;s challenge one.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 515.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 515. challenge 1 - hints (244) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image515.png"
   style="width:50%;"
-  alt="." />
+  title="Challenge 1 Hints"
+  alt="Challenge 1 Hints." />
 </p>
 
 Some hints for this, see if you can modify the JQuery smooth scroll
@@ -7932,11 +8052,12 @@ to change in the course of writing the script, and the way to do that is
 just to set everything to const and then if it breaks, find which one is
 breaking and change that one to let. Usually it&apos;s const.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 516.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 516. challenge 2 - add the flexslider (245) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image516.png"
   style="width:50%;"
-  alt="." />
+  title="Challenge 2 - Add the FlexSlider"
+  alt="Challenge 2 - Add the FlexSlider." />
 </p>
 
 Challenge 2, add the Flexslider. For this challenge, turn the image at
@@ -7946,31 +8067,33 @@ link to the Flexslider the CSS to the index file at the markup for the
 additional slides, the index file. By the way, I&apos;ve provided some
 additional snippets so that adding this markup will be easier.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 517.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 517. additional html for scription (245) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image517.png"
   style="width:50%;"
-  alt="." />
+  title="Additional HTML for Scription"
+  alt="Additional HTML for Scription." />
 </p>
 
-Here are all the list items that you need for the Flexslider and I will
-provide this file for you so you can just paste this right in. You
-don&apos;t have to do a lot of tedious typing and all that stuff, which is
-what I did when I made this. I&apos;m saving you the pain that I went
-through by providing you with these snippets. You&apos;ll add the additional
-markup, add the link to the Flexslider JS script to the bottom of the
-index file. I provided with this lesson, again, the download for the
+Here are all the list items that you need for the Flexslider and I will provide this file 
+for you so you can just paste this right in. You don&apos;t have to do a lot of tedious 
+typing and all that stuff, which is what I did when I made this. I&apos;m saving you the 
+pain that I went through by providing you with these snippets.
+
+You&apos;ll add the additional markup, add the link to the Flexslider JS script to the 
+bottom of the index file. I provided with this lesson, again, the download for the
 Flexslider&apos;s files. You&apos;ll need those in order to make this work.
 
-Adjust the styling in the CSS file and add appropriate script to the JS
-file to initialize the slider. I did modify the slider a little bit with
-some of the features that we saw in the other slider.
+Adjust the styling in the CSS file and add appropriate script to the JS file to initialize 
+the slider. I did modify the slider a little bit with some of the features that we saw in 
+the other slider.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 518.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 518. scription right/left arrows 'off' (246) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image518.png"
   style="width:50%;"
-  alt="." />
+  title="Scription right/left arrows 'off'"
+  alt="Scription right/left arrows 'off'." />
 </p>
 
 Notice that I also got rid of the arrows that point left and right.
@@ -7981,11 +8104,12 @@ really look terrible on the mobile version. I decided I didn&apos;t want
 them anymore. I didn&apos;t really need that particular item in there. I did
 that as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 519.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 519. challenge 3 - add tabs (247) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image519.png"
   style="width:50%;"
-  alt="." />
+  title="Challenge 3 - Add Tabs"
+  alt="Challenge 3 - Add Tabs." />
 </p>
 
 Once you get the Flexslider done, you can go on to, Challenge 3, add the
@@ -8003,11 +8127,12 @@ style-sheet to make that version work and you can go back and look at
 that version of that script to see what styles you would need to add.
 That&apos;s Challenge 3, to get that to work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 520.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 520. challenge 4 - add content rotator (248) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image520.png"
   style="width:50%;"
-  alt="." />
+  title="Challenge 4 - Add Content Rotator"
+  alt="Challenge 4 - Add Content Rotator." />
 </p>
 
 Challenge 4, is the content rotator. Add the content rotator for the
@@ -8025,11 +8150,12 @@ ahead and work on the content rotator. You can pause this lesson here,
 we&apos;ll come back to it to see exactly what you need to do in order to
 get that to work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 521.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 521. challenge 5 - add feature rotator (249) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image521.png"
   style="width:50%;"
-  alt="." />
+  title="Challenge 5 - Add Feature Rotator"
+  alt="Challenge 5 - Add Feature Rotator." />
 </p>
 
 Challenge 5, this is really the toughest challenge because you have not
@@ -8078,12 +8204,12 @@ section:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-01">3.01 Module 3 Intro (0:37)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 522. module 3 intro (3.01) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 522. module 3 intro (3.01) (250) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image522.png"
   style="width:40%;"
-  title="3.01 Module 3 Introduction"
-  alt="3.01 Module 3 Introduction." />
+  title="3.01 Module (Week) 3 Introduction"
+  alt="3.01 Module (Week) 3 Introduction." />
 </p>
 
 Hello, welcome to the third module and our third course on JavaScript.
@@ -8097,21 +8223,23 @@ look forward to doing it with you. Let&apos;s get started.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-02">3.02 Introduction to Objects and Data in JS (5:52)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 523.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 523. intro to objects and data in javascript (3.02) (251) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image523.png"
   style="width:40%;"
-  alt="." />
+  title="3.02 Intro to Objects and Data in JavaScript"
+  alt="3.02 Intro to Objects and Data in JavaScript." />
 </p>
 
 Let&apos;s talk about a few of the familiar pieces we have with the
 JavaScript language.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 524.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 524. javascript has objects, not associative arrays (251) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image524.png"
   style="width:50%;"
-  alt="." />
+  title="No associative arrays in JS"
+  alt="No associative arrays in JS." />
 </p>
 
 You&apos;re already familiar with variables. That&apos;s a data structure that
@@ -8132,13 +8260,13 @@ there&apos;s the <b>firstname</b> value which is John. And then we have another
 key which is <b>lastname</b>, which has the value Smith in there. Well we
 can do the same thing with JavaScript but not with the arrays. Instead
 we&apos;ll use <b>objects</b>.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 525.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 525. example, javascript object literal (252) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image525.png"
   style="width:50%;"
-  alt="." />
+  title="Example, JavaScript Object Literal"
+  alt="Example, JavaScript Object Literal." />
 </p>
 
 This is the object literal in JavaScript. Here I have a variable person
@@ -8161,11 +8289,12 @@ listed in JavaScript is in this sort of format, because it&apos;s easier to
 read.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 526.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 526. example, javascript object - key/value pairs (253) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image526.png"
   style="width:50%;"
-  alt="." />
+  title="Example, JavaScript Object - Key/Value Pairs"
+  alt="Example, JavaScript Object - Key/Value Pairs." />
 </p>
 
 Now notice here again, I&apos;m going to point this out because this is
@@ -8177,11 +8306,12 @@ except for the last one. And that&apos;s really kind of important as well.
 So you&apos;ll have key value pairs and one on each line, one key value pair
 in each line followed with a comma.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 527.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 527. console example, array (254) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image527.png"
   style="width:50%;"
-  alt="." />
+  title="Console example, array"
+  alt="Console example, array." />
 </p>
 
 Now it&apos;s really important to get in the habit of actually typing this.
@@ -8199,22 +8329,24 @@ then we have a comma there and then age 25 or whatever you want to put
 in for an age. And remember that one does not get a comma, we just close
 the object and that object has been defined.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 528.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 528. inspect console array, person.firstname (255) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image528.png"
   style="width:50%;"
-  alt="." />
+  title="Inspect console array, person.firstname"
+  alt="Inspect console array, person.firstname." />
 </p>
 
 And now I could access person.firstname and you can see it even fills it
 out for me, I can press tab and it&apos;ll return Jose. You want to practice
 this as much as you can, and get used to using these data structures.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 529.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 529. example, javascript object keyword (255) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image529.png"
   style="width:50%;"
-  alt="." />
+  title="Example, JavaScript Object Keyword"
+  alt="Example, JavaScript Object Keyword." />
 </p>
 
 One more thing about objects before we close out this lesson is that you
@@ -8247,7 +8379,7 @@ transmission, often carrying the extension .ZIP.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-03">3.03 Objects Can Contain Arrays and Other Objects (5:04)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~ 530. objects can contain arrays and other objects (3.03) (2xx) ~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 530. objects can contain arrays and other objects (3.03) (256) ~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image530.png"
   style="width:40%;"
@@ -8258,11 +8390,12 @@ transmission, often carrying the extension .ZIP.
 The object data format in JavaScript is very flexible because objects
 can contain arrays and other objects.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 531.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 531. example, objects can contain arrays and other objects (257) ~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image531.png"
   style="width:50%;"
-  alt="." />
+  title="Example, Objects can contain arrays and other objects"
+  alt="Example, Objects can contain arrays and other objects." />
 </p>
 
 Here you can see we have an object called person and we&apos;ve expanded it
@@ -8274,11 +8407,12 @@ own key value pairs. And then we can access these different values
 through similar methods that we used before down here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 532.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 532. console log inspect, example array (257) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image532.png"
   style="width:50%;"
-  alt="." />
+  title="Console log inspect, example array"
+  alt="Console log inspect, example array." />
 </p>
 
 I recommend typing this out and seeing if you can get it to work exactly
@@ -8293,11 +8427,12 @@ a chicken, <b>person.pets&lbrack;2&rbrack;</b>. It gets me the chicken or I coul
 number. We can access all the data inside of this object.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 533.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 533. console log inspect, more with array (258) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image533.png"
   style="width:50%;"
-  alt="." />
+  title="Console log inspect, more with example array"
+  alt="Console log inspect, more with example array." />
 </p>
 
 You can even update data very easily with this and we&apos;ll talk more
@@ -8312,11 +8447,12 @@ really important thing to understand about objects as a data structure.
 They&apos;re very flexible and very useful for working with in this way.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 534.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 534. example, objects can contain functions (259) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image534.png"
   style="width:50%;"
-  alt="." />
+  title="Example, Objects can contain functions"
+  alt="Example, Objects can contain functions." />
 </p>
 
 Another thing that&apos;s interesting about objects is that they can contain
@@ -8335,11 +8471,12 @@ function that&apos;s in that assigned to that greeting key there. So let&apos;s
 do this really quickly because this is kind of interesting.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 535.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 535. console log inspect, function (260) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image535.png"
   style="width:50%;"
-  alt="." />
+  title="Console log inspect, function greeting()."
+  alt="Console log inspect, function greeting()." />
 </p>
 
 If you come back over here to your tab, we can clear out the <b>console</b>
@@ -8357,22 +8494,23 @@ feature of JavaScript in <b>objects</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-04">3.04 Functions Inside Objects Equals Methods (6:14)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 536. functions inside objects equals methods (3.04) (2xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 536. functions inside objects equals methods (3.04) (261) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image536.png"
   style="width:40%;"
-  title="3.04 Functions Inside Objects Equals Methods"
-  alt="3.04 Functions Inside Objects Equals Methods." />
+  title="3.04 Functions Inside Objects = Methods"
+  alt="3.04 Functions Inside Objects = Methods." />
 </p>
 
 Let&apos;s take this idea a little bit further.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 537.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 537. functions inside objects are called methods (261) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image537.png"
   style="width:50%;"
-  alt="." />
+  title="Functions inside Objects are Called Methods"
+  alt="Functions inside Objects are Called Methods." />
 </p>
 
 We can put <b>functions</b> inside <b>objects</b>, which again are called
@@ -8392,11 +8530,12 @@ javascript, but it refers to this <b>object</b>, this <b>person</b>, that&apos;s
 the context in which this makes sense here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 538.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 538. using 'this' (262) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image538.png"
   style="width:50%;"
-  alt="." />
+  title="Using 'this'"
+  alt="Using 'this'." />
 </p>
 
 So, let&apos;s give this a try over here. And it will say hello John Smith.
@@ -8405,11 +8544,12 @@ remember that this is a key word here in javascript, so that&apos;s
 important.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 539.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 539. example, object constructore (262) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image539.png"
   style="width:50%;"
-  alt="." />
+  title="Example, Object constructor"
+  alt="Example, Object constructor." />
 </p>
 
 The next thing to talk about is the <b>object constructor</b>. This will
@@ -8418,7 +8558,7 @@ what an <b>object constructor</b> does, is it creates a <b>use function</b> to
 create an <b>object</b> that could be like a reusable template that you
 could use over and over again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 540. objects can contain functions (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 540. example, objects can contain functions (263) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image540.png"
   style="width:50%;"
@@ -8442,11 +8582,12 @@ we&apos;re starting to have seen a number of different ways of using objects now
 you&apos;re not typing them, you&apos;re not going to get comfortable with them or 
 remember them.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 541.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 541. function person (264) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image541.png"
   style="width:50%;"
-  alt="." />
+  title="function Person"
+  alt="function Person." />
 </p>
 
 I&apos;m going to go over here to my tab here, and I&apos;m just going to paste
@@ -8461,11 +8602,12 @@ going to put in, <b>firstName</b> &apos;&apos;Mary&apos;&apos;, <b>lastName</b> 
 <b>myMother</b> dot <b>firstName</b>. It&apos;s that 2nd one there. Now we had
 <b>firstName</b> with the capital in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 542.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 542. test, console.log objects/variables (265) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image542.png"
   style="width:50%;"
-  alt="." />
+  title="Test, console.log objects"
+  alt="Test, console.log objects." />
 </p>
 
 So there we go, we can actually access these values for this <b>object</b>
@@ -8482,7 +8624,7 @@ more complex javascript programming.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-05">3.05 Putting Objects and Functions Together (5:18)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 543. putting objects and functions together (3.05) (2xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 543. putting objects and functions together (3.05) (265) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image543.png"
   style="width:40%;"
@@ -8499,11 +8641,12 @@ But I want to show it to you as we&apos;re talking about <b>objects</b>, so you
 can start to think about ways in which you can use <b>objects</b> and
 <b>functions</b> together that are very powerful.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 544.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 544. putting objects and functions together (266) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image544.png"
   style="width:50%;"
-  alt="." />
+  title="Example, Putting Objects and Functions Together"
+  alt="Example, Putting Objects and Functions Together." />
 </p>
 
 Here on the left, you can see that we have a <b>function</b> called
@@ -8528,22 +8671,24 @@ actually assign <b>variables</b> that hold <b>printableMessage</b>, and we can
 do different things with them without actually affecting what&apos;s inside
 this <b>closure</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 545.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 545. function printableMessage (267) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image545.png"
   style="width:50%;"
-  alt="." />
+  title="Function: printableMessage"
+  alt="Function: printableMessage." />
 </p>
 
 Let&apos;s see how this works, and again, I strongly recommend that you
 actually type this out into an HTML file or else in script tags. You can
 see that it gets defined here. That will get to find, <b>printMessage.</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 546.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 546. message in function (267) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image546.png"
   style="width:50%;"
-  alt="." />
+  title="Pass Message in Function"
+  alt="Pass Message in Function." />
 </p>
 
 Now I can make a <b>variable var</b> <b>awesome1</b>, equals printable
@@ -8570,10 +8715,11 @@ a a key thing in any programming language is to be able to do that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-06">3.06 Data Formats - XML (3:47)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 547. data formats - xml (3.06) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 547. data formats - xml (3.06) (268) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image547.png"
   style="width:40%;"
+  title="3.06 Data Formats - XML"
   alt="3.06 Data Formats - XML." />
 </p>
 
@@ -8581,11 +8727,12 @@ a a key thing in any programming language is to be able to do that.
 about data formats and to talk about data. Here, we&apos;re seeing a data
 format called XML.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 548.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 548. data formats - xml (269) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image548.png"
   style="width:50%;"
-  alt="." />
+  title="Data Formats - XML"
+  alt="Data Formats - XML." />
 </p>
 
 If you look at it, it should look fairly familiar in the sense that we
@@ -8605,11 +8752,12 @@ data format called JSON, which stands for JavaScript Object Notation.
 Over here, we have a level graph here, about the popularity of these.
 You can see JSON&apos;s going off the chart here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 549.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 549. the birth of json (270) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image549.png"
   style="width:50%;"
-  alt="." />
+  title="The Birth of JSON"
+  alt="The Birth of JSON." />
 </p>
 
 This comes from this article over here, &quot;The Rise of JSON.&quot; This is
@@ -8618,11 +8766,12 @@ this name, Douglas Crockford, was involved with the invention of this
 data format JSON. We&apos;ve talked about him before. XML is a valuable
 format for data, but it&apos;s being largely replaced by JSON.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 550.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 550. example, json & objects (270) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image550.png"
   style="width:50%;"
-  alt="." />
+  title="Example, JSON & Objects"
+  alt="Example, JSON & Objects." />
 </p>
 
 If we look at JSON and Objects now, on the left you&apos;ll see something
@@ -8649,7 +8798,7 @@ object that you can manipulate and use within your JavaScript program.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-07">3.07 Example File (7:17)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 551. example file (3.07) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 551. example file (3.07) (271) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image551.png"
   style="width:40%;"
@@ -8662,21 +8811,23 @@ that example file in Visual Studio Code or whichever code editor you&apos;re
 using and work with that to see what you can do with that file, with
 some JSON data.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 552.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 552. example, json example file (272) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image552.png"
   style="width:50%;"
-  alt="." />
+  title="Example, JSON Example File"
+  alt="Example, JSON Example File." />
 </p>
 
 I have that file open over here. In it is just a variable called JSON
 with a string of JSON data.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 553.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 553. example script, var json array (272) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image553.png"
   style="width:50%;"
-  alt="." />
+  title="Example script, var json array"
+  alt="Example script, var json array." />
 </p>
 
 We can do something with this, we could say <b>var user</b> equals
@@ -8684,14 +8835,17 @@ JSON.parse(json). Now let&apos;s see what happens. I&apos;m going to
 console.log. I&apos;m just going to console.log the json variable up there,
 and that should just give me my string of data.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 554/555.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 554/555. example json, working with json data (273) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image554.png"
   style="width:45%;"
-  alt="." />
+  title="Example JSON"
+  alt="Example JSON." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image555.png"
   style="width:45%;"
-  alt="." />
+  title="Working with JSON data"
+  alt="Working with JSON data." />
 </p>
 
 Let&apos;s see what happens if I do that. If I go over to here, and then to
@@ -8702,14 +8856,17 @@ from some external source, maybe from a database or from some 3rd party
 API. We&apos;ll be talking about those later in this course. But for right
 now, I&apos;ve just built a little bit of JSON in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 556/557.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 556/557. example script, user=json.parse(json) (273) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image556.png"
   style="width:45%;"
-  alt="." />
+  title="Example script, user=json.parse(json);"
+  alt="Example script, user=json.parse(json);" />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image557.png"
   style="width:45%;"
-  alt="." />
+  title="Console log, json data"
+  alt="Console log, json data." />
 </p>
 
 Next, I&apos;m going to come to logout user and you&apos;ll see I&apos;m going to
@@ -8722,17 +8879,19 @@ parse method here takes that JSON and JSON.parse will take that JSON and
 parse it and stick it into user. Now, it&apos;s an object that I can
 actually do some things with.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 558.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 558. example, accessing values (274) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image558.png"
   style="width:50%;"
-  alt="." />
+  title="Example, Accessing Values"
+  alt="Example, Accessing Values." />
 </p>
 
 What can I do with it? I can do a number of things with it. I can access
 the data so I could use user.last_name or user.social media&lbrack;0&rbrack; to get
 into those elements and see what data is in there or
 user.phone_numbers.mobile to get inside the objects, inside the object.
+
 We can also change the values of an object. We talked about this a
 little bit before, but I can just assign a new value. If I cancel log
 user out again, you actually see that it&apos;s there. You can delete
@@ -8745,14 +8904,17 @@ that&apos;s a new social media place that want to add to my object, and
 you&apos;ll see that each of these things works and runs in there. I
 recommend trying some of these things out.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 559/560.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 559/560. console.log first user, name (275) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image559.png"
   style="width:45%;"
-  alt="." />
+  title="Add variables; name, etc"
+  alt="Add variables; name, etc." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image560.png"
   style="width:45%;"
-  alt="." />
+  title="console.log name"
+  alt="console.log name." />
 </p>
 
 If you go over here, and just add some calls to the console log, you can
@@ -8770,11 +8932,12 @@ enough time on objects. I&apos;ll tell you to do this stuff. But if you
 don&apos;t do it, you won&apos;t get used to it and you won&apos;t get good at
 working with JavaScript and objects.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 561.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 561. converting back to json (275) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image561.png"
   style="width:50%;"
-  alt="." />
+  title="Example, Converting back to JSON"
+  alt="Example, Converting back to JSON." />
 </p>
 
 The last thing here is occasionally you need to take an object and
@@ -8817,22 +8980,22 @@ section:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-08">3.08 Intro to Pig Dice Game (5:44)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 562.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 562. intro to pig dice game (3.08) (276) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image562.png"
   style="width:40%;"
-  alt="." />
+  title="3.08 Intro to Pig Dice Game"
+  alt="3.08 Intro to Pig Dice Game." />
 </p>
 
-This is a game of luck created that we can create in JavaScript and I
-didn&apos;t invent this game.
-
+This is a game of luck that we can create in JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 563.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 563. introduction to pig dice game (277) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image563.png"
-  style="width:40%;"
-  alt="." />
+  style="width:50%;"
+  title="Introduction to Pig Dice Game"
+  alt="Introduction to Pig Dice Game." />
 </p>
 
 You can look it up in the Internet and see other all variations of this
@@ -8850,11 +9013,12 @@ going to become longer. We really need to think about how we&apos;re going
 to go about building them more carefully.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 564.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 564. game of pig rules (278) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image564.png"
   style="width:50%;"
-  alt="." />
+  title="Game of Pig Rules"
+  alt="Game of Pig Rules." />
 </p>
 
 Let&apos;s start with this game of Pig. In the first place to start is with
@@ -8901,11 +9065,12 @@ about this as thoroughly as you can before going into the lesson where
 we actually build the game.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 565.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 565. do this: define game requirements (279) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image565.png"
   style="width:50%;"
-  alt="." />
+  title="Do This; Define Game of Pig Requirements"
+  alt="Do This; Define Game of Pig Requirements." />
 </p>
 
 With that said, do this with nothing more than those rules, that set of
@@ -8920,11 +9085,12 @@ with nothing other than the rules. Sit down and take a few minutes to
 think about this and to see what you can get, I&apos;ll go back to the
 rules.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 564.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 564. game of pig rules, again (280) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image564.png"
   style="width:40%;"
-  alt="." />
+  title="Game of Pig Rules, again"
+  alt="Game of Pig Rules, again." />
 </p>
 
 Here&apos;s the rules here. I mean, in the lesson here, and you should go do
@@ -8936,11 +9102,12 @@ rules.
 
 Here are the diagrams for the pig game to help you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 566.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 566. diagrams for the pig game (280) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image566.png"
   style="width:65%;"
-  alt="." />
+  title="Diagrams for the Pig Game"
+  alt="Diagrams for the Pig Game." />
 </p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8959,11 +9126,12 @@ notes just based on the rules. If you are creating a game from scratch
 and you didn&apos;t have an example to go from of that game, that&apos;s all you
 would have. You would have to start with that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 568.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 568. play the game of pig (281) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image568.png"
-  style="width:40%;"
-  alt="." />
+  style="width:50%;"
+  title="Design playing the Game of Pig"
+  alt="Design playing the Game of Pig." />
 </p>
 
 Now, here we&apos;re a little bit lucky in that this game already exists. So
@@ -8971,11 +9139,12 @@ we can actually reverse engineer it a little bit. We can actually go
 play the game and take further notes based on what we observe while
 playing the game. So I will provide a URL for this game.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 569.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 569. explore the game of pig (282) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image569.png"
-  style="width:40%;"
-  alt="." />
+  style="width:50%;"
+  title="Explore the Game of Pig"
+  alt="Explore the Game of Pig." />
 </p>
 
 It&apos;s the cpe-web-assignments.ucdavis.edu/pig-js. So you can actually go
@@ -8983,11 +9152,12 @@ to this website and play this game following the rules that I have. And
 I recommend that you do this a few times. Play the game, pick the player
 see what happens when you click the different buttons.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 570.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 570. inspect, JS buttons quit and roll (282) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image570.png"
-  style="width:40%;"
-  alt="." />
+  style="width:50%;"
+  title="Inspect JS buttons, quit and roll"
+  alt="Inspect JS buttons, quit and roll." />
 </p>
 
 What happens if you click Quit? What happens if you click Roll the dice?
@@ -9016,21 +9186,22 @@ wouldn&apos;t even know where to begin. So really this process is to help
 you with that. We&apos;ve done some other things in this specialization,
 such as the challenges which build one, upon the next, upon the next,
 trying to make you take baby steps as you move forward through the
-challenges to build something a little bit more complex. And now we&apos;re
-at a point where we&apos;re going to make a more complex script. And we
-really need to think about, what are our strategies for doing that?
-Okay, so take these five minutes, and go through, and write down
-whatever notes you can think of that match what you thought from looking
-at the rules, does it match? Are there things that are different than
-you thought? Are there things that you&apos;re noticing that you didn&apos;t
-notice before, since you have the advantage of having a existing version
-to deconstruct? What do you notice there?
+challenges to build something a little bit more complex.
+
+And now we&apos;re at a point where we&apos;re going to make a more complex script. And we
+really need to think about, what are our strategies for doing that? Okay, so take these 
+five minutes, and go through, and write down whatever notes you can think of that match 
+what you thought from looking at the rules, does it match? Are there things that are 
+different than you thought? Are there things that you&apos;re noticing that you didn&apos;t
+notice before, since you have the advantage of having a existing version to deconstruct? 
+What do you notice there?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 571.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 571. what functions do you need? (283) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image571.png"
   style="width:50%;"
-  alt="." />
+  title="What Functions Do You Need?"
+  alt="What Functions Do You Need?" />
 </p>
 
 Pause the lesson and do this before going on to the next part of the
@@ -9056,7 +9227,7 @@ lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-10">3.10 Version One (4:05)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 572. version one (3.10) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 572. version one (3.10) (284) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image572.png"
   style="width:40%;"
@@ -9085,11 +9256,12 @@ I think about it, and you can create your own diagrams and you can just
 draw them on pieces of paper. It&apos;s a good idea to do that, to help you
 sort of think out the steps that you would need in order to do this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 573.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 573. flowchart, version 1 throwing the dice (285) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image573.png"
   style="width:50%;"
-  alt="." />
+  title="Flowchart, Version 1 Throwing the Dice"
+  alt="Flowchart, Version 1 Throwing the Dice." />
 </p>
 
 The first diagram demonstrates what I think of as the core of this game.
@@ -9128,12 +9300,12 @@ of this game.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-11">3.11 Version Two (2), Three (3), & Four (4) (6:51)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 574. version two, three and four (3.11) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 574. version 2, 3, and 4 (3.11) (286) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image574.png"
   style="width:40%;"
-  title="3.11 Version Two, Three, &amp; Four"
-  alt="3.11 Version Two, Three, &amp; Four." />
+  title="3.11 Version 2 (two), 3 (three), and 4 (four)"
+  alt="3.11 Version 2 (two), 3 (three), and 4 (four)." />
 </p>
 
 Having done the first version of my diagram, I start to think, well,
@@ -9141,49 +9313,45 @@ wait a minute here, I need to keep track of the score. And somebody has
 won because the game is going to end, it&apos;s not just about the throws at
 a certain point, you&apos;re going to stop throwing dice or switching turns.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 575.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 575. flowchart, version 2 is winning condition met? (286) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image575.png"
   style="width:50%;"
-  alt="." />
+  title="Flowchart, version 2; Is winning condition met?"
+  alt="Flowchart, version 2; Is winning condition met?" />
 </p>
 
-And when that happens, you&apos;re going to check to see if some sort of
-winning condition has been met. So here you can see in this diagram
-I&apos;ve updated a little bit to check on that winning condition. I rolled
-the two dice, again check to see if anyone&apos;s have been rolled and if
-none of them have, I can add the sum to my score. And then I can check
-to see, okay, what is that total score? And has the winning condition
-met? In this case with our rules, with our set. Do I have a score
-that&apos;s greater than 30 and if yes, then end the game is over. The game
-is going to totally be over. If no, I can decide whether or not we going
-to roll again and if yes, I can roll again and no, then my turn is over,
-but the game is not over.
-
+And when that happens, you&apos;re going to check to see if some sort of winning condition 
+has been met. So here you can see in this diagram I&apos;ve updated a little bit to check 
+on that winning condition. I rolled the two dice, again check to see if anyone&apos;s have 
+been rolled and if none of them have, I can add the sum to my score. And then I can check
+to see, okay, what is that total score? And has the winning condition met? In this case 
+with our rules, with our set. Do I have a score that&apos;s greater than 30 and if yes, 
+then end the game is over. The game is going to totally be over. If no, I can decide whether 
+or not we are going to roll again and if yes, I can roll again and if no, then my turn is 
+over, but the game is not over.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 576.  (2xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 576. flowchart, version 3 with call to new function (287) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image576.png"
   style="width:50%;"
-  alt="." />
+  title="Flowchart, version 3: With call to new function"
+  alt="Flowchart, version 3: With call to new function." />
 </p>
 
-That brings me to version 3 of my diagram here. And here in version 3
-you can see that I start by throwing my dice and I roll the two dice if
-no one&apos;s are rolled and then I add that some and I checked the winning
-condition. And if the winning condition is not met, I now have a new
-function called setup turn if I choose to roll again. So now I&apos;m
-introducing a new function in here because before in version 2 there was
-a problem. In that when I end here, if the winning condition is met,
-this end is representing both the winning condition having been met and
-setting up a new turn for the other player if in fact it&apos;s their turn
-to roll or I pass or something like that.
+That brings me to version 3 of my diagram here. And here in version 3 you can see that I 
+start by throwing my dice and I roll the two dice if no one&apos;s are rolled and then I 
+add that some and I checked the winning condition. And if the winning condition is not met, 
+I now have a new function called setup turn if I choose to roll again. So now I&apos;m 
+introducing a new function in here because before in version 2 there was a problem. In 
+that when I end here, if the winning condition is met, this end is representing both the 
+winning condition having been met and setting up a new turn for the other player if in 
+fact it&apos;s their turn to roll or I pass or something like that.
 
-So both situations are handled here and I really need to separate those
-out. Here I&apos;ve got a new function called set up new turn (right on
-image). If the winning condition is not met and I choose to roll again,
-I&apos;m going to set up a new turn. Conversely, if I roll a one and my turn
-is over, I&apos;m going to change a player and then set up a new turn for
+So both situations are handled here and I really need to separate those out. Here I&apos;ve 
+got a new function called set up new turn (right on image). If the winning condition is not 
+met and I choose to roll again, I&apos;m going to set up a new turn. Conversely, if I roll a 
+one and my turn is over, I&apos;m going to change a player and then set up a new turn for
 that player. So that&apos;s looking a little bit cleaner. 
 
 And now you have a second function here called set up turn function. And in this function
