@@ -978,7 +978,7 @@ each time.</p>
   title="1.04 Gotchas and Rookie Mistakes, #1"
   alt="1.04 Gotchas and Rookie Mistakes, #1."
   style="width:40%;" />
-
+<br/><br/>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. gotchas and rookie mistakes, #2 (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -988,59 +988,49 @@ each time.</p>
   alt="Gotchas and Rookie Mistakes, #2."
   style="width:50%;" />
 
-<p><b><mark>Number 1</mark></b> on this list is the biggest one, I see
-this all the time, especially with students who are new to working with
-JavaScript in jQuery, and that is ending up with multiple copies of the
-jQuery library linked to your page.</p>
+<p><b><mark>Number 1</mark></b> on this list is the biggest one, I see this all the time, 
+especially with students who are new to working with JavaScript in jQuery, and that is 
+ending up with multiple copies of the jQuery library linked to your page.</p>
 
-<p>Only load the jQuery library once. You may have multiple plugins, but
-you should only load one copy of the jQuery library, which is used by
-all the plugins. What happens is you find a plugin that add some
-interesting functionality web page. You follow the directions and load
-the jQuery library and do all the directions to make that plugin work.
-Then you find another plugin that does something else that you want to
-use. You follow the directions and that page and it tells you to load
-the jQuery library and to load the plugins. You follow those directions
-and then in the end, you end up with the jQuery library loaded twice.
-Frequently, when you download these plugins, they'll include a copy of
-the jQuery library. You'll follow the directions, you'll link up one,
-then you'll think of another.</p>
+<p>Only load the jQuery library once. You may have multiple plugins, but you should only 
+load one copy of the jQuery library, which is used by all the plugins. What happens is you 
+find a plugin that add some interesting functionality web page. You follow the directions 
+and load the jQuery library and do all the directions to make that plugin work. Then you 
+find another plugin that does something else that you want to use. You follow the directions 
+and that page and it tells you to load the jQuery library and to load the plugins. You 
+follow those directions and then in the end, you end up with the jQuery library loaded 
+twice. Frequently, when you download these plugins, they'll include a copy of the jQuery 
+library. You'll follow the directions, you'll link up one, then you'll think of another.</p>
 
-<p>It turns out that the two plugins hooked up actually are using
-different versions of the same jQuery library. Now you've got two
-different versions of the jQuery library linked up, and that's going to
-cause all problems and things will break and it won't work right. You
-want to make sure you only ever have one copy of the jQuery library
-plugin. I'm saying this now, but I promise it'll happen. How I see this
-is the most common error that I see from students who are working with
-jQuery is the follow the directions and they wind up with multiple
-copies, different versions of the jQuery library plugged in. That's the
+<p>It turns out that the two plugins hooked up actually are using different versions of 
+the same jQuery library. Now you've got two different versions of the jQuery library linked 
+up, and that's going to cause all problems and things will break and it won't work right. 
+You want to make sure you only ever have one copy of the jQuery library plugin. I'm saying 
+this now, but I promise it'll happen. How I see this is the most common error that I see 
+from students who are working with jQuery is the follow the directions and they wind up 
+with multiple copies, different versions of the jQuery library plugged in. That's the 
 number 1 Gotcha. It happens a lot.</p>
 
-<p>The second, <b><mark>number 2</mark></b> thing is file management.
-When you download a plugin, sometimes plugins require other files,
-whether it's CSS files or maybe an images folder, fonts or something
-else. You want to make sure that when you put those files in your
-folder, everything is going into the correct spot and is linked
-properly. Because for the web, remember, everything is linked. All the
-files are linked to each other. If those links become broken, then your
-project won't work and it won't work properly. Make sure you have all
-the correct files and all the correct places for the plugin to work.
-That's <b>number 2</b>, those two issues comprise 90 percent of the
-problems that people have with plugins, it's probably those two
-problems.</p>
+<p>The second, <b><mark>number 2</mark></b> thing is file management. When you download a 
+plugin, sometimes plugins require other files, whether it's CSS files or maybe an images 
+folder, fonts or something else. You want to make sure that when you put those files in 
+your folder, everything is going into the correct spot and is linked properly. Because for 
+the web, remember, everything is linked. All the files are linked to each other. If those 
+links become broken, then your project won't work and it won't work properly. Make sure 
+you have all the correct files and all the correct places for the plugin to work. That's 
+<b>number 2</b>, those two issues comprise 90 percent of the problems that people have with 
+plugins, it's probably those two problems.</p>
 
-<p>The next thing, <b><mark>number 3</mark></b> is top of the page
-versus bottom of the page. Make sure you're placing your plugins scripts
-in the correct place. Some of them may require you to load jQuery up at
-the top of the page. Usually, you can put them where you want as long as
-you run the scripts properly.</p>
-<p>But make sure you have a strategy for where your JavaScript is going
-to load, whether you're going to have it load at the bottom of the page
-before the closing body tag, or whether you're going to put the links to
-scripts up in the top of the page and maybe use the defer attribute to
-make sure they don't load into the whole page is loaded. Keep that in
-mind.</p>
+<p>The next thing, <b><mark>number 3</mark></b> is top of the page versus bottom of the 
+page. Make sure you're placing your plugins scripts in the correct place. Some of them may 
+require you to load jQuery up at the top of the page. Usually, you can put them where you 
+want as long as you run the scripts properly.</p>
+
+<p>But make sure you have a strategy for where your JavaScript is going to load, whether 
+you're going to have it load at the bottom of the page before the closing body tag, or 
+whether you're going to put the links to scripts up in the top of the page and maybe use 
+the defer attribute to make sure they don't load into the whole page is loaded. Keep that 
+in mind.</p>
 
 <p>Now, jQuery has a document ready method, <b><mark>number 4</mark></b> that will 
 check to see that the DOM is flooded before anything inside the <b>document_ready</b> 
@@ -1079,29 +1069,25 @@ You want to make sure you put it on your CSS file.</p>
   alt="5 Items of Beware the Plugins."
   style="width:50%" >
 
-<p>One last topic that I have to talk about before we're done with this
-lecture and plugins is just to beware of the plug in. Plugins can add
-bloat to your project with a lot of additional code that you may not
-need. All of the features, plugged features that are programmed into the
-plugin, but you may be only using one or two. That's something to be
-aware of. Without modification, plugins can make your site look generic,
-so if you're not updating the CSS file or adding your own styles to it,
-then it could look the same as everybody else's website.</p>
+<p>One last topic that I have to talk about before we're done with this lecture and plugins 
+is just to beware of the plug in. Plugins can add bloat to your project with a lot of 
+additional code that you may not need. All of the features, plugged features that are 
+programmed into the plugin, but you may be only using one or two. That's something to be
+aware of. Without modification, plugins can make your site look generic, so if you're not 
+updating the CSS file or adding your own styles to it, then it could look the same as 
+everybody else's website.</p>
 
-<p>Plugins can turn us into lazy designers looking for a quick fix.
-Rather than actually trying to solve our interaction design problem, we
-go look for a plugin that looks cool and interesting. That may not
-really be the right fit for a project just to avoid having to do some
-custom code. Watch out for that.</p>
+<p>Plugins can turn us into lazy designers looking for a quick fix. Rather than actually 
+trying to solve our interaction design problem, we go look for a plugin that looks cool 
+and interesting. That may not really be the right fit for a project just to avoid having 
+to do some custom code. Watch out for that.</p>
 
-<p>Also, plugins can be poorly written. They can have all bugs built into
-them because they're made by other developers. You don't really know.
-You really have to test them out and research them, find out who else is
-using them, what problems if they had, what sorts of things work well
-with them. It'll take time to do the research, but probably less time
-than actually writing the code yourself from scratch if it's an
-extensive plugin. It's worth it to make sure that the plugin you're
-using is really worthwhile.</p>
+<p>Also, plugins can be poorly written. They can have all bugs built into them because 
+they're made by other developers. You don't really know. You really have to test them out 
+and research them, find out who else is using them, what problems if they had, what sorts 
+of things work well with them. It'll take time to do the research, but probably less time
+than actually writing the code yourself from scratch if it's an extensive plugin. It's 
+worth it to make sure that the plugin you're using is really worthwhile.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. looking to the future (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -1111,16 +1097,16 @@ using is really worthwhile.</p>
   alt="Looking to the Future."
   style="width:50%" >
 
-<p>Getting used to using other people's code now via jQuery plugins is a good 
-preparation for the future. If you get deeper into JavaScript coding, we might use other 
-repositories of shared code, such as NPM, which is the world's largest software registry. 
-Then having experience with jQuery plugins will really help you out. It's very common in 
-the software development world to be working on modularized blocks of code and working 
-with plugins can be seen as an introduction to that way of thinking and working where 
-you're taking functionality and separating it out into a separate file and then plugging 
-it in. You have access to that. It's a really great way of thinking and working with 
-JavaScript in jQuery in general and getting used to that here will help prepare you
-for a future as a JavaScript developer.</p>
+<p>Getting used to using other people's code now via jQuery plugins is a good preparation 
+for the future. If you get deeper into JavaScript coding, we might use other repositories 
+of shared code, such as NPM, which is the world's largest software registry. Then having 
+experience with jQuery plugins will really help you out. It's very common in the software 
+development world to be working on modularized blocks of code and working with plugins can 
+be seen as an introduction to that way of thinking and working where you're taking 
+functionality and separating it out into a separate file and then plugging it in. You have 
+access to that. It's a really great way of thinking and working with JavaScript in jQuery 
+in general and getting used to that here will help prepare you for a future as a JavaScript 
+developer.</p>
 
 <h3>PDF, FlexSlider Basic START ZIP &amp; FlexSlider Plugin ZIP</h3>
 
@@ -1135,10 +1121,9 @@ for a future as a JavaScript developer.</p>
     1.04 jQuery Plugins (display PDF)</a></li>
 </ul>
 
-<p>Attached is a zip file of the things you need to begin this exercise.
-A <b>zip file</b> is defined as: a computer file whose contents include
-one or more files that are compressed for storage or transmission, often
-carrying the extension .ZIP.</p>
+<p>Attached is a zip file of the things you need to begin this exercise. A <b>zip file</b> 
+is defined as: a computer file whose contents include one or more files that are compressed 
+for storage or transmission, often carrying the extension .ZIP.</p>
 
 <h4 id="ch1-04-zip">jQuery FlexSlider Plugins START (download ZIPs)</h4>
 
@@ -1173,9 +1158,8 @@ carrying the extension .ZIP.</p>
   alt="1.05 FlexSlider: A jQuery Plugin."
   style="width:40%" >
 
-<p>Now that we've talked about jQuery plug-ins a bit, let's take a look at
-one that we can use to add a significant amount of interface options to
-our page.</p>
+<p>Now that we've talked about jQuery plug-ins a bit, let's take a look at one that we can 
+use to add a significant amount of interface options to our page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. basic flexslider (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -1185,13 +1169,13 @@ our page.</p>
   alt="Basic FlexSlider."
   style="width:50%" >
 
-<p>The FlexSlider is a good one to look at. Partially because we've been
-working on image sliders, so, we come to this with the context of having
-created some sliders on our own, so, we can see what this particular
-plug-in has offered that's different from what we coated ourselves in
-the previous lessons. That's fun.</p>
-<p>The other thing that's nice about FlexSlider, it's called FlexSlider
-because it's a responsive slider.</p>
+<p>The FlexSlider is a good one to look at. Partially because we've been working on image 
+sliders, so, we come to this with the context of having created some sliders on our own, 
+so, we can see what this particular plug-in has offered that's different from what we 
+coated ourselves in the previous lessons. That's fun.</p>
+
+<p>The other thing that's nice about FlexSlider, it's called FlexSlider because it's a 
+responsive slider.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 19/20. responsive kittens for sale (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
@@ -1209,10 +1193,9 @@ because it's a responsive slider.</p>
   alt="Responsive Kittens for Sale Web Page, #2.">
 <p style="clear: both;"></p>
 
-<p>I've opened up the page over here and you can see if I pull this off and
-resize it, the page is responsive and it squishes and stretches, and so,
-we can actually create a slider that will work for different screen
-sizes using FlexSlider. That's fun.</p>
+<p>I've opened up the page over here and you can see if I pull this off and resize it, the 
+page is responsive and it squishes and stretches, and so, we can actually create a slider 
+that will work for different screen sizes using FlexSlider. That's fun.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. markup for web site (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -1222,9 +1205,8 @@ sizes using FlexSlider. That's fun.</p>
   alt="Markup for Kittens for Sale Web Page."
   style="width:50%" >
 
-<p>If you look at the markup, you'll notice that it's pretty basic. If you
-download the start files that come with this lesson, I have in here some
-basic markup.</p>
+<p>If you look at the markup, you'll notice that it's pretty basic. If you download the 
+start files that come with this lesson, I have in here some basic markup.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 22/23. responsive kittens for sale (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -1242,13 +1224,12 @@ basic markup.</p>
   alt="Responsive Kittens for Sale Web Page, #2." />
 <p style="clear: both;"></p>
 
-<p>This is where the actual slider will go, and then I've just got some
-columns and some articles, and then the styling is all in place on the
-CSS file that includes some media queries for when the screen gets
-larger or smaller. The media queries, will handle the sizing of stuff on
-the page, and there's just a few rules in there just because this is
-pretty basic, but there we have it. We'll make a slider about kittens
-because, who doesn't love kittens? Kittens are awesome.</p>
+<p>This is where the actual slider will go, and then I've just got some columns and some 
+articles, and then the styling is all in place on the CSS file that includes some media 
+queries for when the screen gets larger or smaller. The media queries, will handle the 
+sizing of stuff on the page, and there's just a few rules in there just because this is
+pretty basic, but there we have it. We'll make a slider about kittens because, who doesn't 
+love kittens? Kittens are awesome.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. responsive media queries (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -1258,10 +1239,9 @@ because, who doesn't love kittens? Kittens are awesome.</p>
   alt="Responsive Media Queries."
   style="width:50%" >
 
-<p>We looked at the media queries and they'll handle the screen if it's
-wider than 600 pixels. Up to 600 pixels you just get a very basic
-layout, and then once you get larger than that, it will give you a more
-of a layout on the page with the columns. Okay.</p>
+<p>We looked at the media queries and they'll handle the screen if it's wider than 600 
+pixels. Up to 600 pixels you just get a very basic layout, and then once you get larger 
+than that, it will give you a more of a layout on the page with the columns. Okay.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. flexslider website (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -1281,14 +1261,12 @@ of a layout on the page with the columns. Okay.</p>
   alt="FlexSlider Website, #2."
   style="width:50%" >
 
-<p>If you go to the FlexSlider Website, which is here, you can download
-FlexSlider or you can click on the Live Demo. It's posted by WooCommerce
-and they have the basic directions here with some additional
-functionality that we'll look at, and this is the documentation for how
-to use FlexSlider right here on this page, and you can download the
-files to get started. However, I've already provided the same files with
-this lesson, so, you don't have to go there and download them, they're
-also included with this lesson.</p>
+<p>If you go to the FlexSlider Website, which is here, you can download FlexSlider or you 
+can click on the Live Demo. It's posted by WooCommerce and they have the basic directions 
+here with some additional functionality that we'll look at, and this is the documentation 
+for how to use FlexSlider right here on this page, and you can download the files to get 
+started. However, I've already provided the same files with this lesson, so, you don't 
+have to go there and download them, they're also included with this lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. flexslider website, #3 (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -1298,8 +1276,8 @@ also included with this lesson.</p>
   alt="FlexSlider Website, #3."
   style="width:50%" >
 
-<p>Get those files first by either clicking the Download button here or by
-downloading the FlexSlider files of this lesson.</p>
+<p>Get those files first by either clicking the Download button here or by downloading the 
+FlexSlider files of this lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 28. files needed: flexslider website (25) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -1309,12 +1287,10 @@ downloading the FlexSlider files of this lesson.</p>
   alt="Files Needed for FlexSlider Website."
   style="width:50%" >
 
-<p>Now, when you get those files, the FlexSlider files, you're going to
-need to figure out what you need in order to actually make the
-FlexSlider work in your project. This is a little bit confusing,
-especially if you're not that familiar with this thing. Let me go
-through it carefully, because you're likely to run into this with other
-plug-ins as well.</p>
+<p>Now, when you get those files, the FlexSlider files, you're going to need to figure 
+out what you need in order to actually make the FlexSlider work in your project. This is 
+a little bit confusing, especially if you're not that familiar with this thing. Let me go
+through it carefully, because you're likely to run into this with other plug-ins as well.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 29/30. folder with website and images (26) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4124,26 +4100,21 @@ does. I think that hopefully I did that right? I think I did.</p>
   alt="Example, scroll up/down." />
 <p style="clear: both;"></p>
 
-<p>So now if I come back and refresh this page we're at the top of the
-page if I scroll down into section two you can see scroll down, this
-becomes a one because we're zero indexed. We scroll down again, now
-we're at two for section three, we're three for section four, four for
-section five. But if I scroll up, you'll see scrolling up. Now we're
-coming into section three and then two and then one? So our numbers were
-either scrolling down or were scrolling up. And we can tell which
-section is on the page because of this counter, it's zero indexed in
-this case for a specific reason that we'll get to in just a minute. It
-doesn't have to be you can set it set the first section two and one in
-the second, section two, but we're going to use the zero indexing for a
-reason.</p>
+<p>So now if I come back and refresh this page we're at the top of the page if I scroll 
+down into section two you can see scroll down, this becomes a one because we're zero 
+indexed. We scroll down again, now we're at two for section three, we're three for section 
+four, four for section five. But if I scroll up, you'll see scrolling up. Now we're coming 
+into section three and then two and then one? So our numbers were either scrolling down 
+or were scrolling up. And we can tell which section is on the page because of this counter, 
+it's zero indexed in this case for a specific reason that we'll get to in just a minute. 
+It doesn't have to be you can set it set the first section two and one in the second, 
+section two, but we're going to use the zero indexing for a reason.</p>
 
-<p>I have the first section is zero, second section is one and so on. And
-you can see that the script is working. And this is a big deal because
-now we have a script where we can keep track of not only when we're
-scrolling, but when certain sections are on the page, based on the
-height of that section, that we're calculating when the page loads,
-including all the images, because they have an effect on the height of
-these elements.</p>
+<p>I have the first section is zero, second section is one and so on. And you can see that 
+the script is working. And this is a big deal because now we have a script where we can 
+keep track of not only when we're scrolling, but when certain sections are on the page, 
+based on the height of that section, that we're calculating when the page loads, including 
+all the images, because they have an effect on the height of these elements.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-12">2.12 Writing the Else/If Statement – Part 2 (5:43)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4155,10 +4126,9 @@ these elements.</p>
   alt="2.12 Writing the Else/If Statement - Part 2."
   style="width:40%;" />
 
-<p>If this seems a bit cumbersome and confusing, that's okay, that's
-natural. It's not easy to wrap your head around. However, the hard part
-of the script is over. The rest is fairly easy to do, but the hard part
-of this script is now been finished, that's nice to know.</p>
+<p>If this seems a bit cumbersome and confusing, that's okay, that's natural. It's not easy 
+to wrap your head around. However, the hard part of the script is over. The rest is fairly 
+easy to do, but the hard part of this script is now been finished, that's nice to know.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 209. scroll up/down & position to section (108) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4168,10 +4138,9 @@ of this script is now been finished, that's nice to know.</p>
   alt="Are you scrolling up or down and identify where in relation to section you are."
   style="width:50%;" />
 
-<p>This is where the magic happens, is in the 'if ' and in the 'elseif'
-where we're tracking whether we're scrolling down or scrolling up, and
-where we are in the page in relation to our various sections of the
-page.</p>
+<p>This is where the magic happens, is in the 'if ' and in the 'elseif' where we're tracking 
+whether we're scrolling down or scrolling up, and where we are in the page in relation to our 
+various sections of the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 210. get posttop for location of section (109) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4181,22 +4150,20 @@ page.</p>
   alt="Get postTop for location of section on scrolling page."
   style="width:50%;" />
 
-<p>The next thing we need to do is to take advantage of the script to
-change the highlighting of these actual pieces based on which section
-we&amp;apost;re at. That's the last part of the script that we need to
-do, and that part is not very difficult at this point. What I'm going to
-do up here at the top is I'm just going to make another variable <b>‘var
-allLinks’</b> and that can hold dollar sign, parenthesis, and then what
-is it over here, I've got a navigation appears just now, <b>'nav ul li
-a'</b>. I just want to put those anchor tags: <b>'nav ul li a'</b>, into
-a variable called <b>‘allLinks’</b> because I'm going to use that to
-affect this.</p>
-<p>Then down here I'm going to make another variable called '<b>var</b>
-<b>prevCounter</b>', and set that to zero. You'll see why in a minute
-for the previous counter, you'll see why we need that as we go forward
-here. Add these two variables, one that's just going to gather all the
-links just for a short cut, we don't have to take this out every time,
-and then one for previous counter that set to zero.</p>
+<p>The next thing we need to do is to take advantage of the script to change the 
+highlighting of these actual pieces based on which section we&amp;apost;re at. That's the 
+last part of the script that we need to do, and that part is not very difficult at this 
+point. What I'm going to do up here at the top is I'm just going to make another variable 
+<b>‘var allLinks’</b> and that can hold dollar sign, parenthesis, and then what is it 
+over here, I've got a navigation appears just now, <b>'nav ul li a'</b>. I just want to 
+put those anchor tags: <b>'nav ul li a'</b>, into a variable called <b>‘allLinks’</b> 
+because I'm going to use that to affect this.</p>
+
+<p>Then down here I'm going to make another variable called '<b>var prevCounter</b>', and 
+set that to zero. You'll see why in a minute for the previous counter, you'll see why we 
+need that as we go forward here. Add these two variables, one that's just going to gather 
+all the links just for a short cut, we don't have to take this out every time, and then 
+one for previous counter that set to zero.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 211. highlight section you are in (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7121,7 +7088,7 @@ go inside this listen section here.</p>
 <p>And then finally after that, we have our team which isn't too long,
 that's going to be next.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 399/400. copy 'our team section' to index.html (201) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 399/400. copy 'our team section' to index.html (202) ~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
   src="./images/image399.png"
   loading="lazy"
@@ -7139,7 +7106,7 @@ that's going to be next.</p>
 
 <p>Not quite the last thing but we'll get that next and put that in our team.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 401/402. copy footer content - scription (201) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 401/402. copy footer content - scription (202) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
   src="./images/image401.png"
   loading="lazy"
@@ -7171,7 +7138,7 @@ information to make your page findable. So it's really important to make
 sure that you're using semantic markup properly, and with that we have
 all of our HTML in place.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 403. overview of scription (202) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 403. overview of scription (203) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image403.png"
   loading="lazy"
@@ -7179,17 +7146,15 @@ all of our HTML in place.</p>
   title="What is Scription? Overview"
   alt="What is Scription? Overview." />
 
-<p>If you were to come over and load up the page over here, you would see
-it doesn't look very good, but it's readable, without any styling at all
-you could read the page if you had to without any styling at all. And
-that's kind of the purpose of semantic markup, is that if for some
-reasons, the styling doesn't work or somebody's working in some real low
-quality browser, the pages still readable and the information is still
-accessible.</p>
+<p>If you were to come over and load up the page over here, you would see it doesn't look 
+very good, but it's readable, without any styling at all you could read the page if you 
+had to without any styling at all. And that's kind of the purpose of semantic markup, is 
+that if for some reasons, the styling doesn't work or somebody's working in some real low
+quality browser, the pages still readable and the information is still accessible.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-32">2.32 Beginning Styling (6:37)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 404. beginning styling (2.32) (202) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 404. beginning styling (2.32) (203) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image404.png"
   loading="lazy"
@@ -7229,17 +7194,14 @@ going to do a mobile first approach.</p>
   alt="Scription Responsive, iphone 6/7/8."
   style="width:50%" />
 
-<p>What I recommend you do is right-click on the page and choose,
-inspect and then make sure this little button ‘Responsive’ is toggled
-here. This button when it is toggled on, you can actually set aside
-through yours for your page here, and I am going to set it to like
-iPhone 6, 7 and eight that seems like a good size to set to begin
-with.</p>
+<p>What I recommend you do is right-click on the page and choose, inspect and then make 
+sure this little button ‘Responsive’ is toggled here. This button when it is toggled on, 
+you can actually set aside through yours for your page here, and I am going to set it to 
+like iPhone 6, 7 and eight that seems like a good size to set to begin with.</p>
 
-<p>And yeah, so, there we are and hopefully that is all working well if
-I got the yes, if you port things set there. Okay, good, so we should be
-all set with that and from here we can go over, and start working on
-some styling for the page here.</p>
+<p>And yeah, so, there we are and hopefully that is all working well if I got the yes, if 
+you port things set there. Okay, good, so we should be all set with that and from here we 
+can go over, and start working on some styling for the page here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 408. example, basic resets css (203) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -7249,35 +7211,29 @@ some styling for the page here.</p>
   alt="Example, Basic Resets CSS."
   style="width:50%" />
 
-<p>Now, I have some initial basic resets. The normalized CSS helps
-smooth out differences between browsers, but I have often found it
-helpful to change some default styling on some elements to help speed up
-development. Removing padding and margin from a bunch of elements helps
-removing bullets from a new ordered lists, and ordered lists if they
-happen to be inside of Nab elements often helps the asterix on the
-box.</p>
+<p>Now, I have some initial basic resets. The normalized CSS helps smooth out differences 
+between browsers, but I have often found it helpful to change some default styling on some 
+elements to help speed up development. Removing padding and margin from a bunch of elements 
+helps removing bullets from a new ordered lists, and ordered lists if they happen to be inside 
+of Nav elements often helps the asterist on the box.</p>
 
-<p>Sizing means that I am going to switch everything from using box
-sizing, content box to box sizing border box. If you do not know the
-difference between those two, I recommend that you look it up and become
-familiar with it. The short answer is that in CSS when you have the
-width of an element set, suppose I have a section and I set it to 500
-pixels wide. If I add padding, if I had border, if I had margin it is
-going to add to the width of that element. The 500 pixels is the width
-of the content. So, when we switch it to box sizing border box, when I
-set the width of the elements of 500 pixels that will include the
-padding, and the border, not just the content. And, so that is usually
-pretty helpful to have set, and we will just set it that way for
-everything for images.</p>
+<p>Sizing means that I am going to switch everything from using box sizing, content box to 
+box sizing border box. If you do not know the difference between those two, I recommend 
+that you look it up and become familiar with it. The short answer is that in CSS when you 
+have the width of an element set, suppose I have a section and I set it to 500 pixels wide. 
+If I add padding, if I had border, if I had margin it is going to add to the width of that 
+element. The 500 pixels is the width of the content. So, when we switch it to box sizing 
+border box, when I set the width of the elements of 500 pixels that will include the padding, 
+and the border, not just the content. And, so that is usually pretty helpful to have set, 
+and we will just set it that way for everything for images.</p>
 
-<p>I am going to set the max within those 200, and I like to set them to
-display block images by default are in line elements, but we rarely use
-them in line. So, I think it is helpful to set them to display block. I
-am also going to get rid of the ugly underlines on links. I do not
-really like the way they look all style weeks differently, and I am
-using some variables for the colors of the page. So, if you wanted to
-change the colors of the page, you could just change them here once and
-it will change it throughout the, throughout the whole page.</p>
+<p>I am going to set the max within those 200, and I like to set them to display block 
+images by default are in line elements, but we rarely use them in line. So, I think it is 
+helpful to set them to display block. I am also going to get rid of the ugly underlines on 
+links. I do not really like the way they look all style weeks differently, and I am using 
+some variables for the colors of the page. So, if you wanted to change the colors of the 
+page, you could just change them here once and it will change it throughout the, throughout 
+the whole page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 409. scription website (203) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -9290,10 +9246,9 @@ without actually affecting what's inside this <b>closure</b>.</p>
   alt="Function: printableMessage."
   style="width:50%" />
 
-<p>Let's see how this works, and again, I strongly recommend that you
-actually type this out into an HTML file or else in script tags. You can
-see that it gets defined here. That will get to find,
-<b>printMessage.</b></p>
+<p>Let's see how this works, and again, I strongly recommend that you actually type this 
+out into an HTML file or else in script tags. You can see that it gets defined here. That 
+will get to find, <b>printMessage</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 546. message in function (267) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -9303,33 +9258,27 @@ see that it gets defined here. That will get to find,
   alt="Pass Message in Function."
   style="width:50%" />
 
-<p>Now I can make a <b>variable var</b> <b>awesome1</b>, equals
-printable <b>message{}</b> there, and I can do, <b>awesome1</b>.
-<b>PrintMessage{},</b> and it should run that function in there and give
-me hello, but I could also make another variable var <b>awesome2</b>,
-and assign it also that same function <b>PrintMessage</b>, like that. I
-have assigned that the same <b>function</b> and here I can do,
-<b>awesome2.setMessage</b>, I'm going to put in a new message,
-<b>greetings</b> like so. What that will do, is it'll go in run this
-<b>function</b> and say, new message greeting, a sign message greeting,
-so that when I run print message, it's going to actually print that
-message.</p>
+<p>Now I can make a <b>variable var</b> <b>awesome1</b>, equals printable <b>message{}</b> 
+there, and I can do, <b>awesome1</b>. <b>PrintMessage{},</b> and it should run that function 
+in there and give me hello, but I could also make another variable var <b>awesome2</b>, and 
+assign it also that same function <b>PrintMessage</b>, like that. I have assigned that the 
+same <b>function</b> and here I can do, <b>awesome2.setMessage</b>, I'm going to put in a 
+new message, <b>greetings</b> like so. What that will do, is it'll go in run this <b>function</b> 
+and say, new message greeting, a sign message greeting, so that when I run print message, it's 
+going to actually print that message.</p>
 
-<p>Now if I do, <b>awesome2.printMessage</b>, I get <b>greetings</b>,
-however, again, if I do <b>awesome1.printMessage</b>, I still get
-hello. That's really interesting that I can actually use this pattern
-here to set different values and then access those values in different
-ways through different variables. It's a very powerful pattern and worth
-being aware of, even though we're not going to do this thing a lot in
-this course. But as we're talking about objects, it's important to talk
-about how objects and functions together in JavaScript are very
-powerful, and give you this opportunity to create things that are
-reusable modules. That's a a key thing in any programming language is to
-be able to do that.</p>
+<p>Now if I do, <b>awesome2.printMessage</b>, I get <b>greetings</b>, however, again, if 
+I do <b>awesome1.printMessage</b>, I still get hello. That's really interesting that I can 
+actually use this pattern here to set different values and then access those values in 
+different ways through different variables. It's a very powerful pattern and worth being 
+aware of, even though we're not going to do this thing a lot in this course. But as we're 
+talking about objects, it's important to talk about how objects and functions together in 
+JavaScript are very powerful, and give you this opportunity to create things that are 
+reusable modules. That's a a key thing in any programming language is to be able to do that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-06">3.06 Data Formats - XML (3:47)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 547. data formats - xml (3.06) (2xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 547. data formats - xml (3.06) (268) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image547.png"
   loading="lazy"
@@ -9434,10 +9383,10 @@ some JSON data.</p>
   alt="Example, JSON Example File."
   style="width:50%" />
 
-<p>I have that file open over here. In it is just a variable called JSON
-with a string of JSON data.</p>
+<p>I have that file open over here. In it is just a variable called JSON with a string of 
+JSON data.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 553. example script, var json array (272) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 553. example script, var json array (272) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image553.png"
   loading="lazy"
@@ -9445,10 +9394,9 @@ with a string of JSON data.</p>
   alt="Example script, var json array."
   style="width:50%" />
 
-<p>We can do something with this, we could say <b>var user</b> equals
-JSON.parse(json). Now let's see what happens. I'm going to console.log.
-I'm just going to console.log the json variable up there, and that
-should just give me my string of data.</p>
+<p>We can do something with this, we could say <b>var user</b> equals JSON.parse(json). 
+Now let's see what happens. I'm going to console.log. I'm just going to console.log the 
+json variable up there, and that should just give me my string of data.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 554/555. example json, working with json data (273) ~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
@@ -9603,8 +9551,7 @@ the topics.</p>
   alt="3.08 Intro to Pig Dice Game."
   style="width:40%" />
 
-<p>This is a game of luck created that we can create in JavaScript and I
-didn't invent this game.</p>
+<p>This is a game of luck that we can create in JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 563. introduction to pig dice game (277) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -9724,7 +9671,7 @@ rules.</p>
   loading="lazy"
   title="Diagrams for the Pig Game"
   alt="Diagrams for the Pig Game."
-  style="width:50%" />
+  style="width:65%" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-09">3.09 Play the Game of Pig (5:04)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10112,25 +10059,20 @@ think you'll get a lot out of it. Let's get to it.</p>
   alt="The Basic Game." />
 <p style="clear: both;"></p>
 
-<p>This is just a very basic version of the game with very little
-styling, so we can really just make it work. You can go back later, and
-add some better graphics, and better styling on your own if you want to.
-In fact, I hope you actually expand on this game quite a bit, and make
-it your own. There are lots of ways to do that we'll talk about
-later.</p>
+<p>This is just a very basic version of the game with very little styling, so we can 
+really just make it work. You can go back later, and add some better graphics, and better 
+styling on your own if you want to. In fact, I hope you actually expand on this game quite 
+a bit, and make it your own. There are lots of ways to do that we'll talk about later.</p>
 
-<p>The other thing that's important to mention here is that the way I'm
-going to show you how to build it is in a very linear way, starting from
-the beginning and going to the end. But from the previous lesson,
-hopefully you got that that's not the way I actually develop it or the
-way many developers work, it's that they just start at the top and go to
-the bottom. Usually you work from the inside out, and start with core
-functionality and work out from there. That's the easiest way to start
-thinking about how are you going to solve real problems that are
-programming problems. I'm presenting it in this linear way because
-otherwise it would be really confusing. But it's important to realize
-that it's not developed that way, and that people don't necessarily
-think in this very linear way.</p>
+<p>The other thing that's important to mention here is that the way I'm going to show you 
+how to build it is in a very linear way, starting from the beginning and going to the end. 
+But from the previous lesson, hopefully you got that that's not the way I actually develop 
+it or the way many developers work, it's that they just start at the top and go to the 
+bottom. Usually you work from the inside out, and start with core functionality and work 
+out from there. That's the easiest way to start thinking about how are you going to solve 
+real problems that are programming problems. I'm presenting it in this linear way because
+otherwise it would be really confusing. But it's important to realize that it's not 
+developed that way, and that people don't necessarily think in this very linear way.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 584. index.html, basic pieces for game (294) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -10140,22 +10082,21 @@ think in this very linear way.</p>
   alt="Index.html, basic pieces for game to work."
   style="width:50%" />
 
-<p>I have my file open here in visual studio code. This is the index
-file here with all of the basic pieces of the HTML that are needed here
-to make the game work.</p>
+<p>I have my file open here in visual studio code. This is the index file here with all 
+of the basic pieces of the HTML that are needed here to make the game work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 585. index.html, div id's (294) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 585. index.html, div id's with empty script (294) ~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image585.png"
   loading="lazy"
-  title="Index.html, div id's"
-  alt="Index.html, div id's."
+  title="Index.html, div id's with empty script"
+  alt="Index.html, div id's with empty script."
   style="width:50%" />
 
-<p>We've got an empty script tacked down here. This is where we're going to
-be working. This is in this part of the page. Then also we have the
-images of the dice that will be pulling up. This could go into a folder,
-but at this point, I just have them in the main folder and that's fine.</p>
+<p>We've got an empty script tacked down here. This is where we're going to be working. 
+This is in this part of the page. Then also we have the images of the dice that will be 
+pulling up. This could go into a folder, but at this point, I just have them in the main 
+folder and that's fine.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 586. test, start game of pig (295) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -10165,9 +10106,8 @@ but at this point, I just have them in the main folder and that's fine.</p>
   alt="Test, Start game of pig."
   style="width:50%" />
 
-<p>Then over here, I have the page loaded up so we can actually test the
-page here, and see how things are working as we go along, and work on
-the page here.</p>
+<p>Then over here, I have the page loaded up so we can actually test the page here, and 
+see how things are working as we go along, and work on the page here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~ 587. var startgame, gamecontrol, game, score & actionarea (295) ~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -10177,11 +10117,10 @@ the page here.</p>
   alt="var startGame, gameControl, game, score and actionArea."
   style="width:50%" />
 
-<p>The first thing we need to do in our code editor, is create some
-variables that we're going to use to access different areas of the page,
-so it's really these variables here. I'm going to have <b>startGame</b>,
-is going to be <b>document.getElementById</b> on it by the
-<b>startgame</b>.</p>
+<p>The first thing we need to do in our code editor, is create some variables that we're 
+going to use to access different areas of the page, so it's really these variables here. 
+I'm going to have <b>startGame</b>, is going to be <b>document.getElementById</b> on it 
+by the <b>startgame</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 588. div id, gamecontrol with button startgame (296) ~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -10191,12 +10130,11 @@ is going to be <b>document.getElementById</b> on it by the
   alt="div id, gamecontrol with button startgame."
   style="width:50%" />
 
-<p>It's this button right here. Then I have <b>gameControl</b>, which is
-this whole div, the <b>gameControl</b> div. Then I have <b>game</b>,
-this is where the game is actually going to take place. If you go back
-to the previous lesson, and pull up the game and play it, and inspect
-it, you'll see that that's where the game takes place.
-<b>score</b> which calls the element id ‘score’.</p>
+<p>It's this button right here. Then I have <b>gameControl</b>, which is this whole div, 
+the <b>gameControl</b> div. Then I have <b>game</b>, this is where the game is actually 
+going to take place. If you go back to the previous lesson, and pull up the game and play 
+it, and inspect it, you'll see that that's where the game takes place. <b>score</b> which 
+calls the element id ‘score’.</p>
 
 <p> Then I have <b>actionArea</b> which is get element by id of <b>actions</b>, and it
 doesn't really matter if these are out of order here, but you can put them in a different 
@@ -10248,7 +10186,7 @@ that you can play the game really fairly quickly, and see how it works.
 Or later you could bump that up to 100 or something like that, to a
 score that's maybe a little bit more reasonable for the game.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 590. array var, gamedata (298) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 590. array variable, gamedata (298) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image590.png"
   loading="lazy"
@@ -10291,8 +10229,8 @@ helps to just start at the top and start at the beginning.</p>
 <img class="displayed"
   src="./images/image592.png"
   loading="lazy"
-  title="Test, Game of Pig"
-  alt="Test, Game of Pig."
+  title="Test, Click Handler - Game of Pig"
+  alt="Test, Click Handler - Game of Pig."
   style="width:50%" />
 
 <p>So, when somebody clicks this button here, we want to start the game. I
@@ -10307,8 +10245,8 @@ handler for clicking to the start game button.</p>
   alt="Start Game!"
   style="width:50%" />
 
-<p>So let's do that first, we have our start game button defined here,
-which goes in and gets this button here.</p>
+<p>So let's do that first, we have our start game button defined here, which goes in and 
+gets this button here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 594. new script: startgame.addeventlistener() (300) ~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -10318,13 +10256,12 @@ which goes in and gets this button here.</p>
   alt="New script: startGame.addEventListener()"
   style="width:50%" />
 
-<p>So, we're going to add in our script start game out event listener, and
-we're looking for a click, and we're going to run a function. Like so,
-and then we're going to put what happens in that function here. And we
-are going to do something with the, I'm going to just put a comment in
-here now. Change index, or randomly select index whatever we want to put
-in there, just we're going to have to handle that. But before I do that,
-I want to first just sort of get the correct html on the page.</p>
+<p>So, we're going to add in our script start game out event listener, and we're looking 
+for a click, and we're going to run a function. Like so, and then we're going to put what 
+happens in that function here. And we are going to do something with the, I'm going to just 
+put a comment in here now. Change index, or randomly select index whatever we want to put
+in there, just we're going to have to handle that. But before I do that, I want to first 
+just sort of get the correct html on the page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 595. gamecontrol.innerhtml (301) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
