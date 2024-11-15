@@ -1,4 +1,8 @@
 /* styles.css in UC-Davis-Inter-jQuery - inter-jquery.bauska.org */
+html {
+  color: #1a1a1a;
+  background-color: #fdfdfd;
+}
 body {
   max-width: 100em;
   padding-left: 15px;
@@ -124,30 +128,26 @@ a[href]:hover {
 div {
   float: left; 
 }
-
+h1,h2,h3,h4,h5,h6 {
+  margin-left: 15px;
+}
 h1 {
   font-size: 22px;
-  margin-left: 15px;
 }
 h2 { 
   font-size: 20px;
-  margin-left: 15px;
 }
 h3 { 
   font-size: 18px;
-  margin-left: 15px;
 }
 h4 { 
   font-size: 16px;
-  margin-left: 15px;
 }
 h5 { 
   font-size: 14px;
-  margin-left: 15px;
 }
 h6 { 
   font-size: 12px;
-  margin-left: 15px;
 }
 
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
@@ -159,14 +159,9 @@ p {
   margin-left: 15px;
 }
   
-ul li { 
+ul, ol > li { 
   padding: 10px;
   line-height: 130%;
-  font-family: Bahnschrift, Inter, Helvetic, sans-serif, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVue Sans Mono";
-}
-ol li {
-  padding: 10px;
-  line-height 130%;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVue Sans Mono";
 }
 
@@ -177,11 +172,7 @@ figcaption {
   text-align: center;
 }
 
-details {
-  font: 13px Inter, sans-serif, Bahnschrift, Calibri;
-  width: 65%;
-}
-summary {
+details, summary {
   font: 13px Inter, sans-serif, Bahnschrift, Calibri;
   width: 65%;
 }
@@ -204,6 +195,7 @@ details > p {
 details[open] > summary {
   background-color: yellow;
 }
+
 <!-- added 11/06/2023 -->
 .box-wrap {
     width: 100%;
@@ -217,12 +209,8 @@ details[open] > summary {
     list-style-position:inside;
 }
 */
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
 
-    @media print {
+  @media print {
       html {
         background-color: white;
       }
@@ -239,66 +227,3 @@ details[open] > summary {
         page-break-after: avoid;
       }
     }
-
-<!-- sidebar popout -->
-/* animate EVERYTHING! - well, almost. */
-* {
-  transition: all .2s, height 1ms;
-}
-[for] {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-#container, #footer {
-  width: calc(100% - 2em);
-  color: #555;
-  padding: 1em;
-}
-#darkThemeUsed:checked ~ #container,
-#darkThemeUsed:checked ~ #footer {
-  color: #eee;
-}
-#container {
-  height: calc(100vh - 2em);
-  background: #eee;
-}
-#darkThemeUsed:checked ~ #container {
-  background: #333;
-}
-
-#sidebar {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 260px;
-  background: #2196f3;
-  margin-right: -304px;
-  padding: 20px;
-  color: #fff;
-  box-shadow: 0 0 4px rgba(0, 0, 0, .5);
-}
-#sidebarShown:checked ~ #container #sidebar {
-  margin-right: 0;
-}
-#darkThemeUsed:checked ~ #container #sidebar {
-  background: #303f9f;
-}
-h3, h4 {
-  margin: 0;
-  margin-top: 1.5em;
-  margin-bottom: .6em;
-}
-label {
-  cursor: pointer;
-}
-label[for=darkThemeUsed]:after {
-  content: "No"
-}
-#darkThemeUsed:checked ~ #container label[for=darkThemeUsed]:after {
-  content: "Yes"
-}
