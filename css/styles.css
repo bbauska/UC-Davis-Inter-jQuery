@@ -3,8 +3,8 @@ html {
   color: #1a1a1a;
   background-color: #fdfdfd;
 }
+<!-- max-width: 100em; -->
 body {
-  max-width: 100em;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
