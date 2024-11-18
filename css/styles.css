@@ -161,12 +161,10 @@ p {
   
 ul > li { 
   padding: 10px;
-  line-height: 135%;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVue Sans Mono";
 }
 ol > li { 
   padding: 10px;
-  line-height: 135%;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVue Sans Mono";
 }
 
