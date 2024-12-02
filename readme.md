@@ -1,11 +1,12 @@
 ---
 title: "#3 - University of California @Davis Interactivity with JavaScript and jQuery"
 author: "bbauska"
-date prior editted: "3/23/2024 9+pm"
+date created: "3/23/2024 9+pm"
 date last editted: "4/20/2024 2+pm"
 date last editted: "5/09/2024 12+am"
 date last editted: "9/19/2024 10+pm"
 date last editted: "10/14/2024 4+pm"
+date last editted: "12/02/2024 2+pm"
 output: 
   markdown:
     with some style
@@ -243,7 +244,7 @@ manageable pieces.</p>
 >#### [**4.14 Extending the Game**](#ch4-14)
 
 <ul>
-  <li><a href="./zip/4.14-GameofPig.pdf" 
+  <li><a href="./pdf/4.14-GameofPig.pdf" 
     target="_blank" rel="noopener noreferrer">
     4.14 Game of Pig (pdf)</a></li>
 </ul>
@@ -570,7 +571,7 @@ JavaScript.
 </p>
 
 <div align="right">
-  <b><a href="#contents">↥ Back To Top</a></b>
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
 Hello and welcome to our first module in our third course on JavaScript.
@@ -2418,7 +2419,7 @@ section: <b>jQuery Plugins and FlexSlider</b>.
 <ul>
   <li><a href="https://github.com/bbauska/UC-Davis-Inter-jQuery/blob/main/pdf/1.13.FlexSlider.pdf" 
     target="_blank" rel="noopener noreferrer">
-	1.13 Flex Slider (pdf)</a></li>
+	1.13 FlexSlider (pdf)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-01">2.01 Module 2 Intro to Scroll Effects (0:38)</h2>
@@ -6220,12 +6221,11 @@ the page.
   alt="Scription Web Site, cont'd." />
 </p>
 
-So going back to our design here, if we look at this, you&apos;ll see up
-here, this is going to be the header with the navigation. And we&apos;ve got
-this will be for the flex slider here and then that&apos;s a section,
-that&apos;s a section, that&apos;s a section, that&apos;s a section and that&apos;s a
-section, so we&apos;ll be put and then the footer. So we&apos;ve got all of
-those pieces in there.
+Going back to our design here, if we look at this, you&apos;ll see up here, this is 
+going to be the header with the navigation. And we&apos;ve got this which will be for the 
+FlexSlider here and then that&apos;s a section, that&apos;s a section, that&apos;s a 
+section, that&apos;s a section and that&apos;s a section, so we&apos;ll be put and then 
+the footer. So we&apos;ve got all of those pieces in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 366/367. scription part 1a & lines 18-37 index.html (188) ~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -11279,6 +11279,7 @@ and you&apos;ll get more practice. So I look forward to seeing you there.</p>
 
 <p>.the end...</p>
 
-<h6>Last Updated 3/23/2024 9:11pm</h6>
-<h6>Last Updated 9/19/2024 10:35pm</h6>
-<h6>Last Updated 10/14/2024 4:57pm</h6>
+<h6>Last Updated 3/23/2024 9:11pm<br/>
+Last Updated 9/19/2024 10:35pm<br/>
+Last Updated 10/14/2024 4:57pm<br/>
+Last Updated 12/2/2024 2:13pm</h6>
