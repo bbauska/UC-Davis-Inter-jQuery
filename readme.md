@@ -7,6 +7,7 @@ date last editted: "5/09/2024 12+am"
 date last editted: "9/19/2024 10+pm"
 date last editted: "10/14/2024 4+pm"
 date last editted: "12/02/2024 2+pm"
+date last editted: "12/05/2024 10+am"
 output: 
   markdown:
     with some style
@@ -2252,6 +2253,7 @@ and do this, but let&apos;s go ahead and add this rule to our style sheet.
   style="width:45%;"
   title="Call to Action Styling"
   alt="Call to Action Styling." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image115.png"
   style="width:45%;"
   title="Styles.css for Call to Action"
@@ -2299,6 +2301,7 @@ and then also the color for the text. That&apos;s a lot of stuff.
   style="width:45%;"
   title="Styles.css: Define new class .light"
   alt="Styles.css: Define new class .light." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image117.png"
   style="width:45%;"
   title="Utilize class: light in index"
@@ -2347,6 +2350,7 @@ setting height, width, and font size.
   style="width:45%;"
   title="styles.css: min-width: 600px"
   alt="styles.css: min-width: 600px." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image121.png"
   style="width:45%;"
   title="CTA: Call To Action anchor tag"
@@ -2368,6 +2372,7 @@ font size down a little bit, 3vw.
   style="width:45%;"
   title="styles.css: min-width: 1000px"
   alt="styles.css: min-width: 1000px." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image123.png"
   style="width:45%;"
   title="styles.css: new ID cta with width/height of 150px"
@@ -2462,6 +2467,7 @@ page, it does a smooth scrolling action further down the page.
   style="width:45%;"
   title="Example section one"
   alt="Example section one." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image129.png"
   style="width:45%;"
   title="Example section two"
@@ -2483,6 +2489,7 @@ second in here.
   style="width:45%;"
   title="href sections defined #first thru #fifth"
   alt="href sections defined #first thru #fifth." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image131.png"
   style="width:45%;"
   title="Example sections 1st thru 5th"
@@ -2508,6 +2515,7 @@ user experience. So, we&apos;re going to do that using jQuery.
   style="width:40%;"
   title="Adjust the header rule CSS"
   alt="Adjust the header rule CSS." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image133.png"
   style="width:40%;"
   title="Updates to styles.css - header and body"
@@ -2543,6 +2551,7 @@ content is passing beneath this header.
   style="width:45%;"
   title="Add padding-top: 200 to body of style.css"
   alt="Add padding-top: 200 to body of style.css." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image136.png"
   style="width:45%;"
   title="Smooth Scroller example of padding-top: 200"
@@ -2591,6 +2600,7 @@ carrying the extension .ZIP.
   style="width:45%;"
   title="2.03 Creating a Click Handler"
   alt="2.03 Creating a Click Handler." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image138.png"
   style="width:45%;"
   title="Add Easing and Click Handler scripts to end of index"
@@ -2614,6 +2624,7 @@ we&apos;re going to write our jQuery code.
   style="width:45%;"
   title="If clicked, run this function"
   alt="If clicked, run this function." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image140.png"
   style="width:45%;"
   title="smoothscroll.js - click handler function"
@@ -2687,6 +2698,7 @@ we&apos;ll do that in the next lesson so you see how it all comes together.
   style="width:45%;"
   title="2.04 Adding the Animation"
   alt="2.04 Adding the Animation." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image144.png"
   style="width:45%;"
   title="Adding the animation to smoothscroll.js"
@@ -2747,6 +2759,7 @@ section going right up to the top of the window.
   style="width:45%;"
   title="Stop method"
   alt="Stop method." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image147.png"
   style="width:45%;"
   title="Example, scroll stop method"
@@ -2785,6 +2798,7 @@ that&apos;s running and then animate the thing that we&apos;ve clicked on next.
   style="width:45%;"
   title="Scroll to top minus 200 pixels"
   alt="Scroll to top minus 200 pixels." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image149.png"
   style="width:45%;"
   title="Example: scroll to top minus 200px"
@@ -2839,6 +2853,7 @@ more personality by adding some easing.
   style="width:45%;"
   title="Add easing script only AFTER jQuery library load"
   alt="Add easing script only AFTER jQuery library load." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image153.png"
   style="width:45%;"
   title="index.html scripts"
@@ -2973,6 +2988,7 @@ highlight the one that I&apos;ve actually clicked on.
   style="border: 2px solid #000000; width:45%"
   title="Get anchor tags, navigation line item anchor"
   alt="Get anchor tags, navigation line item anchor." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image160.png"
   style="border: 2px solid #000000; width:45%"
   title="Example getting anchor tags"
@@ -3059,6 +3075,7 @@ are out there. https://callbruno.com/en
   style="border: 2px solid #000000; width:45%"
   title="Example callbruno.com, #1"
   alt="Example callbruno.com, #1." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image164.png"
   style="border: 2px solid #000000; width:45%"
   title="Example callbruno.com, #2"
@@ -3071,6 +3088,7 @@ are out there. https://callbruno.com/en
   style="border: 2px solid #000000; width:45%"
   title="Example callbruno.com, #3"
   alt="Example callbruno.com, #3." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image166.png"
   style="border: 2px solid #000000; width:45%"
   title="Example callbruno.com, #4"
@@ -3091,6 +3109,7 @@ It&apos;s affected by the scroll.
   style="border: 2px solid #000000; width:45%"
   title="Example callbruno.com, #5"
   alt="Example callbruno.com, #5." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image168.png"
   style="border: 2px solid #000000; width:45%"
   title="Example callbruno.com, #6"
@@ -3326,6 +3345,7 @@ port.
   style="border: 2px solid #000000; width:45%"
   title="Example, highlight section, #1"
   alt="Example, highlight section, #1." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image181.png"
   style="border: 2px solid #000000; width:45%"
   title="Example, highlight section, #2"
@@ -3491,6 +3511,7 @@ looks great to me.
   style="width:45%;"
   title="Remove if statement to test postTops"
   alt="Remove if statement to test postTops." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image190.png"
   style="width:45%;"
   title="Remove if statement to test PostTops"
@@ -3521,6 +3542,7 @@ there.
   style="width:45%;"
   title="Count section size in pixels and store"
   alt="Count section size in pixels and store." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image193.png"
   style="width:45%;"
   title="Size of each section is identified"
@@ -3593,6 +3615,7 @@ top of the page if that number is greater than that number.
   style="width:45%;"
   title="24-43 of smoothscroll.js"
   alt="24-43 of smoothscroll.js." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image199.png"
   style="width:45%;"
   title="32-50 of smoothscroll.js"
@@ -3615,6 +3638,7 @@ and commented out so it doesn&apos;t cause a problem.
   style="width:45%;"
   title="Log of smoothscroll.js as scrolling down"
   alt="Log of smoothscroll.js as scrolling down." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image201.png"
   style="width:45%;"
   title="Log of 2nd section of smooth scroller"
@@ -3668,6 +3692,7 @@ we&apos;re scrolling up the page.
   style="width:45%;"
   title="32-50 of smoothscroll.js (before)"
   alt="32-50 of smoothscroll.js (before)." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image204.png"
   style="width:45%;"
   title="32-50 of smoothscroll.js (after)"
@@ -3711,6 +3736,7 @@ does. I think that hopefully I did that right? I think I did.
   style="width:45%;"
   title="Example, scroll up/down"
   alt="Example, scroll up/down." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image207.png"
   style="width:45%;"
   title="Example, scroll up/down"
@@ -3887,6 +3913,7 @@ and looking at.
   style="width:45%;"
   title="Calculate height of each image"
   alt="Calculate height of each image." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image216.png"
   style="width:45%;"
   title="Locate section using image height"
@@ -3908,6 +3935,7 @@ sections are and it&apos;ll be fine.
   style="width:45%;"
   title="Test scroll section position, #1"
   alt="Test scroll section position, #1." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image218.png"
   style="width:45%;"
   title="Test scroll section position, #2"
@@ -3958,6 +3986,7 @@ resizes the window.
   style="width:45%;"
   title="On resize window event, console log scrolling up or down with counter"
   alt="On resize window event, console log scrolling up or down with counter." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image221.png"
   style="width:45%;"
   title="On resize window event, console log 'resizing'"
@@ -4042,6 +4071,7 @@ then add one more variable var doneResizing.
   style="width:45%;"
   title="Add resize function"
   alt="Add resize function." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image227.png"
   style="width:45%;"
   title="Test, resize function with console log"
@@ -4085,6 +4115,7 @@ here and refresh my screen here.
   style="width:45%;"
   title="Console log, doneResizing"
   alt="Console log, doneResizing." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image229.png"
   style="width:45%;"
   title="Again, console log, doneResizing"
@@ -4150,6 +4181,7 @@ and so forth.
   style="width:45%;"
   title="Test, resizing function with smoothscroller for vertical image position"
   alt="Test, resizing function with smoothscroller for vertical image position." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image234.png"
   style="width:45%;"
   title="Test, resizing smooth scroller for vertical image positions"
@@ -4184,6 +4216,7 @@ the page.
   style="width:45%;"
   title="Add functions to handle refresh while scrolling"
   alt="Add functions to handle refresh while scrolling." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image237.png"
   style="width:45%;"
   title="Test, added functions to handle refresh while scrolling"
@@ -4237,6 +4270,7 @@ should work.
   style="width:45%;"
   title="Test, Smooth Scroll and vertical image positions"
   alt="Test, Smooth Scroll and vertical image positions." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image239.png"
   style="width:45%;"
   title="Test, section position for smooth scrolling"
@@ -4284,6 +4318,7 @@ few places.
   style="width:45%;"
   title="smoothscroll.js: On load function"
   alt="smoothscroll.js: On load function." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image242.png"
   style="width:45%;"
   title="smoothscroll.js: On resize function"
@@ -4305,6 +4340,7 @@ in here a function resetPagePosition.
   style="width:45%;"
   title="doneResizeing (sp?), postTops, and pagePosition"
   alt="doneResizeing (sp?), postTops, and pagePosition." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image244.png"
   style="width:45%;"
   title="doneResizeing (sp?), postTops, and pagePosition"
@@ -4392,6 +4428,7 @@ section got highlighted, so that&apos;s correct.
   style="width:45%;"
   title="Reload index.html"
   alt="Reload index.html." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image249.png"
   style="width:45%;"
   title="Reload index.html, again"
@@ -4548,6 +4585,7 @@ are and sets the styling for the links appropriately.
   style="width:45%;"
   title="Identify and comment out class attributes"
   alt="Identify and comment out class attributes." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image258.png"
   style="width:45%;"
   title="Comment out class attributes"
@@ -4567,6 +4605,7 @@ this works.
   style="width:45%;"
   title="Test Smooth Scroll section"
   alt="Test Smooth Scroll section." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image260.png"
   style="width:45%;"
   title="Test Smooth Scroll section"
@@ -4589,6 +4628,7 @@ both scripts are working.
   style="width:45%;"
   title="Identify and comment out callback functions"
   alt="Identify and comment out callback functions." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image262.png"
   style="width:45%;"
   title="Identify and comment out callback functions"
@@ -4635,6 +4675,7 @@ using jQuery.</p>
   style="width:45%;"
   title="Scroll Effects with JavaScript"
   alt="Scroll Effects with JavaScript." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image265.png"
   style="width:45%;"
   title="Example scroll effects with javascript"
@@ -4655,6 +4696,7 @@ jQuery version.
   style="width:45%;"
   title="Scroll Effects with JavaScript"
   alt="Scroll Effects with JavaScript." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image267.png"
   style="width:45%;"
   title="Example scroll effects with javascript"
@@ -4784,6 +4826,7 @@ targetSection.
   style="width:45%;"
   title="Scroll Effects with JavaScript"
   alt="Scroll Effects with JavaScript." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image273.png"
   style="width:45%;"
   title="Example Scroll Effects with JavaScript"
@@ -4915,6 +4958,7 @@ be what we saw before.
   style="width:45%;"
   title="Test, smooth scroll and refresh commands"
   alt="Test, smooth scroll and refresh commands." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image281.png"
   style="width:45%;"
   title="Test, smooth scroll and refresh commands"
@@ -4966,6 +5010,7 @@ named Remy Sharp.
   style="width:45%;"
   title="What is a Polyfill?"
   alt="What is a Polyfill?" />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image284.png"
   style="width:45%;"
   title="Some Examples of Polyfill"
@@ -4989,6 +5034,7 @@ out how to use them.
   style="width:45%;"
   title="Smooth Scroll behavior polyfill"
   alt="Smooth Scroll behavior polyfill." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image286.png"
   style="width:45%;"
   title="window.scrollBy behavior smooth"
@@ -5146,6 +5192,7 @@ forward with the next part.
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="getBoundingClientRect.top and log to console"
   alt="getBoundingClientRect.top and log to console." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image294.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="getBoundingClientRect.top and log to console"
@@ -5183,6 +5230,7 @@ pick it up from here.
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Console log, 200px"
   alt="Console log, 200px." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image297.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Console log, -71px"
@@ -5236,6 +5284,7 @@ always get 200 pixels. Let&apos;s go ahead and give that a try.
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Console log posts, getBoundingClientRect.top + window.pageYOffset"
   alt="Console log posts, getBoundingClientRect.top + window.pageYOffset." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image301.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Test, console log 200px"
@@ -5410,6 +5459,7 @@ pixels change as we scroll down the page. Let&apos;s test that and see.
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Test console, scroll counter"
   alt="Test console, scroll counter." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image312.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="More test console, scroll counter"
@@ -5535,6 +5585,7 @@ pixels from the top of the page, it hits it and says okay.
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Test console, log scrolling up/down with counter"
   alt="Test console, log scrolling up/down with counter." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image319.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Test console, log scrolling up/down with counter"
@@ -5681,6 +5732,7 @@ because now we&apos;re ready to go into the next section.
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Test Console, Scroll up/down with count"
   alt="Test Console, Scroll up/down with count." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image328.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Test Console, Scroll up/down with count"
@@ -5789,6 +5841,7 @@ JQuery is a little bit shorter but that&apos;s okay.
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="clearTimeOut, initialize doneResizing, and setTimeout, with 500 millisecond delay"
   alt="clearTimeOut, initialize doneResizing, and setTimeout, with 500 millisecond delay." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image335.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Add event listener for resize scroll effects"
@@ -5857,6 +5910,7 @@ resetPagePosition function.
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Locate page position using postTops, getBoundClientRect, pageYOffset"
   alt="Locate page position using postTops, getBoundClientRect, pageYOffset." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image340.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Locate page posiiton while scrolling"
@@ -5950,6 +6004,7 @@ some comments, I don&apos;t know.
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Lines 18-37 of script.js"
   alt="Lines 18-37 of script.js." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image343.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Lines 22-41 of script.js"
@@ -5970,6 +6025,7 @@ over and test it out really quickly.
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Test/Inspect, Smooth Scroller"
   alt="Test/Inspect, Smooth Scroller." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image345.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Test/Inspect, Smooth Scroller"
@@ -6031,6 +6087,7 @@ that&apos;s up to you.
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="2.29 Scription Site Introduction"
   alt="2.29 Scription Site Introduction." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image348.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Building HTML and CSS"
@@ -6103,6 +6160,7 @@ come together.
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Scription Part 1a"
   alt="Scription Part 1a." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image354.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Header and Slider.html"
@@ -6121,6 +6179,7 @@ cool.
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Scription Start File"
   alt="Scription Start File." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image356.png"
   style="border: 2px solid black; border-radius:15px; width:45%;"
   title="Scription Part 1 start"
@@ -6158,6 +6217,7 @@ page will be responsive but it&apos;s not RESPONSIVE.
   style="width:45%;"
   title="Lines 1-16 of index.html"
   alt="Lines 1-16 of index.html." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image359.png"
   style="width:45%;"
   title="Lies 20-33 of index.html"
@@ -6172,6 +6232,7 @@ You can see here is the link for the normal script and the google fonts.
   style="width:45%;"
   title="Lines 25-44 of styles.css"
   alt="Lines 25-44 of styles.css." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image361.png"
   style="width:45%;"
   title="Lines 35-54 of styles.css"
@@ -6215,6 +6276,7 @@ the page.
   style="width:45%;"
   title="Scription Web Site"
   alt="Scription Web Site." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image365.png"
   style="width:45%;"
   title="Scription Web Site, cont'd"
@@ -6233,6 +6295,7 @@ the footer. So we&apos;ve got all of those pieces in there.
   style="width:45%;"
   title="Scription Part 1a"
   alt="Scription Part 1a." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image367.png"
   style="width:45%;"
   title="Lines 18-37 of index.html"
@@ -6283,6 +6346,7 @@ because google pays a lot of attention to that.
   style="width:45%;"
   title="Scription part 1a, header HTML"
   alt="Scription part 1a, header HTML." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image370.png"
   style="width:45%;"
   title="Scription part 1a, header HTML in index.html"
@@ -6302,6 +6366,7 @@ save that and let&apos;s see what we need to do next.
   style="width:45%;"
   title="Example, Slider HTML"
   alt="Example, Slider HTML." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image372.png"
   style="width:45%;"
   title="Slider HTML from scription, part 1a"
@@ -6335,6 +6400,7 @@ slider Div. There we go. Easy enough.
   style="width:45%;"
   title="Example, Overview HTML"
   alt="Example, Overview HTML." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image375.png"
   style="width:45%;"
   title="What is Scription?"
@@ -6356,6 +6422,7 @@ here and take care of that, okay?
   style="width:45%;"
   title="Overview.html - article, class intro and section"
   alt="Overview.html - article, class intro and section." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image377.png"
   style="width:45%;"
   title="Overview.html - article, class intro and section"
@@ -6380,6 +6447,7 @@ this down into smaller sub pieces.
   style="width:45%;"
   title="Example, Download HTML"
   alt="Example, Download HTML." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image379.png"
   style="width:45%;"
   title="article, div, h2 download and article, h3, features galore"
@@ -6471,6 +6539,7 @@ structure for the tabs.</p>
   style="width:45%;"
   title="Three sections; pricing, listen and ourteam"
   alt="Three sections; pricing, listen and ourteam." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image386.png"
   style="width:45%;"
   title="Tabs under article for Personal, Education and Professional"
@@ -6488,6 +6557,7 @@ those is going to get a pile of content.</p>
   style="width:45%;"
   title="Tab 1 Contnet"
   alt="Tab 1 Content." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image388.png"
   style="width:45%;"
   title="Content included for tab 1"
@@ -6506,6 +6576,7 @@ in the right place and paste it in there.</p>
   style="width:45%;"
   title="Article 2 and 3 with tabs"
   alt="Article 2 and 3 with tabs." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image390.png"
   style="width:45%;"
   title="Tab 2 Content"
@@ -6522,6 +6593,7 @@ content.</p>
   style="width:45%;"
   title="Tab 3, container and section"
   alt="Tab 3, container and section." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image392.png"
   style="width:45%;"
   title="Tab 3 Content"
@@ -6567,6 +6639,7 @@ you can add some more block quotes.
   style="width:45%;"
   title="Listen Section"
   alt="Listen Section." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image396.png"
   style="width:45%;"
   title="Test Listen Section"
@@ -6607,14 +6680,14 @@ that&apos;s going to be next.
   style="width:45%;"
   title="Our Team Section"
   alt="Our Team Section." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image400.png"
   style="width:45%;"
   title="Add to section id='ourteam'"
   alt="Add to section id='ourteam'." />
 </p>
 
-Not quite the last thing but we&apos;ll get that next and put that in our
-team.
+<p>Not quite the last thing but we&apos;ll get that next and put that in our team.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 401/402. footer content (202) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -6622,6 +6695,7 @@ team.
   style="width:45%;"
   title="footer content"
   alt="footer content." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image402.png"
   style="width:45%;"
   title="footer in index.html"
@@ -6679,6 +6753,7 @@ and getting the styling in place.
   style="width:45%;"
   title="Scription, part 1a web site"
   alt="Scription, part 1a web site." />
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image406.png"
   style="width:45%;"
   title="Scription Responsive web site"
@@ -11282,4 +11357,5 @@ and you&apos;ll get more practice. So I look forward to seeing you there.</p>
 <h6>Last Updated 3/23/2024 9:11pm<br/>
 Last Updated 9/19/2024 10:35pm<br/>
 Last Updated 10/14/2024 4:57pm<br/>
-Last Updated 12/2/2024 2:13pm</h6>
+Last Updated 12/2/2024 2:13pm<br/>
+Last Updated 12/5/2024 10:19am</h6>
