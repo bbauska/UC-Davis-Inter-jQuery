@@ -8,6 +8,7 @@ date last editted: "9/19/2024 10+pm"
 date last editted: "10/14/2024 4+pm"
 date last editted: "12/02/2024 2+pm"
 date last editted: "12/05/2024 10+am"
+date last editted: "12/08/2024 10+am"
 output: 
   markdown:
     with some style
@@ -11326,7 +11327,7 @@ excellent versions people have made of the big game.</p>
     4.14 Game of Pig (pdf)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch4-15">Course Summary (0:57)</h2>
+<h2 id="ch4-15">4.15 Course Summary (0:57)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 691. course summary: interactivity with javascript and jquery (350) ~~~~~~~~~~~~-->
 <p align="center">
@@ -11358,4 +11359,5 @@ and you&apos;ll get more practice. So I look forward to seeing you there.</p>
 Last Updated 9/19/2024 10:35pm<br/>
 Last Updated 10/14/2024 4:57pm<br/>
 Last Updated 12/2/2024 2:13pm<br/>
-Last Updated 12/5/2024 10:19am</h6>
+Last Updated 12/5/2024 10:19am<br/>
+Last Updated 12/8/2024 10:16am</h6>
